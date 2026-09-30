@@ -1,0 +1,19 @@
+node_modules/
+coverage/
+.jscpd-report/
+report/
+dist/
+*.tsbuildinfo
+.DS_Store
+.env
+npm-debug.log*
+*.log
+
+# SQLite output of a real run. data/ itself stays tracked.
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
