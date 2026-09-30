@@ -17,3 +17,5 @@ npm-debug.log*
 *.db
 *.db-shm
 *.db-wal
+# ADR 0005: the graded export commits SQLite copies.
+!data/*.sqlite
