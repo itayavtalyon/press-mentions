@@ -62,3 +62,70 @@ When finished, report: the dependency list with versions, every rule you set tha
 
 Maybe we should use `just` to simplify the commands.
 ```
+
+## 2026-09-30 — Architecture decisions
+
+```text
+You are a panel of three senior reviewers: a staff backend engineer, an ML/LLM engineer, and a product-minded tech lead. We are designing the architecture of my take-home assignment together. Your job is to grill me: ask about every decision, push back on weak answers, and surface tradeoffs I haven't considered. Do not write code in this session.
+
+How to run the session
+Ask one area at a time, with no more than 3 questions per turn. Ask me first; don't lead me to your preferred answer. After I answer, critique it, offer the strongest alternative, and state the tradeoff in one or two sentences.
+If I'm unsure, give me 2–3 concrete options with pros and cons and ask me to choose.
+Keep a running decision log. Whenever we settle something, record it as: decision, alternatives considered, reason, consequences.
+Flag any decision that breaks a hard constraint below, immediately.
+Keep the scope realistic for the time budget. If I over-engineer, say so.
+The assignment (product requirements)
+OurCrowd tracks press coverage of its portfolio and fund companies. Build a small system that:
+
+Quarterly press dashboard: for each company, shows its press mentions from the last quarter. Each mention is classified as positive, negative, or neutral, and links to the original article.
+Current mention status: for each company, shows its status based on when it was last mentioned (for example, "last mentioned 3 days ago", "45 days ago", or "no coverage found").
+Daily alert: a daily job checks for new press mentions of any tracked company and sends an alert when it finds one. The channel is my choice (email, Slack, webhook, or console/log), as long as it's visible and documented.
+They evaluate: correctness (the pipeline runs end to end and produces all three outputs), code quality (structure, readability, error handling), use of the local LLM (sensible prompting and Ollama integration), documentation (a stranger can set up and run it from the README alone), and product thinking (sensible choices about classification, alerting, and how the dashboard presents information). They say they care more about the approach than a perfect product, and that a partial solution with clear notes beats an undocumented "complete" one.
+
+Hard constraints
+JavaScript on Node.js for the backend and all data collection. Frameworks and libraries are up to me.
+Sentiment classification, plus any other text-understanding step (relevance filtering, summarization), must run on a locally hosted Ollama model. No cloud LLM APIs.
+The README must state which Ollama model was used and why, how it's invoked (prompt structure and output format), and how classification quality was validated.
+The news source is my choice (news or search APIs, RSS, scraping), but the choice and its limitations must be documented.
+Deliverables: a GitHub repo with a README covering what it does, the structure, setup (dependencies, environment variables, installing Ollama and which model to pull), the exact commands to run end to end, and the assumptions, tradeoffs, and limitations. A data/ folder with the output of a real run (mentions, sentiment labels, links, and the computed "last mentioned" status per company). A copy of the full prompts used with AI coding assistants.
+Deadline: Monday, October 5, 2026, 16:00 Israel time. Realistic build budget is about 14 hours across 3–4 days.
+Known facts and context
+The seed list has 258 companies, names only, with no domain or sector. It's the source of truth for what to track.
+Many names are ordinary words: Harvey, Peak, Wave, Near, Glean, Shield, Guild, Silo, Ro, Casper, Tala, Launchpad, Orchard, Island. Irrelevant articles are the biggest quality risk.
+Some companies are enormous (SpaceX, Anthropic, Stripe, xAI, Databricks) and have thousands of articles per quarter. Some are defunct or acquired and will have none. Several names carry "(formerly X)" annotations.
+Hardware: an M1 Max MacBook with 32 GB of RAM. Ollama is installed with qwen2.5:14b, qwen3.5:9b, and gemma4:12b. The plan is to compare them on a hand-labeled set of about 40 articles for accuracy and seconds per article.
+The repo skeleton already exists: Node 24, ESM, ollama and better-sqlite3, strict ESLint, tsc checkJs, Vitest with 90% coverage thresholds. Entry points are src/server/index.js, src/web/, and src/jobs/daily.js.
+My background: a senior backend engineer (Scala microservices at Wix, event-driven systems, idempotent consumers, transactional outbox). My frontend skills are rusty.
+Areas you must cover (in roughly this order)
+Scope and definitions: what "last quarter" means (a rolling 90 days or the calendar quarter), what counts as a "mention", and the thresholds for the status buckets.
+News sourcing: which source(s), query construction, rate limits, result caps, date filtering, full text vs snippets, and what we lose with each choice.
+Entity disambiguation: how we decide an article is really about this company. Query-time tricks vs LLM relevance checks, whether and how to enrich the seed list, and handling "(formerly X)" names.
+LLM classification: one call or separate relevance and sentiment calls, the prompt structure, the JSON schema, temperature, handling malformed output, batching, caching by article, and re-classifying when the model or prompt changes.
+Validation: building the labeled set, which metrics to use, the comparison method, and how to report it in the README.
+Storage: the schema (companies, articles, mentions, runs), the uniqueness keys, many-to-many between companies and articles, and what's exported to data/ and in what format.
+Idempotency and re-runs: the definition of a "new" mention for alerts, what happens if the job crashes halfway, and keeping duplicate runs from sending duplicate alerts.
+Daily job and alerting: scheduling (cron, node-cron, or documented crontab), the channel, the alert content and priority (should negative mentions come first?), and grouping.
+Dashboard and UX: what the reviewer sees first, sorting and filtering, how to show "no coverage", and a framework choice given my rusty frontend vs keeping it simple.
+Runtime budget: articles per company, total LLM calls, expected duration of the full run, and parallelism.
+Errors, config, and observability: retries and backoff, partial failures, logging, and configuration through environment variables.
+Testing strategy: what's unit-tested, how Ollama and the news source are faked, and how to reach 90% coverage without writing meaningless tests.
+Cuts: what gets dropped first if time runs out, and how that's documented.
+Output at the end of the session
+When all areas are covered, produce:
+
+docs/ARCHITECTURE.md with: a one-paragraph overview, a context diagram and a component diagram (Mermaid), sequence diagrams for the collection-and-classification pipeline and for the daily alert job (Mermaid), an ER diagram of the database (Mermaid), and the data flow into data/.
+One ADR per major decision in docs/adr/, using the template.
+An ordered build plan: tasks with rough hours that fit the 14-hour budget, with must-haves first.
+A list of open questions and risks.
+Start with area 1.
+```
+
+## 2026-09-30 — Architecture review
+
+Attached: the assignment PDF and `ourcrowd_companies.txt`. The answers to the review's multiple-choice questions are recorded in the ADRs.
+
+```text
+This is a new project (a home assignment). I started writing the architecture notes and records and I need a very strict review of the choices there.  Attaching the assignment information. I want you to find holes, mistakes, edge cases, and any place that an implementor have to decide or make product calls.
+
+Grill me and interrogate me.
+```
