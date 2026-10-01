@@ -1,0 +1,9 @@
+{{article}}
+
+Publisher: {{publisher}}
+{{homepage}}
+
+Companies:
+{{candidates}}
+
+Return JSON only. Each company name is a key. Each value is positive, negative, neutral, unranked, unrelated, or uncertain.

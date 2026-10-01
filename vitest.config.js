@@ -5,6 +5,7 @@ export default defineConfig({
     coverage: {
       provider: "v8",
       include: ["src/**/*.js"],
+      exclude: ["src/jobs/prompt-eval/index.js"],
       reporter: ["text", "text-summary"],
       thresholds: {
         lines: 90,

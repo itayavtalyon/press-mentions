@@ -17,6 +17,10 @@ start:
 job-daily:
 	npm run job:daily
 
+# Score installed chat models against the saved prompts
+job-eval:
+	npm run job:eval
+
 # Run every quality gate, stopping at the first failure
 verify:
 	npm run verify

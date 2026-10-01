@@ -1,0 +1,19 @@
+For each company, follow these steps in order.
+
+1. Read the identity after the em dash. If there is no em dash, the name alone is the company.
+2. If the article uses that name for a different entity, place, product, or ordinary word, answer unrelated.
+3. If the article is about someone else and the company appears only as a comparison or a list item, answer unrelated.
+4. If the company is a subject and the text praises it or reports a gain, answer positive. If the text reports harm, loss, or failure, answer negative. If the text reports facts without praise or harm, answer neutral.
+5. If the company is a subject and the text has no basis for a tone, answer unranked.
+6. If the steps above do not settle it, answer uncertain.
+
+Article:
+{{article}}
+
+Publisher: {{publisher}}
+Homepage: {{homepage}}
+
+Companies:
+{{candidates}}
+
+Reply with one JSON object and no other text. Keys are the company names exactly. Values are positive, negative, neutral, unranked, unrelated, or uncertain.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Local monitoring of press mentions for OurCrowd portfolio companies. This repository is the skeleton: entry points, folders, and quality gates. Product behavior is not implemented.
+Local monitoring of press mentions for OurCrowd portfolio companies. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The server, daily job, and dashboard are still placeholders.
 
 ## Setup
 
@@ -20,34 +20,38 @@ Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`jus
 ```bash
 npm start
 npm run job:daily
+npm run job:eval
 npm run verify
 ```
 
 `npm start` is the HTTP server. `npm run job:daily` is the daily job. Both load `.env` with Node's `--env-file`. Both exit without doing work.
 
+`npm run job:eval` scores every installed chat model against `prompt/classifier.vNNN.txt` and the cases in the evaluation database. It needs a running Ollama server. `npm run verify` does not call Ollama.
+
 `npm run verify` runs lint, format check, typecheck, tests with coverage, knip, duplication, and `npm audit`, and stops at the first failure.
 
 ## Architecture
 
-Not decided. Reserved folders:
+The evaluator is described in `docs/engineering-notes.md`. The rest of the product is not built on this branch. Reserved folders:
 
+- `src/config.js` — environment settings, including the classifier model and prompt version
+- `src/jobs/prompt-eval` — prompt evaluator
+- `src/core` — classifier and other domain logic
+- `src/infra` — Ollama and SQLite adapters
 - `src/server` — HTTP server (API and dashboard)
 - `src/web` — frontend assets served by the server
-- `src/jobs` — scheduled jobs
-- `src/core` — shared domain logic
-- `src/infra` — adapters (database, Ollama, news source)
 
 Decision records go in `docs/adr`. `docs/adr/0000-template.md` is only a template.
 
 ## Assumptions
 
 - The app runs on a developer machine with Node.js 24.
-- A later design will talk to a local Ollama server and store data in SQLite. Those clients are dependencies already. Nothing imports them yet.
+- The evaluator talks to a local Ollama server and stores cases and scores in SQLite. `better-sqlite3` and `ollama` are imported by that job.
 - Local configuration lives in `.env`, which is not committed.
 
 ## Limitations
 
-- No news source, database schema, API, dashboard, or schedule yet.
+- No news source, API, dashboard, or schedule yet.
 - The server and daily job files are placeholders.
-- `ollama`, `better-sqlite3`, and `supertest` are installed before any module imports them. Knip ignores those three names until a real import exists.
+- `supertest` is installed before any test imports it. Knip ignores that name until a real import exists.
 - Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.

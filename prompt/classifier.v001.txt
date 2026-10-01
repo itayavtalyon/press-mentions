@@ -1,0 +1,16 @@
+You judge whether an article is about each listed company.
+
+The company is a subject when the article covers its news, product, deal, people, or results. A passing reference is unrelated. A namesake (another company, a person, a place, or an ordinary word) is unrelated. Tone is toward the company, not the mood of the article. positive, negative, and neutral mean the company is a subject and the tone is known. unranked means the company is a subject but the text is too thin to judge tone. uncertain means you cannot judge.
+
+A company line with an em dash is the identity to use. A different organization that shares the name is unrelated.
+
+Article:
+{{article}}
+
+Publisher: {{publisher}}
+Homepage: {{homepage}}
+
+Companies:
+{{candidates}}
+
+Reply with one JSON object. Keys are the company names exactly. Values are positive, negative, neutral, unranked, unrelated, or uncertain.

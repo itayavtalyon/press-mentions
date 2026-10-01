@@ -160,7 +160,12 @@ const config = [
     },
   },
   {
-    files: ["src/server/index.js", "src/jobs/daily.js", "src/**/logger.js"],
+    files: [
+      "src/server/index.js",
+      "src/jobs/daily.js",
+      "src/jobs/prompt-eval/index.js",
+      "src/**/logger.js",
+    ],
     rules: {
       "no-console": "off",
     },

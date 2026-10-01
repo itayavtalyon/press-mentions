@@ -62,3 +62,21 @@ When finished, report: the dependency list with versions, every rule you set tha
 
 Maybe we should use `just` to simplify the commands.
 ```
+
+## 2026-09-30 — Prompt evaluator
+
+```text
+Let's build the prompt evaluater. The list of modules should be gotten from the `ollama list` output (we can only test installed models). The prompts should be in a folder `prompt` and should be `classifier.vNNN.txt` where NNN is the version. Let's have a very (very!) simple prompt as version 0, the base line, and have two different prompts for the classifying job. Have placeholders in the text for the title, publication, company name, and an optional extra information for the company (can be empty).
+
+In the evaluation database, prepare a few cases to test, especially the generic names that have different meanings.
+
+The check should loop through the models, and then loop through the prompts and loop through the cases (each test case contains the parameters for the prompt. The program will inject the data into the prompt and send it to the ollama server. Compare result to the expected result and tally results. The end output is the scores, and the absolute winner in the end.
+
+List of companies:  /Users/itay/Downloads/ourcrowd_companies.txt
+
+Read the engineering documents. There should be a plan for this component. Use Remember to load the workflows, especially the writing code and reviewing code. Do a strict review when you are done coding, and then stop and wait for a second review.
+
+If you have any questions while implementing this, stop and grill me before continuing.
+
+Before you start, log this prompt in the coding agent prompt file.
+```
