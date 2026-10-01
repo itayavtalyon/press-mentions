@@ -18,12 +18,15 @@ Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`jus
 ## Run
 
 ```bash
+npm run job:backfill
 npm start
 npm run job:daily
 npm run verify
 ```
 
-`npm start` is the HTTP server. `npm run job:daily` is the daily job. Both load `.env` with Node's `--env-file`. Both exit without doing work.
+`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.lock` while it runs, and a second job exits 1 with the holder's process id. Collection is not built yet.
+
+`npm start` is the HTTP server. `npm run job:daily` is the daily job. Both exit without doing work. Every script loads `.env` with Node's `--env-file`.
 
 `npm run verify` runs lint, format check, typecheck, tests with coverage, knip, duplication, and `npm audit`, and stops at the first failure.
 

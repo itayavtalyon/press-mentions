@@ -21,7 +21,8 @@
     "dup": "jscpd --threshold 3 --mode strict --fail-on-empty --no-tips --reporters console src test",
     "audit": "npm audit --audit-level=high",
     "verify": "npm run lint && npm run format:check && npm run typecheck && npm run test:coverage && npm run knip && npm run dup && npm run audit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "job:backfill": "node --env-file=.env src/jobs/backfill.js"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
@@ -32,6 +33,7 @@
     "@commitlint/config-conventional": "^21.2.3",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.8.1",
     "@eslint/js": "^10.0.1",
+    "@types/better-sqlite3": "^9.6.0",
     "@types/eslint-plugin-promise": "^7.3.0",
     "@types/eslint-plugin-security": "^3.0.1",
     "@types/node": "^24.19.0",

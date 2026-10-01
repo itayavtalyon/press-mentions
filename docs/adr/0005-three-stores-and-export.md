@@ -24,7 +24,7 @@ There is no foreign key across files. Company ids are copied by value. Modules t
 
 Coverage shape:
 
-- `companies`: id, display name, query name, aliases (JSON array), slug, descriptor, query terms. Name and aliases are parsed from the seed line (ADR 0003). Descriptor and query terms come from the overlay and are null without an entry. Nothing else is enriched.
+- `companies`: id (the slug of the query name, also used for file names and URLs), display name, query name, aliases (JSON array), descriptor, query terms. Name and aliases are parsed from the seed line (ADR 0003). Descriptor and query terms come from the overlay and are null without an entry. Nothing else is enriched.
 - `articles`: `guid`, title, `published_at`, publisher name, publisher homepage, publisher article URL, extracted text, `text_source`, stage, attempt count, last error, retryable flag.
 - `company_articles`: company id, `guid`, origin `backfill` or `daily`, `alert_eligible`, verdict, model id, prompt version, raw response, review flag.
 

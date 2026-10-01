@@ -150,7 +150,6 @@ erDiagram
     text display_name
     text query_name
     text aliases
-    text slug
     text descriptor
     text query_terms
   }
@@ -228,7 +227,7 @@ flowchart LR
   coverage[(Coverage SQLite)]
   alerts[(Alerts SQLite)]
   evaluation[(Evaluation SQLite)]
-  json[data/companies/slug.json]
+  json[data/companies/id.json]
   covCopy[data/coverage.sqlite]
   alertsCopy[data/alerts.sqlite]
   evalCopy[data/evaluation.sqlite]
