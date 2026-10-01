@@ -2,7 +2,7 @@
 
 `companies.txt` is the list OurCrowd provided: 258 names, one per line, exactly as received. It is the only source of which companies exist.
 
-`overlay.json` adds search and identity hints to 30 of those names. It never adds or removes a company: an overlay key that does not match a seed line stops the job (`src/core/overlay.js`).
+`overlay.json` adds search and identity hints to 35 of those names. It never adds or removes a company: an overlay key that does not match a seed line stops the job (`src/core/overlay.js`).
 
 ## Why the overlay exists
 
@@ -53,9 +53,23 @@ Measured on 1 Oct 2026, one query per name for 1 Jul to 1 Oct 2026, the same que
 | Ludeo      |    100 (with Edge) |         0 of 100 |            2 |          2 of 2 |
 | BlueCircle | 100 (with Trellis) |         0 of 100 |            0 |               — |
 
+### Second pass
+
+Building the no-note evaluation cases meant querying 18 companies that had no overlay entry. Five of them were flooded the same way, so they were added with the same method: OurCrowd page for the descriptor, then measured terms. Before is the name alone, sampled 12 headlines.
+
+| Company     | Before: items | Before: relevant | After: items | After: relevant |
+| ----------- | ------------: | ---------------: | -----------: | --------------: |
+| Scale AI    |           100 |          3 of 12 |           22 |         7 of 10 |
+| Together AI |           100 |          6 of 12 |           53 |         7 of 10 |
+| Ukko        |            49 |          0 of 12 |            2 |               — |
+| Crosswise   |            23 |          0 of 12 |            0 |               — |
+| Powwow      |           100 |          0 of 12 |            0 |               — |
+
+"Scale AI" and "Together AI" match ordinary phrases ("to scale AI-native banking", "brings the ecosystem together … AI"). Ukko was an NHL goalie, Powwow was cultural events, and Crosswise was the ordinary word. The other 13 companies checked (Databricks, Cerebras, Groq, OpenEvidence, xAI, Innoviz, Hailo, Beyond Meat, Ynsect, Freightos, Kodiak Robotics, Remilk) came back mostly about the company. Atlas Obscura came back mostly as travel stories it published itself. The company is the publisher there, not the subject, so the classifier has to reject them, and query terms would not change that. The other 210 names have not been measured.
+
 ## What is still weak
 
-- **Few or no stories found:** Bites, Kini, Peak, MST, Silo, Launchpad, Rewire, Guild, and BlueCircle. These may be quiet companies, some acquired or renamed, or the terms may cost recall. The noise they produced without terms was 100 items with at most one relevant headline, so the trade was taken.
+- **Few or no stories found:** Bites, Kini, Peak, MST, Silo, Launchpad, Rewire, Guild, BlueCircle, Ukko, Crosswise, and Powwow. These may be quiet companies, some acquired or renamed, or the terms may cost recall. The noise they produced without terms was 100 items with at most one relevant headline, so the trade was taken.
 - **Still mostly noise:** Orchard (Singapore's Orchard Road, Orchard Park), Ro (GLP-1 telehealth stories that do not name Ro in the headline), and Near (other data-intelligence companies). The classifier has to reject these, and the descriptor tells it which company is meant.
 - The relevance judgments are a reading of headlines, not of articles, and the samples are small.
 

@@ -19,6 +19,10 @@
     "descriptor": "SaaS platform for omnichannel, personalized display and video advertising campaigns",
     "queryTerms": ["Flight Control", "omnichannel", "ad tech"]
   },
+  "Crosswise": {
+    "descriptor": "Cross-device user identification for digital advertising",
+    "queryTerms": ["cross-device", "Steve Glanz"]
+  },
   "Glean": {
     "descriptor": "Enterprise AI company that helps organizations find and use knowledge across their internal tools"
   },
@@ -95,6 +99,15 @@
     "descriptor": "Decision intelligence company applying AI across an enterprise's value chain",
     "queryTerms": ["decision intelligence"]
   },
+  "Powwow": {
+    "descriptor": "Enterprise software that converts legacy business applications into native mobile apps",
+    "queryTerms": [
+      "native apps",
+      "mobile apps",
+      "enterprise applications",
+      "Kia Behnia"
+    ]
+  },
   "Privateer": {
     "descriptor": "Enterprise software applying AI to earth intelligence data such as drone and aerial imagery"
   },
@@ -105,6 +118,10 @@
   "Ro": {
     "descriptor": "Online pharmacy and telehealth company",
     "queryTerms": ["telehealth", "pharmacy"]
+  },
+  "Scale AI": {
+    "descriptor": "Data labeling and data infrastructure company for training and evaluating AI models",
+    "queryTerms": ["data labeling", "Jason Droege", "Scale Data Engine"]
   },
   "Shield": {
     "descriptor": "Electronic communications compliance platform for enterprises, especially financial firms",
@@ -120,6 +137,14 @@
   "Tala": {
     "descriptor": "Mobile fintech and data science company focused on financial inclusion",
     "queryTerms": ["fintech", "financial inclusion"]
+  },
+  "Together AI": {
+    "descriptor": "AI-native cloud offering GPU compute and hosted open-source models",
+    "queryTerms": ["AI cloud", "GPU", "open-source models"]
+  },
+  "Ukko": {
+    "descriptor": "Biotech developing mRNA vaccines for life-threatening allergies, starting with peanut allergy",
+    "queryTerms": ["peanut allergy", "allergy vaccine", "mRNA", "Uri Lopatin"]
   },
   "Wave": {
     "descriptor": "Wave Financial (waveapps.com): apps for small-business accounting, payments, and payroll",
