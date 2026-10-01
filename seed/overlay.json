@@ -15,13 +15,31 @@
     "descriptor": "Sleep company that sells mattresses directly to consumers",
     "queryTerms": ["mattress", "sleep"]
   },
+  "CB4": {
+    "descriptor": "AI predictive analytics that help brick-and-mortar retailers recover lost sales"
+  },
   "Clinch": {
     "descriptor": "SaaS platform for omnichannel, personalized display and video advertising campaigns",
     "queryTerms": ["Flight Control", "omnichannel", "ad tech"]
   },
+  "Connected Energy": {
+    "descriptor": "Repurposes used electric vehicle batteries into energy storage for renewable power"
+  },
   "Crosswise": {
     "descriptor": "Cross-device user identification for digital advertising",
     "queryTerms": ["cross-device", "Steve Glanz"]
+  },
+  "Eko Health": {
+    "descriptor": "Digital heart disease monitoring and cardiopulmonary screening (Eko Devices)",
+    "queryTerms": ["stethoscope", "heart disease", "Eko Devices"]
+  },
+  "Fireblade": {
+    "descriptor": "Cybersecurity company protecting websites from cyber attacks",
+    "queryTerms": ["cyber attacks", "cybersecurity", "website security"]
+  },
+  "Future Family": {
+    "descriptor": "Fintech offering buy-now-pay-later financing for IVF and fertility treatment",
+    "queryTerms": ["fertility", "IVF"]
   },
   "Glean": {
     "descriptor": "Enterprise AI company that helps organizations find and use knowledge across their internal tools"
@@ -46,6 +64,9 @@
     "descriptor": "Enterprise web browser for secure access to corporate data and applications",
     "queryTerms": ["enterprise browser"]
   },
+  "JUMP Bikes": {
+    "descriptor": "Electric bike-sharing platform"
+  },
   "Kando": {
     "descriptor": "IoT platform that turns wastewater data into tools for water utilities and health authorities"
   },
@@ -69,6 +90,18 @@
     "descriptor": "Video game company building a playable social media platform for gamers",
     "aliases": []
   },
+  "MasterClass": {
+    "descriptor": "EdTech streaming service with online classes taught by experts and celebrities",
+    "queryTerms": ["online classes", "edutainment", "David Rogier"]
+  },
+  "MeMed": {
+    "descriptor": "Diagnostic tests that distinguish bacterial from viral infections by reading the immune response",
+    "queryTerms": ["bacterial", "infections", "immune system"]
+  },
+  "Momentis Surgical (formerly Memic)": {
+    "descriptor": "Surgical robotics with miniaturized robotic arms for minimally invasive surgery",
+    "aliases": []
+  },
   "MST": {
     "descriptor": "Medical Surgical Technologies: robotic vision system for laparoscopic surgery",
     "queryTerms": ["laparoscopic", "surgical"]
@@ -77,12 +110,22 @@
     "descriptor": "Data intelligence SaaS platform with data on people, places, and products",
     "queryTerms": ["data intelligence"]
   },
+  "NetOp": {
+    "descriptor": "AI-based cloud platform for automated network operations"
+  },
   "Neura": {
     "descriptor": "AI company using real-world human behavior data for customer engagement and mobility services"
   },
   "Orchard": {
     "descriptor": "Online real estate company that lets people buy a new home before selling their old one",
     "queryTerms": ["real estate", "homebuyers"]
+  },
+  "Oshi (formerly Plantish)": {
+    "descriptor": "Food-tech company developing plant-based whole-cut salmon fillets",
+    "queryTerms": ["plant-based", "salmon", "seafood"]
+  },
+  "Ossio": {
+    "descriptor": "Orthopedic implants made of a material that turns into bone over time"
   },
   "Overtime": {
     "descriptor": "Digital sports media network aimed at Gen Z (overtime.tv), which runs the Overtime Elite and Overtime Select leagues",
@@ -99,6 +142,10 @@
     "descriptor": "Decision intelligence company applying AI across an enterprise's value chain",
     "queryTerms": ["decision intelligence"]
   },
+  "People.ai": {
+    "descriptor": "AI revenue platform for sales teams, now operating as Backstory (people.ai redirects to backstory.ai)",
+    "queryTerms": ["revenue platform", "sales teams", "Backstory"]
+  },
   "Powwow": {
     "descriptor": "Enterprise software that converts legacy business applications into native mobile apps",
     "queryTerms": [
@@ -110,6 +157,14 @@
   },
   "Privateer": {
     "descriptor": "Enterprise software applying AI to earth intelligence data such as drone and aerial imagery"
+  },
+  "ProFuse": {
+    "descriptor": "Drug developer for skeletal muscle growth and muscle-wasting diseases",
+    "queryTerms": ["muscle loss", "muscle wasting", "skeletal muscle"]
+  },
+  "Replay Technologies": {
+    "descriptor": "Free-dimensional 360-degree video (freeD) for watching professional sports",
+    "queryTerms": ["freeD", "360-degree", "Oren Yogev"]
   },
   "Rewire": {
     "descriptor": "Neobank offering financial services and remittances to migrant workers",
@@ -123,6 +178,9 @@
     "descriptor": "Data labeling and data infrastructure company for training and evaluating AI models",
     "queryTerms": ["data labeling", "Jason Droege", "Scale Data Engine"]
   },
+  "Sense Education": {
+    "descriptor": "Software that gives personalized feedback on free-answer questions in STEM courses"
+  },
   "Shield": {
     "descriptor": "Electronic communications compliance platform for enterprises, especially financial firms",
     "queryTerms": ["communications compliance", "compliance platform"]
@@ -130,6 +188,17 @@
   "Silo": {
     "descriptor": "Food-tech company using IoT food storage to limit household food waste",
     "queryTerms": ["food storage", "food waste"]
+  },
+  "Sotero": {
+    "descriptor": "Data security company protecting data wherever it is stored, transmitted, or used"
+  },
+  "Spot AI": {
+    "descriptor": "Video recording platform that applies AI to enterprise security cameras",
+    "queryTerms": ["security cameras", "Rish Gupta", "video recording"]
+  },
+  "SSI (Safe Superintelligence)": {
+    "descriptor": "Safe Superintelligence: AI lab founded by Ilya Sutskever to build superintelligent AI aligned with human interests",
+    "queryTerms": ["Sutskever", "superintelligence", "Daniel Levy"]
   },
   "Stripe": {
     "descriptor": "Online payments and financial infrastructure company for businesses"
@@ -146,8 +215,18 @@
     "descriptor": "Biotech developing mRNA vaccines for life-threatening allergies, starting with peanut allergy",
     "queryTerms": ["peanut allergy", "allergy vaccine", "mRNA", "Uri Lopatin"]
   },
+  "Ursa Major": {
+    "descriptor": "Rocket propulsion company making liquid rocket engines and solid rocket motors for space launch and hypersonics"
+  },
   "Wave": {
     "descriptor": "Wave Financial (waveapps.com): apps for small-business accounting, payments, and payroll",
     "queryTerms": ["Wave Financial", "waveapps", "Kirk Simpson"]
+  },
+  "Wayup": {
+    "descriptor": "Jobs and internships marketplace for college students and recent graduates"
+  },
+  "Xsense (formerly BT9)": {
+    "descriptor": "IoT sensor tags and platform for monitoring perishable goods in the supply chain",
+    "aliases": []
   }
 }

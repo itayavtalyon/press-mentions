@@ -57,8 +57,8 @@ describe("the committed overlay in the backfill", () => {
   it("keeps a seed alias the overlay does not touch", async () => {
     const { queries } = await givenCommittedBackfill();
 
-    expect(queries.get("ssi")).toBe(
-      '("SSI" OR "Safe Superintelligence") after:2026-06-30 before:2026-10-06',
+    expect(queries.get("cycuity")).toBe(
+      '("Cycuity" OR "Tortuga Logic") after:2026-06-30 before:2026-10-06',
     );
   });
 
