@@ -23,6 +23,14 @@ export class SqliteDatabase {
     this.#database = new Database(databasePath);
     this.#database.pragma("journal_mode = WAL");
     this.#database.pragma("busy_timeout = 5000");
+    this.#database.pragma("foreign_keys = ON");
+  }
+
+  /**
+   * @returns {import("better-sqlite3").Database} Driver connection for a store that runs its own SQL.
+   */
+  connection() {
+    return this.#database;
   }
 
   /**
@@ -67,5 +75,24 @@ export class SqliteDatabase {
    */
   transaction(work) {
     this.#database.transaction(work)();
+  }
+}
+
+/**
+ * Open a SQLite file and create its tables. The caller closes the connection.
+ * @param {string} databasePath SQLite file. Its directory must exist.
+ * @param {string} schema DDL run on every open, so it must be idempotent.
+ * @returns {import("better-sqlite3").Database} The open connection.
+ * @throws {Error} The file cannot be opened or the schema fails.
+ */
+export function openDatabase(databasePath, schema) {
+  const database = new SqliteDatabase(databasePath);
+
+  try {
+    database.exec(schema);
+    return database.connection();
+  } catch (error) {
+    database.close();
+    throw error;
   }
 }

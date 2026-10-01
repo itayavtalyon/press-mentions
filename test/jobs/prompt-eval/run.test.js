@@ -84,7 +84,10 @@ function givenPorts(cases) {
       /** @type {import("../../../src/jobs/prompt-eval/run.js").PromptEvalPorts} */ (
         /** @type {unknown} */ ({
           cwd: directory,
-          env: { EVAL_DB: path.join(directory, "evaluation.sqlite") },
+          env: {
+            COVERAGE_DB: "coverage.sqlite",
+            EVAL_DB: path.join(directory, "evaluation.sqlite"),
+          },
           loadPrompts: () => PROMPTS,
           monotonicMs: () => {
             return calls.length * 1000;

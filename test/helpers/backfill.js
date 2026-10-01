@@ -11,7 +11,7 @@ export const NOW = new Date("2026-10-05T00:00:00.000Z");
 
 /**
  * @param {string} [seed] Seed file contents.
- * @returns {import("../../src/jobs/config.js").JobConfig} Config pointing at a fresh directory.
+ * @returns {import("../../src/jobs/run-backfill.js").BackfillConfig} Config pointing at a fresh directory.
  */
 export function givenConfig(seed = "Harvey\nLudeo (formerly Edge)\nWave") {
   const directory = givenTemporaryDirectory();

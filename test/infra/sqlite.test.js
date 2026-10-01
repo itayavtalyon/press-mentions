@@ -4,8 +4,8 @@ import { describe, expect, it, onTestFinished } from "vitest";
 
 import { openAlertsStore } from "../../src/infra/alerts-store.js";
 import { openCoverageStore } from "../../src/infra/coverage-store.js";
+import { openDatabase } from "../../src/infra/database.js";
 import { openEvaluationStore } from "../../src/infra/evaluation-store.js";
-import { openDatabase } from "../../src/infra/sqlite.js";
 import { givenTemporaryDirectory } from "../helpers/files.js";
 
 /**

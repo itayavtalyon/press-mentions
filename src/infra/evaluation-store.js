@@ -1,4 +1,4 @@
-import { openDatabase } from "./sqlite.js";
+import { openDatabase } from "./database.js";
 
 /**
  * Evaluation store (ADR 0004, ADR 0005).

@@ -14,7 +14,7 @@ The next change should keep these splits. They were mixed once, and that was the
 - Evaluation cases are rows in the evaluation SQLite database. There is no JavaScript case list and the job does not seed an empty table. An empty `cases` table fails the run. Do not recreate a `cases.js` seed.
 - `SqliteDatabase` in `src/infra/database.js` opens SQLite, sets WAL and the busy timeout, and runs SQL. It does not know table names. `EvaluationStore` is the model that knows the `cases` and `scores` tables, the queries, and the writes. Another database gets its own store model on top of `SqliteDatabase`. Do not open `better-sqlite3` from a job or from core.
 - A company note is optional. Store one only when we have it. The database includes a few easy cases that do carry a note, so that path is real data.
-- Environment settings are read only in `src/config.js`. The fields are the evaluation database path, the Ollama host, the classifier model name (`MODEL`), and the classifier prompt version (`PROMPT_VERSION`, such as `v002`). Do not read those variables inside a job. The prompt-eval job still scores every installed chat model and every saved prompt; the configured pair is the one classification uses.
+- Environment settings are read only in `src/config.js`. That includes `COVERAGE_DB`, `GOOGLE_TOKEN_MS`, the evaluation database, the Ollama host, the classifier model (`MODEL`), and the classifier prompt (`PROMPT_VERSION`, such as `v002`). Do not read those variables inside a job. `src/infra/database.js` opens SQLite. Each store knows its own tables. The prompt-eval job still scores every installed chat model and every saved prompt; the configured pair is the one classification uses.
 
 ### Behavior
 

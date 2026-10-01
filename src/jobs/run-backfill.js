@@ -15,6 +15,10 @@ Consecutive exhausted backoffs that stop a stage for the rest of the run (ADR 00
 const STAGE_STOP_AFTER = 3;
 
 /**
+ * @typedef {Pick<import("../config.js").AppConfig, "coverageDatabase" | "googleIntervalMs" | "overlayPath" | "seedPath">} BackfillConfig
+ */
+
+/**
  * @typedef {object} BackfillDependencies
  * @property {import("../core/collect.js").Feed} feed News search port.
  * @property {import("../infra/logger.js").Log} log Structured logger.
@@ -35,7 +39,7 @@ const STAGE_STOP_AFTER = 3;
  * The backfill job. It never opens the alerts store (ADR 0007).
  * Syncs the seed, then collects each pending company's candidates. A failed company is logged and the run
  * continues. STAGE_STOP_AFTER exhausted backoffs in a row stop the feed stage.
- * @param {import("./config.js").JobConfig} config Job configuration.
+ * @param {BackfillConfig} config Coverage settings from the app config.
  * @param {BackfillDependencies} dependencies Ports.
  * @returns {Promise<BackfillSummary>} What happened.
  * @throws {Error} Another job holds the lock, or the seed, overlay, or store is unusable.

@@ -1,4 +1,4 @@
-import { openDatabase } from "./sqlite.js";
+import { openDatabase } from "./database.js";
 
 /**
  * Coverage store (ADR 0005). `stage` is the next text stage an article needs; `classify` means its text is ready.

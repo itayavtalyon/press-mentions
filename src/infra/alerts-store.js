@@ -1,4 +1,4 @@
-import { openDatabase } from "./sqlite.js";
+import { openDatabase } from "./database.js";
 
 /**
  * Alerts store (ADR 0005, ADR 0007). Company ids are copied from coverage by value, with no foreign key.

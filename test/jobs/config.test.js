@@ -1,9 +1,17 @@
 import { describe, expect, it } from "vitest";
 
-import { readConfig } from "../../src/jobs/config.js";
+import { loadConfig } from "../../src/config.js";
 import { readText } from "../helpers/files.js";
 
-describe("readConfig", () => {
+/**
+ * @param {Record<string, string | undefined>} environment Process environment.
+ * @returns {ReturnType<typeof loadConfig>} Settings.
+ */
+function readConfig(environment) {
+  return loadConfig(environment, "/work");
+}
+
+describe("coverage settings", () => {
   it("reads COVERAGE_DB, trimmed", () => {
     expect(
       readConfig({ COVERAGE_DB: " coverage.sqlite " }).coverageDatabase,
