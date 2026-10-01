@@ -1,1 +1,128 @@
-{}
+{
+  "Astra": {
+    "descriptor": "Space launch company whose small rockets put small satellites into low Earth orbit",
+    "queryTerms": ["Astra Space", "rocket", "satellites"]
+  },
+  "Bites": {
+    "descriptor": "Smartphone-based training and internal communications platform for frontline staff",
+    "queryTerms": ["frontline", "training platform"]
+  },
+  "BlueCircle (formerly Trellis)": {
+    "descriptor": "AI platform that predicts crop yield, quality, timing, and cost for food and beverage producers",
+    "aliases": []
+  },
+  "Casper": {
+    "descriptor": "Sleep company that sells mattresses directly to consumers",
+    "queryTerms": ["mattress", "sleep"]
+  },
+  "Clinch": {
+    "descriptor": "SaaS platform for omnichannel, personalized display and video advertising campaigns",
+    "queryTerms": ["Flight Control", "omnichannel", "ad tech"]
+  },
+  "Glean": {
+    "descriptor": "Enterprise AI company that helps organizations find and use knowledge across their internal tools"
+  },
+  "Greenlight": {
+    "descriptor": "Fintech with money-management apps that help families teach children financial skills",
+    "queryTerms": [
+      "Greenlight Financial Technology",
+      "money management",
+      "financial literacy"
+    ]
+  },
+  "Guild": {
+    "descriptor": "EdTech marketplace connecting employers, educational institutions, and workers for workforce re-skilling",
+    "queryTerms": ["EdTech", "reskilling", "education marketplace"]
+  },
+  "Harvey": {
+    "descriptor": "AI platform for legal and professional services: legal research, drafting, due diligence, and compliance",
+    "queryTerms": ["legal AI", "lawyers", "law firms"]
+  },
+  "Island": {
+    "descriptor": "Enterprise web browser for secure access to corporate data and applications",
+    "queryTerms": ["enterprise browser"]
+  },
+  "Kando": {
+    "descriptor": "IoT platform that turns wastewater data into tools for water utilities and health authorities"
+  },
+  "Kini": {
+    "descriptor": "Earned wage access and payroll tools for workers in Southeast Asia",
+    "queryTerms": ["earned wage access", "payroll"]
+  },
+  "Lambda (lambda.ai)": {
+    "descriptor": "AI compute cloud offering on-demand NVIDIA GPU instances and clusters (lambda.ai)",
+    "queryTerms": ["GPU", "AI compute", "AI cloud"]
+  },
+  "Launchpad": {
+    "descriptor": "Autonomous hardware manufacturing platform for product design, procurement, and manufacturing",
+    "queryTerms": ["hardware manufacturing", "autonomous manufacturing"]
+  },
+  "Lemonade": {
+    "descriptor": "Insurance company using AI and behavioral economics for homeowners and renters insurance",
+    "queryTerms": ["insurance", "insurtech"]
+  },
+  "Ludeo (formerly Edge)": {
+    "descriptor": "Video game company building a playable social media platform for gamers",
+    "aliases": []
+  },
+  "MST": {
+    "descriptor": "Medical Surgical Technologies: robotic vision system for laparoscopic surgery",
+    "queryTerms": ["laparoscopic", "surgical"]
+  },
+  "Near": {
+    "descriptor": "Data intelligence SaaS platform with data on people, places, and products",
+    "queryTerms": ["data intelligence"]
+  },
+  "Neura": {
+    "descriptor": "AI company using real-world human behavior data for customer engagement and mobility services"
+  },
+  "Orchard": {
+    "descriptor": "Online real estate company that lets people buy a new home before selling their old one",
+    "queryTerms": ["real estate", "homebuyers"]
+  },
+  "Overtime": {
+    "descriptor": "Digital sports media network aimed at Gen Z (overtime.tv), which runs the Overtime Elite and Overtime Select leagues",
+    "queryTerms": [
+      "Overtime Elite",
+      "Overtime Select",
+      "Overtime Sports",
+      "Dan Porter",
+      "Zack Weiner",
+      "Zach Weiner"
+    ]
+  },
+  "Peak": {
+    "descriptor": "Decision intelligence company applying AI across an enterprise's value chain",
+    "queryTerms": ["decision intelligence"]
+  },
+  "Privateer": {
+    "descriptor": "Enterprise software applying AI to earth intelligence data such as drone and aerial imagery"
+  },
+  "Rewire": {
+    "descriptor": "Neobank offering financial services and remittances to migrant workers",
+    "queryTerms": ["migrant", "remittance", "neobank"]
+  },
+  "Ro": {
+    "descriptor": "Online pharmacy and telehealth company",
+    "queryTerms": ["telehealth", "pharmacy"]
+  },
+  "Shield": {
+    "descriptor": "Electronic communications compliance platform for enterprises, especially financial firms",
+    "queryTerms": ["communications compliance", "compliance platform"]
+  },
+  "Silo": {
+    "descriptor": "Food-tech company using IoT food storage to limit household food waste",
+    "queryTerms": ["food storage", "food waste"]
+  },
+  "Stripe": {
+    "descriptor": "Online payments and financial infrastructure company for businesses"
+  },
+  "Tala": {
+    "descriptor": "Mobile fintech and data science company focused on financial inclusion",
+    "queryTerms": ["fintech", "financial inclusion"]
+  },
+  "Wave": {
+    "descriptor": "Wave Financial (waveapps.com): apps for small-business accounting, payments, and payroll",
+    "queryTerms": ["Wave Financial", "waveapps", "Kirk Simpson"]
+  }
+}
