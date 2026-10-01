@@ -13,6 +13,10 @@ setup:
 start:
 	npm start
 
+# Run the one-time backfill
+job-backfill:
+	npm run job:backfill
+
 # Run the daily job
 job-daily:
 	npm run job:daily

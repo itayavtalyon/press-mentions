@@ -22,10 +22,12 @@
     "dup": "jscpd --threshold 3 --mode strict --fail-on-empty --no-tips --reporters console src test",
     "audit": "npm audit --audit-level=high",
     "verify": "npm run lint && npm run format:check && npm run typecheck && npm run test:coverage && npm run knip && npm run dup && npm run audit",
-    "prepare": "husky"
+    "prepare": "husky",
+    "job:backfill": "node --env-file=.env src/jobs/backfill.js"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
+    "linkedom": "^0.18.13",
     "ollama": "^0.6.4"
   },
   "devDependencies": {

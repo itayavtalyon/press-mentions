@@ -138,6 +138,18 @@ describe("runPromptEval", () => {
     expect(status).toBe(1);
     expect(harness.errors).toEqual(["connection refused"]);
   });
+
+  it("prints a failure that is not an Error", async () => {
+    const harness = givenPorts(CASES);
+    harness.ports.ollama.chat = async () => {
+      throw "connection refused";
+    };
+
+    const status = await runPromptEval(harness.ports);
+
+    expect(status).toBe(1);
+    expect(harness.errors).toEqual(["connection refused"]);
+  });
 });
 
 describe("runPromptEval failures", () => {

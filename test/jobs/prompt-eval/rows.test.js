@@ -108,6 +108,53 @@ describe("stored case rows", () => {
   });
 });
 
+describe("stored case fields", () => {
+  it("rejects a company name that is not text", () => {
+    const store = corrupt(
+      JSON.stringify({
+        article: "Harvey",
+        companies: [{ name: 1 }],
+        homepage: "https://techcrunch.com",
+        publisher: "TechCrunch",
+      }),
+      "{}",
+    );
+
+    expect(() => store.listCases()).toThrow(/name that is not text/u);
+    store.close();
+  });
+
+  it("rejects extra text that is not text", () => {
+    const store = corrupt(
+      JSON.stringify({
+        article: "Harvey",
+        companies: [{ extra: 1, name: "Harvey" }],
+        homepage: "https://techcrunch.com",
+        publisher: "TechCrunch",
+      }),
+      JSON.stringify({ Harvey: "positive" }),
+    );
+
+    expect(() => store.listCases()).toThrow(/extra text that is not text/u);
+    store.close();
+  });
+
+  it("rejects parameters that are not text", () => {
+    const store = corrupt(
+      JSON.stringify({
+        article: 1,
+        companies: [],
+        homepage: "https://techcrunch.com",
+        publisher: "TechCrunch",
+      }),
+      "{}",
+    );
+
+    expect(() => store.listCases()).toThrow(/parameters are not text/u);
+    store.close();
+  });
+});
+
 describe("validateCase names", () => {
   it("rejects a homepage that is not https", () => {
     expect(() =>
@@ -184,5 +231,60 @@ describe("validateCase results", () => {
         },
       }),
     ).toThrow(/repeats Wave/u);
+  });
+});
+
+/**
+ * @param {string} article Article text.
+ * @param {string} id Case id.
+ * @param {import("../../../src/core/classifier.js").Company[]} companies Companies.
+ * @param {Record<string, string>} expected Gold verdicts.
+ * @returns {import("../../../src/jobs/prompt-eval/rows.js").EvalCase} Case.
+ */
+function waveCase(article, id, companies, expected) {
+  return {
+    expected,
+    id,
+    parameters: {
+      article,
+      companies,
+      homepage: "https://www.bbc.com",
+      publisher: "BBC",
+    },
+  };
+}
+
+describe("validateCase shape", () => {
+  it("rejects an empty article", () => {
+    expect(() =>
+      validateCase(
+        waveCase("", "wave-sea", [{ name: "Wave" }], { Wave: "unrelated" }),
+      ),
+    ).toThrow(/missing an id or article/u);
+  });
+
+  it("rejects an empty id", () => {
+    expect(() =>
+      validateCase(
+        waveCase("A wave.", "", [{ name: "Wave" }], { Wave: "unrelated" }),
+      ),
+    ).toThrow(/missing an id or article/u);
+  });
+
+  it("rejects a case with no companies", () => {
+    expect(() => validateCase(waveCase("A wave.", "wave-sea", [], {}))).toThrow(
+      /no companies/u,
+    );
+  });
+
+  it("rejects an expected result for a company that was not asked", () => {
+    expect(() =>
+      validateCase(
+        waveCase("A wave.", "wave-sea", [{ name: "Wave" }], {
+          Peak: "unrelated",
+          Wave: "unrelated",
+        }),
+      ),
+    ).toThrow(/does not match/u);
   });
 });

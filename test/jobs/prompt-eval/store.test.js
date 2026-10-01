@@ -175,3 +175,52 @@ describe("evaluation score duration", () => {
     store.close();
   });
 });
+
+/**
+ * @param {unknown} [row] Value returned for every read.
+ * @returns {SqliteDatabase} Database double.
+ */
+function givenRead(row) {
+  return /** @type {SqliteDatabase} */ (
+    /** @type {unknown} */ ({
+      close() {},
+      exec() {},
+      prepare() {
+        return {
+          all: () => [],
+          get: () => row,
+          run() {},
+        };
+      },
+      transaction(/** @type {() => void} */ work) {
+        work();
+      },
+    })
+  );
+}
+
+describe("evaluation count checks", () => {
+  it("rejects a missing case count", () => {
+    const store = new EvaluationStore(givenRead());
+
+    expect(() => store.caseCount()).toThrow(/case count is missing/u);
+  });
+
+  it("rejects a case count that is not a number", () => {
+    const store = new EvaluationStore(givenRead({ count: "1" }));
+
+    expect(() => store.caseCount()).toThrow(/case count is missing/u);
+  });
+
+  it("rejects a missing case position", () => {
+    const store = new EvaluationStore(givenRead());
+
+    expect(() => store.insertCases([])).toThrow(/case position is missing/u);
+  });
+
+  it("rejects a case position that is not a number", () => {
+    const store = new EvaluationStore(givenRead({ position: "0" }));
+
+    expect(() => store.insertCases([])).toThrow(/case position is missing/u);
+  });
+});

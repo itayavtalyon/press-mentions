@@ -5,13 +5,20 @@ export default defineConfig({
     coverage: {
       provider: "v8",
       include: ["src/**/*.js"],
-      exclude: ["src/jobs/prompt-eval/index.js"],
+      // ADR 0009: entry shims only wire adapters and call a tested function.
+      exclude: [
+        "src/jobs/backfill.js",
+        "src/jobs/daily.js",
+        "src/jobs/mail.js",
+        "src/jobs/prompt-eval/index.js",
+        "src/server/index.js",
+      ],
       reporter: ["text", "text-summary"],
       thresholds: {
-        lines: 90,
-        statements: 90,
-        functions: 90,
-        branches: 90,
+        lines: 100,
+        statements: 100,
+        functions: 100,
+        branches: 100,
       },
     },
     projects: [
