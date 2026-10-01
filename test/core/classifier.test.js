@@ -16,8 +16,8 @@ const classifier = new Classifier();
 
 describe("live classification pair", () => {
   it("is the hand-edited constant, not an environment variable", () => {
-    expect(LIVE_MODEL).toBe("gemma4:12b");
-    expect(LIVE_PROMPT_VERSION).toBe("v002");
+    expect(LIVE_MODEL).toBe("qwen3.5:9b");
+    expect(LIVE_PROMPT_VERSION).toBe("v001");
   });
 });
 

@@ -269,7 +269,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | `PUBLISHER_TOKEN_MS` | Refill interval for other hosts, default 2000                                       |
 | `ALERT_EMAIL`        | Default subscriber for every company; `.env.example` ships an `example.com` address |
 
-The live model and prompt version are `LIVE_MODEL` (`gemma4:12b`) and `LIVE_PROMPT_VERSION` (`v002`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each collection job holds `<COVERAGE_DB>.lock`, writes its pid, and deletes the file when it finishes. A crash leaves the file. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
+The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each collection job holds `<COVERAGE_DB>.lock`, writes its pid, and deletes the file when it finishes. A crash leaves the file. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
 
 Logging is structured enough to grep: company, `guid`, stage, and error. A 100-item feed is logged as truncated. Parse failures log the raw model text.
 
@@ -310,7 +310,7 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 
 ## Open questions and risks
 
-- Which installed model wins is unknown until the labeled set is scored. Until then collection uses the constants above. Eval does not change them.
+- The 2026-10-01 run picked `qwen3.5:9b` and `v001`. Collection uses those constants. Eval does not change them.
 - Seconds per article on this M1 are unknown. With the cap, the estimate is about 6k capped candidates plus the long tail, roughly one night at 5 s each. Measure seconds per article during eval, and start the real backfill no later than Oct 3.
 - Every candidate is unwrapped (two Google requests) and fetched. At about 8k+ candidates, that is several hours of Google traffic from one IP, and a block is plausible. A block backs off and leaves rows retryable. It does not bypass anything.
 - `batchexecute` is unofficial. When it breaks, new rows take the title path in ADR 0006 and the README should say the unwrap failed.

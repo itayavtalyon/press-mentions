@@ -20,7 +20,7 @@ Call options: `format` is a JSON schema built per call, with the candidate names
 
 A parse failure is stored as `uncertain` with the raw text and the review flag. There is no keyword fallback and no second guess.
 
-The live model id and prompt version are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js`. Today they are `gemma4:12b` and `v002`. A person edits them by hand. They are not environment variables. The eval program does not read them and does not edit them. A running process keeps the pair it loaded. The next process reclassifies rows stored under a different pair, and it does not refetch those articles.
+The live model id and prompt version are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js`. Today they are `qwen3.5:9b` and `v001`, the 2026-10-01 winner. A person edits them by hand. They are not environment variables. The eval program does not read them and does not edit them. A running process keeps the pair it loaded. The next process reclassifies rows stored under a different pair, and it does not refetch those articles.
 
 Call options on `Classifier` are temperature 0, seed 0, `num_ctx` 8192, and an article cap of 6000 characters. `think` is false. The program does not edit those either.
 

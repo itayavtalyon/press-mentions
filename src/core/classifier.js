@@ -14,16 +14,16 @@ export const VERDICT_NAMES = [
 ];
 
 /**
- * Model collection uses until a person edits it after eval (ADR 0004).
+ * Model collection uses. Set by hand from the 2026-10-01 eval (ADR 0004).
  * The eval job does not read this.
  */
-export const LIVE_MODEL = "gemma4:12b";
+export const LIVE_MODEL = "qwen3.5:9b";
 
 /**
- * Prompt collection uses until a person edits it after eval (ADR 0004).
+ * Prompt collection uses. Set by hand from the 2026-10-01 eval (ADR 0004).
  * The eval job does not read this. It must name a `prompt/classifier.vNNN.txt` file.
  */
-export const LIVE_PROMPT_VERSION = "v002";
+export const LIVE_PROMPT_VERSION = "v001";
 
 const TOKENS = [
   "{{article}}",
