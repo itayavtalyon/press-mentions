@@ -25,10 +25,10 @@ A forward feed on a fresh clone with no backfill works the same way. It stores w
 
 Cron starts one command per component. Each exits when it finishes. They are not chained on one crontab line. The server does not schedule them.
 
-- `src/jobs/feed.js` collects the trailing three days. It does not unwrap, fetch, extract, classify, or enqueue digests.
-- `src/jobs/unwrap.js`, `src/jobs/fetch.js`, and `src/jobs/extract.js` are the text steps. Each, when it does the work, holds the one coverage lock for its whole run, reads only its `stage`, and does not call the next step (ADR 0003, ADR 0006). The coverage row is the queue. The files are placeholders until that work exists.
-- `src/jobs/digest.js` upserts `ALERT_EMAIL` and writes the outbox. It is not part of the feed. The file is a placeholder until that work exists.
-- `src/jobs/mail.js` sends the queue.
+- `src/jobs/feed.js` collects the trailing three days and holds `<COVERAGE_DB>.feed.lock`. Backfill holds that same file. The feed does not unwrap, fetch, extract, classify, or enqueue digests.
+- `src/jobs/unwrap.js`, `src/jobs/fetch.js`, and `src/jobs/extract.js` are the text steps. When they do the work they hold `<COVERAGE_DB>.unwrap.lock`, `<COVERAGE_DB>.fetch.lock`, and `<COVERAGE_DB>.extract.lock`. Each reads only its `stage` and does not call the next step (ADR 0003, ADR 0006). The coverage row is the queue. The files are placeholders until that work exists, and a placeholder does not take a lock.
+- `src/jobs/digest.js` upserts `ALERT_EMAIL` and writes the outbox. It is not part of the feed. It holds `<ALERTS_DB>.digest.lock` and does not lock the coverage database. The file is a placeholder until that work exists.
+- `src/jobs/mail.js` sends the queue and holds `<ALERTS_DB>.mail.lock`. Classify, when it is built, holds `<COVERAGE_DB>.classify.lock` and is not started by extract.
 
 A digest is one message per subscribed email per company per run, and only when that company has at least one new mention. Order inside the message is negative, then positive, neutral, and unranked. Each item has the title, the link, and the verdict. An `unranked` item says the tone is unranked. The outbox row and the `notified` rows for its mentions are written in one alerts transaction, so a second run the same day enqueues only what is still new.
 

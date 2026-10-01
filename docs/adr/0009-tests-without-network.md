@@ -25,8 +25,8 @@ Every product promise has a test:
 - Title fallback when the body is missing.
 - Backfill writes coverage and does not open alerts. A new daily mention enqueues. A second run the same day enqueues only mentions without a `notified` row. A mention published more than 72 hours ago does not enqueue. A mention classified on a later run does enqueue if still inside 72 hours.
 - The digest command upserts the `ALERT_EMAIL` subscriptions.
-- A second collection step exits non-zero while a live pid holds the coverage lock, and does not open the store. A lock whose pid is not running is taken by the next start.
-- Google and publisher 429/503 back off (honoring `Retry-After`). Ollama failures back off. Exhausted backoff leaves the row retryable, and the run exits non-zero with counts. Three consecutive exhaustions stop that dependency's stage (or that publisher host) for the run, and a success in between resets the count. The third failed run makes the row terminal. 401/403/404 take the title path at once.
+- A second copy of the same command exits non-zero while a live pid holds that command's lock, and does not open its store. A different command may run. A lock whose pid is not running is taken by the next start. A stage write whose row is no longer at that stage changes nothing.
+- Google and publisher 429/503 back off (honoring `Retry-After`). Ollama failures back off. Exhausted backoff leaves the row retryable, and the run exits non-zero with counts. Three consecutive exhaustions stop that command for the rest of its run and do not stop a different command. A publisher host stops fetches to that host only. A success in between resets the count. The third failed run makes the row terminal. 401/403/404 take the title path at once.
 - Token bucket capacity 1 does not hand out a second token early.
 - Resume skips a stage whose output is stored. A new prompt version reclassifies and does not refetch.
 - Digest order is negative, positive, neutral, unranked. The mailer writes the body and deletes the row. A failed handoff leaves the row.

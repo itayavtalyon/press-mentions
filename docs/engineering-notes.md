@@ -30,3 +30,12 @@ The next change should keep these splits. They were mixed once, and that was the
 - A point requires the expected relevance and, when the article is about the company, the expected tone. Ties break to higher relatedness, then the newer prompt version. The report prints a `miss` line for every company decision that earned no point, then the winner or the tie. The process is in `docs/prompt-eval/README.md`.
 - Call options on `Classifier`: temperature 0, seed 0, `num_ctx` 8192. Article text is capped at 6000 characters.
 - `npm run verify` does not call Ollama. `npm run job:eval` is the live run.
+
+## Collection processes
+
+Locked with Itay on 2026-10-01.
+
+- Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify use the coverage database. Digest and mail use the alerts database. A second copy exits 1 and names the holder. A different command may run at the same time. Placeholders do not take a lock until they do real work.
+- The process writes its pid into a claim file and links that onto the lock, so the visible file is never empty. A live pid exits before the store opens. A dead, empty, or garbage pid is renamed aside.
+- Each process has its own in-memory token bucket. Overlap can double the Google rate. There is no shared slot file.
+- A stage write includes `WHERE stage = ?` for the stage that step owns. Zero rows means the article already moved or is gone. The caller logs that and continues. The write does not move the row backward.

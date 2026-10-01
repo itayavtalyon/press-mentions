@@ -192,3 +192,9 @@ update the configs with the winners and commit
 ```text
 Let's continue reviewing other parts of the system. Now I am interested in the pipeline processes for getting and handling news mentions. Each components must operarte independently without impacting other components, and we have to make sure that each process runs as a signleton. Review what's done and then grill me.
 ```
+
+## 2026-10-01 — Record the pipeline answers
+
+```text
+Record these answers in the ADRs. Let's keep the public documentation accurate
+```

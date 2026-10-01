@@ -106,17 +106,17 @@ sequenceDiagram
 
   Cron->>Feed: Start
   Feed->>DB: Insert new articles at stage unwrap
-  Note over Feed,DB: One coverage lock for the whole run
+  Note over Feed,DB: Feed holds the feed lock. Unwrap holds its own lock.
   Cron->>Unwrap: Start later
   Unwrap->>DB: Read stage unwrap only, write the publisher URL, stage becomes fetch
   Cron->>Fetch: Start later
   Fetch->>DB: Read stage fetch only, write the page, stage becomes extract
   Cron->>Extract: Start later
   Extract->>DB: Read stage extract only, write text, stage becomes classify
-  Note over Cron,DB: A step does not call the next step. A live lock makes the new process exit without opening the store.
+  Note over Cron,DB: A step does not call the next step. A second copy of that same command exits without opening the store.
 ```
 
-The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, and extract stay three cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is a later command and is not started by extract. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. 401, 403, 404, and shells take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
+The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, and extract stay three cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. A write matches that stage. A row that has already moved is logged and left where it is. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is a later command and is not started by extract. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. 401, 403, 404, and shells take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
 
 ## Digest
 
@@ -272,7 +272,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | `PUBLISHER_TOKEN_MS` | Refill interval for other hosts, default 2000                                       |
 | `ALERT_EMAIL`        | Default subscriber for every company; `.env.example` ships an `example.com` address |
 
-The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Backfill, the forward feed, unwrap, fetch, and extract share `<COVERAGE_DB>.lock`. The job writes its pid into a claim file and links that onto the lock, so the file is never empty. A second start exits without opening the coverage store while that pid is running. A pid that is not running is stale: the next start renames the file aside and takes the lock. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. The file is deleted when the job finishes. There is not a lock per stage. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
+The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify lock the coverage database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. Each process has its own in-memory token bucket, so overlap can double the Google rate. The job writes its pid into a claim file and links that onto its lock, so the file is never empty. A second copy of that command exits without opening its store while that pid is running. A pid that is not running is stale: the next start renames the file aside and takes the lock. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. The file is deleted when the job finishes. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
 
 Logging is structured enough to grep: company, `guid`, stage, and error. A 100-item feed is logged as truncated. Parse failures log the raw model text.
 
