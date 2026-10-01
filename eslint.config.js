@@ -136,7 +136,7 @@ const config = [
     },
   },
   {
-    files: ["src/web/**/*.js"],
+    files: ["src/ui/browser/**/*.js"],
     languageOptions: {
       globals: {
         ...nodeGlobalsOff,
@@ -151,7 +151,7 @@ const config = [
     },
   },
   {
-    files: ["test/web/**/*.js"],
+    files: ["test/ui/browser/**/*.js"],
     languageOptions: {
       globals: {
         ...globals.node,

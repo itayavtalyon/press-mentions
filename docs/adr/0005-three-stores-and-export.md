@@ -25,14 +25,14 @@ There is no foreign key across files. Company ids are copied by value. Modules t
 Coverage shape:
 
 - `companies`: id (the slug of the query name, also used for file names and URLs), display name, query name, aliases (JSON array), descriptor, query terms (JSON array), `backfilled_at`. Name and aliases are parsed from the seed line (ADR 0003). Descriptor and query terms come from the overlay. Descriptor is null without an entry. Query terms are `[]` without an entry. Nothing else is enriched.
-- `articles`: `guid`, title, `published_at`, publisher name, publisher homepage, publisher article URL, Google URL, extracted text, `text_source`, stage, attempt count, last error, retryable flag. `stage` is `unwrap`, `fetch`, `extract`, or `classify` (ADR 0006). Timestamps are ISO UTC text.
+- `articles`: `guid`, title, `published_at`, publisher name, publisher homepage, publisher article URL, Google URL, extracted text, `text_source`, stage, attempt count, last error, retryable flag. `stage` is `unwrap`, `fetch`, `extract`, or `classify` (ADR 0006). Timestamps are ISO UTC text. `published_at` has a CHECK for the exact `toISOString` shape, so the dashboard compares it as text.
 - `company_articles`: company id, `guid`, origin `backfill` or `daily`, `alert_eligible`, verdict, model id, prompt version, raw response, review flag.
 
 `articles.guid` is unique. `(company id, guid)` is unique. Raw HTML is discarded after a successful extract.
 
 Alerts shape:
 
-- `subscriptions`: company id, email. Unique on the pair.
+- `subscriptions`: company id, email. Unique on the pair, ignoring ASCII case (`COLLATE NOCASE`). The address is stored as typed.
 - `notified`: email, company id, `guid`. Unique on all three. This is the record that a mention was alerted.
 - `outbox`: id, email, company id, rendered body, created at.
 

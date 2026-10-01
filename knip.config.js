@@ -5,7 +5,7 @@ const config = {
   entry: ["src/core/**/*.js"],
   project: ["src/**/*.js", "test/**/*.js"],
   // Installed before any module imports it. Remove the name once a real import exists.
-  ignoreDependencies: ["supertest", "@mozilla/readability"],
+  ignoreDependencies: ["@mozilla/readability"],
 };
 
 export default config;

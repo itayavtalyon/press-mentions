@@ -1,6 +1,6 @@
 /* ==========================================================================
    Press Monitor: app.css (reference implementation)
-   Copy to src/web/app.css. Mobile-first: base rules target narrow screens,
+   Served as /app.css from src/ui/browser/app.css. Mobile-first: base rules target narrow screens,
    one breakpoint at 40em (= 640px at the default 16px font size).
 
     1. Tokens (light, then dark via prefers-color-scheme)

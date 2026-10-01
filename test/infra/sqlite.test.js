@@ -115,7 +115,7 @@ describe("coverage constraints", () => {
     );
     database.exec(`
       INSERT INTO companies (id, display_name, query_name, aliases, query_terms) VALUES ('wave', 'Wave', 'Wave', '[]', '[]');
-      INSERT INTO articles (guid, title, published_at, google_url, stage) VALUES ('g1', 'T', '2026-09-01T00:00:00Z', 'https://g/1', 'unwrap');
+      INSERT INTO articles (guid, title, published_at, google_url, stage) VALUES ('g1', 'T', '2026-09-01T00:00:00.000Z', 'https://g/1', 'unwrap');
     `);
 
     expect(() =>
@@ -130,7 +130,7 @@ describe("coverage constraints", () => {
       openCoverageStore(givenPath("coverage.sqlite")),
     );
     database.exec(
-      "INSERT INTO articles (guid, title, published_at, google_url, stage) VALUES ('g1', 'T', '2026-09-01T00:00:00Z', 'https://g/1', 'unwrap')",
+      "INSERT INTO articles (guid, title, published_at, google_url, stage) VALUES ('g1', 'T', '2026-09-01T00:00:00.000Z', 'https://g/1', 'unwrap')",
     );
 
     expect(() =>

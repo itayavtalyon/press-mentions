@@ -43,7 +43,7 @@ Every product promise has a test:
 - A verdict filter on the index omits companies with zero such mentions in the window. `verdict=all` equals an omitted verdict. An unknown `window` or `verdict` answers 400.
 - A cross-site subscribe POST answers 403 and inserts nothing.
 - A custom `to` date includes that whole UTC day.
-- `src/web/app.js` auto-submits a radio change, does not submit on Custom or a date change, restores focus, filters rows by name and alias, and opens the dialog without invoker-command support.
+- `src/ui/browser/app.js` auto-submits a radio change, does not submit on Custom or a date change, restores focus, filters rows by name and alias, and opens the dialog without invoker-command support.
 - Feed text placed by the browser script is set as text, never as HTML.
 
 Vitest thresholds for `src/**/*.js` are raised from 90 to 100 on lines, statements, functions, and branches. Entry points are shims: they read the environment, build the adapters, call one exported function, and set the exit code. They hold no branches worth testing and are excluded from coverage by name in `vitest.config.js` (`src/jobs/{backfill,feed,unwrap,fetch,extract,digest,mail}.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`). Everything they call lives in tested modules. A shim that grows a branch moves that branch into a module. The gate is not met by spawning processes.

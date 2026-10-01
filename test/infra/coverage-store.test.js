@@ -223,3 +223,40 @@ describe("recordBackfill progress", () => {
     });
   });
 });
+
+/**
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {string} publishedAt Value to store.
+ * @returns {void}
+ */
+const insertArticle = (database, publishedAt) => {
+  database
+    .prepare(
+      `INSERT INTO articles (guid, title, published_at, google_url, stage)
+       VALUES ('g', 't', ?, 'https://news.google.com/x', 'unwrap')`,
+    )
+    .run(publishedAt);
+};
+
+describe("articles.published_at", () => {
+  it("accepts the toISOString shape, so text order is time order", () => {
+    const database = givenStore();
+
+    insertArticle(database, new Date("2026-08-01T10:00:00Z").toISOString());
+
+    expect(
+      database.prepare("SELECT published_at FROM articles").pluck().get(),
+    ).toBe("2026-08-01T10:00:00.000Z");
+  });
+
+  it.each([
+    "2026-08-01T10:00:00Z",
+    "2026-08-01 10:00:00",
+    "2026-08-01T10:00:00.000+03:00",
+    "Sat, 01 Aug 2026 10:00:00 GMT",
+  ])("rejects %j", (publishedAt) => {
+    expect(() => {
+      insertArticle(givenStore(), publishedAt);
+    }).toThrow(/CHECK constraint failed/u);
+  });
+});

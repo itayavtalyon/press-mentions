@@ -12,6 +12,11 @@ const SEED_PATH = fileURLToPath(
 const OVERLAY_PATH = fileURLToPath(
   new URL("../seed/overlay.json", import.meta.url),
 );
+const BROWSER_ASSETS_PATH = fileURLToPath(
+  new URL("ui/browser/", import.meta.url),
+);
+const DEFAULT_PORT = 3000;
+const MAX_PORT = 65_535;
 
 /**
  * @typedef {object} AppConfig
@@ -21,6 +26,8 @@ const OVERLAY_PATH = fileURLToPath(
  * @property {number} googleIntervalMs Minimum milliseconds between two Google News requests.
  * @property {string} databasePath Evaluation SQLite path.
  * @property {string} ollamaHost Ollama host.
+ * @property {number} port Dashboard port on 127.0.0.1 (ADR 0008).
+ * @property {string} browserAssetsPath Directory of `app.css` and `app.js`.
  */
 
 /**
@@ -39,6 +46,8 @@ export function loadConfig(environment, cwd) {
       : path.join(cwd, databasePath),
     googleIntervalMs: googleInterval(environment),
     ollamaHost: setting(environment, "OLLAMA_HOST", DEFAULT_HOST),
+    port: port(environment),
+    browserAssetsPath: BROWSER_ASSETS_PATH,
     overlayPath: OVERLAY_PATH,
     seedPath: SEED_PATH,
   };
@@ -94,4 +103,23 @@ function setting(environment, name, fallback) {
   }
 
   return typeof value === "string" ? value : fallback;
+}
+
+/**
+ * @param {Record<string, string | undefined>} environment Process environment.
+ * @returns {number} PORT, or 3000 when it is not set.
+ * @throws {Error} PORT is set and is not a whole number from 1 to 65535.
+ */
+function port(environment) {
+  const value = ownValue(environment, "PORT");
+  if (typeof value !== "string") {
+    return DEFAULT_PORT;
+  }
+  const text = value.trim();
+  if (!/^[1-9]\d{0,4}$/u.test(text) || Number(text) > MAX_PORT) {
+    throw new Error(
+      `PORT must be a whole number from 1 to 65535, got "${text}"`,
+    );
+  }
+  return Number(text);
 }

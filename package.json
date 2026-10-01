@@ -44,6 +44,7 @@
     "@types/eslint-plugin-promise": "^7.3.0",
     "@types/eslint-plugin-security": "^3.0.1",
     "@types/node": "^24.19.0",
+    "@types/supertest": "^7.2.1",
     "@vitest/coverage-v8": "^5.0.2",
     "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",

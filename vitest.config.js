@@ -32,7 +32,7 @@ export default defineConfig({
           name: "node",
           environment: "node",
           include: ["test/**/*.test.js"],
-          exclude: ["test/web/**"],
+          exclude: ["test/ui/browser/**"],
         },
       },
       {
@@ -40,7 +40,7 @@ export default defineConfig({
         test: {
           name: "web",
           environment: "happy-dom",
-          include: ["test/web/**/*.test.js"],
+          include: ["test/ui/browser/**/*.test.js"],
         },
       },
     ],

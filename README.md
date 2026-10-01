@@ -2,7 +2,7 @@
 
 ## Overview
 
-Local monitoring of press mentions for OurCrowd portfolio companies. The backfill collects Google News candidates. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The server, forward feed, and dashboard are still placeholders.
+Local monitoring of press mentions for OurCrowd portfolio companies. The backfill collects Google News candidates. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The dashboard server shows the index page. The company and review pages, and the forward feed, are not built yet.
 
 ## Setup
 
@@ -35,7 +35,7 @@ Each command has its own lock file, `<database>.<command>.lock`. Backfill and th
 
 Unwrap, fetch, and extract are three cron commands. Each one, when it exists, holds its own lock for its whole run and reads only articles whose `stage` column is its own queue. A write matches that stage. A row that has already moved is logged and left alone. The step does not call the next step. Cron starts each step. The coverage row is the queue. If volume demands it, replace cron polling with a message queue such as Kafka. Classification of collected articles is not built yet. It will be its own command.
 
-`npm start` is the HTTP server. `npm run job:feed` is the forward feed. It collects the trailing three days and does not unwrap, fetch, extract, classify, or enqueue digests. `npm run job:unwrap`, `npm run job:fetch`, `npm run job:extract`, and `npm run job:digest` are the other cron commands. Those files, the server, and the feed exit without doing work. The mailer is a separate command and is not built yet. Every script loads `.env` with Node's `--env-file`.
+`npm start` is the dashboard on `http://127.0.0.1:3000/` (`PORT` changes the port). It reads the coverage store and never writes collection data. `npm run job:feed` is the forward feed. It collects the trailing three days and does not unwrap, fetch, extract, classify, or enqueue digests. `npm run job:unwrap`, `npm run job:fetch`, `npm run job:extract`, and `npm run job:digest` are the other cron commands. Those files and the feed exit without doing work. The mailer is a separate command and is not built yet. Every script loads `.env` with Node's `--env-file`.
 
 `npm run job:eval` scores every installed chat model against `prompt/classifier.vNNN.txt` and the cases in the evaluation database. It needs a running Ollama server. `docs/prompt-eval/README.md` is how a run is scored, how the winner is chosen, and how a later prompt version is written. `npm run verify` does not call Ollama.
 
@@ -49,8 +49,9 @@ Unwrap, fetch, and extract are three cron commands. Each one, when it exists, ho
 - `src/jobs` — backfill, forward feed, and the prompt evaluator
 - `src/core` — domain logic, including the classifier
 - `src/infra` — Google News, Ollama, and SQLite adapters
-- `src/server` — HTTP server (API and dashboard)
-- `src/web` — frontend assets served by the server
+- `src/server` — HTTP server: routes, the cross-site guard, headers, and static files
+- `src/ui/pages` — server-rendered HTML pages
+- `src/ui/browser` — the stylesheet and page script served to the browser
 
 ## Assumptions
 
@@ -60,7 +61,6 @@ Unwrap, fetch, and extract are three cron commands. Each one, when it exists, ho
 
 ## Limitations
 
-- No API, dashboard, or cron schedule yet.
-- The server and forward feed files are placeholders. Unwrap, fetch, extract, and classification of collected articles are not built yet.
-- `supertest` is installed before any test imports it. Knip ignores that name until a real import exists.
+- No API or cron schedule yet. The dashboard has the index page only; the company page, subscribe, and `/review` come next.
+- The forward feed file is a placeholder. Unwrap, fetch, extract, and classification of collected articles are not built yet.
 - Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.

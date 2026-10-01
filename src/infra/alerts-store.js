@@ -6,7 +6,8 @@ import { openDatabase } from "./database.js";
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS subscriptions (
   company_id TEXT NOT NULL,
-  email TEXT NOT NULL,
+  -- Stored as typed. NOCASE makes the pair unique ignoring ASCII case.
+  email TEXT NOT NULL COLLATE NOCASE,
   PRIMARY KEY (company_id, email)
 ) STRICT;
 
@@ -33,4 +34,20 @@ CREATE TABLE IF NOT EXISTS outbox (
  */
 export function openAlertsStore(path) {
   return openDatabase(path, SCHEMA);
+}
+
+/**
+ * Subscribes one address to one company (ADR 0008). The address is already trimmed and checked.
+ * @param {import("better-sqlite3").Database} database Alerts store.
+ * @param {string} companyId Company slug.
+ * @param {string} email Address as typed.
+ * @returns {"created" | "exists"} Whether the pair was new, ignoring case.
+ */
+export function subscribe(database, companyId, email) {
+  const { changes } = database
+    .prepare(
+      "INSERT INTO subscriptions (company_id, email) VALUES (?, ?) ON CONFLICT DO NOTHING",
+    )
+    .run(companyId, email);
+  return changes === 1 ? "created" : "exists";
 }

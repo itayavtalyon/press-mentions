@@ -21,6 +21,7 @@ JavaScript source, typed with JSDoc and checked by TypeScript. Do not add `.ts` 
 
 - Ids, guids, and verdicts stay `string`. Do not invent branded types.
 - Throw `Error` with a message that names the bad value. Do not add a Result type. Do not catch an error and continue.
+- Request validation returns field problems (`src/core/filters.js`, the address rule in `src/core/dashboard.js`). Bad user input is expected output, not an error.
 - The live model and prompt version are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js`. They are not environment variables.
 - A clock and a random source are arguments on any unit a test must control. Adapters that wait or jitter take them. Do not call `Date.now` or `Math.random` inside that unit. An entry shim may construct the system clock and pass it in.
 
@@ -64,15 +65,18 @@ Fewer files:
 | Ollama           | `src/infra/ollama.js`             | Listing models and sending chat                                          |
 | SQLite           | `src/infra/database.js`           | Opening the file. It does not know table names                           |
 | Config           | `src/config.js`                   | Environment variables                                                    |
-| Dashboard        | `src/core/dashboard.js`           | Window and verdict parsing, the address rule, sort, and tally shape      |
+| Filters          | `src/core/filters.js`             | The query string: window, custom dates, and verdict                      |
+| Dashboard        | `src/core/dashboard.js`           | Index order, tallies, last mentioned, collection start, the address rule |
 | Coverage read    | `src/infra/coverage-read.js`      | Dashboard queries on the coverage store                                  |
 | Server           | `src/server/app.js`               | Routes, the cross-site guard, headers, and static assets                 |
-| Page shell       | `src/server/page.js`              | `html` tag, escaping, format helpers, layout, shared parts, filter form  |
-| Index page       | `src/server/index-page.js`        | `GET /`                                                                  |
-| Company page     | `src/server/company-page.js`      | `GET /companies/:id` and the subscribe outcomes                          |
-| Review page      | `src/server/review-page.js`       | `GET /review`                                                            |
-| Message pages    | `src/server/message-pages.js`     | 404 and 403                                                              |
-| Page script      | `src/web/app.js`                  | Browser enhancement, per `docs/ui-design.md` §9                          |
+| Markup           | `src/ui/pages/markup.js`          | The escaping `html` tag and `safeHref`                                   |
+| Page shell       | `src/ui/pages/page.js`            | Format helpers, layout, and parts more than one page uses                |
+| Filter form      | `src/ui/pages/filter-form.js`     | The filter form, its error copy, and the window sentence                 |
+| Index page       | `src/ui/pages/index-page.js`      | `GET /`                                                                  |
+| Company page     | `src/ui/pages/company-page.js`    | `GET /companies/:id` and the subscribe outcomes                          |
+| Review page      | `src/ui/pages/review-page.js`     | `GET /review`                                                            |
+| Message pages    | `src/ui/pages/message-pages.js`   | 404 and 403                                                              |
+| Page script      | `src/ui/browser/app.js`           | Browser enhancement, per `docs/ui-design.md` §9                          |
 | Lock, clock, log | the file of that name             | That one resource                                                        |
 
 `seed.js`, `overlay.js`, `query.js`, `select.js`, and `collect.js` are the company and collection models before they were grouped. `rows.js` and `report.js` belong to the evaluation store and the evaluation run. When a change touches one of those files, move the code into the model file in the table and delete the old file once nothing imports it. Do not add another file beside them. Entry shims (`src/jobs/backfill.js`, `src/jobs/feed.js`, `src/jobs/unwrap.js`, `src/jobs/fetch.js`, `src/jobs/extract.js`, `src/jobs/digest.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`) stay thin: read config, build adapters, call one function, set the exit code.

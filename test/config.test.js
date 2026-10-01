@@ -39,3 +39,29 @@ describe("loadConfig checks", () => {
     );
   });
 });
+
+describe("loadConfig port", () => {
+  it("defaults the dashboard port to 3000", () => {
+    expect(loadConfig(COVERAGE, "/work").port).toBe(3000);
+  });
+
+  it.each([
+    ["1", 1],
+    ["8080", 8080],
+    ["65535", 65_535],
+    [" 80 ", 80],
+  ])("reads PORT=%j", (value, expected) => {
+    expect(loadConfig({ ...COVERAGE, PORT: value }, "/work").port).toBe(
+      expected,
+    );
+  });
+
+  it.each(["", "0", "65536", "abc", "3000.5", "03000"])(
+    "rejects PORT=%j",
+    (value) => {
+      expect(() => loadConfig({ ...COVERAGE, PORT: value }, "/work")).toThrow(
+        /PORT must be a whole number from 1 to 65535/u,
+      );
+    },
+  );
+});

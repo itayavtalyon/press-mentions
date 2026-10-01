@@ -17,7 +17,10 @@ CREATE TABLE IF NOT EXISTS companies (
 CREATE TABLE IF NOT EXISTS articles (
   guid TEXT PRIMARY KEY,
   title TEXT NOT NULL,
-  published_at TEXT NOT NULL,
+  -- toISOString shape only, so comparing text compares instants (dashboard windows).
+  published_at TEXT NOT NULL CHECK (
+    published_at GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9].[0-9][0-9][0-9]Z'
+  ),
   publisher_name TEXT,
   publisher_homepage TEXT,
   publisher_url TEXT,

@@ -211,7 +211,7 @@ erDiagram
   }
 ```
 
-`subscriptions` is unique on company and email. `notified` is unique on email, company, and `guid`, and is written in the same transaction as the outbox row it belongs to.
+`subscriptions` is unique on company and email, ignoring case. The address is stored as typed. `notified` is unique on email, company, and `guid`, and is written in the same transaction as the outbox row it belongs to.
 
 ## Evaluation store
 
