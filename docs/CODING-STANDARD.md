@@ -68,7 +68,8 @@ Fewer files:
 | Filters          | `src/core/filters.js`             | The query string: window, custom dates, and verdict                      |
 | Dashboard        | `src/core/dashboard.js`           | Index order, tallies, last mentioned, collection start, the address rule |
 | Coverage read    | `src/infra/coverage-read.js`      | Dashboard queries on the coverage store                                  |
-| Server           | `src/server/app.js`               | Routes, the cross-site guard, headers, and static assets                 |
+| Server           | `src/server/app.js`               | Routes, method checks, headers, static files, and the 500 boundary       |
+| Page replies     | `src/server/pages.js`             | What each page reads from the stores, and its status                     |
 | Subscription     | `src/server/subscription.js`      | The subscribe POST: guard, body, address, insert, page or JSON           |
 | Markup           | `src/ui/pages/markup.js`          | The escaping `html` tag and `safeHref`                                   |
 | Page shell       | `src/ui/pages/page.js`            | UTC format helpers, `<time>`, and the layout around every page           |
