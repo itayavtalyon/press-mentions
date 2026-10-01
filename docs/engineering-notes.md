@@ -8,15 +8,15 @@ Locked with Itay on 2026-09-30. The boundaries below were corrected on 2026-10-0
 
 The next change should keep these splits. They were mixed once, and that was the mistake.
 
-- Shared helpers live in `src/core/common.js`: `ownValue`, `defineValue`, and `isRecord`. A helper used by more than one model goes there. A helper used by one model stays in that model. Do not add another one-function utility file.
+- Shared helpers live in `src/core/common.js`: `ownValue`, `defineValue`, and `isRecord`. Nothing else goes there. A helper used by one model stays in that model. The model map and the rule against new helper files are in `docs/CODING-STANDARD.md`. Agents start at `AGENTS.md`.
 - `Classifier` in `src/core/classifier.js` builds one Ollama call and reads verdicts from the reply. It has no expected answer. Production will use this same class.
 - Scoring, gold labels, and anything that exists only because we already know the right result live in the prompt-eval job. `PromptScore` in `src/jobs/prompt-eval/score.js` compares classifier verdicts with `expected_json`. Do not put `score` back on the classifier.
-- Evaluation cases are rows in `data/evaluation.sqlite`, which is committed with the recorded scores. There is no JavaScript case list and the job does not seed an empty table. An empty `cases` table fails the run. Do not recreate a `cases.js` seed.
-- `EvaluationStore` in `src/jobs/prompt-eval/store.js` is the only evaluation model. It owns `cases` and `scores`. Do not add a second scores schema.
-- `SqliteDatabase` in `src/infra/database.js` opens SQLite, sets WAL, the busy timeout, and foreign keys, and runs SQL. It does not know table names. `EvaluationStore` is the model that knows the `cases` and `scores` tables, the queries, and the writes. Coverage and alerts open through `openDatabase` in that same file. Do not open `better-sqlite3` from a job or from core.
-- Both jobs take the exclusive lock with `withLock` in `src/infra/lock.js`. Do not add a second lock helper.
+- Evaluation cases are rows in the evaluation SQLite database. There is no JavaScript case list and the job does not seed an empty table. An empty `cases` table fails the run. Do not recreate a `cases.js` seed.
+- `SqliteDatabase` in `src/infra/database.js` opens SQLite, sets WAL and the busy timeout, and runs SQL. It does not know table names. `EvaluationStore` is the model that knows the `cases` and `scores` tables, the queries, and the writes. Another database gets its own store model on top of `SqliteDatabase`. Do not open `better-sqlite3` from a job or from core.
 - A company note is optional. Store one only when we have it. The database includes a few easy cases that do carry a note, so that path is real data.
-- Environment settings are read only in `src/config.js`. That includes `COVERAGE_DB`, `GOOGLE_TOKEN_MS`, the evaluation database, the Ollama host, the classifier model (`MODEL`), and the classifier prompt (`PROMPT_VERSION`, such as `v002`). Do not read those variables inside a job. `src/infra/database.js` opens SQLite. Each store knows its own tables. The prompt-eval job still scores every installed chat model and every saved prompt; the configured pair is the one classification uses.
+- Environment settings are read only in `src/config.js`. That includes `COVERAGE_DB`, `GOOGLE_TOKEN_MS`, the evaluation database, and the Ollama host. Do not read those variables inside a job. The live model and prompt are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js` (`gemma4:12b`, `v002`). Edit them by hand. They are not environment variables. The prompt-eval job still scores every installed chat model and every saved prompt, and it does not read that pair.
+- `SqliteDatabase` in `src/infra/database.js` opens SQLite. Each store knows its own tables. The evaluation schema is `EvaluationStore` in `src/jobs/prompt-eval/store.js` (`cases` and `scores`). There is no second evaluation schema.
+- Architecture locks from the 2026-10-01 review live in `docs/ARCHITECTURE.md`, the ADRs, and `docs/CODING-STANDARD.md`.
 
 ### Behavior
 

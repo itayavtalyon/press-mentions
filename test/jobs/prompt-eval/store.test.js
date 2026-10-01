@@ -4,6 +4,7 @@ import path from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { isRecord, ownValue } from "../../../src/core/common.js";
 import { SqliteDatabase } from "../../../src/infra/database.js";
 import { EvaluationStore } from "../../../src/jobs/prompt-eval/store.js";
 
@@ -45,6 +46,33 @@ const HARVEY_NOTE = {
     publisher: "TechCrunch",
   },
 };
+
+describe("evaluation schema", () => {
+  it("has cases and scores, and no other table", () => {
+    const databasePath = givenDatabasePath();
+    const store = openStore(databasePath);
+    store.close();
+    const database = new SqliteDatabase(databasePath);
+    const names = database
+      .prepare(
+        "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' ORDER BY name",
+      )
+      .all()
+      .map((row) => {
+        if (!isRecord(row)) {
+          throw new TypeError("table name is missing");
+        }
+        const name = ownValue(row, "name");
+        if (typeof name !== "string") {
+          throw new TypeError("table name is missing");
+        }
+        return name;
+      });
+    database.close();
+
+    expect(names).toEqual(["cases", "scores"]);
+  });
+});
 
 describe("evaluation cases", () => {
   it("writes parameters and the expected result in separate columns", () => {

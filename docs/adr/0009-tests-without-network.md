@@ -33,7 +33,13 @@ Every product promise has a test:
 - Subscribe inserts a unique pair and rejects a bad address.
 - Feed strings are escaped. A non-http(s) link is not rendered as `href`. A bad custom range answers 400.
 - The export writes `last_mentioned_at` and `as_of`, replaces subscription emails, and fails on a copy over 100 MB.
-- The eval program writes a score row and does not change the prompt constant.
+- The eval program writes a score row and does not change `LIVE_MODEL` or `LIVE_PROMPT_VERSION`.
+- A week is seven days from the window start. Round-robin walks indexes across those slices and stops at 150.
+- The title path is unwrap failure, HTTP 400, 401, 403, or 404, or Readability text that is empty after trim. The fetcher refuses a non-public URL.
+- The third exhausted run on one stage sets `retryable` to 0 and leaves the stage unchanged.
+- The export mention list is the previous complete UTC quarter. A failed company has no JSON file, and the command exits non-zero.
+- `GET /companies/:id` is the company page. A posted email that is already subscribed returns that page with status 200.
+- The mailer writes `data/alerts/<outbox id>.txt` and deletes the row only after that write.
 
 Vitest thresholds for `src/**/*.js` are raised from 90 to 100 on lines, statements, functions, and branches. Entry points are shims: they read the environment, build the adapters, call one exported function, and set the exit code. They hold no branches worth testing and are excluded from coverage by name in `vitest.config.js` (`src/jobs/{backfill,daily,mail,eval}.js`, `src/server/index.js`). Everything they call lives in tested modules. A shim that grows a branch moves that branch into a module. The gate is not met by spawning processes.
 

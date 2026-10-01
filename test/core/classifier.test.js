@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { Classifier } from "../../src/core/classifier.js";
+import {
+  Classifier,
+  LIVE_MODEL,
+  LIVE_PROMPT_VERSION,
+} from "../../src/core/classifier.js";
 
 const PROMPT = {
   body: "{{article}}\n{{publisher}}\n{{homepage}}\n{{candidates}}",
@@ -9,6 +13,13 @@ const PROMPT = {
 };
 
 const classifier = new Classifier();
+
+describe("live classification pair", () => {
+  it("is the hand-edited constant, not an environment variable", () => {
+    expect(LIVE_MODEL).toBe("gemma4:12b");
+    expect(LIVE_PROMPT_VERSION).toBe("v002");
+  });
+});
 
 describe("Classifier request shape", () => {
   it("injects the model and leaves a company name alone when it has no note", () => {

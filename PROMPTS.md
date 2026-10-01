@@ -147,3 +147,24 @@ If you have any questions while implementing this, stop and grill me before cont
 
 Before you start, log this prompt in the coding agent prompt file.
 ```
+
+## 2026-10-01 — Architecture deep review
+
+The multiple-choice answers from this review are locked in `docs/ARCHITECTURE.md`, `docs/adr/`, and `docs/CODING-STANDARD.md`.
+
+```text
+Deep review the architecture for this exercise. Apply my workflows, and code standards, and grill me about anything not clear, or left open / unanswered (the goal is that an implementer will have all the information needed and will not invent anything).
+I want us to set a coding standard ts
+```
+
+## 2026-10-01 — Coding standards for agents
+
+```text
+Got cut off, I want to set some coding standards to the coding agents. I want SOLID principles applied, code should be simplified. Less files, group models by functionality so each model is in charge of one thing, and it is easy to understand what.
+```
+
+## 2026-10-01 — Prompt log
+
+```text
+We also need to record the prompts I use with you in the @PROMPTS.md file
+```

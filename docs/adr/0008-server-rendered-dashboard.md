@@ -12,11 +12,13 @@ The reviewer needs a quarterly view, a last-mentioned line, and a way to subscri
 
 ## Decision
 
-The server renders HTML. There is no separate frontend application.
+The server renders HTML. There is no separate frontend application and no pagination. It binds `127.0.0.1`. `PORT` defaults to 3000. A set value that is not an integer from 1 to 65535 throws.
 
-The index lists companies by most recently mentioned. Companies with no visible mention are at the bottom and say "no coverage found." Last mentioned is global, not scoped to the selected window (ADR 0001). The default window is last quarter, with controls for this quarter and a custom range (ADR 0001).
+`GET /` is the index. `GET /companies/:id` is one company, and `:id` is the company slug. `POST /companies/:id/subscriptions` inserts one email for that company. `GET /review` is the operator list. The window query is `window=last`, `window=this`, or `window=custom` with `from` and `to` as UTC instants. Omitted `window` means last quarter. An optional `verdict` is one of `positive`, `negative`, `neutral`, or `unranked`. Omitted means every visible verdict.
 
-A company page lists that company's visible mentions for the selected window and can filter by verdict. A button opens a dialog whose form posts an email for that company only. The POST inserts into the alerts store (ADR 0005, ADR 0007). A duplicate pair answers that the address is already subscribed. A malformed address is rejected. A few lines of script open the dialog. The form still submits without it.
+The index sorts by last mentioned descending, companies with none last, then display name ascending. The tally line is the selected window, not all stored data.
+
+The POST response is that company page with status 200. The page says subscribed, or that the address is already subscribed. A malformed address or a bad range is 400 and names the field. An address is trimmed, has one `@`, no spaces, a dot in the domain, and length at most 254. Uniqueness compares the whole address without regard to case. A few lines of script open the dialog. The form still submits without it.
 
 Each mention shows its `text_source`, so a headline judgment is marked. The company page shows the tally line from ADR 0002.
 

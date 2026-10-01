@@ -78,7 +78,7 @@ flowchart TB
   scorer --> evalDb
 ```
 
-Exercise implementations are the Google News RSS adapter, the `batchexecute` unwrap, an HTTP fetcher, Mozilla Readability on linkedom, the Ollama client, an in-memory bucket, and a log-and-file sender. The orchestrator takes these as arguments. Pure functions, including day counts and the bucket math, are not behind a port.
+Exercise implementations are the Google News RSS adapter, the `batchexecute` unwrap, an HTTP fetcher, Mozilla Readability on linkedom, the Ollama client, an in-memory bucket, and a log-and-file sender. The orchestrator takes these as arguments. Pure functions, including day counts and the bucket math, are not behind a port. An adapter that waits or jitters also takes a clock and a random source in `[0, 1)`.
 
 ## Collection and classification
 
@@ -133,7 +133,7 @@ sequenceDiagram
   Note over Daily,Alerts: Backfill rows are not eligible. A second run enqueues only what is still new.
   Cron->>Mail: Separate process, after daily in the same crontab line
   Mail->>Alerts: Read a queue row
-  Mail->>Mail: Append the body to the log and to data/alerts/
+  Mail->>Mail: Write data/alerts/<id>.txt and the same body to the log
   Mail->>Alerts: Delete the row after success
 ```
 
@@ -214,13 +214,23 @@ erDiagram
 
 ```mermaid
 erDiagram
+  cases {
+    text id
+    int position
+    text parameters_json
+    text expected_json
+  }
   scores {
     text model_id
     text prompt_id
     int score
+    int relatedness_correct
+    float seconds_per_case
     text scored_at
   }
 ```
+
+`cases` is the only labeled set. The program does not seed it. An empty table fails the eval run. `parameters_json` is the prompt input. `expected_json` is the gold verdict by company name. `scores` is unique on model, prompt, and `scored_at`. The query is in `src/jobs/prompt-eval/store.js`.
 
 ## Flow into data/
 
@@ -242,7 +252,7 @@ flowchart LR
   mail --> alertFiles
 ```
 
-Each JSON file has the company name, `last_mentioned_at` (the newest visible `published_at` across all stored data, or null), the export's `as_of`, and the visible mentions for the exported window: title, link, date, verdict, and text source. The "N days ago" sentence is rendered by the page, never stored. Hidden verdicts remain in `data/coverage.sqlite`. Copies use `db.backup()`. The export may be partial and fails loudly above 100 MB per file.
+Each JSON file has `name`, `last_mentioned_at` (the newest visible `published_at` across all stored data, or null), `as_of`, and `mentions`. The mention list is the visible mentions whose `published_at` falls in the previous complete UTC quarter at `as_of`. Each mention has `title`, `link`, `published_at`, `verdict`, and `text_source`. The "N days ago" sentence is rendered by the page, never stored. Hidden verdicts remain in `data/coverage.sqlite`. Copies use `db.backup()`. A company that failed has no file. The command still writes the rest, then exits non-zero. A file over 100 MB throws and is not written. Before the alerts copy, every email column becomes `redacted@example.com`.
 
 ## Runtime and configuration
 
@@ -259,7 +269,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | `PUBLISHER_TOKEN_MS` | Refill interval for other hosts, default 2000                                       |
 | `ALERT_EMAIL`        | Default subscriber for every company; `.env.example` ships an `example.com` address |
 
-The model id, the prompt version, the backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants, not environment variables. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each job holds an exclusive lock file. Every connection uses WAL and `busy_timeout`.
+The live model and prompt version are `LIVE_MODEL` (`gemma4:12b`) and `LIVE_PROMPT_VERSION` (`v002`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each collection job holds `<COVERAGE_DB>.lock`, writes its pid, and deletes the file when it finishes. A crash leaves the file. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
 
 Logging is structured enough to grep: company, `guid`, stage, and error. A 100-item feed is logged as truncated. Parse failures log the raw model text.
 
@@ -280,6 +290,7 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 | ------------------------------------------------------ | ----------------------------------- |
 | One choice and the alternatives                        | `docs/adr/`                         |
 | How the run fits together                              | This file                           |
+| Types, errors, and which file owns a job               | `docs/CODING-STANDARD.md`           |
 | Setup, commands, model, prompt, limits, production, v2 | Main README, written as the runbook |
 | What to build first                                    | `docs/BUILD-PLAN.md`                |
 
@@ -299,18 +310,19 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 
 ## Open questions and risks
 
-- Which installed model wins is unknown until the labeled set is scored. The constants stay unset until that run.
+- Which installed model wins is unknown until the labeled set is scored. Until then collection uses the constants above. Eval does not change them.
 - Seconds per article on this M1 are unknown. With the cap, the estimate is about 6k capped candidates plus the long tail, roughly one night at 5 s each. Measure seconds per article during eval, and start the real backfill no later than Oct 3.
 - Every candidate is unwrapped (two Google requests) and fetched. At about 8k+ candidates, that is several hours of Google traffic from one IP, and a block is plausible. A block backs off and leaves rows retryable. It does not bypass anything.
-- `batchexecute` is unofficial. When it breaks, new rows fall back to the title and the README should say the unwrap failed.
+- `batchexecute` is unofficial. When it breaks, new rows take the title path in ADR 0006 and the README should say the unwrap failed.
 - A week that returns 100 items is silently incomplete, and the cap samples it further. The dashboard does not mark sampled companies. The README does.
-- Many business pages return 401, 403, or a script shell. Those mentions are title judgments, and `text_source` shows it.
+- Many business pages return 401, 403, or a script shell. A shell is a 200 whose Readability text is empty after trim. Those mentions are title judgments, and `text_source` shows it. The fetcher allows only public `http` and `https` URLs (ADR 0006).
 - The overlay must be final before the real backfill. A company already backfilled keeps its candidates when its query changes later; re-collecting it means clearing its `backfilled_at` by hand. A smoke run on 1 Oct 2026 stored 150 "edge" items for Ludeo before the overlay existed.
+- Measured on 1 Oct 2026 with the overlay terms: Bites, Kini, Peak, MST, Silo, Launchpad, and Rewire return few or no stories about the company, and Orchard is still mostly other uses of the word. Those may be quiet companies or a recall loss from the terms. The README should list them.
 - The overlay decides precision for about 30 ordinary-word names. A wrong or missing descriptor is a silent precision loss. The labeled set should include one hit and one miss for several of those names, not only Harvey.
 - The mailer can send the same body twice if it crashes after a successful handoff and before the delete.
 - A mention classified more than 72 hours after publication never alerts.
 - Article text is committed in `data/coverage.sqlite`. Size is the only check.
-- The subscribe form accepts any well-formed address. The exercise sender does not deliver mail. SMTP without a confirmation step would.
+- The subscribe form accepts a trimmed address with one `@`, no spaces, a dot in the domain, and length at most 254. Comparison is case-insensitive. The exercise sender does not deliver mail. SMTP without a confirmation step would. A new subscriber receives the last 72 hours on the next daily run (ADR 0007).
 - The coverage gate is 100%. Error branches have to be driven through fakes, or the gate becomes a pile of empty assertions. The promise list in ADR 0009 is the review checklist. Entry-point shims are excluded by name, so they must stay free of logic (ADR 0009).
-- Backoff limits (attempts, maximum delay) are still unset numbers. Three consecutive exhaustions stop the dependent stage (ADR 0006), so a lasting block costs at most three full backoffs.
+- Three consecutive exhaustions stop the dependent stage (ADR 0006), so a lasting block costs at most three full backoffs. The per-attempt limits are the constants in the runtime section.
 - The seed has 258 names. Twelve carry a parenthetical: ten `(formerly X)` or `(formerly known as X)`, plus `Lambda (lambda.ai)` and `SSI (Safe Superintelligence)`. All twelve become aliases. The overlay replaces the ones that are ordinary words (Edge, Trellis).

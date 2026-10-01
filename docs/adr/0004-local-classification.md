@@ -20,9 +20,21 @@ Call options: `format` is a JSON schema built per call, with the candidate names
 
 A parse failure is stored as `uncertain` with the raw text and the review flag. There is no keyword fallback and no second guess.
 
-The live model id and prompt version are constants in code. An offline program reads a model name, runs every saved prompt on the labeled set, writes `model id`, `prompt id`, `score`, and `date` to the evaluation store, prints the scores, and marks the winner. A point requires the expected relevance outcome and, when the case is about the company, the expected tone. Ties break to the higher count of correct relatedness decisions, then to the newer prompt version. The program does not edit the constants. A running process keeps the pair it loaded. The next process reclassifies rows stored under a different pair, and it does not refetch those articles.
+The live model id and prompt version are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js`. Today they are `gemma4:12b` and `v002`. A person edits them by hand. They are not environment variables. The eval program does not read them and does not edit them. A running process keeps the pair it loaded. The next process reclassifies rows stored under a different pair, and it does not refetch those articles.
 
-The labeled set is a regression set: company, text, text source, and expected verdict. It starts from a hand-labeled sample of about 40 articles, including a Harvey company story and a Harvey non-company story, and grows when a real miss or a flagged `uncertain` row is labeled.
+Call options on `Classifier` are temperature 0, seed 0, `num_ctx` 8192, and an article cap of 6000 characters. `think` is false. The program does not edit those either.
+
+Saved prompts are `prompt/classifier.vNNN.txt`. Each file must contain `{{article}}`, `{{publisher}}`, `{{homepage}}`, and `{{candidates}}`. A company line is the name, or `Name — note` when the case has a note. The note is optional.
+
+The note is the overlay descriptor (`seed/overlay.json`, stored as `companies.descriptor`). Not built yet: the classify stage reads each candidate's descriptor and passes it to `Classifier` as that company's note, and a candidate without a descriptor gets no note. An eval case for a company in the overlay uses the overlay descriptor, word for word, as its note, so the eval measures the line production will send. Which name the classify stage sends, the seed line or the query name, is not decided.
+
+The eval program lists installed models with `ollama list`, skips names matching `/embed/i`, and fails when no chat model remains. It then loops models, then prompt files, then cases. It does not stop at the three models installed on this machine.
+
+Cases live only in the evaluation SQLite `cases` table (`id`, `position`, `parameters_json`, `expected_json`). There is no JavaScript seed. An empty table fails the run. A person inserts the rows. `scores` stores `model_id`, `prompt_id`, `score`, `relatedness_correct`, `seconds_per_case`, and `scored_at`, unique on model, prompt, and time. `seconds_per_case` is the run's elapsed milliseconds divided by the case count, then by 1000.
+
+A gold label of `uncertain` throws. A missing key in the reply counts as `uncertain` for that company. Relevance is `related` for `positive`, `negative`, `neutral`, and `unranked`; `unrelated` for `unrelated`; and `unknown` for `uncertain`. Relatedness counts a match of those buckets. When the gold label is `unrelated`, a point is awarded only if the reply is `unrelated`. When the gold label is about the company, a point is awarded only if the reply equals that verdict. Ties break to the higher relatedness count, then to the newer `vNNN`. If that still ties, the program prints the tie and does not pick a model by name.
+
+The labeled set is a regression set stored as cases: article text, publisher, homepage, company names, an optional note, and the expected verdict. It starts from a hand-labeled sample of about 40 articles, including a Harvey company story and a Harvey non-company story, and grows when a real miss or a flagged `uncertain` row is labeled. Those rows are inserted into `cases`. They are not a JavaScript list.
 
 ## Consequences
 

@@ -13,6 +13,18 @@ export const VERDICT_NAMES = [
   "uncertain",
 ];
 
+/**
+ * Model collection uses until a person edits it after eval (ADR 0004).
+ * The eval job does not read this.
+ */
+export const LIVE_MODEL = "gemma4:12b";
+
+/**
+ * Prompt collection uses until a person edits it after eval (ADR 0004).
+ * The eval job does not read this. It must name a `prompt/classifier.vNNN.txt` file.
+ */
+export const LIVE_PROMPT_VERSION = "v002";
+
 const TOKENS = [
   "{{article}}",
   "{{publisher}}",

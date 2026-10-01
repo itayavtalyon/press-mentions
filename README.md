@@ -35,16 +35,14 @@ npm run verify
 
 ## Architecture
 
-Collection and storage are described in `docs/ARCHITECTURE.md`. The evaluator is described in `docs/engineering-notes.md`.
+`docs/ARCHITECTURE.md` is how the pieces move. `docs/adr/` records each choice. `docs/CODING-STANDARD.md` is the type, error, and file-ownership standard. `AGENTS.md` points coding agents at it. The evaluator boundaries are in `docs/engineering-notes.md`.
 
-- `src/config.js` — classifier model, prompt version, evaluation database, and Ollama host
+- `src/config.js` — paths, the Google interval, and the Ollama host. The live model and prompt version are constants in `src/core/classifier.js`.
 - `src/jobs` — backfill, daily job, and the prompt evaluator
 - `src/core` — domain logic, including the classifier
 - `src/infra` — Google News, Ollama, and SQLite adapters
 - `src/server` — HTTP server (API and dashboard)
 - `src/web` — frontend assets served by the server
-
-Decision records go in `docs/adr`. `docs/adr/0000-template.md` is only a template.
 
 ## Assumptions
 
