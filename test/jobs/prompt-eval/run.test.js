@@ -183,6 +183,6 @@ describe("runPromptEval failures", () => {
     const status = await runPromptEval(harness.ports);
 
     expect(status).toBe(1);
-    expect(harness.errors[0]).toMatch(/eval lock is held/u);
+    expect(harness.errors[0]).toMatch(/holds /u);
   });
 });

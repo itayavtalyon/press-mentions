@@ -4,8 +4,8 @@ import { describe, expect, it, onTestFinished } from "vitest";
 
 import { openAlertsStore } from "../../src/infra/alerts-store.js";
 import { openCoverageStore } from "../../src/infra/coverage-store.js";
-import { openDatabase } from "../../src/infra/database.js";
-import { openEvaluationStore } from "../../src/infra/evaluation-store.js";
+import { openDatabase, SqliteDatabase } from "../../src/infra/database.js";
+import { EvaluationStore } from "../../src/jobs/prompt-eval/store.js";
 import { givenTemporaryDirectory } from "../helpers/files.js";
 
 /**
@@ -108,12 +108,14 @@ describe("store schemas", () => {
     ]);
   });
 
-  it("evaluation has scores", () => {
-    const database = closedAfterTest(
-      openEvaluationStore(givenPath("evaluation.sqlite")),
-    );
+  it("evaluation has cases and scores", () => {
+    const database = new SqliteDatabase(givenPath("evaluation.sqlite"));
+    const store = new EvaluationStore(database);
+    onTestFinished(() => {
+      store.close();
+    });
 
-    expect(tableNames(database)).toEqual(["scores"]);
+    expect(tableNames(database.connection())).toEqual(["cases", "scores"]);
   });
 });
 

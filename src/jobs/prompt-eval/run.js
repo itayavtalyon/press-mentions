@@ -1,7 +1,6 @@
-import { closeSync, openSync, unlinkSync } from "node:fs";
-
 import { loadConfig } from "../../config.js";
 import { Classifier } from "../../core/classifier.js";
+import { withLock } from "../../infra/lock.js";
 import { OllamaClient } from "../../infra/ollama.js";
 
 import { formatReport, pickWinner } from "./report.js";
@@ -29,31 +28,6 @@ import { PromptScore } from "./score.js";
  */
 
 /**
- * Hold an exclusive lock file. The returned function releases it.
- * @param {string} lockPath Lock path, next to the evaluation database.
- * @returns {() => void} Release. Call it once, including after a failure.
- */
-function holdLock(lockPath) {
-  let descriptor;
-
-  try {
-    // eslint-disable-next-line security/detect-non-literal-fs-filename -- The lock path is the evaluation database path plus a suffix.
-    descriptor = openSync(lockPath, "wx");
-  } catch (error) {
-    throw new Error(`eval lock is held (${lockPath}): ${String(error)}`, {
-      cause: error,
-    });
-  }
-
-  closeSync(descriptor);
-
-  return () => {
-    // eslint-disable-next-line security/detect-non-literal-fs-filename -- The same lock file is removed here.
-    unlinkSync(lockPath);
-  };
-}
-
-/**
  * Run the tournament and print the scores. Returns 0 on a finished report.
  * @param {PromptEvalPorts} ports Ports and configuration.
  * @returns {Promise<number>} Process status.
@@ -75,13 +49,10 @@ export async function runPromptEval(ports) {
  */
 async function executeEval(ports) {
   const databasePath = loadConfig(ports.env, ports.cwd).databasePath;
-  const release = holdLock(`${databasePath}.lock`);
 
-  try {
-    return await scoreAndStore(ports, databasePath);
-  } finally {
-    release();
-  }
+  return withLock(`${databasePath}.lock`, () =>
+    scoreAndStore(ports, databasePath),
+  );
 }
 
 /**
