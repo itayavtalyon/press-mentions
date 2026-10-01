@@ -1,59 +1,13 @@
-import { fileURLToPath } from "node:url";
-
 import request from "supertest";
 import { describe, expect, it } from "vitest";
 
-import { createApp, readAssets } from "../../src/server/app.js";
-import {
-  addCompany,
-  addMention,
-  givenCoverageStore,
-} from "../helpers/coverage.js";
+import { readAssets } from "../../src/server/app.js";
+import { givenCoverageStore } from "../helpers/coverage.js";
 import { readText } from "../helpers/files.js";
+import { ASSETS, givenApp, givenStoredMention } from "../helpers/server.js";
 
-const NOW = new Date("2026-10-05T12:00:00.000Z");
-const ASSETS = fileURLToPath(new URL("../../src/ui/browser/", import.meta.url));
 const CSP =
   "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'";
-
-/**
- * @param {import("better-sqlite3").Database} [coverage] Coverage store. Defaults to one company with one mention.
- * @returns {{ app: ReturnType<typeof createApp>, logged: string[] }} The request handler and its log lines.
- */
-const givenApp = (coverage = givenStoredMention()) => {
-  /**
-   * @type {string[]}
-   */
-  const logged = [];
-  const app = createApp({
-    assets: readAssets(ASSETS),
-    clock: { now: () => NOW.getTime(), sleep: async () => {} },
-    coverage,
-    log: (event) => {
-      logged.push(event);
-    },
-  });
-  return { app, logged };
-};
-
-/**
- * @returns {import("better-sqlite3").Database} A store with Acme and one positive mention last quarter.
- */
-const givenStoredMention = () => {
-  const database = givenCoverageStore();
-  addCompany(database, {
-    backfilledAt: "2026-10-02T09:00:00.000Z",
-    displayName: "Acme",
-    id: "acme",
-  });
-  addMention(database, {
-    companyId: "acme",
-    guid: "g1",
-    publishedAt: "2026-09-01T00:00:00.000Z",
-    verdict: "positive",
-  });
-  return database;
-};
 
 describe("GET /", () => {
   it("renders the index from the store with the security headers", async () => {
@@ -63,7 +17,7 @@ describe("GET /", () => {
     expect(response.headers["content-type"]).toBe("text/html; charset=utf-8");
     expect(response.headers["content-security-policy"]).toBe(CSP);
     expect(response.headers["x-content-type-options"]).toBe("nosniff");
-    expect(response.headers["referrer-policy"]).toBe("no-referrer");
+    expect(response.headers["referrer-policy"]).toBe("same-origin");
     expect(response.text).toContain("1 mention, 1 rated");
     expect(response.text).toContain("Collecting since 1 Jul 2026");
   });
@@ -96,7 +50,9 @@ describe("GET /", () => {
   });
 
   it("says collection has not run on an empty store", async () => {
-    const response = await request(givenApp(givenCoverageStore()).app).get("/");
+    const response = await request(
+      givenApp({ coverage: givenCoverageStore() }).app,
+    ).get("/");
 
     expect(response.status).toBe(200);
     expect(response.text).toContain("Collection has not run yet.");
@@ -142,7 +98,7 @@ describe("other requests", () => {
 
   it("answers 500 with the error page when the store fails, and logs it", async () => {
     const coverage = givenStoredMention();
-    const { app, logged } = givenApp(coverage);
+    const { app, logged } = givenApp({ coverage });
     coverage.close();
 
     const response = await request(app).get("/");
@@ -151,5 +107,48 @@ describe("other requests", () => {
     expect(response.text).toContain("Something went wrong");
     expect(response.text).not.toContain("Collecting since");
     expect(logged).toEqual(["server.error"]);
+  });
+});
+
+describe("company routes", () => {
+  it("renders the company page from the store", async () => {
+    const response = await request(givenApp().app).get("/companies/acme");
+
+    expect(response.status).toBe(200);
+    expect(response.text).toContain("<title>Acme · Press Monitor</title>");
+    expect(response.text).toContain("Acme raises a round");
+  });
+
+  it("answers 400 for bad filters on the company page", async () => {
+    const response = await request(givenApp().app).get(
+      "/companies/acme?window=week",
+    );
+
+    expect(response.status).toBe(400);
+    expect(response.text).toContain("Check the filters");
+  });
+
+  it.each([
+    ["/companies/missing", "Company not found"],
+    ["/companies/Acme", "Page not found"],
+    ["/companies/acme/extra", "Page not found"],
+  ])("answers 404 for %s", async (path, heading) => {
+    const response = await request(givenApp().app).get(path);
+
+    expect(response.status).toBe(404);
+    expect(response.text).toContain(heading);
+  });
+
+  it.each([
+    ["post", "/companies/acme", "GET, HEAD"],
+    ["get", "/companies/acme/subscriptions", "POST"],
+  ])("answers %s %s with 405 and Allow: %s", async (method, path, allow) => {
+    const agent = request(givenApp().app);
+    const response = await (method === "post"
+      ? agent.post(path)
+      : agent.get(path));
+
+    expect(response.status).toBe(405);
+    expect(response.headers.allow).toBe(allow);
   });
 });

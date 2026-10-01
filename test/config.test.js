@@ -65,3 +65,22 @@ describe("loadConfig port", () => {
     },
   );
 });
+
+describe("loadConfig alerts store", () => {
+  it("defaults to alerts.sqlite", () => {
+    expect(loadConfig(COVERAGE, "/work").alertsDatabase).toBe("alerts.sqlite");
+  });
+
+  it("reads ALERTS_DB", () => {
+    expect(
+      loadConfig({ ...COVERAGE, ALERTS_DB: "data/live-alerts.sqlite" }, "/work")
+        .alertsDatabase,
+    ).toBe("data/live-alerts.sqlite");
+  });
+
+  it("rejects an empty ALERTS_DB", () => {
+    expect(() => loadConfig({ ...COVERAGE, ALERTS_DB: "" }, "/work")).toThrow(
+      /ALERTS_DB is empty/u,
+    );
+  });
+});

@@ -2,7 +2,9 @@ import { parseHTML } from "linkedom";
 import { describe, expect, it } from "vitest";
 
 import {
+  companyNotFound,
   pageNotFound,
+  requestBlocked,
   serverError,
 } from "../../../src/ui/pages/message-pages.js";
 
@@ -56,5 +58,26 @@ describe("serverError", () => {
     expect(text(document.querySelector(".site-footer"))).not.toContain(
       "Collect",
     );
+  });
+});
+
+describe("companyNotFound and requestBlocked", () => {
+  it.each([
+    [
+      companyNotFound(SHELL, "acme<x>"),
+      "Company not found",
+      "There's no company with id “acme<x>”.",
+    ],
+    [
+      requestBlocked(SHELL),
+      "Request blocked",
+      "This form can only be submitted from Press Monitor itself.",
+    ],
+  ])("titles the page by its heading", (page, heading, sentence) => {
+    const document = dom(page);
+
+    expect(document.title).toBe(`${heading} · Press Monitor`);
+    expect(text(document.querySelector(".message-page h1"))).toBe(heading);
+    expect(text(document.querySelector(".message-page p"))).toBe(sentence);
   });
 });

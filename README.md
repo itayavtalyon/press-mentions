@@ -61,6 +61,6 @@ Unwrap, fetch, and extract are three cron commands. Each one, when it exists, ho
 
 ## Limitations
 
-- No API or cron schedule yet. The dashboard has the index page only; the company page, subscribe, and `/review` come next.
+- No API or cron schedule yet. The dashboard has the index and company pages and the subscribe form. `/review` and the page script come next. A browser that supports `<dialog>` but not invoker commands, with script off, cannot open the subscribe dialog.
 - The forward feed file is a placeholder. Unwrap, fetch, extract, and classification of collected articles are not built yet.
 - Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.

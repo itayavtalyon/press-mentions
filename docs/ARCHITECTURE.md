@@ -264,7 +264,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | Variable             | Role                                                                                |
 | -------------------- | ----------------------------------------------------------------------------------- |
 | `COVERAGE_DB`        | Coverage SQLite path                                                                |
-| `ALERTS_DB`          | Alerts SQLite path                                                                  |
+| `ALERTS_DB`          | Alerts SQLite path, default `alerts.sqlite`                                         |
 | `EVAL_DB`            | Evaluation SQLite path                                                              |
 | `OLLAMA_HOST`        | Default `http://127.0.0.1:11434`                                                    |
 | `PORT`               | Dashboard port                                                                      |

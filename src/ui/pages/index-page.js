@@ -9,14 +9,8 @@ import {
   windowSentence,
 } from "./filter-form.js";
 import { html } from "./markup.js";
-import {
-  emptyState,
-  formatDay,
-  layout,
-  plural,
-  tallyText,
-  tones,
-} from "./page.js";
+import { formatDay, layout, plural } from "./page.js";
+import { ago, emptyState, tallyText, tones } from "./parts.js";
 
 /**
  * Index page, `GET /` (`docs/ui-design.md` §6.1): every company with last mentioned and the window tally.
@@ -212,9 +206,8 @@ function lastMentionedCell(lastMentionedAt, now) {
   if (lastMentionedAt === undefined) {
     return html`<span class="muted">No coverage</span>`;
   }
-  const days = lastMentionedDays(lastMentionedAt, now);
-  const ago = days === 0 ? "Today" : plural(days, "day ago", "days ago");
-  return html`<time datetime="${lastMentionedAt}">${ago}</time>`;
+  const text = capitalized(ago(lastMentionedDays(lastMentionedAt, now)));
+  return html`<time datetime="${lastMentionedAt}">${text}</time>`;
 }
 
 /**

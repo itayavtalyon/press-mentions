@@ -1,5 +1,6 @@
 import { html } from "./markup.js";
-import { emptyState, formatDay, formatRange } from "./page.js";
+import { formatDay, formatRange } from "./page.js";
+import { emptyState, formField } from "./parts.js";
 
 /**
  * Filter form (`docs/ui-design.md` §5, §6.6): the shared GET form, its error copy, and the sentence that
@@ -11,7 +12,6 @@ import { emptyState, formatDay, formatRange } from "./page.js";
  * @typedef {import("../../core/filters.js").Filters} Filters
  * @typedef {import("../../core/filters.js").Problem} Problem
  * @typedef {ReturnType<typeof html>} Html
- * @typedef {{ name: "from" | "to", label: string, value: string, problem: Problem | undefined, focus: boolean }} DateField
  */
 
 /**
@@ -54,8 +54,8 @@ export function filterForm({ action, form, problems }) {
           ${WINDOW_OPTIONS.map((option) => windowRadio(option, form.window))}
         </div>
         <div class="custom-range">
-          ${dateField({ focus: from !== undefined, label: "From (UTC)", name: "from", problem: from, value: form.from })}
-          ${dateField({ focus: from === undefined && to !== undefined, label: "To (UTC)", name: "to", problem: to, value: form.to })}
+          ${dateField("from", form.from, from, from !== undefined)}
+          ${dateField("to", form.to, to, from === undefined && to !== undefined)}
         </div>
       </fieldset>
       <fieldset>
@@ -134,25 +134,22 @@ export function windowPhrase(filters) {
 }
 
 /**
- * @param {DateField} field One custom date.
- * @returns {Html} Label, input, and the field's error when it has one.
+ * @param {"from" | "to"} name Which custom date.
+ * @param {string} value Typed or prefilled day.
+ * @param {Problem | undefined} problem What is wrong with it.
+ * @param {boolean} focus Whether it is the first bad date.
+ * @returns {Html} The labeled date input.
  */
-function dateField({ name, label, value, problem, focus }) {
-  const invalid =
-    problem !== undefined &&
-    html` aria-invalid="true" aria-describedby="${name}-error"`;
-  return html`<div class="field">
-    <label for="${name}">${label}</label>
-    <input
-      class="input"
-      type="date"
-      id="${name}"
-      name="${name}"
-      value="${value}"
-      ${invalid}${focus && html` autofocus`}
-    />
-    ${problem !== undefined && html`<p class="field-error" id="${name}-error">${problemText(problem)}</p>`}
-  </div>`;
+function dateField(name, value, problem, focus) {
+  return formField({
+    error: problem && problemText(problem),
+    focus,
+    id: name,
+    label: name === "from" ? "From (UTC)" : "To (UTC)",
+    name,
+    type: "date",
+    value,
+  });
 }
 
 /**

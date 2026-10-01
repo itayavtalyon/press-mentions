@@ -44,6 +44,9 @@ The dashboard design was closed with Itay on this date. `docs/ui-design.md` is t
 - An invalid address answers 400 with the form inline on the company page, the typed value kept. Success and an existing subscription still answer 200.
 - The address domain must contain a dot that is not its first or last character.
 - `GET` and `HEAD` work on every page and static file. Any other method on a known path answers 405 with `Allow: GET, HEAD`. An unknown path answers 404 with a page that names it. An unexpected error answers 500 with a page that points to the server log, and the server keeps running. The 500 page does not read the store.
-- Every response carries `X-Content-Type-Options: nosniff` and `Referrer-Policy: no-referrer` beside the CSP. `app.css` and `app.js` are read once at startup.
+- Every response carries `X-Content-Type-Options: nosniff` and `Referrer-Policy: same-origin` beside the CSP. `no-referrer` was tried and dropped: under it, browsers send `Origin: null` on same-origin form posts, which the cross-site guard refuses. `app.css` and `app.js` are read once at startup.
 - `PORT` is trimmed before the check.
+- Subscribing works without script as a normal form POST. With script, `app.js` sends the same form body with `fetch` and `Accept: application/json`, and the same route answers `{ outcome, message }` (`outcome` is `created`, `exists`, or `invalid`, and an invalid one adds `field: "email"` and status 400). The dialog shows the outcome. The words are the same in both paths. Other failures (403, 404, 413, 415) keep their usual replies.
+- The POST body must be `application/x-www-form-urlencoded` (else 415) and at most 4 KiB (else 413). An unknown company answers 404 and stores nothing.
+- `ALERTS_DB` defaults to `alerts.sqlite`.
 - The company page groups mentions by verdict in digest order and shows aliases, the overlay descriptor, and a short text excerpt.

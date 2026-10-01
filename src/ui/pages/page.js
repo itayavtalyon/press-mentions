@@ -1,8 +1,8 @@
 import { html } from "./markup.js";
 
 /**
- * Page shell (`docs/ui-design.md` §2–§4, §8): UTC format helpers, the layout, and the parts more than
- * one page uses. Escaping is `markup.js`.
+ * Page shell (`docs/ui-design.md` §3, §8): the UTC format helpers and the layout around every page.
+ * Shared components are `parts.js`. Escaping is `markup.js`.
  */
 
 /**
@@ -118,51 +118,11 @@ export function layout(page) {
 }
 
 /**
- * @param {string} verdict A visible verdict.
- * @returns {Html} Dot and word, colored by `data-verdict`.
- */
-export function chip(verdict) {
-  return html`<span class="chip" data-verdict="${verdict}"
-    >${dot()}${verdict.charAt(0).toUpperCase()}${verdict.slice(1)}</span
-  >`;
-}
-
-/**
- * @param {Tally} tally Window counts.
- * @returns {string} `18 mentions, 11 rated`.
- */
-export function tallyText(tally) {
-  return `${plural(tally.mentions, "mention", "mentions")}, ${tally.rated} rated`;
-}
-
-/**
- * @param {Tally} tally Window counts.
- * @returns {Html} Positive, negative, and neutral counts. A zero is muted.
- */
-export function tones(tally) {
-  return html`<span class="tones"
-    >${tone("positive", tally.positive)}${tone("negative", tally.negative)}${tone("neutral", tally.neutral)}</span
-  >`;
-}
-
-/**
  * @param {string} iso Instant as ISO text.
  * @returns {Html} A `<time>` in UTC that the page script localizes.
  */
 export function timeUtc(iso) {
   return html`<time datetime="${iso}" data-local>${formatUtcStamp(iso)}</time>`;
-}
-
-/**
- * @param {{ title: string, body?: string, actions?: Html }} state What is empty, why, and what to do.
- * @returns {Html} The one empty-state block.
- */
-export function emptyState({ title, body, actions }) {
-  return html`<div class="empty-state">
-    <p class="empty-state__title">${title}</p>
-    ${body !== undefined && html`<p class="empty-state__body">${body}</p>`}
-    ${actions !== undefined && html`<p class="empty-state__actions">${actions}</p>`}
-  </div>`;
 }
 
 /**
@@ -196,24 +156,4 @@ function collectionNote(collection) {
   return collection === "not-run"
     ? " · Collection has not run yet"
     : ` · Collecting since ${formatDay(collection)}`;
-}
-
-/**
- * @param {"positive" | "negative" | "neutral"} verdict Tone.
- * @param {number} count Mentions with that tone.
- * @returns {Html} One tone count.
- */
-function tone(verdict, count) {
-  return html`<span
-    class="tone${count === 0 && " is-zero"}"
-    data-verdict="${verdict}"
-    >${dot()}${count} ${verdict}</span
-  >`;
-}
-
-/**
- * @returns {Html} The decorative verdict dot.
- */
-function dot() {
-  return html`<span class="dot" aria-hidden="true"></span>`;
 }

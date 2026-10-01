@@ -20,6 +20,31 @@ export function pageNotFound(shell, path) {
 }
 
 /**
+ * @param {Shell} shell Shell state.
+ * @param {string} id The slug that matches no company.
+ * @returns {Html} The 404 page for a company.
+ */
+export function companyNotFound(shell, id) {
+  return messagePage(
+    shell,
+    "Company not found",
+    `There's no company with id “${id}”.`,
+  );
+}
+
+/**
+ * @param {Shell} shell Shell state.
+ * @returns {Html} The 403 page for a form posted from another site.
+ */
+export function requestBlocked(shell) {
+  return messagePage(
+    shell,
+    "Request blocked",
+    "This form can only be submitted from Press Monitor itself.",
+  );
+}
+
+/**
  * @param {Shell} shell Shell state that does not depend on the store, which may be what failed.
  * @returns {Html} The 500 page.
  */

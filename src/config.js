@@ -17,6 +17,7 @@ const BROWSER_ASSETS_PATH = fileURLToPath(
 );
 const DEFAULT_PORT = 3000;
 const MAX_PORT = 65_535;
+const DEFAULT_ALERTS_DATABASE = "alerts.sqlite";
 
 /**
  * @typedef {object} AppConfig
@@ -26,6 +27,7 @@ const MAX_PORT = 65_535;
  * @property {number} googleIntervalMs Minimum milliseconds between two Google News requests.
  * @property {string} databasePath Evaluation SQLite path.
  * @property {string} ollamaHost Ollama host.
+ * @property {string} alertsDatabase Alerts SQLite path. Default `alerts.sqlite`.
  * @property {number} port Dashboard port on 127.0.0.1 (ADR 0008).
  * @property {string} browserAssetsPath Directory of `app.css` and `app.js`.
  */
@@ -47,6 +49,7 @@ export function loadConfig(environment, cwd) {
     googleIntervalMs: googleInterval(environment),
     ollamaHost: setting(environment, "OLLAMA_HOST", DEFAULT_HOST),
     port: port(environment),
+    alertsDatabase: setting(environment, "ALERTS_DB", DEFAULT_ALERTS_DATABASE),
     browserAssetsPath: BROWSER_ASSETS_PATH,
     overlayPath: OVERLAY_PATH,
     seedPath: SEED_PATH,

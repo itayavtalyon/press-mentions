@@ -69,13 +69,17 @@ Fewer files:
 | Dashboard        | `src/core/dashboard.js`           | Index order, tallies, last mentioned, collection start, the address rule |
 | Coverage read    | `src/infra/coverage-read.js`      | Dashboard queries on the coverage store                                  |
 | Server           | `src/server/app.js`               | Routes, the cross-site guard, headers, and static assets                 |
+| Subscription     | `src/server/subscription.js`      | The subscribe POST: guard, body, address, insert, page or JSON           |
 | Markup           | `src/ui/pages/markup.js`          | The escaping `html` tag and `safeHref`                                   |
-| Page shell       | `src/ui/pages/page.js`            | Format helpers, layout, and parts more than one page uses                |
+| Page shell       | `src/ui/pages/page.js`            | UTC format helpers, `<time>`, and the layout around every page           |
+| Parts            | `src/ui/pages/parts.js`           | Components more than one page uses                                       |
 | Filter form      | `src/ui/pages/filter-form.js`     | The filter form, its error copy, and the window sentence                 |
 | Index page       | `src/ui/pages/index-page.js`      | `GET /`                                                                  |
-| Company page     | `src/ui/pages/company-page.js`    | `GET /companies/:id` and the subscribe outcomes                          |
+| Company page     | `src/ui/pages/company-page.js`    | `GET /companies/:id`: head, summary, empty states, and outcomes          |
+| Mention list     | `src/ui/pages/mention.js`         | Verdict sections, one mention, its link, and its excerpt                 |
+| Subscribe form   | `src/ui/pages/subscribe-form.js`  | Button, dialog, inline form, banners, and every subscribe message        |
 | Review page      | `src/ui/pages/review-page.js`     | `GET /review`                                                            |
-| Message pages    | `src/ui/pages/message-pages.js`   | 404 and 403                                                              |
+| Message pages    | `src/ui/pages/message-pages.js`   | 404, 403, and 500                                                        |
 | Page script      | `src/ui/browser/app.js`           | Browser enhancement, per `docs/ui-design.md` §9                          |
 | Lock, clock, log | the file of that name             | That one resource                                                        |
 

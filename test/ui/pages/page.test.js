@@ -4,16 +4,12 @@ import { describe, expect, it } from "vitest";
 import { html } from "../../../src/ui/pages/markup.js";
 import {
   APP_NAME,
-  chip,
-  emptyState,
   formatDay,
   formatRange,
   formatUtcStamp,
   layout,
   plural,
-  tallyText,
   timeUtc,
-  tones,
 } from "../../../src/ui/pages/page.js";
 
 const NOW = new Date("2026-10-05T12:38:00.000Z");
@@ -66,78 +62,6 @@ describe("format helpers", () => {
     [18, "18 mentions"],
   ])("pluralizes %i", (count, expected) => {
     expect(plural(count, "mention", "mentions")).toBe(expected);
-  });
-});
-
-describe("components", () => {
-  it("marks a verdict chip with a word and a hidden dot", () => {
-    const document = dom(chip("negative"));
-
-    expect(document.querySelector(".chip")?.dataset.verdict).toBe("negative");
-    expect(text(document.querySelector(".chip"))).toBe("Negative");
-    expect(
-      document.querySelector(".chip .dot")?.getAttribute("aria-hidden"),
-    ).toBe("true");
-  });
-
-  it("writes the tally line and marks zero tones", () => {
-    const tally = {
-      mentions: 3,
-      negative: 0,
-      neutral: 1,
-      positive: 2,
-      rated: 3,
-    };
-    const spans = [...dom(tones(tally)).querySelectorAll(".tone")];
-
-    expect(tallyText(tally)).toBe("3 mentions, 3 rated");
-    expect(tallyText({ ...tally, mentions: 1, rated: 0 })).toBe(
-      "1 mention, 0 rated",
-    );
-    expect(
-      spans.map((span) => [text(span), span.classList.contains("is-zero")]),
-    ).toEqual([
-      ["2 positive", false],
-      ["0 negative", true],
-      ["1 neutral", false],
-    ]);
-  });
-});
-
-describe("time and empty state", () => {
-  it("prints a UTC time the page script can localize", () => {
-    const time = dom(timeUtc("2026-09-29T14:05:00.000Z")).querySelector("time");
-
-    expect(time?.getAttribute("datetime")).toBe("2026-09-29T14:05:00.000Z");
-    expect(time?.hasAttribute("data-local")).toBe(true);
-    expect(text(time)).toBe("29 Sep 2026, 14:05 UTC");
-  });
-
-  it("renders an empty state without the parts it is not given", () => {
-    const document = dom(emptyState({ title: "Nothing is flagged." }));
-
-    expect(text(document.querySelector(".empty-state__title"))).toBe(
-      "Nothing is flagged.",
-    );
-    expect(document.querySelector(".empty-state__body")).toBeNull();
-    expect(document.querySelector(".empty-state__actions")).toBeNull();
-  });
-
-  it("renders an empty state's body as text and its actions as markup", () => {
-    const document = dom(
-      emptyState({
-        actions: html`<a href="/">Show all</a>`,
-        body: "Fix <it>.",
-        title: "No results to show.",
-      }),
-    );
-
-    expect(text(document.querySelector(".empty-state__body"))).toBe(
-      "Fix <it>.",
-    );
-    expect(text(document.querySelector(".empty-state__actions a"))).toBe(
-      "Show all",
-    );
   });
 });
 
@@ -255,5 +179,15 @@ describe("layout footer", () => {
     expect(text(document.querySelector(".site-footer p"))).toBe(
       "Data as of 5 Oct 2026, 12:38 UTC",
     );
+  });
+});
+
+describe("timeUtc", () => {
+  it("prints a UTC time the page script can localize", () => {
+    const time = dom(timeUtc("2026-09-29T14:05:00.000Z")).querySelector("time");
+
+    expect(time?.getAttribute("datetime")).toBe("2026-09-29T14:05:00.000Z");
+    expect(time?.hasAttribute("data-local")).toBe(true);
+    expect(text(time)).toBe("29 Sep 2026, 14:05 UTC");
   });
 });

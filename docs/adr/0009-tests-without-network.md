@@ -41,7 +41,7 @@ Every product promise has a test:
 - `GET /companies/:id` is the company page. A posted email that is already subscribed returns that page with status 200.
 - The mailer writes `data/alerts/<outbox id>.txt` and deletes the row only after that write.
 - A verdict filter on the index omits companies with zero such mentions in the window. `verdict=all` equals an omitted verdict. An unknown `window` or `verdict` answers 400.
-- A cross-site subscribe POST answers 403 and inserts nothing.
+- A cross-site subscribe POST answers 403 and inserts nothing. A body over 4 KiB answers 413, a non-form body answers 415, and an unknown company answers 404, each with no insert. With `Accept: application/json` the POST answers JSON with the same message as the page.
 - A custom `to` date includes that whole UTC day.
 - `src/ui/browser/app.js` auto-submits a radio change, does not submit on Custom or a date change, restores focus, filters rows by name and alias, and opens the dialog without invoker-command support.
 - Feed text placed by the browser script is set as text, never as HTML.
