@@ -1,7 +1,7 @@
 import { openDatabase } from "./database.js";
 
 /**
- * Coverage store (ADR 0005). `stage` is the next text stage an article needs; `classify` means its text is ready.
+ * Coverage store (ADR 0005). The stage queue reads and writes live in `stage-queue.js`.
  */
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS companies (
@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS articles (
   publisher_homepage TEXT,
   publisher_url TEXT,
   google_url TEXT NOT NULL,
+  body_html TEXT,
   extracted_text TEXT,
   text_source TEXT CHECK (text_source IN ('body', 'title')),
   stage TEXT NOT NULL CHECK (stage IN ('unwrap', 'fetch', 'extract', 'classify')),
@@ -36,9 +37,7 @@ CREATE TABLE IF NOT EXISTS company_articles (
   origin TEXT NOT NULL CHECK (origin IN ('backfill', 'daily')),
   alert_eligible INTEGER NOT NULL DEFAULT 0 CHECK (alert_eligible IN (0, 1)),
   verdict TEXT CHECK (verdict IN ('positive', 'negative', 'neutral', 'unranked', 'unrelated', 'uncertain')),
-  model_id TEXT,
-  prompt_version TEXT,
-  raw_response TEXT,
+  model_id TEXT, prompt_version TEXT, raw_response TEXT,
   review_flag INTEGER NOT NULL DEFAULT 0 CHECK (review_flag IN (0, 1)),
   PRIMARY KEY (company_id, guid)
 ) STRICT;

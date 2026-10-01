@@ -8,7 +8,11 @@ export default defineConfig({
       // ADR 0009: entry shims only wire adapters and call a tested function.
       exclude: [
         "src/jobs/backfill.js",
-        "src/jobs/daily.js",
+        "src/jobs/feed.js",
+        "src/jobs/unwrap.js",
+        "src/jobs/fetch.js",
+        "src/jobs/extract.js",
+        "src/jobs/digest.js",
         "src/jobs/mail.js",
         "src/jobs/prompt-eval/index.js",
         "src/server/index.js",

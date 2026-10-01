@@ -125,6 +125,8 @@ describe("recordBackfill storage", () => {
       publisher_url: null,
       google_url: "https://news.google.com/rss/articles/g1",
       // eslint-disable-next-line unicorn/no-null -- SQLite returns NULL as null.
+      body_html: null,
+      // eslint-disable-next-line unicorn/no-null -- SQLite returns NULL as null.
       extracted_text: null,
       // eslint-disable-next-line unicorn/no-null -- SQLite returns NULL as null.
       text_source: null,

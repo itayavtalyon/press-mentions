@@ -25,7 +25,7 @@ const givenCommittedBackfill = async () => {
   const feed = {
     /**
      * @param {import("../../src/core/overlay.js").Company} company Company searched.
-     * @param {import("../../src/core/windows.js").Window} window Search window.
+     * @param {import("../../src/core/collection.js").Window} window Search window.
      * @returns {Promise<import("../../src/core/collect.js").FeedItem[]>} No items.
      */
     search: async (company, window) => {

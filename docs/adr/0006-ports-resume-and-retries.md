@@ -19,7 +19,7 @@ Each stage writes its result. A later run skips a stage whose result is already 
 | Stage           | Skip when                                                              |
 | --------------- | ---------------------------------------------------------------------- |
 | Feed (backfill) | `backfilled_at` is set                                                 |
-| Feed (daily)    | The `guid` is already stored for that company                          |
+| Feed (forward)  | The `guid` is already stored for that company                          |
 | Unwrap          | A publisher URL or a terminal resolve failure is stored                |
 | Fetch           | A terminal fetch status is stored                                      |
 | Extract         | Extracted text or a terminal empty extract is stored                   |
@@ -27,6 +27,8 @@ Each stage writes its result. A later run skips a stage whose result is already 
 | Alert enqueue   | A `notified` row exists for that email, company, and `guid` (ADR 0007) |
 
 `stage` is the next stage: `unwrap`, then `fetch`, then `extract`, then `classify`. There is no `done` value. A successful stage advances and sets `attempt_count` back to 0. Classify success writes the verdict columns and leaves `stage` at `classify`.
+
+Unwrap, fetch, and extract are separate processes. Cron starts each one. A step reads only articles whose `stage` is its own queue, writes that step's result, and does not call the next step. The coverage row is the queue. Each of those steps, and the feed, holds the one coverage lock from ADR 0003 for its whole run.
 
 The title path sets `text_source` to `title`, `extracted_text` to the title, `stage` to `classify`, and `attempt_count` to 0. It is taken when unwrap fails, when the publisher returns 400, 401, 403, or 404, or when a 200 leaves Readability text empty after trim. That empty extract is the script shell. There is no character threshold. The fetcher requests only `http` and `https`, and it refuses a host that is loopback, link-local, or private. Ollama is not this fetcher. Publisher 429 and 5xx use the HTTP backoff below.
 

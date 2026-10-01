@@ -106,6 +106,10 @@ async function scoreModels(input) {
    * @type {ScoreRow[]}
    */
   const rows = [];
+  /**
+   * @type {import("./report.js").EvalMiss[]}
+   */
+  const misses = [];
 
   for (const modelId of models.chat) {
     for (const prompt of input.prompts) {
@@ -122,12 +126,16 @@ async function scoreModels(input) {
         modelId,
         promptId: prompt.id,
         promptVersion: prompt.version,
-        ...totals,
+        relatedness: totals.relatedness,
+        score: totals.score,
+        secondsPerCase: totals.secondsPerCase,
       });
+      misses.push(...totals.misses);
     }
   }
 
   return {
+    misses,
     outcome: pickWinner(rows),
     possible: countDecisions(input.cases),
     rows,
@@ -144,12 +152,16 @@ async function scoreModels(input) {
  * @param {PromptScore} input.promptScore Scoring against the expected result.
  * @param {string} input.modelId Model injected into each call.
  * @param {() => number} input.monotonicMs Millisecond clock.
- * @returns {Promise<{ score: number, relatedness: number, secondsPerCase: number }>} Pair totals.
+ * @returns {Promise<{ score: number, relatedness: number, secondsPerCase: number, misses: import("./report.js").EvalMiss[] }>} Pair totals.
  */
 async function scorePair(input) {
   let score = 0;
   let relatedness = 0;
   let elapsedMs = 0;
+  /**
+   * @type {import("./report.js").EvalMiss[]}
+   */
+  const misses = [];
 
   for (const evalCase of input.cases) {
     const started = input.monotonicMs();
@@ -166,9 +178,21 @@ async function scorePair(input) {
     );
     score += part.score;
     relatedness += part.relatedness;
+
+    for (const miss of part.misses) {
+      misses.push({
+        actual: miss.actual,
+        caseId: evalCase.id,
+        company: miss.company,
+        expected: miss.expected,
+        modelId: input.modelId,
+        promptId: input.prompt.id,
+      });
+    }
   }
 
   return {
+    misses,
     relatedness,
     score,
     secondsPerCase: elapsedMs / input.cases.length / 1000,

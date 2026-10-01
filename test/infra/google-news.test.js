@@ -101,6 +101,9 @@ const givenHttp = () => {
         calls.push({ url, isBlocked: options.isBlocked });
         return LUDEO_FEED;
       },
+      postForm: async () => {
+        throw new Error("google news search does not post");
+      },
     },
   };
 };

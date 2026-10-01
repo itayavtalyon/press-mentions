@@ -26,23 +26,30 @@ export class PromptScore {
   /**
    * @param {Record<string, string>} expected Gold verdict by company name.
    * @param {Map<string, string>} verdicts Verdicts the classifier read from one reply.
-   * @returns {{ score: number, relatedness: number }} Points and correct relevance decisions.
+   * @returns {{ score: number, relatedness: number, misses: { company: string, expected: string, actual: string }[] }} Points, correct relevance decisions, and the decisions that earned no point.
    */
   tally(expected, verdicts) {
     const names = Object.keys(expected);
     let score = 0;
     let relatedness = 0;
+    /**
+     * @type {{ company: string, expected: string, actual: string }[]}
+     */
+    const misses = [];
 
     for (const name of names) {
-      const decision = scoreDecision(
-        String(ownValue(expected, name)),
-        verdicts.get(name) ?? "uncertain",
-      );
+      const expectedVerdict = String(ownValue(expected, name));
+      const actual = verdicts.get(name) ?? "uncertain";
+      const decision = scoreDecision(expectedVerdict, actual);
       score += decision.point;
       relatedness += decision.relatedness;
+
+      if (decision.point === 0) {
+        misses.push({ actual, company: name, expected: expectedVerdict });
+      }
     }
 
-    return { score, relatedness };
+    return { misses, relatedness, score };
   }
 }
 

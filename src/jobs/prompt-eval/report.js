@@ -7,7 +7,18 @@
  * @property {string[]} skippedEmbeddings Embedding models left out of the run.
  * @property {number} possible Company decisions in the case set.
  * @property {ScoreRow[]} rows One row per model and prompt.
+ * @property {EvalMiss[]} misses Company decisions that earned no point.
  * @property {{ kind: "winner", row: ScoreRow } | { kind: "tie", rows: ScoreRow[] }} outcome Absolute winner, or the rows that remain tied.
+ */
+
+/**
+ * @typedef {object} EvalMiss
+ * @property {string} modelId Installed model name.
+ * @property {string} promptId Prompt version id.
+ * @property {string} caseId Case id.
+ * @property {string} company Company name.
+ * @property {string} expected Gold verdict.
+ * @property {string} actual Verdict read from the reply.
  */
 
 /**
@@ -70,6 +81,12 @@ export function formatReport(report) {
     const seconds = row.secondsPerCase.toFixed(3);
     lines.push(
       `${row.modelId} ${row.promptId} score=${row.score} of ${report.possible} relatedness=${row.relatedness} of ${report.possible} seconds_per_case=${seconds}`,
+    );
+  }
+
+  for (const miss of report.misses) {
+    lines.push(
+      `miss ${miss.modelId} ${miss.promptId} ${miss.caseId} ${miss.company} expected=${miss.expected} actual=${miss.actual}`,
     );
   }
 

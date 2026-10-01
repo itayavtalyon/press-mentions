@@ -3,8 +3,10 @@ import { describe, expect, it } from "vitest";
 import {
   backfillWindow,
   contains,
+  lastQuarter,
   splitWeeks,
-} from "../../src/core/windows.js";
+  thisQuarter,
+} from "../../src/core/collection.js";
 
 describe("backfillWindow", () => {
   it("starts at the previous quarter and ends now", () => {
@@ -26,6 +28,63 @@ describe("backfillWindow", () => {
     const { from } = backfillWindow(new Date("2027-02-14T00:00:00.000Z"));
 
     expect(from).toEqual(new Date("2026-10-01T00:00:00.000Z"));
+  });
+});
+
+describe("lastQuarter", () => {
+  it.each([
+    {
+      name: "is the previous complete quarter",
+      now: "2026-10-05T12:00:00.000Z",
+      from: "2026-07-01T00:00:00.000Z",
+      to: "2026-10-01T00:00:00.000Z",
+    },
+    {
+      name: "ends at a quarter start that is exactly now",
+      now: "2026-10-01T00:00:00.000Z",
+      from: "2026-07-01T00:00:00.000Z",
+      to: "2026-10-01T00:00:00.000Z",
+    },
+    {
+      name: "is the previous year's fourth quarter in January",
+      now: "2027-01-01T00:00:00.000Z",
+      from: "2026-10-01T00:00:00.000Z",
+      to: "2027-01-01T00:00:00.000Z",
+    },
+    {
+      name: "is the quarter before at the last millisecond of a quarter",
+      now: "2026-09-30T23:59:59.999Z",
+      from: "2026-04-01T00:00:00.000Z",
+      to: "2026-07-01T00:00:00.000Z",
+    },
+  ])("$name", ({ now, from, to }) => {
+    expect(lastQuarter(new Date(now))).toEqual({
+      from: new Date(from),
+      to: new Date(to),
+    });
+  });
+
+  it("starts where the backfill window starts", () => {
+    const now = new Date("2027-02-14T00:00:00.000Z");
+
+    expect(lastQuarter(now).from).toEqual(backfillWindow(now).from);
+  });
+});
+
+describe("thisQuarter", () => {
+  it("runs from the current quarter start through now", () => {
+    const now = new Date("2026-11-15T08:00:00.000Z");
+
+    expect(thisQuarter(now)).toEqual({
+      from: new Date("2026-10-01T00:00:00.000Z"),
+      to: now,
+    });
+  });
+
+  it("is empty at the instant a quarter starts", () => {
+    const now = new Date("2026-10-01T00:00:00.000Z");
+
+    expect(thisQuarter(now)).toEqual({ from: now, to: now });
   });
 });
 

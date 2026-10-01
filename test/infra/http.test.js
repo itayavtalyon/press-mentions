@@ -227,6 +227,42 @@ describe("HttpClient.getText on a terminal status", () => {
   });
 });
 
+describe("HttpClient.postForm", () => {
+  it("posts the body as a form and keeps extra headers", async () => {
+    /**
+     * @type {unknown[]}
+     */
+    const sent = [];
+    /**
+     * @type {typeof fetch}
+     */
+    const fetchImpl = async (_url, init) => {
+      sent.push(init);
+      return ok();
+    };
+    const { client } = givenClient(fetchImpl);
+
+    await expect(client.postForm(URL_A, "q=a")).resolves.toBe("<rss/>");
+    await client.postForm(URL_A, "q=b", { headers: { "x-extra": "1" } });
+
+    expect(sent[0]).toMatchObject({
+      method: "POST",
+      body: "q=a",
+      headers: {
+        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+      },
+    });
+    expect(sent[1]).toMatchObject({
+      method: "POST",
+      body: "q=b",
+      headers: {
+        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "x-extra": "1",
+      },
+    });
+  });
+});
+
 describe("ThrottledError", () => {
   it("carries the host", async () => {
     const { client } = givenClient(

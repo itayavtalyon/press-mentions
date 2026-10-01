@@ -15,12 +15,12 @@ const QUARTER_START = "2026-07-01T00:00:00.000Z";
  * items dated one hour into that week.
  * @param {import("../../src/core/collect.js").FeedItem[]} firstPage Items for the whole-window query.
  * @param {number} perWeek Items per weekly query.
- * @returns {{ feed: import("../../src/core/collect.js").Feed, windows: import("../../src/core/windows.js").Window[] }}
+ * @returns {{ feed: import("../../src/core/collect.js").Feed, windows: import("../../src/core/collection.js").Window[] }}
  *   The feed and the windows it was asked for.
  */
 const givenFeed = (firstPage, perWeek = 0) => {
   /**
-   * @type {import("../../src/core/windows.js").Window[]}
+   * @type {import("../../src/core/collection.js").Window[]}
    */
   const windows = [];
   return {

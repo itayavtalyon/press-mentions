@@ -1,0 +1,1506 @@
+/* ==========================================================================
+   Press Monitor: app.css (reference implementation)
+   Copy to src/web/app.css. Mobile-first: base rules target narrow screens,
+   one breakpoint at 40em (= 640px at the default 16px font size).
+
+    1. Tokens (light, then dark via prefers-color-scheme)
+    2. Base / reset
+    3. Utilities
+    4. Layout shell (skip link, header, nav, main, footer)
+    5. Components: buttons, chips, dots, tags, badge, cards, empty state,
+       banners, error summary, form fields
+    6. Filter toolbar (segmented control, verdict pills, custom range)
+    7. Index page (name filter, companies table -> cards)
+    8. Company page (intro, summary, verdict sections, mentions, dialog)
+    9. Review page
+   10. Message pages (404 / 403)
+   11. Desktop (min-width: 40em)
+   12. Forced colors
+   13. Reduced motion
+   ========================================================================== */
+
+/* 1. Tokens ================================================================ */
+
+:root {
+  color-scheme: light dark;
+
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-hover: #f1f4f8;
+  --text: #151a22;
+  --muted: #545e6e;
+  --border: #d5dae1; /* decorative edges only */
+  --border-strong: #7a8494; /* control outlines, >= 3:1 (WCAG 1.4.11) */
+  --accent: #1d4ed8;
+  --accent-soft: #e8eefc;
+  --on-accent: #ffffff;
+  --badge-bg: #e3e7ed;
+  --backdrop: rgb(14 17 22 / 0.5);
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.05), 0 1px 3px rgb(16 24 40 / 0.07);
+
+  --positive-bg: #e2f3e8;
+  --positive-text: #13502b;
+  --positive-dot: #2e8b57;
+  --negative-bg: #fbe6e6;
+  --negative-text: #8b1a1a;
+  --negative-dot: #d14343;
+  --neutral-bg: #e5edf8;
+  --neutral-text: #1f3b66;
+  --neutral-dot: #4a78b5;
+  --unranked-bg: #f1eafb;
+  --unranked-text: #5a2d8a;
+  --unranked-dot: #8a5cc7;
+
+  --space-1: 0.25rem; /*  4px */
+  --space-2: 0.5rem; /*  8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+
+  --radius: 6px;
+  --radius-pill: 999px;
+
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --text-sm: 0.875rem;
+  --text-xs: 0.8125rem;
+  --text-xxs: 0.75rem;
+
+  --content-max: 72rem;
+  --gutter: 1rem; /* 16px mobile, 24px desktop */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1116;
+    --surface: #161a21;
+    --surface-hover: #1c212a;
+    --text: #e6e9ef;
+    --muted: #a0a9b8;
+    --border: #303744;
+    --border-strong: #6b7587;
+    --accent: #8db4ff;
+    --accent-soft: #1a2741;
+    --on-accent: #0e1116;
+    --badge-bg: #2a303b;
+    --backdrop: rgb(0 0 0 / 0.6);
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.35), 0 1px 3px rgb(0 0 0 / 0.25);
+
+    --positive-bg: #11301e;
+    --positive-text: #8cddaa;
+    --positive-dot: #3fb872;
+    --negative-bg: #3b1517;
+    --negative-text: #ffa3a3;
+    --negative-dot: #f06464;
+    --neutral-bg: #172943;
+    --neutral-text: #a8c6f4;
+    --neutral-dot: #6a9be0;
+    --unranked-bg: #2a1c42;
+    --unranked-text: #d2b6ff;
+    --unranked-dot: #a57de8;
+  }
+}
+
+/* Verdict scoping: any element with data-verdict exposes --v-bg/--v-text/--v-dot. */
+[data-verdict="positive"] {
+  --v-bg: var(--positive-bg);
+  --v-text: var(--positive-text);
+  --v-dot: var(--positive-dot);
+}
+[data-verdict="negative"] {
+  --v-bg: var(--negative-bg);
+  --v-text: var(--negative-text);
+  --v-dot: var(--negative-dot);
+}
+[data-verdict="neutral"] {
+  --v-bg: var(--neutral-bg);
+  --v-text: var(--neutral-text);
+  --v-dot: var(--neutral-dot);
+}
+[data-verdict="unranked"] {
+  --v-bg: var(--unranked-bg);
+  --v-text: var(--unranked-text);
+  --v-dot: var(--unranked-dot);
+}
+
+/* 2. Base ================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 1rem/1.5 var(--font);
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.25;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+
+p,
+ul,
+ol,
+figure,
+pre {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+[hidden] {
+  display: none !important; /* author display rules must never un-hide [hidden] */
+}
+
+time,
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 3. Utilities ============================================================= */
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+.small {
+  font-size: var(--text-sm);
+}
+
+/* 4. Layout shell ========================================================== */
+
+.skip-link {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  z-index: 100;
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  font-weight: 600;
+  transform: translateY(-300%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: var(--space-4);
+  min-height: 3.5rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding-block: var(--space-2);
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.brand::before {
+  content: "";
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 3px;
+  border: 0.4375rem solid var(--accent); /* border, not background: survives forced colors */
+}
+
+.site-nav ul {
+  display: flex;
+  gap: var(--space-1);
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 2.75rem; /* 44px target */
+  padding-inline: var(--space-2);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--text);
+}
+
+.site-nav a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  inset-inline: var(--space-2);
+  bottom: calc(
+    (3.5rem - 2.75rem) / -2 - 1px
+  ); /* sits on the header's bottom edge */
+  border-bottom: 2px solid var(--accent);
+}
+
+main {
+  flex: 1;
+}
+
+.page {
+  padding-block: var(--space-5) var(--space-7);
+}
+
+.page:focus {
+  outline: none; /* main receives focus from the skip link only */
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.site-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-1) var(--space-4);
+  padding-block: var(--space-4);
+}
+
+/* 5. Components ============================================================ */
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 2.5rem;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--surface-hover);
+}
+
+.btn--primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.btn--primary:hover {
+  border-color: color-mix(in srgb, var(--accent) 85%, var(--text));
+  background: color-mix(in srgb, var(--accent) 85%, var(--text));
+}
+
+.link-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
+
+/* Dots (decorative; the word always carries the meaning) */
+.dot {
+  display: inline-block;
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.25rem solid var(--v-dot, currentColor); /* border, not background: survives forced colors */
+  border-radius: 50%;
+}
+
+/* Verdict chip: dot + word, never color alone */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--v-text) 35%, transparent);
+  border-radius: var(--radius-pill);
+  background: var(--v-bg);
+  color: var(--v-text);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  line-height: 1.375rem;
+  white-space: nowrap;
+}
+
+/* Outlined tag: "Headline only" */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.4375rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: var(--text-xxs);
+  font-weight: 600;
+  line-height: 1.25rem;
+  white-space: nowrap;
+}
+
+/* Count pill in the nav */
+.badge {
+  min-width: 1.375rem;
+  padding: 0 0.375rem;
+  border-radius: var(--radius-pill);
+  background: var(--badge-bg);
+  color: var(--text);
+  font-size: var(--text-xxs);
+  font-weight: 700;
+  line-height: 1.375rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Cards */
+.card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+/* Empty state: one shared visual for every zero/empty state */
+.empty-state {
+  padding: var(--space-7) var(--space-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  text-align: center;
+}
+
+.empty-state__title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.empty-state__body {
+  max-width: 44ch;
+  margin: var(--space-1) auto 0;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+.empty-state__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2) var(--space-5);
+  margin-top: var(--space-4);
+}
+
+/* Banner: status (role=status) and info panels. Uses data-verdict for color. */
+.banner {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid color-mix(in srgb, var(--v-text) 35%, transparent);
+  border-radius: var(--radius);
+  background: var(--v-bg);
+  color: var(--text);
+}
+
+.banner__icon {
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.125rem;
+  border-radius: 50%;
+  background: var(--v-text);
+  color: var(--v-bg);
+  font-size: var(--text-xxs);
+  font-weight: 800;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.window-sentence + .banner {
+  margin-top: var(--space-4);
+}
+
+.banner__title {
+  font-weight: 600;
+}
+
+.banner__body {
+  color: var(--text);
+}
+
+/* Error summary (400 pages) */
+.error-summary {
+  margin-bottom: var(--space-5);
+  padding: var(--space-4);
+  border: 1px solid var(--negative-dot);
+  border-left-width: 4px;
+  border-radius: var(--radius);
+  background: var(--negative-bg);
+}
+
+.error-summary h2 {
+  font-size: 1rem;
+}
+
+.error-summary ul {
+  margin-top: var(--space-2);
+  padding-left: var(--space-5);
+}
+
+.error-summary a {
+  color: var(--negative-text);
+  font-weight: 600;
+}
+
+/* Form fields */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-width: 0;
+}
+
+.field label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0.375rem 0.625rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 1rem; /* >= 16px: no iOS zoom on focus */
+}
+
+.input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.input[aria-invalid="true"] {
+  border: 2px solid var(--negative-dot);
+}
+
+.field-error {
+  display: flex;
+  gap: var(--space-2);
+  color: var(--negative-text);
+  font-size: var(--text-sm);
+  font-weight: 550;
+}
+
+.field-error::before {
+  content: "!" / "";
+  flex: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  margin-top: 0.125rem;
+  border-radius: 50%;
+  background: var(--negative-text);
+  color: var(--surface);
+  font-size: var(--text-xxs);
+  font-weight: 800;
+  line-height: 1.125rem;
+  text-align: center;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+
+/* 6. Filter toolbar ======================================================== */
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+
+.filters fieldset {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.filters legend,
+.label-caps {
+  margin-bottom: var(--space-2);
+  padding: 0;
+  color: var(--muted);
+  font-size: var(--text-xxs);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Native radios stay in the DOM and in the tab order; only their glyph is hidden. */
+.segmented input,
+.pill input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+}
+
+/* Segmented control (Time window) */
+.segmented {
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+
+.segmented label {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+}
+
+.segmented input + span {
+  flex: 1;
+  padding: 0.4375rem var(--space-2);
+  border-radius: calc(var(--radius) - 2px);
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-weight: 550;
+  text-align: center;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.segmented input + span:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+}
+
+.segmented input:checked + span {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 650;
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.segmented input:focus-visible + span,
+.pill input:focus-visible + span {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Verdict pills */
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.pill {
+  position: relative;
+  display: inline-flex;
+}
+
+.pill input + span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  min-height: 2.25rem;
+  padding: 0 0.875rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.pill input + span:hover {
+  background: var(--surface-hover);
+}
+
+/* Checked: tinted fill + 2px edge + bolder text (not hue alone) */
+.pill input:checked + span {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.pill[data-verdict] input:checked + span {
+  border-color: var(--v-text);
+  background: var(--v-bg);
+  color: var(--v-text);
+  box-shadow: inset 0 0 0 1px var(--v-text);
+}
+
+/* Custom range: hidden unless the Custom radio is checked (no JS) */
+.custom-range {
+  display: none;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.filters:has(input[name="window"][value="custom"]:checked) .custom-range {
+  display: flex;
+}
+
+@supports not selector(:has(*)) {
+  .custom-range {
+    display: flex; /* old browsers: always show; values are ignored unless Custom is checked */
+  }
+}
+
+.custom-range .field {
+  flex: 1 1 9rem;
+}
+
+.filters__actions {
+  display: flex;
+}
+
+.filters__actions .btn {
+  width: 100%;
+}
+
+/* With JS (html.js): Apply only while Custom is selected. PROPOSED DEVIATION, see UI-DESIGN.md §7.
+   Strict-spec fallback: replace this rule with `.js .filters__actions { display: none; }` */
+.js
+  .filters:not(:has(input[name="window"][value="custom"]:checked))
+  .filters__actions {
+  display: none;
+}
+
+.filters__hint {
+  display: none;
+  margin-top: var(--space-2);
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+
+.js .filters__hint {
+  display: block;
+}
+
+.window-sentence {
+  margin-top: var(--space-5);
+  font-size: 1.0625rem;
+  font-weight: 650;
+}
+
+/* 7. Index page ============================================================ */
+
+.page-header {
+  display: grid;
+  gap: var(--space-1);
+  margin-bottom: var(--space-5);
+}
+
+.page-header__lede {
+  color: var(--muted);
+}
+
+.table-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.table-tools .field {
+  flex: 1 1 16rem;
+  max-width: 22rem;
+}
+
+.table-tools__count {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.table-note {
+  margin-bottom: var(--space-3);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.table-footnote {
+  margin-top: var(--space-3);
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+
+.results-gap {
+  margin-top: var(--space-5);
+}
+
+/* Companies: base = stacked cards; table layout at >= 40em (section 11).
+   Explicit role attributes in the markup keep table semantics despite display changes. */
+.companies,
+.companies caption,
+.companies tbody,
+.companies tr,
+.companies th,
+.companies td {
+  display: block;
+}
+
+.companies {
+  width: 100%;
+}
+
+.companies caption {
+  margin-bottom: var(--space-2);
+  color: var(--muted);
+  font-size: var(--text-sm);
+  text-align: left;
+}
+
+.companies thead {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.companies tbody tr {
+  display: grid;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.companies th,
+.companies td {
+  min-width: 0;
+  padding: 0;
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+
+.companies td {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr); /* < 24em: label above value */
+  column-gap: var(--space-3);
+  align-items: baseline;
+}
+
+@media (min-width: 24em) {
+  .companies td {
+    grid-template-columns: 7.25rem minmax(0, 1fr); /* label beside value */
+  }
+}
+
+.companies th {
+  margin-bottom: var(--space-1);
+}
+
+.company-name {
+  font-weight: 650;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.company-name:hover {
+  text-decoration: underline;
+}
+
+.company-aliases {
+  display: block;
+  margin-top: 0.125rem;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.cell-label {
+  display: block;
+  color: var(--muted);
+  font-size: var(--text-xxs);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tally {
+  font-weight: 550;
+  font-variant-numeric: tabular-nums;
+}
+
+.tones {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-3); /* the verdict dot is the visual separator */
+  margin-top: 0.125rem;
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.tone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  white-space: nowrap;
+}
+
+.tone.is-zero {
+  color: var(--muted);
+}
+
+.tone.is-zero .dot {
+  border-width: 1.5px; /* hollow ring for zero counts */
+}
+
+/* 8. Company page ========================================================== */
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.company-intro {
+  display: grid;
+  grid-template-areas: "head" "summary" "action";
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.company-head {
+  grid-area: head;
+  display: grid;
+  gap: var(--space-1);
+}
+
+.company-head h1 {
+  overflow-wrap: anywhere;
+}
+
+.company-head__aliases {
+  color: var(--muted);
+}
+
+.company-head__descriptor {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.summary {
+  grid-area: summary;
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-5);
+}
+
+.summary__status {
+  font-size: 1.25rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.summary__tally {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+}
+
+.summary__note {
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+
+.subscribe-action {
+  grid-area: action;
+}
+
+.subscribe-action .btn {
+  width: 100%;
+}
+
+.verdict-section {
+  margin-top: var(--space-4);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--v-dot);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.verdict-section h2 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+  font-size: 1.125rem;
+}
+
+.verdict-section h2 .count {
+  color: var(--muted);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.mentions {
+  padding: 0;
+  list-style: none;
+}
+
+.mentions > li + li {
+  border-top: 1px solid var(--border);
+}
+
+.mention {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4);
+}
+
+.mention h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.mention h3 a {
+  text-decoration: none;
+}
+
+.mention h3 a:hover {
+  text-decoration: underline;
+}
+
+.external::after {
+  content: "\2197" / ""; /* ↗, skipped by screen readers */
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+.mention__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.mention__source {
+  min-width: 0;
+}
+
+.mention details {
+  font-size: var(--text-sm);
+}
+
+.mention summary {
+  width: fit-content;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.excerpt {
+  max-width: 65ch;
+  margin-top: var(--space-2);
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--border);
+  color: var(--text);
+  font-size: 0.9375rem;
+}
+
+/* Subscribe dialog. No rule hides dialog:not([open]): without <dialog> support the
+   element renders inline and its form stays usable. */
+.dialog {
+  width: min(28rem, calc(100vw - 2rem));
+  max-width: 100%;
+  padding: var(--space-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.dialog::backdrop {
+  background: var(--backdrop);
+}
+
+.dialog[open] {
+  animation: fade-in 120ms ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.dialog h2,
+.subscribe-inline h2 {
+  font-size: 1.25rem;
+  overflow-wrap: anywhere;
+}
+
+.dialog__intro {
+  margin: var(--space-2) 0 var(--space-4);
+  color: var(--muted);
+}
+
+.subscribe-inline {
+  grid-area: action;
+  padding: var(--space-5);
+  border-color: var(--negative-dot);
+}
+
+/* 9. Review page =========================================================== */
+
+.review-list {
+  display: grid;
+  gap: var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.review-card {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+.review-card__company {
+  font-size: var(--text-sm);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.review-card__company:hover {
+  text-decoration: underline;
+}
+
+.review-card h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.review-card h2 a {
+  text-decoration: none;
+}
+
+.review-card h2 a:hover {
+  text-decoration: underline;
+}
+
+.review-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+  align-items: center;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.reply figcaption {
+  margin-bottom: var(--space-1);
+  color: var(--muted);
+  font-size: var(--text-xxs);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.reply pre {
+  max-height: 16rem;
+  overflow: auto;
+  padding: var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* 10. Message pages ======================================================== */
+
+.message-page {
+  max-width: 36rem;
+  margin: var(--space-7) auto 0;
+  text-align: center;
+}
+
+.message-page p {
+  margin-top: var(--space-2);
+  color: var(--muted);
+}
+
+.message-page .btn {
+  margin-top: var(--space-5);
+}
+
+/* 11. Desktop (>= 40em / 640px) =========================================== */
+
+@media (min-width: 40em) {
+  :root {
+    --gutter: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .page {
+    padding-block: var(--space-6) var(--space-7);
+  }
+
+  /* Filters: one row, wraps when needed */
+  .filters {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--space-4) var(--space-6);
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .segmented {
+    display: inline-flex;
+  }
+
+  .segmented label {
+    flex: 0 0 auto;
+  }
+
+  .segmented input + span {
+    padding-inline: var(--space-4);
+    white-space: nowrap;
+  }
+
+  .custom-range .field {
+    flex: 0 0 12rem;
+  }
+
+  .site-nav a {
+    padding-inline: var(--space-3);
+  }
+
+  .site-nav a[aria-current="page"]::after {
+    inset-inline: var(--space-3);
+  }
+
+  .filters__actions {
+    align-self: flex-end;
+    margin-left: auto;
+  }
+
+  .filters__actions .btn {
+    width: auto;
+  }
+
+  /* Companies table */
+  .companies {
+    display: table;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  .companies caption {
+    display: table-caption;
+    caption-side: top;
+  }
+
+  .companies thead {
+    position: static;
+    display: table-header-group;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+  }
+
+  .companies tbody {
+    display: table-row-group;
+  }
+
+  .companies tr,
+  .companies tbody tr {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .companies tbody tr:hover {
+    background: var(--surface-hover);
+  }
+
+  .companies th,
+  .companies td {
+    display: table-cell;
+    margin: 0;
+    padding: var(--space-3) var(--space-4);
+    border-top: 1px solid var(--border);
+  }
+
+  .companies thead th {
+    padding-block: var(--space-2);
+    border-top: 0;
+    background: var(--bg);
+    color: var(--muted);
+    font-size: var(--text-xxs);
+    font-weight: 650;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .companies thead th:first-child {
+    border-top-left-radius: var(--radius);
+  }
+  .companies thead th:last-child {
+    border-top-right-radius: var(--radius);
+  }
+  .companies tbody tr:last-child > * {
+    padding-bottom: var(--space-4);
+  }
+  .companies tbody tr:last-child > :first-child {
+    border-bottom-left-radius: var(--radius);
+  }
+  .companies tbody tr:last-child > :last-child {
+    border-bottom-right-radius: var(--radius);
+  }
+
+  .col-company {
+    width: 40%;
+  }
+  .col-last {
+    width: 11rem;
+  }
+
+  .cell-label {
+    display: none;
+  }
+
+  /* Company page */
+  .company-intro {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "head action" "summary summary";
+    column-gap: var(--space-5);
+  }
+
+  .subscribe-action {
+    align-self: start;
+  }
+
+  .subscribe-action .btn {
+    width: auto;
+  }
+
+  .subscribe-inline {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    max-width: 36rem;
+  }
+
+  .verdict-section h2 {
+    padding-inline: var(--space-5);
+  }
+
+  .mention {
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .review-card {
+    padding: var(--space-5);
+  }
+}
+
+/* 12. Forced colors ======================================================== */
+
+@media (forced-colors: active) {
+  :focus-visible,
+  .segmented input:focus-visible + span,
+  .pill input:focus-visible + span {
+    outline-color: Highlight;
+  }
+
+  .chip,
+  .tag,
+  .badge,
+  .btn,
+  .banner,
+  .verdict-section,
+  .segmented input + span {
+    border: 1px solid CanvasText;
+  }
+
+  .btn--primary {
+    border-color: ButtonText;
+  }
+
+  .segmented input:checked + span,
+  .pill input:checked + span,
+  .pill[data-verdict] input:checked + span {
+    forced-color-adjust: none;
+    border-color: Highlight;
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .site-nav a[aria-current="page"]::after {
+    border-color: CanvasText;
+  }
+}
+
+/* 13. Reduced motion ======================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .dialog[open] {
+    animation: none;
+  }
+}

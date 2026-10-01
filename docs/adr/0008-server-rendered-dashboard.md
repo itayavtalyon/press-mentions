@@ -31,3 +31,16 @@ Every feed-derived string is HTML-escaped at render. An `href` is emitted only f
 ## Consequences
 
 The subscribe path is one form and one insert, not an account system. Historical mentions stay on the page and out of the mail queue. The dialog is a small script on top of a normal POST. Filters and the company page are part of the specified product, not an optional extra.
+
+## Amendment, 2026-10-01
+
+The dashboard design was closed with Itay on this date. `docs/ui-design.md` is the full spec. The decisions above still hold, with these changes:
+
+- The page script is one module, `src/web/app.js`, not a few lines. It localizes times, auto-submits filter radios (not Custom and not the date fields), filters rows by name and alias, and opens the dialog where invoker commands are missing. Every page still works without it.
+- `verdict=all` is accepted and means the same as an omitted `verdict`. On the index, a verdict narrows the counts and omits companies with zero such mentions in the window.
+- Custom `from` and `to` come from date inputs read as UTC days. `to` is inclusive in the form, so the query ends at the start of the next day. A full ISO instant is still accepted.
+- An unknown `window` or `verdict` answers 400 and names the field, like a bad range.
+- The subscribe POST answers 403 when `Sec-Fetch-Site` is `cross-site` or `Origin` does not match the host. Every response carries a strict Content-Security-Policy. There is no inline script or style.
+- An invalid address answers 400 with the form inline on the company page, the typed value kept. Success and an existing subscription still answer 200.
+- The address domain must contain a dot that is not its first or last character.
+- The company page groups mentions by verdict in digest order and shows aliases, the overlay descriptor, and a short text excerpt.

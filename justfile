@@ -17,9 +17,25 @@ start:
 job-backfill:
 	npm run job:backfill
 
-# Run the daily job
-job-daily:
-	npm run job:daily
+# Run the forward feed
+job-feed:
+	npm run job:feed
+
+# Run the unwrap step
+job-unwrap:
+	npm run job:unwrap
+
+# Run the fetch step
+job-fetch:
+	npm run job:fetch
+
+# Run the extract step
+job-extract:
+	npm run job:extract
+
+# Enqueue digests
+job-digest:
+	npm run job:digest
 
 # Score installed chat models against the saved prompts
 job-eval:

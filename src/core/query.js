@@ -6,7 +6,7 @@ const DAY_MS = 86_400_000;
  * The date operators are widened by a day on each side, because Google's day boundaries are not UTC
  * (`after:2026-06-30` returned an item dated 2026-06-30 07:00 UTC). Callers filter on `pubDate` themselves.
  * @param {import("./overlay.js").Company} company Company with aliases and query terms.
- * @param {import("./windows.js").Window} window Range to search.
+ * @param {import("./collection.js").Window} window Range to search.
  * @returns {string} The `q` parameter, unencoded.
  * @throws {Error} A name or term contains a double quote.
  */

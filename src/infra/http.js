@@ -39,9 +39,24 @@ export class ThrottledError extends Error {
 }
 
 /**
+ * @typedef {object} HttpInit
+ * @property {string} method HTTP method.
+ * @property {string} [body] Request body.
+ * @property {Record<string, string>} [headers] Request headers.
+ */
+
+/**
+ * @typedef {object} HttpRequestOptions
+ * @property {(response: Response) => boolean} [isBlocked] Marks a 2xx response that is really a block or consent page.
+ * @property {Record<string, string>} [headers] Extra request headers.
+ */
+
+/**
  * @typedef {object} HttpClient
- * @property {(url: string, options?: { isBlocked?: (response: Response) => boolean }) => Promise<string>} getText
- *   GETs a URL through the rate limiter. `isBlocked` marks a 2xx response that is really a block or consent page.
+ * @property {(url: string, options?: HttpRequestOptions) => Promise<string>} getText
+ *   GETs a URL through the rate limiter.
+ * @property {(url: string, body: string, options?: HttpRequestOptions) => Promise<string>} postForm
+ *   POSTs an `application/x-www-form-urlencoded` body through the rate limiter.
  */
 
 /**
@@ -61,22 +76,36 @@ export class ThrottledError extends Error {
 export function createHttpClient(dependencies) {
   return {
     getText: (url, options = {}) =>
-      getText(dependencies, url, options.isBlocked ?? (() => false)),
+      requestText(dependencies, url, { method: "GET" }, options),
+    postForm: (url, body, options = {}) =>
+      requestText(
+        dependencies,
+        url,
+        {
+          body,
+          headers: {
+            "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+          },
+          method: "POST",
+        },
+        options,
+      ),
   };
 }
 
 /**
  * @param {HttpDependencies} dependencies Dependencies.
  * @param {string} url URL.
- * @param {(response: Response) => boolean} isBlocked Block-page detector.
+ * @param {HttpInit} init Method, headers, and body. The timeout signal is added here.
+ * @param {HttpRequestOptions} options Block detector and extra headers.
  * @returns {Promise<string>} The response body.
  */
-async function getText(dependencies, url, isBlocked) {
+async function requestText(dependencies, url, init, options) {
   const { host } = new URL(url);
   let reason = "";
   for (let attempt = 0; attempt < POLICY.maxAttempts; attempt += 1) {
     await dependencies.limiter.take(host);
-    const outcome = await attemptOnce(dependencies, url, isBlocked);
+    const outcome = await attemptOnce(dependencies, url, init, options);
     if (outcome.text !== undefined) {
       return outcome.text;
     }
@@ -94,14 +123,18 @@ async function getText(dependencies, url, isBlocked) {
 /**
  * @param {HttpDependencies} dependencies Dependencies.
  * @param {string} url URL.
- * @param {(response: Response) => boolean} isBlocked Block-page detector.
+ * @param {HttpInit} init Method, headers, and body.
+ * @param {HttpRequestOptions} options Block detector and extra headers.
  * @returns {Promise<{ text: string } | { text?: undefined, reason: string, retryAfterMs: number | undefined }>}
  *   The body, or why this attempt should be retried.
  */
-async function attemptOnce(dependencies, url, isBlocked) {
+async function attemptOnce(dependencies, url, init, options) {
+  const isBlocked = options.isBlocked ?? (() => false);
   let response;
   try {
     response = await dependencies.fetch(url, {
+      ...init,
+      headers: { ...init.headers, ...options.headers },
       signal: AbortSignal.timeout(POLICY.timeoutMs),
     });
   } catch (error) {

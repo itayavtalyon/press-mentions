@@ -12,12 +12,36 @@ const WEEK_MS = 7 * 86_400_000;
  * @returns {Window} `[start of last quarter, now)`.
  */
 export function backfillWindow(now) {
-  const quarterStartMonth = Math.floor(now.getUTCMonth() / 3) * 3;
+  return { from: quarterStart(now, -1), to: now };
+}
+
+/**
+ * The previous complete UTC calendar quarter (ADR 0001). The dashboard default and the export window.
+ * @param {Date} now Read time.
+ * @returns {Window} `[start of last quarter, start of this quarter)`.
+ */
+export function lastQuarter(now) {
+  return { from: quarterStart(now, -1), to: quarterStart(now, 0) };
+}
+
+/**
+ * The current UTC calendar quarter from its start through now (ADR 0001).
+ * @param {Date} now Read time.
+ * @returns {Window} `[start of this quarter, now)`.
+ */
+export function thisQuarter(now) {
+  return { from: quarterStart(now, 0), to: now };
+}
+
+/**
+ * @param {Date} now Instant inside the reference quarter.
+ * @param {number} offset Quarters to move from the one holding `now`.
+ * @returns {Date} Midnight UTC on the first day of that quarter.
+ */
+function quarterStart(now, offset) {
+  const month = Math.floor(now.getUTCMonth() / 3) * 3 + offset * 3;
   // Date.UTC rolls a negative month back into the previous year.
-  return {
-    from: new Date(Date.UTC(now.getUTCFullYear(), quarterStartMonth - 3, 1)),
-    to: now,
-  };
+  return new Date(Date.UTC(now.getUTCFullYear(), month, 1));
 }
 
 /**

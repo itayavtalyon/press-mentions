@@ -16,7 +16,7 @@ Three SQLite files, owned by three modules:
 
 | Store      | Opens it                                                 | Owns                                                            |
 | ---------- | -------------------------------------------------------- | --------------------------------------------------------------- |
-| Coverage   | Backfill, daily job, server (read)                       | Companies, articles, company links, verdicts, stage checkpoints |
+| Coverage   | Backfill, forward feed, text steps, server (read)        | Companies, articles, company links, verdicts, stage checkpoints |
 | Alerts     | Daily job (enqueue), mailer (delete), server (subscribe) | Subscriptions and the outbound queue                            |
 | Evaluation | Scoring program                                          | Cases, and scores by model, prompt, and date                    |
 

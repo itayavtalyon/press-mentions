@@ -162,7 +162,7 @@ const config = [
   {
     files: [
       "src/server/index.js",
-      "src/jobs/daily.js",
+      "src/jobs/feed.js",
       "src/jobs/prompt-eval/index.js",
       "src/**/logger.js",
     ],

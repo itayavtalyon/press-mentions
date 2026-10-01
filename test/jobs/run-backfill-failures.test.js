@@ -133,15 +133,33 @@ describe("runBackfill throttle count", () => {
 describe("runBackfill refusals", () => {
   it("refuses to run while another job holds the lock", async () => {
     const config = givenConfig();
+    const { feed, asked } = givenFeed({});
     givenFile(
       path.dirname(config.coverageDatabase),
       "coverage.sqlite.lock",
-      "4242",
+      String(process.pid),
     );
 
-    await expect(runBackfill(config, givenQuietDependencies())).rejects.toThrow(
-      "Process 4242 holds",
+    await expect(runBackfill(config, givenDependencies(feed))).rejects.toThrow(
+      `Process ${process.pid} holds`,
     );
+    expect(asked).toEqual([]);
+    expect(fileExists(config.coverageDatabase)).toBe(false);
+  });
+
+  it("runs when the lock file names a pid that is not running", async () => {
+    const config = givenConfig("Harvey");
+    givenFile(
+      path.dirname(config.coverageDatabase),
+      "coverage.sqlite.lock",
+      "2147483647",
+    );
+
+    const summary = await runBackfill(config, givenQuietDependencies());
+
+    expect(summary.collected).toBe(1);
+    expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
+    expect(fileExists(config.coverageDatabase)).toBe(true);
   });
 
   it("does not create the store when the seed is invalid", async () => {

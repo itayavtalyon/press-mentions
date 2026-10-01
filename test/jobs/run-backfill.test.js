@@ -78,6 +78,33 @@ describe("runBackfill resume", () => {
     });
   });
 
+  it("does not start a second backfill while the first is still collecting", async () => {
+    const config = givenConfig("Harvey");
+    const started = Promise.withResolvers();
+    const running = Promise.withResolvers();
+    const first = runBackfill(
+      config,
+      givenDependencies({
+        search: async () => {
+          started.resolve("open");
+          await running.promise;
+          return [];
+        },
+      }),
+    );
+    await started.promise;
+    const second = givenFeed({});
+
+    await expect(
+      runBackfill(config, givenDependencies(second.feed)),
+    ).rejects.toThrow(/holds /u);
+    expect(second.asked).toEqual([]);
+
+    running.resolve("done");
+    await first;
+    expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
+  });
+
   it("releases the job lock when it finishes", async () => {
     const config = givenConfig();
 

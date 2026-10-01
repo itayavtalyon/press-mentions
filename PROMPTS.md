@@ -16,7 +16,7 @@ Folder layout (placeholders only)
 src/
   server/      # HTTP server entry: src/server/index.js
   web/         # frontend assets served by the server
-  jobs/        # scheduled jobs entry: src/jobs/daily.js
+  jobs/        # scheduled jobs entry: src/jobs/feed.js
   core/        # shared domain logic (empty for now)
   infra/       # adapters: db, ollama, news source (empty for now)
 test/          # mirrors src/
@@ -48,7 +48,7 @@ Git hooks: husky and lint-staged run lint, format, and related tests on commit. 
 CI: a GitHub Actions workflow that runs npm ci and then npm run verify on Node 24.
 Housekeeping: .nvmrc, engines in package.json, .editorconfig, and a .gitignore that excludes the SQLite database files but keeps data/.
 npm scripts
-start (server), job:daily, lint, lint:fix, format, format:check, typecheck, test, test:coverage, knip, dup, audit, and verify, which runs every gate in sequence and fails on the first error.
+start (server), job:feed, lint, lint:fix, format, format:check, typecheck, test, test:coverage, knip, dup, audit, and verify, which runs every gate in sequence and fails on the first error.
 
 Prove the gates work
 Add one tiny real module, for example src/core/mention-status.js with a pure function daysSince(date, now), along with full JSDoc and tests at 100% coverage. Then:
@@ -94,7 +94,7 @@ The seed list has 258 companies, names only, with no domain or sector. It's the 
 Many names are ordinary words: Harvey, Peak, Wave, Near, Glean, Shield, Guild, Silo, Ro, Casper, Tala, Launchpad, Orchard, Island. Irrelevant articles are the biggest quality risk.
 Some companies are enormous (SpaceX, Anthropic, Stripe, xAI, Databricks) and have thousands of articles per quarter. Some are defunct or acquired and will have none. Several names carry "(formerly X)" annotations.
 Hardware: an M1 Max MacBook with 32 GB of RAM. Ollama is installed with qwen2.5:14b, qwen3.5:9b, and gemma4:12b. The plan is to compare them on a hand-labeled set of about 40 articles for accuracy and seconds per article.
-The repo skeleton already exists: Node 24, ESM, ollama and better-sqlite3, strict ESLint, tsc checkJs, Vitest with 90% coverage thresholds. Entry points are src/server/index.js, src/web/, and src/jobs/daily.js.
+The repo skeleton already exists: Node 24, ESM, ollama and better-sqlite3, strict ESLint, tsc checkJs, Vitest with 90% coverage thresholds. Entry points are src/server/index.js, src/web/, and src/jobs/feed.js.
 My background: a senior backend engineer (Scala microservices at Wix, event-driven systems, idempotent consumers, transactional outbox). My frontend skills are rusty.
 Areas you must cover (in roughly this order)
 Scope and definitions: what "last quarter" means (a rolling 90 days or the calendar quarter), what counts as a "mention", and the thresholds for the status buckets.
@@ -167,4 +167,28 @@ Got cut off, I want to set some coding standards to the coding agents. I want SO
 
 ```text
 We also need to record the prompts I use with you in the @PROMPTS.md file
+```
+
+## 2026-10-01 — Prompt evaluation review
+
+```text
+I want you to go over the prompt evaluation mechanism. Review and make sure it does its job. Then go over the cases, and see about adding more of various difficulties. Then we will run them. We should have a README file explaining the process and how we chose the winning model and prompt. We can also see after an evaluation run if we can have a new version that might score better.
+```
+
+## 2026-10-01 — Multi-company cases and an evaluation run
+
+```text
+Let's add a few cases where an article mentions more than one company (and we pass few companies as candidates). And then run the evaluator.
+```
+
+## 2026-10-01 — Set the live pair to the eval winner
+
+```text
+update the configs with the winners and commit
+```
+
+## 2026-10-01 — Pipeline review
+
+```text
+Let's continue reviewing other parts of the system. Now I am interested in the pipeline processes for getting and handling news mentions. Each components must operarte independently without impacting other components, and we have to make sure that each process runs as a signleton. Review what's done and then grill me.
 ```

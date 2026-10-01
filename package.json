@@ -9,7 +9,11 @@
   },
   "scripts": {
     "start": "node --env-file=.env src/server/index.js",
-    "job:daily": "node --env-file=.env src/jobs/daily.js",
+    "job:feed": "node --env-file=.env src/jobs/feed.js",
+    "job:unwrap": "node --env-file=.env src/jobs/unwrap.js",
+    "job:fetch": "node --env-file=.env src/jobs/fetch.js",
+    "job:extract": "node --env-file=.env src/jobs/extract.js",
+    "job:digest": "node --env-file=.env src/jobs/digest.js",
     "job:eval": "node --env-file=.env src/jobs/prompt-eval/index.js",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix --max-warnings 0",
@@ -26,6 +30,7 @@
     "job:backfill": "node --env-file=.env src/jobs/backfill.js"
   },
   "dependencies": {
+    "@mozilla/readability": "^0.6.0",
     "better-sqlite3": "^13.0.3",
     "linkedom": "^0.18.13",
     "ollama": "^0.6.4"

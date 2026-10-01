@@ -1,5 +1,5 @@
+import { backfillWindow, contains, splitWeeks } from "./collection.js";
 import { selectRoundRobin } from "./select.js";
-import { backfillWindow, contains, splitWeeks } from "./windows.js";
 
 /**
  * @typedef {object} FeedItem One search result, before any text stage.
@@ -13,7 +13,7 @@ import { backfillWindow, contains, splitWeeks } from "./windows.js";
 
 /**
  * @typedef {object} Feed The news search port (ADR 0006).
- * @property {(company: import("./overlay.js").Company, window: import("./windows.js").Window) => Promise<FeedItem[]>} search
+ * @property {(company: import("./overlay.js").Company, window: import("./collection.js").Window) => Promise<FeedItem[]>} search
  *   One query. Returns the items as the source sent them, unfiltered.
  */
 
@@ -58,7 +58,7 @@ export async function collectBackfill(company, feed, now) {
 
 /**
  * @param {FeedItem[]} items Items from one query.
- * @param {import("./windows.js").Window} window The query's window.
+ * @param {import("./collection.js").Window} window The query's window.
  * @returns {FeedItem[]} Items published inside the window, in feed order.
  */
 function within(items, window) {

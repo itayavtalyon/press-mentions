@@ -51,11 +51,39 @@ describe("pickWinner", () => {
 
     expect(
       formatReport({
+        misses: [],
         outcome,
         possible: 1,
         rows: [left, right],
         skippedEmbeddings: [],
       }),
     ).toContain("tie qwen2.5:14b v000, gemma4:12b v000");
+  });
+});
+
+describe("formatReport", () => {
+  it("prints a miss before the outcome", () => {
+    const row = givenRow();
+    const text = formatReport({
+      misses: [
+        {
+          actual: "unrelated",
+          caseId: "harvey-funding",
+          company: "Harvey",
+          expected: "positive",
+          modelId: row.modelId,
+          promptId: row.promptId,
+        },
+      ],
+      outcome: { kind: "winner", row },
+      possible: 1,
+      rows: [row],
+      skippedEmbeddings: [],
+    });
+
+    expect(text).toContain(
+      "miss qwen2.5:14b v000 harvey-funding Harvey expected=positive actual=unrelated",
+    );
+    expect(text.indexOf("miss ")).toBeLessThan(text.lastIndexOf("winner "));
   });
 });

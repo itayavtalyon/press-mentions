@@ -127,6 +127,9 @@ describe("runPromptEval", () => {
     expect(harness.output[0]).toContain(
       "skipped_embedding nomic-embed-text:latest",
     );
+    expect(harness.output[0]).toContain(
+      "miss qwen2.5:14b v000 harvey-note Harvey expected=positive actual=unrelated",
+    );
     expect(harness.output[0]).toContain("winner qwen2.5:14b v002");
   });
 
@@ -175,14 +178,26 @@ describe("runPromptEval failures", () => {
     expect(harness.errors).toEqual(["no classifier prompts"]);
   });
 
-  it("returns 1 when the lock file already exists", async () => {
+  it("returns 1 when a running pid holds the lock and does not call the model", async () => {
+    const harness = givenPorts(CASES);
+    // eslint-disable-next-line security/detect-non-literal-fs-filename -- The lock sits next to this test's database path.
+    writeFileSync(`${harness.ports.env.EVAL_DB}.lock`, String(process.pid));
+
+    const status = await runPromptEval(harness.ports);
+
+    expect(status).toBe(1);
+    expect(harness.errors[0]).toMatch(/holds /u);
+    expect(harness.calls).toEqual([]);
+  });
+
+  it("runs when the lock file is not a live pid", async () => {
     const harness = givenPorts(CASES);
     // eslint-disable-next-line security/detect-non-literal-fs-filename -- The lock sits next to this test's database path.
     writeFileSync(`${harness.ports.env.EVAL_DB}.lock`, "");
 
     const status = await runPromptEval(harness.ports);
 
-    expect(status).toBe(1);
-    expect(harness.errors[0]).toMatch(/holds /u);
+    expect(status).toBe(0);
+    expect(harness.calls).toEqual(["qwen2.5:14b v000", "qwen2.5:14b v002"]);
   });
 });

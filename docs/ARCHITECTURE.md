@@ -1,6 +1,6 @@
 # Architecture
 
-Press mentions for the OurCrowd seed list are collected from Google News RSS, judged by a local Ollama model, and shown on a small server-rendered dashboard. A one-time backfill fills the coverage store and does not notify anyone. A daily cron job collects forward, and a second cron job hands each subscribed company a digest of what that job newly found. Three SQLite files keep coverage, alerts, and prompt scores apart so the exercise process can later split along those lines. The live model and prompt are constants chosen offline. The main README is the runbook and the production/v2 narrative. This document is how the pieces move.
+Press mentions for the OurCrowd seed list are collected from Google News RSS, judged by a local Ollama model, and shown on a small server-rendered dashboard. A one-time backfill fills the coverage store and does not notify anyone. Cron starts the forward feed, unwrap, fetch, and extract as separate commands, then a digest command and a mailer. Three SQLite files keep coverage, alerts, and prompt scores apart so the exercise process can later split along those lines. The live model and prompt are constants chosen offline. The main README is the runbook and the production/v2 narrative. This document is how the pieces move.
 
 ## Context
 
@@ -10,7 +10,12 @@ flowchart LR
   cron[Cron]
   operator[Operator]
   server[Dashboard server]
-  daily[Daily job]
+  feed[Forward feed]
+  unwrap[Unwrap]
+  fetch[Fetch]
+  extract[Extract]
+  digest[Digest enqueue]
+  classify[Classify]
   mailer[Mailer]
   backfill[Backfill once]
   eval[Eval program]
@@ -22,20 +27,28 @@ flowchart LR
   evaluation[(Evaluation SQLite)]
 
   reviewer --> server
-  cron --> daily
+  cron --> feed
+  cron --> unwrap
+  cron --> fetch
+  cron --> extract
+  cron --> digest
+  cron --> classify
   cron --> mailer
   operator --> backfill
   operator --> eval
   server --> coverage
   server --> alerts
-  daily --> google
-  daily --> publishers
-  daily --> ollama
-  daily --> coverage
-  daily --> alerts
+  feed --> google
+  feed --> coverage
+  unwrap --> coverage
+  fetch --> publishers
+  fetch --> coverage
+  extract --> coverage
+  digest --> coverage
+  digest --> alerts
+  classify --> ollama
+  classify --> coverage
   backfill --> google
-  backfill --> publishers
-  backfill --> ollama
   backfill --> coverage
   mailer --> alerts
   eval --> ollama
@@ -84,54 +97,44 @@ Exercise implementations are the Google News RSS adapter, the `batchexecute` unw
 
 ```mermaid
 sequenceDiagram
-  participant Job as Backfill or daily
-  participant RSS as Google News RSS
+  participant Cron
+  participant Feed as Forward feed
+  participant Unwrap
+  participant Fetch
+  participant Extract
   participant DB as Coverage store
-  participant Unwrap as Token unwrap
-  participant Page as Publisher
-  participant Model as Ollama
 
-  Job->>RSS: Company query (name OR aliases, overlay terms) for the window
-  RSS-->>Job: At most 100 items
-  alt Page contains 100 items and this is the exercise backfill
-    Job->>RSS: One query per week, then stop
-    Job->>Job: Keep at most 150, round-robin across weeks
-  end
-  Job->>DB: Upsert guid, title, date, publisher
-  Note over Job,DB: Origin is backfill or daily. Alert eligibility is set only for a guid the daily job inserted.
-  Job->>Unwrap: Resolve the Google token
-  alt Publisher URL
-    Job->>Page: GET the article
-    Page-->>Job: HTML, or 401 or 403 or a shell
-    Job->>Job: Readability, else title
-  else Unwrap failed
-    Job->>Job: Keep the title
-  end
-  Job->>Model: One article, candidate names and descriptors, JSON schema, temperature 0
-  Model-->>Job: JSON object of name to verdict
-  Job->>DB: Store verdict, raw text, model, prompt version
+  Cron->>Feed: Start
+  Feed->>DB: Insert new articles at stage unwrap
+  Note over Feed,DB: One coverage lock for the whole run
+  Cron->>Unwrap: Start later
+  Unwrap->>DB: Read stage unwrap only, write the publisher URL, stage becomes fetch
+  Cron->>Fetch: Start later
+  Fetch->>DB: Read stage fetch only, write the page, stage becomes extract
+  Cron->>Extract: Start later
+  Extract->>DB: Read stage extract only, write text, stage becomes classify
+  Note over Cron,DB: A step does not call the next step. A live lock makes the new process exit without opening the store.
 ```
 
-The backfill window is last quarter through now. The daily window is the trailing three days. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. 401, 403, 404, and shells take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
+The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, and extract stay three cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is a later command and is not started by extract. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. 401, 403, 404, and shells take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
 
-## Daily alert
+## Digest
 
 ```mermaid
 sequenceDiagram
   participant Cron
-  participant Daily
+  participant Digest as Digest enqueue
   participant Coverage as Coverage store
   participant Alerts as Alerts store
   participant Mail as Mailer
 
-  Cron->>Daily: Start and exit when done
-  Daily->>Alerts: Upsert ALERT_EMAIL subscriptions
-  Daily->>Coverage: Trailing three days, fetch and classify
-  Daily->>Coverage: Eligible mentions published in the last 72h
-  Daily->>Alerts: Drop those with a notified row
-  Daily->>Alerts: One transaction, outbox row per subscription and company, plus notified rows
-  Note over Daily,Alerts: Backfill rows are not eligible. A second run enqueues only what is still new.
-  Cron->>Mail: Separate process, after daily in the same crontab line
+  Cron->>Digest: Start and exit when done
+  Digest->>Alerts: Upsert ALERT_EMAIL subscriptions
+  Digest->>Coverage: Eligible mentions published in the last 72h
+  Digest->>Alerts: Drop those with a notified row
+  Digest->>Alerts: One transaction, outbox row per subscription and company, plus notified rows
+  Note over Digest,Alerts: Backfill rows are not eligible. A second run enqueues only what is still new.
+  Cron->>Mail: Its own crontab line
   Mail->>Alerts: Read a queue row
   Mail->>Mail: Write data/alerts/<id>.txt and the same body to the log
   Mail->>Alerts: Delete the row after success
@@ -269,7 +272,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | `PUBLISHER_TOKEN_MS` | Refill interval for other hosts, default 2000                                       |
 | `ALERT_EMAIL`        | Default subscriber for every company; `.env.example` ships an `example.com` address |
 
-The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each collection job holds `<COVERAGE_DB>.lock`, writes its pid, and deletes the file when it finishes. A crash leaves the file. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
+The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Backfill, the forward feed, unwrap, fetch, and extract share `<COVERAGE_DB>.lock`. The job writes its pid into a claim file and links that onto the lock, so the file is never empty. A second start exits without opening the coverage store while that pid is running. A pid that is not running is stale: the next start renames the file aside and takes the lock. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. The file is deleted when the job finishes. There is not a lock per stage. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
 
 Logging is structured enough to grep: company, `guid`, stage, and error. A 100-item feed is logged as truncated. Parse failures log the raw model text.
 
@@ -282,17 +285,18 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 | Mail               | Log and file, then delete the row            | SMTP, then delete the row                           |
 | Signup             | Dialog on the company page, no confirmation  | Confirm the address before SMTP                     |
 | Egress             | One IP                                       | A pool of addresses, not specified here             |
-| Historical quarter | One backfill so `data/` is populated         | Empty until a quarter of daily collection exists    |
+| Historical quarter | One backfill so `data/` is populated         | Empty until a quarter of forward collection exists  |
 
 ## Where a decision lives
 
-| Kind                                                   | Place                               |
-| ------------------------------------------------------ | ----------------------------------- |
-| One choice and the alternatives                        | `docs/adr/`                         |
-| How the run fits together                              | This file                           |
-| Types, errors, and which file owns a job               | `docs/CODING-STANDARD.md`           |
-| Setup, commands, model, prompt, limits, production, v2 | Main README, written as the runbook |
-| What to build first                                    | `docs/BUILD-PLAN.md`                |
+| Kind                                                    | Place                               |
+| ------------------------------------------------------- | ----------------------------------- |
+| One choice and the alternatives                         | `docs/adr/`                         |
+| How the run fits together                               | This file                           |
+| Types, errors, and which file owns a job                | `docs/CODING-STANDARD.md`           |
+| Setup, commands, model, prompt, limits, production, v2  | Main README, written as the runbook |
+| What to build first                                     | `docs/BUILD-PLAN.md`                |
+| Dashboard pages, states, copy, styling, and page script | `docs/ui-design.md`                 |
 
 ## ADR index
 
@@ -322,7 +326,7 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 - The mailer can send the same body twice if it crashes after a successful handoff and before the delete.
 - A mention classified more than 72 hours after publication never alerts.
 - Article text is committed in `data/coverage.sqlite`. Size is the only check.
-- The subscribe form accepts a trimmed address with one `@`, no spaces, a dot in the domain, and length at most 254. Comparison is case-insensitive. The exercise sender does not deliver mail. SMTP without a confirmation step would. A new subscriber receives the last 72 hours on the next daily run (ADR 0007).
+- The subscribe form accepts a trimmed address with one `@`, no spaces, a dot in the domain, and length at most 254. Comparison is case-insensitive. The exercise sender does not deliver mail. SMTP without a confirmation step would. A new subscriber receives the last 72 hours on the next digest run (ADR 0007).
 - The coverage gate is 100%. Error branches have to be driven through fakes, or the gate becomes a pile of empty assertions. The promise list in ADR 0009 is the review checklist. Entry-point shims are excluded by name, so they must stay free of logic (ADR 0009).
 - Three consecutive exhaustions stop the dependent stage (ADR 0006), so a lasting block costs at most three full backoffs. The per-attempt limits are the constants in the runtime section.
 - The seed has 258 names. Twelve carry a parenthetical: ten `(formerly X)` or `(formerly known as X)`, plus `Lambda (lambda.ai)` and `SSI (Safe Superintelligence)`. All twelve become aliases. The overlay replaces the ones that are ordinary words (Edge, Trellis).

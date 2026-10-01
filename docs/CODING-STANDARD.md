@@ -52,7 +52,8 @@ Fewer files:
 | Collection       | `src/core/collection.js`          | UTC windows, the week slices, the 150 cap, and the backfill feed steps   |
 | Mention status   | `src/core/mention-status.js`      | How many days since a mention                                            |
 | Classifier       | `src/core/classifier.js`          | One Ollama call and the verdicts in the reply. Not the gold score        |
-| Coverage         | `src/infra/coverage-store.js`     | Companies, articles, and company links                                   |
+| Coverage         | `src/infra/coverage-store.js`     | Companies, article rows from the feed, and company links                 |
+| Stage queue      | `src/infra/stage-queue.js`        | Which articles a text step reads, and the writes that advance its stage  |
 | Alerts           | `src/infra/alerts-store.js`       | Subscriptions, notified rows, and the outbox                             |
 | Evaluation store | `src/jobs/prompt-eval/store.js`   | The `cases` and `scores` tables                                          |
 | Prompt score     | `src/jobs/prompt-eval/score.js`   | Points and relatedness against a gold label                              |
@@ -63,6 +64,15 @@ Fewer files:
 | Ollama           | `src/infra/ollama.js`             | Listing models and sending chat                                          |
 | SQLite           | `src/infra/database.js`           | Opening the file. It does not know table names                           |
 | Config           | `src/config.js`                   | Environment variables                                                    |
+| Dashboard        | `src/core/dashboard.js`           | Window and verdict parsing, the address rule, sort, and tally shape      |
+| Coverage read    | `src/infra/coverage-read.js`      | Dashboard queries on the coverage store                                  |
+| Server           | `src/server/app.js`               | Routes, the cross-site guard, headers, and static assets                 |
+| Page shell       | `src/server/page.js`              | `html` tag, escaping, format helpers, layout, shared parts, filter form  |
+| Index page       | `src/server/index-page.js`        | `GET /`                                                                  |
+| Company page     | `src/server/company-page.js`      | `GET /companies/:id` and the subscribe outcomes                          |
+| Review page      | `src/server/review-page.js`       | `GET /review`                                                            |
+| Message pages    | `src/server/message-pages.js`     | 404 and 403                                                              |
+| Page script      | `src/web/app.js`                  | Browser enhancement, per `docs/ui-design.md` §9                          |
 | Lock, clock, log | the file of that name             | That one resource                                                        |
 
-`seed.js`, `overlay.js`, `query.js`, `windows.js`, `select.js`, and `collect.js` are the company and collection models before they were grouped. `rows.js` and `report.js` belong to the evaluation store and the evaluation run. When a change touches one of those files, move the code into the model file in the table and delete the old file once nothing imports it. Do not add another file beside them. Entry shims (`src/jobs/backfill.js`, `src/jobs/daily.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`) stay thin: read config, build adapters, call one function, set the exit code.
+`seed.js`, `overlay.js`, `query.js`, `select.js`, and `collect.js` are the company and collection models before they were grouped. `rows.js` and `report.js` belong to the evaluation store and the evaluation run. When a change touches one of those files, move the code into the model file in the table and delete the old file once nothing imports it. Do not add another file beside them. Entry shims (`src/jobs/backfill.js`, `src/jobs/feed.js`, `src/jobs/unwrap.js`, `src/jobs/fetch.js`, `src/jobs/extract.js`, `src/jobs/digest.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`) stay thin: read config, build adapters, call one function, set the exit code.

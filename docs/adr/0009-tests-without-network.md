@@ -24,8 +24,8 @@ Every product promise has a test:
 - A missing JSON key and an unusable reply become `uncertain` with a review flag. A confident `unrelated` is not flagged.
 - Title fallback when the body is missing.
 - Backfill writes coverage and does not open alerts. A new daily mention enqueues. A second run the same day enqueues only mentions without a `notified` row. A mention published more than 72 hours ago does not enqueue. A mention classified on a later run does enqueue if still inside 72 hours.
-- The daily job upserts the `ALERT_EMAIL` subscriptions.
-- A second job exits non-zero while the lock is held.
+- The digest command upserts the `ALERT_EMAIL` subscriptions.
+- A second collection step exits non-zero while a live pid holds the coverage lock, and does not open the store. A lock whose pid is not running is taken by the next start.
 - Google and publisher 429/503 back off (honoring `Retry-After`). Ollama failures back off. Exhausted backoff leaves the row retryable, and the run exits non-zero with counts. Three consecutive exhaustions stop that dependency's stage (or that publisher host) for the run, and a success in between resets the count. The third failed run makes the row terminal. 401/403/404 take the title path at once.
 - Token bucket capacity 1 does not hand out a second token early.
 - Resume skips a stage whose output is stored. A new prompt version reclassifies and does not refetch.
@@ -40,8 +40,13 @@ Every product promise has a test:
 - The export mention list is the previous complete UTC quarter. A failed company has no JSON file, and the command exits non-zero.
 - `GET /companies/:id` is the company page. A posted email that is already subscribed returns that page with status 200.
 - The mailer writes `data/alerts/<outbox id>.txt` and deletes the row only after that write.
+- A verdict filter on the index omits companies with zero such mentions in the window. `verdict=all` equals an omitted verdict. An unknown `window` or `verdict` answers 400.
+- A cross-site subscribe POST answers 403 and inserts nothing.
+- A custom `to` date includes that whole UTC day.
+- `src/web/app.js` auto-submits a radio change, does not submit on Custom or a date change, restores focus, filters rows by name and alias, and opens the dialog without invoker-command support.
+- Feed text placed by the browser script is set as text, never as HTML.
 
-Vitest thresholds for `src/**/*.js` are raised from 90 to 100 on lines, statements, functions, and branches. Entry points are shims: they read the environment, build the adapters, call one exported function, and set the exit code. They hold no branches worth testing and are excluded from coverage by name in `vitest.config.js` (`src/jobs/{backfill,daily,mail,eval}.js`, `src/server/index.js`). Everything they call lives in tested modules. A shim that grows a branch moves that branch into a module. The gate is not met by spawning processes.
+Vitest thresholds for `src/**/*.js` are raised from 90 to 100 on lines, statements, functions, and branches. Entry points are shims: they read the environment, build the adapters, call one exported function, and set the exit code. They hold no branches worth testing and are excluded from coverage by name in `vitest.config.js` (`src/jobs/{backfill,feed,unwrap,fetch,extract,digest,mail}.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`). Everything they call lives in tested modules. A shim that grows a branch moves that branch into a module. The gate is not met by spawning processes.
 
 ## Consequences
 
