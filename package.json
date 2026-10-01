@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^13.0.3",
+    "linkedom": "^0.18.13",
     "ollama": "^0.6.4"
   },
   "devDependencies": {

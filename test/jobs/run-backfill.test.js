@@ -1,82 +1,115 @@
-import path from "node:path";
-
-import Database from "better-sqlite3";
 import { describe, expect, it } from "vitest";
 
-import { runBackfill } from "../../src/jobs/run-backfill.js";
+import { exitCode, runBackfill } from "../../src/jobs/run-backfill.js";
 import {
-  fileExists,
-  givenFile,
-  givenTemporaryDirectory,
-} from "../helpers/files.js";
+  NOW,
+  column,
+  givenConfig,
+  givenDependencies,
+  givenFeed,
+  givenQuietDependencies,
+} from "../helpers/backfill.js";
+import { givenItem, givenLog } from "../helpers/fakes.js";
+import { fileExists } from "../helpers/files.js";
 
-const givenConfig = () => {
-  const directory = givenTemporaryDirectory();
-  return {
-    coverageDatabase: path.join(directory, "coverage.sqlite"),
-    seedPath: givenFile(
-      directory,
-      "companies.txt",
-      "Harvey\nLudeo (formerly Edge)",
-    ),
-    overlayPath: givenFile(directory, "overlay.json", "{}"),
-  };
-};
-
-/**
- * @param {string} file Coverage store path.
- * @returns {string[]} Company ids in the store.
- */
-const storedIds = (file) => {
-  const database = new Database(file, { readonly: true });
-  try {
-    return database
-      .prepare("SELECT id FROM companies ORDER BY id")
-      .pluck()
-      .all()
-      .map(String);
-  } finally {
-    database.close();
-  }
-};
-
-describe("runBackfill", () => {
-  it("syncs the seed into the coverage store", async () => {
+describe("runBackfill collection", () => {
+  it("stores each company's candidates as backfill links", async () => {
     const config = givenConfig();
+    const { feed } = givenFeed({
+      harvey: [givenItem("g1", "2026-08-01T00:00:00.000Z")],
+    });
 
-    await runBackfill(config);
+    await runBackfill(config, givenDependencies(feed));
 
-    expect(storedIds(config.coverageDatabase)).toEqual(["harvey", "ludeo"]);
+    expect(
+      column(
+        config.coverageDatabase,
+        "SELECT company_id || ':' || guid || ':' || origin FROM company_articles",
+      ),
+    ).toEqual(["harvey:g1:backfill"]);
   });
 
-  it("returns the number of companies synced", async () => {
-    await expect(runBackfill(givenConfig())).resolves.toBe(2);
+  it("summarizes a clean run", async () => {
+    const { feed } = givenFeed({
+      harvey: [givenItem("g1", "2026-08-01T00:00:00.000Z")],
+    });
+
+    const summary = await runBackfill(givenConfig(), givenDependencies(feed));
+
+    expect(summary).toEqual({
+      companies: 3,
+      skipped: 0,
+      collected: 3,
+      inserted: 1,
+      failed: 0,
+      stoppedBy: undefined,
+    });
+  });
+
+  it("logs each collected company", async () => {
+    const { log, events } = givenLog();
+
+    await runBackfill(givenConfig("Harvey"), {
+      feed: givenFeed({}).feed,
+      log,
+      now: NOW,
+    });
+
+    expect(events).toEqual([
+      {
+        event: "feed.collected",
+        fields: { company: "harvey", items: 0, inserted: 0, fullPages: 0 },
+      },
+    ]);
+  });
+});
+
+describe("runBackfill resume", () => {
+  it("skips companies collected by an earlier run", async () => {
+    const config = givenConfig();
+    await runBackfill(config, givenQuietDependencies());
+    const { feed, asked } = givenFeed({});
+
+    const summary = await runBackfill(config, givenDependencies(feed));
+
+    expect({ asked, skipped: summary.skipped }).toEqual({
+      asked: [],
+      skipped: 3,
+    });
   });
 
   it("releases the job lock when it finishes", async () => {
     const config = givenConfig();
 
-    await runBackfill(config);
+    await runBackfill(config, givenQuietDependencies());
 
     expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
   });
+});
 
-  it("refuses to run while another job holds the lock", async () => {
-    const config = givenConfig();
-    givenFile(
-      path.dirname(config.coverageDatabase),
-      "coverage.sqlite.lock",
-      "4242",
-    );
+describe("exitCode", () => {
+  const clean = {
+    companies: 1,
+    skipped: 0,
+    collected: 1,
+    inserted: 0,
+    failed: 0,
+    stoppedBy: undefined,
+  };
 
-    await expect(runBackfill(config)).rejects.toThrow("Process 4242 holds");
-  });
-
-  it("does not create the store when the seed is invalid", async () => {
-    const config = givenConfig();
-    givenFile(path.dirname(config.coverageDatabase), "companies.txt", "Wave)");
-
-    await expect(runBackfill(config)).rejects.toThrow('Seed line "Wave)"');
-    expect(fileExists(config.coverageDatabase)).toBe(false);
+  it.each([
+    { name: "0 for a clean run", summary: clean, expected: 0 },
+    {
+      name: "1 when a company failed",
+      summary: { ...clean, failed: 1 },
+      expected: 1,
+    },
+    {
+      name: "1 when a stage stopped",
+      summary: { ...clean, stoppedBy: "news.google.com" },
+      expected: 1,
+    },
+  ])("is $name", ({ summary, expected }) => {
+    expect(exitCode(summary)).toBe(expected);
   });
 });

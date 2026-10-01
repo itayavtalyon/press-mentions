@@ -152,6 +152,7 @@ erDiagram
     text aliases
     text descriptor
     text query_terms
+    text backfilled_at
   }
   articles {
     text guid
@@ -160,6 +161,7 @@ erDiagram
     text publisher_name
     text publisher_homepage
     text publisher_url
+    text google_url
     text extracted_text
     text text_source
     text stage
@@ -303,6 +305,7 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 - `batchexecute` is unofficial. When it breaks, new rows fall back to the title and the README should say the unwrap failed.
 - A week that returns 100 items is silently incomplete, and the cap samples it further. The dashboard does not mark sampled companies. The README does.
 - Many business pages return 401, 403, or a script shell. Those mentions are title judgments, and `text_source` shows it.
+- The overlay must be final before the real backfill. A company already backfilled keeps its candidates when its query changes later; re-collecting it means clearing its `backfilled_at` by hand. A smoke run on 1 Oct 2026 stored 150 "edge" items for Ludeo before the overlay existed.
 - The overlay decides precision for about 30 ordinary-word names. A wrong or missing descriptor is a silent precision loss. The labeled set should include one hit and one miss for several of those names, not only Harvey.
 - The mailer can send the same body twice if it crashes after a successful handoff and before the delete.
 - A mention classified more than 72 hours after publication never alerts.

@@ -24,7 +24,7 @@ npm run job:daily
 npm run verify
 ```
 
-`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.lock` while it runs, and a second job exits 1 with the holder's process id. Collection is not built yet.
+`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.lock` while it runs, and a second job exits 1 with the holder's process id. It then collects each company's Google News candidates for last quarter through now: one query, or one per week when the first page is full, keeping at most 150. A company whose candidates are stored is skipped on the next run. Requests to Google are spaced by `GOOGLE_TOKEN_MS` and back off on 429. The job exits 1 if any company failed or Google kept throttling. Text extraction and classification are not built yet.
 
 `npm start` is the HTTP server. `npm run job:daily` is the daily job. Both exit without doing work. Every script loads `.env` with Node's `--env-file`.
 

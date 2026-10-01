@@ -16,14 +16,15 @@ The orchestrator receives ports for the feed, the URL resolver, the article fetc
 
 Each stage writes its result. A later run skips a stage whose result is already stored for the current inputs.
 
-| Stage         | Skip when                                                              |
-| ------------- | ---------------------------------------------------------------------- |
-| Feed          | The `guid` is already stored for that company                          |
-| Unwrap        | A publisher URL or a terminal resolve failure is stored                |
-| Fetch         | A terminal fetch status is stored                                      |
-| Extract       | Extracted text or a terminal empty extract is stored                   |
-| Classify      | A verdict exists for this model and prompt version                     |
-| Alert enqueue | A `notified` row exists for that email, company, and `guid` (ADR 0007) |
+| Stage           | Skip when                                                              |
+| --------------- | ---------------------------------------------------------------------- |
+| Feed (backfill) | `backfilled_at` is set                                                 |
+| Feed (daily)    | The `guid` is already stored for that company                          |
+| Unwrap          | A publisher URL or a terminal resolve failure is stored                |
+| Fetch           | A terminal fetch status is stored                                      |
+| Extract         | Extracted text or a terminal empty extract is stored                   |
+| Classify        | A verdict exists for this model and prompt version                     |
+| Alert enqueue   | A `notified` row exists for that email, company, and `guid` (ADR 0007) |
 
 The in-memory bucket resets when the process exits.
 
