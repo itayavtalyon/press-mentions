@@ -1,4 +1,4 @@
-import { html } from "./markup.js";
+import { html, safeHref } from "./markup.js";
 import { plural } from "./page.js";
 
 /**
@@ -8,7 +8,7 @@ import { plural } from "./page.js";
 
 /**
  * @typedef {ReturnType<typeof html>} Html
- * @typedef {import("./page.js").Tally} Tally
+ * @typedef {import("../../core/dashboard.js").Tally} Tally
  */
 
 /**
@@ -17,8 +17,30 @@ import { plural } from "./page.js";
  */
 export function chip(verdict) {
   return html`<span class="chip" data-verdict="${verdict}"
-    >${dot()}${verdict.charAt(0).toUpperCase()}${verdict.slice(1)}</span
+    >${dot()}${capitalized(verdict)}</span
   >`;
+}
+
+/**
+ * @param {string} word Lowercase word.
+ * @returns {string} The word with a capital first letter.
+ */
+export function capitalized(word) {
+  return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
+
+/**
+ * The article link rule (ADR 0008): the publisher URL, else the Google URL, and only when it is http(s).
+ * @param {{ title: string, publisherUrl: string | undefined, googleUrl: string }} article One stored article.
+ * @returns {Html | string} The title as an external link, or as text when no URL may be linked.
+ */
+export function articleLink({ title, publisherUrl, googleUrl }) {
+  const href = safeHref(publisherUrl ?? googleUrl);
+  return href === undefined
+    ? title
+    : html`<a class="external" href="${href}" rel="noopener noreferrer"
+        >${title}</a
+      >`;
 }
 /**
  * @param {number} days Whole elapsed days since the last mention.

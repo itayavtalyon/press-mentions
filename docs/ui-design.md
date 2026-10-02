@@ -17,7 +17,7 @@ Written by the interface agent from the grilled requirements, then reviewed and 
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Rendering                     | Server-rendered HTML from `node:http`. No framework, no SPA, no JSON API. Every page works with JS off.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Templating                    | An `html` tagged template that escapes every interpolation. Nested fragments pass as marked safe HTML.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Browser JS                    | One module, `src/ui/browser/app.js`: local times, auto-submit (§7.3), name filter, invoker-command fallback. Under the 100% gate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Browser JS                    | Superseded by Browser modules below. One module, `src/ui/browser/app.js`: local times, auto-submit (§7.3), name filter, invoker-command fallback. Under the 100% gate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Read path                     | `src/core/filters.js` turns the query string into `{ range, verdicts }` or field problems. `src/core/dashboard.js` owns sort, tallies, last mentioned, collection start, and the address rule. `src/infra/coverage-read.js` filters and groups in SQL. Nothing loads every row into memory.                                                                                                                                                                                                                                                                                                                                                                                       |
 | Index row                     | Name and aliases, last mentioned, tally with tone counts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | `verdict` on the index        | Counts only that verdict. Companies with zero such mentions in the window are omitted. `verdict=all`, empty, and missing mean every visible verdict.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -40,6 +40,7 @@ Written by the interface agent from the grilled requirements, then reviewed and 
 | Bad `window` or `verdict`     | 400, "Check the filters", names the field.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | UI tooling                    | Contrast, overflow, and axe tools join the repo with `playwright-core` and `axe-core` as devDependencies. `just ui-check` runs them against a server reading the real coverage DB. Decided 2026-10-02 in D7: playwright's own Chromium; the recipe starts the server on port 3999; contrast reads tokens from `app.css`; `tools/pages.mjs` is the shared page list; viewport screenshots committed in `docs/shots/`; pure parts tested at 100%, browser drivers excluded like entry shims; with no company stored, the index shows only the not-run panel.                                                                                                                        |
 | Other handoff recommendations | Accepted: short cell wording, `tsconfig.web.json`, rendered-row denominator for the name filter, §14 #3 option (a) with a README note, 90-day prefill inclusive of today.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Deep review D0–D7             | Decided 2026-10-02. The server answers 421 unless the `Host` name is `127.0.0.1` or `localhost`, so a DNS-rebinding page cannot read pages or post a subscribe whose `Origin` matches its own `Host`. A custom `to` whose next day is past year 9999 is an invalid `to`. Recorded as accepted: an address needs text before its `@`; `/review` says `No reply was stored.` when a row has no reply; the dialog's success state has a `Close` button.                                                                                                                                                                                                                              |
 
 ---
 
@@ -110,84 +111,84 @@ Two deliberate size exceptions, both documented in CSS: verdict section h2 is 1.
 - `prefers-reduced-motion: reduce` turns off the only animation, a 120ms opacity fade on `dialog[open]`.
 - `forced-colors: active`: chips, tags, badge, buttons, banners and segments keep a `CanvasText` border. Checked radios use `Highlight`/`HighlightText`. Focus uses `Highlight`. Dots and the brand mark are drawn with `border`, not `background`, so they survive forced colors. See `mockup/shots/*--forced-colors.png`.
 
-### 2.4 Contrast table (computed by `tools/contrast.mjs`, WCAG 2.x relative luminance, sRGB)
+### 2.4 Contrast table (printed by `node tools/contrast.mjs` from `app.css`, WCAG 2.x relative luminance, sRGB)
 
 All 72 checked pairs pass. Chip words meet AAA (≥7:1, lowest 7.77:1). Control outlines and the focus ring meet 1.4.11 (≥3:1). The `--border` row is listed for information only; it's decorative and has no minimum.
 
 | Theme | Foreground              | Background              | Ratio   | Min   | Result | Used for                                              |
 | ----- | ----------------------- | ----------------------- | ------- | ----- | ------ | ----------------------------------------------------- |
-| light | text `#151A22`          | bg `#F6F7F9`            | 16.29:1 | 4.5:1 | pass   | body text                                             |
-| light | text `#151A22`          | surface `#FFFFFF`       | 17.46:1 | 4.5:1 | pass   | text in cards/table                                   |
-| light | muted `#545E6E`         | bg `#F6F7F9`            | 6.12:1  | 4.5:1 | pass   | secondary text on page                                |
-| light | muted `#545E6E`         | surface `#FFFFFF`       | 6.56:1  | 4.5:1 | pass   | secondary text in cards                               |
-| light | accent `#1D4ED8`        | bg `#F6F7F9`            | 6.25:1  | 4.5:1 | pass   | links on page                                         |
-| light | accent `#1D4ED8`        | surface `#FFFFFF`       | 6.70:1  | 4.5:1 | pass   | links in cards/table                                  |
-| light | on-accent `#FFFFFF`     | accent `#1D4ED8`        | 6.70:1  | 4.5:1 | pass   | primary button / selected segment text                |
-| light | accent `#1D4ED8`        | bg `#F6F7F9`            | 6.25:1  | 3:1   | pass   | focus ring vs page (1.4.11)                           |
-| light | accent `#1D4ED8`        | surface `#FFFFFF`       | 6.70:1  | 3:1   | pass   | focus ring vs card (1.4.11)                           |
-| light | accent `#1D4ED8`        | accent-soft `#E8EEFC`   | 5.77:1  | 4.5:1 | pass   | selected segment / selected All pill text             |
-| light | accent `#1D4ED8`        | bg `#F6F7F9`            | 6.25:1  | 3:1   | pass   | selected segment inner border vs track (1.4.11)       |
-| light | text `#151A22`          | surface-hover `#F1F4F8` | 15.83:1 | 4.5:1 | pass   | row hover: text                                       |
-| light | muted `#545E6E`         | surface-hover `#F1F4F8` | 5.94:1  | 4.5:1 | pass   | row hover: muted text                                 |
-| light | accent `#1D4ED8`        | surface-hover `#F1F4F8` | 6.07:1  | 4.5:1 | pass   | row hover: link                                       |
-| light | text `#151A22`          | badge `#E3E7ED`         | 14.07:1 | 4.5:1 | pass   | Review count pill                                     |
-| light | muted `#545E6E`         | bg `#F6F7F9`            | 6.12:1  | 4.5:1 | pass   | pre (model reply) uses bg inside card                 |
-| light | border `#D5DAE1`        | surface `#FFFFFF`       | 1.41:1  | 1:1   | pass   | card/divider edge (decorative, no minimum; info only) |
-| light | border-strong `#7A8494` | surface `#FFFFFF`       | 3.78:1  | 3:1   | pass   | input/radio/button outline (1.4.11)                   |
-| light | border-strong `#7A8494` | bg `#F6F7F9`            | 3.53:1  | 3:1   | pass   | control outline on page (1.4.11)                      |
-| light | positive text `#13502B` | positive bg `#E2F3E8`   | 8.24:1  | 7:1   | pass   | positive chip word (AAA target)                       |
-| light | positive text `#13502B` | surface `#FFFFFF`       | 9.50:1  | 4.5:1 | pass   | positive text off-chip (error text, counts)           |
-| light | positive dot `#2E8B57`  | surface `#FFFFFF`       | 4.25:1  | 3:1   | pass   | positive dot / section border (decorative, aim 3:1)   |
-| light | negative text `#8B1A1A` | negative bg `#FBE6E6`   | 7.77:1  | 7:1   | pass   | negative chip word (AAA target)                       |
-| light | negative text `#8B1A1A` | surface `#FFFFFF`       | 9.29:1  | 4.5:1 | pass   | negative text off-chip (error text, counts)           |
-| light | negative dot `#D14343`  | surface `#FFFFFF`       | 4.57:1  | 3:1   | pass   | negative dot / section border (decorative, aim 3:1)   |
-| light | neutral text `#1F3B66`  | neutral bg `#E5EDF8`    | 9.49:1  | 7:1   | pass   | neutral chip word (AAA target)                        |
-| light | neutral text `#1F3B66`  | surface `#FFFFFF`       | 11.20:1 | 4.5:1 | pass   | neutral text off-chip (error text, counts)            |
-| light | neutral dot `#4A78B5`   | surface `#FFFFFF`       | 4.52:1  | 3:1   | pass   | neutral dot / section border (decorative, aim 3:1)    |
-| light | unranked text `#5A2D8A` | unranked bg `#F1EAFB`   | 8.22:1  | 7:1   | pass   | unranked chip word (AAA target)                       |
-| light | unranked text `#5A2D8A` | surface `#FFFFFF`       | 9.65:1  | 4.5:1 | pass   | unranked text off-chip (error text, counts)           |
-| light | unranked dot `#8A5CC7`  | surface `#FFFFFF`       | 4.73:1  | 3:1   | pass   | unranked dot / section border (decorative, aim 3:1)   |
-| light | negative dot `#D14343`  | surface `#FFFFFF`       | 4.57:1  | 3:1   | pass   | invalid field border (1.4.11)                         |
-| light | text `#151A22`          | positive bg `#E2F3E8`   | 15.15:1 | 4.5:1 | pass   | success banner body                                   |
-| light | text `#151A22`          | neutral bg `#E5EDF8`    | 14.80:1 | 4.5:1 | pass   | info panel / already-subscribed banner                |
-| light | text `#151A22`          | negative bg `#FBE6E6`   | 14.60:1 | 4.5:1 | pass   | error summary box body                                |
-| light | accent `#1D4ED8`        | negative bg `#FBE6E6`   | 5.60:1  | 4.5:1 | pass   | link inside error summary                             |
-| dark  | text `#E6E9EF`          | bg `#0E1116`            | 15.55:1 | 4.5:1 | pass   | body text                                             |
-| dark  | text `#E6E9EF`          | surface `#161A21`       | 14.34:1 | 4.5:1 | pass   | text in cards/table                                   |
-| dark  | muted `#A0A9B8`         | bg `#0E1116`            | 7.98:1  | 4.5:1 | pass   | secondary text on page                                |
-| dark  | muted `#A0A9B8`         | surface `#161A21`       | 7.36:1  | 4.5:1 | pass   | secondary text in cards                               |
-| dark  | accent `#8DB4FF`        | bg `#0E1116`            | 9.10:1  | 4.5:1 | pass   | links on page                                         |
-| dark  | accent `#8DB4FF`        | surface `#161A21`       | 8.39:1  | 4.5:1 | pass   | links in cards/table                                  |
-| dark  | on-accent `#0E1116`     | accent `#8DB4FF`        | 9.10:1  | 4.5:1 | pass   | primary button / selected segment text                |
-| dark  | accent `#8DB4FF`        | bg `#0E1116`            | 9.10:1  | 3:1   | pass   | focus ring vs page (1.4.11)                           |
-| dark  | accent `#8DB4FF`        | surface `#161A21`       | 8.39:1  | 3:1   | pass   | focus ring vs card (1.4.11)                           |
-| dark  | accent `#8DB4FF`        | accent-soft `#1A2741`   | 7.16:1  | 4.5:1 | pass   | selected segment / selected All pill text             |
-| dark  | accent `#8DB4FF`        | bg `#0E1116`            | 9.10:1  | 3:1   | pass   | selected segment inner border vs track (1.4.11)       |
-| dark  | text `#E6E9EF`          | surface-hover `#1C212A` | 13.28:1 | 4.5:1 | pass   | row hover: text                                       |
-| dark  | muted `#A0A9B8`         | surface-hover `#1C212A` | 6.82:1  | 4.5:1 | pass   | row hover: muted text                                 |
-| dark  | accent `#8DB4FF`        | surface-hover `#1C212A` | 7.77:1  | 4.5:1 | pass   | row hover: link                                       |
-| dark  | text `#E6E9EF`          | badge `#2A303B`         | 10.90:1 | 4.5:1 | pass   | Review count pill                                     |
-| dark  | muted `#A0A9B8`         | bg `#0E1116`            | 7.98:1  | 4.5:1 | pass   | pre (model reply) uses bg inside card                 |
-| dark  | border `#303744`        | surface `#161A21`       | 1.46:1  | 1:1   | pass   | card/divider edge (decorative, no minimum; info only) |
-| dark  | border-strong `#6B7587` | surface `#161A21`       | 3.75:1  | 3:1   | pass   | input/radio/button outline (1.4.11)                   |
-| dark  | border-strong `#6B7587` | bg `#0E1116`            | 4.07:1  | 3:1   | pass   | control outline on page (1.4.11)                      |
-| dark  | positive text `#8CDDAA` | positive bg `#11301E`   | 8.90:1  | 7:1   | pass   | positive chip word (AAA target)                       |
-| dark  | positive text `#8CDDAA` | surface `#161A21`       | 10.83:1 | 4.5:1 | pass   | positive text off-chip (error text, counts)           |
-| dark  | positive dot `#3FB872`  | surface `#161A21`       | 6.90:1  | 3:1   | pass   | positive dot / section border (decorative, aim 3:1)   |
-| dark  | negative text `#FFA3A3` | negative bg `#3B1517`   | 8.44:1  | 7:1   | pass   | negative chip word (AAA target)                       |
-| dark  | negative text `#FFA3A3` | surface `#161A21`       | 9.15:1  | 4.5:1 | pass   | negative text off-chip (error text, counts)           |
-| dark  | negative dot `#F06464`  | surface `#161A21`       | 5.58:1  | 3:1   | pass   | negative dot / section border (decorative, aim 3:1)   |
-| dark  | neutral text `#A8C6F4`  | neutral bg `#172943`    | 8.40:1  | 7:1   | pass   | neutral chip word (AAA target)                        |
-| dark  | neutral text `#A8C6F4`  | surface `#161A21`       | 10.01:1 | 4.5:1 | pass   | neutral text off-chip (error text, counts)            |
-| dark  | neutral dot `#6A9BE0`   | surface `#161A21`       | 6.13:1  | 3:1   | pass   | neutral dot / section border (decorative, aim 3:1)    |
-| dark  | unranked text `#D2B6FF` | unranked bg `#2A1C42`   | 8.84:1  | 7:1   | pass   | unranked chip word (AAA target)                       |
-| dark  | unranked text `#D2B6FF` | surface `#161A21`       | 9.86:1  | 4.5:1 | pass   | unranked text off-chip (error text, counts)           |
-| dark  | unranked dot `#A57DE8`  | surface `#161A21`       | 5.56:1  | 3:1   | pass   | unranked dot / section border (decorative, aim 3:1)   |
-| dark  | negative dot `#F06464`  | surface `#161A21`       | 5.58:1  | 3:1   | pass   | invalid field border (1.4.11)                         |
-| dark  | text `#E6E9EF`          | positive bg `#11301E`   | 11.78:1 | 4.5:1 | pass   | success banner body                                   |
-| dark  | text `#E6E9EF`          | neutral bg `#172943`    | 12.04:1 | 4.5:1 | pass   | info panel / already-subscribed banner                |
-| dark  | text `#E6E9EF`          | negative bg `#3B1517`   | 13.23:1 | 4.5:1 | pass   | error summary box body                                |
-| dark  | accent `#8DB4FF`        | negative bg `#3B1517`   | 7.74:1  | 4.5:1 | pass   | link inside error summary                             |
+| light | text `#151a22`          | bg `#f6f7f9`            | 16.29:1 | 4.5:1 | pass   | body text                                             |
+| light | text `#151a22`          | surface `#ffffff`       | 17.46:1 | 4.5:1 | pass   | text in cards/table                                   |
+| light | muted `#545e6e`         | bg `#f6f7f9`            | 6.12:1  | 4.5:1 | pass   | secondary text on page                                |
+| light | muted `#545e6e`         | surface `#ffffff`       | 6.56:1  | 4.5:1 | pass   | secondary text in cards                               |
+| light | accent `#1d4ed8`        | bg `#f6f7f9`            | 6.25:1  | 4.5:1 | pass   | links on page                                         |
+| light | accent `#1d4ed8`        | surface `#ffffff`       | 6.70:1  | 4.5:1 | pass   | links in cards/table                                  |
+| light | on-accent `#ffffff`     | accent `#1d4ed8`        | 6.70:1  | 4.5:1 | pass   | primary button / selected segment text                |
+| light | accent `#1d4ed8`        | bg `#f6f7f9`            | 6.25:1  | 3:1   | pass   | focus ring vs page (1.4.11)                           |
+| light | accent `#1d4ed8`        | surface `#ffffff`       | 6.70:1  | 3:1   | pass   | focus ring vs card (1.4.11)                           |
+| light | accent `#1d4ed8`        | accent-soft `#e8eefc`   | 5.77:1  | 4.5:1 | pass   | selected segment / selected All pill text             |
+| light | accent `#1d4ed8`        | bg `#f6f7f9`            | 6.25:1  | 3:1   | pass   | selected segment inner border vs track (1.4.11)       |
+| light | text `#151a22`          | surface-hover `#f1f4f8` | 15.83:1 | 4.5:1 | pass   | row hover: text                                       |
+| light | muted `#545e6e`         | surface-hover `#f1f4f8` | 5.94:1  | 4.5:1 | pass   | row hover: muted text                                 |
+| light | accent `#1d4ed8`        | surface-hover `#f1f4f8` | 6.07:1  | 4.5:1 | pass   | row hover: link                                       |
+| light | text `#151a22`          | badge-bg `#e3e7ed`      | 14.07:1 | 4.5:1 | pass   | Review count pill                                     |
+| light | muted `#545e6e`         | bg `#f6f7f9`            | 6.12:1  | 4.5:1 | pass   | pre (model reply) uses bg inside card                 |
+| light | border `#d5dae1`        | surface `#ffffff`       | 1.41:1  | 1:1   | pass   | card/divider edge (decorative, no minimum; info only) |
+| light | border-strong `#7a8494` | surface `#ffffff`       | 3.78:1  | 3:1   | pass   | input/radio/button outline (1.4.11)                   |
+| light | border-strong `#7a8494` | bg `#f6f7f9`            | 3.53:1  | 3:1   | pass   | control outline on page (1.4.11)                      |
+| light | positive-text `#13502b` | positive-bg `#e2f3e8`   | 8.24:1  | 7:1   | pass   | positive chip word (AAA target)                       |
+| light | positive-text `#13502b` | surface `#ffffff`       | 9.50:1  | 4.5:1 | pass   | positive text off-chip (error text, counts)           |
+| light | positive-dot `#2e8b57`  | surface `#ffffff`       | 4.25:1  | 3:1   | pass   | positive dot / section border (decorative, aim 3:1)   |
+| light | negative-text `#8b1a1a` | negative-bg `#fbe6e6`   | 7.77:1  | 7:1   | pass   | negative chip word (AAA target)                       |
+| light | negative-text `#8b1a1a` | surface `#ffffff`       | 9.29:1  | 4.5:1 | pass   | negative text off-chip (error text, counts)           |
+| light | negative-dot `#d14343`  | surface `#ffffff`       | 4.57:1  | 3:1   | pass   | negative dot / section border (decorative, aim 3:1)   |
+| light | neutral-text `#1f3b66`  | neutral-bg `#e5edf8`    | 9.49:1  | 7:1   | pass   | neutral chip word (AAA target)                        |
+| light | neutral-text `#1f3b66`  | surface `#ffffff`       | 11.20:1 | 4.5:1 | pass   | neutral text off-chip (error text, counts)            |
+| light | neutral-dot `#4a78b5`   | surface `#ffffff`       | 4.52:1  | 3:1   | pass   | neutral dot / section border (decorative, aim 3:1)    |
+| light | unranked-text `#5a2d8a` | unranked-bg `#f1eafb`   | 8.22:1  | 7:1   | pass   | unranked chip word (AAA target)                       |
+| light | unranked-text `#5a2d8a` | surface `#ffffff`       | 9.65:1  | 4.5:1 | pass   | unranked text off-chip (error text, counts)           |
+| light | unranked-dot `#8a5cc7`  | surface `#ffffff`       | 4.73:1  | 3:1   | pass   | unranked dot / section border (decorative, aim 3:1)   |
+| light | negative-dot `#d14343`  | surface `#ffffff`       | 4.57:1  | 3:1   | pass   | invalid field border (1.4.11)                         |
+| light | text `#151a22`          | positive-bg `#e2f3e8`   | 15.15:1 | 4.5:1 | pass   | success banner body                                   |
+| light | text `#151a22`          | neutral-bg `#e5edf8`    | 14.80:1 | 4.5:1 | pass   | info panel / already-subscribed banner                |
+| light | text `#151a22`          | negative-bg `#fbe6e6`   | 14.60:1 | 4.5:1 | pass   | error summary box body                                |
+| light | accent `#1d4ed8`        | negative-bg `#fbe6e6`   | 5.60:1  | 4.5:1 | pass   | link inside error summary                             |
+| dark  | text `#e6e9ef`          | bg `#0e1116`            | 15.55:1 | 4.5:1 | pass   | body text                                             |
+| dark  | text `#e6e9ef`          | surface `#161a21`       | 14.34:1 | 4.5:1 | pass   | text in cards/table                                   |
+| dark  | muted `#a0a9b8`         | bg `#0e1116`            | 7.98:1  | 4.5:1 | pass   | secondary text on page                                |
+| dark  | muted `#a0a9b8`         | surface `#161a21`       | 7.36:1  | 4.5:1 | pass   | secondary text in cards                               |
+| dark  | accent `#8db4ff`        | bg `#0e1116`            | 9.10:1  | 4.5:1 | pass   | links on page                                         |
+| dark  | accent `#8db4ff`        | surface `#161a21`       | 8.39:1  | 4.5:1 | pass   | links in cards/table                                  |
+| dark  | on-accent `#0e1116`     | accent `#8db4ff`        | 9.10:1  | 4.5:1 | pass   | primary button / selected segment text                |
+| dark  | accent `#8db4ff`        | bg `#0e1116`            | 9.10:1  | 3:1   | pass   | focus ring vs page (1.4.11)                           |
+| dark  | accent `#8db4ff`        | surface `#161a21`       | 8.39:1  | 3:1   | pass   | focus ring vs card (1.4.11)                           |
+| dark  | accent `#8db4ff`        | accent-soft `#1a2741`   | 7.16:1  | 4.5:1 | pass   | selected segment / selected All pill text             |
+| dark  | accent `#8db4ff`        | bg `#0e1116`            | 9.10:1  | 3:1   | pass   | selected segment inner border vs track (1.4.11)       |
+| dark  | text `#e6e9ef`          | surface-hover `#1c212a` | 13.28:1 | 4.5:1 | pass   | row hover: text                                       |
+| dark  | muted `#a0a9b8`         | surface-hover `#1c212a` | 6.82:1  | 4.5:1 | pass   | row hover: muted text                                 |
+| dark  | accent `#8db4ff`        | surface-hover `#1c212a` | 7.77:1  | 4.5:1 | pass   | row hover: link                                       |
+| dark  | text `#e6e9ef`          | badge-bg `#2a303b`      | 10.90:1 | 4.5:1 | pass   | Review count pill                                     |
+| dark  | muted `#a0a9b8`         | bg `#0e1116`            | 7.98:1  | 4.5:1 | pass   | pre (model reply) uses bg inside card                 |
+| dark  | border `#303744`        | surface `#161a21`       | 1.46:1  | 1:1   | pass   | card/divider edge (decorative, no minimum; info only) |
+| dark  | border-strong `#6b7587` | surface `#161a21`       | 3.75:1  | 3:1   | pass   | input/radio/button outline (1.4.11)                   |
+| dark  | border-strong `#6b7587` | bg `#0e1116`            | 4.07:1  | 3:1   | pass   | control outline on page (1.4.11)                      |
+| dark  | positive-text `#8cddaa` | positive-bg `#11301e`   | 8.90:1  | 7:1   | pass   | positive chip word (AAA target)                       |
+| dark  | positive-text `#8cddaa` | surface `#161a21`       | 10.83:1 | 4.5:1 | pass   | positive text off-chip (error text, counts)           |
+| dark  | positive-dot `#3fb872`  | surface `#161a21`       | 6.90:1  | 3:1   | pass   | positive dot / section border (decorative, aim 3:1)   |
+| dark  | negative-text `#ffa3a3` | negative-bg `#3b1517`   | 8.44:1  | 7:1   | pass   | negative chip word (AAA target)                       |
+| dark  | negative-text `#ffa3a3` | surface `#161a21`       | 9.15:1  | 4.5:1 | pass   | negative text off-chip (error text, counts)           |
+| dark  | negative-dot `#f06464`  | surface `#161a21`       | 5.58:1  | 3:1   | pass   | negative dot / section border (decorative, aim 3:1)   |
+| dark  | neutral-text `#a8c6f4`  | neutral-bg `#172943`    | 8.40:1  | 7:1   | pass   | neutral chip word (AAA target)                        |
+| dark  | neutral-text `#a8c6f4`  | surface `#161a21`       | 10.01:1 | 4.5:1 | pass   | neutral text off-chip (error text, counts)            |
+| dark  | neutral-dot `#6a9be0`   | surface `#161a21`       | 6.13:1  | 3:1   | pass   | neutral dot / section border (decorative, aim 3:1)    |
+| dark  | unranked-text `#d2b6ff` | unranked-bg `#2a1c42`   | 8.84:1  | 7:1   | pass   | unranked chip word (AAA target)                       |
+| dark  | unranked-text `#d2b6ff` | surface `#161a21`       | 9.86:1  | 4.5:1 | pass   | unranked text off-chip (error text, counts)           |
+| dark  | unranked-dot `#a57de8`  | surface `#161a21`       | 5.56:1  | 3:1   | pass   | unranked dot / section border (decorative, aim 3:1)   |
+| dark  | negative-dot `#f06464`  | surface `#161a21`       | 5.58:1  | 3:1   | pass   | invalid field border (1.4.11)                         |
+| dark  | text `#e6e9ef`          | positive-bg `#11301e`   | 11.78:1 | 4.5:1 | pass   | success banner body                                   |
+| dark  | text `#e6e9ef`          | neutral-bg `#172943`    | 12.04:1 | 4.5:1 | pass   | info panel / already-subscribed banner                |
+| dark  | text `#e6e9ef`          | negative-bg `#3b1517`   | 13.23:1 | 4.5:1 | pass   | error summary box body                                |
+| dark  | accent `#8db4ff`        | negative-bg `#3b1517`   | 7.74:1  | 4.5:1 | pass   | link inside error summary                             |
 
 ---
 
@@ -1029,19 +1030,9 @@ Recommend **root `tsconfig.json` excludes `src/ui/browser` and `test/ui/browser`
 - **No inline styles and no inline scripts** in server HTML. That allows a strict CSP. Suggested header: `Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'`.
 - **Known flash:** `html.js` is added when the module runs, after parsing, so for one frame Apply is visible and the name filter is hidden. Accepted; it doesn't shift layout much, and there's only one script by rule.
 
-### Server model split (decided, fits max-lines 300 / max-lines-per-function 60)
+### Server model split
 
-The coding standard allows no utility files, so each file is a page model:
-
-| File                            | Model                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `src/server/app.js`             | Routing, query parsing hand-off to `core/filters.js`, the cross-site guard, security headers, static `/app.css` and `/app.js`, status codes                                                                                                                                                                                            |
-| `src/ui/pages/page.js`          | The page shell: `html` tag, escape, `safe()`, `safeHref()` (http/https only), §8 format helpers, `APP_NAME`, layout, nav, footer, shared components (chip, tones, tally, time, empty state, banner, error summary, field) and the filter form partial. If it passes 300 lines, the filter form moves to `filters.js` as its own model. |
-| `src/ui/pages/index-page.js`    | `GET /`                                                                                                                                                                                                                                                                                                                                |
-| `src/ui/pages/company-page.js`  | `GET /companies/:id` and every subscribe outcome                                                                                                                                                                                                                                                                                       |
-| `src/ui/pages/review-page.js`   | `GET /review`                                                                                                                                                                                                                                                                                                                          |
-| `src/ui/pages/message-pages.js` | 404 and 403                                                                                                                                                                                                                                                                                                                            |
-| `src/server/index.js`           | Entry shim: config, stores, clock, `listen` on `127.0.0.1`                                                                                                                                                                                                                                                                             |
+The model table in `docs/CODING-STANDARD.md` is the current split. The first plan here (one `page.js` with the tag, the components, and the filter form) was split in D2, D4, and D5 as each file reached 300 lines.
 
 ---
 

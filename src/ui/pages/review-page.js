@@ -1,6 +1,6 @@
-import { html, safeHref } from "./markup.js";
+import { html } from "./markup.js";
 import { layout, plural } from "./page.js";
-import { emptyState } from "./parts.js";
+import { articleLink, emptyState } from "./parts.js";
 
 /**
  * Review page, `GET /review` (ADR 0002, `docs/ui-design.md` §6.5): every `uncertain` row with its raw
@@ -53,13 +53,6 @@ export function reviewPage(shell, rows) {
 function reviewCard(row, index) {
   const titleId = `r${index}-title`;
   const replyId = `r${index}-reply`;
-  const href = safeHref(row.publisherUrl ?? row.googleUrl);
-  const title =
-    href === undefined
-      ? row.title
-      : html`<a class="external" href="${href}" rel="noopener noreferrer"
-          >${row.title}</a
-        >`;
   const source = row.textSource === "title" ? "Headline only" : "Full text";
   const labels = `${replyId} ${titleId}`;
   // <pre> keeps whitespace, so the reply must follow the tag with no line break.
@@ -72,7 +65,7 @@ function reviewCard(row, index) {
       <a class="review-card__company" href="/companies/${row.companyId}"
         >${row.companyName}</a
       >
-      <h2 id="${titleId}">${title}</h2>
+      <h2 id="${titleId}">${articleLink(row)}</h2>
       <p class="review-card__meta">Text source: ${source}</p>
       <figure class="reply">
         <figcaption id="${replyId}">Model reply</figcaption>

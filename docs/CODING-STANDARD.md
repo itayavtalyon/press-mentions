@@ -68,12 +68,12 @@ Fewer files:
 | Filters          | `src/core/filters.js`             | The query string: window, custom dates, and verdict                      |
 | Dashboard        | `src/core/dashboard.js`           | Index order, tallies, last mentioned, collection start, the address rule |
 | Coverage read    | `src/infra/coverage-read.js`      | Dashboard queries on the coverage store                                  |
-| Server           | `src/server/app.js`               | Routes, method checks, headers, static files, and the 500 boundary       |
+| Server           | `src/server/app.js`               | Host check, routes, methods, headers, static files, the 500 boundary     |
 | Page replies     | `src/server/pages.js`             | What each page reads from the stores, and its status                     |
 | Subscription     | `src/server/subscription.js`      | The subscribe POST: guard, body, address, insert, page or JSON           |
 | Markup           | `src/ui/pages/markup.js`          | The escaping `html` tag and `safeHref`                                   |
 | Page shell       | `src/ui/pages/page.js`            | UTC format helpers, `<time>`, and the layout around every page           |
-| Parts            | `src/ui/pages/parts.js`           | Components more than one page uses                                       |
+| Parts            | `src/ui/pages/parts.js`           | Components more than one page uses, and the article link rule            |
 | Filter form      | `src/ui/pages/filter-form.js`     | The filter form, its error copy, and the window sentence                 |
 | Index page       | `src/ui/pages/index-page.js`      | `GET /`                                                                  |
 | Company page     | `src/ui/pages/company-page.js`    | `GET /companies/:id`: head, summary, empty states, and outcomes          |

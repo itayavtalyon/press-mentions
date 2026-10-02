@@ -1,6 +1,6 @@
 import { html } from "./markup.js";
 import { formatDay, formatRange } from "./page.js";
-import { emptyState, formField } from "./parts.js";
+import { capitalized, emptyState, formField } from "./parts.js";
 
 /**
  * Filter form (`docs/ui-design.md` §5, §6.6): the shared GET form, its error copy, and the sentence that
@@ -161,8 +161,7 @@ function verdictPill(value, chosen) {
   const isAll = value === "all";
   const label = isAll
     ? "All visible"
-    : html`<span class="dot" aria-hidden="true"></span
-        >${value.charAt(0).toUpperCase()}${value.slice(1)}`;
+    : html`<span class="dot" aria-hidden="true"></span>${capitalized(value)}`;
   const verdictAttribute = !isAll && html` data-verdict="${value}"`;
   return html`<label class="pill" ${verdictAttribute}
     ><input
@@ -225,10 +224,10 @@ function problemTarget({ field }) {
  * @returns {string} The window's name in a sentence.
  */
 function windowLabel({ window }) {
-  if (window === "last") {
-    return "Last quarter";
-  }
-  return window === "this" ? "This quarter" : "Custom range";
+  const option = WINDOW_OPTIONS.find(([value]) => value === window);
+  return window === "custom" || option === undefined
+    ? "Custom range"
+    : option[1];
 }
 
 /**

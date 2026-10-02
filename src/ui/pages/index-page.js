@@ -10,7 +10,7 @@ import {
 } from "./filter-form.js";
 import { html } from "./markup.js";
 import { formatDay, layout, plural } from "./page.js";
-import { ago, emptyState, tallyText, tones } from "./parts.js";
+import { ago, capitalized, emptyState, tallyText, tones } from "./parts.js";
 
 /**
  * Index page, `GET /` (`docs/ui-design.md` §6.1): every company with last mentioned and the window tally.
@@ -105,6 +105,8 @@ function results(shell, view) {
   }
   const verdict =
     filters.verdict === "all" ? "All visible" : capitalized(filters.verdict);
+  // intentional: the same words as `countText` in src/ui/browser/name-filter.js, which runs in the page and
+  // is not imported by the server.
   const count = `Showing ${rows.length} of ${plural(rows.length, "company", "companies")}`;
   return html`${nameFilterTools(count)}
     <table class="companies" id="companies" role="table">
@@ -258,12 +260,4 @@ function notePanel(title, body) {
       <p class="banner__body">${body}</p>
     </div>
   </div>`;
-}
-
-/**
- * @param {string} word Lowercase word.
- * @returns {string} The word with a capital first letter.
- */
-function capitalized(word) {
-  return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
 }

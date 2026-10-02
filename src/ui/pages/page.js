@@ -15,7 +15,6 @@ import { html } from "./markup.js";
  * @property {"companies" | "review" | undefined} current Nav item to mark.
  * @property {Html} body Main content.
  * @typedef {Shell & PageContent} LayoutOptions
- * @typedef {{ mentions: number, rated: number, positive: number, negative: number, neutral: number }} Tally
  */
 
 export const APP_NAME = "Press Monitor";

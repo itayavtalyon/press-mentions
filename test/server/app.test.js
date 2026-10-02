@@ -95,3 +95,50 @@ describe("other requests", () => {
     expect(logged).toEqual(["server.error"]);
   });
 });
+
+const REBINDING_HOST = "evil.test:3000";
+
+describe("Host check", () => {
+  it.each(["localhost:3000", "127.0.0.1:3000"])(
+    "serves a request addressed to %s",
+    async (host) => {
+      const response = await request(givenApp().app).get("/").set("Host", host);
+
+      expect(response.status).toBe(200);
+    },
+  );
+
+  it.each(["evil.test:3000", "bad host"])(
+    "answers 421 to the Host %j",
+    async (host) => {
+      const response = await request(givenApp().app).get("/").set("Host", host);
+
+      expect(response.status).toBe(421);
+    },
+  );
+
+  it("answers 421 to another host name, so a rebinding site reads nothing", async () => {
+    const response = await request(givenApp().app)
+      .get("/")
+      .set("Host", "evil.test:3000");
+
+    expect(response.status).toBe(421);
+    expect(response.text).not.toContain("Acme");
+  });
+
+  it("stores nothing when a rebinding site posts with a matching Origin", async () => {
+    const { alerts, app } = givenApp();
+
+    const response = await request(app)
+      .post("/companies/acme/subscriptions")
+      .set("Host", REBINDING_HOST)
+      .set("Origin", `http://${REBINDING_HOST}`)
+      .type("form")
+      .send({ email: "rebind@example.com" });
+
+    expect(response.status).toBe(421);
+    expect(
+      alerts.prepare("SELECT COUNT(*) FROM subscriptions").pluck().get(),
+    ).toBe(0);
+  });
+});

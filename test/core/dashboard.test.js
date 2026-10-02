@@ -64,19 +64,23 @@ describe("companyList", () => {
     ]);
   });
 
-  it("puts the newer mention first whichever order the rows arrive in", () => {
-    const older = coverage("older", "2026-09-01T00:00:00.000Z");
-    const newer = coverage("newer", "2026-09-02T00:00:00.000Z");
+  it.each([
+    ["older first", ["older", "newer"]],
+    ["newer first", ["newer", "older"]],
+  ])("puts the newer mention first when rows arrive %s", (_, order) => {
+    const rows = order.map((id) =>
+      coverage(
+        id,
+        id === "newer"
+          ? "2026-09-02T00:00:00.000Z"
+          : "2026-09-01T00:00:00.000Z",
+      ),
+    );
 
-    for (const rows of [
-      [older, newer],
-      [newer, older],
-    ]) {
-      expect(companyList(rows, filtersOf(ALL)).map((row) => row.id)).toEqual([
-        "newer",
-        "older",
-      ]);
-    }
+    expect(companyList(rows, filtersOf(ALL)).map((row) => row.id)).toEqual([
+      "newer",
+      "older",
+    ]);
   });
 
   it("keeps companies with no mentions in the window when every verdict is shown", () => {

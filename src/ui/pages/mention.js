@@ -1,8 +1,8 @@
 import { VISIBLE_VERDICTS } from "../../core/filters.js";
 
-import { html, safeHref } from "./markup.js";
+import { html } from "./markup.js";
 import { timeUtc } from "./page.js";
-import { chip } from "./parts.js";
+import { articleLink, capitalized, chip } from "./parts.js";
 
 /**
  * Mention list (`docs/ui-design.md` §6.2): verdict sections in digest order, each mention with its link,
@@ -48,14 +48,13 @@ export function excerptText(text) {
  * @returns {Html} One section.
  */
 function verdictSection(verdict, group, all) {
-  const label = `${verdict.charAt(0).toUpperCase()}${verdict.slice(1)}`;
   return html`<section
     class="verdict-section"
     data-verdict="${verdict}"
     aria-labelledby="section-${verdict}"
   >
     <h2 id="section-${verdict}">
-      <span class="dot" aria-hidden="true"></span>${label}
+      <span class="dot" aria-hidden="true"></span>${capitalized(verdict)}
       <span class="count">· ${group.length}</span>
     </h2>
     <ol class="mentions">
@@ -71,13 +70,6 @@ function verdictSection(verdict, group, all) {
  */
 function mentionItem(mention, index) {
   const titleId = `m-${index}-title`;
-  const href = safeHref(mention.publisherUrl ?? mention.googleUrl);
-  const title =
-    href === undefined
-      ? mention.title
-      : html`<a class="external" href="${href}" rel="noopener noreferrer"
-          >${mention.title}</a
-        >`;
   const publisher =
     mention.publisherName !== undefined && `${mention.publisherName} · `;
   const headline =
@@ -95,7 +87,7 @@ function mentionItem(mention, index) {
     </details>`;
   return html`<li>
     <article class="mention" aria-labelledby="${titleId}">
-      <h3 id="${titleId}">${title}</h3>
+      <h3 id="${titleId}">${articleLink(mention)}</h3>
       <p class="mention__meta">
         <span class="mention__source"
           >${publisher}${timeUtc(mention.publishedAt)}</span

@@ -32,6 +32,8 @@ import { subscriptionReply } from "./subscription.js";
  */
 
 const READ_METHODS = "GET, HEAD";
+// The server binds 127.0.0.1. Any other Host name is a DNS-rebinding page, which may match its own Origin.
+const LOCAL_HOSTS = new Set(["127.0.0.1", "localhost"]);
 const COMPANY_PATH = /^\/companies\/([a-z0-9-]+)(\/subscriptions)?$/u;
 /**
  * @type {Map<string, (context: Context) => Reply>}
@@ -98,6 +100,12 @@ export function createApp(dependencies) {
  */
 async function route(context) {
   const { request, url, dependencies } = context;
+  if (!isLocalHost(request)) {
+    return plainReply(
+      421,
+      "This server answers only 127.0.0.1 and localhost.\n",
+    );
+  }
   const asset = dependencies.assets.get(url.pathname);
   if (asset !== undefined) {
     return isRead(request)
@@ -110,6 +118,7 @@ async function route(context) {
   }
   const match = COMPANY_PATH.exec(url.pathname);
   if (match === null) {
+    // ponytail: /favicon.ico gets the full 404 page and its two store reads. Serve an icon if that ever shows up in a profile.
     return pageNotFoundReply(context);
   }
   const [, id = ""] = match;
@@ -154,6 +163,15 @@ async function subscriptionRoute(context, id) {
 
 /**
  * @param {import("node:http").IncomingMessage} request Request.
+ * @returns {boolean} Whether its Host names this machine.
+ */
+function isLocalHost(request) {
+  const url = URL.parse(`http://${String(request.headers.host)}`);
+  return LOCAL_HOSTS.has(url?.hostname ?? "");
+}
+
+/**
+ * @param {import("node:http").IncomingMessage} request Request.
  * @returns {boolean} Whether it is GET or HEAD.
  */
 function isRead(request) {
@@ -165,12 +183,16 @@ function isRead(request) {
  * @returns {Reply} 405 with `Allow`.
  */
 function notAllowed(allow) {
-  return {
-    allow,
-    body: "Method not allowed\n",
-    status: 405,
-    type: "text/plain; charset=utf-8",
-  };
+  return { ...plainReply(405, "Method not allowed\n"), allow };
+}
+
+/**
+ * @param {number} status HTTP status.
+ * @param {string} body Text.
+ * @returns {Reply} A plain-text reply.
+ */
+function plainReply(status, body) {
+  return { body, status, type: "text/plain; charset=utf-8" };
 }
 
 /**

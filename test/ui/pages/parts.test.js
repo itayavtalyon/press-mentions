@@ -4,6 +4,8 @@ import { describe, expect, it } from "vitest";
 import { html } from "../../../src/ui/pages/markup.js";
 import {
   ago,
+  articleLink,
+  capitalized,
   chip,
   emptyState,
   formField,
@@ -164,5 +166,54 @@ describe("ago", () => {
     [3, "3 days ago"],
   ])("reads %i days as %s", (days, expected) => {
     expect(ago(days)).toBe(expected);
+  });
+});
+
+describe("capitalized", () => {
+  it("capitalizes the first letter only", () => {
+    expect(capitalized("unranked")).toBe("Unranked");
+  });
+});
+
+describe("articleLink", () => {
+  it("links the title to the publisher URL, away from this site", () => {
+    const link = dom(
+      articleLink({
+        googleUrl: "https://news.google.com/rss/articles/g1",
+        publisherUrl: "https://example.com/a",
+        title: "Acme <raises>",
+      }),
+    ).querySelector("a");
+
+    expect(link?.getAttribute("href")).toBe("https://example.com/a");
+    expect(link?.getAttribute("rel")).toBe("noopener noreferrer");
+    expect(link?.textContent).toBe("Acme <raises>");
+  });
+
+  it("falls back to the Google URL without a publisher URL", () => {
+    const link = dom(
+      articleLink({
+        googleUrl: "https://news.google.com/rss/articles/g1",
+        publisherUrl: undefined,
+        title: "Acme",
+      }),
+    ).querySelector("a");
+
+    expect(link?.getAttribute("href")).toBe(
+      "https://news.google.com/rss/articles/g1",
+    );
+  });
+
+  it("prints the title as text when the URL is not http(s)", () => {
+    const document = dom(
+      articleLink({
+        googleUrl: "https://news.google.com/rss/articles/g1",
+        publisherUrl: "javascript:alert(1)",
+        title: "Acme",
+      }),
+    );
+
+    expect(document.querySelector("a")).toBeNull();
+    expect(text(document.body)).toBe("Acme");
   });
 });

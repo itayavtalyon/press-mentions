@@ -34,6 +34,7 @@ const VERDICT_CHOICES = ["all", ...VISIBLE_VERDICTS];
 const PREFILL_DAYS = 90;
 const MILLISECONDS_PER_DAY = 86_400_000;
 const DAY_TEXT = /^\d{4}-\d{2}-\d{2}$/u;
+const LAST_YEAR = 9999;
 
 /**
  * Reads `window`, `from`, `to`, and `verdict`. An empty value means the default.
@@ -107,15 +108,18 @@ function windowRange(window, form, now) {
 function customRange(form) {
   const from = parseDay(form.from);
   const to = parseDay(form.to);
-  if (from === undefined || to === undefined) {
+  const end = to && new Date(to.getTime() + MILLISECONDS_PER_DAY);
+  // The store compares `toISOString` text, which writes year 10000 as `+010000-…` and sorts it first.
+  const until = end && end.getUTCFullYear() <= LAST_YEAR ? end : undefined;
+  if (from === undefined || until === undefined) {
     return [
       ...unknown(from, "from", "invalid"),
-      ...unknown(to, "to", "invalid"),
+      ...unknown(until, "to", "invalid"),
     ];
   }
-  return from.getTime() > to.getTime()
+  return from.getTime() >= until.getTime()
     ? [{ field: "from", kind: "order" }]
-    : { from, to: new Date(to.getTime() + MILLISECONDS_PER_DAY) };
+    : { from, to: until };
 }
 
 /**

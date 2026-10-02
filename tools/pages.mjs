@@ -17,6 +17,7 @@
  */
 
 const BAD_ADDRESS = "itay@example";
+const MARKED_FIELD = "#subscribe-email[aria-invalid=true]";
 const COMPANY_LINK = /href="\/companies\/([^"?]+)/gu;
 
 /**
@@ -81,6 +82,8 @@ export async function openPage(page, baseUrl, live) {
       `const form = document.querySelector("#subscribe form"); form.elements.email.value = "${BAD_ADDRESS}"; form.submit();`,
     );
     await page.waitForURL(`**${live.path}/subscriptions`);
+    // A real browser post must pass the cross-site guard. A 403 page has no marked field, so this times out.
+    await page.locator(MARKED_FIELD).waitFor();
     return;
   }
   if (live.action === undefined) {
@@ -96,5 +99,5 @@ export async function openPage(page, baseUrl, live) {
   }
   await page.getByLabel("Email address").fill(BAD_ADDRESS);
   await page.getByRole("button", { name: "Subscribe" }).click();
-  await page.locator("#subscribe-email[aria-invalid=true]").waitFor();
+  await page.locator(MARKED_FIELD).waitFor();
 }

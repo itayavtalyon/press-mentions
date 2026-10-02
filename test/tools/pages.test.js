@@ -141,7 +141,7 @@ describe("openPage", () => {
     ]);
   });
 
-  it("posts a bad address without the page script and waits for the reply page", async () => {
+  it("posts a bad address without the page script and waits for the marked field, not a 403 page", async () => {
     const { calls, page } = fakePage();
 
     await openPage(page, BASE, {
@@ -153,6 +153,7 @@ describe("openPage", () => {
     expect(calls.slice(1)).toEqual([
       String.raw`evaluate "const form = document.querySelector(\"#subscribe form\"); form.elements.email.value = \"itay@example\"; form.submit();"`,
       'waitForURL "**/companies/acme/subscriptions"',
+      "wait #subscribe-email[aria-invalid=true]",
     ]);
   });
 });

@@ -150,6 +150,14 @@ describe("parseFilters custom range", () => {
   });
 });
 
+describe("parseFilters custom range end", () => {
+  it("rejects a to day whose next day leaves four-digit years", () => {
+    expect(problemsOf("window=custom&from=2026-08-01&to=9999-12-31")).toEqual([
+      { field: "to", kind: "invalid" },
+    ]);
+  });
+});
+
 describe("parseFilters verdict", () => {
   it.each(["", "all"])("reads verdict=%j as every visible verdict", (raw) => {
     expect(filtersOf(`verdict=${raw}`)).toMatchObject({
