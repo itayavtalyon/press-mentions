@@ -4,7 +4,7 @@ export default defineConfig({
   test: {
     coverage: {
       provider: "v8",
-      include: ["src/**/*.js"],
+      include: ["src/**/*.js", "tools/**/*.mjs"],
       // ADR 0009: entry shims only wire adapters and call a tested function.
       exclude: [
         "src/jobs/backfill.js",
@@ -16,6 +16,9 @@ export default defineConfig({
         "src/jobs/mail.js",
         "src/jobs/prompt-eval/index.js",
         "src/server/index.js",
+        // These two only drive a real browser; `just ui-check` runs them.
+        "tools/shoot.mjs",
+        "tools/axe.mjs",
       ],
       reporter: ["text", "text-summary"],
       thresholds: {

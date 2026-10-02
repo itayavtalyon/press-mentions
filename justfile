@@ -41,6 +41,18 @@ job-digest:
 job-eval:
 	npm run job:eval
 
+# Contrast, then overflow, screenshots, and axe on a server reading COVERAGE_DB
+ui-check:
+	#!/usr/bin/env bash
+	set -euo pipefail
+	node tools/contrast.mjs
+	export PORT=3999 BASE_URL=http://127.0.0.1:3999
+	node --env-file=.env src/server/index.js > /dev/null &
+	trap 'kill $!' EXIT
+	for _ in {1..50}; do curl -sf "$BASE_URL/app.css" > /dev/null && break; sleep 0.1; done
+	node tools/shoot.mjs
+	node tools/axe.mjs
+
 # Run every quality gate, stopping at the first failure
 verify:
 	npm run verify

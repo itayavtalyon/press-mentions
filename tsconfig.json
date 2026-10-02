@@ -18,6 +18,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.js", "test/**/*.js", "*.js"],
+  "include": ["src/**/*.js", "test/**/*.js", "tools/**/*.mjs", "*.js"],
   "exclude": ["node_modules", "src/ui/browser", "test/ui/browser"]
 }

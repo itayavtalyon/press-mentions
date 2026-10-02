@@ -237,6 +237,18 @@ describe("index page states", () => {
     );
     expect(document.querySelector(".table-footnote")).toBeNull();
   });
+
+  it("shows only the panel when the store has no company yet", () => {
+    const document = render("", {
+      anyMention: false,
+      collection: "not-run",
+      rows: [],
+    });
+
+    expect(document.querySelector("[data-name-filter]")).toBeNull();
+    expect(document.querySelector("table")).toBeNull();
+    expect(document.querySelector("[data-name-filter-empty]")).toBeNull();
+  });
 });
 
 describe("index page with bad filters", () => {

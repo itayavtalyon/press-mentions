@@ -89,16 +89,19 @@ function panel(shell, view) {
 /**
  * @param {Shell} shell Shell state.
  * @param {IndexView} view The request and its rows.
- * @returns {Html} The table with its name filter, or the empty state when a verdict leaves no company.
+ * @returns {Html | undefined} The table with its name filter, the empty state when a verdict leaves no
+ *   company, or nothing when the store has no company yet (the panel says why).
  */
 function results(shell, view) {
   const { filters, form, rows } = view;
-  if (rows.length === 0 && filters.verdict !== "all") {
+  if (rows.length === 0) {
     const showAll = `/?${filterQuery({ ...form, verdict: "all" })}`;
-    return emptyState({
-      actions: html`<a href="${showAll}">Show all verdicts</a>`,
-      title: `No ${filters.verdict} mentions in ${windowPhrase(filters)}.`,
-    });
+    return filters.verdict === "all"
+      ? undefined
+      : emptyState({
+          actions: html`<a href="${showAll}">Show all verdicts</a>`,
+          title: `No ${filters.verdict} mentions in ${windowPhrase(filters)}.`,
+        });
   }
   const verdict =
     filters.verdict === "all" ? "All visible" : capitalized(filters.verdict);

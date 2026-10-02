@@ -2,7 +2,7 @@
 
 ## Overview
 
-Local monitoring of press mentions for OurCrowd portfolio companies. The backfill collects Google News candidates. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The dashboard server shows the index page. The company and review pages, and the forward feed, are not built yet.
+Local monitoring of press mentions for OurCrowd portfolio companies. The backfill collects Google News candidates. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The dashboard server shows the index, company, and review pages. The forward feed is not built yet.
 
 ## Setup
 
@@ -13,7 +13,7 @@ npm ci
 cp .env.example .env
 ```
 
-Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`just setup`, `just start`, `just job-backfill`, `just job-feed`, `just job-unwrap`, `just job-fetch`, `just job-extract`, `just job-digest`, `just job-eval`, `just verify`). A fresh clone does not need it.
+Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`just setup`, `just start`, `just job-backfill`, `just job-feed`, `just job-unwrap`, `just job-fetch`, `just job-extract`, `just job-digest`, `just job-eval`, `just verify`, `just ui-check`). A fresh clone does not need it.
 
 ## Run
 
@@ -41,6 +41,32 @@ Unwrap, fetch, and extract are three cron commands. Each one, when it exists, ho
 
 `npm run verify` runs lint, format check, typecheck, tests with coverage, knip, duplication, and `npm audit`, and stops at the first failure.
 
+## Dashboard UI checks
+
+```bash
+npx playwright-core install chromium
+just ui-check
+```
+
+The first command downloads playwright's Chromium build once. `just ui-check` runs `tools/contrast.mjs`, which reads the color tokens from `src/ui/browser/app.css` and checks each pair against its WCAG 2.x minimum. It then starts the server on port 3999 against `COVERAGE_DB` and runs `tools/shoot.mjs` and `tools/axe.mjs`. Shoot fails when a page scrolls sideways at 320, 390, or 640 px (640 px is a 1280 px window at 200% zoom), and writes viewport screenshots, forced colors, and keyboard focus to `docs/shots/`. Axe runs axe-core (WCAG 2.2 A and AA, plus best practices) light and dark at 1280 and 390 px. Each tool exits 1 on a failure. `tools/pages.mjs` lists the pages: the index (plain, negative filter, bad date, bad verdict), review, 404, an unknown company, and, when the index links a company, the first company's page, its dialog, the dialog's address error, the subscribe 400 page without script, a bad range, and the last company's page.
+
+Results on 2026-10-02, on the real coverage store during the first backfill (258 companies, 2,229 articles at stage `unwrap`, none classified):
+
+- Contrast: 72 pairs, 0 failures.
+- Overflow: none at 320, 390, or 640 px on 13 pages.
+- axe: 0 violations on 13 pages, light and dark, 1280 and 390 px.
+- Keyboard (spec §11 pass 1): skip link, brand, Companies, Review, Time window, Verdict, name filter, then each company link. The skip link moves focus to `main`. An arrow on Time window reloads the page and focus returns to the new radio. On a company page: back link, Get email alerts, filters, then the empty state's link. Enter opens the dialog with focus in the email field. Tab goes Cancel, Subscribe, then Chrome's own toolbar, then back to the field. Escape closes it and focus returns to Get email alerts. Every stop shows the focus ring.
+- Name filter: `signals` gives `Showing 2 of 258 companies`. No match hides the table and shows the query and Clear filter.
+- Zoom and reflow (pass 3): covered by the 320 and 640 px overflow runs. Text spacing (1.4.12) clips nothing at 1280 and 320 px.
+- Forced colors (pass 4), emulated in Chromium: segments, pills, inputs, and buttons keep borders. The checked radio shows in Highlight. The focus ring shows.
+- Script off (pass 5): the name filter is absent and Apply shows. Choosing a window does not submit, and Apply does. Custom shows the dates. A reversed range answers 400 with the field marked and the value kept. Times read in UTC. Get email alerts opens the dialog natively. A bad address posts to a 400 page with the field marked, focused, and kept.
+- Reduced motion: the dialog has no animation.
+- VoiceOver (pass 2), run by Itay on macOS Safari: one h1 and the five landmarks in the rotor; the Time window radio reads its position and group; the name filter status is announced once per pause; the dialog reads its name and role; the address error is read; table navigation reads the column headers.
+
+The real store could not show any classified mention yet: index tallies and tones, the No coverage footnote, rows under a verdict filter, company sections, mentions with excerpts and Headline only, review cards, and the subscribed and already-subscribed banners (a real subscribe would write the real alerts store). A scratch store built from the same rules (one company with every verdict, a title-only mention, and a flagged row) is not real data. On it, shoot and axe passed on 13 pages, and the keyboard reached each mention link, each Excerpt summary (Enter opens it), and on review the company link, title link, and the reply `<pre>`. Run `just ui-check` again after classification and update these results.
+
+Before the backfill started, the empty store showed the not-run panel above a name filter reading `Showing 0 of 0 companies` and an empty table. The index now shows only the panel when the store has no company.
+
 ## Architecture
 
 `docs/ARCHITECTURE.md` is how the pieces move. `docs/adr/` records each choice. `docs/CODING-STANDARD.md` is the type, error, and file-ownership standard. `AGENTS.md` points coding agents at it. The evaluator boundaries are in `docs/engineering-notes.md`.
@@ -61,6 +87,6 @@ Unwrap, fetch, and extract are three cron commands. Each one, when it exists, ho
 
 ## Limitations
 
-- No API or cron schedule yet. The dashboard is complete: index, company, and review pages, the subscribe form (plain or in the dialog with script), and the page script. The UI tooling stage comes next. A browser that supports `<dialog>` but not invoker commands, with script off, cannot open the subscribe dialog.
+- No API or cron schedule yet. The dashboard is complete: index, company, and review pages, the subscribe form (plain or in the dialog with script), the page script, and the UI checks. VoiceOver on iOS Safari and Windows High Contrast were not tried. A browser that supports `<dialog>` but not invoker commands, with script off, cannot open the subscribe dialog.
 - The forward feed file is a placeholder. Unwrap, fetch, extract, and classification of collected articles are not built yet.
 - Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.
