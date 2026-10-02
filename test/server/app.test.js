@@ -41,6 +41,19 @@ describe("static files", () => {
     expect(response.text).toBe(readText(`${ASSETS}app.css`));
   });
 
+  it.each(["/app.js", "/name-filter.js", "/subscribe.js"])(
+    "serves the page script module %s",
+    async (path) => {
+      const response = await request(givenApp().app).get(path);
+
+      expect(response.status).toBe(200);
+      expect(response.headers["content-type"]).toBe(
+        "text/javascript; charset=utf-8",
+      );
+      expect(response.text).toBe(readText(`${ASSETS}${path.slice(1)}`));
+    },
+  );
+
   it("refuses to read a directory without the stylesheet", () => {
     expect(() => readAssets("/nonexistent/press-monitor/")).toThrow(
       /app\.css/u,

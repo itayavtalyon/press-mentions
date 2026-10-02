@@ -36,7 +36,7 @@ The subscribe path is one form and one insert, not an account system. Historical
 
 The dashboard design was closed with Itay on this date. `docs/ui-design.md` is the full spec. The decisions above still hold, with these changes:
 
-- The page script is one module, `src/ui/browser/app.js`, not a few lines. It localizes times, auto-submits filter radios (not Custom and not the date fields), filters rows by name and alias, and opens the dialog where invoker commands are missing. Every page still works without it.
+- The page script is three native ES modules served from memory, not a few lines: `src/ui/browser/app.js` imports `name-filter.js` and `subscribe.js`. It localizes times, auto-submits filter radios (not Custom and not the date fields), filters rows by name and alias, and opens the dialog where invoker commands are missing. Every page still works without it.
 - `verdict=all` is accepted and means the same as an omitted `verdict`. On the index, a verdict narrows the counts and omits companies with zero such mentions in the window.
 - Custom `from` and `to` are `YYYY-MM-DD` only, from date inputs read as UTC days. `to` is inclusive in the form, so the query ends at the start of the next day. Any other text, including a full ISO instant, answers 400 and names the field.
 - An unknown `window` or `verdict` answers 400 and names the field, like a bad range.

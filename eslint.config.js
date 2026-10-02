@@ -11,6 +11,12 @@ import sonarjs from "eslint-plugin-sonarjs";
 import unicorn from "eslint-plugin-unicorn";
 import globals from "globals";
 
+// Browser code runs in the page, not in Node, and `tsconfig.web.json` checks its DOM types.
+const BROWSER_RULES = {
+  "jsdoc/no-undefined-types": "off",
+  "n/no-unsupported-features/node-builtins": "off",
+};
+
 const nodeGlobalsOff = Object.fromEntries(
   Object.keys(globals.node).map((name) => [name, "off"]),
 );
@@ -143,6 +149,7 @@ const config = [
         ...globals.browser,
       },
     },
+    rules: BROWSER_RULES,
   },
   {
     files: ["test/**/*.js"],
@@ -158,6 +165,7 @@ const config = [
         ...globals.browser,
       },
     },
+    rules: BROWSER_RULES,
   },
   {
     files: [

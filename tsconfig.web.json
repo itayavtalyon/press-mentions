@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2024", "dom", "dom.iterable"],
+    "types": []
+  },
+  "include": ["src/ui/browser/**/*.js", "test/ui/browser/**/*.js"],
+  "exclude": ["node_modules"]
+}

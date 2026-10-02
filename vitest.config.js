@@ -40,6 +40,15 @@ export default defineConfig({
         test: {
           name: "web",
           environment: "happy-dom",
+          // ADR 0009: tests never open the network, so happy-dom must not fetch page assets.
+          environmentOptions: {
+            happyDOM: {
+              settings: {
+                disableCSSFileLoading: true,
+                disableJavaScriptFileLoading: true,
+              },
+            },
+          },
           include: ["test/ui/browser/**/*.test.js"],
         },
       },

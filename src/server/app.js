@@ -42,10 +42,16 @@ const PAGES = new Map([
 ]);
 const CONTENT_SECURITY_POLICY =
   "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'";
+const JAVASCRIPT = "text/javascript; charset=utf-8";
 /**
  * @type {readonly [string, string][]}
  */
-const ASSET_FILES = [["app.css", "text/css; charset=utf-8"]];
+const ASSET_FILES = [
+  ["app.css", "text/css; charset=utf-8"],
+  ["app.js", JAVASCRIPT],
+  ["name-filter.js", JAVASCRIPT],
+  ["subscribe.js", JAVASCRIPT],
+];
 
 /**
  * Reads the static files once, at startup.

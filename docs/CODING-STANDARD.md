@@ -81,7 +81,9 @@ Fewer files:
 | Subscribe form   | `src/ui/pages/subscribe-form.js`  | Button, dialog, inline form, banners, and every subscribe message        |
 | Review page      | `src/ui/pages/review-page.js`     | `GET /review`                                                            |
 | Message pages    | `src/ui/pages/message-pages.js`   | 404, 403, and 500                                                        |
-| Page script      | `src/ui/browser/app.js`           | Browser enhancement, per `docs/ui-design.md` §9                          |
+| Page script      | `src/ui/browser/app.js`           | Entry: local times, auto-submit, focus restore, invoker fallback         |
+| Name filter      | `src/ui/browser/name-filter.js`   | Index rows filtered by name and alias, debounced count, Clear            |
+| Subscribe dialog | `src/ui/browser/subscribe.js`     | The dialog's JSON submit and its outcome in the dialog                   |
 | Lock, clock, log | the file of that name             | That one resource                                                        |
 
 `seed.js`, `overlay.js`, `query.js`, `select.js`, and `collect.js` are the company and collection models before they were grouped. `rows.js` and `report.js` belong to the evaluation store and the evaluation run. When a change touches one of those files, move the code into the model file in the table and delete the old file once nothing imports it. Do not add another file beside them. Entry shims (`src/jobs/backfill.js`, `src/jobs/feed.js`, `src/jobs/unwrap.js`, `src/jobs/fetch.js`, `src/jobs/extract.js`, `src/jobs/digest.js`, `src/jobs/prompt-eval/index.js`, `src/server/index.js`) stay thin: read config, build adapters, call one function, set the exit code.

@@ -156,7 +156,7 @@ function nameFilterTools(count) {
  * @returns {Html} The state the page script shows when no name matches.
  */
 function nameFilterEmpty() {
-  return html`<div id="name-filter-empty" hidden>
+  return html`<div id="name-filter-empty" data-name-filter-empty hidden>
     <div class="empty-state">
       <p class="empty-state__title">
         No companies match “<span data-query></span>”.
