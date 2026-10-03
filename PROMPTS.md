@@ -273,3 +273,15 @@ Do not run the command against the real coverage database.
 ```text
 Deep review the unwrap step in the pipeline. I would like to run it with the backfill data when it is ready to go
 ```
+
+## 2026-10-03 — Extract deep review
+
+```text
+Now do the same for the extract step.
+```
+
+## 2026-10-03 — Fetch deep review
+
+```text
+Please deep review the fetch step in the pipeline. I would like to have it run next when it's good to go
+```

@@ -15,6 +15,10 @@ const MIN_CHARACTERS = 1;
  */
 export function extractArticleText(html) {
   const { document } = parseHTML(html);
+  // An empty body parses as a document with no element. Readability throws on that.
+  if (!document.documentElement) {
+    return "";
+  }
   const article = new Readability(document, {
     charThreshold: MIN_CHARACTERS,
   }).parse();

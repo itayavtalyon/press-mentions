@@ -27,4 +27,8 @@ describe("extractArticleText", () => {
   it("returns empty text for a script shell", () => {
     expect(extractArticleText(SCRIPT_SHELL)).toBe("");
   });
+
+  it("returns empty text when the page has no document element", () => {
+    expect(extractArticleText("")).toBe("");
+  });
 });
