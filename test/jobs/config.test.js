@@ -64,3 +64,34 @@ describe("coverage settings", () => {
     );
   });
 });
+
+describe("publisher interval", () => {
+  it("defaults the publisher interval to two seconds", () => {
+    expect(
+      readConfig({ COVERAGE_DB: "coverage.sqlite" }).publisherIntervalMs,
+    ).toBe(2000);
+  });
+
+  it("reads PUBLISHER_TOKEN_MS", () => {
+    expect(
+      readConfig({
+        COVERAGE_DB: "coverage.sqlite",
+        PUBLISHER_TOKEN_MS: " 4000 ",
+      }).publisherIntervalMs,
+    ).toBe(4000);
+  });
+
+  it.each(["0", "-5", "1.5", "fast"])(
+    "rejects PUBLISHER_TOKEN_MS=%s",
+    (value) => {
+      expect(() =>
+        readConfig({
+          COVERAGE_DB: "coverage.sqlite",
+          PUBLISHER_TOKEN_MS: value,
+        }),
+      ).toThrow(
+        `PUBLISHER_TOKEN_MS must be a positive whole number of milliseconds, got "${value}"`,
+      );
+    },
+  );
+});

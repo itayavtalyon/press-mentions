@@ -25,6 +25,7 @@ export const LIVE_MODEL = "qwen3.5:9b";
  */
 export const LIVE_PROMPT_VERSION = "v001";
 
+const PLACEHOLDER = /\{\{(article|publisher|homepage|candidates)\}\}/gu;
 const TOKENS = [
   "{{article}}",
   "{{publisher}}",
@@ -167,48 +168,48 @@ function fillPrompt(template, fields) {
     }
   }
 
-  const values = [
-    fields.article,
-    fields.publisher,
-    fields.homepage,
-    fields.candidates,
-  ];
-
-  for (const value of values) {
-    if (value.includes("{{")) {
-      throw new Error("prompt field contains a placeholder token");
-    }
-  }
-
-  return template
-    .split("{{article}}")
-    .join(fields.article)
-    .split("{{publisher}}")
-    .join(fields.publisher)
-    .split("{{homepage}}")
-    .join(fields.homepage)
-    .split("{{candidates}}")
-    .join(fields.candidates);
+  // One pass: a value is never scanned again, so text such as `{{ vue }}` or `{{candidates}}` inside an
+  // article reaches the model as written.
+  return template.replaceAll(PLACEHOLDER, (_, name) =>
+    String(ownValue(fields, name)),
+  );
 }
 
 /**
  * @param {string} raw Model reply body.
- * @returns {object} A JSON object. Unusable replies become an empty object.
+ * @param {string} name One company name sent in the call.
+ * @returns {string} Its verdict, or `uncertain` when the reply is not an object or has no usable value for it.
+ */
+export function replyVerdict(raw, name) {
+  return verdictOrUncertain(parseReplyObject(raw) ?? {}, name);
+}
+
+/**
+ * @param {string} raw Model reply body.
+ * @returns {boolean} Whether the reply is a JSON object (ADR 0002: anything else is flagged for review).
+ */
+export function isObjectReply(raw) {
+  return parseReplyObject(raw) !== undefined;
+}
+
+/**
+ * @param {string} raw Model reply body.
+ * @returns {object | undefined} The JSON object, or undefined for any other reply.
  */
 function parseReplyObject(raw) {
+  /**
+   * @type {unknown}
+   */
+  let value;
   try {
-    const value = JSON.parse(raw);
-
-    if (isRecord(value)) {
-      return value;
-    }
+    value = JSON.parse(raw);
   } catch (error) {
     if (!(error instanceof SyntaxError)) {
       throw error;
     }
   }
 
-  return {};
+  return isRecord(value) ? value : undefined;
 }
 
 /**
@@ -230,7 +231,7 @@ function verdictOrUncertain(parsed, name) {
  * @returns {Map<string, string>} Verdict by company name.
  */
 function verdictsFromReply(raw, names) {
-  const parsed = parseReplyObject(raw);
+  const parsed = parseReplyObject(raw) ?? {};
   /**
    * @type {Map<string, string>}
    */

@@ -1,4 +1,16 @@
 /**
+ * `news.google.com` uses the Google interval. Every other host uses the publisher interval (ADR 0003).
+ * @param {string} host URL host, including a port when one was present.
+ * @param {{ googleMs: number, publisherMs: number }} intervals Configured refill intervals.
+ * @returns {number} Milliseconds until the next token for that host.
+ */
+export function hostIntervalMs(host, intervals) {
+  return host === "news.google.com"
+    ? intervals.googleMs
+    : intervals.publisherMs;
+}
+
+/**
  * @typedef {object} RateLimiter A token bucket of capacity 1 per host (ADR 0003).
  * @property {(host: string) => Promise<void>} take Waits for the host's next slot and reserves it.
  * @property {(host: string, ms: number) => void} pause Pushes the host's next slot at least `ms` from now.

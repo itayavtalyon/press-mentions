@@ -18,15 +18,15 @@ The reply is a JSON object whose keys are those exact company names and whose va
 
 Call options: `format` is a JSON schema built per call, with the candidate names as required properties and the verdict enum as their type, so Ollama constrains decoding instead of the parser guessing. `think: false`, because the qwen3.5 family otherwise spends tokens reasoning before the JSON. `seed` is fixed next to temperature 0. The article text is cut to a fixed character budget and `num_ctx` is set explicitly, because Ollama silently truncates a prompt longer than its context window, and the instructions can be the part that gets dropped.
 
-A parse failure is stored as `uncertain` with the raw text and the review flag. There is no keyword fallback and no second guess.
+A reply that is not a JSON object is stored as `uncertain` with the raw text and `review_flag` 1. A JSON object, including a model value of `uncertain` and a missing key, stores `review_flag` 0. There is no keyword fallback and no second guess.
 
 The live model id and prompt version are `LIVE_MODEL` and `LIVE_PROMPT_VERSION` in `src/core/classifier.js`. Today they are `qwen3.5:9b` and `v001`, the 2026-10-01 winner. A person edits them by hand. They are not environment variables. The eval program does not read them and does not edit them. A running process keeps the pair it loaded. The next process reclassifies rows stored under a different pair, and it does not refetch those articles.
 
 Call options on `Classifier` are temperature 0, seed 0, `num_ctx` 8192, and an article cap of 6000 characters. `think` is false. The program does not edit those either.
 
-Saved prompts are `prompt/classifier.vNNN.txt`. Each file must contain `{{article}}`, `{{publisher}}`, `{{homepage}}`, and `{{candidates}}`. A company line is the name, or `Name — note` when the case has a note. The note is optional.
+Saved prompts are `prompt/classifier.vNNN.txt`. Each file must contain `{{article}}`, `{{publisher}}`, `{{homepage}}`, and `{{candidates}}`. A company line is the name, or `Name — note` when the case has a note. The note is optional. The placeholders are filled in one pass, so text inside a value, such as `{{ vue }}` left in an article, reaches the model as written and is never expanded.
 
-The note is the overlay descriptor (`seed/overlay.json`, stored as `companies.descriptor`). Not built yet: the classify stage reads each candidate's descriptor and passes it to `Classifier` as that company's note, and a candidate without a descriptor gets no note. An eval case for a company in the overlay uses the overlay descriptor, word for word, as its note, so the eval measures the line production will send. Which name the classify stage sends, the seed line or the query name, is not decided.
+The note is the overlay descriptor (`seed/overlay.json`, stored as `companies.descriptor`). The classify stage passes that descriptor to `Classifier` as the company's note, word for word, and omits the note when the descriptor is null or empty. An eval case for a company in the overlay uses the overlay descriptor, word for word, as its note, so the eval measures the line production will send. The name the classify stage sends is `companies.query_name`.
 
 The eval program lists installed models with `ollama list`, skips names matching `/embed/i`, and fails when no chat model remains. It then loops models, then prompt files, then cases. It does not stop at the three models installed on this machine.
 

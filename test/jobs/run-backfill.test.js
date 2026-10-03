@@ -102,7 +102,7 @@ describe("runBackfill resume", () => {
 
     running.resolve("done");
     await first;
-    expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
+    expect(fileExists(`${config.coverageDatabase}.feed.lock`)).toBe(false);
   });
 
   it("releases the job lock when it finishes", async () => {
@@ -110,7 +110,7 @@ describe("runBackfill resume", () => {
 
     await runBackfill(config, givenQuietDependencies());
 
-    expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
+    expect(fileExists(`${config.coverageDatabase}.feed.lock`)).toBe(false);
   });
 });
 

@@ -6,7 +6,7 @@ import {
   syncCompanies,
 } from "../infra/coverage-store.js";
 import { ThrottledError } from "../infra/http.js";
-import { withCoverageLock } from "../infra/lock.js";
+import { withCommandLock } from "../infra/lock.js";
 import { loadCompanies } from "../infra/seed-file.js";
 
 /**
@@ -45,7 +45,7 @@ const STAGE_STOP_AFTER = 3;
  * @throws {Error} Another job holds the lock, or the seed, overlay, or store is unusable.
  */
 export async function runBackfill(config, dependencies) {
-  return withCoverageLock(config.coverageDatabase, async () => {
+  return withCommandLock(config.coverageDatabase, "feed", async () => {
     const companies = loadCompanies(config.seedPath, config.overlayPath);
     const database = openCoverageStore(config.coverageDatabase);
     try {

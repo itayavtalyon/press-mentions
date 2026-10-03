@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { OllamaClient } from "../../src/infra/ollama.js";
+import { OllamaClient, timedFetch } from "../../src/infra/ollama.js";
 
 /**
  * @type {import("../../src/core/classifier.js").ClassifierRequest}
@@ -103,5 +103,50 @@ describe("OllamaClient.chatModels", () => {
     expect(() =>
       OllamaClient.chatModels("NAME ID\nnomic-embed-text:latest b\n"),
     ).toThrow(/no installed chat models/u);
+  });
+});
+
+/**
+ * @returns {{ fetch: typeof fetch, seen: (AbortSignal | null | undefined)[] }} A fetch that never answers and
+ *   rejects with the signal's reason once it aborts.
+ */
+function givenHangingFetch() {
+  /**
+   * @type {(AbortSignal | null | undefined)[]}
+   */
+  const seen = [];
+  /**
+   * @type {typeof fetch}
+   */
+  const hanging = async (_input, init) => {
+    seen.push(init?.signal);
+    return new Promise((_resolve, reject) => {
+      init?.signal?.addEventListener("abort", () => {
+        reject(init.signal?.reason);
+      });
+    });
+  };
+  return { fetch: hanging, seen };
+}
+
+describe("timedFetch", () => {
+  it("rejects with a TimeoutError when the call outlives its budget", async () => {
+    const { fetch: hanging } = givenHangingFetch();
+
+    await expect(
+      timedFetch(hanging, 5)("http://127.0.0.1:9/api/chat"),
+    ).rejects.toMatchObject({ name: "TimeoutError" });
+  });
+
+  it("still honours the caller's own abort", async () => {
+    const { fetch: hanging } = givenHangingFetch();
+    const controller = new AbortController();
+
+    const call = timedFetch(hanging, 60_000)("http://127.0.0.1:9/api/chat", {
+      signal: controller.signal,
+    });
+    controller.abort(new Error("stopped"));
+
+    await expect(call).rejects.toThrow("stopped");
   });
 });

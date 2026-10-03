@@ -79,3 +79,51 @@ export function givenLog() {
     events,
   };
 }
+
+/**
+ * @param {(signed: readonly import("../../src/infra/resolver.js").SignedArticle[]) => Promise<Map<string, string>>} post The one batch POST.
+ * @returns {import("../../src/infra/resolver.js").ArticleResolver} Every GET signs. The POST is the caller's.
+ */
+export function signing(post) {
+  return {
+    post,
+    sign: async (googleUrl) => ({
+      articleId: "id",
+      googleUrl,
+      signature: "sig",
+      timestamp: "1",
+    }),
+  };
+}
+
+/**
+ * @param {(googleUrl: string) => Promise<string>} resolve Publisher URL, or a throw from the GET.
+ * @returns {import("../../src/infra/resolver.js").ArticleResolver} A resolver that signs, then posts once.
+ */
+export function resolving(resolve) {
+  /**
+   * @type {Map<string, string>}
+   */
+  const urls = new Map();
+  return {
+    post: async (signed) => {
+      const paired = new Map();
+      for (const article of signed) {
+        const publisher = urls.get(article.googleUrl);
+        if (publisher !== undefined) {
+          paired.set(article.googleUrl, publisher);
+        }
+      }
+      return paired;
+    },
+    sign: async (googleUrl) => {
+      urls.set(googleUrl, await resolve(googleUrl));
+      return {
+        articleId: "id",
+        googleUrl,
+        signature: "sig",
+        timestamp: "1",
+      };
+    },
+  };
+}

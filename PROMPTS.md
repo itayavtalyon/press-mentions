@@ -198,3 +198,78 @@ Let's continue reviewing other parts of the system. Now I am interested in the p
 ```text
 Record these answers in the ADRs. Let's keep the public documentation accurate
 ```
+
+## 2026-10-02 — Backfill deep review
+
+```text
+Let's deep review and examine the backfill process. We need to start it soon. It should just do the fetching of articles published already. The rest of the process should be done with the regular pipeline, which is work in progress
+```
+
+## 2026-10-02 — Classifier pipeline prompt
+
+```text
+While the backfill starts in a new window, give me the prompt to write the classifier pipeline component.
+```
+
+## 2026-10-02 — Classify pipeline command
+
+```text
+Write the classify pipeline command. The backfill only stores Google News candidates at stage unwrap. Unwrap, fetch, and extract already exist and move a row to stage classify. This command is the next process. It does not unwrap, fetch, extract, collect, or touch the alerts store.
+
+Read AGENTS.md, docs/CODING-STANDARD.md, docs/ARCHITECTURE.md, ADR 0004, and ADR 0006 before editing. Match src/jobs/run-extract.js and src/jobs/run-fetch.js. Plain JavaScript, JSDoc, named exports. No any, no ts-ignore, no unchecked casts. Throw Error. One model per file. Do not add a file for a helper. src/core does not import an adapter. Tests use fakes and temp databases. No network. npm run verify must pass.
+
+What already exists
+- src/core/classifier.js builds one call and reads verdicts. Use Classifier. Do not edit LIVE_MODEL, LIVE_PROMPT_VERSION, temperature, seed, num_ctx, or the article cap. They are qwen3.5:9b and v001. They are not environment variables.
+- src/infra/ollama.js OllamaClient.chat sends that request. prompt-eval calls chat once per case. Do not add retries inside chat.
+- src/jobs/prompt-eval/prompts.js reads prompt/classifier.vNNN.txt. Load the live version from there. Add a function on that module if it can only load every file. Do not copy the reader. A missing file or a missing placeholder throws.
+- Verdicts live on company_articles: verdict, model_id, prompt_version, raw_response, review_flag. articles.stage stays classify after success. There is no done stage.
+- /review lists every company_articles row whose verdict is uncertain. It reads raw_response.
+
+Queue
+Read retryable articles at stage classify that have at least one company link still open. A link is open when verdict is null, or model_id is not LIVE_MODEL, or prompt_version is not LIVE_PROMPT_VERSION. An article whose every link matches the live pair is not a call. A retryable 0 row is skipped.
+
+One article is one chat call. The call includes only the open links, ordered by company id. Send companies.query_name as the company name. That is the name in the labeled cases, not the seed line and not the parenthetical. Pass companies.descriptor as the note, word for word. Omit the note when the descriptor is null or empty. Article text is extracted_text. Publisher is publisher_name, or "" when null. Homepage is publisher_homepage, or "" when null. A null extracted_text throws. That row was not written by extract.
+
+Call Classifier.request, then the chat port. Classifier.verdicts maps the reply. A missing or unknown value is uncertain for that company only. Other companies in the same reply still count.
+
+Writes
+One transaction per article. Guard the article with WHERE guid = ? AND stage = 'classify'. Zero rows means it moved. Log classify.moved and continue. Do not throw, and do not move the row backward.
+
+For each open link, set verdict, model_id, prompt_version, and raw_response to the reply text. Leave stored verdicts for the live pair unchanged. A later company on an article that was already classified gets one new call with only that company.
+
+A reply that is not a JSON object is a parse failure, not an Ollama failure. Every company in that call is uncertain, review_flag is 1, and raw_response is the raw text. A JSON object, including a model value of uncertain and a missing key, stores review_flag 0. uncertain is finished. Do not retry it.
+
+On a finished article set attempt_count to 0, clear last_error, and leave retryable 1 and stage classify.
+
+Ollama failures
+Connection refused, timeout, or HTTP 5xx back off and retry the same article: 5 attempts, 2 second base, 5 minute cap, jitter from half to all of the exponential delay. Inject the clock and random. Honor the same limits as ADR 0006. Do not import the private HTTP policy object. Any other error throws out of the command.
+
+When the attempts are exhausted, leaveForRetry. The third exhausted run sets retryable to 0 and leaves stage classify. null from leaveForRetry means the row moved. Log and continue. Three exhausted failures in a row stop the command for the rest of the run. A success resets that count. Skipped rows stay retryable and do not gain an attempt. Log classify.stopped and exit non-zero. Name the dependency in the log.
+
+Command shape
+src/jobs/run-classify.js holds the work. src/jobs/classify.js only loads config, builds the clock, random, logger, and Ollama client, calls runClassify, logs classify.finished, and sets process.exitCode. The lock is withCommandLock(coverageDatabase, "classify"), taken before the store opens. A second classify exits 1 and names the holder. Exit 0 only when no retryable row at classify still has an open link.
+
+Put the classify read and the verdict write in src/infra/stage-queue.js. Widen its stage type so leaveForRetry accepts classify. Keep dashboard queries in coverage-read.js.
+
+Wire npm run job:classify, a just job-classify recipe, the vitest coverage exclude, the coding-standard shim list, and one README sentence next to the other jobs. Log this prompt in PROMPTS.md.
+
+Tests, written first
+- A scripted reply writes one verdict per open company, with model, prompt version, and raw response. Stage stays classify.
+- A second run with the same pair makes no chat call.
+- A different prompt version calls again and overwrites those links.
+- A new company linked after the first call is the only name in the next call. The older verdict stays.
+- A non-JSON reply stores uncertain, review_flag 1, and the raw text, and the next run does not call again.
+- A model value of uncertain stores review_flag 0.
+- An exhausted connection failure leaves the row retryable. The third such run is terminal and a later run skips it.
+- Three exhausted failures in a row stop the run. The remaining rows are unchanged.
+- A row that left stage classify is logged and left alone.
+- The command does not open the alerts database.
+
+Do not run the command against the real coverage database.
+```
+
+## 2026-10-02 — Unwrap deep review
+
+```text
+Deep review the unwrap step in the pipeline. I would like to run it with the backfill data when it is ready to go
+```

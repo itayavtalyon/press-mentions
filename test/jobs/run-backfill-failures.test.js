@@ -131,12 +131,12 @@ describe("runBackfill throttle count", () => {
 });
 
 describe("runBackfill refusals", () => {
-  it("refuses to run while another job holds the lock", async () => {
+  it("refuses to run while another feed holds the lock", async () => {
     const config = givenConfig();
     const { feed, asked } = givenFeed({});
     givenFile(
       path.dirname(config.coverageDatabase),
-      "coverage.sqlite.lock",
+      "coverage.sqlite.feed.lock",
       String(process.pid),
     );
 
@@ -151,15 +151,30 @@ describe("runBackfill refusals", () => {
     const config = givenConfig("Harvey");
     givenFile(
       path.dirname(config.coverageDatabase),
-      "coverage.sqlite.lock",
+      "coverage.sqlite.feed.lock",
       "2147483647",
     );
 
     const summary = await runBackfill(config, givenQuietDependencies());
 
     expect(summary.collected).toBe(1);
-    expect(fileExists(`${config.coverageDatabase}.lock`)).toBe(false);
+    expect(fileExists(`${config.coverageDatabase}.feed.lock`)).toBe(false);
     expect(fileExists(config.coverageDatabase)).toBe(true);
+  });
+
+  it("runs while another command holds its own lock", async () => {
+    const config = givenConfig("Harvey");
+    givenFile(
+      path.dirname(config.coverageDatabase),
+      "coverage.sqlite.unwrap.lock",
+      String(process.pid),
+    );
+
+    const summary = await runBackfill(config, givenQuietDependencies());
+
+    expect(summary.collected).toBe(1);
+    expect(fileExists(`${config.coverageDatabase}.unwrap.lock`)).toBe(true);
+    expect(fileExists(`${config.coverageDatabase}.feed.lock`)).toBe(false);
   });
 
   it("does not create the store when the seed is invalid", async () => {

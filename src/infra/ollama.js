@@ -5,6 +5,8 @@ import { Ollama } from "ollama";
 
 const execFileText = promisify(execFile);
 const EMBEDDING_NAME = /embed/iu;
+// A cold load of a 6.6 GB model can take a while; a stuck model must still end, as an outage the job retries.
+const CHAT_TIMEOUT_MS = 300_000;
 
 /**
  * @typedef {object} ExecResult
@@ -77,7 +79,9 @@ export class OllamaClient {
    */
   constructor(host, ports = {}) {
     this.#host = host;
-    this.#client = ports.client ?? new Ollama({ host });
+    this.#client =
+      ports.client ??
+      new Ollama({ fetch: timedFetch(fetch, CHAT_TIMEOUT_MS), host });
     this.#execFile = ports.execFile ?? execFileText;
   }
 
@@ -147,4 +151,20 @@ function modelNames(text) {
   }
 
   return names;
+}
+
+/**
+ * @param {typeof fetch} fetchImpl Underlying fetch.
+ * @param {number} timeoutMs Budget for one call, from request to the end of the body.
+ * @returns {typeof fetch} Fetch that rejects with a `TimeoutError` past the budget and still honours the
+ *   caller's own signal.
+ */
+export function timedFetch(fetchImpl, timeoutMs) {
+  return (input, init = {}) => {
+    const signals = [AbortSignal.timeout(timeoutMs)];
+    if (init.signal) {
+      signals.push(init.signal);
+    }
+    return fetchImpl(input, { ...init, signal: AbortSignal.any(signals) });
+  };
 }

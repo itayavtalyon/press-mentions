@@ -60,7 +60,7 @@ export function openCoverageStore(path) {
 /**
  * Inserts or updates every seed company in one transaction.
  * ponytail: `backfilled_at` survives a query change, because the overlay is final before the real backfill.
- * To re-collect one company, `UPDATE companies SET backfilled_at = NULL WHERE id = ?`.
+ * Clearing it makes the next run search again and add links. It does not remove links already stored.
  * ponytail: a line removed from the seed keeps its row. Delete it when the seed actually shrinks.
  * @param {import("better-sqlite3").Database} database Coverage store.
  * @param {import("../core/overlay.js").Company[]} companies Seed companies with the overlay applied.

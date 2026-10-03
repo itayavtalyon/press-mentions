@@ -57,6 +57,17 @@ function promptFromFile(name, directory) {
 }
 
 /**
+ * Load one `classifier.<id>.txt`, such as `v001`.
+ * @param {string} id Version id.
+ * @param {string} [directory] Prompt directory. Defaults to the repository folder.
+ * @returns {import("../../core/classifier.js").PromptVersion} That prompt.
+ * @throws {Error} The file is missing, the name is not `classifier.vNNN.txt`, or a placeholder is missing.
+ */
+export function loadPrompt(id, directory = defaultDirectory()) {
+  return promptFromFile(`classifier.${id}.txt`, directory);
+}
+
+/**
  * Load `classifier.vNNN.txt` files, oldest version first.
  * @param {string} [directory] Prompt directory. Defaults to the repository folder.
  * @returns {import("../../core/classifier.js").PromptVersion[]} Prompts.

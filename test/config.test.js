@@ -11,6 +11,7 @@ describe("loadConfig defaults", () => {
     expect(config.coverageDatabase).toBe("coverage.sqlite");
     expect(config.databasePath).toBe("/work/data/evaluation.sqlite");
     expect(config.googleIntervalMs).toBe(1000);
+    expect(config.publisherIntervalMs).toBe(2000);
     expect(config.ollamaHost).toBe("http://127.0.0.1:11434");
     expect(config.seedPath.endsWith("/seed/companies.txt")).toBe(true);
     expect(config.overlayPath.endsWith("/seed/overlay.json")).toBe(true);
@@ -67,8 +68,10 @@ describe("loadConfig port", () => {
 });
 
 describe("loadConfig alerts store", () => {
-  it("defaults to alerts.sqlite", () => {
-    expect(loadConfig(COVERAGE, "/work").alertsDatabase).toBe("alerts.sqlite");
+  it("defaults to data/alerts.sqlite", () => {
+    expect(loadConfig(COVERAGE, "/work").alertsDatabase).toBe(
+      "data/alerts.sqlite",
+    );
   });
 
   it("reads ALERTS_DB", () => {

@@ -5,7 +5,10 @@ import path from "node:path";
 
 import { describe, expect, it } from "vitest";
 
-import { loadPromptFiles } from "../../../src/jobs/prompt-eval/prompts.js";
+import {
+  loadPrompt,
+  loadPromptFiles,
+} from "../../../src/jobs/prompt-eval/prompts.js";
 
 describe("loadPromptFiles", () => {
   it("loads the repository prompts, oldest version first", () => {
@@ -41,6 +44,36 @@ describe("loadPromptFiles", () => {
     const directory = mkdtempSync(path.join(tmpdir(), "prompts-"));
 
     expect(() => loadPromptFiles(directory)).toThrow(/no classifier prompts/u);
+  });
+});
+
+describe("loadPrompt", () => {
+  it("loads one repository prompt by version id", () => {
+    const prompt = loadPrompt("v001");
+
+    expect(prompt.id).toBe("v001");
+    expect(prompt.body).toContain("namesake");
+  });
+
+  it("rejects a missing file", () => {
+    const directory = mkdtempSync(path.join(tmpdir(), "prompts-"));
+
+    expect(() => loadPrompt("v009", directory)).toThrow(/v009/u);
+  });
+
+  it("rejects a name that is not a classifier version", () => {
+    const directory = mkdtempSync(path.join(tmpdir(), "prompts-"));
+
+    expect(() => loadPrompt("notes", directory)).toThrow(/not classifier/u);
+  });
+
+  it("rejects a prompt that is missing a placeholder", () => {
+    const directory = mkdtempSync(path.join(tmpdir(), "prompts-"));
+    writeFileSync(path.join(directory, "classifier.v003.txt"), "hello");
+
+    expect(() => loadPrompt("v003", directory)).toThrow(
+      /missing \{\{article\}\}/u,
+    );
   });
 });
 /* eslint-enable security/detect-non-literal-fs-filename -- The throwaway directory is only used in this file. */

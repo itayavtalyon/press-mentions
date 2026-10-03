@@ -1,7 +1,10 @@
 /**
  * Backoff policy (ADR 0006). An item that exhausts it stays retryable for the next run.
  */
-const POLICY = {
+/**
+ * Retry policy for every outside call (ADR 0006): attempts, jittered exponential backoff, and the cap.
+ */
+export const RETRY_POLICY = {
   maxAttempts: 5,
   baseDelayMs: 2000,
   maxDelayMs: 300_000,
@@ -103,7 +106,7 @@ export function createHttpClient(dependencies) {
 async function requestText(dependencies, url, init, options) {
   const { host } = new URL(url);
   let reason = "";
-  for (let attempt = 0; attempt < POLICY.maxAttempts; attempt += 1) {
+  for (let attempt = 0; attempt < RETRY_POLICY.maxAttempts; attempt += 1) {
     await dependencies.limiter.take(host);
     const outcome = await attemptOnce(dependencies, url, init, options);
     if (outcome.text !== undefined) {
@@ -112,7 +115,7 @@ async function requestText(dependencies, url, init, options) {
     reason = outcome.reason;
     const wait =
       outcome.retryAfterMs ?? backoffMs(attempt, dependencies.random);
-    if (wait > POLICY.maxDelayMs) {
+    if (wait > RETRY_POLICY.maxDelayMs) {
       break;
     }
     dependencies.limiter.pause(host, wait);
@@ -135,7 +138,7 @@ async function attemptOnce(dependencies, url, init, options) {
     response = await dependencies.fetch(url, {
       ...init,
       headers: { ...init.headers, ...options.headers },
-      signal: AbortSignal.timeout(POLICY.timeoutMs),
+      signal: AbortSignal.timeout(RETRY_POLICY.timeoutMs),
     });
   } catch (error) {
     return { reason: `network: ${String(error)}`, retryAfterMs: undefined };
@@ -179,9 +182,9 @@ function parseRetryAfter(header, now) {
  * @param {() => number} random Jitter source in `[0, 1)`.
  * @returns {number} Half to all of `base * 2^attempt`, capped at the maximum delay.
  */
-function backoffMs(attempt, random) {
+export function backoffMs(attempt, random) {
   return (
-    Math.min(POLICY.maxDelayMs, POLICY.baseDelayMs * 2 ** attempt) *
+    Math.min(RETRY_POLICY.maxDelayMs, RETRY_POLICY.baseDelayMs * 2 ** attempt) *
     (0.5 + random() / 2)
   );
 }

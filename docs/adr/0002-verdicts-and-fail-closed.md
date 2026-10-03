@@ -25,7 +25,7 @@ The model decides `unranked`, including for title-only rows. A headline with a c
 | `unrelated`                       | Model judged it not about the company            | Hidden                    | Omitted         | No             | No                     |
 | `uncertain`                       | Model could not judge, or the reply was unusable | Hidden, same as unrelated | Omitted         | No             | No                     |
 
-`uncertain` sets a review flag and keeps the raw model text. A `/review` page lists every flagged row with its company, title, link, text source, and raw model reply, so hidden rows are visible to an operator (ADR 0008). A flagged row is not added to the scored labeled set until a person writes the expected verdict. A confident `unrelated` is not flagged. The same prompt version does not classify that row again.
+`uncertain` keeps the raw model text. A JSON object, including a model value of `uncertain` and a missing key, stores `review_flag` 0. A reply that is not a JSON object stores `uncertain` with `review_flag` 1. `/review` lists every `company_articles` row whose verdict is `uncertain`, with its company, title, link, text source, and raw model reply, so hidden rows are visible to an operator (ADR 0008). That row is not added to the scored labeled set until a person writes the expected verdict. A confident `unrelated` is not listed. The same live model and prompt version does not classify that row again.
 
 Volume is shown as a mention count plus how many of those have a tone, for example "18 mentions, 11 rated."
 

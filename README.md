@@ -13,7 +13,7 @@ npm ci
 cp .env.example .env
 ```
 
-Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`just setup`, `just start`, `just job-backfill`, `just job-feed`, `just job-unwrap`, `just job-fetch`, `just job-extract`, `just job-digest`, `just job-eval`, `just verify`, `just ui-check`). A fresh clone does not need it.
+Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`just setup`, `just start`, `just job-backfill`, `just job-feed`, `just job-unwrap`, `just job-fetch`, `just job-extract`, `just job-classify`, `just job-digest`, `just job-eval`, `just verify`, `just ui-check`). A fresh clone does not need it.
 
 ## Run
 
@@ -24,18 +24,19 @@ npm run job:feed
 npm run job:unwrap
 npm run job:fetch
 npm run job:extract
+npm run job:classify
 npm run job:digest
 npm run job:eval
 npm run verify
 ```
 
-`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.feed.lock` while it runs. Unwrap, fetch, extract, and classify do not share that file. It then collects each company's Google News candidates for last quarter through now: one query, or one per week when the first page is full, keeping at most 150. A company whose candidates are stored is skipped on the next run. Requests to Google are spaced by `GOOGLE_TOKEN_MS` and back off on 429. The job exits 1 if any company failed or Google kept throttling.
+`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.feed.lock` while it runs. Unwrap, fetch, extract, and classify do not share that file. It then collects each company's Google News candidates for last quarter through now: one query, or one per week when the first page is full, keeping at most 150. It stores each new article at stage `unwrap` and stops. It does not unwrap, fetch, extract, or classify. A company whose candidates are stored is skipped on the next run. Requests to Google are spaced by `GOOGLE_TOKEN_MS` and back off on 429. The job exits 1 if any company failed or Google kept throttling.
 
-Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify lock that database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. A second copy of the same command exits 1, names that pid, and does not open its store. The process writes its pid into a claim file and links that onto the lock, so the file is never empty, and deletes the lock when it exits. If the pid in the file is not running, the next start renames the file aside and takes the lock, so a crash does not stick. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. A pid that now belongs to some other live process looks held until that process exits. Each process has its own in-memory token bucket and applies `GOOGLE_TOKEN_MS` on its own. If the feed and unwrap overlap, those rates add. At the default, Google can see two requests a second. There is no shared slot file.
+Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify lock that database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. A second copy of the same command exits 1, names that pid, and does not open its store. The process writes its pid into a claim file and links that onto the lock, so the file is never empty, and deletes the lock when it exits. If the pid in the file is not running, the next start renames the file aside and takes the lock, so a crash does not stick. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. A pid that now belongs to some other live process looks held until that process exits. Each process has its own in-memory token bucket. `news.google.com` uses `GOOGLE_TOKEN_MS`. Every other host uses `PUBLISHER_TOKEN_MS` (default 2000). If the feed and unwrap overlap, those Google rates add. At the default, Google can see two requests a second. There is no shared slot file.
 
-Unwrap, fetch, and extract are three cron commands. Each one, when it exists, holds its own lock for its whole run and reads only articles whose `stage` column is its own queue. A write matches that stage. A row that has already moved is logged and left alone. The step does not call the next step. Cron starts each step. The coverage row is the queue. If volume demands it, replace cron polling with a message queue such as Kafka. Classification of collected articles is not built yet. It will be its own command.
+Unwrap, fetch, extract, and classify are four cron commands. Each one holds its own lock for its whole run and reads only articles whose `stage` column is its own queue. A write matches that stage. A row that has already moved is logged and left alone. The step does not call the next step. Cron starts each step. The coverage row is the queue. If volume demands it, replace cron polling with a message queue such as Kafka. Classification is its own command.
 
-`npm start` is the dashboard on `http://127.0.0.1:3000/` (`PORT` changes the port). It reads the coverage store and never writes collection data. `npm run job:feed` is the forward feed. It collects the trailing three days and does not unwrap, fetch, extract, classify, or enqueue digests. `npm run job:unwrap`, `npm run job:fetch`, `npm run job:extract`, and `npm run job:digest` are the other cron commands. Those files and the feed exit without doing work. The mailer is a separate command and is not built yet. Every script loads `.env` with Node's `--env-file`.
+`npm start` is the dashboard on `http://127.0.0.1:3000/` (`PORT` changes the port). It reads the coverage store and never writes collection data. `npm run job:feed` is the forward feed. It collects the trailing three days and does not unwrap, fetch, extract, classify, or enqueue digests. `npm run job:unwrap` stores the publisher URL for rows at stage `unwrap`. It GETs each article page, then sends a `batchexecute` POST for every 20 articles that returned a signature, and one more POST for a shorter remainder. A page it cannot resolve takes the title path. `docs/unwrap/README.md` is that call, and why a redirect is not the publisher URL. `npm run job:fetch` stores the publisher page for rows at stage `fetch`. Each publisher host has its own token bucket, refilled every `PUBLISHER_TOKEN_MS` milliseconds (default 2000), so one site does not slow another. A status other than 429 or 5xx, or a refused URL, takes the title path. In production at large scale, dedicated workers will work the queues by domain. `npm run job:extract` stores Readability text for rows at stage `extract`, or the title when that text is empty after trim. `npm run job:classify` scores each open company link for articles at stage `classify` with the live model and prompt, then leaves the stage at `classify`. `npm run job:digest` still exits without doing work. The mailer is a separate command and is not built yet. Every script loads `.env` with Node's `--env-file`.
 
 `npm run job:eval` scores every installed chat model against `prompt/classifier.vNNN.txt` and the cases in the evaluation database. It needs a running Ollama server. `docs/prompt-eval/README.md` is how a run is scored, how the winner is chosen, and how a later prompt version is written. `npm run verify` does not call Ollama.
 
@@ -69,10 +70,10 @@ Before the backfill started, the empty store showed the not-run panel above a na
 
 ## Architecture
 
-`docs/ARCHITECTURE.md` is how the pieces move. `docs/adr/` records each choice. `docs/CODING-STANDARD.md` is the type, error, and file-ownership standard. `AGENTS.md` points coding agents at it. The evaluator boundaries are in `docs/engineering-notes.md`.
+`docs/ARCHITECTURE.md` is how the pieces move. `docs/unwrap/README.md` is the Google News unwrap. `docs/adr/` records each choice. `docs/CODING-STANDARD.md` is the type, error, and file-ownership standard. `AGENTS.md` points coding agents at it. The evaluator boundaries are in `docs/engineering-notes.md`.
 
 - `src/config.js` — paths, the Google interval, and the Ollama host. The live model and prompt version are constants in `src/core/classifier.js`.
-- `src/jobs` — backfill, forward feed, and the prompt evaluator
+- `src/jobs` — backfill, forward feed, classify, and the prompt evaluator
 - `src/core` — domain logic, including the classifier
 - `src/infra` — Google News, Ollama, and SQLite adapters
 - `src/server` — HTTP server: routes, the cross-site guard, headers, and static files
@@ -88,5 +89,5 @@ Before the backfill started, the empty store showed the not-run panel above a na
 ## Limitations
 
 - No API or cron schedule yet. The dashboard is complete: index, company, and review pages, the subscribe form (plain or in the dialog with script), the page script, and the UI checks. VoiceOver on iOS Safari and Windows High Contrast were not tried. A browser that supports `<dialog>` but not invoker commands, with script off, cannot open the subscribe dialog.
-- The forward feed file is a placeholder. Unwrap, fetch, extract, and classification of collected articles are not built yet.
+- The forward feed file is a placeholder.
 - Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.

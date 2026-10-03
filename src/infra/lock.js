@@ -10,28 +10,32 @@ import {
 } from "node:fs";
 
 /**
- * Every collection command holds this one file for its whole run (ADR 0003).
- * There is not a lock per stage.
- * @param {string} databasePath Coverage SQLite path.
+ * One lock file per pipeline command (ADR 0003).
+ * Backfill and the forward feed both use `feed` on the coverage database.
+ * Digest and mail pass the alerts database. The other commands pass the coverage database.
+ * A second copy of the same command exits. A different command may run at the same time.
+ * @param {string} databasePath Database that command writes.
+ * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "digest" | "mail"} command Command name.
  * @returns {string} Lock file next to that database.
  */
-function coverageLockPath(databasePath) {
-  return `${databasePath}.lock`;
+function commandLockPath(databasePath, command) {
+  return `${databasePath}.${command}.lock`;
 }
 
 /**
- * Holds the coverage lock until `work` finishes.
- * A live pid makes this throw before `work`, so the coverage store is not opened.
+ * Holds that command's lock until `work` finishes.
+ * A live pid makes this throw before `work`, so the store is not opened.
  * A pid that is not running, or file contents that are not a pid, is a crashed holder.
  * This start takes the lock.
  * @template T
- * @param {string} databasePath Coverage SQLite path.
+ * @param {string} databasePath Database that command writes.
+ * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "digest" | "mail"} command Command name.
  * @param {() => T | Promise<T>} work The step body.
  * @returns {Promise<T>} What `work` returned.
- * @throws {Error} A running process still holds the lock.
+ * @throws {Error} A running process still holds this command's lock.
  */
-export async function withCoverageLock(databasePath, work) {
-  return withLock(coverageLockPath(databasePath), work);
+export async function withCommandLock(databasePath, command, work) {
+  return withLock(commandLockPath(databasePath, command), work);
 }
 
 /**

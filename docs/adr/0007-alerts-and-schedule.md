@@ -12,7 +12,7 @@ The assignment needs a visible daily alert. This environment should not send mai
 
 ## Decision
 
-Backfill is a one-time coverage process. It writes articles and verdicts and has no alert side effects. `alert_eligible` is set only on a `guid` first inserted by the forward feed. A later feed run does not flip that flag on a row backfill already stored. `origin` stays `daily` for that row.
+Backfill is a one-time coverage process. It stores Google News candidates at stage `unwrap` and has no alert side effects. Unwrap, fetch, extract, and classify are later commands. `alert_eligible` is set only on a `guid` first inserted by the forward feed. A later feed run does not flip that flag on a row backfill already stored. `origin` stays `daily` for that row.
 
 A mention is new for an email when all of these hold:
 
@@ -26,7 +26,7 @@ A forward feed on a fresh clone with no backfill works the same way. It stores w
 Cron starts one command per component. Each exits when it finishes. They are not chained on one crontab line. The server does not schedule them.
 
 - `src/jobs/feed.js` collects the trailing three days and holds `<COVERAGE_DB>.feed.lock`. Backfill holds that same file. The feed does not unwrap, fetch, extract, classify, or enqueue digests.
-- `src/jobs/unwrap.js`, `src/jobs/fetch.js`, and `src/jobs/extract.js` are the text steps. When they do the work they hold `<COVERAGE_DB>.unwrap.lock`, `<COVERAGE_DB>.fetch.lock`, and `<COVERAGE_DB>.extract.lock`. Each reads only its `stage` and does not call the next step (ADR 0003, ADR 0006). The coverage row is the queue. The files are placeholders until that work exists, and a placeholder does not take a lock.
+- `src/jobs/unwrap.js`, `src/jobs/fetch.js`, and `src/jobs/extract.js` are the text steps. They hold `<COVERAGE_DB>.unwrap.lock`, `<COVERAGE_DB>.fetch.lock`, and `<COVERAGE_DB>.extract.lock`. Each reads only its `stage` and does not call the next step (ADR 0003, ADR 0006). The coverage row is the queue.
 - `src/jobs/digest.js` upserts `ALERT_EMAIL` and writes the outbox. It is not part of the feed. It holds `<ALERTS_DB>.digest.lock` and does not lock the coverage database. The file is a placeholder until that work exists.
 - `src/jobs/mail.js` sends the queue and holds `<ALERTS_DB>.mail.lock`. Classify, when it is built, holds `<COVERAGE_DB>.classify.lock` and is not started by extract.
 

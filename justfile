@@ -33,6 +33,10 @@ job-fetch:
 job-extract:
 	npm run job:extract
 
+# Score open company links at stage classify
+job-classify:
+	npm run job:classify
+
 # Enqueue digests
 job-digest:
 	npm run job:digest

@@ -102,6 +102,7 @@ sequenceDiagram
   participant Unwrap
   participant Fetch
   participant Extract
+  participant Classify
   participant DB as Coverage store
 
   Cron->>Feed: Start
@@ -113,10 +114,12 @@ sequenceDiagram
   Fetch->>DB: Read stage fetch only, write the page, stage becomes extract
   Cron->>Extract: Start later
   Extract->>DB: Read stage extract only, write text, stage becomes classify
+  Cron->>Classify: Start later
+  Classify->>DB: Read open links at stage classify, write verdicts, stage stays classify
   Note over Cron,DB: A step does not call the next step. A second copy of that same command exits without opening the store.
 ```
 
-The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, and extract stay three cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. A write matches that stage. A row that has already moved is logged and left where it is. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is a later command and is not started by extract. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. 401, 403, 404, and shells take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
+The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, extract, and classify are separate cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. A write matches that stage. A row that has already moved is logged and left where it is. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is `npm run job:classify`, and extract does not start it. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. Any publisher status other than 429 or 5xx, a refused URL, and an empty extract take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
 
 ## Digest
 
@@ -264,7 +267,7 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | Variable             | Role                                                                                |
 | -------------------- | ----------------------------------------------------------------------------------- |
 | `COVERAGE_DB`        | Coverage SQLite path                                                                |
-| `ALERTS_DB`          | Alerts SQLite path, default `alerts.sqlite`                                         |
+| `ALERTS_DB`          | Alerts SQLite path, default `data/alerts.sqlite`                                    |
 | `EVAL_DB`            | Evaluation SQLite path                                                              |
 | `OLLAMA_HOST`        | Default `http://127.0.0.1:11434`                                                    |
 | `PORT`               | Dashboard port                                                                      |
@@ -315,12 +318,12 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 ## Open questions and risks
 
 - The 2026-10-01 run picked `qwen3.5:9b` and `v001`. Collection uses those constants. Eval does not change them.
-- Seconds per article on this M1 are unknown. With the cap, the estimate is about 6k capped candidates plus the long tail, roughly one night at 5 s each. Measure seconds per article during eval, and start the real backfill no later than Oct 3.
-- Every candidate is unwrapped (two Google requests) and fetched. At about 8k+ candidates, that is several hours of Google traffic from one IP, and a block is plausible. A block backs off and leaves rows retryable. It does not bypass anything.
-- `batchexecute` is unofficial. When it breaks, new rows take the title path in ADR 0006 and the README should say the unwrap failed.
+- The backfill command only stores Google News candidates at stage `unwrap`. It does not unwrap, fetch, extract, or classify. At one request a second, 258 companies take a few minutes when the first page is short, and about an hour if every company needs the week queries. Classification is `npm run job:classify`. It scores open links and leaves the stage at `classify`. With the cap, about 6k candidates at roughly 5 s each is one night. Start the RSS backfill no later than Oct 3.
+- Every candidate is one Google GET. A POST carries at most 20 articles that returned a signature. At about 8k+ candidates, that is still hours of Google traffic from one IP, and a block is plausible. A block backs off and leaves rows retryable. It does not bypass anything.
+- `batchexecute` is unofficial. When the POST fails, those rows stay retryable (ADR 0006). A parsed batch that lacks an article takes the title path. The README should say the unwrap failed.
 - A week that returns 100 items is silently incomplete, and the cap samples it further. The dashboard does not mark sampled companies. The README does.
 - Many business pages return 401, 403, or a script shell. A shell is a 200 whose Readability text is empty after trim. Those mentions are title judgments, and `text_source` shows it. The fetcher allows only public `http` and `https` URLs (ADR 0006).
-- The overlay must be final before the real backfill. A company already backfilled keeps its candidates when its query changes later; re-collecting it means clearing its `backfilled_at` by hand. A smoke run on 1 Oct 2026 stored 150 "edge" items for Ludeo before the overlay existed.
+- The overlay must be final before the real backfill. A company already backfilled keeps its candidates when its query changes later. Clearing `backfilled_at` makes the next run search again and add links. It does not remove links already stored. A smoke run on 1 Oct 2026 stored 150 "edge" items for Ludeo before the overlay existed. Delete those links before searching that company again. Ludeo's overlay entry now drops the Edge alias.
 - Measured on 1 Oct 2026 with the overlay terms: Bites, Kini, Peak, MST, Silo, Launchpad, and Rewire return few or no stories about the company, and Orchard is still mostly other uses of the word. Those may be quiet companies or a recall loss from the terms. The README should list them.
 - The overlay decides precision for about 30 ordinary-word names. A wrong or missing descriptor is a silent precision loss. The labeled set should include one hit and one miss for several of those names, not only Harvey.
 - The mailer can send the same body twice if it crashes after a successful handoff and before the delete.

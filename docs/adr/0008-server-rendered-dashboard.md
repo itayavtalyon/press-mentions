@@ -49,5 +49,5 @@ The dashboard design was closed with Itay on this date. `docs/ui-design.md` is t
 - Subscribing works without script as a normal form POST. With script, `app.js` sends the same form body with `fetch` and `Accept: application/json`, and the same route answers `{ outcome, message }` (`outcome` is `created`, `exists`, or `invalid`, and an invalid one adds `field: "email"` and status 400). The dialog shows the outcome. The words are the same in both paths. Other failures (403, 404, 413, 415) keep their usual replies.
 - The POST body must be `application/x-www-form-urlencoded` (else 415) and at most 4 KiB (else 413). An unknown company answers 404 and stores nothing.
 - Every request whose `Host` name is not `127.0.0.1` or `localhost` answers 421 (added 2026-10-02 in the D0–D7 review). The server binds 127.0.0.1, so any other name is a DNS-rebinding page, and such a page can send an `Origin` that matches its own `Host`.
-- `ALERTS_DB` defaults to `alerts.sqlite`.
+- `ALERTS_DB` defaults to `data/alerts.sqlite`.
 - The company page groups mentions by verdict in digest order and shows aliases, the overlay descriptor, and a short text excerpt.

@@ -2,8 +2,10 @@ import { describe, expect, it } from "vitest";
 
 import {
   Classifier,
+  isObjectReply,
   LIVE_MODEL,
   LIVE_PROMPT_VERSION,
+  replyVerdict,
 } from "../../src/core/classifier.js";
 
 const PROMPT = {
@@ -88,15 +90,17 @@ describe("Classifier request checks", () => {
     ).toThrow(/missing \{\{article\}\}/u);
   });
 
-  it("rejects an input that contains a placeholder token", () => {
-    expect(() =>
-      classifier.request("qwen2.5:14b", PROMPT, {
-        article: "see {{article}}",
-        companies: [{ name: "Harvey" }],
-        homepage: "https://techcrunch.com",
-        publisher: "TechCrunch",
-      }),
-    ).toThrow(/placeholder token/u);
+  it("sends placeholder-like text in a field as written, without expanding it", () => {
+    const request = classifier.request("qwen2.5:14b", PROMPT, {
+      article: "see {{candidates}} and {{ vue }}",
+      companies: [{ name: "Harvey" }],
+      homepage: "https://techcrunch.com",
+      publisher: "TechCrunch",
+    });
+
+    expect(request.prompt).toBe(
+      "see {{candidates}} and {{ vue }}\nTechCrunch\nhttps://techcrunch.com\nHarvey",
+    );
   });
 });
 
@@ -123,5 +127,27 @@ describe("Classifier verdicts", () => {
         ["Harvey"],
       ),
     ).toThrow(TypeError);
+  });
+});
+
+describe("isObjectReply", () => {
+  it.each([
+    ['{"Harvey":"positive"}', true],
+    ["{}", true],
+    ["[]", false],
+    ["nope", false],
+  ])("reads %j as an object reply: %s", (reply, expected) => {
+    expect(isObjectReply(reply)).toBe(expected);
+  });
+});
+
+describe("replyVerdict", () => {
+  it.each([
+    ['{"Harvey":"negative"}', "negative"],
+    ['{"Harvey":"great"}', "uncertain"],
+    ['{"Other":"positive"}', "uncertain"],
+    ["nope", "uncertain"],
+  ])("reads %j as %s for Harvey", (reply, expected) => {
+    expect(replyVerdict(reply, "Harvey")).toBe(expected);
   });
 });

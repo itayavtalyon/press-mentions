@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { createRateLimiter } from "../../src/infra/rate-limiter.js";
+import {
+  createRateLimiter,
+  hostIntervalMs,
+} from "../../src/infra/rate-limiter.js";
 import { givenClock } from "../helpers/fakes.js";
 
 const givenLimiter = () => {
@@ -51,6 +54,19 @@ describe("RateLimiter.take", () => {
     await limiter.take("slow");
 
     expect(sleeps).toEqual([]);
+  });
+});
+
+describe("hostIntervalMs", () => {
+  const intervals = { googleMs: 1000, publisherMs: 2000 };
+
+  it("uses the Google interval for news.google.com", () => {
+    expect(hostIntervalMs("news.google.com", intervals)).toBe(1000);
+  });
+
+  it("uses the publisher interval for every other host", () => {
+    expect(hostIntervalMs("example.com", intervals)).toBe(2000);
+    expect(hostIntervalMs("news.google.com:443", intervals)).toBe(2000);
   });
 });
 

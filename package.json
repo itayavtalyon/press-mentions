@@ -13,6 +13,7 @@
     "job:unwrap": "node --env-file=.env src/jobs/unwrap.js",
     "job:fetch": "node --env-file=.env src/jobs/fetch.js",
     "job:extract": "node --env-file=.env src/jobs/extract.js",
+    "job:classify": "node --env-file=.env src/jobs/classify.js",
     "job:digest": "node --env-file=.env src/jobs/digest.js",
     "job:eval": "node --env-file=.env src/jobs/prompt-eval/index.js",
     "lint": "eslint . --max-warnings 0",

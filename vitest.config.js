@@ -12,6 +12,7 @@ export default defineConfig({
         "src/jobs/unwrap.js",
         "src/jobs/fetch.js",
         "src/jobs/extract.js",
+        "src/jobs/classify.js",
         "src/jobs/digest.js",
         "src/jobs/mail.js",
         "src/jobs/prompt-eval/index.js",

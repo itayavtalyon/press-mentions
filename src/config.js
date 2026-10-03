@@ -6,6 +6,7 @@ import { ownValue } from "./core/common.js";
 const DEFAULT_DATABASE = "data/evaluation.sqlite";
 const DEFAULT_HOST = "http://127.0.0.1:11434";
 const DEFAULT_GOOGLE_INTERVAL_MS = 1000;
+const DEFAULT_PUBLISHER_INTERVAL_MS = 2000;
 const SEED_PATH = fileURLToPath(
   new URL("../seed/companies.txt", import.meta.url),
 );
@@ -17,7 +18,7 @@ const BROWSER_ASSETS_PATH = fileURLToPath(
 );
 const DEFAULT_PORT = 3000;
 const MAX_PORT = 65_535;
-const DEFAULT_ALERTS_DATABASE = "alerts.sqlite";
+const DEFAULT_ALERTS_DATABASE = "data/alerts.sqlite";
 
 /**
  * @typedef {object} AppConfig
@@ -25,9 +26,10 @@ const DEFAULT_ALERTS_DATABASE = "alerts.sqlite";
  * @property {string} seedPath Seed file.
  * @property {string} overlayPath Overlay file.
  * @property {number} googleIntervalMs Minimum milliseconds between two Google News requests.
+ * @property {number} publisherIntervalMs Minimum milliseconds between two requests to any other host.
  * @property {string} databasePath Evaluation SQLite path.
  * @property {string} ollamaHost Ollama host.
- * @property {string} alertsDatabase Alerts SQLite path. Default `alerts.sqlite`.
+ * @property {string} alertsDatabase Alerts SQLite path. Default `data/alerts.sqlite`.
  * @property {number} port Dashboard port on 127.0.0.1 (ADR 0008).
  * @property {string} browserAssetsPath Directory of `app.css` and `app.js`.
  */
@@ -46,7 +48,16 @@ export function loadConfig(environment, cwd) {
     databasePath: path.isAbsolute(databasePath)
       ? databasePath
       : path.join(cwd, databasePath),
-    googleIntervalMs: googleInterval(environment),
+    googleIntervalMs: intervalMs(
+      environment,
+      "GOOGLE_TOKEN_MS",
+      DEFAULT_GOOGLE_INTERVAL_MS,
+    ),
+    publisherIntervalMs: intervalMs(
+      environment,
+      "PUBLISHER_TOKEN_MS",
+      DEFAULT_PUBLISHER_INTERVAL_MS,
+    ),
     ollamaHost: setting(environment, "OLLAMA_HOST", DEFAULT_HOST),
     port: port(environment),
     alertsDatabase: setting(environment, "ALERTS_DB", DEFAULT_ALERTS_DATABASE),
@@ -73,19 +84,21 @@ function coverageDatabase(environment) {
 
 /**
  * @param {Record<string, string | undefined>} environment Process environment.
+ * @param {string} name `GOOGLE_TOKEN_MS` or `PUBLISHER_TOKEN_MS`.
+ * @param {number} fallback Milliseconds used when the variable is absent.
  * @returns {number} A positive whole number of milliseconds.
  */
-function googleInterval(environment) {
-  const value = ownValue(environment, "GOOGLE_TOKEN_MS");
+function intervalMs(environment, name, fallback) {
+  const value = ownValue(environment, name);
   const text = typeof value === "string" ? value.trim() : "";
 
   if (text === "") {
-    return DEFAULT_GOOGLE_INTERVAL_MS;
+    return fallback;
   }
 
   if (!/^[1-9]\d*$/u.test(text)) {
     throw new Error(
-      `GOOGLE_TOKEN_MS must be a positive whole number of milliseconds, got "${text}"`,
+      `${name} must be a positive whole number of milliseconds, got "${text}"`,
     );
   }
 
