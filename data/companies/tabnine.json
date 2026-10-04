@@ -1,0 +1,71 @@
+{
+  "name": "Tabnine",
+  "last_mentioned_at": "2026-08-10T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Tabnine Revenue 2022: $5.8M ARR, $57.1M Raised",
+      "link": "https://getlatka.com/companies/tabnine",
+      "publisher": "GetLatka",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tricentis, Tabnine and Snyk: the latest vendor and product news",
+      "link": "https://qa-financial.com/tricentis-tabnine-and-snyk-the-latest-vendor-and-product-news/",
+      "publisher": "QA Financial",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tricentis acquires Tabnine: Did context-aware code quality engineering just happen?",
+      "link": "https://www.techzine.eu/blogs/analytics/143360/tricentis-acquires-tabnine-enterprise-context-engine-ai-quality/",
+      "publisher": "Techzine Global",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Tricentis acquires Israeli AI startup Tabnine in deal estimated at tens of millions of dollars",
+      "link": "https://www.calcalistech.com/ctechnews/article/1o1nf7vd3",
+      "publisher": "calcalistech.com",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Tricentis Acquires Tabnine to Further Scale Agentic Quality Engineering for the Enterprise",
+      "link": "https://www.businesswire.com/news/home/20260730388427/en/Tricentis-Acquires-Tabnine-to-Further-Scale-Agentic-Quality-Engineering-for-the-Enterprise",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Context Becomes the Battleground: Tricentis Buys Tabnine to Ground Its Testing Agents in Enterprise Reality",
+      "link": "https://erp.today/tricentis-acquires-tabnine-ai-testing-agents-enterprise-context/",
+      "publisher": "ERP Today",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tricentis Acquires Tabnine to Gain Knowledge Graph for AI Testing Agents",
+      "link": "https://devops.com/tricentis-acquires-tabnine-to-gain-knowledge-graph-for-ai-testing-agents/",
+      "publisher": "DevOps.com",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tricentis Acquires Tabnine to Strengthen Enterprise AI Quality Engineering Platform",
+      "link": "https://www.citybiz.co/article/881956/tricentis-acquires-tabnine-to-strengthen-enterprise-ai-quality-engineering-platform/",
+      "publisher": "citybiz",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "BriefCam",
+  "last_mentioned_at": "2026-09-18T11:41:19.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Police Scotland explores AI-powered CCTV search in Aberdeen pilot",
+      "link": "https://futurescot.com/police-scotland-explores-ai-powered-cctv-search-in-aberdeen-pilot/",
+      "publisher": "FutureScot",
+      "published_at": "2026-09-18T11:41:19.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Letters: The Tribune Editorial Board is right to question the proliferation of Flock cameras",
+      "link": "https://www.chicagotribune.com/2026/09/14/letters-091426-flock-cameras/",
+      "publisher": "Chicago Tribune",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Cook County’s BriefCam AI tool represents the intersection of Black and Palestinian struggle against systems of mass surveillance",
+      "link": "https://chicagomonitor.com/2026/08/cook-countys-briefcam-ai-tool-represents-the-intersection-of-black-and-palestinian-struggle-against-systems-of-mass-surveillance/",
+      "publisher": "chicagomonitor.com",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Moving data ethics into the mainstream of policing",
+      "link": "https://emergencyservicestimes.com/2026/07/03/moving-data-ethics-into-the-mainstream-of-policing/",
+      "publisher": "Emergency Services Times",
+      "published_at": "2026-07-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

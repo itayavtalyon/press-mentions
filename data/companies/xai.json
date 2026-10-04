@@ -1,0 +1,991 @@
+{
+  "name": "xAI",
+  "last_mentioned_at": "2026-10-02T02:18:33.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Elon Musk wants to sue Apple over Grok app store rankings as Sam Altman fires back",
+      "link": "https://mashable.com/article/elon-musk-sue-apple-xai-app-store-rankings",
+      "publisher": "Mashable",
+      "published_at": "2026-09-30T22:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Google, Anthropic, Meta, Nvidia, OpenAI, xAI Executives Sign White House Accord on 'Super Intelligence'",
+      "link": "https://finance.yahoo.com/technology/ai/articles/google-anthropic-meta-nvidia-openai-101127588.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-30T10:11:27.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-09-29T22:20:59.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Grok 4.7 is now available on Amazon Bedrock | Amazon Web Services",
+      "link": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+      "publisher": "Amazon Web Services (AWS)",
+      "published_at": "2026-09-28T22:13:16.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Moves to Buy Out Southaven Residents Who Agree Not to Sue It Over Power Plant Noise, Letter Shows",
+      "link": "https://www.mississippifreepress.org/xai-moves-to-buy-out-southaven-residents-who-agree-not-to-sue-it-over-power-plant-noise-letter-shows/",
+      "publisher": "Mississippi Free Press",
+      "published_at": "2026-09-25T15:48:11.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "MLGW asks residents to protect Memphis water supply as questions about data centers' impacts remains",
+      "link": "https://www.localmemphis.com/article/news/local/mlgw-urges-residents-to-protect-memphis-water-supply-as-data-centers-xai-face-no-guidelines/522-e9ffee24-66b8-480d-a97c-4514dfc38dc2",
+      "publisher": "localmemphis.com",
+      "published_at": "2026-09-25T15:20:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Memphis residents file noise complaint against Elon Musk’s xAI",
+      "link": "https://www.actionnews5.com/2026/09/25/memphis-residents-file-noise-complaint-againt-elon-musks-xai/",
+      "publisher": "Action News 5",
+      "published_at": "2026-09-25T14:20:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "SpaceX Bought xAI for $250 Billion. That Division Now Supposedly Has a $26.5 Trillion Total Addressable Market.",
+      "link": "https://www.fool.com/investing/2026/09/25/spacex-bought-xai-for-250-billion-that-division-no/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-09-25T12:30:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Family of worker who died at SpaceXAI data center sues for $30M",
+      "link": "https://wreg.com/news/local/xai-memphis/family-of-worker-who-died-at-spacexai-data-center-sues-for-30m/",
+      "publisher": "WREG.com",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock | Artificial Intelligence",
+      "link": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+      "publisher": "Amazon Web Services (AWS)",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Memphis mayor defends city’s deals with data centers, says he doesn’t trust Musk",
+      "link": "https://wreg.com/news/local/xai-memphis/memphis-mayor-defends-citys-deals-with-data-centers-musk/",
+      "publisher": "WREG.com",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Former xAI Staffer Seeks $50 Million for Deepfake Defense Startup",
+      "link": "https://www.pymnts.com/startups/2026/former-xai-staffer-seeks-50-million-dollars-deepfake-defense-startup/",
+      "publisher": "PYMNTS.com",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Former xAI Staffer Eyes $50 Million for Firm to Fight Deepfakes",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-21/former-xai-staffer-eyes-50-million-for-firm-to-fight-deepfakes",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Nine Days After Musk Endorsed a Slowdown, xAI Ships a Model That Undercuts the Slowdown by 80%",
+      "link": "https://forkast.news/nine-days-after-musk-endorsed-a-slowdown-xai-ships-a-model-that-undercuts-the-slowdown-by-80/",
+      "publisher": "forkast.news",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ Files Appeal in Effort to Join NAACP xAI Data Center Suit",
+      "link": "https://news.bloomberglaw.com/environment-and-energy/doj-files-appeal-in-effort-to-join-naacp-xai-data-center-suit",
+      "publisher": "Bloomberg Law News",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Releases Grok Voice Transcribe 2.0 Speech-to-Text Model",
+      "link": "https://www.unite.ai/xai-releases-grok-voice-transcribe-2-0-speech-to-text-model/",
+      "publisher": "Unite.AI",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Residents file lawsuit challenging noise pollution from Elon Musk's data center",
+      "link": "https://www.npr.org/2026/09/17/nx-s1-5954414/residents-file-lawsuit-challenging-noise-pollution-from-elon-musks-data-center",
+      "publisher": "NPR",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Adds Cross-Session Memory to Grok Build Coding Agent",
+      "link": "https://www.unite.ai/xai-adds-cross-session-memory-to-grok-build-coding-agent/",
+      "publisher": "Unite.AI",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet",
+      "link": "https://fortune.com/2026/09/15/elon-musk-airstream-trailer-memphis-xai-colossus-data-center-sleeping-factory-floor-twitter-tesla-production-hell/",
+      "publisher": "fortune.com",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The world's richest man says he's living in a trailer",
+      "link": "https://www.businessinsider.com/elon-musk-living-in-trailer-overseeing-xai-data-center-plans-2026-9",
+      "publisher": "Business Insider",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI resolves claims against Apple over AI competition",
+      "link": "https://www.mercurynews.com/2026/09/15/musks-xai-resolves-claims-against-apple-over-ai-competition/",
+      "publisher": "The Mercury News",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI Asks Appeals Court to Block Minnesota Law Targeting AI-Generated Nude Images | MinneapoliMedia",
+      "link": "https://minneapolimedia.town.news/g/coon-rapids-mn/n/390381/minneapolimedia-news-elon-musks-xai-asks-appeals-court-block-minnesota",
+      "publisher": "MinneapoliMedia",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Trump responds to call by CEOs of Anthropic, OpenAI and xAI to slow AI down: 'Whoever wins AI wins'",
+      "link": "https://www.yahoo.com/news/us/article/trump-responds-to-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-ai-wins-182008851.html",
+      "publisher": "Yahoo",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Musk’s xAI Resolves Claims Against Apple Over AI Competition",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/musk-s-xai-resolves-claims-against-apple-over-ai-competition",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Musk's xAI asks court to block Minnesota AI 'nudification' law during appeal",
+      "link": "https://www.reuters.com/legal/government/musks-xai-asks-court-block-minnesota-ai-nudification-law-during-appeal-2026-09-14/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI has quietly built a massive battery at its Memphis data center hub",
+      "link": "https://www.canarymedia.com/articles/batteries/xai-massive-battery-memphis-data-center",
+      "publisher": "canarymedia.com",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "The data center backlash comes for SpaceXAI’s Colossus",
+      "link": "https://www.scientificamerican.com/article/spacexais-colossus-data-center-is-fueling-a-massive-backlash/",
+      "publisher": "Scientific American",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Loses Legal Battle Against Minnesota Nudification Law, War Rages on",
+      "link": "https://gizmodo.com/xai-loses-legal-battle-against-minnesota-nudification-law-war-rages-on-2000808047",
+      "publisher": "Gizmodo",
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Minnesota 'nudification' law survives xAI's request for a legal injunction",
+      "link": "https://mashable.com/tech/minnesota-nudification-law-survives-xais-request-for-a-legal-injunction",
+      "publisher": "Mashable",
+      "published_at": "2026-09-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI loses bid to block Minnesota AI 'nudification' ban",
+      "link": "https://breakingthenews.net/Article/xAI-loses-bid-to-block-Minnesota-AI-'nudification'-ban/67049163",
+      "publisher": "Breakingthenews.net",
+      "published_at": "2026-09-04T16:15:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Judge rejects Musk bid to halt Minnesota ban on AI nudifying",
+      "link": "https://www.courthousenews.com/judge-rejects-musk-bid-to-halt-minnesota-ban-on-ai-nudifying",
+      "publisher": "courthousenews.com",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Musk's XAI Can't Block Minn. Ban On Image 'Nudification'",
+      "link": "https://www.law360.com/articles/2521902/musk-s-xai-can-t-block-minn-ban-on-image-nudification",
+      "publisher": "Law360",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Musk’s xAI Fails to Block Minnesota’s AI ‘Nudification’ Law",
+      "link": "https://news.bloomberglaw.com/litigation/musks-xai-fails-to-block-minnesotas-ai-nudification-law",
+      "publisher": "Bloomberg Law News",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban",
+      "link": "https://www.reuters.com/legal/litigation/musks-xai-loses-court-bid-block-minnesotas-ai-nudification-ban-2026-09-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Judge lets Minnesota enforce anti-nudification app law over xAI objection as case proceeds",
+      "link": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+      "publisher": "MPR News",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Federal judge again rules against Musk's xAI, allowing Minnesota 'nudification' ban to continue",
+      "link": "https://kstp.com/kstp-news/local-news/federal-judge-again-rules-against-musks-xai-allowing-minnesota-nudification-ban-to-continue/",
+      "publisher": "5 EYEWITNESS NEWS",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Child sexual abuse survivor alleges Elon Musk’s AI chatbot used photos of her to generate new illegal images",
+      "link": "https://www.theguardian.com/technology/2026/sep/03/elon-musk-ai-grok-child-porn-lawsuit",
+      "publisher": "The Guardian",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Pentagon Deploys xAI's Grok for Government to 1.7M Users",
+      "link": "https://www.basenor.com/blogs/news/pentagon-deploys-xais-grok-for-government-to-1-7m-users",
+      "publisher": "basenor.com",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Noise pollution from data centers is coming. The gas-powered xAI model is spreading",
+      "link": "https://wpln.org/post/noise-pollution-from-data-centers-is-coming-the-gas-powered-xai-model-is-spreading/",
+      "publisher": "WPLN News",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Musk’s AI company sues its users as victim lawsuits over Grok deepfakes mount",
+      "link": "https://www.politico.com/news/2026/08/28/elon-musk-xai-lawsuits-grok-deepfakes-01053817",
+      "publisher": "Politico",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Elon Musk's xAI Sued For Using Child Survivor Photos To Generate Abusive Content",
+      "link": "https://www.ndtv.com/world-news/elon-musks-xai-sued-for-using-child-survivor-photos-to-generate-sexual-abusive-content-11968809",
+      "publisher": "NDTV",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+      "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Read petition filed against Spacex, after xAI data centers reportedly pushed out a family that owned 2-ac",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/read-petition-filed-against-spacex-after-xai-data-centers-reportedly-pushed-out-a-family-that-owned-2-acre-property-in-mississippi-for-over-100-year/articleshow/133523697.cms",
+      "publisher": "The Times of India",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI Sounds Alarm Over Power Shutdown: Grok Could ‘Largely Cease to Function’",
+      "link": "https://finance.yahoo.com/technology/ai/articles/elon-musk-xai-sounds-alarm-143024457.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Sues Photographer, Blaming Him for Sexual Images Created With Grok",
+      "link": "https://petapixel.com/2026/08/24/xai-sues-photographer-blaming-him-for-sexual-images-created-with-grok/",
+      "publisher": "PetaPixel",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "How Grok Voice powers LiveKit Agents",
+      "link": "https://x.ai/stories/livekit",
+      "publisher": "xAI",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Elon Musk's xAI suing Bentonville photographer accused of using Grok to generate CSAM",
+      "link": "https://katv.com/news/local/elon-musks-xai-suing-bentonville-photographer-accused-of-using-grok-to-generate-csam",
+      "publisher": "KATV",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI sues Arkansas man facing CSAM charges, says he abused its chatbot",
+      "link": "https://www.nwahomepage.com/northwest-arkansas-news/xai-sues-arkansas-man-facing-csam-charges-says-he-abused-its-chatbot/",
+      "publisher": "KNWA FOX24",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "DOJ Throws Support Behind xAI’s Fight Against Minnesota AI Nudification Ban",
+      "link": "https://gizmodo.com/doj-throws-support-behind-xais-fight-against-minnesota-ai-nudification-ban-2000801025",
+      "publisher": "Gizmodo",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's xAI company faces off against Minnesota in federal court",
+      "link": "https://www.yahoo.com/news/politics/articles/elon-musks-xai-company-faces-224944620.html",
+      "publisher": "Yahoo",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "XAI Sued Over Grok's Alleged Creation Of CSAM Deepfakes",
+      "link": "https://www.law360.com/articles/2515239/xai-sued-over-grok-s-alleged-creation-of-csam-deepfakes",
+      "publisher": "Law360",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Launches Grok Build: An Agentic CLI That Runs Your Computer",
+      "link": "https://www.basenor.com/blogs/news/xai-launches-grok-build-an-agentic-cli-that-runs-your-computer",
+      "publisher": "basenor.com",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI faces off with Minnesota over AI ‘nudification’ ban",
+      "link": "https://kstp.com/kstp-news/top-news/elon-musks-xai-faces-off-with-minnesota-over-ai-nudification-ban/",
+      "publisher": "5 EYEWITNESS NEWS",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Judge mulling arguments in xAI's request to temporarily block Minnesota's AI \"nudification\" ban",
+      "link": "https://www.cbsnews.com/minnesota/news/hearing-xai-request-to-temporarily-block-minnesota-ai-nudification-ban/",
+      "publisher": "CBS News",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Minnesota AG files opposition to xAI's attempt to block AI nudification ban",
+      "link": "https://www.kare11.com/article/news/local/minnesota-ag-files-opposition-xai-attempt-to-block-ai-nudification-ban/89-ded022ff-e57a-4089-9320-79b315a5bfed",
+      "publisher": "kare11.com",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Minnesota Defends AI Nudification Ban, Says xAI’s Grok Tool Is Not Protected Speech",
+      "link": "https://www.lawcommentary.com/articles/minnesota-defends-ai-nudification-ban-says-xais-grok-tool-is-not-protected-speech",
+      "publisher": "Law Commentary",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI lawsuit threatens California’s AI transparency standards | Opinion",
+      "link": "https://www.sacbee.com/opinion/article316860300.html",
+      "publisher": "sacbee.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI to continue building water recycling plant in 2027",
+      "link": "https://www.actionnews5.com/2026/08/17/xai-continue-building-water-recycling-plant-2027/",
+      "publisher": "Action News 5",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Minnesota defends AI ‘nudification’ ban after lawsuit from Musk’s xAI",
+      "link": "https://www.reuters.com/legal/government/minnesota-defends-ai-nudification-ban-after-lawsuit-musks-xai-2026-08-17/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI & Google: How do Grok 4.6 and Gemini 3.7 Flash Perform?",
+      "link": "https://aimagazine.com/news/xai-google-how-do-grok-4-6-and-gemini-3-7-flash-perform",
+      "publisher": "AI Magazine",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "XAI Can't Send Grok User's Privacy Suit To Texas, Judge Says",
+      "link": "https://www.law360.com/articles/2513412/xai-can-t-send-grok-user-s-privacy-suit-to-texas-judge-says",
+      "publisher": "Law360",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk says xAI will increase data center capacity 7x by 2027 — targeting 10 gigawatts of compute, up to $500 billion in revenue by the end of next year",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
+      "publisher": "Tom's Hardware",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Launches Grok Bot, Always-On AI Teammates With Their Own Cloud Computers",
+      "link": "https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/",
+      "publisher": "Unite.AI",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Builds 'Minihard' Data Center in Tennessee, Adds 220K GB300 GPUs",
+      "link": "https://www.basenor.com/blogs/news/xai-builds-minihard-data-center-in-tennessee-adds-220k-gb300-gpus",
+      "publisher": "basenor.com",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "XAI co-founder's startup River AI raises $1.1 billion to expand custom AI tools",
+      "link": "https://www.reuters.com/technology/xai-co-founders-startup-river-ai-raises-11-billion-expand-custom-ai-tools-2026-08-11/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "XAI suing former contractor for overbilling, misusing money | News",
+      "link": "https://www.fox13memphis.com/news/xai-suing-former-contractor-for-overbilling-misusing-money/article_90b40d9e-24bf-43ce-bc76-f3311b7c3946.html",
+      "publisher": "FOX13 Memphis",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI’s Neocloud Pivot Eats Up SpaceX Capital Expenditure",
+      "link": "https://www.morningstar.com/stocks/xais-neocloud-pivot-eats-up-spacex-capital-expenditure",
+      "publisher": "Morningstar",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI Sues Its Contractor for $800 Million, Says He Secretly Bankrolled a Drag Strip With the Money",
+      "link": "https://finance.yahoo.com/technology/articles/xai-sues-contractor-800-million-133231950.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lawsuit alleges contractor tried to bill SpaceXAI for raceway renovation project",
+      "link": "https://www.actionnews5.com/2026/08/10/lawsuit-alleges-contractor-tried-bill-spacexai-raceway-renovation-project/",
+      "publisher": "Action News 5",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "A pillar of environmental enforcement is targeted by Trump and Musk’s AI company",
+      "link": "https://apnews.com/article/trump-musk-xai-environment-citizen-lawsuits-a46d8e3f20d0500175fe2ee981998323",
+      "publisher": "AP News",
+      "published_at": "2026-08-08T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI LLC v. Ellison",
+      "link": "https://libertyjusticecenter.org/amicus/xai-llc-v-ellison/",
+      "publisher": "Liberty Justice Center",
+      "published_at": "2026-08-07T13:43:54.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Imagine Image 2.0",
+      "link": "https://x.ai/news/grok-imagine-image-2",
+      "publisher": "xAI",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI’s neocloud pivot eats up 82.7% of SpaceX capex",
+      "link": "https://pitchbook.com/news/articles/xais-neocloud-pivot-eats-up-82-7-of-spacex-capex",
+      "publisher": "PitchBook",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Minnesota's nudification ban takes effect after judge rejects xAI's bid to pause it",
+      "link": "https://mashable.com/tech/judge-rejects-xai-request-to-pause-nudification-ban",
+      "publisher": "Mashable",
+      "published_at": "2026-08-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Imagine Video 1.5 with References",
+      "link": "https://x.ai/news/grok-imagine-video-1-5-references",
+      "publisher": "xAI",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Judge denies bid by Musk's xAI to block Minnesota nudification ban",
+      "link": "https://www.upi.com/Top_News/US/2026/07/31/musk-minnesota-nudification/9951785534510/",
+      "publisher": "upi.com",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI announces fourth data center; turbines to be removed from Southaven site",
+      "link": "https://www.actionnews5.com/2026/07/31/xai-announces-fourth-data-center-turbines-be-removed-southaven-site/",
+      "publisher": "Action News 5",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "San Jose judge blocks xAI bid to name Grok deepfake plaintiffs, citing threat of more abuse",
+      "link": "https://www.mercurynews.com/2026/07/31/san-jose-judge-xai-bid-name-anonymous-victims-grok-nudification-app/",
+      "publisher": "The Mercury News",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Whitehaven blindsided by newly revealed xAI data center | News",
+      "link": "https://www.fox13memphis.com/news/whitehaven-blindsided-by-newly-revealed-xai-data-center/article_b854f00b-d6b5-4feb-b2bf-88e2f9726d4d.html",
+      "publisher": "FOX13 Memphis",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "UK lawmaker suing Musk’s xAI to stop Grok generating sexualized images",
+      "link": "https://www.jurist.org/news/2026/07/uk-lawmaker-suing-musks-xai-seeks-order-to-stop-grok-generating-sexualised-images/",
+      "publisher": "Jurist.org",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's xAI sues Minnesota over its first-in-the-nation law banning 'nudification' technology",
+      "link": "https://apnews.com/article/minnesota-artificial-intelligence-nudification-x-elon-musk-deepfake-131184be939d540de093b567b12c9e16",
+      "publisher": "AP News",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Elon Musk's xAI sues Minnesota over law to ban 'nudify' apps",
+      "link": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's xAI sues to stop Minnesota law banning nudification technology",
+      "link": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+      "publisher": "CBS News",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Labour MP suing Elon Musk’s xAI says chatbot added own fake abusive content",
+      "link": "https://www.theguardian.com/technology/2026/jul/28/jess-asato-labour-mp-sue-elon-musk-xai-chatbot-abusive-content",
+      "publisher": "The Guardian",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Arkansas family sues xAI, alleging Grok used to create CSAM of their daughter",
+      "link": "https://www.nwahomepage.com/news/state-news/arkansas-family-sues-xai-alleging-grok-used-to-create-csam-of-their-daughter/",
+      "publisher": "nwahomepage.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "UK lawmaker suing Musk's xAI seeks order to stop Grok generating sexualised images",
+      "link": "https://www.reuters.com/legal/government/uk-lawmaker-suing-musks-xai-seeks-order-stop-grok-generating-sexualised-images-2026-07-28/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Residents voice concerns over xAI data centers at NAACP town hall",
+      "link": "https://wreg.com/news/naacp-hosts-town-hall-on-xai-data-center-concerns-in-southaven/",
+      "publisher": "WREG.com",
+      "published_at": "2026-07-25T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Arkansas family sues xAI over use of Grok to create deepfake child sex abuse material",
+      "link": "https://katv.com/news/local/arkansas-family-sues-xai-over-use-of-grok-to-create-deepfake-child-sex-abuse-material",
+      "publisher": "KATV",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Potts Law Firm Files Lawsuit Against xAI Following Alleged Creation of AI-Generated Child Sexual Abuse Material",
+      "link": "https://www.prnewswire.com/news-releases/potts-law-firm-files-lawsuit-against-xai-following-alleged-creation-of-ai-generated-child-sexual-abuse-material-302833698.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "What Data Was Your AI Trained On? xAI Doesn't Want You To Know",
+      "link": "https://techpolicy.press/what-data-was-your-ai-trained-on-xai-doesnt-want-you-to-know",
+      "publisher": "Tech Policy Press",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Boxtown residents react to $3M xAI tax revenue reinvestment proposal",
+      "link": "https://www.actionnews5.com/2026/07/22/boxtown-residents-react-3m-xai-tax-revenue-reinvestment-proposal/",
+      "publisher": "Action News 5",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's xAI, Which is Being Sued Over AI-Generated Sexual Deepfakes, Sues Grok User Over AI-Generated Sexual Deepfakes",
+      "link": "https://futurism.com/artificial-intelligence/elon-musk-xai-sues-grok-user-deepfakes",
+      "publisher": "Futurism",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Grok 4.6 Confirmed: What We Know From the xAI Roadmap",
+      "link": "https://www.basenor.com/blogs/news/grok-4-6-confirmed-what-we-know-from-the-xai-roadmap",
+      "publisher": "basenor.com",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Musk’s xAI sues man accused of using Grok to create explicit material",
+      "link": "https://thehill.com/policy/technology/5971425-musk-xai-sues-over-grok-misuse/",
+      "publisher": "The Hill",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Musk’s xAI sues user who allegedly used Grok to create child sexual abuse material",
+      "link": "https://www.theguardian.com/technology/2026/jul/16/elon-musk-xai-sue-user-grok-csam",
+      "publisher": "The Guardian",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Mississippi homeowners blame a noisy data center plant for sleepless nights. The mayor's advice? \"Consider selling.\"",
+      "link": "https://www.cbsnews.com/news/mississippi-elon-musk-xai-data-center-power-plant-noise/",
+      "publisher": "CBS News",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's SpaceX Merged With xAI. Here Is How They Plan to Dominate With Orbital Data Centers.",
+      "link": "https://www.fool.com/investing/2026/07/16/elon-musk-spacex-merge-xai-orbital-data-center/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's SpaceX Merged With xAI. Here Is How They Plan to Dominate With Orbital Data Centers.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/elon-musks-spacex-merged-xai-160500274.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Identity Crisis at Elon Musk’s Chaotic AI Outfit",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-16/spacexai-identity-crisis-at-elon-musk-s-chatbot-company",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "publisher": "The Verge",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk’s xAI sues user over allegedly creating child sexual abuse materials with Grok | CNN Business",
+      "link": "https://www.cnn.com/2026/07/15/business/xai-sues-user-alleged-child-sexual-abuse-materials",
+      "publisher": "CNN",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI sues user for exploiting AI tool to sexualise minors",
+      "link": "https://www.aljazeera.com/economy/2026/7/15/xai-sues-user-for-exploiting-ai-tool-to-sexualise-minors",
+      "publisher": "Al Jazeera",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
+      "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+      "publisher": "The Hacker News",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Grok Build was uploading entire Git repositories to xAI’s cloud, including committed secrets",
+      "link": "https://thenextweb.com/news/grok-build-uploaded-entire-git-repositories-secrets",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "OpenAI Seeks $1 Million From Musk's xAI Over Dismissed Trade Secret Lawsuit",
+      "link": "https://www.ndtv.com/world-news/openai-seeks-1-million-from-elon-musks-xai-over-dismissed-trade-secret-lawsuit-11768001",
+      "publisher": "NDTV",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Pollution from Musk’s unpermitted xAI power project hits hardest in Black communities",
+      "link": "https://www.reuters.com/world/americas/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "OpenAI’s Feud With xAI Carries On as Apple Secrets Fight Revs Up",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-feud-with-xai-carries-on-as-apple-secrets-fight-revs-up",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "AI models could soon get cheaper as OpenAI, Meta, and xAI enter a new price war",
+      "link": "https://www.tweaktown.com/news/112602/ai-models-could-soon-get-cheaper-as-openai-meta-and-xai-enter-a-new-price-war/index.html",
+      "publisher": "TweakTown",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Fear and faith inside Elon Musk’s AI startup",
+      "link": "https://sfstandard.com/2026/07/09/xai-former-employee-interview-elon-musk-spacex/",
+      "publisher": "The San Francisco Standard",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "EPA joins DOJ’s legal defense of Musk’s xAI",
+      "link": "https://www.eenews.net/articles/epa-joins-dojs-legal-defense-of-musks-xai/",
+      "publisher": "E&E News by POLITICO",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "SpaceXAI launches Grok 4.5 model for coding, agentic tasks",
+      "link": "https://www.reuters.com/business/media-telecom/spacexai-launches-grok-45-model-coding-agentic-tasks-2026-07-08/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "xAI Releases No-Code Voice Agent Builder",
+      "link": "https://slator.com/xai-releases-no-code-voice-agent-builder/",
+      "publisher": "Slator",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI Is Now Officially Known As SpaceXAI",
+      "link": "https://www.engadget.com/2209300/xai-now-officially-spacexai/",
+      "publisher": "Engadget",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Deepfake CSAM lawsuit against xAI, Grok expands",
+      "link": "https://cyberscoop.com/deepfake-csam-lawsuit-grok-xai-expands-stability-ai/",
+      "publisher": "CyberScoop",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI is rebranded to SpaceXAI to Become a Neocloud",
+      "link": "https://www.trendingtopics.eu/xai-is-rebranded-to-spacexai-to-become-a-neocloud/",
+      "publisher": "trendingtopics.eu",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Three Charts Show How xAI, Meta and Anthropic Are Entering Each Other’s Turf",
+      "link": "https://www.theinformation.com/newsletters/ai-agenda/three-charts-show-xai-meta-anthropic-entering-others-turf",
+      "publisher": "The Information",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "SpaceXAI Is Now Official: xAI Absorbed Into SpaceX",
+      "link": "https://www.basenor.com/blogs/news/spacexai-is-now-official-xai-absorbed-into-spacex",
+      "publisher": "basenor.com",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "XAI makes its rebrand to SpaceXAI complete with a new logo",
+      "link": "https://www.businessinsider.com/xai-rebrand-spacexai-new-logo-x-handle-spacex-2026-7",
+      "publisher": "Business Insider",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Elon Musk's xAI Rebrands As SpaceXAI, Drops New Logo As It Fully Merges Into SpaceX",
+      "link": "https://finance.yahoo.com/technology/ai/articles/spacexai-drops-logo-xai-fully-212612095.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "xAI officially becomes SpaceXAI, five months after merger",
+      "link": "https://www.techzine.eu/news/applications/142728/xai-officially-becomes-spacexai-five-months-after-merger/",
+      "publisher": "Techzine Global",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "DOJ Defends xAI in Lawsuit Over Memphis Power Plant",
+      "link": "https://wordinblack.com/2026/07/doj-defends-xai-in-lawsuit-over-memphis-power-plant/",
+      "publisher": "Word In Black",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "SpaceX shows investors a slim AI smartphone prototype powered by xAI technology",
+      "link": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
+      "publisher": "the-decoder.com",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

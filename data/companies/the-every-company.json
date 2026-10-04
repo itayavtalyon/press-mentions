@@ -1,0 +1,95 @@
+{
+  "name": "The EVERY Company",
+  "last_mentioned_at": "2026-08-21T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Rumors are swirling about 'lab-grown' eggs being sold in the US. Here's what to know",
+      "link": "https://www.snopes.com/fact-check/lab-grown-us-eggs/",
+      "publisher": "Snopes",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "The Egg Without A Chicken: What Shoppers Need To Know",
+      "link": "https://dallasexpress.com/national/the-egg-without-a-chicken-what-shoppers-need-to-know/",
+      "publisher": "Dallas Express",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A new protein contender emerges as whey prices surge",
+      "link": "https://www.bakeryandsnacks.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/",
+      "publisher": "bakeryandsnacks.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "ADM partners with The Every Company for precision-fermented egg protein scale up in US",
+      "link": "https://www.foodingredientsfirst.com/news/adm-every-scale-fermented-egg-protein.html",
+      "publisher": "Food Ingredients First",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "ADM and The Every Company team up to scale precision-fermented egg protein",
+      "link": "https://www.foodbev.com/news/adm-and-the-every-company-team-up-to-scale-animal-free-egg-protein",
+      "publisher": "foodbev.com",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EVERY Company’s OvoPro Starts to Scale with ADM Partnership",
+      "link": "https://www.nosh.com/news/2026/every-companys-ovopro-starts-to-scale-with-adm-partnership/",
+      "publisher": "Nosh.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "ADM to Manufacture EVERY’s Fermented Egg Protein at Iowa Corn Complex",
+      "link": "https://cultivated-x.com/company-news/adm-manufacture-everys-fermented-egg-protein-iowa-corn-complex/",
+      "publisher": "cultivated-x.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Every Company Taps ADM to Produce Animal-Free Egg Protein at Commercial Scale in US",
+      "link": "https://www.greenqueen.com.hk/the-every-company-adm-precision-fermentation-egg-protein-clinton-facility/",
+      "publisher": "Green Queen Media",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "ADM and EVERY partner to scale up egg white protein production",
+      "link": "https://www.feedstuffs.com/agribusiness-news/adm-and-every-partner-to-scale-up-egg-white-protein-production",
+      "publisher": "Feedstuffs",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Animal-free egg white production begins at an ADM plant in Iowa",
+      "link": "https://www.foodnavigator.com/Article/2026/07/14/the-every-company-partners-with-adm-to-scale-ovopro-protein-supply-chain/",
+      "publisher": "FoodNavigator.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Every Company CEO on cracking the scale challenge for animal-free egg protein",
+      "link": "https://www.foodingredientsfirst.com/news/every-ovopro-egg-replacement-fermentation.html",
+      "publisher": "Food Ingredients First",
+      "published_at": "2026-07-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

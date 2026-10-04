@@ -1,0 +1,183 @@
+{
+  "name": "Classiq",
+  "last_mentioned_at": "2026-10-01T14:19:15.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Classiq представила инструмент для адаптации квантовых программ под реальное оборудование",
+      "link": "https://cryptorank.io/news/feed/2b321-classiq-predstavila-instrument-dlya-adaptatsii-kvantovyh-programm-pod-realnoe-oborudovanie",
+      "publisher": "CryptoRank",
+      "published_at": "2026-09-30T16:00:22.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Classiq Unveils Engine to Plan Fault-Tolerant Quantum Workloads",
+      "link": "https://www.hpcwire.com/off-the-wire/classiq-unveils-engine-to-plan-fault-tolerant-quantum-workloads/",
+      "publisher": "HPCwire",
+      "published_at": "2026-09-30T14:36:59.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Classiq Unveils Tool for Adapting Quantum Programs to Real Hardware",
+      "link": "https://forklog.com/en/classiq-unveils-tool-for-adapting-quantum-programs-to-real-hardware/",
+      "publisher": "ForkLog",
+      "published_at": "2026-09-30T13:06:53.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq Has Unveiled A Fault Tolerance Engine",
+      "link": "https://quantumzeitgeist.com/classiq-has-unveiled-a-fault-tolerance-engine/",
+      "publisher": "Quantum Zeitgeist",
+      "published_at": "2026-09-30T12:23:52.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq Introduces Fault Tolerance Engine for Quantum Applications",
+      "link": "https://thequantuminsider.com/2026/09/30/classiq-fault-tolerance-engine-quantum-applications-hardware/",
+      "publisher": "The Quantum Insider",
+      "published_at": "2026-09-30T12:10:23.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq Designs Circuits To Track Auxiliary Qubit Return To Zero",
+      "link": "https://quantumzeitgeist.com/circuits-track-auxiliary-qubit-classiq/",
+      "publisher": "Quantum Zeitgeist",
+      "published_at": "2026-09-24T22:56:59.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq And Partners Test Quantum Solutions For Gas Networks",
+      "link": "https://quantumzeitgeist.com/classiq-partnership-quantum-test-solutions/",
+      "publisher": "Quantum Zeitgeist",
+      "published_at": "2026-09-24T09:08:38.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq, Israel Natural Gas Lines and IonQ Advance Quantum Optimization for Natural Gas Networks",
+      "link": "https://www.globenewswire.com/news-release/2026/09/23/3367355/0/en/classiq-israel-natural-gas-lines-and-ionq-advance-quantum-optimization-for-natural-gas-networks.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq is trying to make quantum programming look less like quantum programming",
+      "link": "https://www.ynetnews.com/tech-and-digital/article/hjw11nzvlzx",
+      "publisher": "Ynetnews",
+      "published_at": "2026-09-22T11:23:46.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Scientek and Classiq Partner to Accelerate Quantum Software Adoption in Taiwan",
+      "link": "https://www.manilatimes.net/2026/09/03/tmt-newswire/globenewswire/scientek-and-classiq-partner-to-accelerate-quantum-software-adoption-in-taiwan/2417558",
+      "publisher": "The Manila Times",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Chemical Firms In Taiwan To Test Classiq’s Quantum Software",
+      "link": "https://quantumzeitgeist.com/classiqs-quantum-software-chemical-firms/",
+      "publisher": "Quantum Zeitgeist",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Kensho and Classiq Partner to Expand Access to Quantum Software in Taiwan",
+      "link": "https://www.globenewswire.com/news-release/2026/09/03/3355598/0/en/kensho-and-classiq-partner-to-expand-access-to-quantum-software-in-taiwan.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Quantum Option Pricing on OCI A100s: 28 to 32 Qubit Benchmarks with Classiq and CUDA-Q",
+      "link": "https://blogs.oracle.com/cloud-infrastructure/quantum-option-pricing-on-oci-a100s",
+      "publisher": "Oracle Blogs",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq and ParityQC Partner to Optimize and Streamline Quantum Execution",
+      "link": "https://www.hpcwire.com/off-the-wire/classiq-and-parityqc-partner-to-optimize-and-streamline-quantum-execution/",
+      "publisher": "HPCwire",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Classiq and ParityQC Partner to Streamline Hardware-Aware Circuit Optimization",
+      "link": "https://quantumcomputingreport.com/classiq-and-parityqc-partner-to-streamline-hardware-aware-circuit-optimization/",
+      "publisher": "Quantum Computing Report",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israeli Quantum Startups Eye Wall Street as SPAC Interest Accelerates",
+      "link": "https://thequantuminsider.com/2026/07/13/israeli-quantum-startups-eye-wall-street-as-spac-interest-accelerates/",
+      "publisher": "The Quantum Insider",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Two Israeli quantum startups target Wall Street in multibillion-dollar SPAC deals",
+      "link": "https://www.calcalistech.com/ctechnews/article/skxrd9l4zx",
+      "publisher": "calcalistech.com",
+      "published_at": "2026-07-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israeli quantum startups Quantum Art and Classiq eye Wall Street via SPAC mergers at up to $5 billion each",
+      "link": "https://cryptobriefing.com/quantum-art-classiq-spac-mergers-wall-street/",
+      "publisher": "Crypto Briefing",
+      "published_at": "2026-07-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Alfred University and Classiq launch quantum computing initiative",
+      "link": "https://www.alfred.edu/about/news/pressreleases/general/2026/alfred-university-and-classiq-launch-quantum-computing-initiative.cfm",
+      "publisher": "Alfred University",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq, QAI team up to launch Korea's first local quantum cloud service",
+      "link": "https://www.koreaherald.com/article/10796226",
+      "publisher": "The Korea Herald",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Classiq, QAI sign partnership to launch Korea's 1st quantum cloud service",
+      "link": "https://www.koreatimes.co.kr/business/companies/20260702/classiq-qai-sign-partnership-to-launch-koreas-1st-quantum-cloud-service",
+      "publisher": "The Korea Times",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Classiq and QAI Launch Sovereign Quantum-as-a-Service Offering for South Korean Enterprise Market",
+      "link": "https://quantumcomputingreport.com/classiq-and-qai-launch-sovereign-quantum-as-a-service-offering-for-south-korean-enterprise-market/",
+      "publisher": "Quantum Computing Report",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

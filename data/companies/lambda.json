@@ -1,0 +1,279 @@
+{
+  "name": "Lambda (lambda.ai)",
+  "last_mentioned_at": "2026-10-02T01:17:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Lambda plans data center in Oklahoma",
+      "link": "https://www.datacenterdynamics.com/en/news/lambda-plans-data-center-in-oklahoma/",
+      "publisher": "datacenterdynamics.com",
+      "published_at": "2026-09-29T11:01:57.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "AI cloud company plans data center in Mayes County",
+      "link": "https://okcfox.com/news/local/ai-cloud-company-plans-data-center-in-mayes-county",
+      "publisher": "KOKH",
+      "published_at": "2026-09-28T00:52:52.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia backs AI power efficiency push with new deals",
+      "link": "http://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/nvidia-backs-ai-power-efficiency-push-with-new-deals/134346742",
+      "publisher": "ET Datacenters",
+      "published_at": "2026-09-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "7 best RunPod alternatives for GPU workloads in 2026",
+      "link": "https://www.hostinger.com/ng/tutorials/runpod-alternatives/",
+      "publisher": "Hostinger",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's DSX Technology Boosts AI Data Center Output 24% on Same Power Budget",
+      "link": "https://finance.biggo.com/news/a2142357-61b9-4f5a-b06f-bf5c338eafe8",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic’s $35B Deal Puts Nvidia at the Center of Everything",
+      "link": "https://www.gadgetreview.com/anthropics-35b-deal-puts-nvidia-at-the-center-of-everything",
+      "publisher": "Gadget Review",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic reportedly signs $35B AI cloud deal tied to Texas data center",
+      "link": "https://www.bicmagazine.com/departments/AI-Infrastructure/anthropic-signs-35b-ai-cloud-deal-tied-to-texas-data-center/",
+      "publisher": "BIC Magazine",
+      "published_at": "2026-09-01T15:03:12.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic signs $35 billion Lambda cloud deal: WSJ",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-35-billion-lambda-144113886.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic signs $35B computing deal with startup backed by Nvidia",
+      "link": "https://www.france24.com/en/live-news/20260901-anthropic-signs-35b-computing-deal-with-startup-backed-by-nvidia",
+      "publisher": "France 24",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, says report",
+      "link": "https://www.cnbctv18.com/business/anthropic-signs-35-billion-cloud-deal-with-nvidia-backed-lambda-says-report-19980942.htm",
+      "publisher": "CNBC TV18",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Reportedly Signs $35 Billion AI Compute Deal, Strikes Cloud Agreement With Nvidia-Backed Lambda",
+      "link": "https://www.tradingkey.com/analysis/stocks/us-stocks/262142760-anthropic-signs-35-billion-ai-computing-deal-nvda-backed-lambda-tradingkey",
+      "publisher": "TradingKey",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Inks $35 Billion Cloud Pact With Nvidia-Backed Lambda",
+      "link": "https://finance.biggo.com/news/7bb57d1c-6ac6-4541-8866-fa6b4adde3e0",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia-Backed Lambda Inks $1 Billion Private Debt for Chip Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-28/nvidia-backed-lambda-inks-1-billion-private-debt-for-chip-deal",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lambda Closes $926 Million Senior Secured Term Loan B Facility, Backing GPU Deployment for an Investment-Grade Customer",
+      "link": "https://finance.yahoo.com/technology/ai/articles/lambda-closes-926-million-senior-200000756.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia-Backed Lambda Eyes $3 Billion Raise at $12 Billion Valuation",
+      "link": "https://finance.biggo.com/news/1801a6e2-9b7d-4295-904b-5102b6b94a69",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lambda eyes $12B valuation with $3B pre-IPO raise as AI cloud race heats up",
+      "link": "https://techfundingnews.com/lambda-eyes-12b-valuation-with-3b-pre-ipo-raise-as-ai-cloud-race-heats-up/",
+      "publisher": "Tech Funding News",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "AI Cloud Provider Lambda in Talks for $3 Billion Pre-IPO Round",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-24/ai-cloud-provider-lambda-in-talks-for-3-billion-pre-ipo-round",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "The capital battle for AI computing power intensifies! NVIDIA-affiliated \"New Cloud\" player Lambda plans to raise $3 billion to bolster its computing infrastructure and prepare for an IPO.",
+      "link": "https://www.moomoo.com/news/post/75230630/the-capital-battle-for-ai-computing-power-intensifies-nvidia-affiliated",
+      "publisher": "moomoo.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Market Chatter: Lambda in Talks to Raise Up to $3 Billion Ahead of Possible IPO",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-lambda-talks-raise-000516948.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "When GPUs Become Collateral: The Reality and Blind Spots of the AI Capital Cycle Built by Nvidia and Wall Street",
+      "link": "https://finance.biggo.com/news/65f37505-1a64-410a-81fd-6b6dbb99090e",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "RunPod vs Lambda vs Vast.ai: GPU Pricing 2026",
+      "link": "https://tech-insider.org/runpod-vs-lambda-vs-vast-ai-2026/",
+      "publisher": "tech-insider.org",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lambda raises $926m senior secured loan facility",
+      "link": "https://www.datacenterdynamics.com/en/news/lambda-raises-926m-senior-secured-loan-facility/",
+      "publisher": "datacenterdynamics.com",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Top 10: NeoClouds",
+      "link": "https://datacentremagazine.com/top10/top-10-neoclouds",
+      "publisher": "datacentremagazine.com",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Lambda Prices $926 Million Senior Secured Term Loan B Facility, the First Investment-Grade-Rated Term Loan B Financing by a Private Neocloud",
+      "link": "https://www.businesswire.com/news/home/20260812748390/en/Lambda-Prices-%24926-Million-Senior-Secured-Term-Loan-B-Facility-the-First-Investment-Grade-Rated-Term-Loan-B-Financing-by-a-Private-Neocloud",
+      "publisher": "Business Wire",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "AI Cloud Provider Lambda Prices Loan for Nvidia-Tied Chip Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/ai-cloud-provider-lambda-prices-loan-for-nvidia-tied-chip-deal",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lambda sells leveraged loan to finance chip deal amid AI boom",
+      "link": "https://cryptobriefing.com/lambda-leveraged-loan-chip-deal-ai/",
+      "publisher": "Crypto Briefing",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lambda is borrowing $917m to buy chips from its investor",
+      "link": "https://thenextweb.com/news/lambda-917-million-gpu-leveraged-loan-nvidia-morgan-stanley",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lambda Raises $917M Backed by Nvidia GPUs",
+      "link": "https://www.briefs.co/news/lambda-raises-917-million-to-expand-its-nvidia-powered-ai-cl/",
+      "publisher": "Briefs Finance",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI Cloud Provider Lambda Taps Loans for Nvidia-Tied Chip Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-10/ai-cloud-provider-lambda-taps-loans-for-nvidia-tied-chip-deal",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia-Backed Neocloud Firms Explore India Capacity For AI Inference Workloads",
+      "link": "https://www.cxodigitalpulse.com/nvidia-backed-neocloud-firms-explore-india-capacity-for-ai-inference-workloads/",
+      "publisher": "CXO Digitalpulse",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Has Quietly Become the Bank Behind the AI Boom",
+      "link": "https://startupfortune.com/nvidia-has-quietly-become-the-bank-behind-the-ai-boom/",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-07-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stephen Balaban, Lambda",
+      "link": "https://www.investmentreports.co/interview/stephen-balaban-2411",
+      "publisher": "Investment Reports",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Meta is building a cloud business to sell excess compute capacity",
+      "link": "https://www.fierce-network.com/cloud/metas-cloud-play-may-hinge-bare-metal-not-winning-full-stack-fight",
+      "publisher": "Fierce Network",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "name": "Klook",
+  "last_mentioned_at": "2026-10-01T04:07:03.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "ZAWYA: WiT Singapore 2026 opens with global travel leaders",
+      "link": "https://www.tradingview.com/news/reuters.com,2026-09-30:newsml_Zaw9V10LY:0-zawya-wit-singapore-2026-opens-with-global-travel-leaders/",
+      "publisher": "TradingView",
+      "published_at": "2026-09-30T11:27:55.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Foreign tourists get free Shinkansen tickets in Japan, and here’s how to claim them",
+      "link": "https://soranews24.com/2026/09/30/foreign-tourists-get-free-shinkansen-tickets-in-japan-and-heres-how-to-claim-them/",
+      "publisher": "SoraNews24",
+      "published_at": "2026-09-30T01:00:02.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Cloudbeds connects with Klook for hotel distribution",
+      "link": "https://www.ttgasia.com/2026/09/29/cloudbeds-connects-with-klook-for-hotel-distribution/",
+      "publisher": "TTG Asia",
+      "published_at": "2026-09-29T04:59:25.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Escape The Concrete Jungle And Unwind At These 5 Green Hotels In Malaysia",
+      "link": "https://says.com/my/shopping/travel/5-green-hotels-in-malaysia",
+      "publisher": "says.com",
+      "published_at": "2026-09-29T01:26:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cloudbeds and Klook integrate to expand hotel distribution across Asia Pacific",
+      "link": "https://www.traveldailynews.asia/technology/hotel-distribution-asia-pacific-cloudbeds-klook/",
+      "publisher": "Travel Daily News Asia-Pacific",
+      "published_at": "2026-09-28T17:14:15.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Cloudbeds and Klook enhance hotel distribution in Asia Pacific",
+      "link": "https://www.traveldailymedia.com/cloudbeds-and-klook-enhance-hotel-distribution-in-asia-pacific/",
+      "publisher": "Travel Daily Media",
+      "published_at": "2026-09-27T23:02:49.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook And Visa Team Up To Make Experience-Led Travel Easier Across Southeast Asia",
+      "link": "https://hype.my/klook-and-visa-team-up-to-make-experience-led-travel-easier-across-southeast-asia/",
+      "publisher": "hype.my",
+      "published_at": "2026-09-27T04:00:44.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook and Kagoshima Prefecture Launch Free Shinkansen Campaign for International Travelers",
+      "link": "https://en.antaranews.com/news/432907/klook-and-kagoshima-prefecture-launch-free-shinkansen-campaign-for-international-travelers",
+      "publisher": "ANTARA News",
+      "published_at": "2026-09-25T14:34:34.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Cloudbeds goes beyond normal distribution opportunities for hoteliers with new expanded Klook partnership",
+      "link": "https://www.travolution.com/news/travel-sectors/accommodation/cloudbeds-goes-beyond-normal-distribution-opportunities-for-hoteliers-with-new-expanded-klook-partnership/",
+      "publisher": "Travolution",
+      "published_at": "2026-09-25T11:28:08.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "India travel rebound. Trip.Biz AI launch. Cloudbeds-Klook partnership. Japan tourism MOU. F1 hotel surge.",
+      "link": "https://www.webintravel.com/india-travel-rebound-trip-biz-ai-launch-cloudbeds-klook-partnership-japan-tourism-mou-f1-hotel-surge/",
+      "publisher": "webintravel.com",
+      "published_at": "2026-09-25T07:16:04.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook CEO on scaling through travel shocks",
+      "link": "https://www.techinasia.com/klook-ceo-on-scaling-through-travel-shocks",
+      "publisher": "techinasia.com",
+      "published_at": "2026-09-25T00:30:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Can Visa's Klook Deal Expand Its Travel Ecosystem in Southeast Asia?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visas-klook-deal-expand-travel-140600003.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-24T14:06:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cloudbeds and Klook Expand Distribution Opportunities for Hotels Across Asia Pacific",
+      "link": "https://www.hospitalitynet.org/news/4134548/cloudbeds-and-klook-expand-distribution-opportunities-for-hotels-across-asia-pacific",
+      "publisher": "Hospitality Net",
+      "published_at": "2026-09-24T08:12:37.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook, Visa partner across six Southeast Asian markets on travel experiences",
+      "link": "https://technode.global/2026/09/24/klook-visa-six-sea-markets-travel-experiences/",
+      "publisher": "TNGlobal",
+      "published_at": "2026-09-24T04:20:53.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook and Visa Team Up on Travel Offers Across Southeast Asia",
+      "link": "https://fintechnews.sg/137691/payments/klook-visa-partnership-southeast-asia/",
+      "publisher": "Fintech Singapore",
+      "published_at": "2026-09-23T08:19:42.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook and Visa Partner Across Six Southeast Asian Markets to Support the Rise of Experience-Led Travel",
+      "link": "https://voiceofasean.com/newsroom/pr-lifestyle/klook-and-visa-partner-across-six-southeast-asian-markets-to-support-the-rise-of-experience-led-travel/",
+      "publisher": "Voice of ASIA",
+      "published_at": "2026-09-23T02:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Launches Exclusive Experience Packages for BTS WORLD TOUR ARIRANG in Singapore",
+      "link": "https://outoftownblog.com/klook-launches-exclusive-experience-packages-for-bts-world-tour-arirang-in-singapore/",
+      "publisher": "Out of Town Blog",
+      "published_at": "2026-09-22T08:32:51.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Promo: Free Shinkansen Fare From Fukuoka Airport To Kagoshima Prefecture",
+      "link": "https://www.littledayout.com/klook-promo-free-shinkansen-fare-from-fukuoka-airport-to-kagoshima/",
+      "publisher": "Little Day Out",
+      "published_at": "2026-09-22T07:09:25.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook and Visa Partner Across Six Southeast Asian Markets to Support the Rise of Experience-Led Travel",
+      "link": "https://finance.yahoo.com/media-advertising/articles/klook-visa-partner-across-six-020000614.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Klook Is Tackling Travel Decision Fatigue with Emoji-Fuelled Global Makeover",
+      "link": "https://lbbonline.com/news/how-klook-is-tackling-travel-decision-fatigue-with-emoji-fuelled-global-makeover",
+      "publisher": "LBB - Little Black Book",
+      "published_at": "2026-09-21T15:48:48.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "The number of Korean tourists visiting Japan is steadily increasing. According to statistics from th..",
+      "link": "https://www.mk.co.kr/en/culture/12157447",
+      "publisher": "매일경제",
+      "published_at": "2026-09-20T07:02:57.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook books The Park for inaugural Kreatorverse event",
+      "link": "https://www.conference-news.co.uk/news/klook-books-the-park-for-inaugural-kreatorverse-event/",
+      "publisher": "conference-news.co.uk",
+      "published_at": "2026-09-17T14:26:27.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A Studio Ghibli-Themed Exhibition Is Coming To GBTB In December, Pre-Sale Tickets Are Now Available",
+      "link": "https://thesmartlocal.com/read/the-story-of-studio-ghibli-singapore/",
+      "publisher": "TheSmartLocal",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Thinking Of Visiting Korea This Year? Here Are More Places To Explore Beyond Seoul",
+      "link": "https://says.com/my/lifestyle/travel-to-korea-with-klook-and-save-up-to-rm100",
+      "publisher": "says.com",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Story of Studio Ghibli to make world premiere in Singapore, tickets now on sale, Lifestyle News",
+      "link": "https://www.asiaone.com/lifestyle/the-story-of-studio-ghibli-singapore-world-premiere-gardens-by-the-bay-west-lawn",
+      "publisher": "AsiaOne",
+      "published_at": "2026-09-12T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AI solves overtourism’s ‘concentration problem’ by helping people find hidden gems, says Klook cofounder Ethan Lin",
+      "link": "https://fortune.com/2026/09/11/ai-overtourism-asia-travel-experiences/",
+      "publisher": "fortune.com",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "KLOOK Revenue 2024: $417.1M ARR, $1.4B Valuation",
+      "link": "https://getlatka.com/companies/klook",
+      "publisher": "GetLatka",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Best 9.9 travel deals: 50% off Japan and South Korea flights, $39 JB hotel stays and more",
+      "link": "https://www.straitstimes.com/life/travel/best-9-9-travel-deals-50-off-japan-and-south-korea-flights-39-jb-hotel-stays-and-more",
+      "publisher": "The Straits Times",
+      "published_at": "2026-09-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "From 9.9 to 11.11: How double-digit sales are changing the way Singaporeans book trips",
+      "link": "https://www.straitstimes.com/life/travel/from-9-9-to-11-11-how-double-digit-sales-are-changing-the-way-singaporeans-book-travel",
+      "publisher": "The Straits Times",
+      "published_at": "2026-09-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DOT, Klook renew tourism pact to boost local travel",
+      "link": "https://www.manilatimes.net/2026/09/05/entertainment-lifestyle/life-times/dot-klook-renew-tourism-pact-to-boost-local-travel/2418843",
+      "publisher": "The Manila Times",
+      "published_at": "2026-09-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Opens Single-Link Creator Storefront To Full Network Of 30,000 Travel Creators",
+      "link": "https://www.netinfluencer.com/klook-opens-single-link-creator-storefront-to-full-network-of-30000-travel-creators/",
+      "publisher": "Net Influencer",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DOT, Klook renew MOU to ignite domestic travel and take PHL tourism global",
+      "link": "https://businessmirror.com.ph/2026/09/04/dot-klook-renew-mou-to-ignite-domestic-travel-and-take-philippine-tourism-global/",
+      "publisher": "BusinessMirror",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook expects Filipinos to keep traveling this holiday season despite inflation",
+      "link": "https://manilastandard.net/?p=314786856",
+      "publisher": "Manila Standard",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Mastercard and Klook Launch Deals for Pacific Bound US Travelers",
+      "link": "https://www.aol.com/articles/mastercard-klook-launch-deals-pacific-143300000.html",
+      "publisher": "AOL.com",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook sees Filipinos’ holiday travel holding up",
+      "link": "https://business.inquirer.net/608939/klook-sees-filipinos-holiday-travel-holding-up",
+      "publisher": "Inquirer.net",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook and Mastercard collaborate to enhance travelers experiences across Asia Pacific",
+      "link": "https://en.antaranews.com/news/429655/klook-and-mastercard-collaborate-to-enhance-travelers-experiences-across-asia-pacific",
+      "publisher": "ANTARA News",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Takes Creator Commerce Beyond Influence With Kreator Shops",
+      "link": "https://www.chinadailyhk.com/hk/article/638977",
+      "publisher": "chinadailyhk",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DOT and Klook renew MOU to ignite domestic travel and take Philippine tourism global",
+      "link": "https://pia.gov.ph/press-release/dot-and-klook-renew-mou-to-ignite-domestic-travel-and-take-philippine-tourism-global/",
+      "publisher": "Philippine Information Agency",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook and Mastercard collaborate to enhance travelers' experiences across Asia Pacific",
+      "link": "https://www.aninews.in/news/business/klook-and-mastercard-collaborate-to-enhance-travelers-experiences-across-asia-pacific20260827104812",
+      "publisher": "ANI News",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Can Klook Help Mastercard Capture More APAC Travel Spending?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/klook-help-mastercard-capture-more-153300037.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "S’poreans can gift migrant workers local experiences with Klook SG Culture Pass bookings in August",
+      "link": "https://mustsharenews.com/klook-sg-culture-pass-migrant-workers/",
+      "publisher": "mustsharenews.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook launches global search for world’s most underappreciated travelers: The travel planners",
+      "link": "https://businessmirror.com.ph/2026/08/20/klook-launches-global-search-for-worlds-most-underappreciated-travelers-the-travel-planners/",
+      "publisher": "BusinessMirror",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook offers five travel planners a free trip to Switzerland",
+      "link": "https://traveltomorrow.com/klook-offers-five-travel-planners-a-free-trip-to-switzerland/",
+      "publisher": "Travel Tomorrow",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook searches for the best travel planners",
+      "link": "https://travelmole.com/news/klook-pays-tribute-and-rewards-travels-unsung-planners",
+      "publisher": "TravelMole",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "You could win a spot on a VIP trip to Switzerland – here’s how to get involved",
+      "link": "https://www.timeout.com/news/klook-free-trip-to-switzerland-competition-081726",
+      "publisher": "Time Out Worldwide",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook, SingLand bring National Day fun to migrant workers",
+      "link": "https://www.businesstimes.com.sg/lifestyle/klook-singland-bring-national-day-fun-migrant-workers",
+      "publisher": "The Business Times",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook launches Global ‘Get Your Travel Right’ Campaign via BBH Singapore",
+      "link": "https://www.medianews4u.com/klook-launches-global-get-your-travel-right-campaign-via-bbh-singapore/",
+      "publisher": "MediaNews4U",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook launches ‘Get Your Travel Right’ global campaign with BBH Singapore",
+      "link": "https://marketech-apac.com/klook-launches-get-your-travel-right-global-campaign-with-bbh-singapore/",
+      "publisher": "marketech apac",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Taiwanese Traveller Stranded In S’pore After Bus Booking To JB Listed Different Pick-Up Points In English & Chinese",
+      "link": "https://www.8days.sg/entertainment/local/taiwanese-traveller-stranded-singapore-after-bus-booking-jb-different-pick-points-english-chinese-861921",
+      "publisher": "8days.sg",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook and HK Tramways serve up gourmet tram tour",
+      "link": "https://www.marketing-interactive.com/klook-and-hk-tramways-serve-up-gourmet-tram-tour",
+      "publisher": "Marketing-Interactive",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook launches new ‘Get Your Travel Right’ global campaign via BBH Singapore",
+      "link": "https://www.passionateinmarketing.com/klook-launches-new-get-your-travel-right-global-campaign-via-bbh-singapore/",
+      "publisher": "Passionate In Marketing",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Launches Global Search For The World's Most Underappreciated Travelers: The Travel Planners",
+      "link": "https://english.kyodonews.net/articles/-/82046",
+      "publisher": "Japan Wire by Kyodo News",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook launches new ‘Get Your Travel Right’ global campaign via BBH Singapore",
+      "link": "https://mediabrief.com/klook-launches-new-get-your-travel-right-campaign/",
+      "publisher": "MediaBrief",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "BBH Singapore puts travel planners at the centre",
+      "link": "https://marketingreport.one/creation/bbh-singapore-puts-travel-planners-at-the-centre.html",
+      "publisher": "marketingreport.one",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook unveils 'Get Your Travel Right' campaign with BBH Singapore",
+      "link": "http://www.mi-3.com.au/12-08-2026/klook-unveils-get-your-travel-right-campaign-bbh-singapore",
+      "publisher": "Mi-3.com.au.",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook says it’s time to give your designated travel planner a break",
+      "link": "https://www.marketing-interactive.com/klook-says-it-s-time-to-give-your-designated-travel-planner-a-break",
+      "publisher": "Marketing-Interactive",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Launches Global Search To Reward Five Travel Planners With An All-Expenses-Paid Trip To Switzerland",
+      "link": "https://hype.my/klook-launches-global-search-to-reward-five-travel-planners-with-an-all-expenses-paid-trip-to-switzerland/",
+      "publisher": "hype.my",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Travel planner of your friend group? You could win a free Swiss trip",
+      "link": "https://www.euronews.com/2026/08/12/are-you-the-travel-planner-of-the-group-you-could-win-a-free-trip-to-switzerland-itinerary",
+      "publisher": "Euronews.com",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Launches Global ‘Get Your Travel Right’ Platform via BBH Singapore",
+      "link": "https://www.brandinginasia.com/klook-launches-global-get-your-travel-right-platform-via-bbh-singapore/",
+      "publisher": "Branding in Asia",
+      "published_at": "2026-08-12T03:47:40.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Capital One offers 39x miles or 54.5% back on Klook today",
+      "link": "https://www.insideflyer.com/posts/capital-one-offers-39x-miles-or-54-5-back-on-klook-today/",
+      "publisher": "insideflyer.com",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Launches Global Search For The World's Most Underappreciated Travellers: The Travel Planners",
+      "link": "https://concreteplayground.com/sydney/promotion/klook-search-for-travel-planners-switzerland-holiday-giveaway",
+      "publisher": "Concrete Playground",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "(EXPIRED) Up to 39X miles / 54.5% back (maybe more) on Klook, today only via Capital One Shopping / Capital One Offers",
+      "link": "https://frequentmiler.com/up-to-39x-miles-54-5-back-maybe-more-on-klook-today-only-via-capital-one-shopping-capital-one-offers/",
+      "publisher": "Frequent Miler",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Travel planning is India's least appreciated group travel task, reveals Klook study",
+      "link": "http://travel.economictimes.indiatimes.com/news/research-and-statistics/klook-study-travel-planning-is-indias-least-appreciated-group-travel-task/133062061",
+      "publisher": "ET TravelWorld",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Is Dropping 1-For-1 Universal Studios Singapore And Singapore Oceanarium Tickets On 7 Aug 2026",
+      "link": "https://www.moneydigest.sg/klook-is-dropping-1-for-1-universal-studios-singapore-and-singapore-oceanarium-tickets-on-7-aug-2026/",
+      "publisher": "MoneyDigest",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "2 Bali tours fall through during S’porean couple’s honeymoon, Klook removes 1 operator from pl ...",
+      "link": "https://mustsharenews.com/bali-klook-tour-cancelled-honeymoon/",
+      "publisher": "mustsharenews.com",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Travel planning is India’s least-thanked task, finds Klook study",
+      "link": "https://mediabrief.com/travel-planning-is-indias-least-thanked-task-finds-klook-study/",
+      "publisher": "MediaBrief",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Vietnamese travel planners named most taken-for-granted people in every friend group: survey",
+      "link": "https://news.tuoitre.vn/vietnamese-travel-planners-named-most-taken-for-granted-people-in-every-friend-group-survey-103260804161742161.htm",
+      "publisher": "Tuoi Tre News | The News Gateway to Vietnam",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "M’sians Don’t Appreciate Their Friends Who Plan Entire Group Holidays Enough, Survey Finds",
+      "link": "https://says.com/my/lifestyle/travel-lifestyle/holiday-planners-appreciation-survey-klook",
+      "publisher": "says.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Your Group Travel Planner Needs A Raise (and a Nap), According to Klook",
+      "link": "https://www.lelezard.com/en/news-your-group-travel-planner-needs-a-raise-according-to-klook-22320572.html",
+      "publisher": "Lelezard",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Travel planning India's most underappreciated vacation task: Survey",
+      "link": "https://timesofindia.indiatimes.com/india/travel-planning-indias-most-underappreciated-vacation-task-survey/articleshow/132858787.cms",
+      "publisher": "The Times of India",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Brings Together India and Middle East Creators for Kreatorverse 2026 in Malaysia",
+      "link": "https://in.eventfaqs.com/2026/08/03/klook-brings-together-india-and-middle-east-creators-for-kreatorverse-2026-in-malaysia/",
+      "publisher": "EventFAQs",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook hosts Kreatorverse IN x ME 2026 to drive creator-led travel discovery",
+      "link": "https://mediabrief.com/klook-hosts-kreatorverse-in-x-me-2026/",
+      "publisher": "MediaBrief",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook Brings Together 50+ Travel Creators for Kreatorverse IN x ME 2026 in Malaysia",
+      "link": "https://in.eventfaqs.com/2026/07/30/klook-brings-together-50-travel-creators-for-kreatorverse-in-x-me-2026-in-malaysia/",
+      "publisher": "EventFAQs",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook puts migrant workers at the heart of National Day celebrations",
+      "link": "https://www.marketing-interactive.com/klook-puts-migrant-workers-at-the-heart-of-national-day-celebrations",
+      "publisher": "Marketing-Interactive",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook, KTO renew partnership to drive regional tourism in South Korea",
+      "link": "https://www.ttgasia.com/2026/07/22/klook-kto-renew-partnership-to-drive-regional-tourism-in-south-korea/",
+      "publisher": "TTG Asia",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "6 Best Travel Booking Sites in Singapore 2026: Live Promo Codes, Bank Card Stacks & Which One to Use for What",
+      "link": "https://www.misslobang.com/article/best-travel-booking-sites-singapore-2026",
+      "publisher": "misslobang.com",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "TASTE THE THRILL | Klook and Mountain Dew team up for Filipino ‘Foodvenchas’ in Pampanga, Cebu, and Cagayan de Oro",
+      "link": "https://businessmirror.com.ph/2026/07/17/taste-the-thrill-klook-and-mountain-dew-team-up-for-filipino-foodvenchas-in-pampanga-cebu-and-cagayan-de-oro/",
+      "publisher": "BusinessMirror",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook signs an expanded two-year partnership with Korea Tourism Organization",
+      "link": "https://english.kyodonews.net/articles/-/80106",
+      "publisher": "Japan Wire by Kyodo News",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PhocusWire's travel tech news briefs: Expedia Group, Apaleo, Klook and more...",
+      "link": "https://www.phocuswire.com/travel-tech-news-briefs/2026/july-17",
+      "publisher": "PhocusWire",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook renews partnership with Korea Tourism Organisation",
+      "link": "https://www.traveldailymedia.com/klook-renews-partnership-with-korea-tourism-organisation/",
+      "publisher": "Travel Daily Media",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Klook, Korea Tourism Organization renew partnership to boost regional tourism, AI innovation",
+      "link": "https://marketech-apac.com/klook-korea-tourism-organization-renew-partnership-to-boost-regional-tourism-ai-innovation/",
+      "publisher": "marketech apac",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook cofounder Ethan Lin thinks the U.S. can help grow one of Asia's largest travel platforms",
+      "link": "https://fortune.com/2026/07/15/klook-ethan-lin-us-asia-travel-tourism-ipo/",
+      "publisher": "fortune.com",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook introduces eight travel-themed ‘Summer OUTernship’ roles in latest HK campaign",
+      "link": "https://marketech-apac.com/klook-introduces-eight-travel-themed-summer-outernship-roles-in-latest-hk-campaign/",
+      "publisher": "marketech apac",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Singapore travellers are region’s most cost-conscious: Klook survey",
+      "link": "https://asianews.network/singapore-travellers-are-regions-most-cost-conscious-klook-survey/",
+      "publisher": "Asia News Network",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Travellers prioritise experiences despite rising costs: Klook",
+      "link": "https://www.ttgasia.com/2026/07/13/travellers-prioritise-experiences-despite-rising-costs-klook/",
+      "publisher": "TTG Asia",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Travel options constricted by war, thin budgets to domestic, regional destinations, Klook says",
+      "link": "https://bworldonline.com/economy/2026/07/12/767246/travel-options-constricted-by-war-thin-budgets-to-domestic-regional-destinations-klook-says/",
+      "publisher": "BusinessWorld",
+      "published_at": "2026-07-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Klook turns travel passions into playful 'job' roles this summer",
+      "link": "https://www.marketing-interactive.com/klook-turns-travel-passions-into-playful-job-roles-this-summer",
+      "publisher": "Marketing-Interactive",
+      "published_at": "2026-07-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "(EXPIRED) Capital One Shopping/Offers: Earn up to 40%/40X at Klook (32X miles for hotels & car rentals)",
+      "link": "https://frequentmiler.com/capital-one-shopping-offers-earn-up-to-40-40x-at-klook-32x-miles-for-hotels-car-rentals/",
+      "publisher": "Frequent Miler",
+      "published_at": "2026-07-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Taiwanese lead region in plans for second-half travel: survey",
+      "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/07/02/2003860121",
+      "publisher": "Taipei Times",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Taiwanese most willing travelers in Asia-Pacific as costs rise: Survey",
+      "link": "https://focustaiwan.tw/society/202607010021",
+      "publisher": "Focus Taiwan - CNA English News",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "3 Big Japan Travel Rule Changes for H2 2026: Departure Tax Triples (1 Jul), JR Pass Up (1 Oct) & Tax-Free Shopping Overhaul (1 Nov)",
+      "link": "https://www.misslobang.com/article/japan-new-travel-rules-departure-tax-jr-pass-tax-refund-2026",
+      "publisher": "misslobang.com",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

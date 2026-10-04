@@ -1,0 +1,39 @@
+{
+  "name": "People.ai",
+  "last_mentioned_at": "2026-09-30T15:01:01.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Backstory Included in Evaluation of B2B Revenue Platforms",
+      "link": "https://www.martechcube.com/backstory-included-in-evaluation-of-b2b-revenue-platforms/",
+      "publisher": "MarTech Cube",
+      "published_at": "2026-09-30T15:01:01.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Backstory Named a Major Player in the IDC MarketScape: Worldwide Unified Revenue Orchestration Platforms 2026 Vendor Assessment",
+      "link": "https://finance.yahoo.com/technology/ai/articles/backstory-named-major-player-idc-130000121.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Backstory Names Sam Branson Head of Partnerships to Accelerate Growth Through Strategic Alliances",
+      "link": "https://www.businesswire.com/news/home/20260901088116/en/Backstory-Names-Sam-Branson-Head-of-Partnerships-to-Accelerate-Growth-Through-Strategic-Alliances",
+      "publisher": "Business Wire",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Backstory Launches Situation Search, Helping Sales Teams Win More Deals by Learning From Their Own Past Wins",
+      "link": "https://www.businesswire.com/news/home/20260721254284/en/Backstory-Launches-Situation-Search-Helping-Sales-Teams-Win-More-Deals-by-Learning-From-Their-Own-Past-Wins",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "name": "Lemonade",
+  "last_mentioned_at": "2026-10-01T18:31:02.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Lemonade (LMND) Expands In Alaska And Kentucky As Fair Value Debate Builds",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade/news/lemonade-lmnd-expands-in-alaska-and-kentucky-as-fair-value-d",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-29T22:28:12.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Introduces Renters Insurance in Alaska",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-introduces-renters-insurance-alaska-142131681.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-29T14:21:31.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade launches affordable renters insurance in Alaska starting at $5/month",
+      "link": "https://pluang.com/en/news-feed/lemonade-perluas-asuransi-penghuni-ke-alaska",
+      "publisher": "Pluang",
+      "published_at": "2026-09-29T12:17:25.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Renters insurance in Alaska now starts at $5 a month from Lemonade.",
+      "link": "https://www.stocktitan.net/news/LMND/lemonade-expands-renters-insurance-to-co7tmwuq6bbh.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-29T12:07:46.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade Expands Renters Insurance to Alaska",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-expands-renters-insurance-to-alaska-302892344.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-29T12:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade, Inc. (LMND) Launches Renters Insurance in Alaska",
+      "link": "https://www.tradingview.com/news/tradingview:8a837e93e96b5:0-lemonade-inc-lmnd-launches-renters-insurance-in-alaska/",
+      "publisher": "TradingView",
+      "published_at": "2026-09-29T12:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The best pet insurance companies of October 2026",
+      "link": "https://www.cnbc.com/select/best-pet-insurance/",
+      "publisher": "CNBC",
+      "published_at": "2026-09-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (NYSE:LMND) - Stock Analysis",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade (LMND) Stock Still Looks Stretched After Kentucky Pet Insurance Launch",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-lmnd-stock-still-looks-201252765.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-25T20:12:52.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade expands pet insurance to Kentucky as care affordability challenges persist",
+      "link": "https://www.dvm360.com/view/lemonade-expands-pet-insurance-to-kentucky-as-affordability-challenges-persist",
+      "publisher": "DVM 360",
+      "published_at": "2026-09-24T18:21:16.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Investors Are Reacting To Lemonade (LMND) Kentucky Pet Insurance Launch",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade/news/how-investors-are-reacting-to-lemonade-lmnd-kentucky-pet-ins",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-23T08:37:46.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Cheapest Renters Insurance for 2026: Find Your Best Price",
+      "link": "https://www.nerdwallet.com/insurance/renters/cheap-renters-insurance",
+      "publisher": "NerdWallet",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Renters Insurance Review 2026: Coverage and Rates",
+      "link": "https://www.nerdwallet.com/insurance/renters/lemonade-renters-insurance-review",
+      "publisher": "NerdWallet",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade launches instant-claim pet insurance i...",
+      "link": "https://pluang.com/en/news-feed/lemonade-perluas-ekspansi-as-dengan-peluncuran-asuransi-hewan-piaraan-di",
+      "publisher": "Pluang",
+      "published_at": "2026-09-22T16:17:28.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade, Inc. (LMND) Expands Pet Insurance to Kentucky",
+      "link": "https://www.tradingview.com/news/tradingview:7ea352b2479f2:0-lemonade-inc-lmnd-expands-pet-insurance-to-kentucky/",
+      "publisher": "TradingView",
+      "published_at": "2026-09-22T16:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Continues U.S. Expansion With Launch of Pet Insurance in Kentucky",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-continues-us-expansion-with-launch-of-pet-insurance-in-kentucky-302886406.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Taps Ex-Via Legal Chief As Its New Top Lawyer",
+      "link": "https://www.law360.com/insurance-authority/articles/2527849/lemonade-taps-ex-via-legal-chief-as-its-new-top-lawyer",
+      "publisher": "Law360",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade to announce Q2 2026 financial results on July 29",
+      "link": "https://scanx.trade/stock-market-news/companies/lemonade-to-announce-q2-2026-financial-results-on-july-29/45794370",
+      "publisher": "scanx.trade",
+      "published_at": "2026-09-21T05:20:43.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Instinct shops renters insurance",
+      "link": "https://coverager.com/instinct-shops-renters-insurance/",
+      "publisher": "Coverager",
+      "published_at": "2026-09-20T17:09:17.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) Expands In Kentucky, Is The Stock Fully Valued?",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade/news/lemonade-lmnd-expands-in-kentucky-is-the-stock-fully-valued",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Targets First EBITDA-Positive Quarter as CFO Tim Bixby Transitions to Board",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-targets-first-ebitda-positive-100206723.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) Stock Could Be Above Fair Value On Sales Growth Hopes",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade/news/lemonade-lmnd-stock-could-be-above-fair-value-on-sales-growt",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade $10.5 Million Settlement Over License Number Data Breach Approved",
+      "link": "https://www.insurancejournal.com/news/east/2026/09/18/885548.htm",
+      "publisher": "Insurance Journal",
+      "published_at": "2026-09-18T05:07:08.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Pet Insurance Review: Rating, Cost and Coverage",
+      "link": "https://www.wsj.com/buyside/personal-finance/pet-insurance/lemonade-pet-insurance-review",
+      "publisher": "WSJ",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "The best home and auto insurance bundles of 2026",
+      "link": "https://www.cnbc.com/select/best-home-auto-insurance-bundles/",
+      "publisher": "CNBC",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade home insurance review",
+      "link": "https://www.which.co.uk/money/insurance/home-and-mobile-insurance/home-insurance-reviews/lemonade-home-insurance-review-a878U8r1Ej15",
+      "publisher": "which.co.uk",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade's Loss Ratio Improved to 60%, and Its Gross Profit Rose 76%. The Stock Is Still 49% Off Its High.",
+      "link": "https://www.fool.com/investing/2026/09/14/lemonades-loss-ratio-improved-to-60-and-its-gross/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade's Loss Ratio Improved to 60%, and Its Gross Profit Rose 76%. The Stock Is Still 49% Off Its High.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonades-loss-ratio-improved-60-111500246.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "FSD Insurance Discounts: 5 Details That Matter for Owners",
+      "link": "https://www.basenor.com/blogs/news/fsd-insurance-discounts-5-details-that-matter-for-owners",
+      "publisher": "basenor.com",
+      "published_at": "2026-09-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Gets Final OK For $10.5M Data Breach Settlement",
+      "link": "https://www.mlex.com/insurance-authority/articles/2524454/lemonade-gets-final-ok-for-10-5m-data-breach-settlement",
+      "publisher": "MLex",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade’s $10.5 Million Data-Leak Deal Wins Final Court Nod",
+      "link": "https://news.bloomberglaw.com/insurance/lemonades-10-5-million-data-leak-deal-wins-final-court-nod?context=search&index=3",
+      "publisher": "Bloomberg Law News",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Berkshire Hathaway vs. Lemonade: Which Financial Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/09/11/berkshire-hathaway-vs-lemonade-which-financial-stock-is-a-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade at KBW Insurance Conference 2026: growth, AI and profit path",
+      "link": "https://www.investing.com/news/transcripts/lemonade-at-kbw-insurance-conference-2026-growth-ai-and-profit-path-93CH-4896947",
+      "publisher": "Investing.com",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade: The Business Is Finally Starting To Catch Up, But The Stock Isn't A Buy Just Yet",
+      "link": "https://seekingalpha.com/article/4944935-lemonade-the-business-is-finally-starting-to-catch-up-but-the-stock-isnt-a-buy-just-yet",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade Stock In Focus As Insurance Expansion Reaches More States",
+      "link": "https://simplywall.st/stocks/us/insurance/nyse-lmnd/lemonade/news/lemonade-stock-in-focus-as-insurance-expansion-reaches-more",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Most Drivers Are Overpaying. Lemonade CEO Says Two-Thirds Subsidize the Highest-Mileage Third.",
+      "link": "https://247wallst.com/investing/2026/09/08/most-drivers-are-overpaying-lemonade-ceo-says-two-thirds-subsidize-the-highest-mileage-third/",
+      "publisher": "24/7 Wall St.",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade's $10.5M data breach settlement: See if you qualify and learn how to protect your identity",
+      "link": "https://www.cnbc.com/select/do-you-qualify-for-lemonade-10-5-million-data-breach-settlement/",
+      "publisher": "CNBC",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Expands Renters Insurance to Kentucky",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-expands-renters-insurance-to-kentucky-302872257.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Most U.S. drivers overpay for insurance as two-thirds subsidize high-mileage drivers, says Lemonade CEO.",
+      "link": "https://pluang.com/en/news-feed/kebanyakan-pengemudi-membayar-terlalu-banyak-ceo-lemonade-katakan-dua-pertiga",
+      "publisher": "Pluang",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade chief insurance officer Peters sells $169k in shares",
+      "link": "https://www.investing.com/news/insider-trading-news/lemonade-chief-insurance-officer-peters-sells-169k-in-shares-93CH-4892553",
+      "publisher": "Investing.com",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade CFO to Participate in Upcoming Investor Conferences",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-cfo-to-participate-in-upcoming-investor-conferences-302871835.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Last chance to get one-time check worth up to $10,000 from $10.5million 'Lemonade' settlement",
+      "link": "https://www.the-sun.com/money/16940624/lemonade-insurance-company-data-breach-settlement/",
+      "publisher": "the-sun.com",
+      "published_at": "2026-09-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Reflecting On Property & Casualty Insurance Stocks’ Q2 Earnings: Lemonade (NYSE:LMND)",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/reflecting-property-casualty-insurance-stocks-171010809.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Launches Car Insurance In Missouri",
+      "link": "https://finance.yahoo.com/technology/articles/lemonade-launches-car-insurance-missouri-195925908.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Brings Car Insurance and Autonomous Car to Missouri",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-brings-car-insurance-and-autonomous-car-to-missouri-302868053.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade launches car insurance in Missouri with Tesla discount",
+      "link": "https://www.investing.com/news/company-news/lemonade-launches-car-insurance-in-missouri-with-tesla-discount-93CH-4886629",
+      "publisher": "Investing.com",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Kansas renters can now get affordable Lemonade insurance starting at $5/month",
+      "link": "https://pluang.com/en/news-feed/lemonade-perluas-asuransi-penyewa-di-kansas",
+      "publisher": "Pluang",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Expands Renters Insurance to Kansas",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-expands-renters-insurance-to-kansas-302866404.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Launches Renters Insurance in Kansas",
+      "link": "https://finance.yahoo.com/real-estate/articles/lemonade-launches-renters-insurance-kansas-154847165.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+      "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+      "publisher": "wired.com",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Can You Invest in Nationwide in 2026? Details & Alternatives to Consider",
+      "link": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-nationwide/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Expands Car Insurance to Florida",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-expands-car-insurance-florida-180418154.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The best car insurance for electric and hybrid vehicles of 2026",
+      "link": "https://www.cnbc.com/select/best-car-insurance-for-electric-vehicles/",
+      "publisher": "CNBC",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Forbes’ Best Pet Insurance Companies Of 2026 – Forbes Advisor",
+      "link": "https://www.forbes.com/financial-services/best-pet-insurance/",
+      "publisher": "Forbes",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Bank of America Corp DE Buys 123,484 Shares of Lemonade, Inc. $LMND",
+      "link": "https://www.marketbeat.com/instant-alerts/filing-bank-of-america-corp-de-buys-123484-shares-of-lemonade-inc-lmnd-2026-08-18/",
+      "publisher": "MarketBeat",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Cut Its Adjusted EBITDA Loss From $41 Million to $19 Million. Now It Has Promised Breakeven by Q4.",
+      "link": "https://www.fool.com/investing/2026/08/14/lemonade-cut-its-adjusted-ebitda-loss-from-41-mill/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) Stock Looks Fully Priced After Its 277% Run",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-lmnd-stock-looks-fully-200931673.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Cut Its Adjusted EBITDA Loss From $41 Million to $19 Million. Now It Has Promised Breakeven by Q4.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-cut-adjusted-ebitda-loss-082500305.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Kin posts profitable Q2 growth while insurtech peers still chase breakeven",
+      "link": "https://www.insurancebusinessmag.com/us/news/breaking-news/kin-posts-profitable-q2-growth-while-insurtech-peers-still-chase-breakeven-586122.aspx",
+      "publisher": "Insurance Business",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) holder John S. Peters files to sell 11,000 shares",
+      "link": "https://www.stocktitan.net/sec-filings/LMND/144-lemonade-inc-sec-filing-d4776e5fd3b7.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade launches Tesla FSD car insurance in Colorado",
+      "link": "https://beinsure.com/news/lemonade-launches-tesla-fsd-car-insurance-in-colorado/",
+      "publisher": "Beinsure",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade at Oppenheimer conference: growth and profit move together",
+      "link": "https://www.investing.com/news/transcripts/lemonade-at-oppenheimer-conference-growth-and-profit-move-together-93CH-4855871",
+      "publisher": "Investing.com",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade Insurance rewards drivers with The Slow Sign",
+      "link": "https://shots.net/news/view/lemonade-insurance-rewards-texass-safest-drivers-with-the-slow-sign",
+      "publisher": "shots.net",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EverQuote takes minority stake in Waniwani",
+      "link": "https://coverager.com/everquote-takes-minority-stake-in-waniwani/",
+      "publisher": "Coverager",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade to Present at the Oppenheimer 29th Annual Technology, Internet & Communications Conference",
+      "link": "https://www.prnewswire.com/news-releases/lemonade-to-present-at-the-oppenheimer-29th-annual-technology-internet--communications-conference-302846360.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "2 Growth Stocks Set to Flourishand 1 That Underwhelm",
+      "link": "https://stockstory.org/us/stocks/nyse/net/news/buy-or-sell/2-growth-stocks-set-to-flourishand-1-that-underwhelm",
+      "publisher": "StockStory",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "How Lemonade Is Pioneering New Models To Help Fund Non Profits",
+      "link": "https://www.forbes.com/sites/afdhelaziz/2026/08/06/how-lemonade-is-pioneering-new-models-to-help-fund-non-profits/",
+      "publisher": "Forbes",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Why Lemonade Stock Plunged 26% in July",
+      "link": "https://www.fool.com/investing/2026/08/04/why-lemonade-stock-dropped-26-in-july/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade's 50% FSD Insurance Discount Reaches Tennessee",
+      "link": "https://www.basenor.com/blogs/news/lemonades-50-fsd-insurance-discount-reaches-tennessee",
+      "publisher": "basenor.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade's Full-Year In-Force Premium Outlook Misses Expectations. Is the Growth Story Slowing or Just Repricing?",
+      "link": "https://www.fool.com/investing/2026/07/31/lemonade-cut-its-full-year-in-force-premium-outloo/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade: Growth Is Working, But The Insurance Economics Still Are Not",
+      "link": "https://seekingalpha.com/article/4928594-lemonade-growth-is-working-but-the-insurance-economics-still-are-not",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade posts 79% revenue growth in Q2 2026 as CFO succession plan unveiled",
+      "link": "https://www.insurancebusinessmag.com/us/news/breaking-news/lemonade-posts-79-revenue-growth-in-q2-2026-as-cfo-succession-plan-unveiled-584247.aspx",
+      "publisher": "Insurance Business",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Posts $43M Loss for Q2 as it Continues to Grow Customer Base",
+      "link": "https://www.insurancejournal.com/news/national/2026/07/30/879588.htm",
+      "publisher": "Insurance Journal",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Reports Strong Q2 Revenue Growth as Profitability Remains a Focus",
+      "link": "https://programbusiness.com/news/lemonade-reports-strong-q2-revenue-growth-as-profitability-remains-a-focus/",
+      "publisher": "Program Business",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade reports Q2 2026 results",
+      "link": "https://coverager.com/lemonade-reports-q2-2026-results/",
+      "publisher": "Coverager",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Insurtech Lemonade Q2 2026 revenue rises 79.4% to $294.4 mn",
+      "link": "https://beinsure.com/news/insurtech-lemonade-q2-revenue-294mn/",
+      "publisher": "Beinsure",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (NYSE:LMND) Beats Q2 CY2026 Sales Expectations But Stock Drops 15.1%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-nyse-lmnd-beats-q2-123346859.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Lemonade (LMND) Stock Is Nosediving",
+      "link": "https://stockstory.org/us/stocks/nyse/lmnd/news/why-up-down/why-lemonade-lmnd-stock-is-nosediving",
+      "publisher": "StockStory",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Announces Second Quarter 2026 Financial Results",
+      "link": "https://www.tradingview.com/news/prnewswire:dcebf9b617dab:0-lemonade-announces-second-quarter-2026-financial-results/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) To Report Earnings Tomorrow: Here Is What To Expect",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-lmnd-report-earnings-tomorrow-181302022.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "JPMorgan Chase & Co. (LMND) discloses 7.0% beneficial stake in Lemonade",
+      "link": "https://www.stocktitan.net/sec-filings/LMND/schedule-13g-a-lemonade-inc-amended-passive-investment-disclosure-4d2eaec262ac.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade launches affordable, tech-driven rente...",
+      "link": "https://pluang.com/en/news-feed/lemonade-perluas-asuransi-penghuni-ke-nebraska",
+      "publisher": "Pluang",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade vs State Farm Renters Insurance: 2026 Comparison",
+      "link": "https://hackernoon.com/lemonade-vs-state-farm-renters-insurance-2026-comparison",
+      "publisher": "hackernoon.com",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "2026’s 8 best renters insurance providers in Arizona",
+      "link": "https://arizonadigitalfreepress.com/2026s-8-best-renters-insurance-providers-in-arizona/",
+      "publisher": "Arizona Digital Free Press",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Renters in Nebraska can now get Lemonade coverage from $5",
+      "link": "https://www.stocktitan.net/news/LMND/lemonade-expands-renters-insurance-to-bvc8ishfeeez.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade (LMND): Buy, Sell, or Hold Post Q1 Earnings?",
+      "link": "https://stockstory.org/us/stocks/nyse/lmnd/news/buy-or-sell/lemonade-lmnd-buy-sell-or-hold-post-q1-earnings",
+      "publisher": "StockStory",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Prediction: Lemonade Stock Will Reach $100 in 2027. Here's Why.",
+      "link": "https://www.fool.com/investing/2026/07/18/prediction-lemonade-stock-will-reach-100-in-2027-h/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade to Release Q2 2026 Earnings on July 29 as AI-Driven Underwriting Gains Traction",
+      "link": "https://finance.biggo.com/news/a29160bf-8f7b-4b8c-a6c5-a0ab37588e61",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Is Keeping More of Its Own Insurance Risk. Is That a Sign of Confidence or a Red Flag?",
+      "link": "https://www.fool.com/investing/2026/07/16/lemonade-keep-more-own-insurance-risk-red-flag/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade To Announce Second Quarter 2026 Financial Results",
+      "link": "https://www.tradingview.com/news/prnewswire:5e1c68974a8b7:0-lemonade-to-announce-second-quarter-2026-financial-results/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Markets/Coverages: Lemonade Enters Maine and Vermont Renters Insurance Markets",
+      "link": "https://www.insurancejournal.com/news/east/2026/07/15/877605.htm",
+      "publisher": "Insurance Journal",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) Could Be 14% Overvalued On Its Maine Renters Insurance Push",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lemonade-lmnd-could-14-overvalued-161500117.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Jim Cramer on Lemonade: “It Would Change My View on It if They Started Making Money”",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-lemonade-change-view-152605854.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Insider Sell: Timothy Bixby Sells 73,000 Shares of Lemonade Inc (LMND)",
+      "link": "https://www.gurufocus.com/news/8953116/insider-sell-timothy-bixby-sells-73000-shares-of-lemonade-inc-lmnd",
+      "publisher": "GuruFocus",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade chief insurance officer John Peters sells $272,076 in stock By Investing.com",
+      "link": "https://ng.investing.com/news/stock-market-news/lemonade-chief-insurance-officer-john-peters-sells-272076-in-stock-93CH-2592128",
+      "publisher": "Investing.com Nigeria",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade's Latest Ad Campaign Trades Billboards for Spray Paint. The Internet Is Divided on the 'Absurd' Result",
+      "link": "https://www.inc.com/annabel-burba/lemonades-latest-ad-campaign-trades-billboards-for-spray-paint-the-internet-is-divided-on-the-absurd-result/91371246",
+      "publisher": "inc.com",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Why Lemonade Stock Wilted by Almost 9% on Wednesday",
+      "link": "https://www.fool.com/investing/2026/07/08/why-lemonade-stock-wilted-by-almost-9-on-wednesday/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Insider Sell: John Peters Sells Shares of Lemonade Inc (LMND)",
+      "link": "https://www.gurufocus.com/news/8950708/insider-sell-john-peters-sells-shares-of-lemonade-inc-lmnd",
+      "publisher": "GuruFocus",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "A New App-Based Insurer is Offering Cheap Renters Coverage in Vermont — If Your Address Passes its Test.",
+      "link": "https://www.compassvermont.com/p/a-new-app-based-insurer-is-offering",
+      "publisher": "Compass Vermont",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade’s $10.5 Million Data Breach Settlement—Eligibility, Claims Deadline And Payout Details",
+      "link": "https://www.forbes.com/advisor/personal-finance/lemonade-settlement-payout-lmandp5/",
+      "publisher": "Forbes",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade Expands Renters Insurance to Vermont – Company Announcement",
+      "link": "https://markets.ft.com/data/announce/detail?dockey=600-202607070800PR_NEWS_USPRX____NY99344-1",
+      "publisher": "Financial Times",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade Stock Surges 88.7% in a Year: How Should You Play the Stock?",
+      "link": "https://www.tradingview.com/news/zacks:137f7b9ab094b:0-lemonade-stock-surges-88-7-in-a-year-how-should-you-play-the-stock/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Lemonade Stock Leaped Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-lemonade-stock-leaped-today-221740046.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Lemonade Stock Popped 12% in June",
+      "link": "https://www.fool.com/investing/2026/07/02/why-lemonade-stock-popped-12-in-june/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade: This AI Insurance Darling Could Prove To Be A Disappointment (NYSE:LMND)",
+      "link": "https://seekingalpha.com/article/4919465-lemonade-this-ai-insurance-darling-could-prove-to-be-a-disappointment",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Lemonade trims reinsurance cession further in July renewal",
+      "link": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/lemonade-trims-reinsurance-cession-further-in-july-renewal-580906.aspx",
+      "publisher": "Insurance Business",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Lemonade (LMND) Stock Trades Up, Here Is Why",
+      "link": "https://www.tradingview.com/news/stockstory:6b5b848a4094b:0-lemonade-lmnd-stock-trades-up-here-is-why/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

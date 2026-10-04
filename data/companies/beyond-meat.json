@@ -1,0 +1,943 @@
+{
+  "name": "Beyond Meat",
+  "last_mentioned_at": "2026-10-02T03:24:57.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Your Guide to Soy- and Gluten-Free Vegan Meat",
+      "link": "https://www.peta.org/lifestyle/food/guide-soy-gluten-free-meatless-meat/?nowprocket=1&utm_source=peta%3A%3Afacebook&utm_medium=social&utm_campaign=1019%3A%3Aveg%3A%3Apeta%3A%3Afacebook%3A%3Auno+pizzeria+is+dishing+up+vegan+pizzas+&pl=86_15_0&beyond_meat%2525253A%2525253A%2525253A%2525253Alink=",
+      "publisher": "People for the Ethical Treatment of Animals (PETA)",
+      "published_at": "2026-09-30T20:02:32.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat is Moving Beyond the Meat Debate",
+      "link": "https://www.planetfood.news/post/beyond-meat-is-moving-beyond-the-meat-debate",
+      "publisher": "PlanetFood News",
+      "published_at": "2026-09-30T14:09:36.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls Tuesday, underperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-tuesday-underperforms-market-de76649f-91d4d550d162?mod=mw_quote_news",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-29T21:20:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "BYND Stock Quote Price and Forecast",
+      "link": "https://www.cnn.com/markets/stocks/BYND",
+      "publisher": "CNN",
+      "published_at": "2026-09-29T08:01:54.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "A stake above 5% in Beyond Meat (BYND) links Millennium and two other reporting persons to the same shares.",
+      "link": "https://www.stocktitan.net/sec-filings/BYND/schedule-13g-beyond-meat-inc-passive-investment-disclosure-5-f0749f4097cb.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-28T22:14:15.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat’s ‘Phytosphere’ Platform takes Protein Snacks to New Territory",
+      "link": "https://foodinstitute.com/manufacturing/beyond-meat-phytosphere-platform-protein-snacks-new-territory/",
+      "publisher": "The Food Institute",
+      "published_at": "2026-09-28T13:32:08.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat’s New Vegan Sausage Is the ‘Missing Link’ in Your Diet",
+      "link": "https://www.peta.org/lifestyle/food/vegan-sausage-beyond-meat-new-product/?page_12_15_0=21&pl=12_15_0",
+      "publisher": "People for the Ethical Treatment of Animals (PETA)",
+      "published_at": "2026-09-28T12:56:39.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Stock Dips As Insider Files Ambiguous Form 4",
+      "link": "https://timothysykes.com/news/beyondmeatinc-bynd-news-2026_09_26/",
+      "publisher": "timothysykes.com",
+      "published_at": "2026-09-26T15:07:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls to new 52-week low",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-to-new-52-week-low-d7c028b4-1ebc8548fa31",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-25T21:18:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Stocks making big moves yesterday: Beyond Meat, GEO Group, Instacart, LendingTree, and NN",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-181658795.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-24T18:16:58.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat: Runway Extended By Debt-For-Equity Swap, But Cash Burn Remains Problematic",
+      "link": "https://seekingalpha.com/article/4949390-beyond-meat-runway-extended-by-debt-for-equity-swap-but-cash-burn-remains-problematic",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-24T12:47:07.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Judge Slashes Beyond Meat’s Damages by $23.4M in Dunkin’ Trademark Lawsuit",
+      "link": "https://www.greenqueen.com.hk/beyond-meat-dunkin-trademark-infringement-lawsuit-damages-vegadelphia/",
+      "publisher": "Green Queen Media",
+      "published_at": "2026-09-24T04:19:50.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Beyond Meat (BYND) Shares Are Getting Obliterated Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-beyond-meat-bynd-shares-182516914.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls Tuesday, underperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-tuesday-underperforms-market-49a4bd17-7475a1bc07f0",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-22T21:19:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Court slashes damages in Beyond Meat (BYND) case, but eight-figure hit remains",
+      "link": "https://www.stocktitan.net/sec-filings/BYND/8-k-beyond-meat-inc-reports-material-event-f11d8391b310.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-22T20:13:11.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat's $23.5M Trademark Verdict Cut to $37.5K, but Boston Fed Judge Upholds $15.4M Profit Award",
+      "link": "https://www.law.com/2026/09/22/beyond-meats-235m-trademark-verdict-cut-to-375k-but-boston-fed-judge-upholds-154m-profit-award/",
+      "publisher": "Law.com",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Judge Reduces $38.9M Beyond Meat TM Verdict",
+      "link": "https://www.law360.com/articles/2527528/judge-reduces-38-9m-beyond-meat-tm-verdict",
+      "publisher": "Law360",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Gets Competitor’s Trademark Win Cut by $23 Million",
+      "link": "https://news.bloomberglaw.com/ip-law/beyond-meat-gets-competitors-trademark-win-cut-by-23-million",
+      "publisher": "Bloomberg Law News",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Is Coming for the Entire Protein Category",
+      "link": "https://www.peta.org/lifestyle/food/beyond-protein-powders-bars/?page_86_15_0=30&pl=86_15_0",
+      "publisher": "People for the Ethical Treatment of Animals (PETA)",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls Friday, underperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-friday-underperforms-market-825c07ca-19c70175b301",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat’s New Vegan Sausage Is the ‘Missing Link’ in Your Diet",
+      "link": "https://www.peta.org/lifestyle/food/vegan-sausage-beyond-meat-new-product/?page_12_15_0=6&pl=86_15_0",
+      "publisher": "People for the Ethical Treatment of Animals (PETA)",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock rises Thursday, outperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-rises-thursday-outperforms-market-12e31a5b-75b056685e8b",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Inc. stock rises Wednesday, outperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-rises-wednesday-outperforms-market-65e42acd-467808c90f07",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat: Q2 Sales Exceeded Expectations, But Adjusted Operating Expenses Increased",
+      "link": "https://seekingalpha.com/article/4946939-beyond-meat-q2-sales-exceeded-expectations-but-adjusted-operating-expenses-increased",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat® Announces Availability of Beyond Steak® Filet at Erewhon",
+      "link": "https://www.globenewswire.com/news-release/2026/09/15/3362152/0/en/beyond-meat-announces-availability-of-beyond-steak-filet-at-erewhon.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A Look Back at Perishable Food Stocks’ Q2 Earnings: Beyond Meat (NASDAQ:BYND) Vs The Rest Of The Pack",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/look-back-perishable-food-stocks-131931179.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Is Going Beyond Meat With Jerky, Protein Powder, and Veggie Burgers",
+      "link": "https://vegnews.com/beyond-meat-jerky-protein-powder-veggie-burger",
+      "publisher": "VegNews.com",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat enters new categories",
+      "link": "https://www.foodbusinessnews.net/articles/30999-beyond-meat-enters-new-categories",
+      "publisher": "Food Business News",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat expands into powders, bars with “phytosphere” platform",
+      "link": "https://www.just-food.com/news/beyond-meat-expands-into-powders-bars-with-phytosphere-platform/",
+      "publisher": "just-food.com",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls Thursday, underperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-thursday-underperforms-market-8c878ff8-abd57bfa4b68",
+      "publisher": "MarketWatch",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Is Coming for the Entire Protein Category",
+      "link": "https://www.peta.org/lifestyle/food/beyond-protein-powders-bars/?category_name=celebrities+vegan",
+      "publisher": "People for the Ethical Treatment of Animals (PETA)",
+      "published_at": "2026-09-09T20:27:16.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Enters the Phytosphere",
+      "link": "https://progressivegrocer.com/beyond-meat-enters-phytosphere",
+      "publisher": "Progressive Grocer",
+      "published_at": "2026-09-09T13:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Is Plotting a Radical Comeback by Doing the Exact Opposite of What Made It Famous",
+      "link": "https://www.inc.com/chloe-aiello/beyond-meat-is-plotting-a-radical-comeback-by-doing-the-exact-opposite-of-what-made-it-famous/91402912",
+      "publisher": "inc.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Just Launched New Burgers, Jerky, And Protein Drinks",
+      "link": "https://sporked.com/article/beyond-meat-jerky-sparkling-protein-powder/",
+      "publisher": "Sporked",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat® Debuts Phytosphere™ Portfolio",
+      "link": "https://www.globenewswire.com/news-release/2026/09/09/3358737/0/en/beyond-meat-debuts-phytosphere-portfolio.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Stock Fair Value Rises After Reverse Split Reshapes Valuation",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-bynd-stock-fair-190857185.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat recovers after seven straight sessions of losses (BYND:NASDAQ)",
+      "link": "https://seekingalpha.com/news/4640462-beyond-meat-recovers-after-seven-straight-sessions-of-losses",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "He’s lost hundreds of thousands in stocks like SpaceX and Beyond Meat — and he’s not stopping. Is the ‘high’ worth it?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lost-hundreds-thousands-stocks-spacex-110000708.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Dr Amir Khan '10-minute' and '7pm' rules for September - and new food he's eating",
+      "link": "https://www.mirror.co.uk/news/health/dr-amir-khan-10-minute-37617477",
+      "publisher": "The Mirror",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat regains Nasdaq minimum $1.00 bid-price compliance after August rally",
+      "link": "https://www.tradingview.com/news/tradingview:9b263bd5d7b3a:0-beyond-meat-regains-nasdaq-minimum-1-00-bid-price-compliance-after-august-rally/",
+      "publisher": "TradingView",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Panda Express Just Brought Back A Fan-Favorite Protein — But It's Not What Everyone Was Wanting",
+      "link": "https://www.thetakeout.com/2248989/panda-express-fan-favorite-brisket-internet-beyond-meat/",
+      "publisher": "The Takeout",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat launches ‘September Reset’ celebrity-fronted campaign",
+      "link": "https://www.thegrocer.co.uk/news/beyond-meat-launches-september-reset-celebrity-fronted-campaign/723066.article",
+      "publisher": "The Grocer",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "3 Consumer Stocks That Concern Us",
+      "link": "https://stockstory.org/us/stocks/nasdaq/bynd/news/buy-or-sell/3-consumer-stocks-that-concern-us",
+      "publisher": "StockStory",
+      "published_at": "2026-08-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "After Its Reverse Stock Split, Should Investors Feast on Beyond Meat Stock, or Is It Time to Stick a Fork In It?",
+      "link": "https://www.fool.com/investing/2026/08/27/after-its-reverse-stock-split-should-investors-fea/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "MILK BAR® PARTNERS WITH BEYOND MEAT® TO DEBUT NEW SAVORY PLANT-FORWARD OPTIONS GUESTS HAVE BEEN CRAVING",
+      "link": "https://www.prnewswire.com/news-releases/milk-bar-partners-with-beyond-meat-to-debut-new-savory-plant-forward-options-guests-have-been-craving-302858976.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Milk Bar’s Beyond Meat Collab Just Answered Fan Requests",
+      "link": "https://sporked.com/article/milk-bars-beyond-meat-collab-just-answered-fan-requests/",
+      "publisher": "Sporked",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Milk Bar partners with Beyond Meat for limited savory items",
+      "link": "https://www.investing.com/news/company-news/milk-bar-partners-with-beyond-meat-for-limited-savory-items-93CH-4877254",
+      "publisher": "Investing.com",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Not Beyond Meat, Not MorningStar: Consumer Reports' Highest-Rated Veggie Burger Comes From This Brand",
+      "link": "https://www.thetakeout.com/2241835/consumer-reports-highest-rated-veggie-burger-brand/",
+      "publisher": "The Takeout",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Immerse™ Now Available at Erewhon",
+      "link": "https://www.globenewswire.com/news-release/2026/08/24/3349773/0/en/beyond-immerse-now-available-at-erewhon.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How to Play Beyond Meat Stock After Its 30-for-1 Reverse Split",
+      "link": "https://www.barchart.com/story/news/3985459/how-to-play-beyond-meat-stock-after-its-30-for-1-reverse-split",
+      "publisher": "Barchart.com",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Falls 11% on 1-for-30 Reverse Split Reaction, Oatly Slips",
+      "link": "https://247wallst.com/investing/2026/08/17/beyond-meat-falls-11-on-1-for-30-reverse-split-reaction-oatly-slips/",
+      "publisher": "24/7 Wall St.",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat: Sell Until Financials Improve (NASDAQ:BYND)",
+      "link": "https://seekingalpha.com/article/4936934-beyond-meat-sell-until-financials-improve",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Announces 1-for-30 Reverse Stock Split and Reduction in Authorized Shares | BYND Stock News",
+      "link": "https://www.quiverquant.com/news/Beyond+Meat+Announces+1-for-30+Reverse+Stock+Split+and+Reduction+in+Authorized+Shares",
+      "publisher": "Quiver Quantitative",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Impossible Burger vs Beyond Meat: Plant-based burger taste-test",
+      "link": "https://www.detroitnews.com/embed/video/3916330002/",
+      "publisher": "The Detroit News",
+      "published_at": "2026-08-13T20:29:45.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Shares Hit Record Low Following Reverse Stock Split to Keep Nasdaq Listing",
+      "link": "https://www.greenqueen.com.hk/beyond-meat-bynd-stock-nasdaq-delisting-share-price-reverse-split/",
+      "publisher": "Green Queen Media",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat’s Reverse Split: What History Says Usually Happens Next",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-reverse-split-history-121022497.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat’s Reverse Split: What History Says Usually Happens Next",
+      "link": "https://247wallst.com/investing/2026/08/13/beyond-meats-reverse-split-what-history-says-usually-happens-next/",
+      "publisher": "24/7 Wall St.",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Sets 1-for-30 Reverse Split to Hold Onto Its Nasdaq Listing",
+      "link": "https://vegconomist.com/investments-finance/stock-market/beyond-meat-sets-1-for-30-reverse-split-hold-onto-nasdaq-listing/",
+      "publisher": "vegconomist.com",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat launches reverse stock split",
+      "link": "https://www.just-food.com/news/beyond-meat-launches-reverse-stock-split/",
+      "publisher": "just-food.com",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Is Beyond Meat (BYND) Undervalued After Its Reverse Stock Split?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-bynd-undervalued-reverse-151117082.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Approves 1 For 30 Reverse Stock Split To Avoid Nasdaq Delisting",
+      "link": "https://startupfortune.com/beyond-meat-approves-1-for-30-reverse-stock-split-to-avoid-nasdaq-delisting/",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "What's Going on With Beyond Meat Stock On Wednesday?",
+      "link": "https://www.benzinga.com/trading-ideas/movers/26/08/61142432/whats-going-on-with-beyond-meat-stock-on-wednesday-2",
+      "publisher": "Benzinga",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Announces 1-for-30 Reverse Stock Split",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-announces-1-30-110000308.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat shares collapse to all-time lows as the embattled company announces a reverse stock split",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-shares-collapse-time-145500219.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "5 Revealing Analyst Questions From Beyond Meat’s Q2 Earnings Call",
+      "link": "https://stockstory.org/us/stocks/nasdaq/bynd/news/earnings-call/5-revealing-analyst-questions-from-beyond-meats-q2-earnings-call",
+      "publisher": "StockStory",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Is Down 5.0% After Return To Profit And New COO Hire - What's Changed",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-bynd-down-5-161317962.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Stock Slides As Cash Burn Clouds Turnaround Profit",
+      "link": "https://simplywall.st/stocks/us/food-beverage-tobacco/nasdaq-bynd/beyond-meat/news/beyond-meat-bynd-stock-slides-as-cash-burn-clouds-turnaround",
+      "publisher": "Simply Wall Street",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "BYND Stock Heads For Second Weekly Gains: Beyond Meat Sees Early Turnaround Signs As CEO Maps Three-Part Growth Strategy",
+      "link": "https://es.tradingview.com/news/stocktwits:3bff000c9094b:0-bynd-stock-heads-for-second-weekly-gains-beyond-meat-sees-early-turnaround-signs-as-ceo-maps-three-part-growth-strategy/",
+      "publisher": "TradingView",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Q2 revenue falls 8% but beats expectations",
+      "link": "https://www.thepigsite.com/news/2026/08/beyond-meat-q2-revenue-falls-8-but-beats-expectations",
+      "publisher": "The Pig Site",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Beyond Meat (BYND) Stock Is Nosediving",
+      "link": "https://stockstory.org/us/stocks/nasdaq/bynd/news/why-up-down/why-beyond-meat-bynd-stock-is-nosediving-3",
+      "publisher": "StockStory",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat forecasts upbeat quarterly revenue on steady international demand",
+      "link": "https://www.reuters.com/business/retail-consumer/beyond-meat-forecasts-upbeat-quarterly-revenue-steady-international-demand-2026-08-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat leans into Europe, Canada, as US sales continue to slide",
+      "link": "https://agfundernews.com/beyond-meat-leans-into-europe-canada-as-us-sales-continue-to-slide",
+      "publisher": "AgFunderNews",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Reports Q2 Loss, Tops Revenue Estimates",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-bynd-reports-q2-003521405.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (NASDAQ:BYND) Surprises With Q2 CY2026 Sales, Provides Optimistic Revenue Guidance for Next Quarter",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/beyond-meat-nasdaq-bynd-surprises-212452656.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock rises Tuesday, outperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-rises-tuesday-outperforms-market-93331097-9ba45a15b11f",
+      "publisher": "MarketWatch",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Axon Enterprise vs. Beyond Meat: Which Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/08/04/axon-enterprise-vs-beyond-meat-which-stock-is-a-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat vs. Tractor Supply: Which Consumer Goods Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/08/04/beyond-meat-vs-tractor-supply-which-consumer-goods-stock-is-a-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Immerse Builds Marketing Push Around Josh Hart With Serialized \"Best Friend Auditions\" Series",
+      "link": "https://vegconomist.com/marketing-and-media/beyond-immerse-builds-marketing-push-around-josh-hart-serialized-best-friend-auditions-series/",
+      "publisher": "vegconomist.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+      "link": "https://stockstory.org/us/stocks/nasdaq/bynd/news/earnings/beyond-meat-bynd-reports-q2-everything-you-need-to-know-ahead-of-earnings",
+      "publisher": "StockStory",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat hires former Olam executive as COO",
+      "link": "https://www.just-food.com/news/beyond-meat-hires-former-olam-executive-as-coo/",
+      "publisher": "just-food.com",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "7 Best Food Stocks for 2026 and How to Invest",
+      "link": "https://www.fool.com/investing/stock-market/market-sectors/consumer-staples/food-stocks/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (BYND) Projected to Release Earnings on Wednesday",
+      "link": "https://www.marketbeat.com/instant-alerts/beyond-meat-bynd-projected-to-release-earnings-on-wednesday-2026-07-29/",
+      "publisher": "MarketBeat",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Dutch Bros vs. Beyond Meat: Which Consumer Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/07/29/dutch-bros-vs-beyond-meat-which-consumer-stock-is-a-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Fire Up the Grill: These Are the 16 Best Meat-Free Burgers for Summer Grilling",
+      "link": "https://vegnews.com/barbecue-approved-vegan-burgers",
+      "publisher": "VegNews.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Has Dropped 32% This Year. Generational Opportunity or Falling Knife?",
+      "link": "https://www.fool.com/investing/2026/07/28/beyond-meat-has-dropped-32-this-year-generational/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Plant-based food company makes abrupt US exit",
+      "link": "https://www.thestreet.com/restaurants/no-meat-factory-plant-based-food-closes-facility-us-exit",
+      "publisher": "thestreet.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "BYND|Beyond Meat Inc|Price:8.490|Chg%:+0.140",
+      "link": "https://www.tradingkey.com/markets/stocks/bynd/stock-analysis",
+      "publisher": "TradingKey",
+      "published_at": "2026-07-27T06:12:55.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Can You Invest in Impossible Foods Pre-IPO? Details & Alternatives to Consider",
+      "link": "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-impossible-foods-stock/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-26T07:00:00.000Z",
+      "verdict": "unranked",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat® to Report Second Quarter 2026 Financial Results on August 5, 2026",
+      "link": "https://www.globenewswire.com/news-release/2026/07/22/3331695/0/en/beyond-meat-to-report-second-quarter-2026-financial-results-on-august-5-2026.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat to report Q2 2026 financial results on August 5",
+      "link": "https://scanx.trade/stock-market-news/companies/beyond-meat-to-report-q2-2026-financial-results-on-august-5/46322781",
+      "publisher": "scanx.trade",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat schedules live webcast after Q2 results on Aug. 5",
+      "link": "https://www.stocktitan.net/news/BYND/beyond-meat-to-report-second-quarter-2026-financial-results-on-dogxy8n3j24q.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat Inc. stock rises Tuesday, outperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-rises-tuesday-outperforms-market-da33c1a7-734e9447ddfd",
+      "publisher": "MarketWatch",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "We Asked 4 Chefs to Name the Best Veggie Burger—They All Said the Same One",
+      "link": "https://www.eatingwell.com/chefs-favorite-veggie-burgers-12021882",
+      "publisher": "EatingWell",
+      "published_at": "2026-07-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat seeks indenture amendment with 2030 noteholders to allow 2027 note repurchases, extend make-whole period",
+      "link": "https://www.tradingview.com/news/tradingview:cb8354327e253:0-beyond-meat-seeks-indenture-amendment-with-2030-noteholders-to-allow-2027-note-repurchases-extend-make-whole-period/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond targets new customers with a protein drink",
+      "link": "https://www.latimes.com/business/story/2026-07-16/beyond-targets-new-customers-with-protein-drink",
+      "publisher": "Los Angeles Times",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "July supplier contracts update: Best Food Logistics, Beyond Meat and Heinz",
+      "link": "https://www.thecaterer.com/products--equipment/july-supplier-contracts-update-best-food-logistics-beyond-meat-and-heinz",
+      "publisher": "The Caterer",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "How to Make Vegan Orange Chicken Just Like Panda Express Used To",
+      "link": "https://vegnews.com/make-vegan-orange-chicken-panda-express",
+      "publisher": "VegNews.com",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Form 4 Beyond Meat Inc For: 14 July By Investing.com",
+      "link": "https://ng.investing.com/news/stock-market-news/form-4-beyond-meat-inc-for-14-july-93CH-2599762",
+      "publisher": "Investing.com Nigeria",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Targets Shifts",
+      "link": "https://labusinessjournal.com/special-reports/beyond-targets-shifts/",
+      "publisher": "labusinessjournal.com",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Adds 100 UK Leisure and Hospitality Sites to Foodservice Network",
+      "link": "https://vegconomist.com/gastronomy-food-service/beyond-meat-adds-100-uk-leisure-hospitality-sites-foodservice-network/",
+      "publisher": "vegconomist.com",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat (NASDAQ:BYND) Upgraded at Wall Street Zen",
+      "link": "https://www.marketbeat.com/instant-alerts/beyond-meat-nasdaqbynd-upgraded-at-wall-street-zen-2026-07-12/",
+      "publisher": "MarketBeat",
+      "published_at": "2026-07-12T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Launches Mycelium Steak Filet in Mainstream US Retail",
+      "link": "https://www.mycostories.com/post/beyond-meat-launches-mycelium-steak-filet-at-wegmans-and-h-e-b",
+      "publisher": "MycoStories",
+      "published_at": "2026-07-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A&W Restaurants Sell Out of Vegan Beyond Burgers on First Day of Launch",
+      "link": "https://www.livekindly.com/aw-sell-out-vegan-beyond-burgers/",
+      "publisher": "livekindly.com",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "3 Reasons BYND is Risky and 1 Stock to Buy Instead",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-bynd-risky-1-142900076.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat expands Beyond Steak Filet to Meijer stores",
+      "link": "https://www.grocerytradenews.com/beyond-steak-filet-meijer-stores/",
+      "publisher": "Grocery Trade News",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Better Meat Co rebrands to focus on plant-based protein",
+      "link": "https://www.fooddive.com/news/better-meat-rebrand-bmc-ingredients-plant-protein/824698/",
+      "publisher": "Food Dive",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Expands Steak Filet Reach as Turnaround Efforts Continue",
+      "link": "https://www.zacks.com/stock/news/2950214/beyond-meat-expands-steak-filet-reach-as-turnaround-efforts-continue",
+      "publisher": "Zacks Investment Research",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Does Beyond Meat (NASDAQ:BYND) Meijer Rollout Mean for Nasdaq Composite?",
+      "link": "https://kalkinemedia.com/us/stocks/consumer/what-does-beyond-meat-nasdaqbynd-meijer-rollout-mean-for-nasdaq-composite",
+      "publisher": "Kalkine Media",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat® to Introduce Beyond Steak® Filet at Meijer This Month",
+      "link": "https://www.globenewswire.com/news-release/2026/07/07/3323241/0/en/beyond-meat-to-introduce-beyond-steak-filet-at-meijer-this-month.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Steak Filet Heads to Meijer After Wegmans and H-E-B Debut",
+      "link": "https://vegconomist.com/retail-e-commerce/beyond-steak-filet-heads-meijer-after-wegmans-h-e-b-debut/",
+      "publisher": "vegconomist.com",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat Inc. stock falls Tuesday, underperforms market",
+      "link": "https://www.marketwatch.com/data-news/beyond-meat-inc-stock-falls-tuesday-underperforms-market-01660610-0c7c74b375f9",
+      "publisher": "MarketWatch",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Beyond Meat expands steak filet to Meijer stores this month",
+      "link": "https://www.investing.com/news/company-news/beyond-meat-expands-steak-filet-to-meijer-stores-this-month-93CH-4779412",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "1 Unpopular Stock That Deserves a Second Chance and 2 We Avoid",
+      "link": "https://stockstory.org/us/stocks/nasdaq/wdc/news/buy-or-sell/1-unpopular-stock-that-deserves-a-second-chance-and-2-we-avoid",
+      "publisher": "StockStory",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat launches heart-healthy mycelium steak filet in US supermarkets",
+      "link": "https://www.veganfoodandliving.com/news/beyond-meat-heart-health-mycelium-steak-filet-us/",
+      "publisher": "Vegan Food & Living",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Perishable Food Stocks Q1 Highlights: Beyond Meat (NASDAQ:BYND)",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/perishable-food-stocks-q1-highlights-172401605.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Is Beyond stock stuck in “Burgatory”? | 2026-07-03 | Investing News",
+      "link": "https://stockhouse.com/news/the-market-online-news/2026/07/03/is-beyond-stock-stuck-burgatory",
+      "publisher": "Stockhouse",
+      "published_at": "2026-07-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Most shorted consumer staple small caps dominated by Ridgetech, Beyond Meat",
+      "link": "https://seekingalpha.com/news/4608905-most-shorted-consumer-staple-small-caps-dominated-by-ridgetech-beyond-meat",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    }
+  ]
+}

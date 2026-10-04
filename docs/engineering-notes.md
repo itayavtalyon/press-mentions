@@ -35,7 +35,7 @@ The next change should keep these splits. They were mixed once, and that was the
 
 Locked with Itay on 2026-10-01.
 
-- Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify use the coverage database. Digest and mail use the alerts database. A second copy exits 1 and names the holder. A different command may run at the same time. Placeholders do not take a lock until they do real work.
+- Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, classify, and eligible use the coverage database. Digest and mail use the alerts database. A second copy exits 1 and names the holder. A different command may run at the same time. Placeholders do not take a lock until they do real work.
 - The process writes its pid into a claim file and links that onto the lock, so the visible file is never empty. A live pid exits before the store opens. A dead, empty, or garbage pid is renamed aside.
 - Each process has its own in-memory token bucket. Overlap can double the Google rate. There is no shared slot file.
 - A stage write includes `WHERE stage = ?` for the stage that step owns. Zero rows means the article already moved or is gone. The caller logs that and continues. The write does not move the row backward.

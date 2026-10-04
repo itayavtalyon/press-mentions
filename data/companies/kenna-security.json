@@ -1,0 +1,31 @@
+{
+  "name": "Kenna Security",
+  "last_mentioned_at": "2026-07-21T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Empirical Security raises $25M to predict your next breach",
+      "link": "https://thenextweb.com/news/empirical-security-series-a-exploit-prediction",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Empirical Security lands $25m to fight AI-driven exploits",
+      "link": "https://fintech.global/2026/07/21/empirical-security-lands-25m-to-fight-ai-driven-exploits/",
+      "publisher": "FinTech Global",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Empirical Security Raises $25 Million Series A To Expand Predictive Exposure Management Platform",
+      "link": "https://pulse2.com/empirical-security-raises-25-million-series-a-to-expand-predictive-exposure-management-platform/",
+      "publisher": "pulse2.com",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

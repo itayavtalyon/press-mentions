@@ -15,10 +15,10 @@ Tests are written with each task. The last test row closes the gap to 100%.
 | Oct 2   | 1     | Eval program. Score every installed chat model and every saved prompt, record seconds per case, leave the constants               | Scores print with a winner or a tie. A person sets `LIVE_MODEL` and `LIVE_PROMPT_VERSION` by hand                                |
 | Oct 2–3 | —     | **Start the real backfill.** It resumes if stopped. It stores candidates at stage `unwrap` and stops. Latest start: Oct 3 morning | Rows sit at stage `unwrap`. The command does not unwrap, fetch, extract, or classify                                             |
 | Oct 3   | 2     | Daily job: trailing window, eligibility, 72-hour gate, `notified`, `ALERT_EMAIL` upsert, digest enqueue                           | Backfill leaves the alerts file untouched. A second run the same day enqueues only mentions still missing a `notified` row       |
-| Oct 3   | 0.5   | Mailer                                                                                                                            | The body is in the log and `data/alerts/`, and the outbox row is gone. A thrown sender leaves the row                            |
+| Oct 3   | 0.5   | Mailer                                                                                                                            | The body is in the log, the outbox row stays sent, and a throw after one claim leaves later rows pending                         |
 | Oct 1–3 | 8.5   | Dashboard, stages D0–D7 below. Started ahead of plan on Oct 1, in parallel with the fetch pipeline                                | Every stage's Done list below is ticked                                                                                          |
 | Oct 4   | 1     | Export: `db.backup()`, email scrub, size check, `last_mentioned_at` and `as_of`                                                   | JSON and SQLite copies exist from a faked run                                                                                    |
-| Oct 4   | 1.5   | Promise tests to 100%, then one real daily run after the backfill, then the real export                                           | The gate passes. `data/` holds the real run and an alert file                                                                    |
+| Oct 4   | 1.5   | Promise tests to 100%, then one real daily run after the backfill, then the real export                                           | The gate passes. `data/` holds the real run. There is no alert file                                                              |
 | Oct 4   | 1.5   | README runbook: setup, Ollama pull, commands, model and why, prompt shape, eval tally, source limits, cap, assumptions            | A stranger could run it from the README alone. `PROMPTS.md` is current                                                           |
 | Oct 5   | —     | Buffer until 16:00 Israel time                                                                                                    | Submitted                                                                                                                        |
 
@@ -60,6 +60,12 @@ Suggested commands, for the README runbook:
 ```bash
 node --env-file=.env src/jobs/backfill.js
 node --env-file=.env src/jobs/feed.js
+node --env-file=.env src/jobs/unwrap.js
+node --env-file=.env src/jobs/fetch.js
+node --env-file=.env src/jobs/extract.js
+node --env-file=.env src/jobs/classify.js
+node --env-file=.env src/jobs/eligible.js
+node --env-file=.env src/jobs/digest.js
 node --env-file=.env src/jobs/mail.js
 node --env-file=.env src/jobs/eval.js
 node --env-file=.env src/server/index.js

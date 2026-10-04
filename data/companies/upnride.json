@@ -1,0 +1,23 @@
+{
+  "name": "UPnRIDE",
+  "last_mentioned_at": "2026-09-28T15:15:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "UPnRIDE collaborates with Kessler to support upright mobility",
+      "link": "https://www.hmenews.com/article/upnride-collaborates-with-kessler-to-support-upright-mobility",
+      "publisher": "HME News",
+      "published_at": "2026-09-28T15:15:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Kessler Foundation and UPnRIDE Launch Research Initiative to Advance What’s Possible for People with Disabilities",
+      "link": "https://www.globenewswire.com/news-release/2026/09/24/3368384/0/en/kessler-foundation-and-upnride-launch-research-initiative-to-advance-what-s-possible-for-people-with-disabilities.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-24T13:01:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

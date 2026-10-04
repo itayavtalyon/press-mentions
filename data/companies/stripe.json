@@ -1,0 +1,839 @@
+{
+  "name": "Stripe",
+  "last_mentioned_at": "2026-10-01T23:40:34.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Parafin Financed 60,000 Small Businesses With $3 Billion. Now Stripe Is Buying It",
+      "link": "https://www.inc.com/rachel-suleymanov/parafin-financed-60000-businesses-with-3-billion-dollars-now-stripe-is-buying-it/91412905",
+      "publisher": "inc.com",
+      "published_at": "2026-09-30T20:04:18.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe's Bridge Launches OUSD, the Stablecoin That Pays Its Distributors",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/stripes-bridge-launches-ousd-stablecoin-174557737.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-30T17:45:57.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe’s AI CRO on the Fastest-Growing AI Companies: 175% Growth, 48% of Revenue From Outside the Home Market, and Agents About to Read More Stripe Docs Than Human",
+      "link": "https://www.saastr.com/stripes-ai-cro-on-the-fastest-growing-ai-companies-175-growth-48-of-revenue-from-outside-the-home-market-and-agents-about-to-read-more-stripe-docs-than-human/",
+      "publisher": "saastr.com",
+      "published_at": "2026-09-29T13:06:33.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Open USD Launches as Stripe's Default Stablecoin",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/open-usd-launches-as-stripe-s-default-stablecoin",
+      "publisher": "The Defiant",
+      "published_at": "2026-09-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe alums spark new payments plays",
+      "link": "https://www.paymentsdive.com/news/stripe-alums-spark-new-payments-plays/831410/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-09-28T14:02:53.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tech Moves: Microsoft AI exec joins Niantic Spatial; Allen fund names first investment chief; Zillow AI leader heads to Stripe",
+      "link": "https://www.geekwire.com/2026/tech-moves-microsoft-ai-exec-joins-niantic-spatial-allen-fund-names-first-investment-chief-zillow-ai-leader-heads-to-stripe/",
+      "publisher": "GeekWire",
+      "published_at": "2026-09-25T14:14:34.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "PayPal Not In Talks With Stripe Or Any Other Firm For Takeover: Report",
+      "link": "https://stocktwits.com/news-articles/markets/equity/paypal-reportedly-not-in-talks-with-stripe-or-any-other-firm-for-takeover/cZTG0KkRIRR",
+      "publisher": "Stocktwits",
+      "published_at": "2026-09-25T04:23:51.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Just Built the Full-Stack Agent Commerce Infrastructure in One Day",
+      "link": "https://finance.yahoo.com/technology/ai/articles/stripe-just-built-full-stack-111702369.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-23T11:17:02.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Meta's Muse and xAI's Grok Bot Can Now Shop With Your Stripe Wallet",
+      "link": "https://startupfortune.com/metas-muse-and-xais-grok-bot-can-now-shop-with-your-stripe-wallet/",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-09-20T17:03:54.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Ripple Just Connected XRP to Stripe’s AI Agent Payments. Why the Sessions Run on XRP, Not RLUSD",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/ripple-just-connected-xrp-stripe-153254707.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe’s wallet embraces AI bots",
+      "link": "https://www.paymentsdive.com/news/stripes-digital-wallet-paypal-embraces-ai-bots-agentic-commerce/830753/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Is XRP Used For? Payments, Collateral, and Now Stripe’s AI Agents",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/09/18/what-is-xrp-used-for-payments-collateral-and-now-stripes-ai-agents/",
+      "publisher": "24/7 Wall St.",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "World launches 'World Money' super app with stablecoins, Stripe integration and boosted rewards",
+      "link": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394",
+      "publisher": "The Block",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Acquires Valora Team To Expand Stablecoin Push",
+      "link": "https://coinmarketcap.com/academy/article/stripe-acquires-valora-team-to-expand-stablecoin-push",
+      "publisher": "CoinMarketCap",
+      "published_at": "2026-09-15T02:20:32.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Revenue 2025: $19.4B Est. ARR, $159B Valuation",
+      "link": "https://getlatka.com/companies/stripe",
+      "publisher": "GetLatka",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stablecoin payments are becoming creator payroll — Meta, Visa and Stripe are already building the rails",
+      "link": "https://crypto.news/stablecoin-payments-creator-payroll-meta-visa-stripe/",
+      "publisher": "Crypto News",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "This sleek POS system is designed to take on Stripe",
+      "link": "https://www.fastcompany.com/91589921/zeller-terminal-2-innovation-by-design-2026",
+      "publisher": "Fast Company",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "PayPal CEO maps out turnaround plan after Advent-Stripe takeover attempt stalls - report (PYPL:NASDAQ)",
+      "link": "https://seekingalpha.com/news/4642182-paypal-ceo-maps-out-turnaround-plan-after-advent-stripe-takeover-attempt-stalls---report",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Bank of Ireland grows partnership deal with Stripe",
+      "link": "https://www.rte.ie/news/business/2026/0909/1590856-bank-of-ireland-grows-partnership-deal-with-stripe/",
+      "publisher": "RTE.ie",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Exclusive: Latitude, founded by Stripe and Uber alums, raises $35 million to turn stablecoins into local payments",
+      "link": "https://fortune.com/2026/09/09/exclusive-latitude-stripe-uber-alums-35-million-stablecoins-local-payments/",
+      "publisher": "fortune.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Google, Stripe, and Workday All Rely on This Startup. It Just Reached a $7.1 Billion Valuation",
+      "link": "https://www.inc.com/moses-jeanfrancois/google-stripe-workday-rely-on-this-startup-just-reached-7-billion-dollar-valuation/91402864",
+      "publisher": "inc.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic Is Reportedly Pushing To Build In-House Payments Infrastructure, Challenging Stripe",
+      "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-is-reportedly-pushing-to-build-in-house-payments-infrastructure-challenging-stripe/cZsD0hQRJDQ",
+      "publisher": "Stocktwits",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic Is Reportedly Pushing To Build In-House Payments Infrastructure, Challenging Stripe",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-reportedly-pushing-build-house-205659444.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "X shifts creator payouts from Stripe to X Money, betting on high APRs to retain funds",
+      "link": "https://www.emarketer.com/content/x-shifts-creator-payouts-stripe-x-money--betting-on-high-aprs-retain-funds",
+      "publisher": "eMarketer",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "X shifts US creator payouts from Stripe to X Money",
+      "link": "https://techcrunch.com/2026/09/02/x-shifts-us-creator-payouts-from-stripe-to-x-money/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe is giving off early Google vibes—for good and for bad",
+      "link": "https://fortune.com/2026/09/02/stripe-is-giving-off-early-google-vibesfor-good-and-for-bad/",
+      "publisher": "fortune.com",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Revenue 2025: $6.8B Net on $1.9T Processed",
+      "link": "https://getlatka.com/blog/stripe-revenue",
+      "publisher": "GetLatka",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe’s Attempted Takeover of PayPal Has Collapsed—Again",
+      "link": "https://www.inc.com/kevin-haynes/stripes-attempted-takeover-of-paypal-has-collapsed-again/91398330",
+      "publisher": "inc.com",
+      "published_at": "2026-08-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe and Advent abandoned their $50 billion pursuit of PayPal",
+      "link": "https://qz.com/stripe-advent-paypal-bid-dropped-082826",
+      "publisher": "qz.com",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-pypl-hit-stripe-advent-034347065.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal shares sink on reports Advent-Stripe consortium walks away from bid",
+      "link": "https://www.reuters.com/business/paypal-shares-fall-after-report-advent-stripe-consortium-abandons-takeover-2026-08-28/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Acquires Clerky to Offer Legal Infrastructure for Startups",
+      "link": "https://finovate.com/stripe-acquires-clerky-to-offer-legal-infrastructure-for-startups/",
+      "publisher": "Finovate",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Branch + Stripe Survey Finds Gig Work Is Becoming a Pathway to Primary Income and Entrepreneurship",
+      "link": "https://www.prnewswire.com/news-releases/branch--stripe-survey-finds-gig-work-is-becoming-a-pathway-to-primary-income-and-entrepreneurship-302859787.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe president says checkout pages ‘will go away’ as AI commerce expands",
+      "link": "https://www.businessinsider.com/stripe-checkout-pages-future-ai-agentic-commerce-2026-8",
+      "publisher": "Business Insider",
+      "published_at": "2026-08-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Review and Pricing in 2026",
+      "link": "https://www.business.com/reviews/stripe/",
+      "publisher": "Business.com",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Dates The Singularity To Jan. 1 And Prices It At $8 Billion",
+      "link": "https://www.forbes.com/sites/josipamajic/2026/08/20/stripe-dates-the-singularity-to-january-1-and-prices-it-at-8-billion/",
+      "publisher": "Forbes",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "OpenRouter & Stripe: The Intelligence Network",
+      "link": "https://a16z.com/openrouter-stripe-the-intelligence-network/",
+      "publisher": "Andreessen Horowitz",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Scoop: Stripe says \"the singularity\" has begun",
+      "link": "https://www.axios.com/2026/08/19/stripe-payments-openrouter-singularity",
+      "publisher": "Axios",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Buys A.I. Start-Up OpenRouter for $7.5 Billion",
+      "link": "https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe, OpenRouter finally strike a deal",
+      "link": "https://www.paymentsdive.com/news/stripe-openrouter-finally-strike-a-deal/828326/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe to buy OpenRouter as fintech expands deeper into AI",
+      "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe buys AI model router OpenRouter in reported $7.5B deal",
+      "link": "https://siliconangle.com/2026/08/19/stripe-buys-ai-model-router-openrouter-in-reported-7-5b-deal/",
+      "publisher": "SiliconANGLE",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Payments firm Stripe to buy marketplace OpenRouter in AI push",
+      "link": "https://www.reuters.com/technology/payments-firm-stripe-buy-ai-developer-platform-openrouter-2026-08-19/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe strikes mega-deal for OpenRouter",
+      "link": "https://www.axios.com/2026/08/17/stripe-openrouter-paypal",
+      "publisher": "Axios",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Why Stripe Wants OpenRouter",
+      "link": "https://finance.yahoo.com/technology/ai/articles/why-stripe-wants-openrouter-203334641.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe to acquire AI gateway startup OpenRouter for over $7bn",
+      "link": "https://finance.yahoo.com/technology/ai/articles/stripe-acquire-ai-gateway-startup-090916563.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Is Acquiring AI Router OpenRouter for +$8B",
+      "link": "https://finance.yahoo.com/technology/ai/articles/stripe-acquiring-ai-router-openrouter-174506790.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Acquires OpenRouter for $7B+, Turning Model Routing Into a Payments Infrastructure Problem",
+      "link": "https://finance.yahoo.com/technology/ai/articles/stripe-acquires-openrouter-7b-turning-091812340.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Payments processing firm Stripe to acquire OpenRouter for over $7bn – report",
+      "link": "https://finance.yahoo.com/technology/ai/articles/payments-processing-firm-stripe-acquire-080747105.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal reportedly in sale talks with consortium including Stripe and Advent",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-reportedly-sale-talks-consortium-113114294.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-08-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Is Reportedly In Talks To Buy PayPal",
+      "link": "https://www.engadget.com/2237637/stripe-reportedly-to-buy-paypal/",
+      "publisher": "Engadget",
+      "published_at": "2026-08-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal Stock Rises on Report of Stripe, Advent Buyout Talks",
+      "link": "https://www.barrons.com/articles/paypal-stock-stripe-advent-deal-d3924288",
+      "publisher": "Barron's",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Exclusive | PayPal in Talks to Sell Itself to Stripe, Private-Equity Firm Advent",
+      "link": "https://www.wsj.com/business/deals/stripe-advent-in-talks-to-buy-paypal-ea6aa2ba",
+      "publisher": "WSJ",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "PitchBook ranks Stripe, Databricks and Anduril as the next secondary market kings",
+      "link": "https://startupfortune.com/pitchbook-ranks-stripe-databricks-and-anduril-as-the-next-secondary-market-kings/",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
+      "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/",
+      "publisher": "infoq.com",
+      "published_at": "2026-08-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Is Synchrony Financial (SYF) A Bargain As Its Stripe CareCredit Checkout Deal Expands Reach?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/synchrony-financial-syf-bargain-stripe-111511876.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Synchrony's CareCredit Expands Access to Financing for Health & Wellness Providers with New Stripe Partnership",
+      "link": "https://www.prnewswire.com/news-releases/synchronys-carecredit-expands-access-to-financing-for-health--wellness-providers-with-new-stripe-partnership-302844258.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Exclusive: Stripe in Exclusive Talks to Buy Startup OpenRouter for Around $10 Billion",
+      "link": "https://www.theinformation.com/briefings/exclusive-stripe-exclusive-talks-buy-startup-openrouter-around-10-billion",
+      "publisher": "The Information",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Integrates CareCredit to Expand Online Health and Wellness Financing",
+      "link": "https://www.pymnts.com/healthcare/2026/stripe-integrates-carecredit-to-expand-online-health-and-wellness-financing/",
+      "publisher": "PYMNTS.com",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal to Stripe: The Offer Is Too Low",
+      "link": "https://www.fool.com/investing/2026/08/05/paypal-to-stripe-the-offer-is-too-low/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Mergermarket | Stripe-PayPal deal would likely face regulatory test over payments scale, data concerns",
+      "link": "https://www.whitecase.com/news/media/mergermarket-stripe-paypal-deal-would-likely-face-regulatory-test-over-payments-scale",
+      "publisher": "White & Case LLP",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Despite dropping out of MIT to build Stripe, its CEO has a warning for Gen Z who want to copy him",
+      "link": "https://fortune.com/2026/08/04/stripe-ceo-patrick-collison-double-ivy-league-dropout-now-billonaire-tells-gen-z-no-need-to-rush-school/",
+      "publisher": "fortune.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI-Ready Payments Are Reshaping Digital Commerce: Stripe",
+      "link": "https://mexicobusiness.news/finance/news/ai-ready-payments-are-reshaping-digital-commerce-stripe",
+      "publisher": "Mexico Business News",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe CEO says his ‘urgency’ to drop out of MIT ‘was a bit unnecessary’",
+      "link": "https://www.fastcompany.com/91585037/stripe-ceo-says-his-urgency-to-drop-out-of-mit-was-a-bit-unnecessary",
+      "publisher": "Fast Company",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Former PayPal insider sees Stripe deal as chance to revive growth",
+      "link": "https://ionanalytics.com/insights/mergermarket/former-paypal-insider-sees-stripe-deal-as-chance-to-revive-growth/",
+      "publisher": "ION Analytics",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Microsoft Channel Executive Julie Sanford Joins Stripe",
+      "link": "https://www.crn.com/news/ai/2026/microsoft-channel-executive-julie-sanford-joins-stripe",
+      "publisher": "crn.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Square Vs. Stripe (2026 Comparison)",
+      "link": "https://www.forbes.com/advisor/business/software/square-vs-stripe/",
+      "publisher": "Forbes",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Former Stripe executive takes full control of Washington bank",
+      "link": "https://www.retailbankerinternational.com/news/stripe-executive-control-washington-bank/",
+      "publisher": "Retail Banker International",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal Just Told Stripe $53 Billion Is Not Enough",
+      "link": "https://businessmodelanalyst.com/paypal-stripe-53-billion-not-enough/",
+      "publisher": "Business Model Analyst",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe’s OpenRouter Bid 70 Times Company’s Annual Revenue",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/stripe-openrouter-bid-70-times-annual-revenue/",
+      "publisher": "PYMNTS.com",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal turns a blowout earnings beat into ammunition against Stripe's $53 billion takeover bid",
+      "link": "https://startupfortune.com/paypal-turns-a-blowout-earnings-beat-into-ammunition-against-stripes-53-billion-takeover-bid/",
+      "publisher": "Startup Fortune",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal Just Beat Earnings. Does That Kill Stripe's $60.50 Bid?",
+      "link": "https://www.fool.com/investing/2026/07/28/paypal-just-beat-earnings-does-that-kill-stripes-6/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal tops Q2 estimates and raises full-year forecast amid Stripe takeover bid",
+      "link": "https://siliconangle.com/2026/07/28/paypal-tops-q2-estimates-raises-full-year-forecast-amid-stripe-takeover-bid/",
+      "publisher": "SiliconANGLE",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "TSG Announces Strategic Partnership with Stripe to Accelerate Payments-Driven Growth",
+      "link": "https://www.businesswire.com/news/home/20260727392958/en/TSG-Announces-Strategic-Partnership-with-Stripe-to-Accelerate-Payments-Driven-Growth",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "What is Stripe?",
+      "link": "https://qz.com/what-is-stripe",
+      "publisher": "qz.com",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "What's behind Stripe's OpenRouter move",
+      "link": "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency",
+      "publisher": "Axios",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "5 Interesting Learnings from Stripe at $6.8 Billion in Revenue: 33% Growth, 47% Free Cash Flow Margins, and a $53B Bid for PayPal",
+      "link": "https://www.saastr.com/5-interesting-learnings-from-stripe-at-6-8-billion-in-revenue-33-growth-47-free-cash-flow-margins-and-a-53b-bid-for-paypal/",
+      "publisher": "saastr.com",
+      "published_at": "2026-07-23T17:44:15.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Plans to Acquire PayPal for $53 Billion. Here's What That Could Mean for Crypto Investors.",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/stripe-plans-acquire-paypal-53-022000115.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Exclusive | Stripe in Talks to Buy Buzzy AI-Model Marketplace OpenRouter",
+      "link": "https://www.wsj.com/tech/ai/stripe-in-talks-to-buy-buzzy-ai-model-marketplace-openrouter-decc6a74",
+      "publisher": "WSJ",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe becomes a Worldwide Partner of the Ryder Cup",
+      "link": "https://www.rydercup.com/news-media/stripe-becomes-a-worldwide-partner-of-the-ryder-cup",
+      "publisher": "Ryder Cup | Official Site",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Minted $3.2 Billion in Cash in 2025, Setting Up Acquisition Hunt",
+      "link": "https://www.theinformation.com/articles/stripe-minted-3-2-billion-cash-2025-setting-acquisition-hunt",
+      "publisher": "The Information",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Ramp Adds Stablecoin Accounts and Bill Pay on Stripe Stack",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/ramp-adds-stablecoin-accounts-and-bill-pay-on-stripe-stack",
+      "publisher": "The Defiant",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Why the PayPal Stripe Deal Is Proof That Elon Musk’s X Money Already Won",
+      "link": "https://marketwise.com/investing/paypal-stripe-deal-x-money-elon-musk/",
+      "publisher": "MarketWise",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "EXCLUSIVE: PayPal board sees Stripe-Advent offer as inadequate, sources say",
+      "link": "https://www.reuters.com/business/paypal-board-sees-stripe-advent-offer-inadequate-sources-say-2026-07-16/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "3 Reasons Why Stripe Will Acquire PayPal (and 3 Why It Won’t)",
+      "link": "https://finovate.com/3-reasons-why-stripe-will-acquire-paypal-and-3-why-it-wont/",
+      "publisher": "Finovate",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say",
+      "link": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "How PayPal may benefit Stripe",
+      "link": "https://www.paymentsdive.com/news/how-paypal-may-benefit-stripe/825309/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal Receives $53 Billion Takeover Offer Involving Stripe",
+      "link": "https://www.nytimes.com/2026/07/15/business/paypal-stripe-advent-takeover-bid.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe Bids $53 Billion for PayPal, and Still Won’t Go Public",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stripe-bids-53-billion-paypal-154719418.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring",
+      "link": "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Is PYPL Stock Surging Nearly 15% Overnight?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-pypl-stock-surging-nearly-042403495.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Revolut, Deutsche Bank and Stripe Join ECB Digital Euro Test",
+      "link": "https://bitcoinfoundation.org/news/regulation/revolut-deutsche-bank-stripe-join-ecb-digital-euro/",
+      "publisher": "Bitcoin Foundation",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "PayPal rallies 17% on report Stripe, Advent made $53 billion bid",
+      "link": "https://www.investing.com/news/stock-market-news/stripe-advent-offer-to-buy-paypal-for-over-53-bln-reuters-4792137",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "From Nuvei To Stripe: What’s Driving Acquisitions In Cross-Border Payments?",
+      "link": "https://www.forbes.com/sites/danielwebber/2026/07/10/from-nuvei-to-stripe-whats-driving-acquisitions-in-cross-border-payments/",
+      "publisher": "Forbes",
+      "published_at": "2026-07-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe-owned Privy and Jito co-develop Solana transaction inclusion tool FullSend",
+      "link": "https://www.theblock.co/news/ecosystems/2026-07-09-stripe-privy-jito-develop-solana-transaction-inclusion-tool-fullsend-407628",
+      "publisher": "The Block",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe’s Solana Stablecoin Push Brings Another Real Payments Use Case Into View",
+      "link": "https://www.tradingview.com/news/newsbtc:80377d7a1094b:0-stripe-s-solana-stablecoin-push-brings-another-real-payments-use-case-into-view/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How real-time payments expand",
+      "link": "https://www.paymentsdive.com/news/how-real-time-payments-expand-stripe-fintechs-fednow-rtp-consumers-banks/824410/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe challenges Circle with bank-backed Open USD stablecoin",
+      "link": "https://www.thebanker.com/content/38e1c371-ca68-4a84-a540-8bdc0fb431e2",
+      "publisher": "thebanker.com",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Stripe vs Worldpay vs Nuvei: 2 Sold, 1 Won’t [2026]",
+      "link": "https://tech-insider.org/igt-stripe-vs-worldpay-vs-nuvei-for-licensed-gambling-card-en-d186/",
+      "publisher": "tech-insider.org",
+      "published_at": "2026-07-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe Expands Chicago Office to Over 222K SF in River North",
+      "link": "https://finance.yahoo.com/real-estate/articles/stripe-expands-chicago-office-over-153732347.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Cross River Teams With Stripe on Issuance for Agentic Commerce",
+      "link": "https://www.digitaltransactions.net/cross-river-teams-with-stripe-on-issuance-for-agentic-commerce/",
+      "publisher": "Digital Transactions",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stripe set to more than double office space to 222K sf in River North high-rise",
+      "link": "https://therealdeal.com/chicago/2026/07/01/stripe-set-to-double-office-space-in-river-north-high-rise/",
+      "publisher": "The Real Deal",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Banks, card networks, fintechs partner on ‘low-cost’ stablecoin",
+      "link": "https://www.bankingdive.com/news/stablecoin-open-standard-bridge-abrams-bny-stripe-mastercard-visa-coinbase-adyen/824200/",
+      "publisher": "Banking Dive",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

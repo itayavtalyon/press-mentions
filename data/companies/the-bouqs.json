@@ -1,0 +1,23 @@
+{
+  "name": "The Bouqs",
+  "last_mentioned_at": "2026-09-17T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "I found the 22 best 15-year anniversary gifts to spoil your spouse",
+      "link": "https://www.cnn.com/cnn-underscored/gifts/best-15-year-anniversary-gifts",
+      "publisher": "CNN",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "These the best gifts that celebrate a new mom, according to a mom who just had her second baby",
+      "link": "https://www.businessinsider.com/guides/gifts/best-gifts-for-new-moms",
+      "publisher": "Business Insider",
+      "published_at": "2026-08-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

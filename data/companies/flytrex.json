@@ -1,0 +1,119 @@
+{
+  "name": "Flytrex",
+  "last_mentioned_at": "2026-10-01T18:23:29.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Delivery drones could be waiting before you even order",
+      "link": "https://www.foxnews.com/tech/delivery-drones-waiting-before-you-even-order",
+      "publisher": "Fox News",
+      "published_at": "2026-09-26T11:00:23.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex wants its delivery drones waiting before you even order food",
+      "link": "https://dronedj.com/2026/09/25/flytrex-restaurant-food-drone-delivery/",
+      "publisher": "DroneDJ",
+      "published_at": "2026-09-25T08:46:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex Parks Drone Docks on Restaurant Rooftops to Feed Faster Deliveries",
+      "link": "https://dallasinnovates.com/flytrex-parks-drone-docks-on-restaurant-rooftops-to-feed-faster-deliveries/",
+      "publisher": "Dallas Innovates",
+      "published_at": "2026-09-22T15:33:39.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
+      "link": "https://www.thedronegirl.com/2026/09/16/flytrex-rooftop-docks-predictive-ai-drone-delivery/",
+      "publisher": "The Drone Girl",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex, Nash focus on flexible delivery, not just drones",
+      "link": "https://www.fastcasual.com/articles/flytrex-nash-focus-on-flexible-delivery-not-just-drones/",
+      "publisher": "fastcasual.com",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DoorDash Is Now an FAA-Certified Drone Delivery Operator",
+      "link": "https://uavcoach.com/doordash-air/",
+      "publisher": "UAV Coach",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex and Nash Partner on MultiModal Food Delivery in North Texas",
+      "link": "https://dallasinnovates.com/flytrex-and-nash-partner-on-multi-modal-food-delivery-in-north-texas/",
+      "publisher": "Dallas Innovates",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex and Nash Partner to Build an Autonomous-First, Multi-Modal Delivery Platform",
+      "link": "https://www.businesswire.com/news/home/20260729917420/en/Flytrex-and-Nash-Partner-to-Build-an-Autonomous-First-Multi-Modal-Delivery-Platform",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Flytrex Handed Order Routing To Nash, And The Drone Became One Lane Among Many",
+      "link": "https://dronexl.co/2026/07/29/flytrex-nash-order-routing-dallas/",
+      "publisher": "DroneXL",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "A Watershed Week for Drone Delivery: DoorDash Air, Walmart, Wing, and Flytrex Take Over the Skies",
+      "link": "https://www.thedronegirl.com/2026/07/30/drone-delivery-news-july-2026/",
+      "publisher": "The Drone Girl",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DoorDash is launching a competing drone delivery service",
+      "link": "https://www.businessinsider.com/doordash-launches-drone-delivery-service-faa-certification-wing-flytrex-2026-7",
+      "publisher": "Business Insider",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex and Nash Partner to Route Drone and Courier Deliveries Across Dallas-Fort Worth",
+      "link": "https://dronelife.com/2026/07/29/flytrex-and-nash-partner-to-route-drone-and-courier-deliveries-across-dallas-fort-worth/",
+      "publisher": "Dronelife",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why the future of drone delivery might involve cars after all",
+      "link": "https://www.thedronegirl.com/2026/07/29/flytrex-nash-multi-modal-drone-delivery-partnership/",
+      "publisher": "The Drone Girl",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Flytrex scales shared drone traffic system with thousands of coordinated flights",
+      "link": "https://roboticsandautomationnews.com/2026/07/07/flytrex-scales-shared-drone-traffic-system-with-thousands-of-coordinated-flights/103142/",
+      "publisher": "Robotics & Automation News",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

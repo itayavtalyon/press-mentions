@@ -1,0 +1,39 @@
+{
+  "name": "The Trendlines Group",
+  "last_mentioned_at": "2026-10-02T05:12:21.000Z",
+  "as_of": "2026-10-04T16:13:42.936Z",
+  "mentions": [
+    {
+      "title": "EcoPhage’s Virus-Based Biopesticide Clears US EPA for Tomato and Pepper Diseases",
+      "link": "https://www.global-agriculture.com/biologicals/ecophages-virus-based-biopesticide-clears-us-epa-for-tomato-and-pepper-diseases/",
+      "publisher": "global-agriculture.com",
+      "published_at": "2026-09-28T10:12:52.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Trendlines Group Ltd. ADR 2018 Q2 - Results - Earnings Call Slides (OTCMKTS:TRNLY) 2018-08-08",
+      "link": "https://seekingalpha.com/article/4196603-the-trendlines-group-ltd-adr-2018-q2-results-earnings-call-slides?source=feed_symbol_TRNGF",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-22T15:38:44.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Trendlines back in the black with earnings of US$2.2 mil for 1HFY2026",
+      "link": "https://www.theedgesingapore.com/capital/results/trendlines-back-black-earnings-us22-mil-1hfy2026",
+      "publisher": "The Edge Singapore",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "NICE Surgical Awarded U.S. Patent for Purse-String Stapler",
+      "link": "https://www.prnewswire.com/il/news-releases/nice-surgical-awarded-us-patent-for-purse-string-stapler-302815619.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

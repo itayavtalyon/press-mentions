@@ -1,0 +1,47 @@
+{
+  "name": "DreaMed Diabetes",
+  "last_mentioned_at": "2026-09-30T22:50:40.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "FDA Clears DreaMed MODI: First CGM-Driven Insulin Dose Optimization App for Type 2 Injection Therapy",
+      "link": "https://hitconsultant.net/2026/09/30/dreamed-diabetes-wins-fda-clearance-modi-autonomous-insulin-dose-optimization-type-2-injections/",
+      "publisher": "HIT Consultant",
+      "published_at": "2026-09-30T22:50:40.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DreaMed Wins FDA Clearance for CGM-Driven Insulin Automation Tool for Both Type 2 Injection Regimens",
+      "link": "https://medcitynews.com/2026/09/dreamed-wins-fda-clearance-for-cgm-driven-insulin-automation-tool-for-both-type-2-injection-regimens/",
+      "publisher": "MedCity News",
+      "published_at": "2026-09-28T23:13:55.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israeli startup develops injection-based diabetes app, receives FDA clearance",
+      "link": "https://www.jpost.com/business-and-innovation/article-910009",
+      "publisher": "The Jerusalem Post",
+      "published_at": "2026-09-28T16:23:18.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israeli app for adjusting insulin dosage receives FDA approval",
+      "link": "https://www.ynetnews.com/business/article/s1ltceoqgg",
+      "publisher": "Ynetnews",
+      "published_at": "2026-09-28T15:56:53.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Artificial Intelligence in Diabetes Management Market",
+      "link": "https://www.openpr.com/news/4629253/artificial-intelligence-in-diabetes-management-market",
+      "publisher": "openPR.com",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

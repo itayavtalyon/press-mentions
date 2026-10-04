@@ -1,0 +1,39 @@
+{
+  "name": "Dataloop",
+  "last_mentioned_at": "2026-09-28T07:42:32.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "The Israeli startups turning local innovation into global businesses",
+      "link": "https://www.ynetnews.com/tech-and-digital/article/skqre5p9fg",
+      "publisher": "Ynetnews",
+      "published_at": "2026-09-28T07:42:32.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI's dirty secret is data work. Dataloop built a business around doing it at scale",
+      "link": "https://www.ynetnews.com/tech-and-digital/article/s1grhhd8gl",
+      "publisher": "Ynetnews",
+      "published_at": "2026-09-22T11:18:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Quality Manufacturing Corporation Transforms Its 3D Inspection Data into Practical Insights",
+      "link": "https://metrology.news/quality-manufacturing-corporation-transforms-its-3d-inspection-data-into-practical-insights/",
+      "publisher": "Metrology and Quality News",
+      "published_at": "2026-09-01T05:00:38.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Dataloop AI Launches Marketplace to Transform AI Application Development and Enhance Workflow Efficiency",
+      "link": "https://www.hpcwire.com/bigdatawire/this-just-in/dataloop-ai-launches-marketplace-to-transform-ai-application-development-and-enhance-workflow-efficiency/",
+      "publisher": "HPCwire",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    }
+  ]
+}

@@ -1,0 +1,1103 @@
+{
+  "name": "Anthropic",
+  "last_mentioned_at": "2026-10-02T05:44:12.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "EXCLUSIVE: Anthropic IPO prospectus lays bare deep dependence on Big Tech partners",
+      "link": "https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-29T20:53:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic says rogue AI agents pose uncertain legal risk for the company",
+      "link": "https://www.reuters.com/legal/litigation/anthropic-says-rogue-ai-agents-pose-uncertain-legal-risk-company-2026-09-29/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-29T17:16:36.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic's $518 billion AI buildout hinges largely on deals that cannot be canceled, filing shows",
+      "link": "https://www.reuters.com/business/anthropics-518-billion-ai-buildout-hinges-largely-deals-that-cannot-be-canceled-2026-09-29/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-29T16:48:56.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "What do you want from AI?",
+      "link": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-29T16:39:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "link": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-29T15:46:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "US appeals court upholds Pentagon's blacklisting of Anthropic",
+      "link": "https://www.reuters.com/world/us-appeals-court-declines-block-pentagons-blacklisting-anthropic-2026-09-25/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-25T17:54:58.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+      "link": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-25T16:58:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic, OpenEvidence partner to bring medical AI worldwide",
+      "link": "https://www.reuters.com/legal/litigation/anthropic-openevidence-partner-bring-medical-ai-worldwide-2026-09-22/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-24T21:33:52.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Project Swap: What happens when agents trade for us?",
+      "link": "https://www.anthropic.com/research/project-swap",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-24T18:37:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Introducing Claude Opus 5.5",
+      "link": "https://www.anthropic.com/claude-opus-5-5",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic is going public. Here’s where things stand",
+      "link": "https://www.empower.com/the-currency/money/anthropic-ipo-news",
+      "publisher": "empower.com",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic and OpenAI roll out cheaper models in first release since call for slowdown",
+      "link": "https://www.cnbc.com/2026/09/22/anthropic-openai-cheaper-ai-models.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say",
+      "link": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic’s IPO Will Be AI’s Next Moment of Crisis",
+      "link": "https://www.barrons.com/articles/ai-anthropic-ipo-8d8f7fd8",
+      "publisher": "Barron's",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic quietly sets up biology lab as it ramps AI drug program",
+      "link": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Introducing the Life Sciences Verification Program",
+      "link": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic shares 3 metrics to help AI companies monitor pace of development",
+      "link": "https://www.cnbc.com/2026/09/17/anthropic-shares-3-metrics-to-help-ai-companies-monitor-development.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
+      "link": "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic, OpenAI proposed new 'neutral' AI watchdogs. Why you should worry about the idea",
+      "link": "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "OpenAI, Google, Anthropic discussing collaboration on AI safety issues",
+      "link": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic co-founder says slowing AI is a 'collective action problem'",
+      "link": "https://www.npr.org/2026/09/15/nx-s1-5968852/anthropic-jack-clark-ai-risks-safety",
+      "publisher": "NPR",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic IPO won't be slowed by safety uproar",
+      "link": "https://www.axios.com/2026/09/14/anthropic-ipo-safety-openai",
+      "publisher": "Axios",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic targets financial advisers with new Claude tool",
+      "link": "https://www.reuters.com/business/anthropic-targets-financial-advisers-with-new-claude-tool-2026-09-14/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Video: Ex-Anthropic Employee: Here’s Why A.I. Might Want to Kill Us",
+      "link": "https://www.nytimes.com/video/podcasts/the-daily/100000011151434/ex-anthropic-employee-heres-why-ai-might-want-to-kill-us.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-09-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-10T17:10:27.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
+      "link": "https://apnews.com/article/anthropic-ai-threat-bioweapon-russia-00266dca90e4f8853f669648998d3bda",
+      "publisher": "AP News",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Former Anthropic researcher outlines threat of AI going rogue",
+      "link": "https://www.npr.org/2026/09/10/nx-s1-5964864/former-anthropic-researcher-outlines-threat-of-ai-going-rogue",
+      "publisher": "NPR",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic discloses fourth AI hacking incident missed in earlier review",
+      "link": "https://www.reuters.com/legal/litigation/anthropic-reports-fourth-cybersecurity-incident-with-early-version-claude-2026-09-09/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "link": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Two dire warnings, one from Terence Tao, the other from someone who just quit Anthropic",
+      "link": "https://garymarcus.substack.com/p/two-dire-warnings-one-from-terence",
+      "publisher": "Marcus on AI | Substack",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Scoop: Anthropic breaks from major tech group over chips",
+      "link": "https://www.axios.com/2026/09/08/anthropic-breaks-tech-group-chips",
+      "publisher": "Axios",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic Said to Walk Away From $6 Billion Decart Acquisition",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-said-walk-away-6-012511516.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic IPO launch shifts toward mid-October, sources say",
+      "link": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic Delays IPO And Expands Credit Line To $15 Billion",
+      "link": "https://www.forbes.com/sites/jonmarkman/2026/09/07/anthropic-delays-ipo-to-mid-october-locks-in-15-billion-credit-line/",
+      "publisher": "Forbes",
+      "published_at": "2026-09-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Formalizing Fermat's Last Theorem",
+      "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Which Investors Will Get Rich From Anthropic’s IPO?",
+      "link": "https://www.nytimes.com/2026/09/03/technology/anthropic-ipo-investors-winners.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic faces different government responses as Pentagon battle continues",
+      "link": "https://fedscoop.com/anthropic-government-responses-pentagon-battle-continues-claude/",
+      "publisher": "FedScoop",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic and OpenAI's revenue chasm, explained",
+      "link": "https://www.axios.com/2026/09/03/anthropic-and-openais-revenue-chasm-explained",
+      "publisher": "Axios",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic's distillation battle turns to the dark web as China concerns swell",
+      "link": "https://www.cnbc.com/2026/09/03/anthropic-distillation-battle-turns-to-dark-web-china-concerns-swell.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic pauses some AI training following rogue agent hacks. Here’s how it compares with OpenAI",
+      "link": "https://fortune.com/2026/09/02/anthropic-ai-pause-rogue-agent-hacks-openai/",
+      "publisher": "fortune.com",
+      "published_at": "2026-09-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "publisher": "Anthropic",
+      "published_at": "2026-09-01T18:01:25.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic changes data retention policy after pushback from customers",
+      "link": "https://www.cnbc.com/2026/09/01/anthropic-data-retention.html",
+      "publisher": "CNBC",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic releases new models, cuts agent costs",
+      "link": "https://www.axios.com/2026/09/01/anthropic-releases-new-models-cost-structures-and-safeguards",
+      "publisher": "Axios",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Judge Rules DOD Unlawfully Retaliated Against Anthropic",
+      "link": "https://www.eff.org/deeplinks/2026/09/judge-rules-dod-unlawfully-retaliated-against-anthropic",
+      "publisher": "Electronic Frontier Foundation",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing",
+      "link": "https://www.morningstar.com/stocks/how-anthropic-makes-moneyand-what-investors-should-know-ahead-its-ipo-filing",
+      "publisher": "Morningstar",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Improving our alignment and security practices",
+      "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Exclusive | Anthropic Signs $35 Billion Cloud Deal Backed by Nvidia",
+      "link": "https://www.wsj.com/tech/ai/anthropic-signs-35-billion-cloud-deal-backed-by-nvidia-f12622f1",
+      "publisher": "WSJ",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic paused some AI training after Claude took unauthorized actions",
+      "link": "https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions",
+      "publisher": "Axios",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "US judge blocks Pentagon's Anthropic blacklisting",
+      "link": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Meta Took Aim at Anthropic. It Is Also One of Its Largest Customers.",
+      "link": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "EXCLUSIVE: Anthropic in talks with chip start up MatX to speed up chip design, sources say",
+      "link": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic expected to tell investors it sees over $30 trillion in potential revenue, WSJ reports",
+      "link": "https://www.reuters.com/business/media-telecom/anthropic-expected-tell-investors-it-sees-over-30-trillion-potential-revenue-wsj-2026-08-25/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "link": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic claims $30T AI market (just 12x the entire tech sector combined)",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-claims-30t-ai-market-165243045.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic IPO: What it Means for Wall Street",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-means-wall-street-185100480.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Has a $65 Billion Run Rate. Buy These Stocks to Profit From It.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-65-billion-run-rate-084400523.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Could Outdo SpaceX With Its IPO. Here's How Much Investors Think It's Worth Right Now and Why.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-could-outdo-spacex-ipo-102500548.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
+      "link": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic hires ex-Google chip chief as AI lab pushes into hardware - Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-hires-ex-google-chip-211528852.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic plans to change enterprise data retention policy, source says",
+      "link": "https://www.reuters.com/business/anthropic-plans-change-enterprise-data-retention-policy-source-says-2026-08-20/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic could publicly file IPO paperwork as soon as this month",
+      "link": "https://finance.yahoo.com/technology/article/anthropic-could-publicly-file-ipo-paperwork-as-soon-as-this-month-192026244.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "link": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic targets $10B+ credit facility ahead of planned public debut - Bloomberg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-targets-10b-credit-facility-173031496.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Just Changed the Case for Its IPO",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-changed-case-ipo-180427138.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
+      "link": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic revenue run rate tops $65 billion, source says",
+      "link": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic’s Annualized Revenue Tops $65 Billion Before IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "EXCLUSIVE Anthropic IPO valuation hinges on $190-200 billion 2028 revenue forecast, sources say",
+      "link": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\"",
+      "link": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+      "publisher": "Axios",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic CFO Krishna Rao is leading early IPO meetings with investors and has not discussed valuation, sources say",
+      "link": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How well do job retraining programs work?",
+      "link": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Contractors trying to comply with the Pentagon’s Anthropic restrictions are running into an unexpected problem",
+      "link": "https://federalnewsnetwork.com/contracting/2026/08/contractors-trying-to-comply-with-the-pentagons-anthropic-restrictions-are-running-into-an-unexpected-problem/",
+      "publisher": "Federal News Network",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Sets Fall IPO, Eyeing Trillions",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-fall-ipo-eyeing-185032639.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Riot Platforms strikes deal with Anthropic as bitcoin miners shift focus to AI infrastructure",
+      "link": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
+      "link": "https://www.anthropic.com/research/riemann-zeta",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Tries to Shore Up Investor Confidence Ahead of Blockbuster IPO",
+      "link": "https://www.wsj.com/tech/ai/anthropic-tries-to-shore-up-investor-confidence-ahead-of-blockbuster-ipo-0ff736ad",
+      "publisher": "WSJ",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Improving Fable 5's biology safeguards",
+      "link": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "publisher": "Anthropic",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-spvs-stack-71-billion-000514097.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "OpenAI, Anthropic AI agents implicated in new security breaches",
+      "link": "https://www.reuters.com/legal/litigation/openai-anthropic-ai-agents-implicated-new-security-breaches-2026-08-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic's Mythos created fake identities to fool humans in new cyber incident",
+      "link": "https://www.cnbc.com/2026/08/05/anthropic-mythos-openai-security-breaches.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic to build in-house chip design team for Claude, hire engineers",
+      "link": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows | Amazon Web Services",
+      "link": "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
+      "publisher": "Amazon Web Services (AWS)",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic says human error let Claude AI models escape test environment and hack third parties",
+      "link": "https://www.cybersecuritydive.com/news/anthropic-claude-ai-hacking-test/826708/",
+      "publisher": "Cybersecurity Dive",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic says its AI models hacked 3 organizations during testing",
+      "link": "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
+      "publisher": "AP News",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic confirms its AI breached 3 organizations during testing",
+      "link": "https://www.nextgov.com/cybersecurity/2026/07/anthropic-confirms-its-ai-breached-3-organizations-during-testing/415138/",
+      "publisher": "Nextgov/FCW",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations",
+      "link": "https://www.nytimes.com/2026/07/30/technology/anthropic-ai-hack.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic said its AI models hacked into other companies’ systems during testing",
+      "link": "https://www.cnn.com/2026/07/30/tech/anthropic-ai-models-break-out-hack",
+      "publisher": "CNN",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic's AI models hacked 3 organizations during testing",
+      "link": "https://www.politico.com/news/2026/07/30/anthropic-ai-rogue-hacks-01018741",
+      "publisher": "Politico",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Judge likely to rid Anthropic of Pentagon's 'supply chain risk' label",
+      "link": "https://www.courthousenews.com/judge-likely-to-rid-anthropic-of-pentagons-supply-chain-risk-label/",
+      "publisher": "courthousenews.com",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic says its Claude models 'gained unauthorized access' to other organizations' systems",
+      "link": "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks",
+      "link": "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Dario takes it on the chin",
+      "link": "https://garymarcus.substack.com/p/dario-takes-it-on-the-chin",
+      "publisher": "Marcus on AI | Substack",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "link": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Top scientists at OpenAI and Anthropic ask U.S. for tools to pace AI development",
+      "link": "https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727",
+      "publisher": "NBC News",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei says AI company isn't advocating for ban of open-weight models",
+      "link": "https://www.cnbc.com/2026/07/27/anthropic-ceo-dario-amodei-isnt-advocating-open-weight-model-ban.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cognizant and Anthropic expand partnership to embed Claude in Cognizant's industry platforms, helping clients close the gap between AI promise and business outcomes",
+      "link": "https://news.cognizant.com/2026-07-27-Cognizant-and-Anthropic-expand-partnership-to-embed-Claude-in-Cognizants-industry-platforms,-helping-clients-close-the-gap-between-AI-promise-and-business-outcomes",
+      "publisher": "Cognizant Technology Solutions",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "link": "https://www.anthropic.com/news/claude-opus-5",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "$2 Trillion Anthropic IPO Is a Go. Here’s Why I Won’t Touch It",
+      "link": "https://finance.yahoo.com/technology/ai/articles/1-trillion-anthropic-ipo-why-093717512.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Anthropic Economic Index connector",
+      "link": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A research agenda for the Economic Futures Research Fund",
+      "link": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+      "link": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Doubles Midterm Spending to $40 Million to Push AI Regulation",
+      "link": "https://www.wsj.com/tech/ai/anthropic-doubles-midterm-spending-to-40-million-to-push-ai-regulation-9cd547ae",
+      "publisher": "WSJ",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic to donate $20 million to US political group that supports AI regulation",
+      "link": "https://www.reuters.com/legal/government/anthropic-donate-20-million-us-political-group-that-supports-ai-regulation-2026-07-22/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Donating another $20 million to Public First Action",
+      "link": "https://www.anthropic.com/news/donation-public-first-action",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "US judge approves Anthropic's $1.5 billion settlement of copyright lawsuit",
+      "link": "https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic sued for infringing neural network technology patents",
+      "link": "https://www.reuters.com/legal/government/university-tennessee-sues-anthropic-over-neural-network-technology-2026-07-21/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "AI for Science rare disease research grants",
+      "link": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Got $1,000? 2 Stocks to Own Before the Anthropic IPO.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/got-1-000-2-stocks-121300367.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "The Anthropic IPO Could Come by October. Will It Do Better Than SpaceX?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-could-come-october-180924141.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic to pay $1.5 billion copyright settlement to authors, publishers",
+      "link": "https://courthousenews.com/anthropic-to-pay-1-5-billion-copyright-settlement-to-authors-publishers/",
+      "publisher": "courthousenews.com",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic is offering $600,000 to someone to shape its Wall Street story as it gears up for a blockbuster IPO",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-offering-600-000-someone-103000640.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic in early talks with Meta to acquire compute power",
+      "link": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "DoW’s Anthropic Ban Goes Live: A Confusing Patchwork of Certification Demands for Contractors",
+      "link": "https://www.mayerbrown.com/en/insights/publications/2026/07/dows-anthropic-ban-goes-live-a-confusing-patchwork-of-certification-demands-for-contractors",
+      "publisher": "Mayer Brown",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic has a counter to OpenAI’s ‘reverse federalism’ play",
+      "link": "https://www.politico.com/news/2026/07/15/inside-anthropics-state-by-state-plan-to-ratchet-up-ai-rules-00998415",
+      "publisher": "Politico",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Anthropic bets bigger on healthcare with Optum tie-up, UST integration",
+      "link": "https://www.fiercehealthcare.com/health-tech/tech-services-company-ust-integrates-anthropic-claude",
+      "publisher": "Fierce Healthcare",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Another contender just joined the arms race over AI in schools",
+      "link": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/",
+      "publisher": "Chalkbeat",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Claude's values vary by model and language",
+      "link": "https://www.anthropic.com/research/claude-values-models-languages",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Inviting hard questions",
+      "link": "https://www.anthropic.com/news/hard-questions",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Introducing a way to reflect on how you use Claude",
+      "link": "https://www.anthropic.com/news/reflect-with-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic's IPO Will Lead to Windfall Profits for These 3 Early Investors",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropics-ipo-lead-windfall-profits-092600849.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Former Fed chair Ben Bernanke joins Anthropic's AI oversight trust",
+      "link": "https://www.reuters.com/business/former-fed-chair-ben-bernanke-joins-anthropics-ai-oversight-trust-2026-07-09/",
+      "publisher": "Reuters",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Research note: Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
+      "link": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/",
+      "publisher": "METR",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "China warns about AI risks with Anthropic's Claude Code",
+      "link": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic taps Teresa Carlson to lead public sector portfolio",
+      "link": "https://fedscoop.com/anthropic-taps-teresa-carlson-lead-public-sector/",
+      "publisher": "FedScoop",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic taps Teresa Carlson as public sector lead",
+      "link": "https://www.nextgov.com/people/2026/07/anthropic-taps-teresa-calrson-public-sector-lead/414604/",
+      "publisher": "Nextgov/FCW",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "A global workspace in language models",
+      "link": "https://www.anthropic.com/research/global-workspace",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "I spoke to Anthropic’s CEO about how AI may affect biotech. Here’s what I learned",
+      "link": "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/",
+      "publisher": "STAT",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "link": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic Could Be a $1 Trillion IPO This Fall. These 2 Stocks Already Own a Piece.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-could-1-trillion-ipo-235600570.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "publisher": "Anthropic",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic debuts AI-driven pharma R&D tool, Claude Science",
+      "link": "https://www.pharmaceutical-technology.com/news/anthropic-launches-claude-science-ai-tool-drug-discovery/",
+      "publisher": "Pharmaceutical Technology",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "US to lift export controls on key Anthropic models",
+      "link": "https://www.nextgov.com/artificial-intelligence/2026/07/us-lift-export-controls-key-anthropic-models/414561/",
+      "publisher": "Nextgov/FCW",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Anthropic expands in Seattle as AI boom offers hope for struggling office market",
+      "link": "https://www.geekwire.com/2026/anthropic-expands-in-seattle-as-ai-boom-offers-hope-for-struggling-office-market/",
+      "publisher": "GeekWire",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "U.S. lifts ban on Anthropic’s powerful Fable 5 AI model",
+      "link": "https://www.nbcnews.com/business/business-news/commerce-department-gives-green-light-anthropic-bring-back-fable-5-rcna352501",
+      "publisher": "NBC News",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

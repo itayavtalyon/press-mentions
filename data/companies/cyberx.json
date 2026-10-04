@@ -1,0 +1,23 @@
+{
+  "name": "CyberX",
+  "last_mentioned_at": "2026-09-13T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Local ecosystem seen vital to protecting Qatar's critical digital infrastructure | Gulf Times",
+      "link": "https://www.gulf-times.com/article/733166/business/local-ecosystem-seen-vital-to-protecting-qatars-critical-digital-infrastructure",
+      "publisher": "Gulf Times",
+      "published_at": "2026-09-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "CyberX Becomes First Portuguese Offensive Security Firm to Enter Qatar Science & Technology Park (QSTP)",
+      "link": "https://www.einnews.com/pr_news/934462114/cyberx-becomes-first-portuguese-offensive-security-firm-to-enter-qatar-science-technology-park-qstp",
+      "publisher": "EIN News",
+      "published_at": "2026-08-17T13:21:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    }
+  ]
+}

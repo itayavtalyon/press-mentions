@@ -1,0 +1,79 @@
+{
+  "name": "Astra",
+  "last_mentioned_at": "2026-09-25T11:00:10.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Rocket Report: Era of cheap launch is over? Astra sets early 2027 target for return",
+      "link": "https://arstechnica.com/space/2026/09/rocket-report-era-of-cheap-launch-is-over-astra-sets-early-2027-target-for-return/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-09-25T11:00:10.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Small Satellite Launch Company Astra Launches But Fails To Reach Orbit",
+      "link": "https://www.spaceref.com/commercial-space/small-satellite-launch-company-astra-launches-but-fails-to-reach-orbit.html",
+      "publisher": "SpaceRef",
+      "published_at": "2026-09-18T17:58:55.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Astra is Poised to Rewrite the ‘Commercial’ Rocket Equation with its 2027 Rocket 4 Launch",
+      "link": "https://thedebrief.org/astra-space-looks-poised-to-rewrite-the-commercial-rocket-equation-with-its-2027-rocket-4-launch/",
+      "publisher": "The Debrief",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Astra projecting early 2027 for the introduction of Rocket 4.0",
+      "link": "https://spacenews.com/astra-projecting-early-2027-for-the-introduction-of-rocket-4-0/",
+      "publisher": "SpaceNews",
+      "published_at": "2026-09-18T04:07:56.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Summary Notice to Stockholders of Astra Space, Inc. as of July 18, 2024",
+      "link": "https://www.prnewswire.com/news-releases/summary-notice-to-stockholders-of-astra-space-inc-as-of-july-18-2024-302866606.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Astra Space seeks $250 million to revive its launch programs",
+      "link": "https://americanbazaaronline.com/2026/08/14/astra-space-seeks-250-million-to-revive-its-launch-programs-486412/",
+      "publisher": "The American Bazaar",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "US rocket company Astra Space seeks to raise $250 million in comeback bid",
+      "link": "https://www.reuters.com/legal/transactional/us-rocket-company-astra-space-seeks-raise-250-million-comeback-bid-2026-08-14/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Price it like a Tomahawk, not a Falcon 9: the case for sovereign microlaunch as deterrence",
+      "link": "https://www.thespacereview.com/article/5279/1",
+      "publisher": "The Space Review",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "India emerging as trusted global defence partner: PM Modi",
+      "link": "https://www.newindianexpress.com/india/2026/Jul/26/india-emerging-as-trusted-global-defence-partner-pm-modi",
+      "publisher": "The New Indian Express",
+      "published_at": "2026-07-26T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

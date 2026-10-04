@@ -1,93 +1,164 @@
-# Press mentions
+# Press Mentions Monitor
 
-## Overview
+**Tracks press coverage for OurCrowd's 258 portfolio and fund companies.** It collects news, judges each article with a **local Ollama model**, shows the quarter on a dashboard, and alerts on new coverage every day.
 
-Local monitoring of press mentions for OurCrowd portfolio companies. The backfill collects Google News candidates. The prompt evaluator scores installed Ollama chat models against saved classifier prompts. The dashboard server shows the index, company, and review pages. The forward feed is not built yet.
+![Dashboard: every company with its Q3 sentiment tally and last-mentioned status](docs/shots/index--desktop-light.png)
 
-## Setup
+## The three goals
 
-Node.js 24.
+| Goal                                                                                      | Where it lives                                                                                                                 |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Quarterly dashboard**: each mention positive / negative / neutral, linked to its source | `npm start`, then open http://127.0.0.1:3000. The index tallies every company; each company page lists its mentions with links |
+| **Mention status**: "last mentioned 3 days ago / no coverage"                             | The index's _Last mentioned_ column, the company page header, and `data/summary.json`                                          |
+| **Daily alert** when new coverage appears                                                 | `job:feed` → … → `job:digest` → `job:mail`, run from cron. One digest per company, negative first                              |
+
+## The real run (as of 2026-10-04)
+
+| Q3 2026 (1 Jul – 30 Sep, UTC) |                                                                                           |
+| ----------------------------- | ----------------------------------------------------------------------------------------- |
+| Companies tracked             | 258. 154 with Q3 coverage, 104 with none found                                            |
+| Mentions shown                | **3,034**: 1,935 positive · 751 neutral · 308 negative · 40 unranked                      |
+| Filtered out by the LLM       | 1,340 namesakes and passing references (_Astra_ the rocket company vs. every other Astra) |
+| Last mentioned                | 76 companies within a week · 37 in 8–30 days · 41 earlier                                 |
+
+The output is committed in [`data/`](data/), so you can review it without running anything:
+
+- `data/summary.json`: the status of every company (last mentioned, days since, Q3 counts)
+- `data/companies/<id>.json`: each company's Q3 mentions with title, link, publisher, date, and verdict
+- `data/alerts.json`: the alert digests the daily run produced
+- `data/sqlite/`: the full stores, including article text and raw LLM replies (emails redacted). To browse them in the dashboard: `COVERAGE_DB=data/sqlite/coverage.sqlite npm start`
+
+## How it works
+
+```mermaid
+flowchart LR
+  G[Google News RSS] --> F[feed<br/>daily, last 3 days]
+  G --> B[backfill<br/>once, last quarter]
+  F & B --> U[unwrap<br/>publisher URL] --> FE[fetch<br/>page HTML] --> X[extract<br/>Readability text] --> C[classify<br/>Ollama]
+  C --> E[eligible] --> D[digest] --> M[mail]
+  C --> DB[(SQLite)] --> UI[Dashboard]
+```
+
+- **Source: Google News RSS.** It's free, needs no key, and covers publishers worldwide. Each article goes through a real **unwrap** of Google's redirect to reach the publisher's URL ([how](docs/unwrap/README.md)), and then the full text is fetched and run through Readability.
+- **The queue is the database row.** Each article has a `stage` column. Every step is its own cron command: it drains its own stage, holds its own lock, and exits. A crash loses nothing, and a re-run resumes where it stopped.
+- **The backfill never alerts.** Only `daily` rows published within the last 72 hours can become alerts. The outbox is idempotent, so a re-run never sends the same digest twice.
+
+## The local LLM
+
+**Model: `qwen3.5:9b`, picked by a tournament rather than by taste.** `npm run job:eval` scores every installed model against every prompt version on a hand-labelled set:
+
+| Model / prompt           | Exact verdict     | Relevance right   | Sec / article on an M1 (32 GB) |
+| ------------------------ | ----------------- | ----------------- | ------------------------------ |
+| **qwen3.5:9b / v001** ✅ | **149/177 (84%)** | **164/177 (93%)** | **1.8**                        |
+| gemma4:12b / v002        | 149/177 (84%)     | 161/177 (91%)     | 3.1                            |
+| qwen2.5:14b / v002       | 144/177 (81%)     | 165/177 (93%)     | 1.6                            |
+
+Nine pairs were scored in total (3 models × 3 prompts); the full table is in [docs/prompt-eval](docs/prompt-eval/README.md). The two leaders tie on exact verdicts. The tie-break, relevance, goes to Qwen, which is also 40% faster.
+
+**How it's invoked:** one call per article, judging every company that article was found for.
+
+- **The prompt** ([`prompt/classifier.v001.txt`](prompt/classifier.v001.txt)) contains the article text (capped at 6,000 characters), the publisher, and the candidate companies. A company that shares its name with something else gets a one-line identity, e.g. _"Astra — space launch company…"_.
+- **The output** is constrained by Ollama's `format` JSON schema to `{"<company>": "positive" | "negative" | "neutral" | "unranked" | "unrelated" | "uncertain"}`. The model runs with `temperature: 0`, `seed: 0`, and `think: false`.
+- **Relevance and sentiment in one pass.** `unrelated` filters out namesakes and passing references. `unranked` means it is about the company, but the text is too thin to judge tone.
+- **It fails closed.** A reply that won't parse becomes `uncertain` and is hidden from the counts. It is listed on the dashboard's _Review_ page together with the raw reply ([ADR 0002](docs/adr/0002-verdicts-and-fail-closed.md)).
+
+**How quality was validated:**
+
+1. **The tournament set:** 167 cases with 177 decisions, taken from **real articles the system fetched while it was being built**. They are graded easy / medium / hard, and the hard ones are namesakes and list mentions.
+2. **A human spot-check on the real Q3 output:** 30 random verdicts, stratified by label. The result was **24 right, 4 debatable, 2 wrong** ([graded list](docs/spot-check.md)). Both errors are tone or relevance on business news; there were no namesake mix-ups.
+
+## Run it
+
+**Prerequisites:** Node.js 24 and [Ollama](https://ollama.com/download).
 
 ```bash
 npm ci
 cp .env.example .env
+ollama serve                 # skip if the Ollama app is already running
+ollama pull qwen3.5:9b       # ~6.6 GB
 ```
 
-Optional: [just](https://github.com/casey/just) wraps the same npm scripts (`just setup`, `just start`, `just job-backfill`, `just job-feed`, `just job-unwrap`, `just job-fetch`, `just job-extract`, `just job-classify`, `just job-digest`, `just job-eval`, `just verify`, `just ui-check`). A fresh clone does not need it.
-
-## Run
+**First run.** Backfill the last quarter, process it, and open the dashboard:
 
 ```bash
-npm run job:backfill
-npm start
-npm run job:feed
-npm run job:unwrap
-npm run job:fetch
-npm run job:extract
-npm run job:classify
-npm run job:digest
-npm run job:eval
-npm run verify
+npm run job:backfill         # Google News, Jul 1 → now, all 258 companies
+npm run job:unwrap && npm run job:fetch && npm run job:extract && npm run job:classify
+npm start                    # http://127.0.0.1:3000
 ```
 
-`npm run job:backfill` loads `seed/companies.txt` and `seed/overlay.json` into the coverage store at `COVERAGE_DB`. It holds `<COVERAGE_DB>.feed.lock` while it runs. Unwrap, fetch, extract, and classify do not share that file. It then collects each company's Google News candidates for last quarter through now: one query, or one per week when the first page is full, keeping at most 150. It stores each new article at stage `unwrap` and stops. It does not unwrap, fetch, extract, or classify. A company whose candidates are stored is skipped on the next run. Requests to Google are spaced by `GOOGLE_TOKEN_MS` and back off on 429. The job exits 1 if any company failed or Google kept throttling.
+The full first run took a few hours, well under a day, on an M1 with 32 GB.
 
-Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify lock that database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. A second copy of the same command exits 1, names that pid, and does not open its store. The process writes its pid into a claim file and links that onto the lock, so the file is never empty, and deletes the lock when it exits. If the pid in the file is not running, the next start renames the file aside and takes the lock, so a crash does not stick. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. A pid that now belongs to some other live process looks held until that process exits. Each process has its own in-memory token bucket. `news.google.com` uses `GOOGLE_TOKEN_MS`. Every other host uses `PUBLISHER_TOKEN_MS` (default 2000). If the feed and unwrap overlap, those Google rates add. At the default, Google can see two requests a second. There is no shared slot file.
+**The daily job.** The same commands, from cron. Each one drains its queue and exits, and overlapping runs are blocked by per-command locks:
 
-Unwrap, fetch, extract, and classify are four cron commands. Each one holds its own lock for its whole run and reads only articles whose `stage` column is its own queue. A write matches that stage. A row that has already moved is logged and left alone. The step does not call the next step. Cron starts each step. The coverage row is the queue. If volume demands it, replace cron polling with a message queue such as Kafka. Classification is its own command.
-
-`npm start` is the dashboard on `http://127.0.0.1:3000/` (`PORT` changes the port). It reads the coverage store and never writes collection data. `npm run job:feed` is the forward feed. It collects the trailing three days and does not unwrap, fetch, extract, classify, or enqueue digests. `npm run job:unwrap` stores the publisher URL for rows at stage `unwrap`. It GETs each article page, then sends a `batchexecute` POST for every 20 articles that returned a signature, and one more POST for a shorter remainder. A page it cannot resolve takes the title path. `docs/unwrap/README.md` is that call, and why a redirect is not the publisher URL. `npm run job:fetch` stores the publisher page for rows at stage `fetch`. Each publisher host has its own token bucket, refilled every `PUBLISHER_TOKEN_MS` milliseconds (default 2000), so one site does not slow another. A status other than 429 or 5xx, or a refused URL, takes the title path. In production at large scale, dedicated workers will work the queues by domain. `npm run job:extract` stores Readability text for rows at stage `extract`, or the title when that text is empty after trim. `npm run job:classify` scores each open company link for articles at stage `classify` with the live model and prompt, then leaves the stage at `classify`. `npm run job:digest` still exits without doing work. The mailer is a separate command and is not built yet. Every script loads `.env` with Node's `--env-file`.
-
-`npm run job:eval` scores every installed chat model against `prompt/classifier.vNNN.txt` and the cases in the evaluation database. It needs a running Ollama server. `docs/prompt-eval/README.md` is how a run is scored, how the winner is chosen, and how a later prompt version is written. `npm run verify` does not call Ollama.
-
-`npm run verify` runs lint, format check, typecheck, tests with coverage, knip, duplication, and `npm audit`, and stops at the first failure.
-
-## Dashboard UI checks
-
-```bash
-npx playwright-core install chromium
-just ui-check
+```cron
+0  6 * * *    cd /path/to/repo && npm run job:feed
+*/15 * * * *  cd /path/to/repo && npm run job:unwrap  && npm run job:fetch  && npm run job:extract
+*/15 * * * *  cd /path/to/repo && npm run job:classify && npm run job:eligible
+*/15 * * * *  cd /path/to/repo && npm run job:digest  && npm run job:mail
 ```
 
-The first command downloads playwright's Chromium build once. `just ui-check` runs `tools/contrast.mjs`, which reads the color tokens from `src/ui/browser/app.css` and checks each pair against its WCAG 2.x minimum. It then starts the server on port 3999 against `COVERAGE_DB` and runs `tools/shoot.mjs` and `tools/axe.mjs`. Shoot fails when a page scrolls sideways at 320, 390, or 640 px (640 px is a 1280 px window at 200% zoom), and writes viewport screenshots, forced colors, and keyboard focus to `docs/shots/`. Axe runs axe-core (WCAG 2.2 A and AA, plus best practices) light and dark at 1280 and 390 px. Each tool exits 1 on a failure. `tools/pages.mjs` lists the pages: the index (plain, negative filter, bad date, bad verdict), review, 404, an unknown company, and, when the index links a company, the first company's page, its dialog, the dialog's address error, the subscribe 400 page without script, a bad range, and the last company's page.
+`job:mail` prints each digest to the console as a `mail.sent` log line. The default subscriber is `ALERT_EMAIL`, and any company page has a _Get email alerts_ form. `npm run job:export` rewrites `data/`. `npm run verify` runs every quality gate.
 
-Results on 2026-10-02, on the real coverage store during the first backfill (258 companies, 2,229 articles at stage `unwrap`, none classified):
+| `.env`                                   | Default                   |
+| ---------------------------------------- | ------------------------- |
+| `COVERAGE_DB` / `ALERTS_DB` / `EVAL_DB`  | `data/*.sqlite`           |
+| `OLLAMA_HOST`                            | `http://127.0.0.1:11434`  |
+| `ALERT_EMAIL`                            | `alerts@example.com`      |
+| `GOOGLE_TOKEN_MS` / `PUBLISHER_TOKEN_MS` | 1000 / 2000 (rate limits) |
+| `PORT`                                   | 3000                      |
 
-- Contrast: 72 pairs, 0 failures.
-- Overflow: none at 320, 390, or 640 px on 13 pages.
-- axe: 0 violations on 13 pages, light and dark, 1280 and 390 px.
-- Keyboard (spec §11 pass 1): skip link, brand, Companies, Review, Time window, Verdict, name filter, then each company link. The skip link moves focus to `main`. An arrow on Time window reloads the page and focus returns to the new radio. On a company page: back link, Get email alerts, filters, then the empty state's link. Enter opens the dialog with focus in the email field. Tab goes Cancel, Subscribe, then Chrome's own toolbar, then back to the field. Escape closes it and focus returns to Get email alerts. Every stop shows the focus ring.
-- Name filter: `signals` gives `Showing 2 of 258 companies`. No match hides the table and shows the query and Clear filter.
-- Zoom and reflow (pass 3): covered by the 320 and 640 px overflow runs. Text spacing (1.4.12) clips nothing at 1280 and 320 px.
-- Forced colors (pass 4), emulated in Chromium: segments, pills, inputs, and buttons keep borders. The checked radio shows in Highlight. The focus ring shows.
-- Script off (pass 5): the name filter is absent and Apply shows. Choosing a window does not submit, and Apply does. Custom shows the dates. A reversed range answers 400 with the field marked and the value kept. Times read in UTC. Get email alerts opens the dialog natively. A bad address posts to a 400 page with the field marked, focused, and kept.
-- Reduced motion: the dialog has no animation.
-- VoiceOver (pass 2), run by Itay on macOS Safari: one h1 and the five landmarks in the rotor; the Time window radio reads its position and group; the name filter status is announced once per pause; the dialog reads its name and role; the address error is read; table navigation reads the column headers.
+## The dashboard
 
-The real store could not show any classified mention yet: index tallies and tones, the No coverage footnote, rows under a verdict filter, company sections, mentions with excerpts and Headline only, review cards, and the subscribed and already-subscribed banners (a real subscribe would write the real alerts store). A scratch store built from the same rules (one company with every verdict, a title-only mention, and a flagged row) is not real data. On it, shoot and axe passed on 13 pages, and the keyboard reached each mention link, each Excerpt summary (Enter opens it), and on review the company link, title link, and the reply `<pre>`. Run `just ui-check` again after classification and update these results.
+| Company page                                           | Email alerts                                                      | Mobile, dark                                      |
+| ------------------------------------------------------ | ----------------------------------------------------------------- | ------------------------------------------------- |
+| ![Company page](docs/shots/company--desktop-light.png) | ![Subscribe dialog](docs/shots/company-dialog--desktop-light.png) | ![Mobile dark](docs/shots/index--mobile-dark.png) |
 
-Before the backfill started, the empty store showed the not-run panel above a name filter reading `Showing 0 of 0 companies` and an empty table. The index now shows only the panel when the store has no company.
+- **Server-rendered and works without JavaScript.** Script only adds the name filter and the dialog.
+- **The default view is the last complete quarter.** _This quarter_ and a custom date range are one click away. You can filter by verdict, and every mention notes whether the verdict was made from the full text or only the headline.
+- **Accessibility:** WCAG 2.2 AA with 0 axe violations on 13 pages, light and dark, at desktop and mobile widths. It is also checked for contrast, for keyboard and VoiceOver use, with forced colors, and for no sideways scrolling at 320 px ([results](docs/RUNBOOK.md#dashboard-ui-checks)).
 
-## Architecture
+## Engineering
 
-`docs/ARCHITECTURE.md` is how the pieces move. `docs/unwrap/README.md` is the Google News unwrap. `docs/adr/` records each choice. `docs/CODING-STANDARD.md` is the type, error, and file-ownership standard. `AGENTS.md` points coding agents at it. The evaluator boundaries are in `docs/engineering-notes.md`.
+- **Robustness:** each step resumes after a crash, and a row that fails 3 times is parked rather than retried forever. Google 429s get backoff, and each publisher host has its own rate limit. Alert writes are transactional and idempotent.
+- **Quality gates in CI:** ESLint (strict, including security rules), Prettier, `tsc` over JSDoc types, Vitest at **100 % coverage**, knip, a duplication check, and `npm audit`. The tests never touch the network ([ADR 0009](docs/adr/0009-tests-without-network.md)).
+- **Decisions are written down:** 9 ADRs in [`docs/adr/`](docs/adr/), with [the architecture](docs/ARCHITECTURE.md) and [the runbook](docs/RUNBOOK.md) beside them.
 
-- `src/config.js` — paths, the Google interval, and the Ollama host. The live model and prompt version are constants in `src/core/classifier.js`.
-- `src/jobs` — backfill, forward feed, classify, and the prompt evaluator
-- `src/core` — domain logic, including the classifier
-- `src/infra` — Google News, Ollama, and SQLite adapters
-- `src/server` — HTTP server: routes, the cross-site guard, headers, and static files
-- `src/ui/pages` — server-rendered HTML pages
-- `src/ui/browser` — the stylesheet and page script served to the browser
+```
+src/jobs     one entry per cron command, plus the prompt evaluator
+src/core     domain logic: windows, verdicts, classifier prompt and schema
+src/infra    adapters: Google News, unwrap, fetch, Ollama, SQLite, locks
+src/server   HTTP server: routes, cross-site guard, headers
+src/ui       server-rendered pages + the small browser script and CSS
+```
 
-## Assumptions
+## Assumptions and limitations
 
-- The app runs on a developer machine with Node.js 24.
-- The backfill reads Google News. The evaluator talks to a local Ollama server and stores cases and scores in SQLite.
-- Local configuration lives in `.env`, which is not committed.
+- **"Last quarter" means the previous complete UTC calendar quarter** (Q3, 1 Jul – 30 Sep). Days and times are shown in UTC.
+- **Google News RSS is not an API.** It is throttled, it caps at about 150 articles per company per quarter, and the unwrap call is undocumented, so it could change.
+- **28% of articles were classified from the headline alone.** Their publishers block bots or paywall the page. The dashboard marks these mentions.
+- **Disambiguation:** 57 namesake-prone companies have a descriptor in [`seed/overlay.json`](seed/overlay.json), drafted with AI and reviewed by hand. The other companies rely on the LLM's `unrelated` judgement.
+- **Alerts go to the console log**, behind an outbox that a real mail adapter could drain unchanged. The dashboard has no auth and binds to 127.0.0.1.
+- Everything is SQLite on a single machine, which suits this scale.
 
-## Limitations
+## Taking it further
 
-- No API or cron schedule yet. The dashboard is complete: index, company, and review pages, the subscribe form (plain or in the dialog with script), the page script, and the UI checks. VoiceOver on iOS Safari and Windows High Contrast were not tried. A browser that supports `<dialog>` but not invoker commands, with script off, cannot open the subscribe dialog.
-- The forward feed file is a placeholder.
-- Typecheck uses TypeScript 6.0.3. TypeScript 7.0.2 is current, and `eslint-plugin-sonarjs` 4.2.2 crashes when that version is hoisted.
+| Now                                                                    | Next                                                                                                                    |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Cron polls the SQLite stage column; each step runs on its own schedule | Each step triggers the next through a message queue (e.g. Kafka or SQS), with fetch workers sharded by publisher domain |
+| An in-memory token bucket per process                                  | **Redis as the single source of truth for rate limits** across workers                                                  |
+| `fetch` + Readability; bot walls fall back to the headline             | Headless-browser workers that get past bot checks and fetch the full text                                               |
+| Google News RSS                                                        | A paid news API (NewsAPI, GDELT, …) for wider coverage without throttling                                               |
+| Console "email"                                                        | SMTP / SES / Postmark as a drop-in adapter behind the existing outbox                                                   |
+| SQLite                                                                 | Postgres                                                                                                                |
+| Review page lists `uncertain` rows                                     | Human corrections become new labelled cases, and the tournament re-runs automatically                                   |
+
+## How it was built
+
+Built with **Claude Code, Grok Build, and Cursor**, steered by a written spec. My own CLI, **Remember**, kept state and workflows in sync across the agents:
+
+1. **ADRs written by grilling.** The agent questioned me on every requirement, and the answers became ADRs. Those ADRs served as the product requirements.
+2. **Plans extracted from the ADRs** ([build plan](docs/BUILD-PLAN.md)), plus **research and trial calls** to pin down the real Google News unwrap API.
+3. **One agent writes and a different one reviews.** Every component went through a deep review before it was merged, with [coding standards](docs/CODING-STANDARD.md) and strict CI gates as the guardrails.
+4. **The prompt tournament** chose the model and prompt from data.
+
+Every prompt given to the agents is in [`PROMPTS.md`](PROMPTS.md).

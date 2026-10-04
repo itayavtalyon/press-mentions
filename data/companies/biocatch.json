@@ -1,0 +1,823 @@
+{
+  "name": "BioCatch",
+  "last_mentioned_at": "2026-10-01T23:03:40.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "LATEST: 90% of banking scam attempts now originate on mobile devices, Global Scams report reveals",
+      "link": "https://www.amlintelligence.com/2026/09/latest-90-of-banking-scam-attempts-now-originate-on-mobile-devices-report/",
+      "publisher": "AML Intelligence",
+      "published_at": "2026-09-30T15:15:35.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "BioCatch Report: 90% of Banking Scams Now Target Mobile Devices as Global Fraud Rises 35%",
+      "link": "https://ffnews.com/news/new-research-90-of-banking-scam-attempts-now-take-place-on-mobile-devices-5a395f80",
+      "publisher": "FF News",
+      "published_at": "2026-09-30T09:06:04.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Global banking scams increase by 35%",
+      "link": "https://www.biocatch.com/press-release/global-banking-scams-increase-by-35?hs_amp=true",
+      "publisher": "BioCatch",
+      "published_at": "2026-09-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa (NYSE:V) Stock: BioCatch Deal Pushes It Further Into Fraud Prevention",
+      "link": "https://kalkine.ca/news/financial/visa-nysev-stock-biocatch-deal-pushes-it-further-into-fraud-prevention",
+      "publisher": "kalkine.ca",
+      "published_at": "2026-09-29T19:17:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "UK and Cambodia Unite Against Scam Centres as BioCatch Warns of AI-Powered Fraud Shifts",
+      "link": "https://ffnews.com/news/comment-uk-cambodia-scam-centre-deal-but-ai-is-changing-the-criminal-model-7559e204",
+      "publisher": "FF News",
+      "published_at": "2026-09-24T16:04:23.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Just Spent $2.4 Billion on Fraud Detection. Here’s What It Means for the Stock in 2026",
+      "link": "https://www.tikr.com/blog/visa-just-spent-2-4-billion-on-fraud-detection-heres-what-it-means-for-the-stock-in-2026",
+      "publisher": "TIKR.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Beware Of These Scams!",
+      "link": "https://www.rediff.com/getahead/report/beware-of-these-scams/20260901.htm",
+      "publisher": "Rediff",
+      "published_at": "2026-09-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: Visa’s $2.4bn BioCatch Deal Leads August 2026 Activity",
+      "link": "https://www.infosecurity-magazine.com/news-features/visas-24bn-biocatch-deal-manda/",
+      "publisher": "Infosecurity Magazine",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Shares Close 0.8% Off All-Time High; Services Revenue Climbs 33%",
+      "link": "https://ts2.tech/en/visa-stock-ends-0-8-below-record-as-services-revenue-jumps-33/",
+      "publisher": "TechStock²",
+      "published_at": "2026-08-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Saudi banking leaders overwhelmingly report rising fraud attempts and losses",
+      "link": "https://www.biocatch.com/press-release/saudi-banking-leaders-overwhelmingly-report-rising-fraud-attempts-and-losses",
+      "publisher": "BioCatch",
+      "published_at": "2026-08-19T04:47:31.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "US impersonation scam attempts surge 130% in a year",
+      "link": "https://fintech.global/2026/08/12/us-impersonation-scam-attempts-surge-130-in-a-year/",
+      "publisher": "FinTech Global",
+      "published_at": "2026-08-12T16:58:11.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "U.S. financial institutions report 130% spike in attempted impersonation scams",
+      "link": "https://www.biocatch.com/press-release/us-financial-institutions-report-130-spike-in-attempted-impersonation-scams",
+      "publisher": "BioCatch",
+      "published_at": "2026-08-12T13:02:39.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Inc. (V) vs. Mastercard Incorporated (MA): Visa Bets $2.4 Billion on Stopping AI-Powered Fraud",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-inc-v-vs-mastercard-140953343.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Social engineering reshapes financial fraud as attacks scale",
+      "link": "https://www.biometricupdate.com/202608/social-engineering-reshapes-financial-fraud-as-attacks-scale",
+      "publisher": "Biometric Update",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "OurCrowd names Cali Chill CEO after year leading firm through transition",
+      "link": "https://www.ynetnews.com/business/article/rkudogkuzg",
+      "publisher": "Ynetnews",
+      "published_at": "2026-08-12T04:25:54.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Stefan Dziarski on Permira’s Quick Return From BioCatch Sale",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-11/stefan-dziarski-on-permira-s-quick-return-from-biocatch-sale",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Whatnot's huge raise; Visa buys Biocatch; activists eye Voya",
+      "link": "https://www.axios.com/pro/fintech-deals/2026/08/08/fintech-deals-week-whatnot-voya-visa",
+      "publisher": "Axios",
+      "published_at": "2026-08-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Expands Fraud Prevention Efforts with BioCatch Acquisition",
+      "link": "https://smallbiztrends.com/visa-expands-fraud-prevention-efforts-with-biocatch-acquisition/",
+      "publisher": "Small Business Trends",
+      "published_at": "2026-08-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "From behavior to payment: Visa builds trust across the customer lifecycle",
+      "link": "https://www.biometricupdate.com/202608/from-behavior-to-payment-visa-builds-trust-across-the-customer-lifecycle",
+      "publisher": "Biometric Update",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa's $2.4b. BioCatch deal targets AI-powered bank fraud",
+      "link": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-904750",
+      "publisher": "The Jerusalem Post",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "OurCrowd earns $200m from BioCatch exit",
+      "link": "https://en.globes.co.il/en/article-ourcrowd-earns-200m-from-biocatch-exit-1001551636",
+      "publisher": "Globes - Israel Business News",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Acquires BioCatch as AI Reshapes Payment Fraud",
+      "link": "https://www.paymentsjournal.com/visa-acquires-biocatch-as-ai-reshapes-payment-fraud/",
+      "publisher": "PaymentsJournal",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa (V) vs. Mastercard (MA): $2.4B BioCatch Acquisition Escalates the Payments Security War",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-vs-mastercard-ma-221521206.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How Visa Enhances Fraud Prevention by Leveraging BioCatch",
+      "link": "https://fintechmagazine.com/news/how-visa-enhances-fraud-prevention-by-leveraging-biocatch",
+      "publisher": "FinTech Magazine",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Acquires Fraud Prevention Firm BioCatch for $2.4 Billion in Major AI Cybersecurity Push",
+      "link": "https://the420.in/visa-acquires-biocatch-fraud-detection-acquisition/",
+      "publisher": "The420.in",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Can Visa Stop AI Scams with US$2.4bn BioCatch Buy?",
+      "link": "https://cybermagazine.com/news/can-visa-stop-ai-scams-with-us-2-4bn-biocatch-buy",
+      "publisher": "Cyber Magazine",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa strengthens fraud defences with BioCatch acquisition",
+      "link": "https://paymentsindustryintelligence.com/visa-strengthens-fraud-defences-with-biocatch-acquisition/",
+      "publisher": "Payments Industry Intelligence",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa To Acquire Behavioral Biometrics Specialist BioCatch For $2.4 Billion",
+      "link": "https://www.forrester.com/blogs/visa-to-acquire-behavioral-biometrics-specialist-biocatch-for-2-4-billion/",
+      "publisher": "Forrester",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Acquires Israeli Anti-Fraud Company for $16.2 Billion",
+      "link": "https://eu.36kr.com/en/p/3926099813398658",
+      "publisher": "eu.36kr.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire behavioural biometrics fintech BioCatch in $2.4bn deal",
+      "link": "https://www.fintechfutures.com/m-a/visa-acquires-biocatch",
+      "publisher": "FinTech Futures",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Why Visa is willing to spend $2.4 billion on BioCatch",
+      "link": "https://fortune.com/2026/08/04/visa-is-willing-spend-2-4-billion-biocatch/",
+      "publisher": "fortune.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa buys Israel's BioCatch for $2.4b",
+      "link": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-904572",
+      "publisher": "The Jerusalem Post",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to Acquire BioCatch for US$2.4 Billion to Combat AI-Driven Fraud",
+      "link": "https://fintechnews.ch/aifintech/visa-biocatch-acquisition-fraud-prevention/84887/",
+      "publisher": "FintechNews CH",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to buy Israeli fraud-prevention firm BioCatch for $2.4 billion in cash",
+      "link": "https://www.mercurynews.com/2026/08/04/visa-to-buy-fraud-prevention-firm-biocatch/",
+      "publisher": "mercurynews.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa confirms agreement to acquire BioCatch.",
+      "link": "https://tiinside.com.br/en/04/08/2026/Visa-confirms-agreement-to-acquire-Biocatch./",
+      "publisher": "TI INSIDE Online",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa bets $2.4bn on BioCatch to stop fraud upstream",
+      "link": "https://fintech.global/2026/08/04/visa-bets-2-4bn-on-biocatch-to-stop-fraud-upstream/",
+      "publisher": "FinTech Global",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa (V) Is Buying BioCatch To Take On AI Driven Payments Fraud",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-v-buying-biocatch-ai-141244909.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Visa's $2.4B BioCatch deal means for your bank; Mastercard adds BVNK to hone its bank stablecoin pitch—and more in Bankers' Hours",
+      "link": "https://www.linkedin.com/pulse/what-visas-24b-biocatch-deal-means-your-bank-mastercard-kvgne",
+      "publisher": "LinkedIn",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa agrees to buy fraud intelligence provider BioCatch for $2.4bn",
+      "link": "https://finance.yahoo.com/technology/ai/articles/visa-agrees-buy-fraud-intelligence-054218740.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa acquires Israeli cybersecurity company BioCatch for $2.4bn",
+      "link": "https://www.intellinews.com/visa-acquires-israeli-cybersecurity-company-biocatch-for-2-4bn-458908/",
+      "publisher": "IntelliNews",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Stock Analysis: Bullish Outlook Despite Intraday Pause",
+      "link": "https://en.cryptonomist.ch/2026/08/04/visa-stock-pulls-back-from-2-4b-biocatch-rally-bullish-trend-holds/",
+      "publisher": "en.cryptonomist.ch",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to boost cybersecurity efforts with $2.4bn BioCatch acquisition",
+      "link": "https://www.siliconrepublic.com/business/visa-boost-cybersecurity-efforts-biocatch-acquisition-israel-startup",
+      "publisher": "Silicon Republic",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa buys Israeli fraud detection specialist BioCatch for USD 2.4 bln",
+      "link": "https://www.telecompaper.com/news/visa-buys-israeli-fraud-detection-specialist-biocatch-for-usd-24-bln--1579006",
+      "publisher": "Telecompaper",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa's $2.4 billion BioCatch acquisition aims to strengthen fraud protection",
+      "link": "https://www.indiablooms.com/finance/visas-24-billion-biocatch-acquisition-aims-to-strengthen-fraud-protection/details",
+      "publisher": "Indiablooms",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire fraud prevention firm BioCatch",
+      "link": "https://www.techinasia.com/news/visa-acquire-fraud-prevention-firm-biocatch",
+      "publisher": "techinasia.com",
+      "published_at": "2026-08-04T04:41:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Acquires BioCatch for $2.4 Billion, Betting Behavior Catches What Transactions Miss",
+      "link": "https://www.techtimes.com/articles/322888/20260803/visa-acquires-biocatch-24-billion-betting-behavior-catches-what-transactions-miss.htm",
+      "publisher": "Tech Times",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to buy Israeli fraud prevention firm BioCatch for USD2.4b",
+      "link": "https://www.capitalbrief.com/briefing/visa-to-buy-israeli-fraud-prevention-firm-biocatch-for-usd24b-8a85c940-84b7-4056-a1da-03c043751598/",
+      "publisher": "Capital Brief",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Inc. (NYSE:V) signed a definitive agreement to acquire BioCatch Ltd. from Permira Growth Opportunities II, a fund managed by Permira Advisers Ltd. for $2.4 billion.",
+      "link": "https://www.marketscreener.com/news/visa-inc-nyse-v-signed-a-definitive-agreement-to-acquire-biocatch-ltd-from-permira-growth-opport-ce7f50d9db81f726",
+      "publisher": "marketscreener.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa acquires BioCatch for $2.4 billion to enhance anti-fraud, financial crime solutions",
+      "link": "https://jawlah.co/en/61614",
+      "publisher": "jawlah.co",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Joining Visa: What it means for our goals and our mission",
+      "link": "https://www.biocatch.com/blog/biocatch-to-join-visa",
+      "publisher": "BioCatch",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa acquires Israeli fraud prevention company BioCatch for $2.4 billion",
+      "link": "https://www.calcalistech.com/ctechnews/article/hyw9uz0smg",
+      "publisher": "calcalistech.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Visa paid $2.4 billion for an Israeli company that knows how you behave online",
+      "link": "https://www.calcalistech.com/ctechnews/article/hjekl70rfx",
+      "publisher": "calcalistech.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire BioCatch for up to $2.4B in cash, doubling down on fraud prevention",
+      "link": "https://cryptobriefing.com/visa-acquire-biocatch-2b-cash/",
+      "publisher": "Crypto Briefing",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa is buying AI-powered fraud detection company BioCatch for $2.4 billion",
+      "link": "https://qz.com/visa-biocatch-acquisition-fraud-detection-080326",
+      "publisher": "qz.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa acquires BioCatch for $2.4B to supercharge fraud detection with behavioral biometrics",
+      "link": "https://cryptobriefing.com/visa-acquires-biocatch-fraud-detection/",
+      "publisher": "Crypto Briefing",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to Acquire BioCatch for $2.4 Billion to Combat AI-Powered Fraud",
+      "link": "https://finance.biggo.com/news/e1e26c7f-b72d-484c-bbfa-94a58a6c126e",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to buy cybersecurity firm BioCatch for $2.4 billion amid surge in AI-powered scams",
+      "link": "https://www.cnbc.com/2026/08/03/visa-buys-biocatch-fraud-detection.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to buy BioCatch for $2.4B",
+      "link": "https://www.paymentsdive.com/news/visa-to-buy-biocatch-for-24b/826816/",
+      "publisher": "Payments Dive",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Acquires BioCatch For $2.4B, Expanding AI Fraud Defense",
+      "link": "https://www.tronweekly.com/visa-acquires-biocatch-for-2-4b-expanding-ai/",
+      "publisher": "TronWeekly",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Acquires BioCatch to Spot Bank Fraud Before Payment",
+      "link": "https://www.unite.ai/visa-acquires-biocatch-to-spot-bank-fraud-before-payment/",
+      "publisher": "Unite.AI",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Buys BioCatch, a Fraud-Security Company, for $2.4 Billion in Cash",
+      "link": "https://www.briefs.co/news/visa-buys-biocatch-a-fraud-security-company-for-2-4-billion/",
+      "publisher": "Briefs Finance",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire BioCatch for $2.4bn in cash",
+      "link": "https://fxnewsgroup.com/forex-news/payments/visa-to-acquire-biocatch-for-2-4bn-in-cash/",
+      "publisher": "FX News Group",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa agrees $2.4 billion deal to acquire BioCatch",
+      "link": "https://www.finextra.com/newsarticle/48185/visa-agrees-24-billion-deal-to-acquire-biocatch",
+      "publisher": "Finextra Research",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Acquires Behavioral Biometrics Innovator BioCatch for $2.4 Billion",
+      "link": "https://finovate.com/visa-acquires-behavioral-biometrics-innovator-biocatch-for-2-4-billion/",
+      "publisher": "Finovate",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Latham & Watkins Advises Permira on US$2.4 Billion Sale of BioCatch to Visa",
+      "link": "https://www.lw.com/en/news/2026/08/latham-watkins-advises-permira-on-sale-of-biocatch-to-visa",
+      "publisher": "Latham & Watkins LLP",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Visa's $2.4B BioCatch deal means for your bank",
+      "link": "https://www.americanbanker.com/payments/news/what-visas-2-4b-biocatch-deal-means-for-your-bank",
+      "publisher": "American Banker",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Buys BioCatch for $2.4 Billion to Fight AI Fraud",
+      "link": "https://www.benzinga.com/m-a/26/08/60882480/visa-buys-biocatch-for-2-4-billion-to-fight-ai-fraud",
+      "publisher": "Benzinga",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa to Acquire BioCatch for $2.4 Billion to Combat AI-Driven Fraud and Scams",
+      "link": "https://ffnews.com/news/visa-to-acquire-biocatch-for-24-billion-to-combat-ai-driven-fraud-and-scams",
+      "publisher": "FF News",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa buys Israeli fraud prevention co BioCatch for $2.4b",
+      "link": "https://en.globes.co.il/en/article-visa-buys-israeli-fraud-prevention-co-biocatch-for-24b-1001551166",
+      "publisher": "Globes - Israel Business News",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa To Acquire BioCatch For $2.4 Billion To Expand Fraud Prevention Capabilities",
+      "link": "https://pulse2.com/visa-to-acquire-biocatch-for-2-4-billion-to-expand-fraud-prevention-capabilities/",
+      "publisher": "pulse2.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Acquires BioCatch For $2.4B – President Andrew Torre Says It Will Help Clients Stop Fraud Before It Reaches The Point Of Payment",
+      "link": "https://stocktwits.com/news-articles/markets/equity/visa-acquires-bio-catch-for-2-4-b-president-andrew-torre-says-it-will-help-clients-stop-fraud-before-it-reaches-the-point-of-payment/cZoTgc3RJdY",
+      "publisher": "Stocktwits",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Watch Visa to Buy Fraud-Prevention Firm BioCatch for $2.4 Billion",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/visa-to-buy-fraud-prevention-firm-biocatch-for-2-4b-video",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Roundup: Leadership Baton Rouge / American Dream Initiative / Visa buys BioCatch",
+      "link": "https://www.businessreport.com/roundup-leadership-baton-rouge-american-dream-initiative-visa-buys-biocatch/",
+      "publisher": "Baton Rouge Business Report",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire Israeli fraud detection company BioCatch for $2.4B",
+      "link": "https://www.aa.com.tr/en/middle-east/visa-to-acquire-israeli-fraud-detection-company-biocatch-for-24b/4017409",
+      "publisher": "Anadolu Ajansı",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NEWS: Visa beefs up cybersecurity offerings with $2.4 billion BioCatch deal",
+      "link": "https://www.amlintelligence.com/2026/08/visa-beefs-up-cybersecurity-offerings-with-2-4-billion-biocatch-deal/",
+      "publisher": "AML Intelligence",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to Buy Fraud-Prevention Firm BioCatch for $2.4 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/visa-to-buy-fraud-prevention-firm-biocatch-for-2-4-billion",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa Acquires BioCatch for $2.4 Billion to Fight AI-Powered Fraud",
+      "link": "https://www.disruptionbanking.com/2026/08/03/visa-acquires-biocatch-for-2-4-billion-to-fight-ai-powered-fraud/",
+      "publisher": "Disruption Banking",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to acquire BioCatch for $2.4B, bolstering fraud detection capabilities (V:NYSE)",
+      "link": "https://seekingalpha.com/news/4623445-visa-to-acquire-biocatch-for-2_4b-bolstering-fraud-detection-capabilities",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa beefs up cybersecurity offerings with $2.4 billion BioCatch deal",
+      "link": "https://www.channelnewsasia.com/business/visa-beefs-up-cybersecurity-offerings-24-billion-biocatch-deal-6295586",
+      "publisher": "CNA",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Buys BioCatch for $2.4B to Detect Scams Before Money Moves",
+      "link": "https://www.pymnts.com/news/acquiring/2026/visa-inks-2-4-billion-deal-to-acquire-fraud-prevention-firm-biocatch/",
+      "publisher": "pymnts.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa beefs up cybersecurity offerings with $2.4 billion BioCatch deal",
+      "link": "https://www.reuters.com/legal/transactional/visa-buy-fraud-intelligence-provider-biocatch-24-billion-2026-08-03/",
+      "publisher": "Reuters",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa acquires Israeli fraud prevention firm BioCatch for $2.4 billion",
+      "link": "https://www.timesofisrael.com/liveblog_entry/visa-acquires-israeli-fraud-prevention-firm-biocatch-for-2-4-billion/",
+      "publisher": "The Times of Israel",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Visa To Acquire BioCatch and other Digital Transactions News briefs from 8/3/26",
+      "link": "https://www.digitaltransactions.net/visa-to-acquire-biocatch-and-other-digital-transactions-news-briefs-from-8-3-26/",
+      "publisher": "Digital Transactions",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "OurCrowd Portfolio Company BioCatch Acquired By Visa For $2.4 Billion",
+      "link": "https://www.crowdfundinsider.com/2026/08/294736-ourcrowd-portfolio-company-biocatch-acquired-by-visa-for-2-4-billion/",
+      "publisher": "Crowdfund Insider",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to buy AI-powered fraud intelligence company BioCatch in $2.4 billion deal",
+      "link": "https://justthenews.com/accountability/waste-fraud-and-abuse/visa-buy-ai-powered-fraud-intelligence-company-biocatch-24",
+      "publisher": "Just The News",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa to Acquire BioCatch in $2.4 Billion Deal to Expand AI Fraud Prevention Platform",
+      "link": "https://www.citybiz.co/article/883422/visa-to-acquire-biocatch-in-2-4-billion-deal-to-expand-ai-fraud-prevention-platform/",
+      "publisher": "citybiz",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa acquires behavioral biometrics pioneer BioCatch amid fraud prevention build-up",
+      "link": "https://www.biometricupdate.com/202608/visa-acquires-behavioral-biometrics-pioneer-biocatch-amid-fraud-prevention-build-up",
+      "publisher": "Biometric Update",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Visa Is Paying $2.4 Billion for a Fraud Tool That Watches the Way Bank Customers Type",
+      "link": "https://www.inc.com/georgia-fearn/visa-is-paying-2-4-billion-for-a-fraud-tool-that-watches-the-way-bank-customers-type/91383840",
+      "publisher": "inc.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Is that your customer, their agent, or someone (or something) else?",
+      "link": "https://www.biocatch.com/blog/is-that-your-customer-their-agent-or-someone-or-something-else",
+      "publisher": "BioCatch",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Scammers are now using Indian bank accounts to hide stolen money: Report",
+      "link": "https://english.mathrubhumi.com/news/india/india-mule-accounts-cyber-fraud-biocatch-report-2026-my5dv3r2",
+      "publisher": "Mathrubhumi English",
+      "published_at": "2026-07-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Text message scams jump 146% in India amid rise in scam-led digital fraud: Report",
+      "link": "https://m.economictimes.com/industry/telecom/telecom-news/text-message-scams-jump-146-in-india-amid-rise-in-scam-led-digital-fraud-report/articleshow/132605614.cms",
+      "publisher": "The Economic Times",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Indian Banks Face 146% Surge in SMS Scams as Mobile Fraud A…",
+      "link": "https://english.gujaratsamachar.com/news/national/indian-banks-face-146percent-surge-in-sms-scams-as-mobile-fraud-accelerates-49069733998",
+      "publisher": "GujaratSamachar English",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Indian Banks See 146% Rise In SMS Scams As Mobile Fraud Sessions Jump",
+      "link": "https://www.cxodigitalpulse.com/indian-banks-see-146-rise-in-sms-scams-as-mobile-fraud-sessions-jump/",
+      "publisher": "CXO Digitalpulse",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Indian banks report 146 pc surge in SMS scams",
+      "link": "https://bfsi.economictimes.indiatimes.com/news/banking/indian-banks-report-146-pc-surge-in-sms-scams/132574731",
+      "publisher": "bfsi.economictimes.indiatimes.com",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "India Sees 146% Spike in SMS Banking Scams Amid Rise in Mobile Fraud",
+      "link": "https://the420.in/sms-banking-scams-india-mobile-fraud-report-2026/",
+      "publisher": "The420.in",
+      "published_at": "2026-07-22T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Fraud rises in UAE during summer: Holidaymakers lured with fake offers, AI scams",
+      "link": "https://www.khaleejtimes.com/uae/fraud-rises-uae-holidaymakers-targeted-fake-offers-ai-scams",
+      "publisher": "Khaleej Times",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Inside the cyber threats facing the FIFA World Cup",
+      "link": "https://techinformed.com/inside-the-cyber-threats-facing-the-fifa-world-cup/",
+      "publisher": "TechInformed",
+      "published_at": "2026-07-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "iGaming Fraud 2026: 700% Deepfakes Kill One-Time KYC",
+      "link": "https://tech-insider.org/igt-how-ai-fraud-detection-in-igaming-evolved-through-2026-en-d187/",
+      "publisher": "tech-insider.org",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Singapore banks look to behavioral biometrics as fraud attempts rise",
+      "link": "https://www.biometricupdate.com/202607/singapore-banks-look-to-behavioral-biometrics-as-fraud-attempts-rise",
+      "publisher": "Biometric Update",
+      "published_at": "2026-07-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Singapore banks face rising fraud as 90% report more attacks",
+      "link": "https://asianbankingandfinance.net/economy/in-focus/singapore-banks-face-rising-fraud-90-report-more-attacks",
+      "publisher": "Asian Banking & Finance",
+      "published_at": "2026-07-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "75% of Singapore banking leaders report rising fraud losses",
+      "link": "https://sbr.com.sg/news/75-singapore-banking-leaders-report-rising-fraud-losses",
+      "publisher": "sbr.com.sg",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Singaporean banking leaders overwhelmingly report increasing fraud attempts and losses",
+      "link": "https://www.biocatch.com/press-release/singaporean-banking-leaders-overwhelmingly-report-increasing-fraud-attempts-and-losses",
+      "publisher": "BioCatch",
+      "published_at": "2026-07-01T00:46:10.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

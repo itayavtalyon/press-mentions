@@ -1,0 +1,31 @@
+{
+  "name": "MeMed",
+  "last_mentioned_at": "2026-09-22T18:32:53.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Tampa General Adds Diagnostic Test to Sepsis Workflow",
+      "link": "https://www.hcinnovationgroup.com/clinical-it/patient-safety/news/55406941/tampa-general-adds-diagnostic-test-to-sepsis-workflow",
+      "publisher": "HCI Innovation Group",
+      "published_at": "2026-09-22T18:32:53.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tampa General Adopts Host-Response Test After Study Shows 33% Drop in Cefepime Use",
+      "link": "https://clpmag.com/diagnostic-technologies/point-of-care/poc-instruments/tampa-general-adopts-memed-bv-host-response-test-reduces-cefepime-use/",
+      "publisher": "Clinical Lab Products",
+      "published_at": "2026-09-22T17:48:59.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Tampa General Hospital First Academic Health System in Southeast to Adopt Innovative Host-Response Technology to Advance Sepsis Care",
+      "link": "https://www.prnewswire.com/news-releases/tampa-general-hospital-first-academic-health-system-in-southeast-to-adopt-innovative-host-response-technology-to-advance-sepsis-care-302886485.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-22T16:48:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

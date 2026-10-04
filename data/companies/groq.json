@@ -1,0 +1,975 @@
+{
+  "name": "Groq",
+  "last_mentioned_at": "2026-09-29T18:03:57.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "I built a churn detection agent that remembers every client meeting (Hindsight memory + Groq)",
+      "link": "https://youtu.be/eopPMxiIZlw]",
+      "publisher": "youtu.be",
+      "published_at": "2026-09-29T18:03:57.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Axiom Partners: 35 AI Investments, Half of Them Acknowledged Failures",
+      "link": "https://www.briefia.fr/en/article/axiom-partners-35-investissements-ia-moitie-d-echecs-assumes",
+      "publisher": "Brief IA",
+      "published_at": "2026-09-28T16:41:02.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Tranxform claims cloud AI on edge",
+      "link": "https://www.jonpeddie.com/techwatch/tranxform-claims-cloud-ai-on-edge/",
+      "publisher": "Jon Peddie Research",
+      "published_at": "2026-09-28T15:51:18.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "This Early Groq Investor Expects Half Her Bets To Fail",
+      "link": "https://news.crunchbase.com/venture/early-groq-ai-investor-qa-venkatachalam-axiom/",
+      "publisher": "news.crunchbase.com",
+      "published_at": "2026-09-28T11:00:06.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Why Is Everyone Eyeing 3D DRAM? Key Reasons Behind the Semiconductor Industry’s 3D DRAM Frenzy",
+      "link": "https://eu.36kr.com/en/p/4002393085071497",
+      "publisher": "eu.36kr.com",
+      "published_at": "2026-09-28T03:10:28.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "NonPublic tops USD $500 million on private tech demand",
+      "link": "https://cfotech.com.au/story/nonpublic-tops-usd-500-million-on-private-tech-demand",
+      "publisher": "CFOtech Australia",
+      "published_at": "2026-09-27T21:30:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NonPublic Crosses US$500 Million Mark As Australian Investors Chase Pre-IPO Tech Access",
+      "link": "https://smbtech.au/news/nonpublic-crosses-us500-million-mark-as-australian-investors-chase-pre-ipo-tech-access/",
+      "publisher": "smbtech.au",
+      "published_at": "2026-09-26T00:57:31.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Raises $350M at $3.5B Valuation as It Pivots from AI Chipmaker to Neocloud Provider",
+      "link": "https://vocal.media/01/groq-raises-350m-at-35b-valuation-as-it-pivots-from-ai-chipmaker-to-neocloud-provider",
+      "publisher": "Vocal",
+      "published_at": "2026-09-25T13:12:57.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Founder Jonathan Ross: Jensen Huang Never Holds One-on-One Talks to Reduce Company Politics",
+      "link": "https://www.ababnews.com/news/1745a9fd-70cc-4f92-b9d9-4be034a83a5d",
+      "publisher": "ababnews.com",
+      "published_at": "2026-09-25T03:47:39.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Top 10: AI Hardware Providers",
+      "link": "https://aimagazine.com/top10/top-10-the-ai-hardware-providers",
+      "publisher": "AI Magazine",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "unranked",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia's Robot Software Launch Meets a Washington Probe and a $3.1 Billion Bet",
+      "link": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nvidia-s-robot-software-launch-meets-a-washington-probe-and-a-3-1-billion/70162688",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-23T04:51:33.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Faces Antitrust Scrutiny Over Groq Deal as Chipmaker Chases Doubling of Sales",
+      "link": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nvidia-faces-antitrust-scrutiny-over-groq-deal-as-chipmaker-chases/70126020",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-18T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Top 30+ AI Chip Makers: NVIDIA & Its Competitors",
+      "link": "https://aimultiple.com/ai-chip-makers",
+      "publisher": "AIMultiple",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Boosts Tokens per Watt by Up to 35x as AI Factory Competition Intensifies",
+      "link": "https://finance.biggo.com/news/49983c15-25d3-41d5-9aa2-d489e6fbc316",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "How Nvidia gutted a onetime rival and left behind a $3.5 billion AI cloud",
+      "link": "https://www.businessinsider.com/groq-navigates-ai-cloud-market-shift-after-nvidia-deal-2026-9",
+      "publisher": "Business Insider",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "d-Matrix Joins NVLink Fusion. Is It NVIDIA’s Hedge on Groq?",
+      "link": "https://futurumgroup.com/insights/d-matrix-joins-nvlink-fusion-is-it-nvidias-hedge-on-groq/",
+      "publisher": "The Futurum Group",
+      "published_at": "2026-09-14T16:09:35.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA Groq 3 LPX’s Promise of World’s Fastest Inference Enters Full Production",
+      "link": "https://futurumgroup.com/insights/nvidia-groq-3-lpxs-promise-of-worlds-fastest-inference-enters-full-production/",
+      "publisher": "The Futurum Group",
+      "published_at": "2026-09-14T14:04:35.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq vs Grok 4.6: Spec, Price & Speed Compared [2026]",
+      "link": "https://tech-insider.org/groq-vs-grok-2026/",
+      "publisher": "tech-insider.org",
+      "published_at": "2026-09-13T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's Groq acquihire is on the DOJ's radar, but it's already too late",
+      "link": "https://www.theregister.com/systems/2026/09/12/nvidias-groq-acquihire-is-on-the-dojs-radar-but-its-already-too-late/5295986",
+      "publisher": "The Register",
+      "published_at": "2026-09-12T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Is Under DOJ Scrutiny for Its $20 Billion Groq Deal. How Investors Should Play NVDA Stock Now.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-under-doj-scrutiny-20-172514334.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Stock Drops 2.4% as Reported DOJ Groq Probe Puts $17 Billion Deal in Focus",
+      "link": "https://ts2.tech/en/nvidia-stock-drops-2-4-as-reported-doj-groq-probe-puts-17-billion-deal-in-focus/",
+      "publisher": "TechStock²",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ reportedly probes Nvidia-Groq deal for antitrust concerns",
+      "link": "https://www.techtarget.com/it-infrastructure/news/366650378/DOJ-reportedly-probes-Nvidia-Groq-deal-for-antitrust-concerns",
+      "publisher": "TechTarget",
+      "published_at": "2026-09-11T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ reportedly investigating Nvidia's $20 billion Groq deal",
+      "link": "https://www.pcgamer.com/hardware/nvidia-is-reportedly-being-investigated-by-the-doj-over-its-biggest-ever-deal-a-usd20-billion-non-exclusive-agreement-with-groq/",
+      "publisher": "PC Gamer",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ investigates Nvidia's deal with Groq",
+      "link": "https://www.axios.com/2026/09/10/doj-nvidia-groq-antitrust",
+      "publisher": "Axios",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "US Antitrust Regulators Scrutinize Nvidia's Groq Licensing Deal",
+      "link": "https://finance.biggo.com/news/bfaf0b36-e575-4aa2-ae67-50754fcf94fa",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "The Justice Department is investigating whether Nvidia structured its Groq deal to avoid antitrust review",
+      "link": "https://thenextweb.com/news/doj-nvidia-groq-licensing-antitrust-review",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "The DOJ Is Looking Into Nvidia’s Groq Licensing Deal",
+      "link": "https://finimize.com/content/the-doj-is-looking-into-nvidias-groq-licensing-deal",
+      "publisher": "Finimize",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia's $17 Billion Groq License Draws a DOJ Investigation",
+      "link": "https://finance.yahoo.com/technology/articles/nvidias-17-billion-groq-license-122432348.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Stock Falls. DOJ Probes $20 Billion Groq Deal",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-falls-doj-probes-122547655.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia faces DOJ probe over $20B Groq licensing deal: report (NVDA:NASDAQ)",
+      "link": "https://seekingalpha.com/news/4641444-nvidia-faces-doj-probe-over-20b-groq-licensing-deal-report",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "US DOJ Investigate Nvidia’s $17bn Groq Licensing Deal",
+      "link": "https://www.electronicsforyou.biz/industry-buzz/us-doj-investigate-nvidias-17bn-groq-licensing-deal/",
+      "publisher": "Electronics For You BUSINESS",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ reportedly investigating Nvidia's $20 billion Groq deal",
+      "link": "https://finance.yahoo.com/technology/ai/articles/doj-reportedly-investigating-nvidias-20-110542621.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Market Chatter: Justice Department Probes Nvidia Licensing Deal With Groq",
+      "link": "https://finance.yahoo.com/technology/ai/articles/market-chatter-justice-department-probes-084549477.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ probes Nvidia's tie-up with Groq on antitrust concerns",
+      "link": "https://www.moneycontrol.com/news/business/doj-probes-nvidia-s-tie-up-with-groq-on-antitrust-concerns-14026795.html",
+      "publisher": "Moneycontrol.com",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ probes Nvidia’s $17B Groq AI licensing deal over antitrust evasion concerns",
+      "link": "https://www.thenews.com.pk/latest/1415622-doj-probes-nvidias-17b-groq-ai-licensing-deal-over-antitrust-evasion-concerns",
+      "publisher": "The News International",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia-Groq Licensing Deal Under U.S. Department of Justice Antitrust Investigation",
+      "link": "https://finance.biggo.com/news/489da680-383e-458c-bb31-2aa8090ca207",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "U.S. Justice Department Opens Antitrust Probe Into Nvidia-Groq Deal Over 'Backdoor Acquisition' Allegations",
+      "link": "https://finance.biggo.com/news/c6f6a642-0efc-42f6-888b-7f0b1834f155",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Regulators Are Investigating Nvidia’s Licensing Deal With Groq",
+      "link": "https://www.nytimes.com/2026/09/09/business/nvidia-groq-antitrust.html",
+      "publisher": "nytimes.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "US DOJ probes Nvidia's licensing deal with AI startup Groq, NYT reports",
+      "link": "https://finance.yahoo.com/technology/ai/articles/us-doj-probes-nvidias-licensing-003659525.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "DOJ Probes Nvidia’s Tie-Up With Groq on Antitrust Concerns",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/doj-probes-nvidia-s-license-deal-with-groq-on-antitrust-concerns",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "DOJ probes Nvidia's licensing deal with AI startup Groq, NYT reports",
+      "link": "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "NVIDIA (NVDA)’s $20 Billion Groq Bet Goes Live This Year With New AI Racks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-20-billion-groq-190737433.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "5 Free LLM API Providers You Can Use in 2026",
+      "link": "https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026",
+      "publisher": "KDnuggets",
+      "published_at": "2026-09-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia’s Groq chip ramp brings Samsung foundry closer to profit",
+      "link": "https://www.koreaherald.com/article/10852890",
+      "publisher": "The Korea Herald",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Announces That Groq 3 LPX Is in Full-Scale Production. What This Means for NVDA Stock.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-announces-groq-3-lpx-142303685.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's Groq 3 LPX chip pushes Samsung foundry closer to profitability",
+      "link": "https://www.aninews.in/news/business/nvidias-groq-3-lpx-chip-pushes-samsung-foundry-closer-to-profitability20260826171353",
+      "publisher": "ANI News",
+      "published_at": "2026-08-26T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "NVIDIA Groq 3 LPU Hot Chips 2026 Scale-Up Interconnect",
+      "link": "https://www.servethehome.com/nvidias-groq-3-lpu-accelerators-for-heterogeneous-ai-compute-at-hot-chips-2026/nvidia-groq-3-lpu-hot-chips-2026-scale-up-interconnect/",
+      "publisher": "ServeTheHome",
+      "published_at": "2026-08-25T22:43:50.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia starts mass production of Groq 3 LPX to speed agentic AI inference - CHOSUNBIZ",
+      "link": "https://biz.chosun.com/en/en-it/2026/08/25/JQ3UQJ4FXZCWXFADSHUGBS43L4/",
+      "publisher": "Chosunbiz",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA Begins Groq 3 LPX Mass Production with Samsung Foundry",
+      "link": "https://www.chosun.com/english/industry-en/2026/08/25/YLKJDQ5RB5DX3M3BA3KIC72VYM/",
+      "publisher": "조선일보",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Samsung Foundry begins full mass production of Nvidia's Groq 3 LPX chip",
+      "link": "https://www.sammobile.com/news/samsung-foundry-mass-production-nvidia-groq-3-lpx-chip/",
+      "publisher": "sammobile.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA’s Groq 3 LPX Brings 3,400 Tokens Per Second to AI Inference",
+      "link": "https://analyticsindiamag.com/ai-news/nvidias-groq-3-lpx-brings-3400-tokens-per-second-to-ai-inference",
+      "publisher": "analyticsindiamag.com",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026",
+      "link": "https://www.servethehome.com/nvidias-groq-3-lpu-accelerators-for-heterogeneous-ai-compute-at-hot-chips-2026/",
+      "publisher": "ServeTheHome",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq 3 LPX Hits Full Production: SRAM Decode Chip Reaches 3,400 Tokens Per Second",
+      "link": "https://www.techtimes.com/articles/325425/20260825/groq-3-lpx-hits-full-production-sram-decode-chip-reaches-3400-tokens-per-second.htm",
+      "publisher": "Tech Times",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's $20 Billion Groq Bet Hits Production, Racks Go Live This Year",
+      "link": "https://finance.biggo.com/news/7bb33a4f-2478-4400-b2b4-2c0e22c08f5b",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's AI inference chip from its $20 billion Groq deal enters full production",
+      "link": "https://qz.com/nvidia-groq-3-lpx-inference-chip-full-production-082426",
+      "publisher": "qz.com",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
+      "link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
+      "publisher": "NVIDIA Blog",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Reports Groq 3 LPX AI Processor in Full Production",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-reports-groq-3-lpx-162057442.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia says Groq 3 LPX now in full-scale production (NVDA:NASDAQ)",
+      "link": "https://seekingalpha.com/news/4636292-nvidia-says-groq-3-lpx-now-in-full-scale-production",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia’s $20 Billion Groq Bet Is Going Live Before the End of 2026. Here’s What It Means for Investors.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-20-billion-groq-bet-230301593.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA announces full-scale production of Groq 3 LPX, with Vera Rubin delivering a multi-fold increase in inference efficiency; SpaceX AI intensifies investments in AI agents and space-based AI.",
+      "link": "https://www.moomoo.com/news/post/75168062/nvidia-announces-full-scale-production-of-groq-3-lpx-with",
+      "publisher": "moomoo.com",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "NVIDIA begins mass producing Groq 3 LPX racks for Nebius",
+      "link": "https://www.newsbytesapp.com/news/science/nvidia-begins-mass-producing-groq-3-lpx-racks-for-nebius/tldr",
+      "publisher": "NewsBytes",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia says Groq racks will be online this year following $20 billion purchase",
+      "link": "https://www.cnbc.com/2026/08/24/nvidia-says-groq-racks-will-be-online-this-year-after-20-billion-deal.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA CFO expects Groq 3 LPX volume shipments this quarter",
+      "link": "https://scanx.trade/stock-market-news/technology/nvidia-groq-3-lpx-enters-full-production-agentic-ai/49131768",
+      "publisher": "scanx.trade",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia begins production of Groq AI racks after $20B purchase",
+      "link": "https://www.aa.com.tr/en/science-technology/nvidia-begins-production-of-groq-ai-racks-after-20b-purchase/4036129",
+      "publisher": "Anadolu Ajansı",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
+      "publisher": "NVIDIA Newsroom",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Nvidia's first Groq 3 LPU benchmarks tell us about its $20B gamble",
+      "link": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880",
+      "publisher": "The Register",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin | NVIDIA Technical Blog",
+      "link": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+      "publisher": "NVIDIA Developer",
+      "published_at": "2026-08-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "link": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/",
+      "publisher": "MarkTechPost",
+      "published_at": "2026-08-23T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia Dismisses Report of China-Specific LPU Chip Launch This Year as 'Groundless'",
+      "link": "https://finance.biggo.com/news/e70a2a7c-3a8f-4858-a1f3-82b671776af3",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Spends $7 Billion to Tie Up with Poolside, Replicating Groq Model and Reigniting Regulatory Controversy",
+      "link": "https://finance.biggo.com/news/766e9732-bf79-4d8f-a1b0-70d268680679",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia pays Poolside $6bn to license its model factory and hire 109 staff",
+      "link": "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-08-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA Is Plotting Its China Comeback Via A New LPU-Based Inference Chip, As SMIC Rides US Export Controls To A Virtual China Monopoly [Update: NVIDIA Denies]",
+      "link": "https://wccftech.com/nvidia-is-plotting-its-china-comeback-via-a-new-lpu-based-inference-chip-as-smic-rides-us-export-controls-to-a-virtual-china-monopoly/",
+      "publisher": "Wccftech",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq’s $350M neocloud push and Relay’s shutdown put more pressure on enterprise AI runbooks than on model choice",
+      "link": "https://www.marketscale.com/industries/software-and-technology/groqs-350m-neocloud-push-and-relays-shutdown-put-more-pressure-on-enterprise-ai-runbooks-than-on-model-choice",
+      "publisher": "MarketScale",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cathie Wood Is Betting Against The AI Memory Boom – And On Cerebras To Make HBM Less Necessary",
+      "link": "https://es.tradingview.com/news/stocktwits%3A4263a844e094b%3A0-cathie-wood-is-betting-against-the-ai-memory-boom-and-on-cerebras-to-make-hbm-less-necessary/?utm_source=chatgpt.com",
+      "publisher": "TradingView",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI Chip Unicorn Poached by Jensen Huang for All Core Talents Secures 2.4 Billion Yuan in Financing",
+      "link": "https://eu.36kr.com/en/p/3945834047339913",
+      "publisher": "eu.36kr.com",
+      "published_at": "2026-08-19T04:02:46.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Raises $350m at $3.5bn Valuation as AI Chip Startup Pivots to Nvidia-Powered Cloud",
+      "link": "https://www.tekedia.com/groq-raises-350m-at-3-5bn-valuation-as-ai-chip-startup-pivots-to-nvidia-powered-cloud/",
+      "publisher": "Tekedia",
+      "published_at": "2026-08-18T20:23:01.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "US AI infrastructure company Groq raises $350m Series A at $3.5bn valuation",
+      "link": "https://finance.yahoo.com/technology/ai/articles/us-ai-infrastructure-company-groq-092426806.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA-backed Groq raises $350M at $3.5B as AI inference race accelerates",
+      "link": "https://techfundingnews.com/nvidia-backed-groq-raises-350m-at-3-5b-as-ai-inference-race-accelerates/",
+      "publisher": "Tech Funding News",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq raises $350 million as startup pivots to Nvidia-powered AI cloud infrastructure",
+      "link": "https://mezha.net/eng/news/7675b89b_groq_raises_-350/",
+      "publisher": "Межа. Новини України.",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq closes $350M Series A at $3.5bn evaluation and Nvidia joins the round",
+      "link": "https://thenextweb.com/news/groq-3-5bn-valuation-funding-round",
+      "publisher": "thenextweb.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AI company Groq valued at $3.5 billion after raising $350 million",
+      "link": "https://cryptobriefing.com/groq-raises-650m-after-nvidia-talent-loss/",
+      "publisher": "Crypto Briefing",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia to invest in AI chip startup Groq at $3.5b valuation",
+      "link": "https://www.techinasia.com/news/nvidia-ai-chip-startup-groq-35b-valuation",
+      "publisher": "techinasia.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq raises $350 million at a $3.5 billion valuation, half its peak aftr Nvidia deal",
+      "link": "https://cryptorank.io/news/feed/ade47-groq-350-million-3-5-billion-valuation-peak",
+      "publisher": "CryptoRank",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq raises $350M in new funding round, values it at $3.5B (update) (NVDA:NASDAQ)",
+      "link": "https://seekingalpha.com/news/4633841-groq-valued-at-3_5b-in-new-funding-round-report",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq Raises $350 Million at $3.5 Billion Valuation After Nvidia Deal",
+      "link": "https://www.briefs.co/news/groq-raises-350-million-at-3-5-billion-valuation-after-nvidi/",
+      "publisher": "Briefs Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Gets Brutal Valuation Reset After Nvidia Deal",
+      "link": "https://finance.yahoo.com/technology/ai/articles/groq-gets-brutal-valuation-reset-201134337.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia Among Investors Backing $350 Million Funding Round for Groq",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-among-investors-backing-350-143118120.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Valued at $3.5 Billion in Funding Round After Nvidia Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-17/groq-valued-at-3-5-billion-in-funding-round-after-nvidia-deal",
+      "publisher": "bloomberg.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq Raises $350 Million Series A At $3.5 Billion Valuation As AI Compute Footprint Targets 200+ MW",
+      "link": "https://pulse2.com/groq-raises-350-million-series-a-at-3-5-billion-valuation-as-ai-compute-footprint-targets-200-mw/",
+      "publisher": "pulse2.com",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq raises $350 million after Nvidia talent deal - Bloomberg By Investing.com",
+      "link": "https://uk.investing.com/news/stock-market-news/groq-valuation-falls-to-35-billion-after-nvidia-talent-deal--bloomberg-93CH-4835174",
+      "publisher": "Investing.com UK",
+      "published_at": "2026-08-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Nvidia Found Another Way to Win From Its $20 Billion Groq Deal",
+      "link": "https://www.businessinsider.com/nvidia-partners-groq-ai-services-groqcloud-2026-8",
+      "publisher": "Business Insider",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Ultra-High Interactivity on NVIDIA GPUs? - TileRT InferenceX",
+      "link": "https://newsletter.semianalysis.com/p/ultra-high-interactivity-on-nvidia",
+      "publisher": "SemiAnalysis",
+      "published_at": "2026-08-10T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon",
+      "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "publisher": "The Register",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD acquires Taalas to hardwire AI models into silicon",
+      "link": "https://siliconangle.com/2026/08/06/amd-acquires-taalas-hardwire-ai-models-silicon/",
+      "publisher": "SiliconANGLE",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD buys chip startup that hardwires AI models into its silicon",
+      "link": "https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html",
+      "publisher": "CNBC",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "SambaNova Appoints Mohsen Moazami As Vice Chair Of Global Strategy And Partnerships",
+      "link": "https://pulse2.com/sambanova-appoints-mohsen-moazami-as-vice-chair-of-global-strategy-and-partnerships/",
+      "publisher": "pulse2.com",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Biohaven Appoints Technology Investor John Yetimoglu to Board of Directors",
+      "link": "https://www.prnewswire.com/news-releases/biohaven-appoints-technology-investor-john-yetimoglu-to-board-of-directors-302844391.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD’s Helios Rack Reportedly Costs 40% More Than NVIDIA’s Vera Rubin, Yet Microsoft Hedges Its Bets By Committing To Deploy Both",
+      "link": "https://wccftech.com/amds-helios-rack-reportedly-costs-40-more-than-nvidias-vera-rubin-yet-microsoft-hedges-its-bets-by-committing-to-deploy-both/",
+      "publisher": "Wccftech",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD Fires Back At NVIDIA’s Groq Bet, Fuses The Cerebras Wafer-Scale Engine With Helios For 5x Higher Tokens Per Second Per Watt",
+      "link": "https://wccftech.com/amd-fires-back-at-nvidias-groq-bet-fuses-the-cerebras-wafer-scale-engine-with-helios-for-5x-higher-tokens-per-second-per-watt/",
+      "publisher": "Wccftech",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Cerebras stock gains on AMD partnership",
+      "link": "https://www.cnbc.com/2026/07/23/cerebras-stock-gains-on-amd-partnership.html",
+      "publisher": "CNBC",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond HBM: Samsung Targets the Next AI Battleground with Advanced Packaging and CPO",
+      "link": "https://tspasemiconductor.substack.com/p/beyond-hbm-samsung-targets-the-next",
+      "publisher": "semivision",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AMD and Cerebras join forces against Nvidia’s Groq LPUs",
+      "link": "https://www.theregister.com/systems/2026/07/23/amd-and-cerebras-join-forces-against-nvidias-groq-lpus/5277817",
+      "publisher": "The Register",
+      "published_at": "2026-07-23T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "NVIDIA Vera Rubin NVL72 Enters The Stage With A Monstrous 10x Uplift In Token Throughput Versus Blackwell, Achieves 800,000 Tokens/s Vs GB200’s 80,000 at The Same 150MW",
+      "link": "https://wccftech.com/nvidia-vera-rubin-nvl72-enters-the-stage-with-a-monstrous-10x-uplift-in-ai-vs-blackwell/",
+      "publisher": "Wccftech",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's 10-Q Reveals Three Hidden Risks: $13.4 Billion in Paper Gains Inflate Profits, Real P/E Ratio Nears 60x",
+      "link": "https://finance.biggo.com/news/565727ce-e6db-4392-9016-f8d5e54a609e",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Nvidia's $10 Billion Dark Fiber Bet: Building an AI Moat Deeper Than Chips",
+      "link": "https://finance.biggo.com/news/6f98e997-bf4f-4a7e-a585-e4939be7905e",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-07-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "The June 2026 US Venture Capital Funding Report",
+      "link": "https://www.alleywatch.com/2026/07/us-venture-capital-statistics-june-2026/",
+      "publisher": "AlleyWatch",
+      "published_at": "2026-07-14T13:59:35.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Secures $650 Million Growth Round to Scale Global AI Inference Cloud",
+      "link": "https://theaisoftwarereport.com/groq-secures-650-million-growth-round-to-scale-global-ai-inference-cloud/",
+      "publisher": "theaisoftwarereport.com",
+      "published_at": "2026-07-13T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "SambaNova Completes $100M Funding, Valuation Reaches $11B",
+      "link": "https://www.kucoin.com/news/flash/sambanova-completes-100m-funding-valuation-hits-11b",
+      "publisher": "KuCoin",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Four agentic AI memory systems for smarter LLMs",
+      "link": "https://www.infoworld.com/article/4192397/four-agentic-ai-memory-systems-for-smarter-llms.html",
+      "publisher": "InfoWorld",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "'I was a terrible leader': Nvidia partner Groq’s founder Jonathan Ross says his mistakes delayed the comp",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/i-was-a-terrible-leader-nvidia-partner-groqs-founder-jonathan-ross-says-his-mistakes-delayed-the-company-by-up-to-four-years/articleshow/132264880.cms",
+      "publisher": "The Times of India",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "This AI Founder Admits He Was a 'Terrible Leader' — But a Simple Mindset Shift Solved His Biggest Problem",
+      "link": "https://www.entrepreneur.com/business-news/this-ai-founder-admits-he-was-a-terrible-leader-but-a-simple-mindset-shift-solved-his-biggest-problem",
+      "publisher": "entrepreneur.com",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq's Jonathan Ross on the 3-Week, $20B NVIDIA Deal and Why West Coast VCs Missed the Company",
+      "link": "https://app.dealroom.co/news/note/groq-s-jonathan-ross-on-the-3-week-20b-nvidia-deal-and-why-west-coast-vcs-missed-the-company",
+      "publisher": "Dealroom",
+      "published_at": "2026-07-06T07:59:47.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Groq Founder Reveals the Most Important Lesson in Leading AI Companies",
+      "link": "https://jawlah.co/en/59753",
+      "publisher": "jawlah.co",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Samsung Foundry Returns to Monthly Profit After Three Years; 4nm Yield Recovers to 80%",
+      "link": "https://finance.biggo.com/news/45fb09c1-2ae9-4c2e-9cc2-ba3f0afb8873",
+      "publisher": "finance.biggo.com",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq Founder Jonathan Ross Says 'I Was a Terrible Leader,' Admits Mistakes Cost Years",
+      "link": "https://finance.yahoo.com/technology/ai/articles/groq-founder-jonathan-ross-says-223110440.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Groq's founder says his 'terrible' leadership cost his company 3 to 4 years",
+      "link": "https://www.businessinsider.com/groq-founder-jonathan-ross-leadership-mistakes-nvidia-delegation-hiring-2026-7",
+      "publisher": "Business Insider",
+      "published_at": "2026-07-05T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Samsung Electronics deepens AI chip ecosystem at SAFE Forum",
+      "link": "https://pulse.mk.co.kr/news/english/12088732",
+      "publisher": "매일경제",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Top Free Alternatives to Wispr Flow for Voice Typing",
+      "link": "https://nextbigwhat.com/wispr-flow-free-alternatives/",
+      "publisher": "NextBigWhat",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Samsung Foundry tightens orders as AI demand surges, eyes profit rebound - CHOSUNBIZ",
+      "link": "https://biz.chosun.com/en/en-it/2026/07/02/SE3IKG5ENBGLTOETSHYKCYXPOU/",
+      "publisher": "Chosunbiz",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Mehul Patel Appointed Vice President, India Strategic Accounts – AI & Cloud at DDN",
+      "link": "https://www.cxodigitalpulse.com/mehul-patel-appointed-vice-president-india-strategic-accounts-ai-cloud-at-ddn/",
+      "publisher": "CXO Digitalpulse",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

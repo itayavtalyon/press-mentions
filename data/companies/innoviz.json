@@ -1,0 +1,559 @@
+{
+  "name": "Innoviz",
+  "last_mentioned_at": "2026-09-28T14:51:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "OUST vs. INVZ: Which LiDAR Manufacturer Is Worth Holding Onto Now?",
+      "link": "https://www.tradingview.com/news/zacks:f16c54600094b:0-oust-vs-invz-which-lidar-manufacturer-is-worth-holding-onto-now/",
+      "publisher": "TradingView",
+      "published_at": "2026-09-28T14:51:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Wins Nasdaq Extension to Regain $1 Bid Price Compliance",
+      "link": "https://www.theglobeandmail.com/investing/markets/stocks/INVZ/pressreleases/4778313/innoviz-wins-nasdaq-extension-to-regain-1-bid-price-compliance/",
+      "publisher": "The Globe and Mail",
+      "published_at": "2026-09-24T13:12:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies stock gains 16.60 percent after Nasdaq extension",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/innoviz-technologies-stock-gains-16-60-percent-after-nasdaq-extension/70172880",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-24T03:15:30.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Nasdaq gives Innoviz (NASDAQ: INVZ) more time to clear $1 share rule",
+      "link": "https://www.stocktitan.net/sec-filings/INVZ/6-k-innoviz-technologies-ltd-current-report-foreign-issuer-097b805176f7.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-23T12:32:53.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Wins Nasdaq Extension to Regain $1 Bid Price Compliance",
+      "link": "https://www.tipranks.com/news/company-announcements/innoviz-wins-nasdaq-extension-to-regain-1-bid-price-compliance",
+      "publisher": "TipRanks",
+      "published_at": "2026-09-23T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies (INVZ) Institutional Ownership 2026",
+      "link": "https://www.marketbeat.com/stocks/NASDAQ/INVZ/institutional-ownership/",
+      "publisher": "MarketBeat",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies secures $3.5M defense LiDAR order",
+      "link": "https://scanx.trade/stock-market-news/companies/innoviz-technologies-secures-3-5m-defense-lidar-order/46968632",
+      "publisher": "scanx.trade",
+      "published_at": "2026-09-21T14:41:59.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies stock holds near recent lows as Q2 2026 losses weigh on sentiment",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/innoviz-technologies-stock-holds-near-recent-lows-as-q2-2026-losses-weigh/70136315",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-20T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies stock steadies as investors weigh latest quarterly loss and cash position",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/innoviz-technologies-stock-steadies-as-investors-weigh-latest-quarterly/70133721",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-19T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies stock gains after shareholders back reverse share split authority",
+      "link": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/innoviz-technologies-stock-gains-after-shareholders-back-reverse-share/70125332",
+      "publisher": "AD HOC NEWS",
+      "published_at": "2026-09-18T12:34:52.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israel's MAFAT endorses Innoviz LiDAR for defen...",
+      "link": "https://pluang.com/en/news-feed/mafaat-akui-kemampuan-lidar-innoviz-untuk-aplikasi-pertahanan",
+      "publisher": "Pluang",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israel’s defense ministry recognizes Innoviz’s laser sensors",
+      "link": "https://www.stocktitan.net/news/INVZ/israel-defense-forces-through-the-ministry-of-defense-s-directorate-02845k2k1gya.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "All Innoviz Technologies (INVZ) 2026 shareholder votes pass",
+      "link": "https://www.stocktitan.net/sec-filings/INVZ/6-k-innoviz-technologies-ltd-current-report-foreign-issuer-9f4fa26fd986.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-16T20:02:35.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies Names Former Rafael CEO Yoav Har-Even Chairperson As Defense And Security Expansion Accelerates",
+      "link": "https://pulse2.com/innoviz-technologies-names-former-rafael-ceo-yoav-har-even-chairperson-as-defense-and-security-expansion-accelerates/",
+      "publisher": "pulse2.com",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies Appoints Yoav Har-Even as Chairperson of the Board of Directors",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-technologies-appoints-yoav-har-even-as-chairperson-of-the-board-of-directors-302864854.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Defense veteran to lead Innoviz (NASDAQ: INVZ) board as chair",
+      "link": "https://www.stocktitan.net/sec-filings/INVZ/6-k-innoviz-technologies-ltd-current-report-foreign-issuer-38b6558f4e1b.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies Ltd. 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:INVZ) 2026-08-07",
+      "link": "https://seekingalpha.com/article/4933566-innoviz-technologies-ltd-2026-q2-results-earnings-call-presentation",
+      "publisher": "Seeking Alpha",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies (INVZ) plans September 16, 2026 shareholder vote",
+      "link": "https://www.stocktitan.net/sec-filings/INVZ/6-k-innoviz-technologies-ltd-current-report-foreign-issuer-76d2e4fed575.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Earnings call transcript: Innoviz Q2 2026 revenue beats as defense push gains steam",
+      "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-innoviz-q2-2026-revenue-beats-as-defense-push-gains-steam-93CH-4838068",
+      "publisher": "Investing.com",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies Ltd. Reports Earnings Results for the Second Quarter and Six Months Ended June 30, 2026",
+      "link": "https://www.marketscreener.com/news/innoviz-technologies-ltd-reports-earnings-results-for-the-second-quarter-and-six-months-ended-june-ce7f50dfd18ff523",
+      "publisher": "marketscreener.com",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Q2 2026 earnings: Record revenue came with a wider operating loss",
+      "link": "https://www.tradingkey.com/news/earnings/262077542-tradingkey",
+      "publisher": "TradingKey",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "INVZ: Record $18.1M revenue, strong defense/security growth, and robust automotive momentum",
+      "link": "https://www.tradingview.com/news/urn:summary_document_transcript:quartr.com:3968180:0-invz-record-18-1m-revenue-strong-defense-security-growth-and-robust-automotive-momentum/",
+      "publisher": "TradingView",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies Ltd. Q2 2026 Earnings Call Summary",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/innoviz-technologies-ltd-q2-2026-170125324.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies Ltd. (INVZ) Reports Q2 Loss, Tops Revenue Estimates",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/innoviz-technologies-ltd-invz-reports-130006116.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies Q2 Earnings Call Highlights",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/innoviz-technologies-q2-earnings-call-160414259.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Technologies earnings missed, revenue topped estimates By Investing.com",
+      "link": "https://uk.investing.com/news/earnings/innoviz-technologies-earnings-missed-revenue-topped-estimates-4810973",
+      "publisher": "Investing.com UK",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Q2 2026 slides: defense push drives record revenue",
+      "link": "https://www.investing.com/news/company-news/innoviz-q2-2026-slides-defense-push-drives-record-revenue-93CH-4838150",
+      "publisher": "Investing.com",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies (INVZ) grants COO RSUs and options",
+      "link": "https://www.stocktitan.net/sec-filings/INVZ/form-4-innoviz-technologies-ltd-insider-trading-activity-6bf2b8d9616d.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz wins first defence LiDAR order — $3.5M for counter-drone and perimeter sensing",
+      "link": "https://app.dealroom.co/news/note/innoviz-wins-first-defence-lidar-order-3-5m-for-counter-drone-and-perimeter-sensing",
+      "publisher": "Dealroom",
+      "published_at": "2026-08-04T08:14:07.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies to Develop LiDAR-Based Perception Stack for Highway Driving with Top 10 Global Automotive OEM",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-technologies-to-develop-lidar-based-perception-stack-for-highway-driving-with-top-10-global-automotive-oem-302842358.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz partners top 10 OEM on highway LiDAR system",
+      "link": "https://www.automotiveworld.com/news/innoviz-partners-top-10-oem-on-highway-lidar-system/",
+      "publisher": "automotiveworld.com",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Earnings To Watch: Innoviz Technologies Ltd (INVZ) Q2 2026 -- GF Value Sees 685% Upside",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-innoviz-technologies-ltd-135115988.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz to Supply Hundreds of LiDAR Systems Under $3.5M Defense Contract",
+      "link": "https://thedefensepost.com/2026/08/03/israel-lidar-innoviz/",
+      "publisher": "The Defense Post",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Automotive LiDAR maker lands new counter-drone contract",
+      "link": "https://defence-blog.com/automotive-lidar-maker-lands-new-counter-drone-contract/",
+      "publisher": "The Defence Blog",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Latham & Watkins Advises Innoviz on Registered Direct Offering",
+      "link": "https://www.lw.com/en/news/2026/07/latham-watkins-advises-innoviz-on-registered-direct-offering",
+      "publisher": "Latham & Watkins LLP",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz secures $3.5M in defense orders for LiDAR systems",
+      "link": "https://www.investing.com/news/company-news/innoviz-secures-35m-in-defense-orders-for-lidar-systems-93CH-4823983",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz secures $3.5M in defense orders for LiDAR systems By Investing.com",
+      "link": "https://uk.investing.com/news/stock-market-news/innoviz-secures-35m-in-defense-orders-for-lidar-systems-93CH-4798831",
+      "publisher": "Investing.com UK",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies Lands First Multi-Million Orders from Defense Customer",
+      "link": "https://www.prnewswire.com/il/news-releases/innoviz-technologies-lands-first-multi-million-orders-from-defense-customer-302838970.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Number of Employees 2026 | Employee Count & Headcount Data",
+      "link": "https://www.reveliolabs.com/companies/innoviz/employees",
+      "publisher": "Revelio Labs",
+      "published_at": "2026-07-29T22:49:25.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz raises $30M to fund Perciz defense brand rollout",
+      "link": "https://app.dealroom.co/news/note/innoviz-raises-30m-to-fund-perciz-defense-brand-rollout",
+      "publisher": "Dealroom",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "INVZ Q2'26 Earnings: revenue estimate is 16.33M USD",
+      "link": "https://www.tradingview.com/news/tradingview:abf49c524dbc1:0-invz-q2-26-earnings-revenue-estimate-is-16-33m-usd/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz prices $30 million registered direct offering",
+      "link": "https://www.investing.com/news/company-news/innoviz-prices-30-million-registered-direct-offering-93CH-4816797",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Why Is Innoviz Technologies Stock Falling Tuesday?",
+      "link": "https://www.benzinga.com/trading-ideas/movers/26/07/60738992/why-is-innoviz-technologies-stock-falling-tuesday",
+      "publisher": "Benzinga",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz prices $30 million registered direct offering By Investing.com",
+      "link": "https://uk.investing.com/news/stock-market-news/innoviz-prices-30-million-registered-direct-offering-93CH-4792295",
+      "publisher": "Investing.com UK",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies stock tumbles 30% on share offering",
+      "link": "https://in.investing.com/news/stock-market-news/innoviz-technologies-stock-tumbles-30-on-share-offering-93CH-5518435",
+      "publisher": "Investing.com India",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies stock tumbles 30% on share offering",
+      "link": "https://www.investing.com/news/stock-market-news/innoviz-technologies-stock-tumbles-30-on-share-offering-93CH-4817825",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Trending Industry Today: Innoviz Technologies Leads Losses In Lidar Technology Stocks",
+      "link": "https://www.moomoo.com/news/post/73654812/trending-industry-today-innoviz-technologies-leads-losses-in-lidar-technology",
+      "publisher": "moomoo.com",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Announces Pricing of $30 Million Registered Direct Offering",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-announces-pricing-of-30-million-registered-direct-offering-302836498.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz stock falls 29.7% after $30 million registered direct offering",
+      "link": "https://scanx.trade/stock-market-news/companies/innoviz-technologies-raises-30-million-to-fund-perciz-security-brand/46794047",
+      "publisher": "scanx.trade",
+      "published_at": "2026-07-28T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Sets Second Quarter 2026 Conference Call for Wednesday, August 5 at 9:00 a.m. ET",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/innoviz-sets-second-quarter-2026-120000749.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz LiDAR Finds a Providential New Counter-UAS Mission Extending the Life-Saving Value of Proven Automotive Technology",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-lidar-finds-a-providential-new-counter-uas-mission-extending-the-life-saving-value-of-proven-automotive-technology-302827541.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Will it Take for Ouster to Reach Breakeven EBITDA?",
+      "link": "https://www.tradingview.com/news/zacks:34ee4cada094b:0-what-will-it-take-for-ouster-to-reach-breakeven-ebitda/",
+      "publisher": "TradingView",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz launches Perciz to bring its LiDAR into defense and homeland security",
+      "link": "https://www.jpost.com/defense-and-tech/article-902559",
+      "publisher": "The Jerusalem Post",
+      "published_at": "2026-07-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz Launches Perciz, a Defense and Homeland Security Brand Built to See Through the Complexity of Modern Threats",
+      "link": "https://www.lelezard.com/en/news-innoviz-launches-perciz-a-defense-and-homeland-security-brand-built-to-see-through-the-complexity-22296148.html",
+      "publisher": "Lelezard",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Launches Perciz, a Defense and Homeland Security Brand Built to See Through the Complexity of Modern Threats",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-launches-perciz-a-defense-and-homeland-security-brand-built-to-see-through-the-complexity-of-modern-threats-302825014.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz (INVZ) Partners With Cogniteam to Launch AI-Powered Counter-Drone Perception Module",
+      "link": "https://finance.yahoo.com/technology/ai/articles/innoviz-invz-partners-cogniteam-launch-193040341.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz launches defense and security brand Perciz",
+      "link": "https://www.investing.com/news/company-news/innoviz-launches-defense-and-security-brand-perciz-93CH-4790737",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Israeli Firms Pair LiDAR With AI-Driven Analytics to Sharpen Drone Detection",
+      "link": "https://thedefensepost.com/2026/07/10/israeli-lidar-drone-detection/",
+      "publisher": "The Defense Post",
+      "published_at": "2026-07-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz and Cogniteam partner to integrate LIDAR sensor and AI-based perception for C-UAS applications",
+      "link": "https://www.unmannedairspace.info/latest-news-and-information/innoviz-and-cogniteam-partner-to-integrate-lidar-sensor-and-ai-based-perception-for-c-uas-applications/",
+      "publisher": "Unmanned airspace",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz and Cogniteam Unveil AI-LiDAR Solution to Tackle the Drone Threat",
+      "link": "https://www.israeldefense.co.il/en/node/69668",
+      "publisher": "israeldefense.co.il",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Israeli firms unveil new collaboration for drone‑detection tool",
+      "link": "https://www.jpost.com/defense-and-tech/article-901829",
+      "publisher": "The Jerusalem Post",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz partners with AeroNous on counter-drone technology",
+      "link": "https://www.investing.com/news/company-news/innoviz-partners-with-aeronous-on-counterdrone-technology-93CH-4781563",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz partners with AeroNous on counter-drone technology By Investing.com",
+      "link": "https://uk.investing.com/news/stock-market-news/innoviz-partners-with-aeronous-on-counterdrone-technology-93CH-4761765",
+      "publisher": "Investing.com UK",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Innoviz Technologies integrates LiDAR into AeroNous Solutions' platform",
+      "link": "https://scanx.trade/stock-market-news/companies/innoviz-technologies-integrates-lidar-into-aeronous-solutions-platform/45064821",
+      "publisher": "scanx.trade",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz LiDAR Powers Cogniteam's New Counter-UAS Classification Module for Advanced Security Platforms",
+      "link": "https://www.prnewswire.com/news-releases/innoviz-lidar-powers-cogniteams-new-counter-uas-classification-module-for-advanced-security-platforms-302819412.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz appoints former Rafael defense CEO to board",
+      "link": "https://www.investing.com/news/company-news/innoviz-appoints-former-rafael-defense-ceo-to-board-93CH-4776494",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Israeli Firms Partner on LiDAR for Counter-Drone Systems",
+      "link": "https://thedefensepost.com/2026/07/02/innoviz-givon-counter-drone/",
+      "publisher": "The Defense Post",
+      "published_at": "2026-07-02T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "LiDAR boosts counter-drone tracking in dense urban environments",
+      "link": "https://interestingengineering.com/military/lidar-counter-uas-drone-tracking-regulus-innoviz",
+      "publisher": "interestingengineering.com",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Innoviz partners with Givon Defense on counter-drone technology",
+      "link": "https://www.investing.com/news/company-news/innoviz-partners-with-givon-defense-on-counterdrone-technology-93CH-4770354",
+      "publisher": "Investing.com",
+      "published_at": "2026-07-01T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    }
+  ]
+}

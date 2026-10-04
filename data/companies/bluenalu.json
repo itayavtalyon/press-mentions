@@ -1,0 +1,23 @@
+{
+  "name": "BlueNalu",
+  "last_mentioned_at": "2026-09-29T03:11:42.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Company explores cell-cultured seafood",
+      "link": "https://www.rappler.com/culture-desk/food-drinks/nomad-foods-explores-seafood-grown-cells-laboratory-united-kingdom/",
+      "publisher": "Rappler",
+      "published_at": "2026-09-29T03:11:42.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Clean Meat Market: Stem Cell Derived “Clean Meat” Attracts Billionaires",
+      "link": "https://bioinformant.com/clean-meat-market/",
+      "publisher": "BioInformant",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

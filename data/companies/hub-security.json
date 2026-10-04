@@ -1,0 +1,63 @@
+{
+  "name": "Hub Security",
+  "last_mentioned_at": "2026-09-25T20:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "HUB Cyber Security Announces Receipt of Nasdaq Notification Regarding Market Value of Listed Securities Requirement",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hub-cyber-security-announces-receipt-200000955.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-09-25T20:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Nasdaq gives HUB 180 days to meet its $35 million listing threshold. Shares keep trading for now.",
+      "link": "https://www.stocktitan.net/news/HUBC/hub-cyber-security-announces-receipt-of-nasdaq-notification-sdfdtg1sfb33.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-25T20:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "Reverse stock split to help keep Hub Cyber Security (Nasdaq: HUBC) compliant with Nasdaq rules",
+      "link": "https://www.stocktitan.net/sec-filings/HUBC/6-k-hub-cyber-security-ltd-current-report-foreign-issuer-79ecd8eba849.html",
+      "publisher": "Stock Titan",
+      "published_at": "2026-09-17T20:15:44.000Z",
+      "verdict": "neutral",
+      "text_source": "title"
+    },
+    {
+      "title": "HUB Cyber Security Ltd. Announces 1-for-25 Reverse Share Split to Support Nasdaq Compliance",
+      "link": "https://www.quiverquant.com/news/HUB+Cyber+Security+Ltd.+Announces+1-for-25+Reverse+Share+Split+to+Support+Nasdaq+Compliance",
+      "publisher": "Quiver Quantitative",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Hub Security, Investors Get Final Nod for $11 Million Settlement",
+      "link": "https://news.bloomberglaw.com/securities-law/hub-security-investors-get-final-nod-for-11-million-settlement",
+      "publisher": "Bloomberg Law News",
+      "published_at": "2026-08-05T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "HUB Security Regains Full Compliance with Nasdaq Listing Requirements",
+      "link": "https://www.manilatimes.net/2026/08/03/tmt-newswire/globenewswire/hub-security-regains-full-compliance-with-nasdaq-listing-requirements/2396961",
+      "publisher": "The Manila Times",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Hub Security regains Nasdaq listing compliance By Investing.com",
+      "link": "https://ca.investing.com/news/stock-market-news/hub-security-regains-nasdaq-listing-compliance-93CH-4770741",
+      "publisher": "Investing.com Canada",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    }
+  ]
+}

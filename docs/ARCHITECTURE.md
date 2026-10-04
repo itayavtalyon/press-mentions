@@ -1,6 +1,6 @@
 # Architecture
 
-Press mentions for the OurCrowd seed list are collected from Google News RSS, judged by a local Ollama model, and shown on a small server-rendered dashboard. A one-time backfill fills the coverage store and does not notify anyone. Cron starts the forward feed, unwrap, fetch, and extract as separate commands, then a digest command and a mailer. Three SQLite files keep coverage, alerts, and prompt scores apart so the exercise process can later split along those lines. The live model and prompt are constants chosen offline. The main README is the runbook and the production/v2 narrative. This document is how the pieces move.
+Press mentions for the OurCrowd seed list are collected from Google News RSS, judged by a local Ollama model, and shown on a small server-rendered dashboard. A one-time backfill fills the coverage store and does not notify anyone. Cron starts the pipeline as separate commands: the forward feed, unwrap, fetch, extract, classify, eligible, digest, and mail. Three SQLite files keep coverage, alerts, and prompt scores apart so the exercise process can later split along those lines. The live model and prompt are constants chosen offline. The main README is the runbook and the production/v2 narrative. This document is how the pieces move.
 
 ## Context
 
@@ -14,8 +14,9 @@ flowchart LR
   unwrap[Unwrap]
   fetch[Fetch]
   extract[Extract]
-  digest[Digest enqueue]
   classify[Classify]
+  eligible[Mark eligible]
+  digest[Digest enqueue]
   mailer[Mailer]
   backfill[Backfill once]
   eval[Eval program]
@@ -31,8 +32,9 @@ flowchart LR
   cron --> unwrap
   cron --> fetch
   cron --> extract
-  cron --> digest
   cron --> classify
+  cron --> eligible
+  cron --> digest
   cron --> mailer
   operator --> backfill
   operator --> eval
@@ -48,6 +50,7 @@ flowchart LR
   digest --> alerts
   classify --> ollama
   classify --> coverage
+  eligible --> coverage
   backfill --> google
   backfill --> coverage
   mailer --> alerts
@@ -55,7 +58,7 @@ flowchart LR
   eval --> evaluation
 ```
 
-The exercise mailer writes the log and a file. Production notes in the README describe SMTP. Redis is described there as the shared rate-limit bucket and is not installed.
+The exercise mailer logs the stored body and marks the outbox row sent. It does not write a file. Production notes in the README describe SMTP. Redis is described there as the shared rate-limit bucket and is not installed.
 
 ## Components
 
@@ -73,7 +76,7 @@ flowchart TB
   subgraph alertsMod [Alerts module]
     subs[Subscriptions]
     queue[Digest queue]
-    sender[Sender port]
+    mailLog[Mailer log]
   end
   subgraph evalMod [Evaluation module]
     scorer[Offline scorer]
@@ -87,13 +90,13 @@ flowchart TB
   classifier --> coverageDb
   dashboard --> coverageDb
   dashboard --> subs
-  queue --> sender
+  queue --> mailLog
   scorer --> evalDb
 ```
 
-Exercise implementations are the Google News RSS adapter, the `batchexecute` unwrap, an HTTP fetcher, Mozilla Readability on linkedom, the Ollama client, an in-memory bucket, and a log-and-file sender. The orchestrator takes these as arguments. Pure functions, including day counts and the bucket math, are not behind a port. An adapter that waits or jitters also takes a clock and a random source in `[0, 1)`.
+Exercise implementations are the Google News RSS adapter, the `batchexecute` unwrap, an HTTP fetcher, Mozilla Readability on linkedom, the Ollama client, an in-memory bucket, and a mailer that logs the stored body. The orchestrator takes these as arguments. Pure functions, including day counts and the bucket math, are not behind a port. An adapter that waits or jitters also takes a clock and a random source in `[0, 1)`.
 
-## Collection and classification
+## Pipeline
 
 ```mermaid
 sequenceDiagram
@@ -103,11 +106,15 @@ sequenceDiagram
   participant Fetch
   participant Extract
   participant Classify
+  participant Eligible as Mark eligible
+  participant Digest as Digest enqueue
+  participant Mail as Mailer
   participant DB as Coverage store
+  participant Alerts as Alerts store
 
   Cron->>Feed: Start
-  Feed->>DB: Insert new articles at stage unwrap
-  Note over Feed,DB: Feed holds the feed lock. Unwrap holds its own lock.
+  Feed->>DB: Insert new daily articles at stage unwrap
+  Note over Feed,DB: alert_eligible stays 0. A stored guid is unchanged. Feed holds the feed lock. Unwrap holds its own lock.
   Cron->>Unwrap: Start later
   Unwrap->>DB: Read stage unwrap only, write the publisher URL, stage becomes fetch
   Cron->>Fetch: Start later
@@ -116,10 +123,19 @@ sequenceDiagram
   Extract->>DB: Read stage extract only, write text, stage becomes classify
   Cron->>Classify: Start later
   Classify->>DB: Read open links at stage classify, write verdicts, stage stays classify
-  Note over Cron,DB: A step does not call the next step. A second copy of that same command exits without opening the store.
+  Cron->>Eligible: Start later
+  Eligible->>DB: Set alert_eligible on daily mentions that can alert
+  Cron->>Digest: Start later
+  Digest->>Alerts: Upsert ALERT_EMAIL subscriptions
+  Digest->>DB: Eligible mentions published in the last 72 hours
+  Digest->>Alerts: One transaction per digest, pending outbox row, then notified rows
+  Cron->>Mail: Start later
+  Mail->>Alerts: Mark each still-pending row sent
+  Mail->>Mail: Log the stored body after that update commits
+  Note over Cron,Alerts: A step does not call the next step. A second copy of that same command exits without opening its store.
 ```
 
-The backfill window is last quarter through now. The forward feed window is the trailing three days. Unwrap, fetch, extract, and classify are separate cron commands. Each reads only the articles whose `stage` is its queue. The coverage row is the queue. A write matches that stage. A row that has already moved is logged and left where it is. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is `npm run job:classify`, and extract does not start it. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. Any publisher status other than 429 or 5xx, a refused URL, and an empty extract take the title path at once. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
+The backfill window is last quarter through now. The forward feed window is the trailing three days, `[now - 3 days, now)`. It inserts a new article at stage `unwrap` with origin `daily` and leaves `alert_eligible` unset. A guid already stored for that company is not changed, and the feed does not set `backfilled_at`. Unwrap, fetch, extract, classify, eligible, digest, and mail are separate cron commands. A text step reads only the articles whose `stage` is its queue. The coverage row is the queue. A write matches that stage. A row that has already moved is logged and left where it is. If volume demands it, replace that cron polling with a message queue such as Kafka. Classification is `npm run job:classify`, and extract does not start it. Eligible marks daily mentions after classify and does not advance `stage`. Backfill stays ineligible. Digest and mail follow eligible. They do not advance `stage`, and none of these commands starts the next one. Each adapter handles its own failures (ADR 0006): Google and publisher throttles back off, honoring `Retry-After`. Ollama failures back off. Any publisher status other than 429 or 5xx, a refused URL, and an empty extract take the title path at once. A throw from Readability records `last_error`, leaves the row at `extract`, and the run continues. When backoff is exhausted, the item stays retryable and the run exits non-zero. A third failed run makes the item terminal. `uncertain` is not retried.
 
 ## Digest
 
@@ -135,12 +151,13 @@ sequenceDiagram
   Digest->>Alerts: Upsert ALERT_EMAIL subscriptions
   Digest->>Coverage: Eligible mentions published in the last 72h
   Digest->>Alerts: Drop those with a notified row
-  Digest->>Alerts: One transaction, outbox row per subscription and company, plus notified rows
-  Note over Digest,Alerts: Backfill rows are not eligible. A second run enqueues only what is still new.
+  Digest->>Alerts: One transaction per digest, pending outbox row, then notified rows
+  Note over Digest,Alerts: Backfill rows are not eligible. A conflict keeps the stored body and still fills notified rows.
   Cron->>Mail: Its own crontab line
-  Mail->>Alerts: Read a queue row
-  Mail->>Mail: Write data/alerts/<id>.txt and the same body to the log
-  Mail->>Alerts: Delete the row after success
+  Mail->>Alerts: Delete sent rows whose sent_at is at least 96 hours ago
+  Mail->>Alerts: Set status sent and sent_at where the row is still pending
+  Mail->>Mail: Log the stored body after that update commits
+  Note over Mail,Alerts: The row stays. There is no alert file. A crash after the update and before the log does not log it again.
 ```
 
 Digest order is negative, positive, neutral, then `unranked`. No row is written when the company has no new eligible mention.
@@ -207,14 +224,17 @@ erDiagram
   }
   outbox {
     int id
-    text company_id
     text email
+    text company_id
     text body
     text created_at
+    text status
+    text mention_ids
+    text sent_at
   }
 ```
 
-`subscriptions` is unique on company and email, ignoring case. The address is stored as typed. `notified` is unique on email, company, and `guid`, and is written in the same transaction as the outbox row it belongs to.
+`subscriptions` is unique on company and email, ignoring case. The address is stored as typed. `notified` is unique on email, company, and `guid`, and is written in the same transaction as the outbox row it belongs to. A failed digest rolls back only that transaction. `outbox` is unique on email, company, and `mention_ids`, ignoring email case. `status` is `pending` or `sent`. `sent_at` is null while pending and an ISO timestamp when sent. A sent row stays for 96 hours after `sent_at`. Notified rows are not deleted.
 
 ## Evaluation store
 
@@ -249,13 +269,10 @@ flowchart LR
   covCopy[data/coverage.sqlite]
   alertsCopy[data/alerts.sqlite]
   evalCopy[data/evaluation.sqlite]
-  mail[Mailer]
-  alertFiles[data/alerts/]
   coverage --> json
   coverage --> covCopy
   alerts -->|emails replaced| alertsCopy
   evaluation --> evalCopy
-  mail --> alertFiles
 ```
 
 Each JSON file has `name`, `last_mentioned_at` (the newest visible `published_at` across all stored data, or null), `as_of`, and `mentions`. The mention list is the visible mentions whose `published_at` falls in the previous complete UTC quarter at `as_of`. Each mention has `title`, `link`, `published_at`, `verdict`, and `text_source`. The "N days ago" sentence is rendered by the page, never stored. Hidden verdicts remain in `data/coverage.sqlite`. Copies use `db.backup()`. A company that failed has no file. The command still writes the rest, then exits non-zero. A file over 100 MB throws and is not written. Before the alerts copy, every email column becomes `redacted@example.com`.
@@ -275,20 +292,20 @@ One OS process per command. Publishers on different hosts may proceed together. 
 | `PUBLISHER_TOKEN_MS` | Refill interval for other hosts, default 2000                                       |
 | `ALERT_EMAIL`        | Default subscriber for every company; `.env.example` ships an `example.com` address |
 
-The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, and classify lock the coverage database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. Each process has its own in-memory token bucket, so overlap can double the Google rate. The job writes its pid into a claim file and links that onto its lock, so the file is never empty. A second copy of that command exits without opening its store while that pid is running. A pid that is not running is stale: the next start renames the file aside and takes the lock. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. The file is deleted when the job finishes. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
+The live model and prompt version are `LIVE_MODEL` (`qwen3.5:9b`) and `LIVE_PROMPT_VERSION` (`v001`) in `src/core/classifier.js`. A person edits them by hand after eval. They are not environment variables, and the eval job does not read them. The backfill cap of 150, the 72-hour alert age gate, and the backoff limits are constants too. HTTP backoff is 5 attempts, a 2 second base, a 5 minute cap, a 30 second timeout, and jitter from half to all of the exponential delay. The seed is the provided plain-text file, one name per line. Parentheticals become aliases. The overlay file adds descriptors and query terms (ADR 0003). Each command has its own lock file, `<database>.<command>.lock`. Backfill and the forward feed share `feed` on the coverage database. Unwrap, fetch, extract, classify, and eligible lock the coverage database under their own names. Digest and mail lock the alerts database under their own names. A different command may run at the same time. Each process has its own in-memory token bucket, so overlap can double the Google rate. The job writes its pid into a claim file and links that onto its lock, so the file is never empty. A second copy of that command exits without opening its store while that pid is running. A pid that is not running is stale: the next start renames the file aside and takes the lock. Two recovering starts cannot delete each other's lock. The loser exits naming the holder. The file is deleted when the job finishes. Every connection uses WAL, `busy_timeout` 5000, and foreign keys. Schema changes are applied by deleting the file. There are no migrations.
 
 Logging is structured enough to grep: company, `guid`, stage, and error. A 100-item feed is logged as truncated. Parse failures log the raw model text.
 
 ## Exercise and production
 
-| Topic              | Exercise                                     | Production note                                     |
-| ------------------ | -------------------------------------------- | --------------------------------------------------- |
-| Backfill depth     | Quarter, then weeks, at most 150 per company | Keep halving, no cap. A full day is the RSS ceiling |
-| Rate limit         | In-memory token bucket                       | Redis key shared by workers                         |
-| Mail               | Log and file, then delete the row            | SMTP, then delete the row                           |
-| Signup             | Dialog on the company page, no confirmation  | Confirm the address before SMTP                     |
-| Egress             | One IP                                       | A pool of addresses, not specified here             |
-| Historical quarter | One backfill so `data/` is populated         | Empty until a quarter of forward collection exists  |
+| Topic              | Exercise                                                | Production note                                     |
+| ------------------ | ------------------------------------------------------- | --------------------------------------------------- |
+| Backfill depth     | Quarter, then weeks, at most 150 per company            | Keep halving, no cap. A full day is the RSS ceiling |
+| Rate limit         | In-memory token bucket                                  | Redis key shared by workers                         |
+| Mail               | Log the stored body and leave the row sent for 96 hours | SMTP                                                |
+| Signup             | Dialog on the company page, no confirmation             | Confirm the address before SMTP                     |
+| Egress             | One IP                                                  | A pool of addresses, not specified here             |
+| Historical quarter | One backfill so `data/` is populated                    | Empty until a quarter of forward collection exists  |
 
 ## Where a decision lives
 
@@ -326,7 +343,7 @@ Logging is structured enough to grep: company, `guid`, stage, and error. A 100-i
 - The overlay must be final before the real backfill. A company already backfilled keeps its candidates when its query changes later. Clearing `backfilled_at` makes the next run search again and add links. It does not remove links already stored. A smoke run on 1 Oct 2026 stored 150 "edge" items for Ludeo before the overlay existed. Delete those links before searching that company again. Ludeo's overlay entry now drops the Edge alias.
 - Measured on 1 Oct 2026 with the overlay terms: Bites, Kini, Peak, MST, Silo, Launchpad, and Rewire return few or no stories about the company, and Orchard is still mostly other uses of the word. Those may be quiet companies or a recall loss from the terms. The README should list them.
 - The overlay decides precision for about 30 ordinary-word names. A wrong or missing descriptor is a silent precision loss. The labeled set should include one hit and one miss for several of those names, not only Harvey.
-- The mailer can send the same body twice if it crashes after a successful handoff and before the delete.
+- A crash after the outbox update and before the log leaves the row sent. The next mail run does not log that body again. The sent row is the evidence. The same mention set cannot be inserted again while that row remains, and notified rows are not deleted, so the mention stays marked after the sent row is removed at 96 hours.
 - A mention classified more than 72 hours after publication never alerts.
 - Article text is committed in `data/coverage.sqlite`. Size is the only check.
 - The subscribe form accepts a trimmed address with one `@`, no spaces, a dot in the domain, and length at most 254. Comparison is case-insensitive. The exercise sender does not deliver mail. SMTP without a confirmation step would. A new subscriber receives the last 72 hours on the next digest run (ADR 0007).

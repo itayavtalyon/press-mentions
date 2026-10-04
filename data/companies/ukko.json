@@ -1,0 +1,23 @@
+{
+  "name": "Ukko",
+  "last_mentioned_at": "2026-08-25T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Biotech’s Quest To Eliminate Food Allergies",
+      "link": "https://www.forbes.com/sites/dereknorman/2026/08/25/biotechs-quest-to-eliminate-food-allergies/",
+      "publisher": "Forbes",
+      "published_at": "2026-08-25T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    },
+    {
+      "title": "Aravax secures FDA Fast Track designation for PVX108 peanut allergy immunotherapy",
+      "link": "https://allsci.com/news/regulatory/fda-fast-track-peanut-allergy-immunotherapy/",
+      "publisher": "AllSci",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    }
+  ]
+}

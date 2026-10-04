@@ -1,0 +1,63 @@
+{
+  "name": "NT-Tao",
+  "last_mentioned_at": "2026-09-26T21:17:50.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Kairos & Samsung in $100M Deal for EPC Services",
+      "link": "https://neutronbytes.com/2026/09/26/kairos-samsung-in-100m-deal-for-epc-services/",
+      "publisher": "Neutron Bytes",
+      "published_at": "2026-09-26T21:17:50.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "A 50-module power bank firing 50-megawatt bursts now feeds the plasma inside an Israeli fusion machine, five times the power of the 12-module bank before it, and its controller must keep all 50 acting as one source while the plasma changes the electrical lo",
+      "link": "https://www.autonocion.com/us/50-module-power-bank-fusion-plasma-load/",
+      "publisher": "Autonocion.com",
+      "published_at": "2026-09-24T19:58:53.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "20 MW compact fusion system targets on-site power for data centers and industry",
+      "link": "https://interestingengineering.com/energy/nt-tao-orion-20-mw-fusion-power-us-data-centers",
+      "publisher": "interestingengineering.com",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "nT-Tao and Orion Nuclear Energy Corporation Announce",
+      "link": "https://www.globenewswire.com/news-release/2026/09/21/3365430/0/en/nt-tao-and-orion-nuclear-energy-corporation-announce-strategic-collaboration-to-bring-compact-fusion-power-to-u-s-data-centers-and-critical-infrastructure.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "50-MW power drive could unlock higher fusion plasma temperatures",
+      "link": "https://interestingengineering.com/energy/nuclear-fusion-gets-50-mw-pulse-upgrade",
+      "publisher": "interestingengineering.com",
+      "published_at": "2026-09-16T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "nT-Tao Deploys 50 MW Pulsed-Power Subsystem to Drive Fusion Prototype Toward Next Temperature Milestone",
+      "link": "https://www.globenewswire.com/news-release/2026/09/15/3362276/0/en/nt-tao-deploys-50-mw-pulsed-power-subsystem-to-drive-fusion-prototype-toward-next-temperature-milestone.html",
+      "publisher": "GlobeNewswire",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Revealed: The Israeli startups that will solve the world’s hottest problem",
+      "link": "https://www.israelhayom.com/2026/06/07/revealed-the-israeli-startups-that-will-solve-the-worlds-hottest-problem/",
+      "publisher": "www.israelhayom.com",
+      "published_at": "2026-07-06T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

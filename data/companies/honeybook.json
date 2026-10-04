@@ -1,0 +1,63 @@
+{
+  "name": "HoneyBook",
+  "last_mentioned_at": "2026-09-10T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "HoneyBook Revenue 2024: $74.2M Est. ARR",
+      "link": "https://getlatka.com/companies/honeybook.com",
+      "publisher": "GetLatka",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "HoneyBook Launches on ChatGPT as Part of OpenAI’s New Small Business Collection",
+      "link": "https://markets.businessinsider.com/news/stocks/honeybook-launches-on-chatgpt-as-part-of-openai-s-new-small-business-collection-1036532592",
+      "publisher": "markets.businessinsider.com",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "HoneyBook Launches Business Phone & SMS for Independent Businesses",
+      "link": "https://finance.yahoo.com/small-business/articles/honeybook-launches-business-phone-sms-130000047.html",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-08-31T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "HoneyBook MCP Debuts as a Claude Connector for Client Pipelines, Invoices and Contracts",
+      "link": "https://www.manilatimes.net/2026/08/19/tmt-newswire/globenewswire/honeybook-mcp-debuts-as-a-claude-connector-for-client-pipelines-invoices-and-contracts/2408526",
+      "publisher": "The Manila Times",
+      "published_at": "2026-08-19T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "HoneyBook Included in CNBC’s 2026 List of the World’s Top Fintech Companies",
+      "link": "https://www.financemagnates.com/thought-leadership/honeybook-included-in-cnbcs-2026-list-of-the-worlds-top-fintech-companies/",
+      "publisher": "Finance Magnates",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI-Powered CRM Platform HoneyBook Launches New Tools for Photographers",
+      "link": "https://petapixel.com/2026/07/09/ai-powered-crm-platform-honeybook-launches-new-tools-for-photographers/",
+      "publisher": "PetaPixel",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "HoneyBook Expands Platform with New Features for Photographers",
+      "link": "https://www.businesswire.com/news/home/20260709863350/en/HoneyBook-Expands-Platform-with-New-Features-for-Photographers",
+      "publisher": "Business Wire",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "title"
+    }
+  ]
+}

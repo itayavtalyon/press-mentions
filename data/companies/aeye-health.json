@@ -1,0 +1,23 @@
+{
+  "name": "AEYE Health",
+  "last_mentioned_at": "2026-09-09T07:00:00.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "AEYE-DS Clinical Trials Published: First Fully Autonomous Diabetic Retinopathy Screening Technology Across Portable and Tabletop Devices Demonstrates 99% Imageability, One-Image-per-Eye Workflow, and Best-in-Class Diagnostic Efficacy",
+      "link": "https://www.prnewswire.com/news-releases/aeye-ds-clinical-trials-published-first-fully-autonomous-diabetic-retinopathy-screening-technology-across-portable-and-tabletop-devices-demonstrates-99-imageability-one-image-per-eye-workflow-and-best-in-class-diagnostic-effic-302873861.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-09-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "New Real-World Data Shows AEYE-DS Autonomous AI Achieving a 96% Success Rate (Imageability) Without Dilation in a High-Traffic Endocrinology Clinic",
+      "link": "https://www.prnewswire.com/news-releases/new-real-world-data-shows-aeye-ds-autonomous-ai-achieving-a-96-success-rate-imageability-without-dilation-in-a-high-traffic-endocrinology-clinic-302842394.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}

@@ -285,3 +285,131 @@ Now do the same for the extract step.
 ```text
 Please deep review the fetch step in the pipeline. I would like to have it run next when it's good to go
 ```
+
+## 2026-10-04 — Alert digest and mailer
+
+```text
+Implement the digest command and the mailer. Classify already stores verdicts. These two commands are the alert path. Digest enqueues. The mailer logs. Neither command collects, unwraps, fetches, extracts, or classifies.
+
+Read AGENTS.md, docs/CODING-STANDARD.md, docs/ARCHITECTURE.md, ADR 0005, ADR 0006, ADR 0007, and ADR 0009 before editing. Match src/jobs/run-classify.js. Plain JavaScript, JSDoc, named exports. No any, no ts-ignore, no unchecked casts. Throw Error. One model per file. Do not add a file for a helper. src/core does not import an adapter. Tests use fakes and temp databases. No network. npm run verify must pass. Do not change LIVE_MODEL or LIVE_PROMPT_VERSION. Do not commit unless asked.
+
+This prompt replaces the ADR 0007 mailer. Do not write data/alerts/<id>.txt. Do not delete an outbox row on send. Update ADR 0007, ADR 0005, ADR 0009, docs/ARCHITECTURE.md, and docs/BUILD-PLAN.md so they stop saying the mailer writes that file and deletes the row. The sequence diagram, the outbox columns, and the "can send the same body twice" note change with them.
+
+What already exists
+- src/infra/alerts-store.js opens the alerts file and subscribe() upserts one company and email. Email is stored as typed. subscriptions is unique on (company_id, email) COLLATE NOCASE. notified is unique on (email, company_id, guid). Leave that primary key as it is. Do not delete notified rows.
+- src/jobs/digest.js is an empty placeholder. src/jobs/mail.js does not exist. vitest already excludes both shims. npm run job:digest and just job-digest already exist.
+- alert_eligible is set only when the forward feed first inserts a guid. Backfill does not alert. The feed does not enqueue. A later feed does not flip a backfill row.
+- published_at is toISOString text. Text comparison is time comparison. The window is now - 72 hours <= published_at < now.
+- Schema changes by deleting the sqlite file. There are no migrations. CREATE TABLE IF NOT EXISTS will not add columns to data/alerts.sqlite. Do not delete data/alerts.sqlite or data/coverage.sqlite. Do not run either command against those files.
+
+Outbox
+Add status, mention_ids, and sent_at to outbox in src/infra/alerts-store.js. status is pending or sent. mention_ids is the canonical set: guids sorted by UTF-16 code unit, then JSON.stringify, so ["a","b"] with no spaces. sent_at is null while pending, and toISOString when sent. email is COLLATE NOCASE. UNIQUE (email, company_id, mention_ids). A pending row has a null sent_at. A sent row has a sent_at. created_at stays toISOString.
+
+The same email, company, and mention set cannot be inserted twice. A different set for that email and company is a different digest and is still inserted while those mentions are inside 72 hours. Case-different emails are the same key.
+
+Digest
+src/jobs/run-digest.js holds the work. src/jobs/digest.js only loads config, builds the clock and logger, calls runDigest, logs digest.finished, and sets process.exitCode. The lock is withCommandLock(alertsDatabase, "digest"), taken before either store opens. A second digest exits 1 and names the holder. It does not lock the coverage database. The mailer may run at the same time.
+
+Upsert one ALERT_EMAIL subscription per company before enqueue, through subscribe(). Then read candidates from the coverage store. Put that read in src/infra/coverage-store.js. src/infra/stage-queue.js is already at the file limit. Do not add the query there. Dashboard queries stay in coverage-read.js. The coverage read does not know about notified.
+
+A candidate has verdict positive, negative, neutral, or unranked, alert_eligible set, and published_at inside the window. unrelated and uncertain are not candidates. The clock is injected. Do not call Date.now in the job.
+
+For each subscription, keep only candidates for that company with no notified row for that stored email, company, and guid. Use the email stored on the subscription. One message per email per company, and only when at least one mention remains. Skip a company with none. Item order is negative, positive, neutral, unranked. Within a verdict, newest published_at first, then guid. The link is publisher_url, or google_url when publisher_url is null or empty. The company line is display_name.
+
+The body is exactly this shape, with a newline after the last line. A blank line sits between items. Empty verdicts are omitted. An unranked item adds the tone line:
+
+To: <email>
+<display name>
+
+<title>
+<link>
+Verdict: <verdict>
+
+<title>
+<link>
+Verdict: unranked
+Tone: unranked
+
+Enqueue
+Build every digest for this run first. Then write them in one alerts transaction. Insert every outbox row as pending, ON CONFLICT DO NOTHING, and only after those inserts insert the notified rows, ON CONFLICT DO NOTHING. A conflict means that digest is already stored. It counts as success. Still write any missing notified rows for that set. Do not update the stored body.
+
+A throw rolls the transaction back. That attempt leaves no new outbox row and no new notified row. Do not mark a mention whose digest was not stored. Digest does not set status to sent, does not log a body, does not write a file, and does not call the network.
+
+Insert digests in email, then company id, order. Exit 0 when the transaction commits, including when nothing was eligible. A throw exits 1.
+
+Mailer
+src/jobs/run-mail.js holds the work. src/jobs/mail.js matches the digest shim and logs mail.finished. The lock is withCommandLock(alertsDatabase, "mail"), taken before the store opens. A second mailer exits 1 and names the holder. It does not open the coverage database, does not rebuild a body, does not write a file, and does not call the network.
+
+At the start, delete outbox rows where status is sent and sent_at <= now - 96 hours. 96 hours is 72 hours plus one day. Compare toISOString text. Never delete a pending row. Never delete a notified row. A row sent in this run has sent_at of now, so this cleanup does not remove it.
+
+Then read pending rows oldest created_at, then id. For each row:
+
+UPDATE outbox SET status = 'sent', sent_at = ? WHERE id = ? AND status = 'pending'
+
+If that update changes one row, log mail.sent with the stored body. If it changes zero rows, do not log. The update commits before the log. A crash after the update and before the log leaves the row sent and the body on the row. The next run does not log it again. That missing log line is accepted. The sent row is the evidence.
+
+A throw leaves later rows pending, leaves already-sent rows sent, and exits 1. Exit 0 when every pending row has been claimed or there were none.
+
+README
+Add one sentence next to the other jobs for npm run job:mail, and a just job-mail recipe. Add src/jobs/mail.js to the coding-standard shim list. Say that the outbox unique key and the notified primary key are the idempotency guards. A sent outbox row stays for 96 hours after sent_at, which is longer than the 72-hour window, so the same mention set cannot be inserted again while it could still be eligible. notified rows are not deleted, so the mention stays marked after that sent row is gone. There is no alert file. Say that data/alerts.sqlite must be deleted before the first real digest run, because the file on disk has the old tables and there are no migrations.
+
+Tests, written first
+- An eligible mention for ALERT_EMAIL becomes one pending row and one notified row. The body matches the shape above. The link is the publisher URL.
+- An unranked item includes Tone: unranked. A null publisher URL uses the Google URL.
+- Items come out negative, positive, neutral, unranked, and newest first inside one verdict.
+- unrelated, uncertain, alert_eligible unset, published_at older than 72 hours, and published_at equal to now do not enqueue. published_at equal to now - 72 hours does.
+- A second run inserts nothing new.
+- A new mention for the same email and company inserts a second outbox row with a different mention_ids value, and only that guid is newly notified. The older item is not repeated in the new body.
+- The same mention set already pending or sent does not insert again. Missing notified rows are still written. The stored body stays.
+- A thrown write rolls back. Both tables are unchanged by that attempt.
+- Two subscribers for one company get two rows. A company with no new mention writes nothing. ALERT_EMAIL is upserted when nothing is sent.
+- A case-different address does not create a second subscription or a second digest.
+- Digest does not set sent, does not write a file, and a second digest names the holder and does not open the store.
+- The mailer sets sent and sent_at from the injected clock, logs the stored body once, and leaves the row. A second run does not log it. An update that changes zero rows does not log.
+- A sent row older than 96 hours is deleted. A sent row younger than 96 hours stays. A pending row older than 96 hours stays. notified stays.
+- A throw after one claimed row leaves the later row pending and the first row sent.
+- The mailer does not open the coverage database. A second mailer names the holder.
+
+Do not run the commands against the real coverage database or the real alerts database.
+```
+
+## 2026-10-04 — Extract Readability crash
+
+```text
+The run of the extract job failed with: /Users/itay/Library/Mobile Documents/com~apple~CloudDocs/Code/OurCrowd/Untitled/node_modules/@mozilla/readability/Readability.js:1382
+        while (parentOfTopCandidate.tagName !== "BODY") {
+                                    ^
+
+TypeError: Cannot read properties of null (reading 'tagName')
+    at Readability._grabArticle (/Users/itay/Library/Mobile Documents/com~apple~CloudDocs/Code/OurCrowd/Untitled/node_modules/@mozilla/readability/Readability.js:1382:37)
+    at Readability.parse (/Users/itay/Library/Mobile Documents/com~apple~CloudDocs/Code/OurCrowd/Untitled/node_modules/@mozilla/readability/Readability.js:2747:31)
+    at Object.extractArticleText [as extract] (file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/infra/extractor.js:24:6)
+    at extractAll (file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/jobs/run-extract.js:65:31)
+    at file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/jobs/run-extract.js:40:14
+    at withLock (file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/infra/lock.js:56:18)
+    at withCommandLock (file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/infra/lock.js:38:10)
+    at runExtract (file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/jobs/run-extract.js:37:10)
+    at file:///Users/itay/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Code/OurCrowd/Untitled/src/jobs/extract.js:12:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+
+Node.js v24.17.0
+```
+
+## 2026-10-04 — Extract must continue after a row error
+
+```text
+It should not kill the process! It should mark this row and an error and move on to the next one
+```
+
+## 2026-10-04 — Detect a script before the html element
+
+```text
+Is there a way programatticaly detect it and fix it?
+```
+
+## 2026-10-04 — Digest retry
+
+```text
+I do not want the digest to throw everything, We need to make it idempotent and safe to retry.
+Logs are less important then sending an email so this is fine
+```

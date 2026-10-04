@@ -1,0 +1,63 @@
+{
+  "name": "Morphisec",
+  "last_mentioned_at": "2026-09-30T13:10:36.000Z",
+  "as_of": "2026-10-04T16:14:15.441Z",
+  "mentions": [
+    {
+      "title": "Aligning AI Speed with AI Trust: AI Agent Security Insights for CISOs and Security Leaders",
+      "link": "https://www.morphisec.com/blog/aligning-ai-speed-with-ai-trust-ai-agent-security-insights-for-cisos-and-security-leaders/",
+      "publisher": "Morphisec",
+      "published_at": "2026-09-30T13:10:36.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "When the AI Breaks Its Own Rules",
+      "link": "https://techspective.net/2026/09/02/when-the-ai-breaks-its-own-rules/",
+      "publisher": "techspective.net",
+      "published_at": "2026-09-03T02:32:02.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Morphisec Launches AI Usage Control: Governing Shadow and Sanctioned AI on the Endpoint",
+      "link": "https://natlawreview.com/press-releases/morphisec-launches-ai-usage-control-governing-shadow-and-sanctioned-ai",
+      "publisher": "The National Law Review",
+      "published_at": "2026-07-29T14:14:25.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "AI Usage Control: Governing Shadow and Sanctioned AI Where It Actually Runs",
+      "link": "https://www.morphisec.com/blog/ai-usage-control-governing-shadow-and-sanctioned-ai-where-it-actually-runs/",
+      "publisher": "Morphisec",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "What Prevents Zero-Day Exploits? A Practical Guide to Stopping Unknown Threats",
+      "link": "https://www.morphisec.com/blog/what-prevents-zero-day-exploits-a-practical-guide-to-stopping-unknown-threats/",
+      "publisher": "Morphisec",
+      "published_at": "2026-07-27T07:00:00.000Z",
+      "verdict": "unranked",
+      "text_source": "body"
+    },
+    {
+      "title": "How AI-Driven Attacks Are Bypassing EDR — And Why Pre-Execution Defense Matters",
+      "link": "https://www.morphisec.com/blog/how-ai-driven-attacks-are-bypassing-edr-and-why-pre-execution-defense-matters/",
+      "publisher": "Morphisec",
+      "published_at": "2026-07-24T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Why AI Has Made Traditional Cybersecurity Strategies Obsolete",
+      "link": "https://www.morphisec.com/blog/why-ai-has-made-traditional-cybersecurity-strategies-obsolete-2/",
+      "publisher": "Morphisec",
+      "published_at": "2026-07-09T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    }
+  ]
+}
