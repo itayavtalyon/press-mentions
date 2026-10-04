@@ -1,21 +1,22 @@
 /**
- * Digest entry shim (ADR 0009): wiring only. An error rejects the top-level await, and Node exits 1.
+ * Export entry shim (ADR 0009): wiring only. An error rejects the top-level await, and Node exits 1.
  */
 import { loadConfig } from "../config.js";
 import { systemClock } from "../infra/clock.js";
 import { createLogger } from "../infra/logger.js";
 
-import { runDigest } from "./run-digest.js";
+import { runExport } from "./run-export.js";
 
 const config = loadConfig(process.env, process.cwd());
 const log = createLogger();
-const summary = await runDigest(
+const summary = await runExport(
   {
-    alertEmail: config.alertEmail,
     alertsDatabase: config.alertsDatabase,
     coverageDatabase: config.coverageDatabase,
+    evaluationDatabase: config.databasePath,
+    outDirectory: "data",
   },
   { clock: systemClock },
 );
-log("digest.finished", { ...summary });
+log("export.finished", { ...summary });
 process.exitCode = 0;

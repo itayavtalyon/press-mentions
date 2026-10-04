@@ -1,6 +1,31 @@
-/* eslint-disable unicorn/no-empty-file -- Entry placeholder: the forward feed is not implemented yet. */
 /**
- * Forward feed entry point.
- * Cron starts this on its own. It does not unwrap, fetch, extract, classify, or enqueue digests.
+ * Forward feed entry shim (ADR 0009): wiring only. An error rejects the top-level await, and Node exits 1.
  */
-/* eslint-enable unicorn/no-empty-file -- End of the placeholder disable. */
+import { loadConfig } from "../config.js";
+import { systemClock } from "../infra/clock.js";
+import { createGoogleNewsFeed } from "../infra/google-news.js";
+import { createHttpClient } from "../infra/http.js";
+import { createLogger } from "../infra/logger.js";
+import { createRateLimiter } from "../infra/rate-limiter.js";
+
+import { exitCode, runFeed } from "./run-feed.js";
+
+const config = loadConfig(process.env, process.cwd());
+const log = createLogger();
+const limiter = createRateLimiter({
+  clock: systemClock,
+  intervalMs: () => config.googleIntervalMs,
+});
+const http = createHttpClient({
+  fetch,
+  limiter,
+  clock: systemClock,
+  random: Math.random,
+});
+const summary = await runFeed(config, {
+  feed: createGoogleNewsFeed(http),
+  log,
+  now: new Date(),
+});
+log("feed.finished", { ...summary });
+process.exitCode = exitCode(summary);

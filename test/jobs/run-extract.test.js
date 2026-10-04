@@ -155,34 +155,6 @@ describe("runExtract beside fetch", () => {
   });
 });
 
-describe("runExtract throw", () => {
-  it("releases the lock when extract throws", async () => {
-    const { coverageDatabase, database } = givenQueueStore();
-    addQueuedArticle(database, {
-      bodyHtml: "<p>Go</p>",
-      guid: "g1",
-      publishedAt: DAY,
-      publisherUrl: "https://example.com/one",
-      stage: "extract",
-    });
-    database.close();
-
-    await expect(
-      runExtract(
-        { coverageDatabase },
-        {
-          extract: () => {
-            throw new Error("parser");
-          },
-          log: givenLog().log,
-        },
-      ),
-    ).rejects.toThrow("parser");
-    expect(fileExists(`${coverageDatabase}.extract.lock`)).toBe(false);
-    expect(readArticle(coverageDatabase, "g1").stage).toBe("extract");
-  });
-});
-
 describe("exitCode", () => {
   it("is 1 when a retryable row is still at extract", () => {
     expect(exitCode({ extracted: 0, moved: 0, remaining: 1, titled: 0 })).toBe(

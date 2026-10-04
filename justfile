@@ -37,9 +37,21 @@ job-extract:
 job-classify:
 	npm run job:classify
 
+# Mark daily mentions that can alert
+job-eligible:
+	npm run job:eligible
+
 # Enqueue digests
 job-digest:
 	npm run job:digest
+
+# Log pending digests and mark them sent
+job-mail:
+	npm run job:mail
+
+# Write the graded export into data/
+job-export:
+	npm run job:export
 
 # Score installed chat models against the saved prompts
 job-eval:

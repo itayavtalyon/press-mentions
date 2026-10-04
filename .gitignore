@@ -18,5 +18,7 @@ npm-debug.log*
 *.db
 *.db-shm
 *.db-wal
-# ADR 0005: the graded export commits SQLite copies.
-!data/*.sqlite
+# ADR 0005: the graded export commits compacted copies under data/sqlite/. Live stores stay local.
+!data/sqlite/*.sqlite
+data/*.lock
+.vitest/

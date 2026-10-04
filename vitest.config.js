@@ -13,8 +13,10 @@ export default defineConfig({
         "src/jobs/fetch.js",
         "src/jobs/extract.js",
         "src/jobs/classify.js",
+        "src/jobs/eligible.js",
         "src/jobs/digest.js",
         "src/jobs/mail.js",
+        "src/jobs/export.js",
         "src/jobs/prompt-eval/index.js",
         "src/server/index.js",
         // These two only drive a real browser; `just ui-check` runs them.

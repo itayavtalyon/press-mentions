@@ -3,6 +3,7 @@ import { withCommandLock } from "../infra/lock.js";
 import {
   articlesAtStage,
   articlesRemaining,
+  leaveForRetry,
   saveExtractedText,
   saveTitlePath,
 } from "../infra/stage-queue.js";
@@ -31,7 +32,7 @@ import {
  * @param {ExtractConfig} config Coverage settings.
  * @param {ExtractDependencies} dependencies Ports.
  * @returns {Promise<ExtractSummary>} What happened.
- * @throws {Error} Another extract holds the lock, or the extractor throws.
+ * @throws {Error} Another extract holds the lock.
  */
 export async function runExtract(config, dependencies) {
   return withCommandLock(config.coverageDatabase, "extract", async () => {
@@ -58,31 +59,104 @@ export function exitCode(summary) {
  * @returns {ExtractSummary} What happened.
  */
 function extractAll(database, dependencies) {
-  let extracted = 0;
-  let titled = 0;
-  let moved = 0;
+  let counts = { extracted: 0, moved: 0, titled: 0 };
   for (const article of articlesAtStage(database, "extract")) {
-    const text = dependencies.extract(article.bodyHtml).trim();
-    const changed =
-      text === ""
-        ? saveTitlePath(database, article.guid, "extract")
-        : saveExtractedText(database, article.guid, text);
-    if (changed === 0) {
-      dependencies.log("extract.moved", {
-        guid: article.guid,
-        stage: "extract",
-      });
-      moved += 1;
-    } else if (text === "") {
-      titled += 1;
-    } else {
-      extracted += 1;
-    }
+    counts = countOutcome(counts, oneArticle(database, article, dependencies));
   }
   return {
-    extracted,
-    moved,
+    ...counts,
     remaining: articlesRemaining(database, "extract"),
-    titled,
   };
+}
+
+/**
+ * @param {{ extracted: number, moved: number, titled: number }} counts Rows so far.
+ * @param {"extracted" | "titled" | "moved" | "failed"} outcome What happened to one row.
+ * @returns {{ extracted: number, moved: number, titled: number }} Counts including this row.
+ */
+function countOutcome(counts, outcome) {
+  if (outcome === "extracted") {
+    return { ...counts, extracted: counts.extracted + 1 };
+  }
+  if (outcome === "titled") {
+    return { ...counts, titled: counts.titled + 1 };
+  }
+  return outcome === "moved" ? { ...counts, moved: counts.moved + 1 } : counts;
+}
+
+/**
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {import("../infra/stage-queue.js").ArticleText} article Queue row.
+ * @param {ExtractDependencies} dependencies Ports.
+ * @returns {"extracted" | "titled" | "moved" | "failed"} What happened to this row.
+ */
+function oneArticle(database, article, dependencies) {
+  try {
+    return storeText(
+      database,
+      article,
+      dependencies,
+      dependencies.extract(article.bodyHtml).trim(),
+    );
+  } catch (error) {
+    return markFailure(database, article, dependencies, error);
+  }
+}
+
+/**
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {import("../infra/stage-queue.js").ArticleText} article Queue row.
+ * @param {ExtractDependencies} dependencies Ports.
+ * @param {string} text Trimmed Readability text.
+ * @returns {"extracted" | "titled" | "moved"} Stored text, title path, or a row that already moved.
+ */
+function storeText(database, article, dependencies, text) {
+  const changed =
+    text === ""
+      ? saveTitlePath(database, article.guid, "extract")
+      : saveExtractedText(database, article.guid, text);
+  if (changed === 0) {
+    dependencies.log("extract.moved", {
+      guid: article.guid,
+      stage: "extract",
+    });
+    return "moved";
+  }
+  return text === "" ? "titled" : "extracted";
+}
+
+/**
+ * Records the extractor failure on the row and lets the run continue.
+ * The third failure leaves the row at `extract` with `retryable` 0.
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {import("../infra/stage-queue.js").ArticleText} article Queue row.
+ * @param {ExtractDependencies} dependencies Ports.
+ * @param {unknown} error Failure from the extractor.
+ * @returns {"moved" | "failed"} Moved when the row was no longer at `extract`.
+ */
+function markFailure(database, article, dependencies, error) {
+  const message = String(error);
+  const retryable = leaveForRetry(
+    database,
+    {
+      attemptCount: article.attemptCount,
+      guid: article.guid,
+      stage: "extract",
+    },
+    message,
+  );
+  if (retryable === null) {
+    dependencies.log("extract.moved", {
+      guid: article.guid,
+      stage: "extract",
+    });
+    return "moved";
+  }
+  dependencies.log("extract.retry", {
+    error: message,
+    guid: article.guid,
+    retryable,
+    stage: "extract",
+  });
+  return "failed";
 }

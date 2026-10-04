@@ -1,3 +1,5 @@
+import { ownValue } from "../core/common.js";
+
 import { openDatabase } from "./database.js";
 
 /**
@@ -111,15 +113,6 @@ export function backfilledCompanyIds(database) {
  * @throws {Error} The company is not in the store. Nothing is written.
  */
 export function recordBackfill(database, { companyId, items, at }) {
-  const insertArticle = database.prepare(`
-    INSERT INTO articles (guid, title, published_at, publisher_name, publisher_homepage, google_url, stage)
-    VALUES (@guid, @title, @publishedAt, @publisherName, @publisherHomepage, @link, 'unwrap')
-    ON CONFLICT (guid) DO NOTHING
-  `);
-  const insertLink = database.prepare(`
-    INSERT INTO company_articles (company_id, guid, origin) VALUES (?, ?, 'backfill')
-    ON CONFLICT (company_id, guid) DO NOTHING
-  `);
   const markDone = database.prepare(
     "UPDATE companies SET backfilled_at = ? WHERE id = ?",
   );
@@ -127,11 +120,147 @@ export function recordBackfill(database, { companyId, items, at }) {
     if (markDone.run(at, companyId).changes !== 1) {
       throw new Error(`Company ${companyId} is not in the coverage store`);
     }
-    let inserted = 0;
-    for (const item of items) {
-      insertArticle.run(item);
-      inserted += insertLink.run(companyId, item.guid).changes;
-    }
-    return inserted;
+    return storeFeedLinks(database, companyId, items, "backfill");
   })();
+}
+
+/**
+ * Stores one company's forward-feed candidates. An article already stored keeps its text stages.
+ * A link that company already has, including a backfill link, is left unchanged (ADR 0007).
+ * This does not set `backfilled_at` and does not set `alert_eligible`.
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {{ companyId: string, items: import("../core/collect.js").FeedItem[] }} batch
+ *   Company and its candidates.
+ * @returns {number} How many company links were new.
+ * @throws {Error} The company is not in the store. Nothing is written.
+ */
+export function recordDaily(database, { companyId, items }) {
+  const exists = database.prepare("SELECT 1 FROM companies WHERE id = ?");
+  return database.transaction(() => {
+    if (exists.get(companyId) === undefined) {
+      throw new Error(`Company ${companyId} is not in the coverage store`);
+    }
+    return storeFeedLinks(database, companyId, items, "daily");
+  })();
+}
+
+/**
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {string} companyId Company slug.
+ * @param {import("../core/collect.js").FeedItem[]} items Candidates to store.
+ * @param {"backfill" | "daily"} origin Link origin. A conflict does not change it.
+ * @returns {number} How many company links were new.
+ */
+function storeFeedLinks(database, companyId, items, origin) {
+  const insertArticle = database.prepare(`
+    INSERT INTO articles (guid, title, published_at, publisher_name, publisher_homepage, google_url, stage)
+    VALUES (@guid, @title, @publishedAt, @publisherName, @publisherHomepage, @link, 'unwrap')
+    ON CONFLICT (guid) DO NOTHING
+  `);
+  const insertLink = database.prepare(`
+    INSERT INTO company_articles (company_id, guid, origin) VALUES (?, ?, ?)
+    ON CONFLICT (company_id, guid) DO NOTHING
+  `);
+  let inserted = 0;
+  for (const item of items) {
+    insertArticle.run(item);
+    inserted += insertLink.run(companyId, item.guid, origin).changes;
+  }
+  return inserted;
+}
+
+/**
+ * @typedef {object} AlertCandidate A classified mention the digest may enqueue. It does not know about `notified`.
+ * @property {string} companyId Company slug.
+ * @property {string} displayName Company line in the digest.
+ * @property {string} guid Article id.
+ * @property {string} title Headline.
+ * @property {string} publishedAt `toISOString` text.
+ * @property {string | undefined} publisherUrl Unwrapped URL, undefined when it is null.
+ * @property {string} googleUrl Google News URL.
+ * @property {string} verdict `positive`, `negative`, `neutral`, or `unranked`.
+ */
+
+/**
+ * Sets `alert_eligible` on daily mentions whose verdict can alert.
+ * Backfill stays unset. Unrelated, uncertain, and unclassified stay unset.
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @returns {number} Rows marked on this run.
+ */
+export function markAlertEligible(database) {
+  const { changes } = database
+    .prepare(
+      `UPDATE company_articles
+       SET alert_eligible = 1
+       WHERE origin = 'daily'
+         AND alert_eligible = 0
+         AND verdict IN ('negative', 'positive', 'neutral', 'unranked')`,
+    )
+    .run();
+  return changes;
+}
+
+/**
+ * Company ids, in id order. The digest upserts `ALERT_EMAIL` for each one.
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @returns {string[]} Every company id.
+ */
+export function companyIds(database) {
+  return database
+    .prepare("SELECT id FROM companies ORDER BY id")
+    .pluck()
+    .all()
+    .map(String);
+}
+
+/**
+ * Mentions whose verdict can alert, with `alert_eligible` set, and `published_at` in `[from, until)`.
+ * Text comparison is time comparison because `published_at` is `toISOString`.
+ * @param {import("better-sqlite3").Database} database Coverage store.
+ * @param {string} from Inclusive window start, `toISOString`.
+ * @param {string} until Exclusive window end, `toISOString`.
+ * @returns {AlertCandidate[]} Matching mentions. Order is not significant.
+ */
+export function alertCandidates(database, from, until) {
+  // ponytail: alert verdicts repeat VISIBLE_VERDICTS; follow-up: share that list only if alert eligibility and the dashboard stay one rule.
+  return database
+    .prepare(
+      `SELECT c.id AS companyId, c.display_name AS displayName, a.guid, a.title,
+         a.published_at AS publishedAt, a.publisher_url AS publisherUrl,
+         a.google_url AS googleUrl, ca.verdict
+       FROM company_articles AS ca
+       JOIN articles AS a ON a.guid = ca.guid
+       JOIN companies AS c ON c.id = ca.company_id
+       WHERE ca.alert_eligible = 1
+         AND ca.verdict IN ('negative', 'positive', 'neutral', 'unranked')
+         AND a.published_at >= ?
+         AND a.published_at < ?`,
+    )
+    .all(from, until)
+    .map((row) => candidateFromRow(new Object(row)));
+}
+
+/**
+ * @param {object} row Alert candidate query row.
+ * @returns {AlertCandidate} The narrowed row.
+ */
+function candidateFromRow(row) {
+  return {
+    companyId: String(ownValue(row, "companyId")),
+    displayName: String(ownValue(row, "displayName")),
+    googleUrl: String(ownValue(row, "googleUrl")),
+    guid: String(ownValue(row, "guid")),
+    publishedAt: String(ownValue(row, "publishedAt")),
+    publisherUrl: textOrUndefined(ownValue(row, "publisherUrl")),
+    title: String(ownValue(row, "title")),
+    verdict: String(ownValue(row, "verdict")),
+  };
+}
+
+/**
+ * @param {unknown} value Column value.
+ * @returns {string | undefined} The text, or undefined for NULL.
+ */
+function textOrUndefined(value) {
+  return typeof value === "string" ? value : undefined;
 }

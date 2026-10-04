@@ -15,7 +15,7 @@ import {
  * Digest and mail pass the alerts database. The other commands pass the coverage database.
  * A second copy of the same command exits. A different command may run at the same time.
  * @param {string} databasePath Database that command writes.
- * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "digest" | "mail"} command Command name.
+ * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "eligible" | "digest" | "mail" | "export"} command Command name.
  * @returns {string} Lock file next to that database.
  */
 function commandLockPath(databasePath, command) {
@@ -29,7 +29,7 @@ function commandLockPath(databasePath, command) {
  * This start takes the lock.
  * @template T
  * @param {string} databasePath Database that command writes.
- * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "digest" | "mail"} command Command name.
+ * @param {"feed" | "unwrap" | "fetch" | "extract" | "classify" | "eligible" | "digest" | "mail" | "export"} command Command name.
  * @param {() => T | Promise<T>} work The step body.
  * @returns {Promise<T>} What `work` returned.
  * @throws {Error} A running process still holds this command's lock.

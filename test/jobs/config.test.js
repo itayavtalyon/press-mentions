@@ -65,6 +65,23 @@ describe("coverage settings", () => {
   });
 });
 
+describe("alert email", () => {
+  it("defaults ALERT_EMAIL to an example.com address", () => {
+    expect(readConfig({ COVERAGE_DB: "coverage.sqlite" }).alertEmail).toBe(
+      "alerts@example.com",
+    );
+  });
+
+  it("reads ALERT_EMAIL", () => {
+    expect(
+      readConfig({
+        ALERT_EMAIL: "person@example.com",
+        COVERAGE_DB: "coverage.sqlite",
+      }).alertEmail,
+    ).toBe("person@example.com");
+  });
+});
+
 describe("publisher interval", () => {
   it("defaults the publisher interval to two seconds", () => {
     expect(

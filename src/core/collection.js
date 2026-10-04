@@ -4,7 +4,9 @@
  * @property {Date} to Exclusive end.
  */
 
-const WEEK_MS = 7 * 86_400_000;
+const DAY_MS = 86_400_000;
+const WEEK_MS = 7 * DAY_MS;
+const FORWARD_DAYS = 3;
 
 /**
  * The backfill window: the start of the previous UTC calendar quarter through now (ADR 0001, ADR 0003).
@@ -13,6 +15,15 @@ const WEEK_MS = 7 * 86_400_000;
  */
 export function backfillWindow(now) {
   return { from: quarterStart(now, -1), to: now };
+}
+
+/**
+ * The forward feed window: the trailing three days through now (ADR 0003, ADR 0007).
+ * @param {Date} now Run start.
+ * @returns {Window} `[now - 3 days, now)`.
+ */
+export function forwardWindow(now) {
+  return { from: new Date(now.getTime() - FORWARD_DAYS * DAY_MS), to: now };
 }
 
 /**

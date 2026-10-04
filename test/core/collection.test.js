@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
   backfillWindow,
   contains,
+  forwardWindow,
   lastQuarter,
   splitWeeks,
   thisQuarter,
@@ -28,6 +29,17 @@ describe("backfillWindow", () => {
     const { from } = backfillWindow(new Date("2027-02-14T00:00:00.000Z"));
 
     expect(from).toEqual(new Date("2026-10-01T00:00:00.000Z"));
+  });
+});
+
+describe("forwardWindow", () => {
+  it("is the trailing three days through now", () => {
+    const now = new Date("2026-10-05T12:00:00.000Z");
+
+    expect(forwardWindow(now)).toEqual({
+      from: new Date("2026-10-02T12:00:00.000Z"),
+      to: now,
+    });
   });
 });
 

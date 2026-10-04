@@ -19,6 +19,7 @@ const BROWSER_ASSETS_PATH = fileURLToPath(
 const DEFAULT_PORT = 3000;
 const MAX_PORT = 65_535;
 const DEFAULT_ALERTS_DATABASE = "data/alerts.sqlite";
+const DEFAULT_ALERT_EMAIL = "alerts@example.com";
 
 /**
  * @typedef {object} AppConfig
@@ -30,6 +31,7 @@ const DEFAULT_ALERTS_DATABASE = "data/alerts.sqlite";
  * @property {string} databasePath Evaluation SQLite path.
  * @property {string} ollamaHost Ollama host.
  * @property {string} alertsDatabase Alerts SQLite path. Default `data/alerts.sqlite`.
+ * @property {string} alertEmail Default subscriber for every company.
  * @property {number} port Dashboard port on 127.0.0.1 (ADR 0008).
  * @property {string} browserAssetsPath Directory of `app.css` and `app.js`.
  */
@@ -61,6 +63,7 @@ export function loadConfig(environment, cwd) {
     ollamaHost: setting(environment, "OLLAMA_HOST", DEFAULT_HOST),
     port: port(environment),
     alertsDatabase: setting(environment, "ALERTS_DB", DEFAULT_ALERTS_DATABASE),
+    alertEmail: setting(environment, "ALERT_EMAIL", DEFAULT_ALERT_EMAIL),
     browserAssetsPath: BROWSER_ASSETS_PATH,
     overlayPath: OVERLAY_PATH,
     seedPath: SEED_PATH,
