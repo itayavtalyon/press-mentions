@@ -22,3 +22,6 @@ npm-debug.log*
 !data/sqlite/*.sqlite
 data/*.lock
 .vitest/
+
+# iCloud Drive conflict copies, such as "name 2.json".
+* [0-9].*

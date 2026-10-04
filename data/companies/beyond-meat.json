@@ -1,7 +1,7 @@
 {
   "name": "Beyond Meat",
-  "last_mentioned_at": "2026-10-02T03:24:57.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-03T02:25:30.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Your Guide to Soy- and Gluten-Free Vegan Meat",
@@ -96,6 +96,14 @@
       "link": "https://www.greenqueen.com.hk/beyond-meat-dunkin-trademark-infringement-lawsuit-damages-vegadelphia/",
       "publisher": "Green Queen Media",
       "published_at": "2026-09-24T04:19:50.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "Beyond Meat’s $23.5M Trademark Damages Award Slashed to $37,500, but $15.4M Still Stands",
+      "link": "https://www.lawcommentary.com/articles/beyond-meat-trademark-damages-cut-37500-154m-profit-award",
+      "publisher": "Law Commentary",
+      "published_at": "2026-09-23T22:51:49.000Z",
       "verdict": "neutral",
       "text_source": "body"
     },

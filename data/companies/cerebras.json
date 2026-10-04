@@ -1,7 +1,7 @@
 {
   "name": "Cerebras",
-  "last_mentioned_at": "2026-10-01T20:19:01.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-04T09:15:49.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Cerebras Stock Falls Again Because So Much Depends on OpenAI",
@@ -96,6 +96,22 @@
       "link": "https://www.fool.com/coverage/better-buy/2026/09/24/cerebras-vs-soundhound-which-ai-tech-stock-is-a-better-buy-in-2026/",
       "publisher": "The Motley Fool",
       "published_at": "2026-09-24T21:30:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Cerebras Systems vs. Rigetti Computing: Is an AI or Quantum Computing Stock the Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/09/23/cerebras-systems-vs-rigetti-computing-is-an-ai-or-quantum-computing-stock-the-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-09-23T16:27:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Cerebras Systems vs. Nebius Group N.V.: Which AI Hardware Stock Is a Better Buy in 2026?",
+      "link": "https://www.fool.com/coverage/better-buy/2026/09/23/cerebras-systems-vs-nebius-group-nv-which-technology-stock-is-a-better-buy-in-2026/",
+      "publisher": "The Motley Fool",
+      "published_at": "2026-09-23T15:57:00.000Z",
       "verdict": "positive",
       "text_source": "body"
     },

@@ -1,7 +1,7 @@
 {
   "name": "xAI",
-  "last_mentioned_at": "2026-10-02T02:18:33.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-04T14:03:33.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Elon Musk wants to sue Apple over Grok app store rankings as Sam Altman fires back",
@@ -66,6 +66,14 @@
       "published_at": "2026-09-25T12:30:00.000Z",
       "verdict": "neutral",
       "text_source": "body"
+    },
+    {
+      "title": "OpenAI says SEC disclosures undermine xAI’s antitrust lawsuit",
+      "link": "https://www.reuters.com/legal/government/openai-says-sec-disclosures-undermine-xais-antitrust-lawsuit-2026-09-23/",
+      "publisher": "Reuters",
+      "published_at": "2026-09-23T16:46:39.000Z",
+      "verdict": "negative",
+      "text_source": "title"
     },
     {
       "title": "Family of worker who died at SpaceXAI data center sues for $30M",

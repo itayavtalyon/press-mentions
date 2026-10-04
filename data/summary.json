@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "quarter": {
     "from": "2026-07-01T00:00:00.000Z",
     "to": "2026-10-01T00:00:00.000Z"
@@ -68,8 +68,8 @@
     {
       "id": "alloy-therapeutics",
       "name": "Alloy Therapeutics",
-      "last_mentioned_at": "2026-09-30T16:04:00.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-10-02T07:51:40.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -116,8 +116,8 @@
     {
       "id": "anthropic",
       "name": "Anthropic",
-      "last_mentioned_at": "2026-10-02T05:44:12.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T15:00:00.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 24,
         "neutral": 37,
@@ -164,8 +164,8 @@
     {
       "id": "arbe-robotics",
       "name": "Arbe Robotics",
-      "last_mentioned_at": "2026-10-02T00:17:46.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T05:11:20.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 4,
         "neutral": 17,
@@ -189,7 +189,7 @@
       "id": "arrow-global",
       "name": "Arrow Global",
       "last_mentioned_at": "2026-09-28T17:02:49.000Z",
-      "days_since_last_mention": 5,
+      "days_since_last_mention": 6,
       "quarter_counts": {
         "negative": 0,
         "neutral": 3,
@@ -236,8 +236,8 @@
     {
       "id": "ayar-labs",
       "name": "Ayar Labs",
-      "last_mentioned_at": "2026-10-01T22:16:45.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T21:46:26.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 0,
         "neutral": 4,
@@ -284,11 +284,11 @@
     {
       "id": "beyond-meat",
       "name": "Beyond Meat",
-      "last_mentioned_at": "2026-10-02T03:24:57.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T02:25:30.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 38,
-        "neutral": 25,
+        "neutral": 26,
         "positive": 53,
         "unranked": 1
       }
@@ -320,11 +320,11 @@
     {
       "id": "biocatch",
       "name": "BioCatch",
-      "last_mentioned_at": "2026-10-01T23:03:40.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T07:03:03.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 11,
+        "neutral": 12,
         "positive": 91,
         "unranked": 0
       }
@@ -500,8 +500,8 @@
     {
       "id": "cardekho",
       "name": "CarDekho",
-      "last_mentioned_at": "2026-10-01T20:39:18.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T07:11:01.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 0,
         "neutral": 31,
@@ -524,12 +524,12 @@
     {
       "id": "casper",
       "name": "Casper",
-      "last_mentioned_at": "2026-10-02T06:00:00.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T15:18:12.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 1,
         "neutral": 10,
-        "positive": 52,
+        "positive": 53,
         "unranked": 0
       }
     },
@@ -560,12 +560,12 @@
     {
       "id": "cerebras",
       "name": "Cerebras",
-      "last_mentioned_at": "2026-10-01T20:19:01.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T09:15:49.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 22,
         "neutral": 20,
-        "positive": 96,
+        "positive": 98,
         "unranked": 0
       }
     },
@@ -704,8 +704,8 @@
     {
       "id": "cyabra",
       "name": "Cyabra",
-      "last_mentioned_at": "2026-09-30T14:36:04.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-10-02T23:17:56.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 1,
         "neutral": 7,
@@ -740,8 +740,8 @@
     {
       "id": "cycuity",
       "name": "Cycuity (formerly Tortuga Logic)",
-      "last_mentioned_at": "2026-07-15T07:00:00.000Z",
-      "days_since_last_mention": 81,
+      "last_mentioned_at": "2026-10-02T15:00:00.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -753,7 +753,7 @@
       "id": "cyfirma",
       "name": "Cyfirma",
       "last_mentioned_at": "2026-10-01T17:04:48.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 1,
         "neutral": 17,
@@ -776,7 +776,7 @@
     {
       "id": "dailypay",
       "name": "DailyPay",
-      "last_mentioned_at": "2026-10-02T06:33:00.000Z",
+      "last_mentioned_at": "2026-10-02T15:11:15.000Z",
       "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 1,
@@ -788,8 +788,8 @@
     {
       "id": "dandelion-energy",
       "name": "Dandelion Energy",
-      "last_mentioned_at": "2026-10-01T13:16:04.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-03T13:02:17.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -800,12 +800,12 @@
     {
       "id": "databricks",
       "name": "Databricks",
-      "last_mentioned_at": "2026-10-02T02:23:34.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-02T18:30:55.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 2,
         "neutral": 15,
-        "positive": 113,
+        "positive": 114,
         "unranked": 0
       }
     },
@@ -932,12 +932,12 @@
     {
       "id": "equipmentshare",
       "name": "EquipmentShare",
-      "last_mentioned_at": "2026-10-02T05:52:49.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T06:08:00.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
-        "negative": 80,
+        "negative": 82,
         "neutral": 23,
-        "positive": 30,
+        "positive": 34,
         "unranked": 0
       }
     },
@@ -1016,8 +1016,8 @@
     {
       "id": "freightos",
       "name": "Freightos",
-      "last_mentioned_at": "2026-09-30T18:00:00.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-02T11:04:54.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 3,
         "neutral": 17,
@@ -1088,8 +1088,8 @@
     {
       "id": "greenlight",
       "name": "Greenlight",
-      "last_mentioned_at": "2026-10-01T16:56:13.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-01T17:02:30.000Z",
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1100,8 +1100,8 @@
     {
       "id": "groq",
       "name": "Groq",
-      "last_mentioned_at": "2026-09-29T18:03:57.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-10-03T00:24:17.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 3,
         "neutral": 74,
@@ -1124,8 +1124,8 @@
     {
       "id": "h2pro",
       "name": "H2Pro",
-      "last_mentioned_at": "2026-09-30T09:21:39.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-10-03T07:21:55.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1136,11 +1136,11 @@
     {
       "id": "hailo",
       "name": "Hailo",
-      "last_mentioned_at": "2026-10-01T14:51:17.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-02T17:04:38.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 1,
-        "neutral": 16,
+        "neutral": 17,
         "positive": 25,
         "unranked": 0
       }
@@ -1148,8 +1148,8 @@
     {
       "id": "harbinger-motors",
       "name": "Harbinger Motors",
-      "last_mentioned_at": "2026-10-01T02:25:55.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-03T12:54:00.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 6,
@@ -1160,8 +1160,8 @@
     {
       "id": "harvey",
       "name": "Harvey",
-      "last_mentioned_at": "2026-10-01T23:32:32.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T07:03:09.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 1,
         "neutral": 12,
@@ -1292,11 +1292,11 @@
     {
       "id": "iqm",
       "name": "IQM",
-      "last_mentioned_at": "2026-10-01T17:29:51.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T14:01:38.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
-        "negative": 5,
-        "neutral": 30,
+        "negative": 6,
+        "neutral": 31,
         "positive": 80,
         "unranked": 0
       }
@@ -1316,8 +1316,8 @@
     {
       "id": "island",
       "name": "Island",
-      "last_mentioned_at": "2026-09-27T00:00:00.000Z",
-      "days_since_last_mention": 7,
+      "last_mentioned_at": "2026-10-01T22:30:00.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -1364,8 +1364,8 @@
     {
       "id": "jumpcloud",
       "name": "JumpCloud",
-      "last_mentioned_at": "2026-09-23T00:41:12.000Z",
-      "days_since_last_mention": 11,
+      "last_mentioned_at": "2026-10-02T08:23:28.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -1436,8 +1436,8 @@
     {
       "id": "klook",
       "name": "Klook",
-      "last_mentioned_at": "2026-10-01T04:07:03.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-03T20:53:48.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 0,
         "neutral": 17,
@@ -1448,8 +1448,8 @@
     {
       "id": "kodiak-robotics",
       "name": "Kodiak Robotics",
-      "last_mentioned_at": "2026-10-01T18:09:34.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T11:00:00.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1472,8 +1472,8 @@
     {
       "id": "lambda",
       "name": "Lambda (lambda.ai)",
-      "last_mentioned_at": "2026-10-02T01:17:00.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-02T17:17:00.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 7,
@@ -1508,11 +1508,11 @@
     {
       "id": "lemonade",
       "name": "Lemonade",
-      "last_mentioned_at": "2026-10-01T18:31:02.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-03T19:14:38.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 14,
-        "neutral": 21,
+        "neutral": 22,
         "positive": 72,
         "unranked": 0
       }
@@ -1808,8 +1808,8 @@
     {
       "id": "neura",
       "name": "Neura",
-      "last_mentioned_at": "2026-09-30T12:34:37.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-10-02T18:49:19.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 2,
         "neutral": 6,
@@ -1928,12 +1928,12 @@
     {
       "id": "openevidence",
       "name": "OpenEvidence",
-      "last_mentioned_at": "2026-10-01T17:00:00.000Z",
+      "last_mentioned_at": "2026-10-02T08:38:12.000Z",
       "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 1,
-        "neutral": 15,
-        "positive": 65,
+        "neutral": 16,
+        "positive": 66,
         "unranked": 0
       }
     },
@@ -1976,8 +1976,8 @@
     {
       "id": "oshi",
       "name": "Oshi (formerly Plantish)",
-      "last_mentioned_at": "2026-09-19T15:37:24.000Z",
-      "days_since_last_mention": 15,
+      "last_mentioned_at": "2026-10-01T23:49:09.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2000,7 +2000,7 @@
     {
       "id": "overtime",
       "name": "Overtime",
-      "last_mentioned_at": "2026-10-01T18:54:00.000Z",
+      "last_mentioned_at": "2026-10-02T14:16:16.000Z",
       "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
@@ -2060,8 +2060,8 @@
     {
       "id": "playsight",
       "name": "PlaySight",
-      "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-      "days_since_last_mention": 55,
+      "last_mentioned_at": "2026-10-02T01:39:57.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2144,12 +2144,12 @@
     {
       "id": "quantum-machines",
       "name": "Quantum Machines",
-      "last_mentioned_at": "2026-10-01T09:44:02.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-10-03T13:58:44.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 1,
         "neutral": 5,
-        "positive": 13,
+        "positive": 14,
         "unranked": 0
       }
     },
@@ -2252,10 +2252,10 @@
     {
       "id": "ro",
       "name": "Ro",
-      "last_mentioned_at": "2026-10-01T16:34:37.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-02T19:26:28.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
-        "negative": 1,
+        "negative": 2,
         "neutral": 2,
         "positive": 16,
         "unranked": 2
@@ -2288,8 +2288,8 @@
     {
       "id": "scale-ai",
       "name": "Scale AI",
-      "last_mentioned_at": "2026-09-16T16:55:31.000Z",
-      "days_since_last_mention": 17,
+      "last_mentioned_at": "2026-10-02T00:09:01.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 5,
@@ -2468,8 +2468,8 @@
     {
       "id": "spacex",
       "name": "SpaceX",
-      "last_mentioned_at": "2026-10-02T06:25:51.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T13:51:44.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 21,
         "neutral": 34,
@@ -2528,8 +2528,8 @@
     {
       "id": "stellar-cyber",
       "name": "Stellar Cyber",
-      "last_mentioned_at": "2026-09-29T12:00:00.000Z",
-      "days_since_last_mention": 5,
+      "last_mentioned_at": "2026-10-02T07:00:00.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -2544,7 +2544,7 @@
       "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 13,
+        "neutral": 14,
         "positive": 34,
         "unranked": 0
       }
@@ -2564,12 +2564,12 @@
     {
       "id": "stripe",
       "name": "Stripe",
-      "last_mentioned_at": "2026-10-01T23:40:34.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T15:14:50.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 7,
         "neutral": 27,
-        "positive": 70,
+        "positive": 71,
         "unranked": 0
       }
     },
@@ -2624,8 +2624,8 @@
     {
       "id": "tabnine",
       "name": "Tabnine",
-      "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-      "days_since_last_mention": 55,
+      "last_mentioned_at": "2026-10-03T01:01:50.000Z",
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2720,11 +2720,11 @@
     {
       "id": "the-bouqs",
       "name": "The Bouqs",
-      "last_mentioned_at": "2026-09-17T07:00:00.000Z",
-      "days_since_last_mention": 17,
+      "last_mentioned_at": "2026-09-23T16:00:02.000Z",
+      "days_since_last_mention": 11,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 0,
+        "neutral": 1,
         "positive": 2,
         "unranked": 0
       }
@@ -2768,8 +2768,8 @@
     {
       "id": "together-ai",
       "name": "Together AI",
-      "last_mentioned_at": "2026-08-31T07:00:00.000Z",
-      "days_since_last_mention": 34,
+      "last_mentioned_at": "2026-10-03T21:31:40.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -2816,8 +2816,8 @@
     {
       "id": "tubitv",
       "name": "TubiTV",
-      "last_mentioned_at": "2026-09-28T14:56:16.000Z",
-      "days_since_last_mention": 6,
+      "last_mentioned_at": "2026-10-02T03:12:56.000Z",
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -3008,10 +3008,10 @@
     {
       "id": "xai",
       "name": "xAI",
-      "last_mentioned_at": "2026-10-02T02:18:33.000Z",
-      "days_since_last_mention": 2,
+      "last_mentioned_at": "2026-10-04T14:03:33.000Z",
+      "days_since_last_mention": 0,
       "quarter_counts": {
-        "negative": 48,
+        "negative": 49,
         "neutral": 50,
         "positive": 25,
         "unranked": 0

@@ -144,9 +144,10 @@ function writeAlerts(databasePath, outDirectory) {
   try {
     const rows = database
       .prepare(
-        "SELECT company_id, created_at, status, sent_at, body FROM outbox ORDER BY created_at, id",
+        `SELECT company_id, created_at, status, sent_at, replace(body, email, @email) AS body
+         FROM outbox ORDER BY created_at, id`,
       )
-      .all();
+      .all({ email: REDACTED_EMAIL });
     writeJson(path.join(outDirectory, "alerts.json"), rows);
     return rows.length;
   } finally {
@@ -201,6 +202,9 @@ function dropRawHtml(database) {
  * @param {SqliteDatabase} database The exported alerts copy, never the live store.
  */
 function redactEmails(database) {
+  database
+    .prepare("UPDATE outbox SET body = replace(body, email, @email)")
+    .run({ email: REDACTED_EMAIL });
   for (const table of ["subscriptions", "notified", "outbox"]) {
     database
       .prepare(`UPDATE OR IGNORE ${table} SET email = @email`)

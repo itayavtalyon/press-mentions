@@ -1,7 +1,7 @@
 {
   "name": "Ro",
-  "last_mentioned_at": "2026-10-01T16:34:37.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-02T19:26:28.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Novo Reports Real-World Data Showing Weight Loss After Switch to Oral Semaglutide Pill",
@@ -57,6 +57,14 @@
       "publisher": "fortune.com",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "COLUMN: The Wrong Team Sponsor",
+      "link": "https://www.dailynebraskan.com/opinion/column-the-wrong-team-sponsor/article_be5df15c-8dbe-400c-b621-778369ac1a64.html",
+      "publisher": "The Daily Nebraskan",
+      "published_at": "2026-09-22T05:00:00.000Z",
+      "verdict": "negative",
       "text_source": "body"
     },
     {

@@ -1,7 +1,7 @@
 {
   "name": "BioCatch",
-  "last_mentioned_at": "2026-10-01T23:03:40.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-04T07:03:03.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "LATEST: 90% of banking scam attempts now originate on mobile devices, Global Scams report reveals",
@@ -42,6 +42,14 @@
       "published_at": "2026-09-24T16:04:23.000Z",
       "verdict": "neutral",
       "text_source": "title"
+    },
+    {
+      "title": "Visa-BioCatch deal under review by Australian watchdog",
+      "link": "https://www.mlex.com/mlex/articles/2530468/visa-biocatch-deal-under-review-by-australian-watchdog",
+      "publisher": "MLex",
+      "published_at": "2026-09-24T00:50:18.000Z",
+      "verdict": "neutral",
+      "text_source": "body"
     },
     {
       "title": "Visa Just Spent $2.4 Billion on Fraud Detection. Here’s What It Means for the Stock in 2026",

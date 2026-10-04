@@ -1,7 +1,7 @@
 {
   "name": "Groq",
-  "last_mentioned_at": "2026-09-29T18:03:57.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-03T00:24:17.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "I built a churn detection agent that remembers every client meeting (Hindsight memory + Groq)",

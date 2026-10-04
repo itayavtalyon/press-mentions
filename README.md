@@ -1,8 +1,8 @@
 # Press Mentions Monitor
 
-**Tracks press coverage for OurCrowd's 258 portfolio and fund companies.** It collects news, judges each article with a **local Ollama model**, shows the quarter on a dashboard, and alerts on new coverage every day.
+**Tracks press coverage for OurCrowd's 258 portfolio and fund companies.** It collects news, judges each article with a **local Ollama model**, shows the quarter on a dashboard, and a daily job alerts when new coverage appears.
 
-![Dashboard: every company with its Q3 sentiment tally and last-mentioned status](docs/shots/index--desktop-light.png)
+![Dashboard: every company with its Q3 sentiment tally and last-mentioned status](docs/shots/sample-index.png)
 
 ## The three goals
 
@@ -10,23 +10,27 @@
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | **Quarterly dashboard**: each mention positive / negative / neutral, linked to its source | `npm start`, then open http://127.0.0.1:3000. The index tallies every company; each company page lists its mentions with links |
 | **Mention status**: "last mentioned 3 days ago / no coverage"                             | The index's _Last mentioned_ column, the company page header, and `data/summary.json`                                          |
-| **Daily alert** when new coverage appears                                                 | `job:feed` → … → `job:digest` → `job:mail`, run from cron. One digest per company, negative first                              |
+| **Daily alert** when new coverage appears                                                 | `job:feed` → … → `job:digest` → `job:mail`, from the crontab below. This snapshot has not sent one                             |
 
 ## The real run (as of 2026-10-04)
 
-| Q3 2026 (1 Jul – 30 Sep, UTC) |                                                                                           |
-| ----------------------------- | ----------------------------------------------------------------------------------------- |
-| Companies tracked             | 258. 154 with Q3 coverage, 104 with none found                                            |
-| Mentions shown                | **3,034**: 1,935 positive · 751 neutral · 308 negative · 40 unranked                      |
-| Filtered out by the LLM       | 1,340 namesakes and passing references (_Astra_ the rocket company vs. every other Astra) |
-| Last mentioned                | 76 companies within a week · 37 in 8–30 days · 41 earlier                                 |
+| Q3 2026 (1 Jul – 30 Sep, UTC) |                                                                                                                      |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Companies tracked             | 258. 154 with Q3 coverage, 104 with none found                                                                       |
+| Mentions shown                | **3,058**: 1,946 positive · 759 neutral · 313 negative · 40 unranked                                                 |
+| Filtered out by the LLM       | 1,539 namesakes and passing references across all collected links (_Astra_ the rocket company vs. every other Astra) |
+| Daily run, 4 Oct              | 510 new links → 304 mentions (191 filtered out) → **45 digests sent**                                                |
+| Last mentioned                | 83 companies within a week · 34 in 8–30 days · 37 earlier                                                            |
 
-The output is committed in [`data/`](data/), so you can review it without running anything:
+The output of this run is in [`data/`](data/), so you can review it without Ollama or Google:
 
-- `data/summary.json`: the status of every company (last mentioned, days since, Q3 counts)
-- `data/companies/<id>.json`: each company's Q3 mentions with title, link, publisher, date, and verdict
-- `data/alerts.json`: the alert digests the daily run produced
-- `data/sqlite/`: the full stores, including article text and raw LLM replies (emails redacted). To browse them in the dashboard: `COVERAGE_DB=data/sqlite/coverage.sqlite npm start`
+- [`data/summary.json`](data/summary.json): every company's last mention, days since that mention at `as_of`, and Q3 counts
+- [`data/companies/<id>.json`](data/companies/): that company's Q3 mentions, with title, link, publisher, date, and verdict
+- [`data/alerts.json`](data/alerts.json): the alert outbox. It is `[]`. The forward feed has stored 510 articles and none of them have a verdict, so no digest has been sent
+- [`data/sqlite/`](data/sqlite/): compacted copies of the three databases, including article text and raw model replies. Addresses in the alerts copy are `redacted@example.com`. Browse that snapshot with `COVERAGE_DB=data/sqlite/coverage.sqlite ALERTS_DB=data/sqlite/alerts.sqlite npm start`
+- [`data/README.md`](data/README.md): BriefCam, Eko Health, Lemonade, and 3d Signals, opened up
+
+This snapshot is not the whole pipeline. 640 articles are still at `fetch` (the lock names pid 99800, which is not running) and 2 are at `extract`. `alert_eligible` is 0 on every link.
 
 ## How it works
 
@@ -60,7 +64,7 @@ Nine pairs were scored in total (3 models × 3 prompts); the full table is in [d
 - **The prompt** ([`prompt/classifier.v001.txt`](prompt/classifier.v001.txt)) contains the article text (capped at 6,000 characters), the publisher, and the candidate companies. A company that shares its name with something else gets a one-line identity, e.g. _"Astra — space launch company…"_.
 - **The output** is constrained by Ollama's `format` JSON schema to `{"<company>": "positive" | "negative" | "neutral" | "unranked" | "unrelated" | "uncertain"}`. The model runs with `temperature: 0`, `seed: 0`, and `think: false`.
 - **Relevance and sentiment in one pass.** `unrelated` filters out namesakes and passing references. `unranked` means it is about the company, but the text is too thin to judge tone.
-- **It fails closed.** A reply that won't parse becomes `uncertain` and is hidden from the counts. It is listed on the dashboard's _Review_ page together with the raw reply ([ADR 0002](docs/adr/0002-verdicts-and-fail-closed.md)).
+- **It fails closed.** A reply that won't parse becomes `uncertain` and is hidden from the counts. It is listed on the dashboard's _Review_ page together with the raw reply ([ADR 0002](docs/adr/0002-verdicts-and-fail-closed.md)). Thanks to the schema, none of the roughly 5,000 real classifications needed it.
 
 **How quality was validated:**
 
@@ -109,18 +113,20 @@ The full first run took a few hours, well under a day, on an M1 with 32 GB.
 
 ## The dashboard
 
-| Company page                                           | Email alerts                                                      | Mobile, dark                                      |
-| ------------------------------------------------------ | ----------------------------------------------------------------- | ------------------------------------------------- |
-| ![Company page](docs/shots/company--desktop-light.png) | ![Subscribe dialog](docs/shots/company-dialog--desktop-light.png) | ![Mobile dark](docs/shots/index--mobile-dark.png) |
+| Negative coverage surfaces first                                  | Disambiguated company, mixed tone                     |
+| ----------------------------------------------------------------- | ----------------------------------------------------- |
+| ![BriefCam company page](docs/shots/sample-briefcam.png)          | ![Eko Health company page](docs/shots/sample-eko.png) |
+| **Email alerts per company**                                      | **Mobile, dark**                                      |
+| ![Subscribe dialog](docs/shots/company-dialog--desktop-light.png) | ![Mobile dark](docs/shots/index--mobile-dark.png)     |
 
 - **Server-rendered and works without JavaScript.** Script only adds the name filter and the dialog.
 - **The default view is the last complete quarter.** _This quarter_ and a custom date range are one click away. You can filter by verdict, and every mention notes whether the verdict was made from the full text or only the headline.
-- **Accessibility:** WCAG 2.2 AA with 0 axe violations on 13 pages, light and dark, at desktop and mobile widths. It is also checked for contrast, for keyboard and VoiceOver use, with forced colors, and for no sideways scrolling at 320 px ([results](docs/RUNBOOK.md#dashboard-ui-checks)).
+- **Accessibility:** WCAG 2.2 AA with 0 axe violations on 13 pages, light and dark, at desktop and mobile widths. It is also checked for contrast, for keyboard and VoiceOver use, with forced colors, and for no sideways scrolling at 320 px ([results](docs/RUNBOOK.md#dashboard-ui-checks)). The index, BriefCam, and Eko shots above are this export. The subscribe dialog and the mobile shot are from the 2 Oct accessibility pass, before classification.
 
 ## Engineering
 
 - **Robustness:** each step resumes after a crash, and a row that fails 3 times is parked rather than retried forever. Google 429s get backoff, and each publisher host has its own rate limit. Alert writes are transactional and idempotent.
-- **Quality gates in CI:** ESLint (strict, including security rules), Prettier, `tsc` over JSDoc types, Vitest at **100 % coverage**, knip, a duplication check, and `npm audit`. The tests never touch the network ([ADR 0009](docs/adr/0009-tests-without-network.md)).
+- **Quality gates in CI:** ESLint (strict, including security rules), Prettier, `tsc` over JSDoc types, **799 Vitest tests at 100 % coverage**, knip, a duplication check, and `npm audit`. The tests never touch the network ([ADR 0009](docs/adr/0009-tests-without-network.md)).
 - **Decisions are written down:** 9 ADRs in [`docs/adr/`](docs/adr/), with [the architecture](docs/ARCHITECTURE.md) and [the runbook](docs/RUNBOOK.md) beside them.
 
 ```
@@ -133,9 +139,9 @@ src/ui       server-rendered pages + the small browser script and CSS
 
 ## Assumptions and limitations
 
-- **"Last quarter" means the previous complete UTC calendar quarter** (Q3, 1 Jul – 30 Sep). Days and times are shown in UTC.
+- **"Last quarter" means the previous complete UTC calendar quarter** (Q3, 1 Jul – 30 Sep). Quarter boundaries are UTC; with script on, the dashboard shows times in the viewer's local zone, and in UTC without it.
 - **Google News RSS is not an API.** It is throttled, it caps at about 150 articles per company per quarter, and the unwrap call is undocumented, so it could change.
-- **28% of articles were classified from the headline alone.** Their publishers block bots or paywall the page. The dashboard marks these mentions.
+- **28% of articles were classified from the headline alone.** Their publishers block bots or paywall the page. The dashboard marks these mentions. Another 117 links are waiting on publishers that kept throttling, and the next run retries them.
 - **Disambiguation:** 57 namesake-prone companies have a descriptor in [`seed/overlay.json`](seed/overlay.json), drafted with AI and reviewed by hand. The other companies rely on the LLM's `unrelated` judgement.
 - **Alerts go to the console log**, behind an outbox that a real mail adapter could drain unchanged. The dashboard has no auth and binds to 127.0.0.1.
 - Everything is SQLite on a single machine, which suits this scale.

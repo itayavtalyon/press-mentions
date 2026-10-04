@@ -1,7 +1,7 @@
 {
   "name": "Databricks",
-  "last_mentioned_at": "2026-10-02T02:23:34.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-02T18:30:55.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Introducing ai_decide: make fast decisions on your governed data",
@@ -104,6 +104,14 @@
       "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
       "publisher": "databricks.com",
       "published_at": "2026-09-24T13:41:19.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "How I built agent-based security reviews on Databricks",
+      "link": "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks",
+      "publisher": "databricks.com",
+      "published_at": "2026-09-24T01:59:41.000Z",
       "verdict": "positive",
       "text_source": "body"
     },

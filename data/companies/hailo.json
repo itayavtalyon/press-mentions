@@ -1,7 +1,7 @@
 {
   "name": "Hailo",
-  "last_mentioned_at": "2026-10-01T14:51:17.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-02T17:04:38.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "BlackBerry shares rise 6.6% as QNX adds Hailo-8 AI accelerator support",
@@ -17,6 +17,14 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-25T21:20:00.000Z",
       "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "Microchip Acquires Hailo: The Next Edge AI Battle Is Not About TOPS — It Is About Who Can Get AI Into the Factory",
+      "link": "https://tspasemiconductor.substack.com/p/microchip-acquires-hailo-the-next",
+      "publisher": "semivision",
+      "published_at": "2026-09-23T15:05:02.000Z",
+      "verdict": "neutral",
       "text_source": "body"
     },
     {

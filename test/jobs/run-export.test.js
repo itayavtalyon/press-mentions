@@ -55,7 +55,7 @@ function givenStores() {
   alerts
     .prepare(
       `INSERT INTO outbox (email, company_id, body, created_at, status, mention_ids)
-       VALUES ('real@person.test', 'acme', 'Acme: 1 new mention', '2026-10-04T11:00:00.000Z', 'pending', '["this-quarter"]')`,
+       VALUES ('real@person.test', 'acme', 'To: real@person.test\nAcme: 1 new mention', '2026-10-04T11:00:00.000Z', 'pending', '["this-quarter"]')`,
     )
     .run();
   alerts
@@ -170,12 +170,16 @@ describe("runExport copies", () => {
     const copy = new Database(path.join(sqlite, "alerts.sqlite"));
     const emails = copy
       .prepare(
-        "SELECT email FROM subscriptions UNION ALL SELECT email FROM outbox",
+        "SELECT email FROM subscriptions UNION ALL SELECT email FROM outbox UNION ALL SELECT body FROM outbox",
       )
       .pluck()
       .all();
     copy.close();
-    expect(emails).toEqual(["redacted@example.com", "redacted@example.com"]);
+    expect(emails).toEqual([
+      "redacted@example.com",
+      "redacted@example.com",
+      "To: redacted@example.com\nAcme: 1 new mention",
+    ]);
     expect(
       readFileSync(path.join(sqlite, "coverage.sqlite")).includes("pk.secret"),
     ).toBe(false);

@@ -1,7 +1,7 @@
 {
   "name": "EquipmentShare",
-  "last_mentioned_at": "2026-10-02T05:52:49.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-04T06:08:00.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "EquipmentShare, Cummins partner on power solutions",
@@ -17,6 +17,14 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-30T14:47:31.000Z",
       "verdict": "neutral",
+      "text_source": "body"
+    },
+    {
+      "title": "EquipmentShare invests big in gas power",
+      "link": "https://www.internationalrentalnews.com/news/equipmentshare-invests-big-in-pas-power/8132506.article",
+      "publisher": "International Rental News",
+      "published_at": "2026-09-30T11:01:15.000Z",
+      "verdict": "positive",
       "text_source": "body"
     },
     {
@@ -66,6 +74,14 @@
       "published_at": "2026-09-29T12:30:00.000Z",
       "verdict": "positive",
       "text_source": "title"
+    },
+    {
+      "title": "EquipmentShare rejects investment firm report",
+      "link": "https://www.internationalrentalnews.com/news/equipmentshare-rejects-investment-firm-report/8132349.article",
+      "publisher": "International Rental News",
+      "published_at": "2026-09-29T11:33:07.000Z",
+      "verdict": "positive",
+      "text_source": "body"
     },
     {
       "title": "EquipmentShare.com: Branch Maturation Needs Cash Flow Proof (NASDAQ:EQPT)",
@@ -169,6 +185,14 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EQPT DEADLINE: EquipmentShare.com Investors Who Lost Money Should Contact Block & Leviton Law Firm Before September 21st",
+      "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/eqpt-deadline-equipmentshare.com-investors-who-lost-money-should-1221839",
+      "publisher": "ACCESS Newswire",
+      "published_at": "2026-09-16T21:44:32.000Z",
+      "verdict": "negative",
       "text_source": "body"
     },
     {
@@ -572,6 +596,14 @@
       "text_source": "title"
     },
     {
+      "title": "EquipmentShare founders to exit ‘related party’ arrangements",
+      "link": "https://www.internationalrentalnews.com/news/equipmentshare-founders-to-exit-related-party-arrangements/8129102.article",
+      "publisher": "International Rental News",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
       "title": "EquipmentShare Uncorks A Record-Setting Second Quarter",
       "link": "https://www.rermag.com/news-analysis/headline-news/article/55398312/equipmentshare-uncorks-a-record-setting-second-quarter",
       "publisher": "Rental Equipment Register",
@@ -632,6 +664,14 @@
       "link": "https://www.globenewswire.com/news-release/2026/08/11/3342902/0/en/eqpt-investors-have-opportunity-to-lead-equipmentshare-com-inc-securities-fraud-lawsuit-with-sbs-law.html",
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-11T07:00:00.000Z",
+      "verdict": "negative",
+      "text_source": "body"
+    },
+    {
+      "title": "Securities Fraud Class Action Filed Against Equipmentshare.com Inc. (EQPT) - Levi & Korsinsky Reminds Investors of September 21, 2026",
+      "link": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/securities-fraud-class-action-filed-against-equipmentshare.com-i-1205700",
+      "publisher": "ACCESS Newswire",
+      "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "negative",
       "text_source": "body"
     },
@@ -967,6 +1007,14 @@
       "title": "EQPT Stock Holds Key Level As New Board Adds Momentum",
       "link": "https://stockstotrade.com/news/equipmentsharecom-inc-eqpt-news-2026_07_10/",
       "publisher": "StocksToTrade",
+      "published_at": "2026-07-10T07:00:00.000Z",
+      "verdict": "positive",
+      "text_source": "body"
+    },
+    {
+      "title": "EquipmentShare ups full-year guidance",
+      "link": "https://www.internationalrentalnews.com/news/equipmentshare-ups-full-year-guidance/8126528.article",
+      "publisher": "International Rental News",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
       "text_source": "body"

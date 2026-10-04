@@ -1,7 +1,7 @@
 {
   "name": "Quantum Machines",
-  "last_mentioned_at": "2026-10-01T09:44:02.000Z",
-  "as_of": "2026-10-04T16:14:15.441Z",
+  "last_mentioned_at": "2026-10-03T13:58:44.000Z",
+  "as_of": "2026-10-04T17:11:32.864Z",
   "mentions": [
     {
       "title": "Quantum Machines Showcases Quantum–HPC Focus With Paris Industry Event",
@@ -26,6 +26,14 @@
       "published_at": "2026-09-24T09:08:38.000Z",
       "verdict": "positive",
       "text_source": "body"
+    },
+    {
+      "title": "Quantum Machines Positions Itself at Center of Superconducting Quantum Computing Dialogue",
+      "link": "https://www.tipranks.com/news/private-companies/quantum-machines-positions-itself-at-center-of-superconducting-quantum-computing-dialogue",
+      "publisher": "TipRanks",
+      "published_at": "2026-09-24T00:07:07.000Z",
+      "verdict": "positive",
+      "text_source": "title"
     },
     {
       "title": "Quantum Machines Highlights Hybrid Classical–Quantum Control Architecture With AMD",

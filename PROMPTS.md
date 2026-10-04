@@ -413,3 +413,10 @@ Is there a way programatticaly detect it and fix it?
 I do not want the digest to throw everything, We need to make it idempotent and safe to retry.
 Logs are less important then sending an email so this is fine
 ```
+
+## 2026-10-04 — Assignment check and a readable sample
+
+```text
+/Users/itay/Downloads/OC FullStack Dev Task 2026.pdf
+I want to make sure that we have made everything that we were supposed to do for this assignment. Be critical. I also want to add extra things so it will be easier to understand what is going on and get a sample of things without having to run everything locally.
+```
