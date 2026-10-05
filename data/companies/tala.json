@@ -1,7 +1,7 @@
 {
   "name": "Tala",
   "last_mentioned_at": "2026-09-25T08:56:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Top 10 Best Fintech Companies In Kenya 2026",
@@ -9,7 +9,8 @@
       "publisher": "Nubia Magazine!",
       "published_at": "2026-09-25T08:56:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "BSP, GFTN Launch ASEAN Challenge as 48% of Filipinos Struggle to Save",
@@ -17,7 +18,8 @@
       "publisher": "Fintech News Philippines",
       "published_at": "2026-09-18T07:32:16.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why dignity is the most valuable currency in digital finance",
@@ -25,7 +27,8 @@
       "publisher": "philstar.com",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "E-wallets seek rule parity with consumers",
@@ -33,7 +36,8 @@
       "publisher": "philstar.com",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Debt with dignity: How Tala redefines consumer protection in the digital credit journey",
@@ -41,7 +45,8 @@
       "publisher": "philstar.com",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harnessing digital credit to empower Filipino micro and nanoentrepreneurs",
@@ -49,7 +54,8 @@
       "publisher": "philstar.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "PiggyVest, Moniepoint, others make CNBC’s 2026 top fintech list",
@@ -57,7 +63,8 @@
       "publisher": "Condia",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nigerian Fintech Unicorn Moniepoint Appoints Rose Muturi as Kenya CEO",
@@ -65,7 +72,8 @@
       "publisher": "TechAfrica News",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "New Tala app feature lets users track credit growth",
@@ -73,7 +81,8 @@
       "publisher": "Manila Standard",
       "published_at": "2026-07-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Tala Expands Its Digital Platform With a Fresh Lending Tracker",
@@ -81,7 +90,8 @@
       "publisher": "Fintech News Philippines",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

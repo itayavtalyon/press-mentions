@@ -1,7 +1,7 @@
 {
   "name": "HoneyBook",
   "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "HoneyBook Revenue 2024: $74.2M Est. ARR",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HoneyBook Launches on ChatGPT as Part of OpenAI’s New Small Business Collection",
@@ -17,7 +18,8 @@
       "publisher": "markets.businessinsider.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HoneyBook Launches Business Phone & SMS for Independent Businesses",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HoneyBook MCP Debuts as a Claude Connector for Client Pipelines, Invoices and Contracts",
@@ -33,7 +36,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HoneyBook Included in CNBC’s 2026 List of the World’s Top Fintech Companies",
@@ -41,7 +45,8 @@
       "publisher": "Finance Magnates",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI-Powered CRM Platform HoneyBook Launches New Tools for Photographers",
@@ -49,7 +54,8 @@
       "publisher": "PetaPixel",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HoneyBook Expands Platform with New Features for Photographers",
@@ -57,7 +63,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

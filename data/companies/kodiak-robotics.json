@@ -1,7 +1,7 @@
 {
   "name": "Kodiak Robotics",
   "last_mentioned_at": "2026-10-03T11:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Kodiak Robotics at Evercore forum: driverless trucking nears launch By Investing.com",
@@ -9,7 +9,8 @@
       "publisher": "Investing.com Nigeria",
       "published_at": "2026-09-30T07:07:01.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Aurora and Kodiak receive California permits for autonomous trucks",
@@ -17,7 +18,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-08-17T01:50:06.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Earnings call transcript: Kodiak Robotics Q2 2026 revenue jumps 91% as loss narrows focus",
@@ -25,7 +27,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Atlas Energy to expand Kodiak-powered autonomous truck fleet to 100 vehicles by 2027",
@@ -33,7 +36,8 @@
       "publisher": "Robotics & Automation News",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Atlas Expands Kodiak Driverless Truck Fleet in Permian Basin",
@@ -41,7 +45,8 @@
       "publisher": "Heavy Duty Trucking",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

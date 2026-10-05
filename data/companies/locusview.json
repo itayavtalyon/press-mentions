@@ -1,7 +1,7 @@
 {
   "name": "Locusview",
   "last_mentioned_at": "2026-09-19T03:04:13.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Itron acquires Locusview for $546.6M (closed January 2026)",
@@ -9,7 +9,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-09-19T03:04:13.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Itron Q2 Earnings Call Highlights",
@@ -17,7 +18,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

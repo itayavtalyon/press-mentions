@@ -1,7 +1,7 @@
 {
   "name": "Liquid Instruments",
   "last_mentioned_at": "2026-09-16T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "WOC Liquid Fund Direct Growth Review 2026: NAV, Returns, Portfolio & Should You Invest?",
@@ -9,7 +9,8 @@
       "publisher": "Univest",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "From Deep Tech Breakthrough to Production",
@@ -17,7 +18,8 @@
       "publisher": "iTnews",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Liquid Instruments Turns AI Prompts Into Customized Test Instruments",
@@ -25,7 +27,8 @@
       "publisher": "All About Circuits",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Liquid Instruments’ GenInst Studio AI-powered instrument creation in the hands of every engineer",
@@ -33,7 +36,8 @@
       "publisher": "Defense and Munitions",
       "published_at": "2026-07-15T05:03:12.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Liquid Instruments Puts First AI-Powered Instrument Creation in the Hands of Every Engineer",
@@ -41,7 +45,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Liquid Instruments launches GenInst Studio to build test instruments by prompt",
@@ -49,7 +54,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

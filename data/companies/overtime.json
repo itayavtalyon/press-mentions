@@ -1,7 +1,7 @@
 {
   "name": "Overtime",
   "last_mentioned_at": "2026-10-02T14:16:16.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Todd Boehly's Eldridge leads strategic investment in youth sports brand Overtime",
@@ -9,7 +9,8 @@
       "publisher": "MarketScale",
       "published_at": "2026-09-30T23:38:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Todd Boehly’s Eldridge backs Overtime in new investment round",
@@ -17,7 +18,8 @@
       "publisher": "Sports Business Journal",
       "published_at": "2026-09-30T12:02:32.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "715 Overtime Sports Recap & Preview Show - September 23",
@@ -25,7 +27,8 @@
       "publisher": "WSAW",
       "published_at": "2026-09-24T15:47:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "UCF Basketball Hosting 4-Star F K’Nard Callendar",
@@ -33,7 +36,8 @@
       "publisher": "Yahoo Sports",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Syracuse basketball visits 4-star Ahmed Nur; priority target will play in Overtime Elite",
@@ -41,7 +45,8 @@
       "publisher": "Inside the Loud House",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Adidas Extends Footwear, Apparel Sponsorship of Overtime Elite High School Basketball Leagues",
@@ -49,7 +54,8 @@
       "publisher": "WWD",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Howard Williams, Dynamic Prep , Power Forward",
@@ -57,7 +63,8 @@
       "publisher": "247Sports",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Overtime Select provides top recruits with more than just on-court experience",
@@ -65,7 +72,8 @@
       "publisher": "On3",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Shaq DUNKMAN Dunker Cam Hazzard Wants Matchup W/ Mac McClung",
@@ -73,7 +81,8 @@
       "publisher": "TMZ",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Meet viral sensation GG Banks: Everything to know about the top recruit as she narrows in on top four schools",
@@ -81,7 +90,8 @@
       "publisher": "CBS Sports",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "5-star guard GG Banks puts together viral highlight reel at OT Select",
@@ -89,7 +99,8 @@
       "publisher": "Yahoo Sports",
       "published_at": "2026-08-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Sportico Transactions: Moves and Mergers Roundup for Aug. 14",
@@ -97,7 +108,8 @@
       "publisher": "Sportico.com",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "5-star PG, re-offered by Gerry McNamara's Syracuse, will play in Overtime Elite this season",
@@ -105,7 +117,8 @@
       "publisher": "Inside the Loud House",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "For Players, by Players: Inside the Playa Society x Overtime Select Collab",
@@ -113,7 +126,8 @@
       "publisher": "House of Heat°",
       "published_at": "2026-08-03T16:04:34.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "DUNKMAN begins filming at OTE Arena",
@@ -121,7 +135,8 @@
       "publisher": "The Atlanta Voice",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Tailor Brands",
   "last_mentioned_at": "2026-09-07T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "5 Best LLC Services In Georgia (Updated: Sep. 2026)",
@@ -9,7 +9,8 @@
       "publisher": "bizreport.com",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "5 Best LLC Services In Oregon (Updated: Sep. 2026)",
@@ -17,7 +18,8 @@
       "publisher": "bizreport.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "5 Best Texas Registered Agent Services (2026 Update)",
@@ -25,7 +27,8 @@
       "publisher": "bizreport.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "5 Best LegalZoom Alternatives & Competitors 2026",
@@ -33,7 +36,8 @@
       "publisher": "bizreport.com",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Tailor Brands Review 2026: Features & Alternatives",
@@ -41,7 +45,8 @@
       "publisher": "bizreport.com",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI is making small markets big enough",
@@ -49,7 +54,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-08-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

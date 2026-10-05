@@ -1,7 +1,7 @@
 {
   "name": "Cyabra",
   "last_mentioned_at": "2026-10-02T23:17:56.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Cyabra accepted into USSOCOM’s SOF RACER Consortium",
@@ -9,7 +9,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-30T14:36:04.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra Accepted into USSOCOM’s SOF RACER Consortium, Opening a Direct Pathway to Special Operations Requirements",
@@ -17,7 +18,8 @@
       "publisher": "Yahoo Finance UK",
       "published_at": "2026-09-30T13:27:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra's software spots online manipulation. Now it can compete for U.S. special operations work.",
@@ -25,7 +27,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-30T13:27:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra (CYAB) lands a new 8%+ shareholder",
@@ -33,7 +36,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-22T19:29:42.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra Recognized as the AI-powered Enterprise Solution of the Year by the 2026 Tech Ascension Awards",
@@ -41,7 +45,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CYABRA, INC. SEC Filing (Sep 21, 2026)",
@@ -49,7 +54,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Six-Figure Annual Contract with Leading Asia-Pacific Banking Institution",
@@ -57,7 +63,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra secures six-figure deal with major Asia-Pacific bank By Investing.com",
@@ -65,7 +72,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Manufactured Virality: How “Everyone Is Talking About This” Became a Product You Can Buy",
@@ -73,7 +81,8 @@
       "publisher": "Cyabra",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cyabra, Inc. Common Stock (NASDAQ: CYAB) Stock Price, News & Analysis",
@@ -81,7 +90,8 @@
       "publisher": "kalkine.ca",
       "published_at": "2026-09-14T06:39:27.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra completes exchange and conversion of preferred shares for common stock and warrants",
@@ -89,7 +99,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Form 8K CYABRA For: 10 September By Investing.com",
@@ -97,7 +108,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Misinformation Monthly – September",
@@ -105,7 +117,8 @@
       "publisher": "Cyabra",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cyabra to Present at the H.C. Wainwright 28th Annual Global Investment Conference",
@@ -113,7 +126,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Ltd to Present at the Moody Capital Solutions 2026 Disruptive Growth & Life Sciences Conference",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra’s AI platform for spotting fake accounts will be presented Sept. 10",
@@ -129,7 +144,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The PlayStation Boycott Was Real. The Network Behind It Wasn’t.",
@@ -137,7 +153,8 @@
       "publisher": "Cyabra",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cyabra Stockholders Approve Conversion and Exchange of All Outstanding Preferred Stock",
@@ -145,7 +162,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Significant Engagement with Fortune Global 500 Food and Beverage Leader",
@@ -153,7 +171,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Shares Surge 48.6% After Gaming Agreement Boosts Market Value by $2.1 Million",
@@ -161,7 +180,8 @@
       "publisher": "TechStock²",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Six-Figure Annual Contract with Leading Interactive Entertainment Company to Protect its Player Community",
@@ -169,7 +189,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra signs six-figure deal with gaming company",
@@ -177,7 +198,8 @@
       "publisher": "Investing.com India",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Over $500,000 in Annual Revenue from New Agreements with European National Security Agencies",
@@ -185,7 +207,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Contracts with Two European National Security Government Agencies, with Total Annual Revenues of more than $500,000",
@@ -193,7 +216,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Contracts with Two European National Security Government Agencies, with Total Annual Revenues of more than $500,000",
@@ -201,7 +225,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Delivers Record Second Quarter Revenue with 39% Year-Over-Year Growth",
@@ -209,7 +234,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Accelerates Public Sector Expansion Amid Surging Global Demand for Narrative Intelligence with VP of U.S. Government Sales Appointment",
@@ -217,7 +243,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Amazon, Home Depot, Starbucks: The Retail Boycott’s Most Manipulated Brands",
@@ -225,7 +252,8 @@
       "publisher": "Cyabra",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cyabra Secures Multi-Year APAC Intelligence Agency Agreement to Expand Government AI Threat Detection Footprint",
@@ -233,7 +261,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Secures Multi-Year, Six-Figure Contract with APAC Intelligence Agency to Deliver AI-Powered Narrative Intelligence",
@@ -241,7 +270,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra Launches AI Agent That Automatically Investigates Coordinated Online Activity and Delivers a Verdict",
@@ -249,7 +279,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Maxim Group initiates Cyabra stock with buy rating on AI growth",
@@ -257,7 +288,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyabra (CYAB) Stock Chart and Price History 2026",
@@ -265,7 +297,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-14T07:40:41.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cyabra raises $6M in premium-priced private placement as investors double down",
@@ -273,7 +306,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-09T13:46:09.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Decoding Disinformation: The ABC of Threat Intelligence",
@@ -281,7 +315,8 @@
       "publisher": "Cyabra",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

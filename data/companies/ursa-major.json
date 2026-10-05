@@ -1,7 +1,7 @@
 {
   "name": "Ursa Major",
   "last_mentioned_at": "2026-09-16T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "How the industrial base is responding to Air Force, Space Force needs",
@@ -9,7 +9,8 @@
       "publisher": "Breaking Defense",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major - 2026 Funding Rounds & List of Investors",
@@ -17,7 +18,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major To Go Public At $2.3 Billion Valuation With At Least $350 Million PIPE To Scale Hypersonics And Munitions",
@@ -25,7 +27,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Berthoud-based Ursa Major going public",
@@ -33,7 +36,8 @@
       "publisher": "Berthoud Weekly Surveyor",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ursa Major to go public through $2.3 billion SPAC deal with Inflection Point",
@@ -41,7 +45,8 @@
       "publisher": "VoxelMatters",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major strikes deal to go public via SPAC",
@@ -49,7 +54,8 @@
       "publisher": "Axios",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ursa Major to go public in $2.3 billion SPAC deal",
@@ -57,7 +63,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major To Go Public Via SPAC",
@@ -65,7 +72,8 @@
       "publisher": "Aviation Week",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hypersonics, rocket startup Ursa Major to go public in $2.3B deal",
@@ -73,7 +81,8 @@
       "publisher": "Breaking Defense",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major Technologies to Merge With Inflection Point-led SPAC in $1.6 Billion Deal",
@@ -81,7 +90,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Defense firm Ursa Major to go public through $2.3 billion SPAC deal",
@@ -89,7 +99,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Colorado’s Ursa Major to go public in $2.3B deal as demand for missiles skyrockets",
@@ -97,7 +108,8 @@
       "publisher": "Denver Gazette",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Hypersonics and Critical Munitions Company Ursa Major to Go Public",
@@ -105,7 +117,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Defence firm Ursa Major to go public through US$2.3 billion SPAC deal",
@@ -113,7 +126,8 @@
       "publisher": "BNN Bloomberg",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major CEO: Demand for hypersonic systems and solid rocket motors is at an all-time high",
@@ -121,7 +135,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What’s Working: Colorado’s slow job growth doesn’t mean no one is hiring",
@@ -129,7 +144,8 @@
       "publisher": "The Colorado Sun",
       "published_at": "2026-08-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Gov. Polis helps cut the ribbon on new Ursa Major Longmont facility",
@@ -137,7 +153,8 @@
       "publisher": "Berthoud Weekly Surveyor",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "US firm opens sixth factory to accelerate hypersonic system deliveries",
@@ -145,7 +162,8 @@
       "publisher": "interestingengineering.com",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fixing the Achilles’ heel of air-and-missile defense with solid rocket motors",
@@ -153,7 +171,8 @@
       "publisher": "Breaking Defense",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "U.S. Navy awards Ursa Major $10M MK 104 development contract",
@@ -161,7 +180,8 @@
       "publisher": "Defense and Munitions",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Anduril Named Major Player in Low-Cost Hypersonic Push",
@@ -169,7 +189,8 @@
       "publisher": "Raksha Anirveda",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "US Navy Awards Ursa Major $10M to Advance MK 104 Rocket Motor",
@@ -177,7 +198,8 @@
       "publisher": "The Defense Post",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Berthoud-based aerospace contractor Ursa Major to expand in its own backyard",
@@ -185,7 +207,8 @@
       "publisher": "BizWest",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ursa Major Snags $10M Navy Contract for MK 104 Rocket Engines",
@@ -193,7 +216,8 @@
       "publisher": "RealClearDefense",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ursa Major chooses to stay in Colorado for big expansion after getting millions in incentives",
@@ -201,7 +225,8 @@
       "publisher": "Colorado Springs Gazette",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "US Navy awards $10M to expand Mk 104 rocket motor production capacity",
@@ -209,7 +234,8 @@
       "publisher": "interestingengineering.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major Nabs $10 Million SRM Contract For Standard Missile Rocket Motors",
@@ -217,7 +243,8 @@
       "publisher": "Defense Daily",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major completes US Navy solid rocket motor programme",
@@ -225,7 +252,8 @@
       "publisher": "Metal Additive Manufacturing magazine",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ursa Major completes Navy solid rocket motor pathfinder program",
@@ -233,7 +261,8 @@
       "publisher": "VoxelMatters",
       "published_at": "2026-07-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ursa Major - 2026 Funding Rounds & List of Investors",
@@ -241,7 +270,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Watch Ursa Major CEO Reveals Cutting-Edge Hypersonic Missile Tech - America 250: America's Newsroom",
@@ -249,7 +279,8 @@
       "publisher": "FOX One",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "3D-Printing Engines To Power Hypersonic Weapons Is Fast Becoming A Reality",
@@ -257,7 +288,8 @@
       "publisher": "TWZ",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

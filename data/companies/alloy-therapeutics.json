@@ -1,7 +1,7 @@
 {
   "name": "Alloy Therapeutics",
   "last_mentioned_at": "2026-10-02T07:51:40.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Invest Qatar strengthens engagement with US investors through high-level roadshow across New York, Boston",
@@ -9,7 +9,8 @@
       "publisher": "Gulf Times",
       "published_at": "2026-09-30T16:04:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Two Worcester County Firms Part of $40M Life Sciences Awards",
@@ -17,7 +18,8 @@
       "publisher": "This Week in Worcester",
       "published_at": "2026-09-29T17:02:06.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alloy Therapeutics Selected to Join the World Economic Forum’s Unicorns Community",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alloy Therapeutics Named a Winner on Fast Company’s 2026 Best Workplaces for Innovators List",
@@ -33,7 +36,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

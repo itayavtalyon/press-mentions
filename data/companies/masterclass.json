@@ -1,7 +1,7 @@
 {
   "name": "MasterClass",
   "last_mentioned_at": "2026-09-20T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Brooklyn Beckham 'getting business advice from Nicola's billionaire dad Nelson Peltz'",
@@ -9,7 +9,8 @@
       "publisher": "aol.co.uk",
       "published_at": "2026-09-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "You can get 50% off a full year of MasterClass with this Labor Day deal",
@@ -17,7 +18,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "MasterClass Revenue 2025: $247M ARR, $2.8B Valuation (2021)",
@@ -25,7 +27,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alibaba.com Unveils All-Star Judge Panel for CoCreate Pitch 2026 U.S. Final",
@@ -33,7 +36,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

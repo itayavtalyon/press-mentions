@@ -1,7 +1,7 @@
 {
   "name": "Neura",
   "last_mentioned_at": "2026-10-02T18:49:19.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Neura Robotics Expands Into Healthcare With Autonomous Hospital Transport Robot",
@@ -9,7 +9,8 @@
       "publisher": "AI Insider",
       "published_at": "2026-09-30T12:34:37.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neura Robotics Puts Robots to Work Pushing Hospital Beds",
@@ -17,7 +18,8 @@
       "publisher": "trendingtopics.eu",
       "published_at": "2026-09-30T11:09:56.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Young Startups - Germany's Next Tech Champions?",
@@ -25,7 +27,8 @@
       "publisher": "dw.com",
       "published_at": "2026-09-30T10:35:40.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neurahub Price (NEURA/USD) Today | Live Price, Market Cap & Chart",
@@ -33,7 +36,8 @@
       "publisher": "Binance",
       "published_at": "2026-09-24T21:54:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Neura Robotics and SECO partner to scale humanoid robot production in Europe",
@@ -41,7 +45,8 @@
       "publisher": "Robotics & Automation News",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEURA and SECO will build robot compute modules in Europe",
@@ -49,7 +54,8 @@
       "publisher": "thenextweb.com",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEURA and SECO Partner on Robot Compute Modules Built in Europe",
@@ -57,7 +63,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEURA Robotics buys ADLATUS to give cleaning robots a \"new brain",
@@ -65,7 +72,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-08-24T09:38:31.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Neura Robotics Takes Over Active Shuttle from Bosch Rexroth",
@@ -73,7 +81,8 @@
       "publisher": "All-About-Industries",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEURA Robotics acquires Bosch Rexroth’s ACTIVE Shuttle to expand Physical AI ecosystem",
@@ -81,7 +90,8 @@
       "publisher": "Tech.eu",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEURA Acquires Bosch Rexroth ACTIVE Shuttle to Build Unified Physical-AI Stack",
@@ -89,7 +99,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Qualcomm's humanoid robot demo went hilariously wrong when the machine just dropped dead on stage",
@@ -97,7 +108,8 @@
       "publisher": "TechSpot",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neura Robotics expands global physical AI training network in partnership with RWTH Aachen University",
@@ -105,7 +117,8 @@
       "publisher": "Robotics & Automation News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A Humanoid Robot \"Dies\" On Stage at Computex 2026, Gets Carried Off",
@@ -113,7 +126,8 @@
       "publisher": "Gadget Review",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neura Robotics to Open Physical AI Training Center",
@@ -121,7 +135,8 @@
       "publisher": "AI Business",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
@@ -129,7 +144,8 @@
       "publisher": "The Robot Report",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "UK Humanoid Startup Raises $152M as Bosch and Schaeffler Back Wheels Over Legs",
@@ -137,7 +153,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "New NEURA Gym with RWTH Aachen: NEURA Robotics Expands its Global Training Network for Physical AI",
@@ -145,7 +162,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Industry Insights: David Reger Talks Neura's Future",
@@ -153,7 +171,8 @@
       "publisher": "A3 Association for Advancing Automation",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Top 10 robotics developments of June 2026",
@@ -161,7 +180,8 @@
       "publisher": "The Robot Report",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

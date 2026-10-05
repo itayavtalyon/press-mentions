@@ -1,7 +1,7 @@
 {
   "name": "SSI (Safe Superintelligence)",
   "last_mentioned_at": "2026-09-18T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Quote of the day by ex-OpenAI chief scientist and SSI co-founder Ilya Sutskever: 'AI will keep getting better and the day will come when AI will do all the things that we can do' — a staggering prediction about a future superintelligence",
@@ -9,7 +9,8 @@
       "publisher": "TechRadar",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever's SSI Has Raised $8 Billion and Shipped Nothing At All",
@@ -17,7 +18,8 @@
       "publisher": "Startup Fortune",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever: The 100 Most Influential People in AI 2026",
@@ -25,7 +27,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SSI could be set to unveil revolutionary language model",
@@ -33,7 +36,8 @@
       "publisher": "Globes - Israel Business News",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya's Moment of Truth? SSI's First Model Reportedly Debuting This Week, Backed by NVIDIA's $5 Billion Bet",
@@ -41,7 +45,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever's SSI First Model After $8 Billion Raised 2026",
@@ -49,7 +54,8 @@
       "publisher": "StartupHub.ai",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NVIDIA Backs Ilya Sutskever’s SSI With $5 Billion and Vera Rubin Compute",
@@ -57,7 +63,8 @@
       "publisher": "theaisoftwarereport.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Top 10 AI Influencers of 2026",
@@ -65,7 +72,8 @@
       "publisher": "KDnuggets",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "No Product, $32B Valuation: Why Nvidia Is Betting $5B on Safe Superintelligence Inc (SSI)?",
@@ -73,7 +81,8 @@
       "publisher": "ascendants.in",
       "published_at": "2026-08-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenAI researcher Naomi Bashkansky resigns to build AI that can read thoughts",
@@ -81,7 +90,8 @@
       "publisher": "indiatoday.in",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SSI Product-Before-ASI Odds Hit 82% on Manifold as Sutskever’s Lab Hints at First Model",
@@ -89,7 +99,8 @@
       "publisher": "tech-insider.org",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia just put $5 billion into a company that has never shipped a product",
@@ -97,7 +108,8 @@
       "publisher": "WION",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Secretive AI Lab Chasing 'Superintelligence' Announces Massive Investment From NVIDIA. Here's Why it Matters.",
@@ -105,7 +117,8 @@
       "publisher": "24/7 Wall St.",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SSI To Come Out With Their Model In August, Claims Gavin Baker",
@@ -113,7 +126,8 @@
       "publisher": "OfficeChai",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Week’s 10 Biggest Funding Rounds: Safe Superintelligence And Commonwealth Fusion Lead With Billion-Dollar Deals",
@@ -121,7 +135,8 @@
       "publisher": "news.crunchbase.com",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Backs Safe Superintelligence’s Tenfold Compute Plan",
@@ -129,7 +144,8 @@
       "publisher": "WinBuzzer",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Only 33 Employees, No Products Yet, But NVIDIA Has Invested $34 Billion",
@@ -137,7 +153,8 @@
       "publisher": "eu.36kr.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Bets $5 Billion on a Shell AI Company Founded by OpenAI's Former Chief Scientist",
@@ -145,7 +162,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Next Generation AI is Worth Scaling",
@@ -153,7 +171,8 @@
       "publisher": "NextBigFuture.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia’s frothy bet on Safe Superintelligence",
@@ -161,7 +180,8 @@
       "publisher": "Semafor",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "This AI startup has roughly 50 employees, no product and has never published a word of research. It's worth $32 billion",
@@ -169,7 +189,8 @@
       "publisher": "moneywise.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia partners with Ilya Sutskever's AI startup to build superintelligence",
@@ -177,7 +198,8 @@
       "publisher": "YourStory.com",
       "published_at": "2026-07-28T11:05:12.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia’s Reported $5bn Safe Superintelligence Bet",
@@ -185,7 +207,8 @@
       "publisher": "tbreak.com",
       "published_at": "2026-07-28T10:54:57.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenAI co-founder Ilya Sutskever's Safe Superintelligence secures NVIDIA backing after showing it secret research",
@@ -193,7 +216,8 @@
       "publisher": "Tech Funding News",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia to invest $5bn in Safe Superintelligence, Sutskever firm to substantially increase GPU compute",
@@ -201,7 +225,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Sutskever's SSI signs long-term partnership with Nvidia, expands research with Vera Rubin",
@@ -209,7 +234,8 @@
       "publisher": "디지털투데이",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia's Reported $5B SSI Investment Fails To Lift NVDA Stock Amid Chip Stocks Selloff",
@@ -217,7 +243,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SSI Has No Product. Nvidia Just Paid $5B to Look Inside",
@@ -225,7 +252,8 @@
       "publisher": "Business Model Analyst",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia’s $5 Billion Bet on Safe Superintelligence Is Big, Secretive and Very Ilya Sutskever",
@@ -233,7 +261,8 @@
       "publisher": "Kingy AI",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests in AI startup SSI at $32b valuation",
@@ -241,7 +270,8 @@
       "publisher": "Tech in Asia",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia to invest billions in Ilya Sutskever’s AI venture",
@@ -249,7 +279,8 @@
       "publisher": "verdict.co.uk",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Safe Superintelligence And NVIDIA Form Long-Term AI Compute Partnership",
@@ -257,7 +288,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests in Ilya Sutskever's SSI, providing access to Vera Rubin compute platform",
@@ -265,7 +297,8 @@
       "publisher": "digitimes",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests in Ilya Sutskever's AI lab, shifting SSI away from Google chips",
@@ -273,7 +306,8 @@
       "publisher": "the-decoder.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia reportedly commits $5bn to scale Safe Superintelligence",
@@ -281,7 +315,8 @@
       "publisher": "Silicon Republic",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NVIDIA has entered into a long-term strategic partnership with Safe Superintelligence, an AI company led by former OpenAI executive Ilya Sackiva.",
@@ -289,7 +324,8 @@
       "publisher": "GIGAZINE",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NVIDIA Invests in Ilya Sutskever’s SSI to Scale Superintelligence AI",
@@ -297,7 +333,8 @@
       "publisher": "analyticsindiamag.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia Takes a $5 Billion Stake in Sutskever's Lab",
@@ -305,7 +342,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests $5 billion in Safe Superintelligence through strategic partnership",
@@ -313,7 +351,8 @@
       "publisher": "Dunya News",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Commits $5 Billion to Safe Superintelligence in Major AI Investment",
@@ -321,7 +360,8 @@
       "publisher": "citybiz",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests $5 billion in Sutskever's Safe Superintelligence to scale next-gen AI computing",
@@ -329,7 +369,8 @@
       "publisher": "Peoples Gazette Nigeria",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever’s Safe Superintelligence Announces Multi-Billion Dollar Nvidia Partnership",
@@ -337,7 +378,8 @@
       "publisher": "AI Insider",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Invests $5 Billion in Ilya Sutskever’s Safe Superintelligence and Vera Rubin Platform Access",
@@ -345,7 +387,8 @@
       "publisher": "NewsCord",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever Secures Massive High-Stakes Bet from Jensen Huang: 10x Computing Power Supply Unveiled – Is a $5 Billion Investment Imminent?",
@@ -353,7 +396,8 @@
       "publisher": "eu.36kr.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever’s Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
@@ -361,7 +405,8 @@
       "publisher": "NVIDIA Investor Relations",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia makes major investment in Ilya Sutskever’s $32 billion AI startup",
@@ -369,7 +414,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia is using OpenAI’s Ilya Sutskever to loosen Google’s grip on elite AI research",
@@ -377,7 +423,8 @@
       "publisher": "Cryptopolitan",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia commits $5 billion to former OpenAI researcher Ilya Sutskever’s AI startup",
@@ -385,7 +432,8 @@
       "publisher": "Crypto Briefing",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Takes a Stake in Sutskever’s Safe Superintelligence",
@@ -393,7 +441,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia partners with former OpenAI chief scientist Ilya Sutskever’s AI startup: What the CEOs said",
@@ -401,7 +450,8 @@
       "publisher": "The Times of India",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia and Safe Superintelligence: AI Revolution",
@@ -409,7 +459,8 @@
       "publisher": "Brief IA",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia invests in AI startup Safe Superintelligence By Investing.com",
@@ -417,7 +468,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia to Invest $5 Billion in Ilya Sutskever’s AI Research Lab",
@@ -425,7 +477,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever’s Safe Superintelligence gets access to Nvidia’s Vera Rubin platform",
@@ -433,7 +486,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia to invest $5 billion in Ilya Sutskever's AI startup, source says",
@@ -441,7 +495,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "NVIDIA Backs Sutskever’s AI Safety Lab With $5B and Vera Rubin Supercompute",
@@ -449,7 +504,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
@@ -457,7 +513,8 @@
       "publisher": "TechCrunch",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia Pours Billions Into Safe Superintelligence – a Startup With No Product and No Revenue",
@@ -465,7 +522,8 @@
       "publisher": "trendingtopics.eu",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia to invest $5-billion in Ilya Sutskever’s AI research startup",
@@ -473,7 +531,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ilya Sutskever’s SSI Gains Access to NVIDIA’s Vera Rubin Platform",
@@ -481,7 +540,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia Makes Multibillion Dollar Investment in Ilya Sutskever’s Safe Superintelligence",
@@ -489,7 +549,8 @@
       "publisher": "The Information",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia takes a stake in Safe Superintelligence and gets access to Ilya Sutskever's research in return",
@@ -497,7 +558,8 @@
       "publisher": "Startup Fortune",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia teams with former Safe Superintelligence for long-term partnership; Nvidia to invest (NVDA:NASDAQ)",
@@ -505,7 +567,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

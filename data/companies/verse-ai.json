@@ -1,7 +1,7 @@
 {
   "name": "Verse.ai",
   "last_mentioned_at": "2026-08-13T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Real Estate Technology Innovators Honored in 6th Annual PropTech Breakthrough Awards Program",
@@ -9,7 +9,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Verse.ai Revenue 2024: $11M Est. ARR",
@@ -17,7 +18,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ZipISA Launches AI Inside Sales Agent for Real Estate Agents Starting at $69 a Month",
@@ -25,7 +27,8 @@
       "publisher": "EIN Presswire",
       "published_at": "2026-07-09T12:30:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

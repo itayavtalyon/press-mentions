@@ -1,7 +1,7 @@
 {
   "name": "Classiq",
   "last_mentioned_at": "2026-10-01T14:19:15.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Classiq представила инструмент для адаптации квантовых программ под реальное оборудование",
@@ -9,7 +9,8 @@
       "publisher": "CryptoRank",
       "published_at": "2026-09-30T16:00:22.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Classiq Unveils Engine to Plan Fault-Tolerant Quantum Workloads",
@@ -17,7 +18,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-09-30T14:36:59.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Classiq Unveils Tool for Adapting Quantum Programs to Real Hardware",
@@ -25,7 +27,8 @@
       "publisher": "ForkLog",
       "published_at": "2026-09-30T13:06:53.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq Has Unveiled A Fault Tolerance Engine",
@@ -33,7 +36,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-30T12:23:52.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq Introduces Fault Tolerance Engine for Quantum Applications",
@@ -41,7 +45,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-09-30T12:10:23.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq Designs Circuits To Track Auxiliary Qubit Return To Zero",
@@ -49,7 +54,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-24T22:56:59.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq And Partners Test Quantum Solutions For Gas Networks",
@@ -57,7 +63,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-24T09:08:38.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq, Israel Natural Gas Lines and IonQ Advance Quantum Optimization for Natural Gas Networks",
@@ -65,7 +72,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq is trying to make quantum programming look less like quantum programming",
@@ -73,7 +81,8 @@
       "publisher": "Ynetnews",
       "published_at": "2026-09-22T11:23:46.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Scientek and Classiq Partner to Accelerate Quantum Software Adoption in Taiwan",
@@ -81,7 +90,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Chemical Firms In Taiwan To Test Classiq’s Quantum Software",
@@ -89,7 +99,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Kensho and Classiq Partner to Expand Access to Quantum Software in Taiwan",
@@ -97,7 +108,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Option Pricing on OCI A100s: 28 to 32 Qubit Benchmarks with Classiq and CUDA-Q",
@@ -105,7 +117,8 @@
       "publisher": "Oracle Blogs",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq and ParityQC Partner to Optimize and Streamline Quantum Execution",
@@ -113,7 +126,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Classiq and ParityQC Partner to Streamline Hardware-Aware Circuit Optimization",
@@ -121,7 +135,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Israeli Quantum Startups Eye Wall Street as SPAC Interest Accelerates",
@@ -129,7 +144,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Two Israeli quantum startups target Wall Street in multibillion-dollar SPAC deals",
@@ -137,7 +153,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-07-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Israeli quantum startups Quantum Art and Classiq eye Wall Street via SPAC mergers at up to $5 billion each",
@@ -145,7 +162,8 @@
       "publisher": "Crypto Briefing",
       "published_at": "2026-07-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alfred University and Classiq launch quantum computing initiative",
@@ -153,7 +171,8 @@
       "publisher": "Alfred University",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq, QAI team up to launch Korea's first local quantum cloud service",
@@ -161,7 +180,8 @@
       "publisher": "The Korea Herald",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Classiq, QAI sign partnership to launch Korea's 1st quantum cloud service",
@@ -169,7 +189,8 @@
       "publisher": "The Korea Times",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Classiq and QAI Launch Sovereign Quantum-as-a-Service Offering for South Korean Enterprise Market",
@@ -177,7 +198,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

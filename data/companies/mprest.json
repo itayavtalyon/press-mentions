@@ -1,7 +1,7 @@
 {
   "name": "mPrest",
   "last_mentioned_at": "2026-08-11T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Ondas selected to develop low cost attack drones for IDF",
@@ -9,7 +9,8 @@
       "publisher": "The Jerusalem Post",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

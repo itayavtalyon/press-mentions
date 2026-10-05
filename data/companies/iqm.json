@@ -1,7 +1,7 @@
 {
   "name": "IQM",
   "last_mentioned_at": "2026-10-03T14:01:38.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Quantum Computers For Creatives, As Moth Launches Atlas",
@@ -9,7 +9,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-30T09:43:55.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Launches Long-term Incentive Plan For Staff",
@@ -17,7 +18,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-30T09:43:55.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Participants Move From QEC Theory To Real Quantum Computer Access",
@@ -25,7 +27,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-30T09:43:55.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NVIDIA Launches Ising, the World’s First Open AI Models for Quantum Computing",
@@ -33,7 +36,8 @@
       "publisher": "TechJuice",
       "published_at": "2026-09-30T07:48:04.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Board of Directors of IQM Quantum Computers Plc has resolved to establish new share-based long-term incentive plans for the employees of the group",
@@ -41,7 +45,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-30T06:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Europe SPAC Summit 2026 Invites European Private Companies to Explore the SPAC Path to U.S. Public Markets",
@@ -49,7 +54,8 @@
       "publisher": "Via Ritzau",
       "published_at": "2026-09-29T13:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Insider Selling Slam: IQM Quantum Computers Plunges",
@@ -57,7 +63,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-29T12:32:52.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "World Fund doubles down on decarbonization and deep tech in Europe",
@@ -65,7 +72,8 @@
       "publisher": "impactalpha.com",
       "published_at": "2026-09-29T02:44:06.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Zeitgeist Weekly Digest, 27 September 2026",
@@ -73,7 +81,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-28T00:05:39.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Behavioral Patterns of IQM and Institutional Flows",
@@ -81,7 +90,8 @@
       "publisher": "Stock Traders Daily",
       "published_at": "2026-09-25T11:02:02.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microsoft Opens Maryland Quantum Lab, Grants DARPA Direct Access to Topological Hardware",
@@ -89,7 +99,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-09-23T18:42:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Has A Great Business, But PFIC Tax Questions Raise Concerns (IQMX)",
@@ -97,7 +108,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-23T18:40:03.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microsoft Opens 15,000-Square-Foot Quantum Research Center and Hardware Makerspace in Maryland Discovery District",
@@ -105,7 +117,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-09-23T04:44:20.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Joy as primary school is recommended for flagship status",
@@ -113,7 +126,8 @@
       "publisher": "EDP24",
       "published_at": "2026-09-22T11:22:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Reports Three Continents Buy Quantum Computers—and The Software To Use Them",
@@ -121,7 +135,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-22T08:59:57.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Europe’s IQM became a quantum computing soloist",
@@ -129,7 +144,8 @@
       "publisher": "Diginomica",
       "published_at": "2026-09-22T07:05:02.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microsoft Gives DARPA Access to Majorana System, Opens Maryland Quantum Research Center",
@@ -137,7 +153,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "BTIG initiates IQM Quantum Computers stock with buy rating By Investing.com",
@@ -145,7 +162,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Finland expects billion-dollar revenues from quantum technologies — YLE News",
@@ -153,7 +171,8 @@
       "publisher": "UA.NEWS",
       "published_at": "2026-09-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM to Deliver Its First Quantum Computer in South America to Brazil’s Eldorado Research Institute",
@@ -161,7 +180,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Sells a Quantum Computer in Brazil. What It Means for the Stock.",
@@ -169,7 +189,8 @@
       "publisher": "Barron's",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Sends Its First Quantum Computer To Brazil’s Eldorado Institute",
@@ -177,7 +198,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "South America will get its first IQM quantum computer. Brazil will host it in 2027.",
@@ -185,7 +207,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Japan’s TOYO Corporation Buys Second IQM Quantum Computer To Share With Researchers And Startups",
@@ -193,7 +216,8 @@
       "publisher": "smbtech.au",
       "published_at": "2026-09-15T10:21:40.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "TOYO Corporation Acquires Second On-Premises IQM System to Open Dual-QPU Testbed for Japan’s Ecosystem",
@@ -201,7 +225,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Second IQM Quantum Computer Heads To TOYO’s Tokyo R&D Center",
@@ -209,7 +234,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI-IQ Reveals Exact Error-Correction Blueprint for Europe's First Fault-Tolerant Quantum System",
@@ -217,7 +243,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Listing On Nasdaq Two Months In, An IQM Viewpoint",
@@ -225,7 +252,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM To Build Europe’s First Quantum Computer With Logical Qubits",
@@ -233,7 +261,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory Selects IQM's Staged Path to Europe's First Superconducting Quantum Computer With Logical Qubits",
@@ -241,7 +270,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM And VTT Will Deploy A 300-qubit Computer In Finland By 2027",
@@ -249,7 +279,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Finnish Startup S-Transistors Brings Zero-Resistance Cryogenic Chips to Wafer Scale",
@@ -257,7 +288,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Computing - 2026 Market & Investments Trends",
@@ -265,7 +297,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Joins OrangeQS Program To Speed Up Quantum Chip Testing",
@@ -273,7 +306,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Award Goes To Researcher Studying Qubit Performance",
@@ -281,7 +315,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Three Law Firms Hold Nearly Two-Thirds of Recorded Quantum Legal Work",
@@ -289,7 +324,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Asia is becoming quantum computing’s next battleground",
@@ -297,7 +333,8 @@
       "publisher": "Livemint",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Superpositions Partners with EBU Luxembourg to Integrate Quantum Workflows into Business Curricula",
@@ -305,7 +342,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Who’s Heading to NORDEEP 2026?",
@@ -313,7 +351,8 @@
       "publisher": "BeBeez International",
       "published_at": "2026-08-19T05:46:05.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Toyo to install IQM Radiance20 at Japan’s AIST G-QuAT",
@@ -321,7 +360,8 @@
       "publisher": "International Business Times",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum earnings Q2 2026: D-Wave, Infleqtion, IonQ, and Rigetti publish financial results alongside newly IPO-ed IQM and Quantinuum",
@@ -329,7 +369,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Can IQM Quantum Computers Oyj (HLSE:IQMX) Justify Its Valuation After Buyback, Guidance And Earnings?",
@@ -337,7 +378,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Reports First Earnings as Public Company: H1 2026 Results, Record Backlog, and FY 2026 Guidance",
@@ -345,7 +387,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Is IQM Quantum Computers Oyj (HLSE:IQMX) A Bargain Following Its Share Authorization?",
@@ -353,7 +396,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Rings the Closing Bell",
@@ -361,7 +405,8 @@
       "publisher": "Nasdaq",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Rings the Nasdaq Stock Market Closing Bell",
@@ -369,7 +414,8 @@
       "publisher": "Nasdaq",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Reports First Earnings as Public Company, Reporting First Half and Second Quarter 2026 Results, and Initiates FY 2026 Guidance Supported by Over EUR 102 million Order Backlog",
@@ -377,7 +423,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers, The Complete Guide To Europe's First Nasdaq-Listed Quantum Builder",
@@ -385,7 +432,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Jan Goetz, The Complete Story Of The Physicist Who Took IQM To Nasdaq",
@@ -393,7 +441,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers (IQMX) Earnings Date and Reports 2026",
@@ -401,7 +450,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Delivers First US Quantum Computer To Oak Ridge National Lab And Reports Revenue",
@@ -409,7 +459,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Oyj Delivers 28% Revenue Growth in Q2 2026",
@@ -417,7 +468,8 @@
       "publisher": "AlphaStreet",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Q2 2026 slides: backlog surges 52%, revenue up 47% in H1",
@@ -425,7 +477,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Earnings call transcript: IQM Quantum Computers posts higher backlog in Q2 2026",
@@ -433,7 +486,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Delivers First U.S. Quantum System to Oak Ridge Lab",
@@ -441,7 +495,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "54-Qubit Device Validates Noise-Resilient Optimization Framework",
@@ -449,7 +504,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-08-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM and Deutsche Bahn Execute Hybrid Quantum Algorithm for Railway Scheduling",
@@ -457,7 +513,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-08-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Finland Quantum Computing Companies, The Complete Vendor Guide",
@@ -465,7 +522,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc’s new shares subscribed for under",
@@ -473,7 +531,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Rothschild Redburn initiates IQM Quantum Computers stock with neutral rating",
@@ -481,7 +540,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Rothschild Redburn initiates IQM Quantum Computers stock at neutral",
@@ -489,7 +549,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Europe's First Quantum Company IPOs on Nasdaq",
@@ -497,7 +558,8 @@
       "publisher": "Denkstrom",
       "published_at": "2026-07-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Czech Republic Quantum Computing Companies 2026: Vendor Guide",
@@ -505,7 +567,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Meet Pathfinder: US gets first on-premises commercial quantum computer",
@@ -513,7 +576,8 @@
       "publisher": "interestingengineering.com",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM to Report 2nd Quarter and First Half of 2026 Financial Results and Host Conference Call on August 4th, 2026",
@@ -521,7 +585,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers to Report Second Quarter and First Half 2026 Results on August 4, 2026",
@@ -529,7 +594,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ORNL Deploys New IQM Quantum Computer",
@@ -537,7 +603,8 @@
       "publisher": "Newswise",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM And Deutsche Bahn Demonstrate Quantum Algorithm For Railway Scheduling on Real Operational Data",
@@ -545,7 +612,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM and Deutsche Bahn Demonstrate Quantum Algorithm for Railway Scheduling on Real Operational Data",
@@ -553,7 +621,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM and Deutsche Bahn Test Quantum Algorithm for Train Scheduling",
@@ -561,7 +630,8 @@
       "publisher": "ForkLog",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers issues 577,237 shares via warrant exercise",
@@ -569,7 +639,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc – Managers’ Transactions – Hannu Martola",
@@ -577,7 +648,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Hardware Shows ZNE Can Report False 21% Improvements",
@@ -585,7 +657,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ORNL Deploys IQM Radiance 20-Qubit System At Oak Ridge National Laboratory",
@@ -593,7 +666,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Understanding Momentum Shifts in (IQM)",
@@ -601,7 +675,8 @@
       "publisher": "Stock Traders Daily",
       "published_at": "2026-07-11T23:30:01.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory to deploy IQM Halocene H4 quantum computer in Finland in 2027",
@@ -609,7 +684,8 @@
       "publisher": "W.Media",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM's Nasdaq Debut Could Change the Quantum Race for D-Wave",
@@ -617,7 +693,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory Selects IQM to Deploy Superconducting Quantum Computer for Hybrid HPC-AI Acceleration",
@@ -625,7 +702,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers (NasdaqGS:IQMX) Stock Still Looks Pricey Following Quantistry Asset Deal",
@@ -633,7 +711,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory Selects IQM to Deploy Advanced Quantum Computer, Accelerating Hybrid HPC and AI Development",
@@ -641,7 +720,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Finnish quantum firm lands big supercomputer order after Wall Street listing",
@@ -649,7 +729,8 @@
       "publisher": "Yle",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ORNL deploys new IQM quantum computer",
@@ -657,7 +738,8 @@
       "publisher": "EurekAlert! Science News Releases",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ORNL: 20-Qubit IQM Radiance System Launches At Oak Ridge Lab",
@@ -665,7 +747,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory To Deploy IQM’s Advanced Quantum Computer In 2027",
@@ -673,7 +756,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Acquires Quantistry Assets",
@@ -681,7 +765,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Selected to Supply Quantum Computer for Finland’s LUMI AI Factory (IQMX)",
@@ -689,7 +774,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Finland’s Lumi AI Factory to deploy IQM Halocene H4 quantum computer",
@@ -697,7 +783,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "LUMI AI Factory selects IQM to deploy quantum computer in 2027",
@@ -705,7 +792,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers (Nasdaq: IQMX) insiders record share deals and options",
@@ -713,7 +801,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Oyj (NasdaqGS:IQMX) Draws Valuation Attention, Is The Recent Pullback A Bargain?",
@@ -721,7 +810,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM acquires Quantistry assets to boost industrial quantum solutions",
@@ -729,7 +819,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Acquires Quantistry",
@@ -737,7 +828,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc – Managers’ Transactions – Juha Hassel",
@@ -745,7 +837,8 @@
       "publisher": "Yahoo Finance UK",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers: Tailwinds Still Building (NASDAQ:IQMX)",
@@ -753,7 +846,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc – Managers’ Transactions – Tremson Capital Management, LLC",
@@ -761,7 +855,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc – Managers’ Transactions – Ten Eleven Fund III, L.P.",
@@ -769,7 +864,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Acquires Assets of Quantistry GmbH to Bridge the Gap Between Quantum Algorithms and Solutions for Industrial Enterprises",
@@ -777,7 +873,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Acquires Assets of Quantistry GmbH to Bridge the Gap Between Quantum Algorithms and Solutions for Industrial Enterprises",
@@ -785,7 +882,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers executive sells shares worth €2.6M",
@@ -793,7 +891,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers acquires Quantistry software assets",
@@ -801,7 +900,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Acquires Quantistry Assets to Form Full-Stack Industrial Simulation Platform",
@@ -809,7 +909,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Joins Nasdaq as Public Quantum Computing Company",
@@ -817,7 +918,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Slips 3.4% After $234 Million Nasdaq SPAC Debut",
@@ -825,7 +927,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Becomes First European Quantum Computing Company to List on Nasdaq at $1.9B Valuation",
@@ -833,7 +936,8 @@
       "publisher": "MLQ.ai",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Commences Nasdaq Trading with €337 Million ($385 Million USD) Cash Reserves to Fund Transatlantic Scaling",
@@ -841,7 +945,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "262 Million IQM Shares Approved For Nasdaq Helsinki Listing",
@@ -849,7 +954,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Watch IQM CEO Explains Quantum's Big Opportunity",
@@ -857,7 +963,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Plc’s listing application has been approved and trading in its shares on the regulated market of Nasdaq Helsinki will commence on July 3, 2026; liquidity provision for shares",
@@ -865,7 +972,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM completes SPAC merger with RAAQ, begins trading on Nasdaq",
@@ -873,7 +981,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Quantum Computing Firm IQM Falls After Going Public Via SPAC",
@@ -881,7 +990,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IQM, Europe’s first public quantum company, admits the future of the tech is uncertain",
@@ -889,7 +999,8 @@
       "publisher": "TechCrunch",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Becomes First European Quantum Computing Company Listed on a Major U.S. Exchange",
@@ -897,7 +1008,8 @@
       "publisher": "Nasdaq",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers Completes Nasdaq Merger via Real Asset Acquisition Corp. to Establish Liquid Public Capitalization",
@@ -905,7 +1017,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "RAAQ: IQM Completes Nasdaq Listing",
@@ -913,7 +1026,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Completes Business Combination with RAAQ and Lists on Nasdaq",
@@ -921,7 +1035,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IQM Quantum Computers and Real Asset Acquisition Corp. complete the combination; trading in IQM’s ADSs and IQM Warrants on Nasdaq Stock Market LLC commences on July 2, 2026",
@@ -929,7 +1044,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Financial Supervisory Authority has approved IQM Quantum Computers Plc’s English-language listing prospectus",
@@ -937,7 +1053,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

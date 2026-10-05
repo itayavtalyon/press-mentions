@@ -1,7 +1,7 @@
 {
   "name": "Nanomedic",
   "last_mentioned_at": "2026-07-30T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Fischer receives CDSCO approval for import of Spincare Portable Wound Care System",
@@ -9,7 +9,8 @@
       "publisher": "Business Standard",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fischer Medical Ventures secures CDSCO import approval for Spincare system",
@@ -17,7 +18,8 @@
       "publisher": "scanx.trade",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

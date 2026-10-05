@@ -1,7 +1,7 @@
 {
   "name": "Omnix Medical",
   "last_mentioned_at": "2026-09-25T21:30:44.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Omnix Medical Highlighted in EU–Israel Research Partnership Event",
@@ -9,7 +9,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-25T21:30:44.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Omnix Medical Leads EU-Funded Collaboration Targeting Drug-Resistant Infections",
@@ -17,7 +18,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Omnix lands €8M EU grant to fight a superbug that kills up to 60% of patients",
@@ -25,7 +27,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-13T19:08:58.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EU backs Israeli antibiotic developer with €8 million grant to combat deadly superbugs",
@@ -33,7 +36,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

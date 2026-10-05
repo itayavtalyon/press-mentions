@@ -1,7 +1,7 @@
 {
   "name": "Arbe Robotics",
   "last_mentioned_at": "2026-10-03T05:11:20.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Arbe Robotics Closes $15 Million Registered Direct Offering To Support Automotive And Defense Expansion",
@@ -9,7 +9,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-09-30T17:05:18.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Ltd. - Warrant (Nasdaq:ARBEW) Stock Quote",
@@ -17,7 +18,8 @@
       "publisher": "The Chronicle-Journal",
       "published_at": "2026-09-29T19:22:12.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics closes $15 million registered direct offering By Investing.com",
@@ -25,7 +27,8 @@
       "publisher": "Investing.com South Africa",
       "published_at": "2026-09-28T21:21:35.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics closes $15 million registered direct offering",
@@ -33,7 +36,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-09-28T20:39:01.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Ltd. Announces Closing of $15 Million Underwritten Registered Direct Offering",
@@ -41,7 +45,8 @@
       "publisher": "FinancialContent",
       "published_at": "2026-09-28T20:15:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The share sale closed; proceeds are intended to support Arbe’s planned defense and counter-drone expansion.",
@@ -49,7 +54,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-28T20:15:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Raises $15 Million in Underwritten Registered Direct Offering",
@@ -57,7 +63,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-28T14:24:46.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Rights to buy up to 24.2 million shares accompany Arbe Robotics (ARBE)'s priced offering.",
@@ -65,7 +72,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-28T13:27:10.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Sweetens Warrant Terms to Support New Securities Offering",
@@ -73,7 +81,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-25T13:01:38.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics prices $15 million registered direct offering By Investing.com",
@@ -81,7 +90,8 @@
       "publisher": "Investing.com Canada",
       "published_at": "2026-09-25T12:34:55.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics prices $15M equity offering",
@@ -89,7 +99,8 @@
       "publisher": "TradingView",
       "published_at": "2026-09-25T12:25:24.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Ltd. Announces $15 Million Underwritten Registered Direct Offering",
@@ -97,7 +108,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-25T12:05:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Rights to buy up to 8.13 million shares in each of two groups get cheaper at Arbe Robotics (ARBE).",
@@ -105,7 +117,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-25T12:00:48.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics launches Alerion C-UAS Radar to d...",
@@ -113,7 +126,8 @@
       "publisher": "Pluang",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hirain and Arbe Selected by One of the World's Largest Automotive Groups for Level 3 Program Across Multiple Brands",
@@ -121,7 +135,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Major automaker taps Arbe (ARBE) radar for Level 3 driving in China",
@@ -129,7 +144,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics (NASDAQ: ARBE) Posts $18.5M Net Loss with One-Year Cash Runway Confirmed",
@@ -137,7 +153,8 @@
       "publisher": "Kalkine Media",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Ltd. Warrant (ARBEW) Financials – Balance Sheet, Profit & Loss, Cash Flow",
@@ -145,7 +162,8 @@
       "publisher": "Value Research",
       "published_at": "2026-08-31T03:56:37.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe (ARBEW) Update: Moves 6.67% Lower to $0.03 in the Current Update; Range Check",
@@ -153,7 +171,8 @@
       "publisher": "careplusvn.com",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Expands AI Radar Push as It Targets Defense, Drones and Robotaxis",
@@ -161,7 +180,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Maxim Group Maintains Arbe Robotics(ARBE.US) With Hold Rating",
@@ -169,7 +189,8 @@
       "publisher": "moomoo.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics at Canaccord Genuity conference: growth meets execution risk",
@@ -177,7 +198,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe to Participate in the 2026 Jefferies Semiconductor, IT Hardware & Communications Technology Conference",
@@ -185,7 +207,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Earnings call transcript: Arbe Robotics beats Q2 2026 estimates as revenue rises",
@@ -193,7 +216,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe to Announce Second Quarter 2026 Financial Results and Hold a Conference Call on August 6, 2026",
@@ -201,7 +225,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Ltd (ARBE) (Q2 2026) Earnings Call Highlights: Revenue Growth and Defense ...",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Q2 Earnings Call Highlights",
@@ -217,7 +243,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Announces Second Quarter 2026 Financial Results",
@@ -225,7 +252,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Appoints Assaf Pereg, CPA, as Chief Financial Officer",
@@ -233,7 +261,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Earnings To Watch: Arbe Robotics Ltd (ARBE) Q2 2026 -- GF Value Sees 50% Upside",
@@ -241,7 +270,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe tier-1 partner secures deal for tunnel safety radar",
@@ -249,7 +279,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Sets September 2026 Shareholder Meeting, Plans Governance and Reverse Split Votes",
@@ -257,7 +288,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics (ARBE) Holds Above Support with Modest Gains Amid Sector Interest - Merger Arbitrage",
@@ -265,7 +297,8 @@
       "publisher": "careplusvn.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Top 3 Innovators in the Global 4D Imaging Radar Industry",
@@ -273,7 +306,8 @@
       "publisher": "SNS Insider",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics Expands Defense Footprint With Global Integrator Deal",
@@ -281,7 +315,8 @@
       "publisher": "israeldefense.co.il",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arbe Robotics (NASDAQ:ARBE) shares surge 27% on defense deal, market cap up $23M",
@@ -289,7 +324,8 @@
       "publisher": "TechStock²",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

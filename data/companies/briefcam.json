@@ -1,7 +1,7 @@
 {
   "name": "BriefCam",
   "last_mentioned_at": "2026-09-18T11:41:19.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Police Scotland explores AI-powered CCTV search in Aberdeen pilot",
@@ -9,7 +9,8 @@
       "publisher": "FutureScot",
       "published_at": "2026-09-18T11:41:19.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Letters: The Tribune Editorial Board is right to question the proliferation of Flock cameras",
@@ -17,7 +18,8 @@
       "publisher": "Chicago Tribune",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cook County’s BriefCam AI tool represents the intersection of Black and Palestinian struggle against systems of mass surveillance",
@@ -25,7 +27,8 @@
       "publisher": "chicagomonitor.com",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Moving data ethics into the mainstream of policing",
@@ -33,7 +36,8 @@
       "publisher": "Emergency Services Times",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

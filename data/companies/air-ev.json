@@ -1,7 +1,7 @@
 {
   "name": "Air EV",
   "last_mentioned_at": "2026-09-17T09:38:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "First Wuling Air EV Rolls Out From Indonesia Plant",
@@ -9,7 +9,8 @@
       "publisher": "Carlist.my",
       "published_at": "2026-09-17T09:38:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lucid unveils its 2027 Air EV lineup with a new Stealth package",
@@ -17,7 +18,8 @@
       "publisher": "Electrek",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "2026 Wuling Aira EV launched in Indonesia - cute 4-door, up to 301 km range, undercuts BYD Atto 1, from RM35k",
@@ -25,7 +27,8 @@
       "publisher": "Paul Tan's Automotive News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lucid owner drove 4,709 miles through 11 states, and says EV road trips 'just work'",
@@ -33,7 +36,8 @@
       "publisher": "The Cool Down",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What is the Fate of Wuling Air EV after the Arrival of Aira EV?",
@@ -41,7 +45,8 @@
       "publisher": "VOI.ID",
       "published_at": "2026-07-13T07:15:43.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Here's How Much A 2022 Lucid Air Has Depreciated In Just 4 Years",
@@ -49,7 +54,8 @@
       "publisher": "bgr.com",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

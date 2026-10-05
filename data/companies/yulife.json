@@ -1,7 +1,7 @@
 {
   "name": "YuLife",
   "last_mentioned_at": "2026-09-15T10:04:29.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Working with AI can transform Employee Wellbeing",
@@ -9,7 +9,8 @@
       "publisher": "Lifestyle & Tech",
       "published_at": "2026-09-15T10:04:29.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "When employee benefits don’t feel like support",
@@ -17,7 +18,8 @@
       "publisher": "fanews.co.za",
       "published_at": "2026-09-09T00:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Marketers need to start treating their AI rollouts like a product launch",
@@ -25,7 +27,8 @@
       "publisher": "Marketing Week",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The true cost of financial stress at work",
@@ -33,7 +36,8 @@
       "publisher": "fanews.co.za",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "YuLife and Bupa Drive 9.2 Billion Steps in UK Workplace Health Challenge to Reforest Urban Areas",
@@ -41,7 +45,8 @@
       "publisher": "FF News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "A round for Group Risk and EB advisers",
@@ -49,7 +54,8 @@
       "publisher": "fanews.co.za",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "H2Pro",
   "last_mentioned_at": "2026-10-03T07:21:55.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Green Hydrogen News: H2Pro’s Decoupled Water Electrolysis Moves from Israeli Pilot to Spanish Demonstrations",
@@ -9,7 +9,8 @@
       "publisher": "Hydrogen Fuel News",
       "published_at": "2026-09-30T09:21:39.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "From Technion lab to hydrogen plant, H2Pro is scaling a different way to split water",
@@ -17,7 +18,8 @@
       "publisher": "Ynetnews",
       "published_at": "2026-09-22T11:26:46.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "I’ve spent months testing the best mops in my home – these are my top picks, from budget to battery-powered models",
@@ -25,7 +27,8 @@
       "publisher": "Ideal Home",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "3 best mops of 2026, based on extensive testing",
@@ -33,7 +36,8 @@
       "publisher": "Yahoo",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

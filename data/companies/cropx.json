@@ -1,7 +1,7 @@
 {
   "name": "CropX",
   "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "CropX Technologies LTD Revenue 2023: $3.3M Est. ARR",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CropX Acquires SCIO to Create Agriculture's First Self-Improving Agronomic Intelligence Platform",
@@ -17,7 +18,8 @@
       "publisher": "Global Ag Tech Initiative",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AgriFood Signals: Reservoir & Deere partnership, 80 Acres Farms lawsuit, new blended finance for Africa",
@@ -25,7 +27,8 @@
       "publisher": "AgFunderNews",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "From Planting to Harvest: CropX Acquires SCIO to Create Agriculture's First Self-Improving Agronomic Intelligence Platform",
@@ -33,7 +36,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CropX acquires NIR spectroscopy firm SCIO in biggest deal yet, eyes profitability in 2027",
@@ -41,7 +45,8 @@
       "publisher": "AgFunderNews",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

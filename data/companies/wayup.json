@@ -1,7 +1,7 @@
 {
   "name": "Wayup",
   "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "WayUp Revenue 2024: $12.3M Est. ARR",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "National Intern Day celebrates future leaders with Top 100 list reveal",
@@ -17,7 +18,8 @@
       "publisher": "eciks.org",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Intern Chronicles: National Intern Day",
@@ -25,7 +27,8 @@
       "publisher": "ESPN Press Room",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "National Intern Day — July 29, 2027",
@@ -33,7 +36,8 @@
       "publisher": "National Today",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

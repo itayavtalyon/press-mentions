@@ -1,7 +1,7 @@
 {
   "name": "TechSee",
   "last_mentioned_at": "2026-10-01T14:14:17.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "TechSee Survey Reveals a Missed Field Upsell Opportunity: Only 9% of Consumers Buy Home Network Equipment From a Technician",
@@ -9,7 +9,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-23T13:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

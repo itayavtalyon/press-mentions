@@ -1,7 +1,7 @@
 {
   "name": "People.ai",
   "last_mentioned_at": "2026-09-30T15:01:01.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Backstory Included in Evaluation of B2B Revenue Platforms",
@@ -9,7 +9,8 @@
       "publisher": "MarTech Cube",
       "published_at": "2026-09-30T15:01:01.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Backstory Named a Major Player in the IDC MarketScape: Worldwide Unified Revenue Orchestration Platforms 2026 Vendor Assessment",
@@ -17,7 +18,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Backstory Names Sam Branson Head of Partnerships to Accelerate Growth Through Strategic Alliances",
@@ -25,7 +27,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Backstory Launches Situation Search, Helping Sales Teams Win More Deals by Learning From Their Own Past Wins",
@@ -33,7 +36,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

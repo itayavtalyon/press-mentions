@@ -1,7 +1,7 @@
 {
   "name": "SpaceX",
-  "last_mentioned_at": "2026-10-04T13:51:44.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "last_mentioned_at": "2026-10-04T13:50:00.000Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "SpaceX brings Starship home early after first orbital flight",
@@ -9,7 +9,8 @@
       "publisher": "Axios",
       "published_at": "2026-09-28T19:55:40.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX’s Starship launches on first orbital mission from Texas",
@@ -17,7 +18,8 @@
       "publisher": "NPR",
       "published_at": "2026-09-28T13:15:29.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX's Starship makes orbital debut deploying Starlinks before early ending",
@@ -25,7 +27,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-28T12:54:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX launches Starship on giant rocket's first flight to orbit",
@@ -33,7 +36,8 @@
       "publisher": "CBS News",
       "published_at": "2026-09-28T12:50:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Starship Flight 14",
@@ -41,7 +45,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX launches its massive Starship rocket into orbit for the first time",
@@ -49,7 +54,8 @@
       "publisher": "CNBC",
       "published_at": "2026-09-28T04:01:01.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Launch preview: SpaceX to launch first Starlink V3 satellites to orbit on Starship",
@@ -57,7 +63,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-09-28T00:22:33.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA’s SpaceX Crew-13 Lands at NASA Kennedy",
@@ -65,7 +72,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-09-26T19:24:54.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "USSF-385 Mission",
@@ -73,7 +81,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "NASA, SpaceX Proceed Toward Crew-13 Launch",
@@ -81,7 +90,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-09-25T20:30:38.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA, SpaceX Move to Final Crew-13 Prelaunch Prep for Oct. 1 Liftoff",
@@ -89,7 +99,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX has big plans for a new Louisiana ‘Star Base,’ worrying some near there",
@@ -97,7 +108,8 @@
       "publisher": "NPR",
       "published_at": "2026-09-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg",
@@ -105,7 +117,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-09-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA awards SpaceX $946 million for 3 more astronaut missions to the ISS",
@@ -113,7 +126,8 @@
       "publisher": "Space",
       "published_at": "2026-09-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock falls as Starship's test flight slips to Sept. 28, retail investors sell shares",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX scores another $950 million from NASA for 3 more crewed flights to ISS",
@@ -129,7 +144,8 @@
       "publisher": "CNBC",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA, SpaceX Continue Crew‑13 Prep as Crew Enters Quarantine",
@@ -137,7 +153,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "USSF-259 Mission",
@@ -145,7 +162,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "Holy Grail Of Rocketry",
@@ -153,7 +171,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX stock pops ahead of Starship launch",
@@ -161,7 +180,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "New SpaceX site in Louisiana concerns some residents",
@@ -169,7 +189,8 @@
       "publisher": "NPR",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Musk hints (again) at possible SpaceX, Tesla merger",
@@ -177,7 +198,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX targets first Starship orbital test on September 22",
@@ -185,7 +207,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX's first European Starfall customer is mission integrator Space Cargo",
@@ -193,7 +216,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX launches 3 telecom satellites to orbit on 700th Falcon mission of all time (video)",
@@ -201,7 +225,8 @@
       "publisher": "Space",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Dear SpaceX Stock Fans, Mark Your Calendars for September 21",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EXCLUSIVE: UK deepens reliance on Musk's SpaceX, spending nearly $40 million on satellite services",
@@ -217,7 +243,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "USSF-153 Mission",
@@ -225,7 +252,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX sues Paxton, Texas county over public records",
@@ -233,7 +261,8 @@
       "publisher": "The Hill",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX launches classified mission for the US Space Force from California (video)",
@@ -241,7 +270,8 @@
       "publisher": "Space",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What SpaceX CEO Elon Musk needs to do to launch the stock into the stratosphere",
@@ -249,7 +279,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Stock Can Gain Nearly 50%, New Bull Says",
@@ -257,7 +288,8 @@
       "publisher": "Barron's",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX Shares to Get a Boost If Nasdaq 100 Increases Weighting",
@@ -265,7 +297,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more",
@@ -273,7 +306,8 @@
       "publisher": "CNBC",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -281,7 +315,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-09-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "Should You Forget SpaceX (SPCX) Stock?",
@@ -289,7 +324,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-06T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Falcon 9 rocket launches 27 Starlink satellites, lands on ship at sea (video)",
@@ -297,7 +333,8 @@
       "publisher": "Space",
       "published_at": "2026-09-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX promises coastal restoration in Louisiana, but scope and spending remain unclear",
@@ -305,7 +342,8 @@
       "publisher": "Louisiana Illuminator",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "What Move Will SpaceX Stock Make After Sept. 9? The Evidence Is Piling Up, and Here’s What It Shows.",
@@ -313,7 +351,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Falcon 9 rocket launches Starlink satellites to orbit on its 35th flight",
@@ -321,7 +360,8 @@
       "publisher": "Space",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "I Called SpaceX's IPO Pullback Correctly. I Still Missed It. Here's the Lesson.",
@@ -329,7 +369,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX sweeteners: How did Louisiana lure Elon Musk’s rocket launch site to its coast?",
@@ -337,7 +378,8 @@
       "publisher": "Louisiana Illuminator",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "$1,000 invested in SpaceX stock at start of August is now worth",
@@ -345,7 +387,8 @@
       "publisher": "Finbold",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
@@ -353,7 +396,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA, SpaceX Adjust Crew-13 Launch Date",
@@ -361,7 +405,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX test-fires Starship Super Heavy booster ahead of critical Flight 14 (video)",
@@ -369,7 +414,8 @@
       "publisher": "Space",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
@@ -377,7 +423,8 @@
       "publisher": "OpenAI",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Starship is coming home! SpaceX loads floating spacecraft onto huge ship in the Indian Ocean (photos)",
@@ -385,7 +432,8 @@
       "publisher": "Space",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX says it's building its largest spaceport yet, committing $100 billion for a Louisiana site",
@@ -393,7 +441,8 @@
       "publisher": "fortune.com",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX to develop Starship launch site in Louisiana",
@@ -401,7 +450,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Announces New Starbase, Louisiana Spaceport",
@@ -409,7 +459,8 @@
       "publisher": "Payload Space",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Musk plans $100 billion SpaceX launch site in coastal Louisiana",
@@ -417,7 +468,8 @@
       "publisher": "Louisiana Illuminator",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX plans to build a $100 billion spaceport in Louisiana",
@@ -425,7 +477,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX unveils plans for massive Louisiana launch site",
@@ -433,7 +486,8 @@
       "publisher": "E&E News by POLITICO",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX to build major spaceport in Louisiana for Starship rocket launches",
@@ -441,7 +495,8 @@
       "publisher": "NBC News",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "With historic SpaceX announcement, UL Lafayette is prepared to power Louisiana’s space future",
@@ -449,7 +504,8 @@
       "publisher": "louisiana.edu",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Launches New Era of Commercial Spaceflight with $100 Billion Louisiana Campus - LED",
@@ -457,7 +513,8 @@
       "publisher": "Louisiana Economic Development - LED (.gov)",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What To Know About SpaceX’s Plans For ‘Biggest Launch Site On Earth’",
@@ -465,7 +522,8 @@
       "publisher": "Forbes",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX is climbing the stack and pulling up the ladder",
@@ -473,7 +531,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -481,7 +540,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-08-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX stock down for week following share unlock, big rocket news from China",
@@ -489,7 +549,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches 29 Starlink satellites, lands rocket on ship at sea (video, photos)",
@@ -497,7 +558,8 @@
       "publisher": "Space",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Starship lives! SpaceX craft arrives at Christmas Island after 24-day ocean ordeal",
@@ -505,7 +567,8 @@
       "publisher": "Space",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "New images reveal what happened when a SpaceX rocket slammed into the moon",
@@ -513,7 +576,8 @@
       "publisher": "CNN",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How to Play SpaceX Stock After the Elon Musk-Led Company Just Closed Its Cursor Acquisition",
@@ -521,7 +585,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Elon Musk's SpaceX Stock Just Closed Above Its $135 IPO Price for the First Time in Weeks. Is the Rebound a Buy Signal?",
@@ -529,7 +594,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches its 100th mission of the year, sends Starlink satellites to orbit (video)",
@@ -537,7 +603,8 @@
       "publisher": "Space",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Italy's Intesa Sanpaolo holds stake in SpaceX worth nearly $1 billion in second quarter",
@@ -545,7 +612,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "USSF-366 Mission",
@@ -553,7 +621,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-08-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "New record! SpaceX launches 2 Falcon 9 rockets just 38 minutes apart (video)",
@@ -561,7 +630,8 @@
       "publisher": "Space",
       "published_at": "2026-08-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Musk discloses 48.4% stake in SpaceX in regulatory filing",
@@ -569,7 +639,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX wraps Starlink double header day with the launch of 24 Starlink satellites from California",
@@ -577,7 +648,8 @@
       "publisher": "Space",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -585,7 +657,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX could make $500 billion in 2028, Elon Musk says (video)",
@@ -593,7 +666,8 @@
       "publisher": "Space",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Retail investors sold SpaceX shares for first time on Friday",
@@ -601,7 +675,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX's big week: Stock jumps despite earnings storm, lock-up expiration in crucial test for investors",
@@ -609,7 +684,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock got cut in half, but retail investors keep piling in: Chart of the Day",
@@ -617,7 +693,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock climbs as shares available for trading more than double",
@@ -625,7 +702,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX lockup expires today, with stock bucking higher",
@@ -633,7 +711,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock falls 13% as AI spending surge rattles investors and massive share unlock looms",
@@ -641,7 +720,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock hits new all-time low as AI capex jumps in Q2",
@@ -649,7 +729,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX revenue jumps in debut results as satellite, AI businesses surge",
@@ -657,7 +738,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -665,7 +747,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX posts loss in first report as a public company but less than expected",
@@ -673,7 +756,8 @@
       "publisher": "AP News",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX boosted revenue but isn't profitable, first-ever earnings report shows",
@@ -681,7 +765,8 @@
       "publisher": "abcnews.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
@@ -689,7 +774,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX's satellite ambitions squeeze out rivals reliant on its rockets",
@@ -697,7 +783,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "NASA eyes September launch date for SpaceX Crew-13 mission to ISS. Cybertrucks will be on the launch pad",
@@ -705,7 +792,8 @@
       "publisher": "Houston Public Media",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
@@ -713,7 +801,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Watch SpaceX's Starship land at sea in these stunning new videos",
@@ -721,7 +810,8 @@
       "publisher": "Space",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Starship still floating 5 days after flight | Space photo of the day for July 29, 2026",
@@ -729,7 +819,8 @@
       "publisher": "Space",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX gets $1.6 billion US Space Force order for 18 Falcon 9 launches",
@@ -737,7 +828,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX launches classified payload for National Reconnaissance Office",
@@ -745,7 +837,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "If You'd Bought $10,000 of SpaceX Stock at the IPO, Here's What You'd Have Today",
@@ -753,7 +846,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock-purchasing by Congress members fuels conflict concerns",
@@ -761,7 +855,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX, Blue Origin could get quicker launch approval under FAA move to waive environmental rules",
@@ -769,7 +864,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX Rebounds After Briefly Plunging 20% Below IPO Price",
@@ -777,7 +873,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Why SpaceX’s Earnings Will Likely Be Followed by a Wave of Stock Sales",
@@ -785,7 +882,8 @@
       "publisher": "global.morningstar.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX has now lost the equivalent of a full Tesla in market capitalization",
@@ -793,7 +891,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Starship's Thirteenth Flight Test",
@@ -801,7 +900,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX's giant Super Heavy-Starship rocket blasts off on key test flight",
@@ -809,7 +909,8 @@
       "publisher": "CBS News",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches massive Starship rocket in first test flight since IPO",
@@ -817,7 +918,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How to watch SpaceX launch Starship Flight 13 today",
@@ -825,7 +927,8 @@
       "publisher": "Space",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Short sellers notch $15.5 billion profit as SpaceX shares slide",
@@ -833,7 +936,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "MRV-MEP Mission",
@@ -841,7 +945,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "Emergency Injunction Sought to Protect Texas Wildlife Refuge From SpaceX",
@@ -849,7 +954,8 @@
       "publisher": "Center for Biological Diversity",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
@@ -857,7 +963,8 @@
       "publisher": "NASA (.gov)",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Elon Musk's SpaceX has lost $1T in market cap since mid-June as Starship launch is scrubbed",
@@ -865,7 +972,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Exclusive | SpaceX in Talks to Provide Computing Power for Pentagon’s AI Push",
@@ -873,7 +981,8 @@
       "publisher": "WSJ",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Post-ignition anomaly causes abort of SpaceX’s Starship Flight 13",
@@ -881,7 +990,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SDA’s Third Tranche 1 Mission",
@@ -889,7 +999,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX aborts Starship Flight 13 launch attempt",
@@ -897,7 +1008,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX's slide below IPO price risks turning blockbuster IPO into confidence test",
@@ -905,7 +1017,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX stock sinks below $135 IPO price for the first time",
@@ -913,7 +1026,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX shares slide below IPO price for the first time as blistering rally unravels",
@@ -921,7 +1035,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX targets July 16 for Starship Flight 13, reveals what went wrong on previous launch",
@@ -929,7 +1044,8 @@
       "publisher": "Space",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX stock sinks for a second-straight day, nearing $135 IPO price",
@@ -937,7 +1053,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches a flight-proven Falcon booster for 600th time",
@@ -945,7 +1062,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "One giant leap for the state: how China’s aerospace model differs from SpaceX",
@@ -953,7 +1071,8 @@
       "publisher": "South China Morning Post",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -961,7 +1080,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX's near-term AI payoff seen tethered to Earth, not outer space",
@@ -969,7 +1089,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX hits all-time low, dips below IPO opening price as rival Blue Origin seeks new funding",
@@ -977,7 +1098,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -985,7 +1107,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "With SpaceX Starship, Japan's ispace provides ride-share to the moon",
@@ -993,7 +1116,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Jeremy Grantham on SpaceX: It Will Be Amazing If It Doesn’t Collapse",
@@ -1001,7 +1125,8 @@
       "publisher": "global.morningstar.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Transporter-17 Mission",
@@ -1009,7 +1134,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "SpaceX satellite wins test Pentagon’s commitment to competition",
@@ -1017,7 +1143,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
@@ -1025,7 +1152,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX joins the Nasdaq 100, clearing way for potential investment influx. Here's what to know",
@@ -1033,7 +1161,8 @@
       "publisher": "abcnews.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX just launched the 1st-ever nuclear-powered commercial satellite",
@@ -1041,7 +1170,8 @@
       "publisher": "Space",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX fires up all 6 of Starship's engines ahead of 13th test flight (video)",
@@ -1049,7 +1179,8 @@
       "publisher": "Space",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NEWSLETTER: A message from the SEC's Uyeda: If you don't like SpaceX's governance, don't buy the shares",
@@ -1057,7 +1188,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SpaceX",
@@ -1065,7 +1197,8 @@
       "publisher": "spacex.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "The SpaceX IPO tells one story. Here is the more important one.",
@@ -1073,7 +1206,8 @@
       "publisher": "SpaceNews",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
@@ -1081,7 +1215,8 @@
       "publisher": "Spaceflight Now",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

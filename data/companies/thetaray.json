@@ -1,7 +1,7 @@
 {
   "name": "ThetaRay",
   "last_mentioned_at": "2026-10-02T05:01:26.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "ThetaRay Appoints Laure Richmond as CFO to Scale AI-Native Financial Crime Compliance",
@@ -9,7 +9,8 @@
       "publisher": "FF News",
       "published_at": "2026-09-29T16:11:55.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ThetaRay Names Former TMX and Instinet Executive Laure Richmond CFO",
@@ -17,7 +18,8 @@
       "publisher": "citybiz",
       "published_at": "2026-09-29T15:55:44.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ThetaRay Appoints Former TMX and Instinet Executive Laure Richmond as Chief Financial Officer",
@@ -25,7 +27,8 @@
       "publisher": "Rutland Herald",
       "published_at": "2026-09-29T13:03:36.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "THETARAY Revenue 2023: $30.7M Est. ARR",
@@ -33,7 +36,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ThetaRay Secures Spot on CNBC’s World’s Top Fintech Companies 2026 List for AI Compliance Innovation",
@@ -41,7 +45,8 @@
       "publisher": "FF News",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ThetaRay Named to CNBC's World's Top Fintech Companies 2026 List as Global Banks Adopt Its Agentic AI Infrastructure",
@@ -49,7 +54,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ThetaRay taps Santander veteran as AML scrutiny bites",
@@ -57,7 +63,8 @@
       "publisher": "FinTech Global",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Money20/20 Europe 2026: ThetaRay’s Garima Chaudhary on AI-Driven AML and the Future of Financial Crime Prevention",
@@ -65,7 +72,8 @@
       "publisher": "FF News",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Santander Financial Crime Transformation Leader Joins ThetaRay to Drive Enterprise AI Adoption",
@@ -73,7 +81,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ThetaRay Appoints Former Santander VP Luis Pinedo to Lead Enterprise AI Compliance Strategy",
@@ -81,7 +90,8 @@
       "publisher": "FF News",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

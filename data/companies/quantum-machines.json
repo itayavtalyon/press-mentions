@@ -1,7 +1,7 @@
 {
   "name": "Quantum Machines",
   "last_mentioned_at": "2026-10-03T13:58:44.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Quantum Machines Showcases Quantum–HPC Focus With Paris Industry Event",
@@ -9,7 +9,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-30T12:05:51.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "New Mexico opens quantum computing hub linking US labs, private firms",
@@ -17,7 +18,8 @@
       "publisher": "Bilyonaryo Business",
       "published_at": "2026-09-29T16:36:34.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AMD Chips Help Quantum Machines Control Qubits With Nanosecond Precision",
@@ -25,7 +27,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-24T09:08:38.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Positions Itself at Center of Superconducting Quantum Computing Dialogue",
@@ -33,7 +36,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-24T00:07:07.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Highlights Hybrid Classical–Quantum Control Architecture With AMD",
@@ -41,7 +45,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The quantum race has a control problem; Quantum Machines has raised $280 million to tackle it",
@@ -49,7 +54,8 @@
       "publisher": "Ynetnews",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Highlights Role in Scaling Diamond-Based Quantum Hardware",
@@ -57,7 +63,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-22T03:46:06.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Highlights Industry Exposure at AQC26 Quantum Computing Conference",
@@ -65,7 +72,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-22T03:17:34.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "No Manual Tuning Needed, Qualibrate Calibrates Qubits From Cold Start",
@@ -73,7 +81,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Highlights NVIDIA-Integrated Quantum Control Breakthrough",
@@ -81,7 +90,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Runs NVIDIA Code On Live Qubits With NVQLink",
@@ -89,7 +99,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "NVIDIA Opens Fault-tolerant Quantum Computing To Outside Code",
@@ -97,7 +108,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Targets Greater Visibility at IEEE Quantum Week With New Calibration Results",
@@ -105,7 +117,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Opinion | The Quantum Con: How Chicago’s Southside Became a Sacrificial Altar to the War Machine",
@@ -113,7 +126,8 @@
       "publisher": "Common Dreams",
       "published_at": "2026-08-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "World's first diamond-powered portable quantum computer, Germany sets world record",
@@ -121,7 +135,8 @@
       "publisher": "worldrecordacademy.org",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Quantum Machines Showcases OPX1000 Use in Emerging Molecular Qubit Research",
@@ -129,7 +144,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Horizon Quantum and Quantum Machines Announce Strategic Collaboration to Increase Efficiency of Quantum Systems",
@@ -137,7 +153,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Horizon Quantum and Quantum Machines Partner to Advance Real-Time Quantum Calibration",
@@ -145,7 +162,8 @@
       "publisher": "Quantum Computing Report",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Two Israeli quantum startups target Wall Street in multibillion-dollar SPAC deals",
@@ -153,7 +171,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-07-12T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why Quantum Computing Needs Strong Ecosystems to Scale",
@@ -161,7 +180,8 @@
       "publisher": "The Quantum Insider",
       "published_at": "2026-07-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

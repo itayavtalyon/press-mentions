@@ -1,7 +1,7 @@
 {
   "name": "Databricks",
-  "last_mentioned_at": "2026-10-02T18:30:55.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "last_mentioned_at": "2026-10-02T02:23:34.000Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Introducing ai_decide: make fast decisions on your governed data",
@@ -9,7 +9,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-30T21:02:32.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks Opens Genie One MCP as Beta Endpoint Nears Sunset",
@@ -17,7 +18,8 @@
       "publisher": "quasa.io",
       "published_at": "2026-09-30T19:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How to scale agentic applications without creating AI sprawl",
@@ -25,7 +27,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-30T17:43:20.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Decagon Partners With Databricks on Data, Models and Marketplace",
@@ -33,7 +36,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-30T16:05:02.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lakebase Search: State-of-the-art full text and vector search for Postgres",
@@ -41,7 +45,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-28T20:57:37.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Manufacturing data and AI: Connecting the product value chain",
@@ -49,7 +54,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-28T20:29:47.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks lands Cal field naming rights, ACC’s first helmet branding deal",
@@ -57,7 +63,8 @@
       "publisher": "Sports Business Journal",
       "published_at": "2026-09-24T19:59:11.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "From Soda Hall to the Football Field: Databricks Returns to Berkeley Roots with Cal Athletics Partnership",
@@ -65,7 +72,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-24T17:52:13.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Helix Accelerates Genomic Research",
@@ -73,7 +81,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-24T17:35:01.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks buys Row Zero and is scouting for more startups to acquire",
@@ -81,7 +90,8 @@
       "publisher": "TechCrunch",
       "published_at": "2026-09-24T17:07:55.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Deploy and manage coding agents at scale with the Unity Gateway CLI",
@@ -89,7 +99,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-24T16:43:15.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Seattle startup Row Zero acquired by Databricks to bring enterprise spreadsheets to AI platform",
@@ -97,7 +108,8 @@
       "publisher": "GeekWire",
       "published_at": "2026-09-24T15:09:25.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks Acquires Row Zero, Bringing Live, Governed Spreadsheets to Genie",
@@ -105,7 +117,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-24T13:41:19.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How I built agent-based security reviews on Databricks",
@@ -113,7 +126,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-24T01:59:41.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Intelo.ai Joins the Built-on Databricks Partner Program",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-22T12:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Naveen Zutshi Is one of TIME's 2026 Executives of the Year: Tech and Data",
@@ -129,7 +144,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Genie One MCP: Give any AI Agent the Right Business Context",
@@ -137,7 +153,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks' Ali Ghodsi on AI risk, cyber and enterprise ontology",
@@ -145,7 +162,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-09-19T00:29:43.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "News | Databricks signs lease at The Franklin in Chicago",
@@ -153,7 +171,8 @@
       "publisher": "CoStar",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ahead of an IPO, the Math Behind Databricks’ USD 190 Billion Valuation Doesn’t Add Up",
@@ -161,7 +180,8 @@
       "publisher": "global.morningstar.com",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks Bets $350M on Singapore as It More Than Doubles Local Workforce",
@@ -169,7 +189,8 @@
       "publisher": "TechRepublic",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Watch AI ‘Existential Risk’ Is Close to Zero: Databricks CEO",
@@ -177,7 +198,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks CEO Ali Ghodsi: Most researchers agree there is no existential risk from AI",
@@ -185,7 +207,8 @@
       "publisher": "CNBC",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks Piles Investments Into Asia as Growth Accelerates",
@@ -193,7 +216,8 @@
       "publisher": "WSJ",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "RLH Equity Partners Invests in Databricks-Focused AI Consultancy Climb",
@@ -201,7 +225,8 @@
       "publisher": "citybiz",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "From AI Everywhere to AI That Delivers",
@@ -209,7 +234,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-15T09:48:13.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "EY Netherlands formalizes partnership with Databricks to accelerate data and AI transformation",
@@ -217,7 +243,8 @@
       "publisher": "ey.com",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ahead of an IPO, the Math Behind Databricks’ $190 Billion Valuation Doesn’t Add Up",
@@ -225,7 +252,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks expands security as Khawaja urges risk-first AI defense in Korea - CHOSUNBIZ",
@@ -233,7 +261,8 @@
       "publisher": "Chosunbiz",
       "published_at": "2026-09-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lakebase: Another vendor buzzword or a useful new technology?",
@@ -241,7 +270,8 @@
       "publisher": "TechTarget",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks Launches Genie Code: Bringing Agentic Engineering to Data Work",
@@ -249,7 +279,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Read Restrictions and Catalog Labels: Unifying governance across engines and catalogs",
@@ -257,7 +288,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": true
     },
     {
       "title": "Databricks launches model to boost data retrieval for AI",
@@ -265,7 +297,8 @@
       "publisher": "TechTarget",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI Private Opportunities Trust Reaches 58.5% Committed with New Stakes in Anthropic, Databricks and Voltaris Power",
@@ -273,7 +306,8 @@
       "publisher": "Kalkine",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "When to Use Databricks for AI and Predictive Analytics",
@@ -281,7 +315,8 @@
       "publisher": "techbullion.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "List of 22 Acquisitions by Databricks (Sep 2026)",
@@ -289,7 +324,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-08T13:01:47.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "30 Azure Databricks Interview Questions and Answers (2026)",
@@ -297,7 +333,8 @@
       "publisher": "simplilearn.com",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks Mosaic AI for Retail: Use Cases, Benefits & Implementation Guide",
@@ -305,7 +342,8 @@
       "publisher": "- QuintDaily",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Inside Databricks’ bet on continuous marketing campaigns",
@@ -313,7 +351,8 @@
       "publisher": "thecurrent.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Building Reliable Pipelines with Lakeflow Declarative Pipelines and Unity Catalog",
@@ -321,7 +360,8 @@
       "publisher": "blog.barracuda.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Genie Agent Mode API Adds File Reasoning",
@@ -329,7 +369,8 @@
       "publisher": "StartupHub.ai",
       "published_at": "2026-09-02T21:18:07.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Apache Ranger Creators Bring Agent Security to the Databricks Unity AI Gateway",
@@ -337,7 +378,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Qlik Expands MCP Availability across AWS and Databricks Marketplace Bringing Trusted Business Context to Agents",
@@ -345,7 +387,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Build Your Lakehouse for Unified Analytics and AI",
@@ -353,7 +396,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-01T21:43:14.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Operationalizing Genie Ontology in Your Data Stack",
@@ -361,7 +405,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Lakehouse Business Data Models for Financial Services & Insurance",
@@ -369,7 +414,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-31T22:38:50.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Deloitte Acquires the Business of Wavicle, Accelerating Data and AI Engineering Capabilities",
@@ -377,7 +423,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Point72 mints a Turkish unicorn, Shein's IPO prices, and Deloitte's Databricks bet",
@@ -385,7 +432,8 @@
       "publisher": "Axios",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks Lakebase Explained",
@@ -393,7 +441,8 @@
       "publisher": "youtu.be",
       "published_at": "2026-08-30T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ali Ghodsi: The 100 Most Influential People in AI 2026",
@@ -401,7 +450,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Andy Konwinski: The 100 Most Influential People in AI 2026",
@@ -409,7 +459,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks Announces Major Updates to Its AI Suite to Boost AI Model Accuracy",
@@ -417,7 +468,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Why 2026's Tech IPO Market Is Shaping up to Be Another Dud",
@@ -425,7 +477,8 @@
       "publisher": "markets.businessinsider.com",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Redshift vs Snowflake vs BigQuery 2026: Price & Speed",
@@ -433,7 +486,8 @@
       "publisher": "tech-insider.org",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Latham & Watkins Advises Morgan Stanley on Investment in Databricks’ US$5 Billion Funding Round",
@@ -441,7 +495,8 @@
       "publisher": "Latham & Watkins LLP",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Seven West Media drops Teradata in intelligence layer modernisation",
@@ -449,7 +504,8 @@
       "publisher": "iTnews",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Novo Nordisk modernizes clinical trial data with Lakebase",
@@ -457,7 +513,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-19T17:58:17.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Capital One Software Introduces Databolt Connect for Secure Data Collaboration on Databricks Marketplace",
@@ -465,7 +522,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "From Database to AI Data Platform: OceanBase's Roadmap to Rival Databricks",
@@ -473,7 +531,8 @@
       "publisher": "Startup Fortune",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hightouch and Databricks Signal Where Customer Data Platforms Are Headed",
@@ -481,7 +540,8 @@
       "publisher": "CMSWire",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Evaluating AI Agents Live at the Grounded Reasoning Cup",
@@ -489,7 +549,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks Document Intelligence: pushing the frontier for complex document extraction",
@@ -497,7 +558,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Advancing Analytics Secures Strategic Investment from Databricks Ventures",
@@ -505,7 +567,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IPO inevitable for Databricks after adding $5B in funding",
@@ -513,7 +576,8 @@
       "publisher": "TechTarget",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks IPO outlook: $190 billion valuation, 80% growth, and the Snowflake comparison",
@@ -521,7 +585,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks wraps $5 billion funding round at $190 billion valuation",
@@ -529,7 +594,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks closes $5B round at $190B valuation as revenue tops $7B run-rate",
@@ -537,7 +603,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Smart Routing in Unity Gateway: Match frontier quality with 30%+ lower cost per task",
@@ -545,7 +612,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks Grows >80% YoY, Surpasses $7B Revenue Run-Rate, Scales Lakebase, Genie, and Unity AI Gateway",
@@ -553,7 +621,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks Hits $190 Billion Valuation As CEO Ali Ghodsi Claims AGI Has Already Arrived",
@@ -561,7 +630,8 @@
       "publisher": "Forbes",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks Acquires Electric to Power ‘Blazing Fast’ Agents",
@@ -569,7 +639,8 @@
       "publisher": "AI Magazine",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Databricks acquires Electric to give every AI agent its own Postgres database",
@@ -577,7 +648,8 @@
       "publisher": "The New Stack",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Databricks Acquires Electric",
@@ -585,7 +657,8 @@
       "publisher": "StartupHub.ai",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Taking AUTO CDC to the next level: Solving the hardest real-world use cases",
@@ -593,7 +666,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Open-sourcing Metals v2: Databricks’ Java and Scala language server for multi‑million line codebases",
@@ -601,7 +675,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Introducing FILE type: a native column type for multimodal data",
@@ -609,7 +684,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Managing AI Coding Costs at Scale",
@@ -617,7 +693,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Solvency II",
@@ -625,7 +702,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-06T15:49:19.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity Gateway",
@@ -633,7 +711,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
@@ -641,7 +720,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CORRECTING and REPLACING Adastra Recognized with Databricks Brickbuilder Specialization Across Financial Services, Industrial, and Security & Governance Practices",
@@ -649,7 +729,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Unity Gateway is Generally Available",
@@ -657,7 +738,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
@@ -665,7 +747,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
@@ -673,7 +756,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
@@ -681,7 +765,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Convert proprietary code to open ANSI SQL with Genie Code",
@@ -689,7 +774,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Manufacturing runs on capital. Finance protects the margin.",
@@ -697,7 +783,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Energy runs on volatile markets. Finance protects the margin.",
@@ -705,7 +792,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Bringing real-time fraud prevention to government benefits",
@@ -713,7 +801,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "NBCUniversal’s Seamless Migration: Unlocking Scalable Analytics",
@@ -721,7 +810,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "IBM earns Databricks Brickbuilder Specializations in AI and Security & Governance",
@@ -729,7 +819,8 @@
       "publisher": "IBM",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Databricks manages its own coding agent spend with Unity Gateway Budgets",
@@ -737,7 +828,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Real-Time Retail Intelligence",
@@ -745,7 +837,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-27T21:41:15.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "The EU Digital Product Passport: a traceability deadline",
@@ -753,7 +846,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Introducing AI spend controls with Unity Gateway",
@@ -761,7 +855,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
@@ -769,7 +864,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Connect Amazon S3 data to Databricks with Delegated IAM Permissions",
@@ -777,7 +873,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Why A Frontier Data Agent Outperforms General Coding Agents in Quality and Cost",
@@ -785,7 +882,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks expands Microsoft Azure partnership, to use more custom chips",
@@ -793,7 +891,8 @@
       "publisher": "Reuters",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Simplify AI agent orchestration with Lakebase Postgres",
@@ -801,7 +900,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Why R&D Data Belongs in the Lakehouse - and Why Agents Need It There",
@@ -809,7 +909,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Announcing the Public Preview of Discover and Domains, powered by Unity Catalog",
@@ -817,7 +918,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How Dow Built a Carbon Footprint Ledger on Databricks to Accelerate Sustainability at Scale",
@@ -825,7 +927,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Branching databases like code: a CI/CD pattern for Lakebase, in production at Glaspoort",
@@ -833,7 +936,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Your AI is ready. Your data foundation probably isn’t",
@@ -841,7 +945,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Unified context: The missing layer for enterprise AI coworkers",
@@ -849,7 +954,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "From experiment to insight: how Dotmatics Luma and Databricks make AI-ready science a reality",
@@ -857,7 +963,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How Unity Catalog managed tables bring interoperability, performance, and unified governance to the Lakehouse",
@@ -865,7 +972,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks is Raising a Strategic Round of Funding at a $188 Billion Valuation",
@@ -873,7 +981,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "AI-Enabled Advisory Services for Higher Education",
@@ -881,7 +990,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Data-Native AI Agents: Why Agents Must Move to Your Data",
@@ -889,7 +999,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Take insights anywhere with Genie One on mobile",
@@ -897,7 +1008,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How Retail Finance teams are using Agentic AI to protect omni-channel margins",
@@ -905,7 +1017,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Foundational context: Cross-industry & function-specific accelerators for Lakebase",
@@ -913,7 +1026,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Ultra-Fast Anomaly Detection using Apache Spark Real-Time Mode",
@@ -921,7 +1035,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "The ambulatory intelligence gap",
@@ -929,7 +1044,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Introducing Feature Views",
@@ -937,7 +1053,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Lipton Saves 30% With Lakebase",
@@ -945,7 +1062,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-08T23:27:43.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Independer halves Customer 360 delivery",
@@ -953,7 +1071,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-08T19:13:23.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Vattenfall Builds Real-Time Energy Intelligence",
@@ -961,7 +1080,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-08T17:19:02.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "The architecture decisions defining enterprise AI",
@@ -969,7 +1089,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-08T14:20:26.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase",
@@ -977,7 +1098,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Kythera Labs Expands Partnership with Databricks Launching the Clinical Semantic Bridge MCP on Databricks Marketplace",
@@ -985,7 +1107,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Imperial College London is accelerating dementia research with a modern data platform",
@@ -993,7 +1116,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Automatic Upgrades: best practice features for your lakehouse tables",
@@ -1001,7 +1125,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Reimagining Data Modeling on the Lakehouse: Introducing Vibe Data Modeling",
@@ -1009,7 +1134,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Databricks unifies OLTP and OLAP, depending on what counts as a copy",
@@ -1017,7 +1143,8 @@
       "publisher": "The Register",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Forecasting at the speed of modern retail",
@@ -1025,7 +1152,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How we keep GPUs reliable across Databricks AI",
@@ -1033,7 +1161,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Granular Usage Attribution for dbt Pipelines with Query Tags",
@@ -1041,7 +1170,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Beyond dashboards: Introducing Decision Execution Platforms",
@@ -1049,7 +1179,8 @@
       "publisher": "databricks.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

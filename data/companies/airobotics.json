@@ -1,7 +1,7 @@
 {
   "name": "Airobotics",
   "last_mentioned_at": "2026-09-07T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "ONDS Stock Sinks 22% YTD: Is it Time to Hold Tight or Head for Exit?",
@@ -9,7 +9,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Israel's attack-drone tender takes an unexpected turn as Ondas joins Kela and eyesAtop",
@@ -17,7 +18,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ondas selected to develop low cost attack drones for IDF",
@@ -25,7 +27,8 @@
       "publisher": "The Jerusalem Post",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

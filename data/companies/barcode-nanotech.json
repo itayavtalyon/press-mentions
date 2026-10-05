@@ -1,7 +1,7 @@
 {
   "name": "Barcode Nanotech",
   "last_mentioned_at": "2026-07-16T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Galmed Announces the Breakthrough Development of Novel LNP Cardiac Targeted Formulation of its SCD1 inhibitor, Aramchol",
@@ -9,7 +9,8 @@
       "publisher": "Finansavisen",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

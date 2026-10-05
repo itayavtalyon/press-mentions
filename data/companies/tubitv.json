@@ -1,7 +1,7 @@
 {
   "name": "TubiTV",
   "last_mentioned_at": "2026-10-02T03:12:56.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Dallas Filmmaker Daniel Gomez Celebrates Hispanic Heritage Month With Wong Place Wong Time, Now Streaming Free on Tubi",
@@ -9,7 +9,8 @@
       "publisher": "markets.businessinsider.com",
       "published_at": "2026-09-28T14:56:16.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What’s Coming to Tubi in June",
@@ -17,7 +18,8 @@
       "publisher": "Tubi",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "TUBI WANTS YOU TO “FIND ANY FEELING FOR FREE” IN ITS FIRST-EVER GLOBAL BRAND CAMPAIGN",
@@ -25,7 +27,8 @@
       "publisher": "Tubi",
       "published_at": "2026-09-10T13:42:22.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "NWA starts new deal with streamer also hosting WWE and AEW",
@@ -33,7 +36,8 @@
       "publisher": "Cageside Seats",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

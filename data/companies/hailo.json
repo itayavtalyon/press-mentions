@@ -1,7 +1,7 @@
 {
   "name": "Hailo",
   "last_mentioned_at": "2026-10-02T17:04:38.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "BlackBerry shares rise 6.6% as QNX adds Hailo-8 AI accelerator support",
@@ -9,7 +9,8 @@
       "publisher": "scanx.trade",
       "published_at": "2026-09-28T17:39:40.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology jumps as Hailo close and recovery narrative support the stock",
@@ -17,7 +18,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-25T21:20:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Acquires Hailo: The Next Edge AI Battle Is Not About TOPS — It Is About Who Can Get AI Into the Factory",
@@ -25,7 +27,8 @@
       "publisher": "semivision",
       "published_at": "2026-09-23T15:05:02.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip (MCHP) Closes its Hailo Deal. Why the Chipmaker is Buying Edge AI on the Cheap",
@@ -33,7 +36,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology completes acquisition of Hailo By Investing.com",
@@ -41,7 +45,8 @@
       "publisher": "Investing.com India",
       "published_at": "2026-09-21T13:14:41.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "AI chips for cameras and robots join Microchip after Hailo deal",
@@ -49,7 +54,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microchip Technology Completes Acquisition of Hailo",
@@ -57,7 +63,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology Completes Acquisition of Hailo",
@@ -65,7 +72,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ad-blocking is 'great', says Hailo marketer Gary Bramall",
@@ -73,7 +81,8 @@
       "publisher": "Campaign UK",
       "published_at": "2026-09-18T23:16:32.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Google to Build New AI Chip in Israel, Tapping Hailo Talent - Tech News",
@@ -81,7 +90,8 @@
       "publisher": "Haaretz",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hailo - 2026 Funding Rounds & List of Investors",
@@ -89,7 +99,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "QNX and Hailo Join Forces to Advance Reliable Physical AI at the Edge",
@@ -97,7 +108,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-08-27T12:05:10.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "BlackBerry Shares Jump as QNX Adds Hailo-8 AI Accelerator Support",
@@ -105,7 +117,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "BB Stock Looks To Reverse 2 Weeks Of Loss: Retail Cheers BlackBerry QNX-Hailo Tie-Up As 'Inflection Point' Ahead Of Earnings",
@@ -113,7 +126,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "BlackBerry Adds Hailo-8 AI Accelerator Support to QNX",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hailo Set to Launch a New Ride-Hailing Platform Focused on Safer, Fairer and More Reliable Mobility in India",
@@ -129,7 +144,8 @@
       "publisher": "openPR.com",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology to Acquire Hailo | Business | Aug 2026",
@@ -137,7 +153,8 @@
       "publisher": "Photonics Spectra",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "$299.99 ASUS UGen300 USB AI accelerator combines 40 TOPS Hailo-10H chip with 8GB LPDDR4",
@@ -145,7 +162,8 @@
       "publisher": "CNX Software",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ASUS UGen300 USB AI Accelerator with 40 TOPS and 8GB RAM",
@@ -153,7 +171,8 @@
       "publisher": "RS Web Solutions",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Two Israeli startups raised half a billion dollars. Their exits reveal the cost of the funding boom",
@@ -161,7 +180,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-08-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ICYMI Ep70: Northern.tech, Atlas Data Storage, imec, Microchip, Hailo",
@@ -169,7 +189,8 @@
       "publisher": "embeddedcomputing.com",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip To Acquire Edge AI Processor Company Hailo",
@@ -177,7 +198,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Acquires Edge AI Chip Startup Hailo",
@@ -185,7 +207,8 @@
       "publisher": "EE Times",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip's Hailo Buyout Strengthens Edge AI Ambitions: What's Ahead?",
@@ -193,7 +216,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology acquires Israeli chip startup Hailo for undisclosed amount",
@@ -201,7 +225,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microchip Technology Acquires On-Device AI Processor Company Hailo",
@@ -209,7 +234,8 @@
       "publisher": "audioXpress",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Farnell and Hailo form partnership to accelerate global edge AI innovation",
@@ -217,7 +243,8 @@
       "publisher": "Engineer Live",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "US chipmaker Microchip acquires Israeli AI firm Hailo",
@@ -225,7 +252,8 @@
       "publisher": "techinasia.com",
       "published_at": "2026-07-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microchip buys Israeli edge AI chipmaker Hailo",
@@ -233,7 +261,8 @@
       "publisher": "Globes - Israel Business News",
       "published_at": "2026-07-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip to acquire edge AI chipmaker Hailo, terms undisclosed",
@@ -241,7 +270,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-25T17:11:19.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Newark partners with Hailo to accelerate edge AI innovation",
@@ -249,7 +279,8 @@
       "publisher": "Electronic Products & Technology",
       "published_at": "2026-07-25T11:22:07.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip acquires Hailo after Israeli AI chip startup's dramatic fall from $1 billion valuation",
@@ -257,7 +288,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-07-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Key facts: Microchip COO to Leave for Menlo; to Acquire Hailo by Sept. 30",
@@ -265,7 +297,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-25T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology to acquire Israeli AI chip firm Hailo",
@@ -273,7 +306,8 @@
       "publisher": "The Business Journals",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microchip to acquire edge AI processor maker Hailo",
@@ -281,7 +315,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Microchip Technology (MCHP) Stock: Falls as Company Announces Hailo Edge AI Acquisition",
@@ -289,7 +324,8 @@
       "publisher": "Blockonomi",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Microchip Technology Signs Definitive Agreement to Acquire Hailo",
@@ -297,7 +333,8 @@
       "publisher": "ir.microchip.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AIS-1000 AI Surveillance Station – A $3,640 NDAA and TAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
@@ -305,7 +342,8 @@
       "publisher": "CNX Software",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Farnell signs Hailo",
@@ -313,7 +351,8 @@
       "publisher": "Electronics Weekly",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Farnell and Hailo Announce Global Edge AI Distribution Partnership",
@@ -321,7 +360,8 @@
       "publisher": "Electropages",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "HATs for Pi",
@@ -329,7 +369,8 @@
       "publisher": "Electronics Weekly",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "US chipmaker in advanced talks to buy Hailo",
@@ -337,7 +378,8 @@
       "publisher": "Globes - Israel Business News",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Mouser Electronics and Hailo Announce Global Distribution Agreement to Enable AI and Vision AI Applications at the Edge",
@@ -345,7 +387,8 @@
       "publisher": "Electronic Design",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Glean",
   "last_mentioned_at": "2026-09-30T12:15:52.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Clinical Validation Points to Growth Potential for Bright Uro’s Glean System",
@@ -9,7 +9,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-30T12:15:52.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Glean Revenue 2026: $300M ARR, $7.2B Valuation (2025)",
@@ -17,7 +18,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Glean - 2026 Funding Rounds & List of Investors",
@@ -25,7 +27,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-25T03:37:43.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Bright Uro Adds Medtech Veterans to Board Amid Glean Commercial Push",
@@ -33,7 +36,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Bright Uro Gains Clinical Momentum and Innovation Award for Glean Urodynamics Platform",
@@ -41,7 +45,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Exclusive: Enterprise AI platform Glean launches new global partner program",
@@ -49,7 +54,8 @@
       "publisher": "CRN Australia",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Glean CEO Arvind Jain GleanGO will be ‘defining moment for enterprise AI’",
@@ -57,7 +63,8 @@
       "publisher": "qz.com",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Glean:GO Brings Enterprise AI Leaders to San Francisco: NYSE Content Update",
@@ -65,7 +72,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Dialpad and Glean Connect Customer Conversation Insights With Enterprise Knowledge to Drive Smarter Decision-Making",
@@ -73,7 +81,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Glean Takes On Enterprise AI’s Biggest Bottlenecks: Context Gaps, Rising Costs, and AI Sprawl",
@@ -81,7 +90,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Glean:GO Brings Enterprise AI Leaders to San Francisco: NYSE Content Update",
@@ -89,7 +99,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Seclore and Glean Partner to Bring Context-Aware, Persistent Sensitivity and Security Controls to the Enterprise",
@@ -97,7 +108,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Glean:GO Brings Enterprise AI Leaders to San Francisco: NYSE Content Update",
@@ -105,7 +117,8 @@
       "publisher": "The Malaysian Reserve",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Glean Launches Global Partner Network to Scale Its Growing Enterprise AI Ecosystem",
@@ -113,7 +126,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Skyflow Launches Skyflow for Glean, Bringing Runtime Data Control to Enterprise AI Search",
@@ -121,7 +135,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Growing Glean launches first global AI services partner programme",
@@ -129,7 +144,8 @@
       "publisher": "IT Europa",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "GleekOps Co-Founder Tim Glomb to Challenge the “AI for Work” Pilot Model at Glean:GO 2026",
@@ -137,7 +153,8 @@
       "publisher": "EIN News",
       "published_at": "2026-08-19T19:56:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Pacing comes to the AI frontier",
@@ -145,7 +162,8 @@
       "publisher": "therundown.ai",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "After His Own Trademark Fight Revealed Gaps in Trademark Tools, This Fintech Founder Built His Own",
@@ -153,7 +171,8 @@
       "publisher": "LawSites",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Glean Launches Open Security and Governance Partner Program for Enterprise AI",
@@ -161,7 +180,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "LTM partners with Glean to bring enterprise knowledge into agentic AI workflows",
@@ -169,7 +189,8 @@
       "publisher": "varindia",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LTM and Glean join forces to unlock enterprise AI value",
@@ -177,7 +198,8 @@
       "publisher": "The Times of India",
       "published_at": "2026-07-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LTM partners with Glean to help enterprises scale AI with trusted business knowledge",
@@ -185,7 +207,8 @@
       "publisher": "Indian Television Dot Com",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "LTM partners with Glean to accelerate enterprise AI adoption",
@@ -193,7 +216,8 @@
       "publisher": "MediaBrief",
       "published_at": "2026-07-17T12:28:45.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LTM partners with Glean to drive enterprise AI adoption",
@@ -201,7 +225,8 @@
       "publisher": "Business Standard",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LTM Partners with Glean to Accelerate Enterprise AI Adoption",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance Singapore",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LTM Teams Up With Glean To Speed Up Enterprise AI Adoption And Productivity",
@@ -217,7 +243,8 @@
       "publisher": "Sahi",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Crayon Integrates Competitive Intelligence into Glean for AI-Powered Revenue Teams",
@@ -225,7 +252,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-07-14T16:04:30.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Glean Review: Exploring Glean's AI Platform",
@@ -233,7 +261,8 @@
       "publisher": "quasa.io",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Paranoid Optimist: Glean's Arvind Jain on Why the Model Labs Are an Asset, Not the Enemy",
@@ -241,7 +270,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-12T08:03:07.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

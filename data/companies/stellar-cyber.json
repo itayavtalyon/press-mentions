@@ -1,7 +1,7 @@
 {
   "name": "Stellar Cyber",
   "last_mentioned_at": "2026-10-02T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Stellar Cyber Ranks Highest for Architectural Alignment Among Emerging Players in SACR’s 2026 AI SOC Technoscope",
@@ -9,7 +9,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-29T12:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber and ESET Bring Premium Threat Intelligence to AI-Driven SecOps",
@@ -17,7 +18,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber recognized as a Progressive Company in MarketsandMarkets' latest 360Quadrants for the Extended Detection and Response (XDR) Market",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber Recognized as a Best-in-Class NDR Provider",
@@ -33,7 +36,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "\"Stellar Cyber\" recognized as a \"Progressive Company\" in MarketsandMarkets' latest 360Quadrant for the Network Detection and Response (NDR) Market",
@@ -41,7 +45,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Week in review: Cisco fixes IMC bug, Patch Tuesday forecast, Black Hat USA 2026",
@@ -49,7 +54,8 @@
       "publisher": "Help Net Security",
       "published_at": "2026-08-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber’s Auto-Triage AI matches human analysts 99.7% of the time",
@@ -57,7 +63,8 @@
       "publisher": "Help Net Security",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Analysts got 19 minutes back every hour in Stellar Cyber’s agentic auto triage trials",
@@ -65,7 +72,8 @@
       "publisher": "Help Net Security",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Top companies to visit at Black Hat USA 2026",
@@ -73,7 +81,8 @@
       "publisher": "Help Net Security",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber and M-Theory to Demo Proof-Based AI SOC at Black Hat USA 2026",
@@ -81,7 +90,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Stellar Cyber Names Brite, Inspira and M-Theory as First Infinity Delivery Partners",
@@ -89,7 +99,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Powerful June funding haul drives strong Q2 for RegTech deals",
@@ -97,7 +108,8 @@
       "publisher": "FinTech Global",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

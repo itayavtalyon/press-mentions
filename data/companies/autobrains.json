@@ -1,7 +1,7 @@
 {
   "name": "Autobrains",
   "last_mentioned_at": "2026-09-17T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Autobrains targets autonomous driving’s next hurdle: scaling from city to city",
@@ -9,7 +9,8 @@
       "publisher": "Ynetnews",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Autonomous cars need common sense",
@@ -17,7 +18,8 @@
       "publisher": "calcalistech.com",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "VinFast Just Bet Its Self-Driving Future on Cameras Alone. No LiDAR Safety Net Included",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Autos",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "VinFast's Approach to Building Smarter Mobility",
@@ -33,7 +36,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

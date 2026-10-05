@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "quarter": {
     "from": "2026-07-01T00:00:00.000Z",
     "to": "2026-10-01T00:00:00.000Z"
@@ -33,7 +33,7 @@
       "id": "aeye-health",
       "name": "AEYE Health",
       "last_mentioned_at": "2026-09-09T07:00:00.000Z",
-      "days_since_last_mention": 25,
+      "days_since_last_mention": 26,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -57,7 +57,7 @@
       "id": "airobotics",
       "name": "Airobotics",
       "last_mentioned_at": "2026-09-07T07:00:00.000Z",
-      "days_since_last_mention": 27,
+      "days_since_last_mention": 28,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -85,7 +85,7 @@
       "quarter_counts": {
         "negative": 3,
         "neutral": 9,
-        "positive": 24,
+        "positive": 21,
         "unranked": 0
       }
     },
@@ -105,7 +105,7 @@
       "id": "anodot",
       "name": "Anodot",
       "last_mentioned_at": "2026-07-27T07:00:00.000Z",
-      "days_since_last_mention": 69,
+      "days_since_last_mention": 70,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -119,9 +119,9 @@
       "last_mentioned_at": "2026-10-04T15:00:00.000Z",
       "days_since_last_mention": 0,
       "quarter_counts": {
-        "negative": 24,
-        "neutral": 37,
-        "positive": 76,
+        "negative": 23,
+        "neutral": 30,
+        "positive": 54,
         "unranked": 0
       }
     },
@@ -129,7 +129,7 @@
       "id": "appdome",
       "name": "Appdome",
       "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-      "days_since_last_mention": 55,
+      "days_since_last_mention": 56,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -153,7 +153,7 @@
       "id": "apploi",
       "name": "Apploi",
       "last_mentioned_at": "2026-09-02T07:00:00.000Z",
-      "days_since_last_mention": 32,
+      "days_since_last_mention": 33,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -165,7 +165,7 @@
       "id": "arbe-robotics",
       "name": "Arbe Robotics",
       "last_mentioned_at": "2026-10-03T05:11:20.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 4,
         "neutral": 17,
@@ -212,11 +212,11 @@
     {
       "id": "atlas-obscura",
       "name": "Atlas Obscura",
-      "last_mentioned_at": "2026-09-22T21:15:00.000Z",
-      "days_since_last_mention": 11,
+      "last_mentioned_at": null,
+      "days_since_last_mention": null,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 1,
+        "neutral": 0,
         "positive": 0,
         "unranked": 0
       }
@@ -225,7 +225,7 @@
       "id": "autobrains",
       "name": "Autobrains",
       "last_mentioned_at": "2026-09-17T07:00:00.000Z",
-      "days_since_last_mention": 17,
+      "days_since_last_mention": 18,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -237,7 +237,7 @@
       "id": "ayar-labs",
       "name": "Ayar Labs",
       "last_mentioned_at": "2026-10-03T21:46:26.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 4,
@@ -249,7 +249,7 @@
       "id": "barcode-nanotech",
       "name": "Barcode Nanotech",
       "last_mentioned_at": "2026-07-16T07:00:00.000Z",
-      "days_since_last_mention": 80,
+      "days_since_last_mention": 81,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -285,7 +285,7 @@
       "id": "beyond-meat",
       "name": "Beyond Meat",
       "last_mentioned_at": "2026-10-03T02:25:30.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 38,
         "neutral": 26,
@@ -321,11 +321,11 @@
       "id": "biocatch",
       "name": "BioCatch",
       "last_mentioned_at": "2026-10-04T07:03:03.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 12,
-        "positive": 91,
+        "positive": 85,
         "unranked": 0
       }
     },
@@ -357,7 +357,7 @@
       "id": "biscience",
       "name": "BIScience",
       "last_mentioned_at": "2026-07-02T07:00:00.000Z",
-      "days_since_last_mention": 94,
+      "days_since_last_mention": 95,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -381,7 +381,7 @@
       "id": "bizzabo",
       "name": "Bizzabo",
       "last_mentioned_at": "2026-09-02T07:00:00.000Z",
-      "days_since_last_mention": 32,
+      "days_since_last_mention": 33,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -417,7 +417,7 @@
       "id": "bluenalu",
       "name": "BlueNalu",
       "last_mentioned_at": "2026-09-29T03:11:42.000Z",
-      "days_since_last_mention": 5,
+      "days_since_last_mention": 6,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -441,7 +441,7 @@
       "id": "boatsetter",
       "name": "Boatsetter",
       "last_mentioned_at": "2026-07-16T07:00:00.000Z",
-      "days_since_last_mention": 80,
+      "days_since_last_mention": 81,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -489,7 +489,7 @@
       "id": "c2a-security",
       "name": "C2A Security",
       "last_mentioned_at": "2026-08-18T07:00:00.000Z",
-      "days_since_last_mention": 47,
+      "days_since_last_mention": 48,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -500,20 +500,20 @@
     {
       "id": "cardekho",
       "name": "CarDekho",
-      "last_mentioned_at": "2026-10-04T07:11:01.000Z",
-      "days_since_last_mention": 0,
+      "last_mentioned_at": "2026-07-14T07:00:00.000Z",
+      "days_since_last_mention": 83,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 31,
-        "positive": 7,
-        "unranked": 18
+        "neutral": 0,
+        "positive": 5,
+        "unranked": 0
       }
     },
     {
       "id": "carrar",
       "name": "Carrar",
       "last_mentioned_at": "2026-07-13T07:00:00.000Z",
-      "days_since_last_mention": 83,
+      "days_since_last_mention": 84,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -564,8 +564,8 @@
       "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 22,
-        "neutral": 20,
-        "positive": 98,
+        "neutral": 19,
+        "positive": 88,
         "unranked": 0
       }
     },
@@ -621,7 +621,7 @@
       "id": "connected-energy",
       "name": "Connected Energy",
       "last_mentioned_at": "2026-08-25T07:00:00.000Z",
-      "days_since_last_mention": 40,
+      "days_since_last_mention": 41,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -681,7 +681,7 @@
       "id": "cropx",
       "name": "CropX",
       "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-      "days_since_last_mention": 24,
+      "days_since_last_mention": 25,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -705,11 +705,11 @@
       "id": "cyabra",
       "name": "Cyabra",
       "last_mentioned_at": "2026-10-02T23:17:56.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 1,
-        "neutral": 7,
-        "positive": 26,
+        "neutral": 4,
+        "positive": 24,
         "unranked": 1
       }
     },
@@ -729,7 +729,7 @@
       "id": "cyberx",
       "name": "CyberX",
       "last_mentioned_at": "2026-09-13T07:00:00.000Z",
-      "days_since_last_mention": 21,
+      "days_since_last_mention": 22,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -752,13 +752,13 @@
     {
       "id": "cyfirma",
       "name": "Cyfirma",
-      "last_mentioned_at": "2026-10-01T17:04:48.000Z",
-      "days_since_last_mention": 3,
+      "last_mentioned_at": "2026-08-07T07:00:00.000Z",
+      "days_since_last_mention": 59,
       "quarter_counts": {
         "negative": 1,
-        "neutral": 17,
-        "positive": 5,
-        "unranked": 3
+        "neutral": 1,
+        "positive": 1,
+        "unranked": 0
       }
     },
     {
@@ -800,12 +800,12 @@
     {
       "id": "databricks",
       "name": "Databricks",
-      "last_mentioned_at": "2026-10-02T18:30:55.000Z",
-      "days_since_last_mention": 1,
+      "last_mentioned_at": "2026-10-02T02:23:34.000Z",
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 2,
-        "neutral": 15,
-        "positive": 114,
+        "neutral": 14,
+        "positive": 43,
         "unranked": 0
       }
     },
@@ -837,7 +837,7 @@
       "id": "diagnostic-robotics",
       "name": "Diagnostic Robotics",
       "last_mentioned_at": "2026-07-16T07:00:00.000Z",
-      "days_since_last_mention": 80,
+      "days_since_last_mention": 81,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -849,7 +849,7 @@
       "id": "dreamed-diabetes",
       "name": "DreaMed Diabetes",
       "last_mentioned_at": "2026-09-30T22:50:40.000Z",
-      "days_since_last_mention": 3,
+      "days_since_last_mention": 4,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -897,7 +897,7 @@
       "id": "eko-health",
       "name": "Eko Health",
       "last_mentioned_at": "2026-08-12T07:00:00.000Z",
-      "days_since_last_mention": 53,
+      "days_since_last_mention": 54,
       "quarter_counts": {
         "negative": 1,
         "neutral": 0,
@@ -933,7 +933,7 @@
       "id": "equipmentshare",
       "name": "EquipmentShare",
       "last_mentioned_at": "2026-10-04T06:08:00.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 82,
         "neutral": 23,
@@ -969,7 +969,7 @@
       "id": "firefly-neuroscience",
       "name": "Firefly Neuroscience (formerly ElMindA)",
       "last_mentioned_at": "2026-09-29T20:25:30.000Z",
-      "days_since_last_mention": 4,
+      "days_since_last_mention": 5,
       "quarter_counts": {
         "negative": 0,
         "neutral": 6,
@@ -993,7 +993,7 @@
       "id": "flytrex",
       "name": "Flytrex",
       "last_mentioned_at": "2026-10-01T18:23:29.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 3,
@@ -1020,8 +1020,8 @@
       "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 3,
-        "neutral": 17,
-        "positive": 17,
+        "neutral": 8,
+        "positive": 12,
         "unranked": 0
       }
     },
@@ -1053,7 +1053,7 @@
       "id": "genopore",
       "name": "Genopore",
       "last_mentioned_at": "2026-07-14T07:00:00.000Z",
-      "days_since_last_mention": 82,
+      "days_since_last_mention": 83,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1101,7 +1101,7 @@
       "id": "groq",
       "name": "Groq",
       "last_mentioned_at": "2026-10-03T00:24:17.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 3,
         "neutral": 74,
@@ -1161,12 +1161,12 @@
       "id": "harvey",
       "name": "Harvey",
       "last_mentioned_at": "2026-10-03T07:03:09.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 1,
-        "neutral": 12,
-        "positive": 59,
-        "unranked": 2
+        "neutral": 8,
+        "positive": 46,
+        "unranked": 0
       }
     },
     {
@@ -1185,7 +1185,7 @@
       "id": "honeybook",
       "name": "HoneyBook",
       "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-      "days_since_last_mention": 24,
+      "days_since_last_mention": 25,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1197,7 +1197,7 @@
       "id": "hub-security",
       "name": "Hub Security",
       "last_mentioned_at": "2026-09-25T20:00:00.000Z",
-      "days_since_last_mention": 8,
+      "days_since_last_mention": 9,
       "quarter_counts": {
         "negative": 3,
         "neutral": 2,
@@ -1245,7 +1245,7 @@
       "id": "insidetracker",
       "name": "InsideTracker",
       "last_mentioned_at": "2026-08-17T07:00:00.000Z",
-      "days_since_last_mention": 48,
+      "days_since_last_mention": 49,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1257,7 +1257,7 @@
       "id": "insightec",
       "name": "Insightec",
       "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-      "days_since_last_mention": 24,
+      "days_since_last_mention": 25,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1269,7 +1269,7 @@
       "id": "intuition-robotics",
       "name": "Intuition Robotics",
       "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-      "days_since_last_mention": 24,
+      "days_since_last_mention": 25,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -1317,7 +1317,7 @@
       "id": "island",
       "name": "Island",
       "last_mentioned_at": "2026-10-01T22:30:00.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -1341,7 +1341,7 @@
       "id": "juganu",
       "name": "Juganu",
       "last_mentioned_at": "2026-09-15T07:00:00.000Z",
-      "days_since_last_mention": 19,
+      "days_since_last_mention": 20,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1353,7 +1353,7 @@
       "id": "jump-bikes",
       "name": "JUMP Bikes",
       "last_mentioned_at": "2026-07-08T07:00:00.000Z",
-      "days_since_last_mention": 88,
+      "days_since_last_mention": 89,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1389,7 +1389,7 @@
       "id": "kardome",
       "name": "Kardome",
       "last_mentioned_at": "2026-09-29T18:52:18.000Z",
-      "days_since_last_mention": 4,
+      "days_since_last_mention": 5,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1413,7 +1413,7 @@
       "id": "kenna-security",
       "name": "Kenna Security",
       "last_mentioned_at": "2026-07-21T07:00:00.000Z",
-      "days_since_last_mention": 75,
+      "days_since_last_mention": 76,
       "quarter_counts": {
         "negative": 0,
         "neutral": 3,
@@ -1437,7 +1437,7 @@
       "id": "klook",
       "name": "Klook",
       "last_mentioned_at": "2026-10-03T20:53:48.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 17,
@@ -1473,7 +1473,7 @@
       "id": "lambda",
       "name": "Lambda (lambda.ai)",
       "last_mentioned_at": "2026-10-02T17:17:00.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 7,
@@ -1509,7 +1509,7 @@
       "id": "lemonade",
       "name": "Lemonade",
       "last_mentioned_at": "2026-10-03T19:14:38.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 14,
         "neutral": 22,
@@ -1533,7 +1533,7 @@
       "id": "lightico",
       "name": "Lightico",
       "last_mentioned_at": "2026-07-14T07:00:00.000Z",
-      "days_since_last_mention": 82,
+      "days_since_last_mention": 83,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1545,7 +1545,7 @@
       "id": "liquid-instruments",
       "name": "Liquid Instruments",
       "last_mentioned_at": "2026-09-16T07:00:00.000Z",
-      "days_since_last_mention": 18,
+      "days_since_last_mention": 19,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1557,7 +1557,7 @@
       "id": "locusview",
       "name": "Locusview",
       "last_mentioned_at": "2026-09-19T03:04:13.000Z",
-      "days_since_last_mention": 15,
+      "days_since_last_mention": 16,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1569,7 +1569,7 @@
       "id": "ludeo",
       "name": "Ludeo (formerly Edge)",
       "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-      "days_since_last_mention": 24,
+      "days_since_last_mention": 25,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1593,7 +1593,7 @@
       "id": "maolac",
       "name": "Maolac",
       "last_mentioned_at": "2026-09-19T07:00:00.000Z",
-      "days_since_last_mention": 15,
+      "days_since_last_mention": 16,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1605,7 +1605,7 @@
       "id": "masterclass",
       "name": "MasterClass",
       "last_mentioned_at": "2026-09-20T07:00:00.000Z",
-      "days_since_last_mention": 14,
+      "days_since_last_mention": 15,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1629,7 +1629,7 @@
       "id": "medisafe",
       "name": "Medisafe",
       "last_mentioned_at": "2026-10-01T01:28:00.000Z",
-      "days_since_last_mention": 3,
+      "days_since_last_mention": 4,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -1641,7 +1641,7 @@
       "id": "memed",
       "name": "MeMed",
       "last_mentioned_at": "2026-09-22T18:32:53.000Z",
-      "days_since_last_mention": 11,
+      "days_since_last_mention": 12,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1689,7 +1689,7 @@
       "id": "momentis-surgical",
       "name": "Momentis Surgical (formerly Memic)",
       "last_mentioned_at": "2026-07-23T07:00:00.000Z",
-      "days_since_last_mention": 73,
+      "days_since_last_mention": 74,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1712,20 +1712,20 @@
     {
       "id": "morphisec",
       "name": "Morphisec",
-      "last_mentioned_at": "2026-09-30T13:10:36.000Z",
-      "days_since_last_mention": 4,
+      "last_mentioned_at": "2026-09-03T02:32:02.000Z",
+      "days_since_last_mention": 32,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
-        "positive": 5,
-        "unranked": 1
+        "positive": 1,
+        "unranked": 0
       }
     },
     {
       "id": "mprest",
       "name": "mPrest",
       "last_mentioned_at": "2026-08-11T07:00:00.000Z",
-      "days_since_last_mention": 54,
+      "days_since_last_mention": 55,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1749,7 +1749,7 @@
       "id": "nanomedic",
       "name": "Nanomedic",
       "last_mentioned_at": "2026-07-30T07:00:00.000Z",
-      "days_since_last_mention": 66,
+      "days_since_last_mention": 67,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1773,7 +1773,7 @@
       "id": "near",
       "name": "Near",
       "last_mentioned_at": "2026-08-20T07:00:00.000Z",
-      "days_since_last_mention": 45,
+      "days_since_last_mention": 46,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1809,7 +1809,7 @@
       "id": "neura",
       "name": "Neura",
       "last_mentioned_at": "2026-10-02T18:49:19.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 2,
         "neutral": 6,
@@ -1821,7 +1821,7 @@
       "id": "neureality",
       "name": "NeuReality",
       "last_mentioned_at": "2026-08-03T07:00:00.000Z",
-      "days_since_last_mention": 62,
+      "days_since_last_mention": 63,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1869,7 +1869,7 @@
       "id": "nt-tao",
       "name": "NT-Tao",
       "last_mentioned_at": "2026-09-26T21:17:50.000Z",
-      "days_since_last_mention": 7,
+      "days_since_last_mention": 8,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -1881,7 +1881,7 @@
       "id": "omnix-medical",
       "name": "Omnix Medical",
       "last_mentioned_at": "2026-09-25T21:30:44.000Z",
-      "days_since_last_mention": 8,
+      "days_since_last_mention": 9,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1917,7 +1917,7 @@
       "id": "oneai",
       "name": "OneAI",
       "last_mentioned_at": "2026-09-11T07:00:00.000Z",
-      "days_since_last_mention": 23,
+      "days_since_last_mention": 24,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1977,7 +1977,7 @@
       "id": "oshi",
       "name": "Oshi (formerly Plantish)",
       "last_mentioned_at": "2026-10-01T23:49:09.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -1989,7 +1989,7 @@
       "id": "ossio",
       "name": "Ossio",
       "last_mentioned_at": "2026-07-06T07:00:00.000Z",
-      "days_since_last_mention": 90,
+      "days_since_last_mention": 91,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2013,7 +2013,7 @@
       "id": "parko",
       "name": "Parko",
       "last_mentioned_at": "2026-09-08T07:00:00.000Z",
-      "days_since_last_mention": 26,
+      "days_since_last_mention": 27,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2061,7 +2061,7 @@
       "id": "playsight",
       "name": "PlaySight",
       "last_mentioned_at": "2026-10-02T01:39:57.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2097,7 +2097,7 @@
       "id": "privateer",
       "name": "Privateer",
       "last_mentioned_at": "2026-07-22T07:00:00.000Z",
-      "days_since_last_mention": 74,
+      "days_since_last_mention": 75,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2109,7 +2109,7 @@
       "id": "profuse",
       "name": "ProFuse",
       "last_mentioned_at": "2026-07-02T07:00:00.000Z",
-      "days_since_last_mention": 94,
+      "days_since_last_mention": 95,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2157,7 +2157,7 @@
       "id": "quidnet-energy",
       "name": "Quidnet Energy",
       "last_mentioned_at": "2026-08-26T07:00:00.000Z",
-      "days_since_last_mention": 39,
+      "days_since_last_mention": 40,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2253,11 +2253,11 @@
       "id": "ro",
       "name": "Ro",
       "last_mentioned_at": "2026-10-02T19:26:28.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 2,
         "neutral": 2,
-        "positive": 16,
+        "positive": 15,
         "unranked": 2
       }
     },
@@ -2289,7 +2289,7 @@
       "id": "scale-ai",
       "name": "Scale AI",
       "last_mentioned_at": "2026-10-02T00:09:01.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 5,
@@ -2313,7 +2313,7 @@
       "id": "seetree",
       "name": "SeeTree",
       "last_mentioned_at": "2026-07-14T07:00:00.000Z",
-      "days_since_last_mention": 82,
+      "days_since_last_mention": 83,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2325,7 +2325,7 @@
       "id": "seetrue",
       "name": "SeeTrue",
       "last_mentioned_at": "2026-09-02T07:00:00.000Z",
-      "days_since_last_mention": 32,
+      "days_since_last_mention": 33,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2468,13 +2468,13 @@
     {
       "id": "spacex",
       "name": "SpaceX",
-      "last_mentioned_at": "2026-10-04T13:51:44.000Z",
+      "last_mentioned_at": "2026-10-04T13:50:00.000Z",
       "days_since_last_mention": 0,
       "quarter_counts": {
         "negative": 21,
-        "neutral": 34,
-        "positive": 76,
-        "unranked": 4
+        "neutral": 29,
+        "positive": 68,
+        "unranked": 0
       }
     },
     {
@@ -2505,7 +2505,7 @@
       "id": "ssi",
       "name": "SSI (Safe Superintelligence)",
       "last_mentioned_at": "2026-09-18T07:00:00.000Z",
-      "days_since_last_mention": 16,
+      "days_since_last_mention": 17,
       "quarter_counts": {
         "negative": 1,
         "neutral": 2,
@@ -2529,7 +2529,7 @@
       "id": "stellar-cyber",
       "name": "Stellar Cyber",
       "last_mentioned_at": "2026-10-02T07:00:00.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -2541,7 +2541,7 @@
       "id": "stoke-space",
       "name": "Stoke Space",
       "last_mentioned_at": "2026-10-02T01:07:50.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 14,
@@ -2589,7 +2589,7 @@
       "id": "surgical-theater",
       "name": "Surgical Theater",
       "last_mentioned_at": "2026-07-30T07:00:00.000Z",
-      "days_since_last_mention": 66,
+      "days_since_last_mention": 67,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2601,7 +2601,7 @@
       "id": "sweetch",
       "name": "Sweetch",
       "last_mentioned_at": "2026-07-14T07:00:00.000Z",
-      "days_since_last_mention": 82,
+      "days_since_last_mention": 83,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2625,7 +2625,7 @@
       "id": "tabnine",
       "name": "Tabnine",
       "last_mentioned_at": "2026-10-03T01:01:50.000Z",
-      "days_since_last_mention": 1,
+      "days_since_last_mention": 2,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2637,7 +2637,7 @@
       "id": "tailor-brands",
       "name": "Tailor Brands",
       "last_mentioned_at": "2026-09-07T07:00:00.000Z",
-      "days_since_last_mention": 27,
+      "days_since_last_mention": 28,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2673,7 +2673,7 @@
       "id": "taranis",
       "name": "Taranis",
       "last_mentioned_at": "2026-10-01T18:49:56.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2709,7 +2709,7 @@
       "id": "tevel",
       "name": "Tevel",
       "last_mentioned_at": "2026-09-29T02:03:47.000Z",
-      "days_since_last_mention": 5,
+      "days_since_last_mention": 6,
       "quarter_counts": {
         "negative": 0,
         "neutral": 3,
@@ -2733,7 +2733,7 @@
       "id": "the-every-company",
       "name": "The EVERY Company",
       "last_mentioned_at": "2026-08-21T07:00:00.000Z",
-      "days_since_last_mention": 44,
+      "days_since_last_mention": 45,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2745,7 +2745,7 @@
       "id": "the-trendlines-group",
       "name": "The Trendlines Group",
       "last_mentioned_at": "2026-10-02T05:12:21.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2757,7 +2757,7 @@
       "id": "thetaray",
       "name": "ThetaRay",
       "last_mentioned_at": "2026-10-02T05:01:26.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -2769,7 +2769,7 @@
       "id": "together-ai",
       "name": "Together AI",
       "last_mentioned_at": "2026-10-03T21:31:40.000Z",
-      "days_since_last_mention": 0,
+      "days_since_last_mention": 1,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -2817,11 +2817,11 @@
       "id": "tubitv",
       "name": "TubiTV",
       "last_mentioned_at": "2026-10-02T03:12:56.000Z",
-      "days_since_last_mention": 2,
+      "days_since_last_mention": 3,
       "quarter_counts": {
         "negative": 0,
-        "neutral": 2,
-        "positive": 2,
+        "neutral": 1,
+        "positive": 1,
         "unranked": 0
       }
     },
@@ -2841,7 +2841,7 @@
       "id": "ukko",
       "name": "Ukko",
       "last_mentioned_at": "2026-08-25T07:00:00.000Z",
-      "days_since_last_mention": 40,
+      "days_since_last_mention": 41,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2877,7 +2877,7 @@
       "id": "ursa-major",
       "name": "Ursa Major",
       "last_mentioned_at": "2026-09-16T07:00:00.000Z",
-      "days_since_last_mention": 18,
+      "days_since_last_mention": 19,
       "quarter_counts": {
         "negative": 0,
         "neutral": 3,
@@ -2901,7 +2901,7 @@
       "id": "velotix",
       "name": "Velotix",
       "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-      "days_since_last_mention": 55,
+      "days_since_last_mention": 56,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -2913,7 +2913,7 @@
       "id": "verse-ai",
       "name": "Verse.ai",
       "last_mentioned_at": "2026-08-13T07:00:00.000Z",
-      "days_since_last_mention": 52,
+      "days_since_last_mention": 53,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2949,7 +2949,7 @@
       "id": "wave",
       "name": "Wave",
       "last_mentioned_at": "2026-09-03T07:00:00.000Z",
-      "days_since_last_mention": 31,
+      "days_since_last_mention": 32,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2961,7 +2961,7 @@
       "id": "wayup",
       "name": "Wayup",
       "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-      "days_since_last_mention": 55,
+      "days_since_last_mention": 56,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -2973,7 +2973,7 @@
       "id": "wefox",
       "name": "wefox",
       "last_mentioned_at": "2026-08-06T07:00:00.000Z",
-      "days_since_last_mention": 59,
+      "days_since_last_mention": 60,
       "quarter_counts": {
         "negative": 0,
         "neutral": 0,
@@ -3057,7 +3057,7 @@
       "id": "zebra-medical-vision",
       "name": "Zebra Medical Vision",
       "last_mentioned_at": "2026-10-01T03:35:29.000Z",
-      "days_since_last_mention": 3,
+      "days_since_last_mention": 4,
       "quarter_counts": {
         "negative": 0,
         "neutral": 2,
@@ -3069,7 +3069,7 @@
       "id": "zippin",
       "name": "Zippin",
       "last_mentioned_at": "2026-09-21T07:00:00.000Z",
-      "days_since_last_mention": 13,
+      "days_since_last_mention": 14,
       "quarter_counts": {
         "negative": 0,
         "neutral": 1,
@@ -3081,7 +3081,7 @@
       "id": "zoomcar",
       "name": "Zoomcar",
       "last_mentioned_at": "2026-09-29T18:00:33.000Z",
-      "days_since_last_mention": 4,
+      "days_since_last_mention": 5,
       "quarter_counts": {
         "negative": 0,
         "neutral": 7,

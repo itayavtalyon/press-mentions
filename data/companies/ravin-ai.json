@@ -1,7 +1,7 @@
 {
   "name": "Ravin AI",
   "last_mentioned_at": "2026-09-30T15:57:27.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Clarion Claims brings AI damage capture to Australian motor claims",
@@ -9,7 +9,8 @@
       "publisher": "Insurance Business",
       "published_at": "2026-09-30T15:57:27.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "RAVIN.AI Revenue 2025: $6.4M Est. ARR",
@@ -17,7 +18,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

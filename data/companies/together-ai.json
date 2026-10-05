@@ -1,7 +1,7 @@
 {
   "name": "Together AI",
   "last_mentioned_at": "2026-10-03T21:31:40.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Together AI and HUMAIN Form Strategic Partnership to Accelerate AI Infrastructure and Cloud Services in Saudi Arabia",
@@ -9,7 +9,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "HUMAIN taps AMD, Cisco and Together AI for Saudi Arabia AI infrastructure push",
@@ -17,7 +18,8 @@
       "publisher": "Fierce Network",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IBM stock dips as $240 million AI cloud deal and OpenAI alliance reshape growth story",
@@ -25,7 +27,8 @@
       "publisher": "AD HOC NEWS",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T's data center unit to host Nvidia hardware for Together AI",
@@ -33,7 +36,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "L&T Secures NVIDIA B300 AI Factory Order for India's Largest Cluster",
@@ -41,7 +45,8 @@
       "publisher": "datacenters.economictimes.indiatimes.com",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T’s Vyoma.AI to construct NVIDIA B300 AI Factory in India",
@@ -49,7 +54,8 @@
       "publisher": "World Construction Network",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T partners with Together AI to deploy NVIDIA B300 infrastructure at Chennai AI factory",
@@ -57,7 +63,8 @@
       "publisher": "W.Media",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T bags ‘mega’ AI infra order from Together AI",
@@ -65,7 +72,8 @@
       "publisher": "The Times of India",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T to Build ₹10,000–₹15,000 Crore AI Infrastructure Facility in Tamil Nadu: Where Is the Mega Project Coming Up?",
@@ -73,7 +81,8 @@
       "publisher": "Trade Brains",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T To Build India’s Largest NVIDIA B300 AI Factory For Together AI",
@@ -81,7 +90,8 @@
       "publisher": "Times Now",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Can IBM's Together AI Cloud Deal Boost Its Growth Prospects?",
@@ -89,7 +99,8 @@
       "publisher": "Prime Publishers, Inc.",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM and Together AI sign $240M AI infrastructure deal",
@@ -97,7 +108,8 @@
       "publisher": "Portal ERP",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Larsen & Toubro Secures Mega* Order as part of a strategic partnership with Together AI to build India’s largest NVIDIA B300 AI Factory",
@@ -105,7 +117,8 @@
       "publisher": "Larsen & Toubro",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T’s Big AI Bet: ₹15,000 Cr Order To Build 10,000 NVIDIA-GPU AI Factory",
@@ -113,7 +126,8 @@
       "publisher": "outlookbusiness.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T secures ₹10,000-15,000 cr order for 10,000-GPU NVIDIA B300 AI factory",
@@ -121,7 +135,8 @@
       "publisher": "Fortune India",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T to set up India's largest Nvidia B300 AI factory for Together AI",
@@ -129,7 +144,8 @@
       "publisher": "Business Standard",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T Wins ₹10,000-15,000 Crore Mega Order, To Build NVIDIA’s 10,000-GPU AI Factory In Chennai",
@@ -137,7 +153,8 @@
       "publisher": "Free Press Journal",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "L&T bags Rs 10,000-15,000 crore NVIDIA AI order to build India’s largest AI Factory",
@@ -145,7 +162,8 @@
       "publisher": "financialexpress.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Larsen & Toubro: Secures Mega AI Order for India’s Largest NVIDIA B300 Factory",
@@ -153,7 +171,8 @@
       "publisher": "InvestyWise",
       "published_at": "2026-08-13T06:00:06.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM signs $240m deal with cloud startup Together AI",
@@ -161,7 +180,8 @@
       "publisher": "Tech in Asia",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IBM and Together AI Sign Multi-Year Agreement to Scale Open-Source AI Inference with NVIDIA AI Infrastructure on IBM Cloud",
@@ -169,7 +189,8 @@
       "publisher": "IBM Newsroom",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM Inks $240 Million Neocloud Deal With Together AI, Deploying Nvidia Blackwell for Inference",
@@ -177,7 +198,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM signs $240 million Together AI deal for Nvidia inference cluster",
@@ -185,7 +207,8 @@
       "publisher": "CryptoRank",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Inference Market (and Micro) Structure",
@@ -193,7 +216,8 @@
       "publisher": "galaxy.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM lends Together AI its enterprise street cred in $240M compute deal",
@@ -201,7 +225,8 @@
       "publisher": "Fierce Network",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IBM and Together AI Sign $240 Mn Deal to Build NVIDIA B300 Inference Cluster",
@@ -209,7 +234,8 @@
       "publisher": "analyticsindiamag.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Together AI embraces the competition with $240M IBM Cloud deal",
@@ -217,7 +243,8 @@
       "publisher": "The Register",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IBM and Together AI Put $240M Into a Dedicated HGX B300 Inference Cluster on IBM Cloud",
@@ -225,7 +252,8 @@
       "publisher": "StorageReview.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Together AI raises $800 million at an $8.3 billion valuation as enterprises abandon closed AI models",
@@ -233,7 +261,8 @@
       "publisher": "Startup Fortune",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "IREN Lifts AI Cloud Revenue Target to Over USD 4 Billion",
@@ -241,7 +270,8 @@
       "publisher": "datacenters.economictimes.indiatimes.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI Compute Demand Outpaces IREN’s 480MW Build as $2.8B Contracts Close",
@@ -249,7 +279,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Peking University Alumnus-Founded AI Unicorn Emerges With 58.1 Billion Valuation",
@@ -257,7 +288,8 @@
       "publisher": "eu.36kr.com",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Together AI raises $800M at $8.3 billion valuation",
@@ -265,7 +297,8 @@
       "publisher": "bignewsnetwork.com",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Together AI raises $800 million Series C at $8.3 billion valuation",
@@ -273,7 +306,8 @@
       "publisher": "qz.com",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Together AI raises $800 million at $8.3 billion valuation led by Aramco",
@@ -281,7 +315,8 @@
       "publisher": "jawlah.co",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Aramco leads $800m series C in Together AI",
@@ -289,7 +324,8 @@
       "publisher": "Tech in Asia",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Together AI Raises $800M At $8.3B Valuation to Scale Cheaper Open-Source Models",
@@ -297,7 +333,8 @@
       "publisher": "ventureburn.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Together AI raises $800m in Series C funding round",
@@ -305,7 +342,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Together AI raises 800 million dollars in Series C led by Aramco Ventures",
@@ -313,7 +351,8 @@
       "publisher": "thenextweb.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "As Companies Race for Cheaper A.I. Options, This Start-Up Pitches a Solution",
@@ -321,7 +360,8 @@
       "publisher": "nytimes.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Together AI Raises $800 Million Series C At $8.3 Billion Valuation",
@@ -329,7 +369,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Together AI Raises $800M at $8.3B Valuation",
@@ -337,7 +378,8 @@
       "publisher": "Briefs Finance",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
@@ -345,7 +387,8 @@
       "publisher": "TechCrunch",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

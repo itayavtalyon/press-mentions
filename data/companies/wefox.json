@@ -1,7 +1,7 @@
 {
   "name": "wefox",
   "last_mentioned_at": "2026-08-06T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "wefox Names Sebastian Schimurda as Switzerland Country Lead",
@@ -9,7 +9,8 @@
       "publisher": "FintechNews CH",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

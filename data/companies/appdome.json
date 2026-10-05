@@ -1,7 +1,7 @@
 {
   "name": "Appdome",
   "last_mentioned_at": "2026-08-10T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Appdome Revenue 2025: $17.7M Est. ARR",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Appdome Introduces Appdome Test™ to Validate Every Protected Mobile App Release Against Real-World Deployments",
@@ -17,7 +18,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

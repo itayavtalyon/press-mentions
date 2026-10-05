@@ -6,31 +6,32 @@
 
 ## The three goals
 
-| Goal                                                                                      | Where it lives                                                                                                                 |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Quarterly dashboard**: each mention positive / negative / neutral, linked to its source | `npm start`, then open http://127.0.0.1:3000. The index tallies every company; each company page lists its mentions with links |
-| **Mention status**: "last mentioned 3 days ago / no coverage"                             | The index's _Last mentioned_ column, the company page header, and `data/summary.json`                                          |
-| **Daily alert** when new coverage appears                                                 | `job:feed` → … → `job:digest` → `job:mail`, from the crontab below. This snapshot has not sent one                             |
+| Goal                                                                                      | Where it lives                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Quarterly dashboard**: each mention positive / negative / neutral, linked to its source | `npm start`, then open http://127.0.0.1:3000. The index tallies every company with a tone bar; each company page charts the quarter week by week and lists its mentions with links |
+| **Mention status**: "last mentioned 3 days ago / no coverage"                             | The index's _Last mentioned_ column, the company page header, and `data/summary.json`                                                                                              |
+| **Daily alert** when new coverage appears                                                 | `job:feed` → … → `job:digest` → `job:mail`, from the crontab below. The 4 Oct run sent 45 digests                                                                                  |
 
 ## The real run (as of 2026-10-04)
 
-| Q3 2026 (1 Jul – 30 Sep, UTC) |                                                                                                                      |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Companies tracked             | 258. 154 with Q3 coverage, 104 with none found                                                                       |
-| Mentions shown                | **3,058**: 1,946 positive · 759 neutral · 313 negative · 40 unranked                                                 |
-| Filtered out by the LLM       | 1,539 namesakes and passing references across all collected links (_Astra_ the rocket company vs. every other Astra) |
-| Daily run, 4 Oct              | 510 new links → 304 mentions (191 filtered out) → **45 digests sent**                                                |
-| Last mentioned                | 83 companies within a week · 34 in 8–30 days · 37 earlier                                                            |
+| Q3 2026 (1 Jul – 30 Sep, UTC) |                                                                                                                                     |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Companies tracked             | 258. 153 with Q3 coverage, 105 with none found                                                                                      |
+| Mentions shown                | **3,058** listed. **2,798** counted: 1,794 positive · 680 neutral · 312 negative · 12 unranked                                      |
+| Company's own site            | 260 posts from 15 companies' own sites (Databricks 72, CarDekho 51, Anthropic 30, …): listed with a _Company site_ tag, not counted |
+| Filtered out by the LLM       | 1,539 namesakes and passing references across all collected links (_Astra_ the rocket company vs. every other Astra)                |
+| Daily run, 4 Oct              | 510 new links → 304 mentions (191 filtered out) → **45 digests sent**                                                               |
+| Last mentioned (5 Oct)        | 79 companies within a week · 34 in 8–30 days · 40 earlier                                                                           |
 
 The output of this run is in [`data/`](data/), so you can review it without Ollama or Google:
 
 - [`data/summary.json`](data/summary.json): every company's last mention, days since that mention at `as_of`, and Q3 counts
-- [`data/companies/<id>.json`](data/companies/): that company's Q3 mentions, with title, link, publisher, date, and verdict
-- [`data/alerts.json`](data/alerts.json): the alert outbox. It is `[]`. The forward feed has stored 510 articles and none of them have a verdict, so no digest has been sent
+- [`data/companies/<id>.json`](data/companies/): that company's Q3 mentions, with title, link, publisher, date, verdict, and whether the company published it itself (`own_site`)
+- [`data/alerts.json`](data/alerts.json): the alert outbox, 45 digests sent on 4 Oct, with addresses redacted
 - [`data/sqlite/`](data/sqlite/): compacted copies of the three databases, including article text and raw model replies. Addresses in the alerts copy are `redacted@example.com`. Browse that snapshot with `COVERAGE_DB=data/sqlite/coverage.sqlite ALERTS_DB=data/sqlite/alerts.sqlite npm start`
 - [`data/README.md`](data/README.md): BriefCam, Eko Health, Lemonade, and 3d Signals, opened up
 
-This snapshot is not the whole pipeline. 640 articles are still at `fetch` (the lock names pid 99800, which is not running) and 2 are at `extract`. `alert_eligible` is 0 on every link.
+This snapshot is not the whole pipeline. 117 articles are still at `fetch`, waiting on publishers that kept throttling. The next run retries them.
 
 ## How it works
 
@@ -113,20 +114,26 @@ The full first run took a few hours, well under a day, on an M1 with 32 GB.
 
 ## The dashboard
 
-| Negative coverage surfaces first                                  | Disambiguated company, mixed tone                     |
-| ----------------------------------------------------------------- | ----------------------------------------------------- |
-| ![BriefCam company page](docs/shots/sample-briefcam.png)          | ![Eko Health company page](docs/shots/sample-eko.png) |
-| **Email alerts per company**                                      | **Mobile, dark**                                      |
-| ![Subscribe dialog](docs/shots/company-dialog--desktop-light.png) | ![Mobile dark](docs/shots/index--mobile-dark.png)     |
+| The quarter, week by week                                                       | Tone at a glance on the index                                                          |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ![Lemonade company page with weekly tone chart](docs/shots/sample-lemonade.png) | ![Index in dark mode with a tone bar per company](docs/shots/sample-index-dark.png)    |
+| **A company's own posts are labeled, not counted**                              | **Self-promotion removed from the chart**                                              |
+| ![Harvey mentions with a Company site tag](docs/shots/sample-company-site.png)  | ![Databricks chart with its own blog posts left out](docs/shots/sample-databricks.png) |
+| **Negative coverage surfaces first**                                            | **Disambiguated company, mixed tone**                                                  |
+| ![BriefCam company page](docs/shots/sample-briefcam.png)                        | ![Eko Health company page](docs/shots/sample-eko.png)                                  |
+| **Email alerts per company**                                                    | **Mobile, dark**                                                                       |
+| ![Subscribe dialog](docs/shots/company-dialog--desktop-light.png)               | ![Harvey on mobile in dark mode](docs/shots/sample-harvey-mobile-dark.png)             |
 
 - **Server-rendered and works without JavaScript.** Script only adds the name filter and the dialog.
 - **The default view is the last complete quarter.** _This quarter_ and a custom date range are one click away. You can filter by verdict, and every mention notes whether the verdict was made from the full text or only the headline.
-- **Accessibility:** WCAG 2.2 AA with 0 axe violations on 13 pages, light and dark, at desktop and mobile widths. It is also checked for contrast, for keyboard and VoiceOver use, with forced colors, and for no sideways scrolling at 320 px ([results](docs/RUNBOOK.md#dashboard-ui-checks)). The index, BriefCam, and Eko shots above are this export. The subscribe dialog and the mobile shot are from the 2 Oct accessibility pass, before classification.
+- **Charts follow the filters.** The index bar is each company's share of rated tone; the company chart stacks counted mentions per week. Both are inline SVG with the counts beside them as text, so they need no script and add nothing a screen reader misses.
+- **A company's own site doesn't count as press.** Posts on its own domain (or the overlay's `website`) are listed with a _Company site_ tag and left out of the tallies, the charts, and "last mentioned".
+- **Accessibility:** WCAG 2.2 AA with 0 axe violations on 13 pages, light and dark, at desktop and mobile widths. It is also checked for contrast, for keyboard and VoiceOver use, with forced colors, and for no sideways scrolling at 320 px ([results](docs/RUNBOOK.md#dashboard-ui-checks)). Every shot above is this export, captured on 5 Oct.
 
 ## Engineering
 
 - **Robustness:** each step resumes after a crash, and a row that fails 3 times is parked rather than retried forever. Google 429s get backoff, and each publisher host has its own rate limit. Alert writes are transactional and idempotent.
-- **Quality gates in CI:** ESLint (strict, including security rules), Prettier, `tsc` over JSDoc types, **799 Vitest tests at 100 % coverage**, knip, a duplication check, and `npm audit`. The tests never touch the network ([ADR 0009](docs/adr/0009-tests-without-network.md)).
+- **Quality gates in CI:** ESLint (strict, including security rules), Prettier, `tsc` over JSDoc types, **824 Vitest tests at 100 % coverage**, knip, a duplication check, and `npm audit`. The tests never touch the network ([ADR 0009](docs/adr/0009-tests-without-network.md)).
 - **Decisions are written down:** 9 ADRs in [`docs/adr/`](docs/adr/), with [the architecture](docs/ARCHITECTURE.md) and [the runbook](docs/RUNBOOK.md) beside them.
 
 ```

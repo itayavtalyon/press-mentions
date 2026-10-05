@@ -1,7 +1,7 @@
 {
   "name": "ZutaCore",
   "last_mentioned_at": "2026-09-30T14:04:28.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "ZutaCore partners with Options Technology to offer liquid cooling to financial services",
@@ -9,7 +9,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-09-30T14:04:28.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Options Technology Partners with ZutaCore to Bring Waterless, Two-Phase Liquid Cooling to Financial Services Infrastructure",
@@ -17,7 +18,8 @@
       "publisher": "The Joplin Globe",
       "published_at": "2026-09-23T11:15:07.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Options Technology Partners with ZutaCore to Bring Waterless, Two-Phase Liquid Cooling to Financial Services Infrastructure",
@@ -25,7 +27,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Options Adds ZutaCore Waterless Cooling to Trading Stack",
@@ -33,7 +36,8 @@
       "publisher": "FinanceFeeds",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review",
@@ -41,7 +45,8 @@
       "publisher": "ServeTheHome",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

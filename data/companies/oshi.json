@@ -1,7 +1,7 @@
 {
   "name": "Oshi (formerly Plantish)",
   "last_mentioned_at": "2026-10-01T23:49:09.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Seafood Without the Suffering: Try These Great Vegan Products",
@@ -9,7 +9,8 @@
       "publisher": "People for the Ethical Treatment of Animals (PETA)",
       "published_at": "2026-09-19T15:37:24.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Future Food Quick Bites: Alpro x McDonald’s, Leon Shiitake Burger & Vegan Hospitality",
@@ -17,7 +18,8 @@
       "publisher": "Green Queen Media",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Oshi and Harmony Baby Nutrition Win Top Honors at SuperCrowd26 Live Pitch",
@@ -25,7 +27,8 @@
       "publisher": "USA Today",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Mountain Dew Ice Cream, Protein Mac and Cheese, and Vegan Seafood in Times Square: This Week’s Top Plant-Based News",
@@ -33,7 +36,8 @@
       "publisher": "VegNews.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Oshi: “Every Fillet of Ours on a Plate Is a Fish Left in the Ocean”",
@@ -41,7 +45,8 @@
       "publisher": "vegconomist.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Oshi Puts Plant-Based Salmon on a Times Square Billboard",
@@ -49,7 +54,8 @@
       "publisher": "vegconomist.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

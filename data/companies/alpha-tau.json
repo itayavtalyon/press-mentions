@@ -1,7 +1,7 @@
 {
   "name": "Alpha Tau",
   "last_mentioned_at": "2026-09-30T08:54:48.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Alpha Tau Medical stock completes 48 patient trial enrollment",
@@ -9,7 +9,8 @@
       "publisher": "AD HOC NEWS",
       "published_at": "2026-09-30T08:54:48.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical (DRTS) Looks Pricey After Early Alpha DaRT Trial Results",
@@ -17,7 +18,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-09-29T15:15:04.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical stock reports a USD 45.8 million Q2 loss",
@@ -25,7 +27,8 @@
       "publisher": "AD HOC NEWS",
       "published_at": "2026-09-29T09:58:15.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical Ltd. Warrant (DRTSW) Live Share Price, Invest From India",
@@ -33,7 +36,8 @@
       "publisher": "INDmoney",
       "published_at": "2026-09-26T03:16:05.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Clinical Trial Progress Might Change The Case For Investing In Alpha Tau Medical (DRTS)",
@@ -41,7 +45,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-09-25T16:32:49.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical stock trades at USD 15.30",
@@ -49,7 +54,8 @@
       "publisher": "AD HOC NEWS",
       "published_at": "2026-09-23T08:21:27.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical (DRTS) Reports Early Trial Progress, Is The Premium Already Priced In?",
@@ -57,7 +63,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-09-22T05:01:07.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical stock holds steady as investors await next results",
@@ -65,7 +72,8 @@
       "publisher": "AD HOC NEWS",
       "published_at": "2026-09-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical Ltd stock hits 52-week high at 15.2 USD",
@@ -73,7 +81,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Oramed Pharmaceuticals: Hold Reiterated As Alpha Tau Investment Delivers And More (ORMP)",
@@ -81,7 +90,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau shows breakthrough results in GBM tre...",
@@ -89,7 +99,8 @@
       "publisher": "Pluang",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau: Approaching Massive Year-End; Pounding The Table On Potential GBM Breakthrough",
@@ -97,7 +108,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau to Participate in September Investor Conferences",
@@ -105,7 +117,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "H.C. Wainwright reiterates Alpha Tau Medical stock rating on trial enrollment",
@@ -113,7 +126,8 @@
       "publisher": "Investing.com Canada",
       "published_at": "2026-09-01T12:12:20.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Completes Patient Enrollment in its Multicenter IMPACT Pancreatic Cancer Pilot Study of Alpha DaRT® Following Strong Demand and Multiple Expansions",
@@ -121,7 +135,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical stock hits 52-week high at 14.79 USD",
@@ -129,7 +144,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-08-21T13:46:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical (DRTS) Insider Trading Activity 2026 $DRTS",
@@ -137,7 +153,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hadassah hospital performs first-ever experimental treatment for brain cancer",
@@ -145,7 +162,8 @@
       "publisher": "The Jerusalem Post",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ISRAELI FIRST: Hadassah Surgeons Treat Patient With Recurrent Glioblastoma Using Innovative Radiation Therapy",
@@ -153,7 +171,8 @@
       "publisher": "Hadassah | The Women's Zionist Organization of America",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "H.C. Wainwright raises Alpha Tau Medical stock price target to $16",
@@ -161,7 +180,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical (DRTS) Clinical Progress Tests Whether The Stock Already Looks Fully Valued",
@@ -169,7 +189,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical stock hits 52-week high at 14.12 USD",
@@ -177,7 +198,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Registers for Dual Listing on the Tel Aviv Stock Exchange (TASE)",
@@ -185,7 +207,8 @@
       "publisher": "Alpha Tau Medical",
       "published_at": "2026-08-10T21:52:36.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Alpha Tau Announces Second Quarter 2026 Financial Results and Provides Corporate Update",
@@ -193,7 +216,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical Registers for Dual Listing on Tel Aviv Stock Exchange",
@@ -201,7 +225,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Medical (DRTS) Is Down 5.7% After Early-Stop Success In Alpha DaRT Combo Trial",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Washington Supreme Court upholds ruling holding WSU liable in freshman hazing death",
@@ -217,7 +243,8 @@
       "publisher": "KING5.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "H.C. Wainwright reiterates Alpha Tau Medical stock rating at buy",
@@ -225,7 +252,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha DaRT Plus Pembrolizumab Hits 100% Response Rate in HNSCC",
@@ -233,7 +261,8 @@
       "publisher": "Targeted Oncology",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha DaRT Plus Pembrolizumab Yields 100% ORR in Older Patients With Recurrent or Metastatic HNSCC",
@@ -241,7 +270,8 @@
       "publisher": "OncLive",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Reports Positive Data Demonstrating 100% Objective Response Rate and 18.2-Month Median Overall Survival with Alpha DaRT® in Combination with Pembrolizumab in Locally Advanced or Metastatic Head and Neck Cancer, Surpassing the Stud",
@@ -249,7 +279,8 @@
       "publisher": "Alpha Tau Medical",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Alpha Tau reports positive trial results for cancer therapy combo",
@@ -257,7 +288,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "H.C. Wainwright reiterates Alpha Tau Medical stock rating on immunocompromised patient treatment",
@@ -265,7 +297,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Alpha Tau Successfully Treats First Immunocompromised Patient with Recurrent Cutaneous Squamous Cell Carcinoma in its ADMIRE Study at Banner MD Anderson Cancer Center",
@@ -273,7 +306,8 @@
       "publisher": "Alpha Tau Medical",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Alpha Tau Medical: Alpha Particles Are Still Interesting, But Beware The Hype (NASDAQ:DRTS)",
@@ -281,7 +315,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Insider Sell: Raphi Levy Sells Shares of Alpha Tau Medical Ltd (DRTS)",
@@ -289,7 +324,8 @@
       "publisher": "GuruFocus",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

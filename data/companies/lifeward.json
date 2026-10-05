@@ -1,7 +1,7 @@
 {
   "name": "Lifeward (formerly known as ReWalk)",
   "last_mentioned_at": "2026-10-01T14:18:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Lifeward Ltd. SEC Filing (Sep 25, 2026)",
@@ -9,7 +9,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-25T20:48:30.000Z",
       "verdict": "unranked",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Peer-Reviewed Study of Lifeward’s ReWalk® Exoskeleton Reports Significant Improvements in Daily Activity Performance, Satisfaction, and Pain",
@@ -17,7 +18,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Publishes Updated Investor Presentation Highlighting Commercial Growth Strategy",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LFWD Q2 2026 Earnings: Wider-than-Expected Loss of -$1.46 Per Share Signals Ongoing Cost Pressures - Final Results",
@@ -33,7 +36,8 @@
       "publisher": "careplusvn.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lifeward Names Josh Hexter As Interim CEO And Rami Aviram As CFO",
@@ -41,7 +45,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Announces Major CEO and CFO Leadership Changes",
@@ -49,7 +54,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Appoints Josh Hexter Interim Chief Executive Officer and Rami Aviram Chief Financial Officer",
@@ -57,7 +63,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Names Josh Hexter as Interim CEO and Rami Aviram as CFO",
@@ -65,7 +72,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward: Q2 Earnings Snapshot",
@@ -73,7 +81,8 @@
       "publisher": "kare11.com",
       "published_at": "2026-08-14T13:33:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lifeward Reports Strong Second Quarter 2026 Financial Results as Commercial Execution Drives Growth",
@@ -81,7 +90,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward (LFWD) Reports Q2 Loss, Misses Revenue Estimates",
@@ -89,7 +99,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Form 8K Lifeward Ltd. For: 14 August By Investing.com",
@@ -97,7 +108,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lifeward Revenue Rises 16% to $6.6 Million in Second Quarter 2026 | LFWD Stock News",
@@ -105,7 +117,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Ltd. 2026: Revenue $6.62M, Net income ($11.52M), EPS ($4.12) — 10-Q Summary",
@@ -113,7 +126,8 @@
       "publisher": "TradingView",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Earnings To Watch: Lifeward Ltd (LFWD) Q2 2026 -- GF Value Sees 185% Upside",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Out With Q2 Numbers",
@@ -129,7 +144,8 @@
       "publisher": "Baystreet.ca",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lifeward Secures Growth Capital to Accelerate Commercial Expansion with Up to $11.2 Million in Strategic Financing",
@@ -137,7 +153,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

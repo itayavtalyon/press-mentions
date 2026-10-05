@@ -1,7 +1,7 @@
 {
   "name": "OneAI",
   "last_mentioned_at": "2026-09-11T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Bangladesh Telecom Companies Offering AI Services | AI opens new revenue stream for telcos",
@@ -9,7 +9,8 @@
       "publisher": "The Daily Star",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Grameenphone brings ChatGPT, Gemini, Claude and Grok to MyGP",
@@ -17,7 +18,8 @@
       "publisher": "The Business Standard",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "RHA OneAI Announces Four Strategic Enterprise Client Wins in First Fully Operational Quarter",
@@ -25,7 +27,8 @@
       "publisher": "ANI News",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "RHA OneAI announces four enterprise client wins in first fully operational quarter",
@@ -33,7 +36,8 @@
       "publisher": "Adgully.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

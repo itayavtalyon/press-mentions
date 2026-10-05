@@ -420,3 +420,22 @@ Logs are less important then sending an email so this is fine
 /Users/itay/Downloads/OC FullStack Dev Task 2026.pdf
 I want to make sure that we have made everything that we were supposed to do for this assignment. Be critical. I also want to add extra things so it will be easier to understand what is going on and get a sample of things without having to run everything locally.
 ```
+
+## 2026-10-05 — Sentiment charts and the company-site tag
+
+```text
+Let's add some improvements to the UI. What about a graph in the company list next to each row giving a quick glance of the sentiments?
+In the company view also a graph in the first box, showing the sentiment distribution. All per the the timeline.
+
+Also, when the source is the company's own website, how about we add a chip denoting that?
+
+Grill me, and show me some options please
+```
+
+Answers to the grill: proportion bar on the index; weekly columns with the tone counts as legend on the company page; own-site mentions get the chip and are excluded from the charts, tallies, last mentioned, and the index verdict filter, but stay inline in their verdict section; detection by domain rule plus an overlay `website`; unranked in the company columns but not the index bar.
+
+## 2026-10-05 — Export flag and refresh
+
+```text
+add the export flag, then commit. Refresh and include more screenshots
+```

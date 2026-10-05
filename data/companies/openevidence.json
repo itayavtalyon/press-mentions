@@ -1,7 +1,7 @@
 {
   "name": "OpenEvidence",
   "last_mentioned_at": "2026-10-02T08:38:12.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "The ‘ChatGPT for Doctors’ Is Now Worth $15 Billion. Healthcare AI Has Entered a Different League.",
@@ -9,7 +9,8 @@
       "publisher": "distilledpost.com",
       "published_at": "2026-09-30T09:41:48.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Deepens Clinical Content Through Sage Research Partnership",
@@ -17,7 +18,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-30T00:07:30.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Sage and OpenEvidence Partner to Bring Peer-Reviewed Research to Clinicians at the Point of Care",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-29T14:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence partners with Anthropic, Penn Medicine to expand physician access to AI across Africa and Asia",
@@ -33,7 +36,8 @@
       "publisher": "Fierce Healthcare",
       "published_at": "2026-09-28T17:50:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "‘ChatGPT for Doctors’ OpenEvidence Raises $250M, Quietly Pivots Into Drug Development",
@@ -41,7 +45,8 @@
       "publisher": "Wowtale",
       "published_at": "2026-09-27T23:30:18.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nelson Advisors: OpenEvidence secures $250 Million alternative financing round led by Andreessen Horowitz and Byers Capital at $15 Billion valuation",
@@ -49,7 +54,8 @@
       "publisher": "healthcare.digital",
       "published_at": "2026-09-25T16:37:05.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence reportedly raises $250M at $15B valuation",
@@ -57,7 +63,8 @@
       "publisher": "Axios",
       "published_at": "2026-09-25T13:38:17.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence raises $250 million, hits $15B valuation amid healthcare AI interest",
@@ -65,7 +72,8 @@
       "publisher": "NewsBytes",
       "published_at": "2026-09-25T11:58:55.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What is OpenEvidence, the ‘ChatGPT for doctors’ valued at $15 billion in a new funding round?",
@@ -73,7 +81,8 @@
       "publisher": "Livemint",
       "published_at": "2026-09-25T11:26:14.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence hits $15B valuation as its ambitions move far beyond medical search",
@@ -81,7 +90,8 @@
       "publisher": "Refresh Miami",
       "published_at": "2026-09-25T10:43:20.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence v. Doximity: Consequences Will Follow",
@@ -89,7 +99,8 @@
       "publisher": "Health API Guy",
       "published_at": "2026-09-25T09:03:38.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EXCLUSIVE: Anthropic, OpenEvidence partner to bring medical AI worldwide",
@@ -97,7 +108,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-24T21:33:52.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The 'ChatGPT for doctors,' OpenEvidence, was valued at $15 billion in a new funding round",
@@ -105,7 +117,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-09-24T17:35:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic partners with OpenEvidence to deliver medical AI to 100 countries",
@@ -113,7 +126,8 @@
       "publisher": "Crypto Briefing",
       "published_at": "2026-09-24T17:11:27.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic, OpenEvidence bring free AI medical tool to 100 nations | Tap to know more | Inshorts",
@@ -121,7 +135,8 @@
       "publisher": "Inshorts",
       "published_at": "2026-09-24T16:27:14.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Update: Market Chatter: Anthropic, OpenEvidence Team Up to Expand Medical AI Globally",
@@ -129,7 +144,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-24T09:20:02.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic and OpenEvidence bring free medical AI to about 100 countries",
@@ -137,7 +153,8 @@
       "publisher": "CryptoRank",
       "published_at": "2026-09-24T09:04:35.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence raises $250M at $15B, pivots into drug development",
@@ -145,7 +162,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-09-24T05:24:46.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence’s Quiet Raise and Loud Pivot",
@@ -153,7 +171,8 @@
       "publisher": "Digital Health Wire",
       "published_at": "2026-09-24T05:08:08.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Update: Market Chatter: Anthropic, OpenEvidence Team Up to Expand Medical AI Globally",
@@ -161,7 +180,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-23T15:45:27.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic and OpenEvidence bring free medical AI to about 100 countries",
@@ -169,7 +189,8 @@
       "publisher": "Cryptopolitan",
       "published_at": "2026-09-23T15:00:39.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic and OpenEvidence Team to Expand Reach of Medical AI",
@@ -177,7 +198,8 @@
       "publisher": "PYMNTS.com",
       "published_at": "2026-09-23T10:50:53.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic, OpenEvidence Take Medical AI to 100 Countries",
@@ -185,7 +207,8 @@
       "publisher": "Digital Health News",
       "published_at": "2026-09-23T10:01:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Anthropic, OpenEvidence Partner to Bring AI-Powered Medical Support Worldwide",
@@ -193,7 +216,8 @@
       "publisher": "CXO Digitalpulse",
       "published_at": "2026-09-23T07:28:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic partners with OpenEvidence to offer free AI diagnosis in 100 countries - CHOSUNBIZ",
@@ -201,7 +225,8 @@
       "publisher": "Chosunbiz",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Market Chatter: Anthropic, OpenEvidence Team Up to Expand Medical AI Globally",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic, OpenEvidence Expand Clinical AI Globally: WHO Warns of Ethics Risks",
@@ -217,7 +243,8 @@
       "publisher": "Health and Me",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic's latest move will help doctors in low income countries",
@@ -225,7 +252,8 @@
       "publisher": "NewsBytes",
       "published_at": "2026-09-23T06:40:49.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic to Bring Medical AI to About 100 Countries in Partnership Supporting Physicians in Low- and Middle-Income Nations",
@@ -233,7 +261,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-09-23T06:25:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic & OpenEvidence bring AI medical support to 100 countries | Tap to know more | Inshorts",
@@ -241,7 +270,8 @@
       "publisher": "Inshorts",
       "published_at": "2026-09-23T05:36:06.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Anthropic to Provide Free AI Medical Assistants to Underserved Nations",
@@ -249,7 +279,8 @@
       "publisher": "news.sbs.co.kr",
       "published_at": "2026-09-23T02:16:48.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "University of Texas Medical Branch (UTMB) Collaborates with OpenEvidence to Integrate AI Platform Directly Into Clinical Workflows",
@@ -257,7 +288,8 @@
       "publisher": "Rutland Herald",
       "published_at": "2026-09-22T14:00:18.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "University of Texas Medical Branch (UTMB) Collaborates with OpenEvidence to Integrate AI Platform Directly Into Clinical Workflows",
@@ -265,7 +297,8 @@
       "publisher": "The Joplin Globe",
       "published_at": "2026-09-22T14:00:18.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "UTMB Embeds OpenEvidence AI Inside Its Electronic Health Record",
@@ -273,7 +306,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A Premier Cancer Hospital Makes Its Data Available To Doctors Nationwide Through OpenEvidence",
@@ -281,7 +315,8 @@
       "publisher": "Forbes",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "MSK and OpenEvidence Announce Two-Way Oncology AI Integration",
@@ -289,7 +324,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "(MSK) and OpenEvidence Partner to Advance Precision Oncology at the Point of Care | Memorial Sloan Kettering Cancer Center",
@@ -297,7 +333,8 @@
       "publisher": "mskcc.org",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence and Penn Medicine Partner to Advance Medical Intelligence for Global Health",
@@ -305,7 +342,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence and Penn Medicine Launch Global Clinical AI Partnership",
@@ -313,7 +351,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence and MINC#NIMC Partner to Ensure Free Access for Canadian Physicians to Leading Medical AI Platform",
@@ -321,7 +360,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Adds MINC Verification for Free Physician Access in Canada",
@@ -329,7 +369,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why healthcare services struggle to count the cost and success of AI",
@@ -337,7 +378,8 @@
       "publisher": "The Business Times",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence launches 4 medical AI models",
@@ -345,7 +387,8 @@
       "publisher": "TechTarget",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Expands Oncology AI With Precision Knowledge Base, Launches New Model Family",
@@ -353,7 +396,8 @@
       "publisher": "Digital Health News",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence launches new family of AI models",
@@ -361,7 +405,8 @@
       "publisher": "STAT",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Introducing the OpenEvidence Model Family",
@@ -369,7 +414,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Introducing the OpenEvidence Model Family",
@@ -377,7 +423,8 @@
       "publisher": "itemonline.com",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Revenue 2025: $50M ARR, $6B Valuation",
@@ -385,7 +432,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How OpenEvidence Is Helping Doctors",
@@ -393,7 +441,8 @@
       "publisher": "USA Today",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Daniel Nadler: The 100 Most Influential People in AI 2026",
@@ -401,7 +450,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "American Medical Society for Sports Medicine and OpenEvidence Announce Partnership to Bring AI-Powered Sports Medicine Resources to Clinicians and Patients",
@@ -409,7 +459,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The AI Investor Betting on the Future of Work",
@@ -417,7 +468,8 @@
       "publisher": "ELYSIAN Magazine",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "What happens when medical students rely on AI – and never develop their own judgment?",
@@ -425,7 +477,8 @@
       "publisher": "The Guardian",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "When AI Recommends Treatment, Should Drug Ads Appear?",
@@ -433,7 +486,8 @@
       "publisher": "Medscape",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OneOncology Partners With OpenEvidence to Give Physicians Access Within Clinical Workflows",
@@ -441,7 +495,8 @@
       "publisher": "AJMC",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OneOncology and OpenEvidence Partner to Improve Cancer Care Nationwide",
@@ -449,7 +504,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "New Partnership Helps Physicians in LA County Access Local Public Health Guidance Through AI Platform",
@@ -457,7 +513,8 @@
       "publisher": "ColoradoBoulevard.net",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Springer Nature and OpenEvidence Announce Agreement to Maximise Exposure of Trusted Findings On OpenEvidence Platform",
@@ -465,7 +522,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "A new medical AI study found the same flaw in OpenEvidence, OpenAI, Anthropic, and Doximity",
@@ -473,7 +531,8 @@
       "publisher": "fortune.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why benchmarking clinical LLMs from OpenEvidence, Doximity is complicated",
@@ -481,7 +540,8 @@
       "publisher": "STAT",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Clinical chatbots are taking medicine by storm. Should doctors trust them?",
@@ -489,7 +549,8 @@
       "publisher": "STAT",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Launches New Education Platform Offering Continuing Education (CE) and Maintenance of Certification (MOC) Credit",
@@ -497,7 +558,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence eyes $200M raise at $20B valuation, up from $12B",
@@ -505,7 +567,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-20T18:58:16.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Physicians Choose OpenEvidence Over Every Other AI Chatbot Combined in Independent Stanford-Harvard Study of Clinical AI",
@@ -513,7 +576,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Reportedly Seeks $200M Funding at $20B Valuation Amid Rapid AI Healthcare Growth",
@@ -521,7 +585,8 @@
       "publisher": "Digital Health News",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence reaches $300m revenue run rate, Bank of America says",
@@ -529,7 +594,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Medical AI Startup OpenEvidence Weighs $200 Million Funding Round",
@@ -537,7 +603,8 @@
       "publisher": "PYMNTS.com",
       "published_at": "2026-07-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Receives $20 Billion Investment Offer",
@@ -545,7 +612,8 @@
       "publisher": "ababnews.com",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Boston Children’s Hospital and OpenEvidence Collaborate to Advance AI-Powered Analysis of Clinical Practice Patterns",
@@ -553,7 +621,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence, Boston Children's partner to study AI's impact on clinical care",
@@ -561,7 +630,8 @@
       "publisher": "MobiHealthNews",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "American Academy of Pediatrics and OpenEvidence Announce Collaboration to Improve Pediatric Care",
@@ -569,7 +639,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Doximity Outranks OpenEvidence, Frontier Models in Independent Stanford-Harvard Study of Clinical AI Safety",
@@ -577,7 +648,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Launches EvidenceGrade to Bring Real-Time Source Quality Grading to Clinical AI",
@@ -585,7 +657,8 @@
       "publisher": "HIT Consultant",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI and Drug Information: Where OpenEvidence Stands Out—and Where Pharmacists Still Win",
@@ -593,7 +666,8 @@
       "publisher": "Pharmacy Times",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence Launches EvidenceGrade™, Empowering Physicians To See the Strength of Cited Evidence Beneath Each AI Answer",
@@ -601,7 +675,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence expands clinical AI tools across NYC medical centers",
@@ -609,7 +684,8 @@
       "publisher": "MobiHealthNews",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence adds real-time evidence quality grading to AI",
@@ -617,7 +693,8 @@
       "publisher": "TechTarget",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence backs study that finds it beats LLMs",
@@ -625,7 +702,8 @@
       "publisher": "STAT",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenEvidence and NewYork-Presbyterian, Columbia University and Weill Cornell Medicine Expand Clinical AI Tools Across New York City and Westchester",
@@ -633,7 +711,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence takes aim at the quality of AI-generated evidence",
@@ -641,7 +720,8 @@
       "publisher": "Fierce Healthcare",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "OpenEvidence, Anticoagulation Forum Partner to Expand Access to AI-Enabled Guidance in Antithrombotic Care",
@@ -649,7 +729,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Best Cited Medical Answer Engines in 2026: Vera Health vs OpenEvidence vs Consensus",
@@ -657,7 +738,8 @@
       "publisher": "Vera Health",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The war between OpenAI, Gemini, ChatGPT, for the most accurate responses, and the deeper question about the meaning of medicine",
@@ -665,7 +747,8 @@
       "publisher": "drvinayprasad.com",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

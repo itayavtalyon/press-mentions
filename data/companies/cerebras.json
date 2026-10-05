@@ -1,7 +1,7 @@
 {
   "name": "Cerebras",
   "last_mentioned_at": "2026-10-04T09:15:49.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Cerebras Stock Falls Again Because So Much Depends on OpenAI",
@@ -9,7 +9,8 @@
       "publisher": "Barron's",
       "published_at": "2026-09-30T18:13:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "How AlphaSense Uses Fast Inference for Agentic Research",
@@ -17,7 +18,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-09-30T16:13:38.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Stock Falls as 19.4 Million-Share Unlock Hits",
@@ -25,7 +27,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-09-30T14:28:34.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras stock slides as Nvidia reportedly powers OpenAI’s ’Ultrafast’ tier",
@@ -33,7 +36,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-09-30T13:55:12.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems: Benchmark Numbers Do Not Make This A Winner (NASDAQ:CBRS)",
@@ -41,7 +45,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-29T15:55:28.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "BigBear.ai vs. Cerebras Systems: Which Technology Stock Is a Better Buy in 2026?",
@@ -49,7 +54,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-29T01:21:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras will supply 100 megawatts worth of AI chips to cloud startup Gimlet Labs",
@@ -57,7 +63,8 @@
       "publisher": "qz.com",
       "published_at": "2026-09-28T18:26:59.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras",
@@ -65,7 +72,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-09-28T15:34:41.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Systems, Gimlet Labs Team Up on High-Speed AI Inference Platform",
@@ -73,7 +81,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-28T14:39:24.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras to Supply AI Computing Systems to Gimlet Labs",
@@ -81,7 +90,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-28T14:00:58.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Prediction: Cerebras' Revenue Will More Than Double in 2027",
@@ -89,7 +99,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-26T09:38:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras vs. SoundHound: Which AI Tech Stock Is a Better Buy in 2026?",
@@ -97,7 +108,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-24T21:30:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems vs. Rigetti Computing: Is an AI or Quantum Computing Stock the Better Buy in 2026?",
@@ -105,7 +117,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-23T16:27:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems vs. Nebius Group N.V.: Which AI Hardware Stock Is a Better Buy in 2026?",
@@ -113,7 +126,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-23T15:57:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why Cerebras Systems (CBRS) Stock Is Up Today",
@@ -121,7 +135,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras's Stock Has Been a Post-IPO Bust. Its Comeback Hinges on This New Chip.",
@@ -129,7 +144,8 @@
       "publisher": "moomoo.com",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Shares Are Coming Out of Lockup in Waves. Here's the Date That Matters Most.",
@@ -137,7 +153,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras’s CEO and CTO Just Sold $200 Million, Here’s What They Might Know",
@@ -145,7 +162,8 @@
       "publisher": "TIKR.com",
       "published_at": "2026-09-20T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras (CBRS) Plants A 165 MW Flag In Finland While Still Losing Money",
@@ -153,7 +171,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Co-Founder And Others Talk About AI Hardware",
@@ -161,7 +180,8 @@
       "publisher": "Forbes",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nearly 500,000 Cerebras Systems (CBRS) shares reshuffled in director’s non-cash move",
@@ -169,7 +189,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-17T20:17:02.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Drops 19% in 3 Months: Buy, Sell or Hold the Stock?",
@@ -177,7 +198,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Inc. (NASDAQ:CBRS) Receives Consensus Rating of \"Moderate Buy\" from Analysts",
@@ -185,7 +207,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Has Been Cut in Half. It Still Costs About 145 Times Next Year's Estimated Earnings.",
@@ -193,7 +216,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems vs. CoreWeave: Choosing the Better Artificial Intelligence Stock for 2026",
@@ -201,7 +225,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Stock Looks Fairly Valued After Its 42% Fall",
@@ -209,7 +234,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "BigBear.ai vs. Cerebras Systems: What Quarterly Revenue Trends for These Artificial Intelligence Companies Tell Investors",
@@ -217,7 +243,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras posts $238M profit while IonQ’s quantum revenue grows 287%",
@@ -225,7 +252,8 @@
       "publisher": "Martin Cid Magazine",
       "published_at": "2026-09-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems vs. IonQ: Which Tech Stock Is a Better Buy in 2026?",
@@ -233,7 +261,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) director adds 44,507 shares in non-cash move",
@@ -241,7 +270,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "CBRS Price Today: Cerebras Systems Inc. Stock Price, Quote & Chart | MEXC",
@@ -249,7 +279,8 @@
       "publisher": "MEXC",
       "published_at": "2026-09-09T18:09:30.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock: The Inference Bottleneck Winner (NASDAQ:CBRS)",
@@ -257,7 +288,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Is Under Pressure, But Cathie Wood Bets $17.2 Million On It",
@@ -265,7 +297,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Stock (CBRS) Opinions on Wafer-Scale AI Technology and Partnerships",
@@ -273,7 +306,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) director offloads 50,000 shares through family trust",
@@ -281,7 +315,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Andrew Feldman Sells 37,441 Shares of Cerebras Systems (NASDAQ:CBRS) Stock",
@@ -289,7 +324,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems: AI Infrastructure Buildout Will Sustain The Strong Momentum",
@@ -297,7 +333,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Has a $25.4 Billion Backlog, and One OpenAI Agreement Is Behind Much of It",
@@ -305,7 +342,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Has a $25.4 Billion Backlog, and One OpenAI Agreement Is Behind Much of It",
@@ -313,7 +351,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems CBRS Slides As Wall Street Stays Bullish",
@@ -321,7 +360,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why Anthropic May Let Early Investors Sell Shares, Unlike SpaceX and Cerebras",
@@ -329,7 +369,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Jumps 12% as Finland Capacity Tests a $51 Billion Valuation",
@@ -337,7 +378,8 @@
       "publisher": "TechStock²",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Coatue Opened Positions in Intel and Cerebras. Is the AI Chip Trade Broadening Beyond NVIDIA?",
@@ -345,7 +387,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras May Have Already Bottomed: Chart of the Day",
@@ -353,7 +396,8 @@
       "publisher": "Barron's",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "What Does Cerebras Systems (CBRS) CS 4 Launch Mean For Its AI Push?",
@@ -361,7 +405,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Stock Shows Massive OpenAI Backlog And European Expansion Plans",
@@ -369,7 +414,8 @@
       "publisher": "TIKR.com",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Stock Looks Fairly Valued With Book Value Steady And Growth Risk Unclear",
@@ -377,7 +423,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras and Compute Nordic Finland Announce New 165 MW AI Data Centre in Mikkeli, Finland",
@@ -385,7 +432,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras and Compute Nordic Finland Announce New 165 MW AI Data Centre in Mikkeli, Finland",
@@ -393,7 +441,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cathie Wood Just Bought $17 Million of Cerebras Stock. Wall Street Sees 59% Upside.",
@@ -401,7 +450,8 @@
       "publisher": "Barchart.com",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The Biggest Risk To Cerebras Systems Stock Is Sitting Inside Its Backlog",
@@ -409,7 +459,8 @@
       "publisher": "Trefis",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CBRS' Global Expansion Boosts Growth Prospects Against NVDA & MSFT",
@@ -417,7 +468,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras vs. SpaceX: Which 2026 IPO Is the Better AI Stock to Own for the Next 5 Years?",
@@ -425,7 +477,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Can Cerebras Systems (CBRS) Justify Its Valuation After ARK Bought More Shares?",
@@ -433,7 +486,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026",
@@ -441,7 +495,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras shares plummet 16% after results fail to impress investors",
@@ -449,7 +504,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras System’s Choppy Year Continues But a Wall Street Pro Forecasts 80% Returns Moving Forward",
@@ -457,7 +513,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras slumps as mixed quarterly results test AI growth narrative",
@@ -465,7 +522,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Revenue Surges: Why Did CBRS Stock Crash, and What About AMD?",
@@ -473,7 +531,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras (CBRS) Doubled Core Revenue. Why Did GAAP Hardware Sales Fall 23%?",
@@ -481,7 +540,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras says latest offering is 'fastest AI accelerator in the industry' as it takes aim at Nvidia",
@@ -489,7 +549,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cathie Wood Buys Cerebras After Its 29% Slide",
@@ -497,7 +558,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock in Focus After New AI Chip Claims 30x Faster Inference Than GPUs",
@@ -505,7 +567,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Looks Like a Buy Due to an OpenAI Relationship and Surging Revenue",
@@ -513,7 +576,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Positioned for Robust Growth on Manufacturing Expansion and Swelling RPO",
@@ -521,7 +585,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Introducing Cerebras CS-4: The Fastest AI Just Got Faster",
@@ -529,7 +594,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras's Next Generation CS-4: Fast Just Got Faster",
@@ -537,7 +603,8 @@
       "publisher": "SemiAnalysis",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras launches new server chip and system designed to speed AI chatbots",
@@ -545,7 +612,8 @@
       "publisher": "Reuters",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Powers 14x Faster Ultrafast AI Inference",
@@ -553,7 +621,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
@@ -561,7 +630,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Tumbles After the AI Chip Designer’s Second Earnings Report Since Its IPO",
@@ -569,7 +639,8 @@
       "publisher": "Investopedia",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Accelerating GPT-5.6 Sol Ultrafast",
@@ -577,7 +648,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Systems CEO Andrew Feldman on Q2 earnings: ‘We are pretty proud of the results’",
@@ -585,7 +657,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why Cerebras Systems Stock Just Sank",
@@ -593,7 +666,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras stock plunges 14% after second earnings report following IPO",
@@ -601,7 +675,8 @@
       "publisher": "CNBC",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Gets a Boost. Wedbush Sees More Upside Ahead of Earnings",
@@ -609,7 +684,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Q2 Earnings Preview: What To Expect From Upcoming Report",
@@ -617,7 +693,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras sees bullish views at Wedbush ahead of earnings, Supernova event",
@@ -625,7 +702,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ahead of Cerebras Earnings, Here's What Barchart Data Says Comes Next for CBRS Stock",
@@ -633,7 +711,8 @@
       "publisher": "Barchart.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "What Makes Cerebras Systems (CBRS) a Bullish Bet?",
@@ -641,7 +720,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Partners With Lovable, Is The Stock Still A Bargain?",
@@ -649,7 +729,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zacks Investment Ideas feature highlights: Palantir, SpaceX, Cerebras and NVIDIA",
@@ -657,7 +738,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Long-Term View: Delivery Speed Is The Next Frontier Of AI (NASDAQ:CBRS)",
@@ -665,7 +747,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Q2 Earnings Loom: Buy or Sell CBRS Stock Ahead of Results?",
@@ -673,7 +756,8 @@
       "publisher": "TradingView",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Dear Cerebras Stock Fans, Mark Your Calendars for August 12",
@@ -681,7 +765,8 @@
       "publisher": "Barchart.com",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lovable and Cerebras Partner on Fast AI Inference",
@@ -689,7 +774,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Announces 6 New AI Datacenters Across North America and Europe",
@@ -697,7 +783,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems: A Leading AI Semiconductor Company",
@@ -705,7 +792,8 @@
       "publisher": "Zacks Investment Research",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cathie Wood Bought Cerebras Systems Stock the Same Week the AI Chip Startup's Shares Fell More Than 58% From Their First-Day IPO Pop",
@@ -713,7 +801,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CleanCore Solutions signs on Cerebras under 10-year colocation agreement",
@@ -721,7 +810,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (NASDAQ:CBRS) Shares Up 14.7% - Still a Buy?",
@@ -729,7 +819,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Kaplan Fox Reminds Investors of Cerebras Systems Inc. (NASDAQ: CBRS) of an Ongoing Investigation Into Potential Securities Law Violations",
@@ -737,7 +828,8 @@
       "publisher": "FinancialContent",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Jim Cramer Just Dumped Tech Stocks. He’s Loading Up on Intel Instead of Cerebras.",
@@ -745,7 +837,8 @@
       "publisher": "24/7 Wall St.",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Disaggregated AI inference pairs AMD Helios with Cerebras for maximum throughput and minimum latency",
@@ -753,7 +846,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CleanCore signs $800M data center deal with Cerebras",
@@ -761,7 +855,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "CleanCore Solutions, Inc. (NYSE AMERICAN: ZONE) Signs AI Colocation Services Agreement with Cerebras Systems (NASDAQ: CBRS) for a Data Center Campus in Minnesota",
@@ -769,7 +864,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Mizuho Securities Maintains Cerebras Systems(CBRS.US) With Buy Rating, Maintains Target Price $310",
@@ -777,7 +873,8 @@
       "publisher": "moomoo.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras",
@@ -785,7 +882,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Can AMD Partnership Strengthen Cerebras' AI Infrastructure Leadership?",
@@ -793,7 +891,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "CBRS Stock Alert: What to Know as Cerebras Teams Up With AMD",
@@ -801,7 +900,8 @@
       "publisher": "Barchart.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Can AMD Partnership Strengthen Cerebras' AI Infrastructure Leadership?",
@@ -809,7 +909,8 @@
       "publisher": "Zacks Investment Research",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AMD and Cerebras join forces on AI inference",
@@ -817,7 +918,8 @@
       "publisher": "Axios",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras stock gains on AMD partnership",
@@ -825,7 +927,8 @@
       "publisher": "CNBC",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AMD takes a shot at Nvidia by betting on AI's next big shift",
@@ -833,7 +936,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AMD and Cerebras Announce Disaggregated AI Inference",
@@ -841,7 +945,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Is Cerebras Systems (CBRS) Trading At A Discount On Its Manufacturing Expansion?",
@@ -849,7 +954,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why is Cerebras Systems stock surging today?",
@@ -857,7 +963,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Stock Jumps As Flex Deal Supercharges AI Capacity",
@@ -865,7 +972,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (NASDAQ:CBRS) Stock Price Up 17.9% - Still a Buy?",
@@ -873,7 +981,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (NASDAQ:CBRS) Trading Up 2.3% - Here's What Happened",
@@ -881,7 +990,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Inside Cerebras Knowledge: how Cerebras built its enterprise knowledge base",
@@ -889,7 +999,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-18T11:35:41.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Flex (FLEX) Could Be 26% Below Fair Value Following Cerebras Manufacturing Expansion",
@@ -897,7 +1008,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Is Winning The Inference Race, Yet I’m Still Not Buying (NASDAQ:CBRS)",
@@ -905,7 +1017,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia vs. AMD vs. Cerebras: Which Is the Best AI Inference Stock to Buy Today?",
@@ -913,7 +1026,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Shares Climb 5% After Key Trading Signal",
@@ -921,7 +1035,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Nvidia vs Cerebras: Which Is the Better Discount AI Buy Now?",
@@ -929,7 +1044,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras (CBRS) Makes a Massive Bet on Europe’s AI Boom",
@@ -937,7 +1053,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras CEO Andrew Feldman Says Elon Musk Found a ‘Pretty Good Idea’ in Leasing SpaceXAI’s Unused Grok Capacity to Anthropic",
@@ -945,7 +1062,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras and Upstage Bring Ultra-Fast AI to South Korea",
@@ -953,7 +1071,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Systems Stock Jumps 9% After Unveiling Major European Data Center Expansion",
@@ -961,7 +1080,8 @@
       "publisher": "TIKR.com",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flex and Cerebras Expand Partnership to Scale American Manufacturing of Cerebras AI Supercomputers",
@@ -969,7 +1089,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Hiring Engineers for an AI-Native World",
@@ -977,7 +1098,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Why Cerebras Stock Is Skyrocketing Today",
@@ -985,7 +1107,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Stock Gets Fair Value Trim As Analysts Weigh AI Deals And Risks",
@@ -993,7 +1116,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras to deploy 200MW of compute in Europe by end of 2027",
@@ -1001,7 +1125,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia",
@@ -1009,7 +1134,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems positions inference speed as the defining edge in AI infrastructure",
@@ -1017,7 +1143,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Gemma 4 on Cerebras: Fast Multimodal AI",
@@ -1025,7 +1152,8 @@
       "publisher": "Cerebras",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Cerebras Stock: Wafer-Scale AI Offers Big Potential, Big Risks?",
@@ -1033,7 +1161,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras: The Technology Is Real, But So Are The Risks (NASDAQ:CBRS)",
@@ -1041,7 +1170,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Is Cerebras Systems (CBRS) Undervalued After Q1 2026 Earnings And A Sharp Pullback?",
@@ -1049,7 +1179,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Drops 19% in a Month: Buy, Sell or Hold the CBRS Stock?",
@@ -1057,7 +1188,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock (CBRS) Opinions on Binance Stock Token Listing",
@@ -1065,7 +1197,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Jim Cramer on Cerebras Systems: “I Warned You to Stay Away From This One”",
@@ -1073,7 +1206,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Is Up 11% Since Its IPO. Is It a Buy?",
@@ -1081,7 +1215,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Stock Is Up 11% Since Its IPO. Is It a Buy?",
@@ -1089,7 +1224,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Is Cerebras Systems (CBRS) Better Than SpaceX and SanDisk?",
@@ -1097,7 +1233,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems Slides as Investors Weigh Margin Pressure and Fresh Insider Sales | CBRS Stock News",
@@ -1105,7 +1242,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Here’s What the Street Thinks About Cerebras Systems (CBRS)",
@@ -1113,7 +1251,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Cerebras Systems (CBRS) Reports Strong Growth Following Multi-Year OpenAI Partnership",
@@ -1121,7 +1260,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Cyfirma",
-  "last_mentioned_at": "2026-10-01T17:04:48.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "last_mentioned_at": "2026-08-07T07:00:00.000Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Indonesia Weekly Cyber Threat Newsletter : 14 Sep – 20 Sep 2026",
@@ -9,7 +9,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-09-30T03:48:26.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 25 Sep 2026",
@@ -17,7 +18,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-09-28T05:18:33.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 11 Sep 2026",
@@ -25,7 +27,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-09-10T17:34:14.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 04 Sep 2026",
@@ -33,7 +36,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-09-04T04:42:54.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 14 Aug 2026",
@@ -41,7 +45,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 7 Aug 2026",
@@ -49,7 +54,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "DeCYFIR Discovers Threats From The Dark Web, Provides Real-Time Insights",
@@ -57,7 +63,8 @@
       "publisher": "Cybercrime Magazine",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Indonesia Weekly Cyber Threat Newsletter : 19-25 July 2026",
@@ -65,7 +72,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "The Rise of AI-Powered Cyber Warfare: Understanding the Nation-State Threat Landscape",
@@ -73,7 +81,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 31 Jul 2026",
@@ -81,7 +90,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Frontier AI and Cyber Warfare: How Nation States Are Weaponizing AI",
@@ -89,7 +99,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Indonesia Weekly Cyber Threat Newsletter : 12-18 July 2026",
@@ -97,7 +108,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 24 Jul 2026",
@@ -105,7 +117,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Indonesia Weekly Cyber Threat Newsletter : 05-11 July 2026",
@@ -113,7 +126,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CYBER THREAT LANDSCAPE UK & IRELAND",
@@ -121,7 +135,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 17 Jul 2026",
@@ -129,7 +144,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "AAIE: HOW ARTIFICIAL INTELLIGENCE IS RESHAPING THE THEFT OF TRADE SECRETS, MODELS, AND ACCESS",
@@ -137,7 +153,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CYFIRMA warns nation-state actors are increasing attacks on manufacturing OT and ICS environments",
@@ -145,7 +162,8 @@
       "publisher": "Industrial Cyber",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Cyber Threats During FIFA – 2026",
@@ -153,7 +171,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CYFIRMA Announces Strategic Partnership with RAH Infotech to Advance Preemptive Cybersecurity Across India",
@@ -161,7 +180,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CYFIRMA: Custom malware, initial access brokers and RaaS drive decentralized, resilient ransomware ecosystem",
@@ -169,7 +189,8 @@
       "publisher": "Industrial Cyber",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Indonesian Banking Sector Threat Landscape",
@@ -177,7 +198,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "TRACKING RANSOMWARE : JUN 2026",
@@ -185,7 +207,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "CYFIRMA INDUSTRY REPORT – MANUFACTURING",
@@ -193,7 +216,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Weekly Intelligence Report – 03 Jul 2026",
@@ -201,7 +225,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "AI-Powered Bot Attacks Against E-Commerce in India",
@@ -209,7 +234,8 @@
       "publisher": "Cyfirma",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

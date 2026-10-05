@@ -1,7 +1,7 @@
 {
   "name": "Harvey",
   "last_mentioned_at": "2026-10-03T07:03:09.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Agentic Regulatory Horizon Scanning for Lawyers",
@@ -9,7 +9,8 @@
       "publisher": "Harvey",
       "published_at": "2026-09-30T18:56:52.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Beyond Harvey: The AI solutions changing how lawyers draft, review and answer the phone",
@@ -17,7 +18,8 @@
       "publisher": "sociable.co",
       "published_at": "2026-09-29T14:13:08.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey gives lawyers the tools to turn more agreements into reality, faster",
@@ -25,7 +27,8 @@
       "publisher": "Roastbrief US",
       "published_at": "2026-09-28T19:20:24.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey Launches Its First Ever TV Commercials",
@@ -33,7 +36,8 @@
       "publisher": "Artificial Lawyer",
       "published_at": "2026-09-28T13:25:20.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Rules of Privilege Still Apply When Lawyers use AI",
@@ -41,7 +45,8 @@
       "publisher": "Harvey",
       "published_at": "2026-09-25T14:55:30.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Strengthens Legal-Tech Position Through Role in Innovative Lawyers Awards",
@@ -49,7 +54,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Maple Eight fund invests $50 million in legal AI firm Harvey",
@@ -57,7 +63,8 @@
       "publisher": "Benefits and Pensions Monitor",
       "published_at": "2026-09-24T15:30:31.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Teachers' Venture Growth invests in Harvey, the leading AI legal platform",
@@ -65,7 +72,8 @@
       "publisher": "otpp.com",
       "published_at": "2026-09-24T13:05:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ontario Teachers' Pension Plan invests US$50 million in AI firm Harvey",
@@ -73,7 +81,8 @@
       "publisher": "CP24",
       "published_at": "2026-09-24T13:03:20.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey AI Integrates Custom Agents Directly into Microsoft Word",
@@ -81,7 +90,8 @@
       "publisher": "blockchain.news",
       "published_at": "2026-09-24T10:59:46.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Teachers invests $50-million in legal AI firm Harvey as competition heats up with LLM giants",
@@ -89,7 +99,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-09-24T10:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Munck Wilson Mandala Turns Technical Depth Into Legal Leverage",
@@ -97,7 +108,8 @@
       "publisher": "Harvey",
       "published_at": "2026-09-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Momentum Over Perfection: How Hengeler Mueller Brought AI to Every Lawyer in Six Weeks",
@@ -105,7 +117,8 @@
       "publisher": "Harvey",
       "published_at": "2026-09-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Legal AI Co. Harvey Launches Pro Bono Program",
@@ -113,7 +126,8 @@
       "publisher": "Law360",
       "published_at": "2026-09-22T20:02:46.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "QUICK SPARK: Legal AI Startup Harvey Hires Chief Research Officer From Microsoft",
@@ -121,7 +135,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-09-16T19:29:22.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "How to Evaluate Legal AI Providers Across Trust, Privacy, and Security",
@@ -129,7 +144,8 @@
       "publisher": "Harvey",
       "published_at": "2026-09-14T13:45:08.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Secures $550M at $15.5B Valuation for Legal AI Expansion",
@@ -137,7 +153,8 @@
       "publisher": "blockchain.news",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey Raises $550 Million at $15.6 Billion Valuation as Legal AI Demand Surges",
@@ -145,7 +162,8 @@
       "publisher": "citybiz",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round",
@@ -153,7 +171,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Legal AI startup Harvey reaches $15.5 billion valuation in new funding round",
@@ -161,7 +180,8 @@
       "publisher": "Reuters",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Harvey Closes $550M for Legal AI Model That Keeps Client Documents in Firm Control",
@@ -169,7 +189,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI firm Harvey raises $550M, hits $15.5B valuation",
@@ -177,7 +198,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-09-09T03:32:52.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fox Mandal & Associates adopts Harvey",
@@ -185,7 +207,8 @@
       "publisher": "barandbench.com",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "My AI firm will liberate lawyers, not take their jobs",
@@ -193,7 +216,8 @@
       "publisher": "The Times",
       "published_at": "2026-09-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Winston Weinberg: The 100 Most Influential People in AI 2026",
@@ -201,7 +225,8 @@
       "publisher": "Time Magazine",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "With Four New Legal AI Partnerships and Integrations, Everlaw Establishes Itself as the Evidence Layer for Litigation and Investigations",
@@ -209,7 +234,8 @@
       "publisher": "FinancialContent",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey Tenet Research Preview",
@@ -217,7 +243,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "DeepL strikes deal with US legal AI startup Harvey",
@@ -225,7 +252,8 @@
       "publisher": "Tech.eu",
       "published_at": "2026-08-19T12:02:52.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey taps DeepL to power legal-grade AI translation for global law firms and legal teams",
@@ -233,7 +261,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI has officially Entered Silly Money Territory",
@@ -241,7 +270,8 @@
       "publisher": "LawFuel.com",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Introducing Harvey II",
@@ -249,7 +279,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey's first LLM for legal work is here",
@@ -257,7 +288,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Next Gen ‘Harvey II’ Launches with Memory at Its Core",
@@ -265,7 +297,8 @@
       "publisher": "Artificial Lawyer",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legaltech giant Harvey launches next-generation AI platform",
@@ -273,7 +306,8 @@
       "publisher": "The Global Legal Post",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Harvey Unveils Context-Aware Legal AI Upgrade and Specialized Model",
@@ -281,7 +315,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Legora Seeks $10bn-Plus as Harvey Eyes $15bn",
@@ -289,7 +324,8 @@
       "publisher": "Lawyer Monthly",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI Arms Race: Legora Eyes $10B, Harvey Nears $15.5B in One Month",
@@ -297,7 +333,8 @@
       "publisher": "Tech Times",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey targets $15.5B valuation in $500M raise as revenue nears $350M",
@@ -305,7 +342,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-08-12T16:56:43.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "How Harvey built a legal-AI research lab on a budget",
@@ -313,7 +351,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-08-12T07:14:13.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "A Smarter Inbox Built for Legal Work: The New Harvey for Outlook",
@@ -321,7 +360,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Expands Legal AI Capabilities With Enhanced Outlook Integration",
@@ -329,7 +369,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Chinese LLM takes top spot in Harvey Lab-AA legal AI benchmark",
@@ -337,7 +378,8 @@
       "publisher": "Global Times",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Blank Rome Uses Harvey Legal AI | Customers",
@@ -345,7 +387,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-09T11:10:53.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How to Turn AI Adoption Into Firmwide Transformation",
@@ -353,7 +396,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey raises at a $15.5bn valuation",
@@ -361,7 +405,8 @@
       "publisher": "thenextweb.com",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI startup Harvey reportedly raising $500M at $15.5B valuation",
@@ -369,7 +414,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey Targets $15.5 Billion Valuation as Revenue Surges Past $350 Million",
@@ -377,7 +423,8 @@
       "publisher": "PYMNTS.com",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Ultimate Guide to Landing a Job at Harvey",
@@ -385,7 +432,8 @@
       "publisher": "Harvey",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey adopted by Microsoft legal team as collaboration deepens",
@@ -393,7 +441,8 @@
       "publisher": "Lawyers Weekly",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Next Legal AI Boom Might Involve IP And Patent Tools",
@@ -401,7 +450,8 @@
       "publisher": "Law360",
       "published_at": "2026-07-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The First Certified AI Agents in Legal: Harvey Achieves AIUC-1",
@@ -409,7 +459,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Legal AI Unicorn Harvey Lands Major Backing from Goldman Sachs and JP Morgan",
@@ -417,7 +468,8 @@
       "publisher": "LawFuel.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Top Harvey AI Use Cases for Law Firms and In-House Teams",
@@ -425,7 +477,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-29T17:34:13.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Top AI Tools for Patent Analysis: Four Categories, One Map",
@@ -433,7 +486,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Scales Legal AI Document Processing by 26x in One Year",
@@ -441,7 +495,8 @@
       "publisher": "blockchain.news",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI for Legal Brief and Motion Writing: Faster Drafts, Stronger Arguments",
@@ -449,7 +504,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Expands Collaboration with Microsoft on Legal AI",
@@ -457,7 +513,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey Deepens Microsoft Relationship",
@@ -465,7 +522,8 @@
       "publisher": "Artificial Lawyer",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "OpenAI Is Trying to Conquer the Office. Legal Is Next.",
@@ -473,7 +531,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Who is Not Using Harvey or Legora, and Why?",
@@ -481,7 +540,8 @@
       "publisher": "Law.com",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey extends across full deal process with Benchmark acquisition",
@@ -489,7 +549,8 @@
       "publisher": "Lawyers Weekly",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey acquires US investment firm-focused AI platform Benchmark",
@@ -497,7 +558,8 @@
       "publisher": "The Global Legal Post",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Legal AI Firm Harvey Expands Into Investment Workflows With Benchmark Acquisition",
@@ -505,7 +567,8 @@
       "publisher": "citybiz",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey buys Benchmark in third deal in 7 months, pushing deeper into Wall Street",
@@ -513,7 +576,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-07-17T13:12:35.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The Working Guide to AI for Attorneys",
@@ -521,7 +585,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Harvey has made its third acquisition in 7 months — and it signals where it's going next",
@@ -529,7 +594,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Should law firms share AI tools with their clients and peers?",
@@ -537,7 +603,8 @@
       "publisher": "ABA Journal",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey and Lumio Partner to Help Law Firms Measure AI's Economic Impact",
@@ -545,7 +612,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Elon Musk: Grok 4.5 Tops Harvey LAB's Legal Rankings",
@@ -553,7 +621,8 @@
       "publisher": "logos-pres.md",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Niche AI Legal Tools Gain Ground At Law Firms",
@@ -561,7 +630,8 @@
       "publisher": "Law360",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey Increases Token Use 14X in Just 6 Months",
@@ -569,7 +639,8 @@
       "publisher": "Artificial Lawyer",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Harvey’s Aussie head on 3 key shifts coming in FY26–27",
@@ -577,7 +648,8 @@
       "publisher": "Lawyers Weekly",
       "published_at": "2026-07-08T05:34:59.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding",
@@ -585,7 +657,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "How Pierson Ferdinand Uses Harvey Legal AI | Customers",
@@ -593,7 +666,8 @@
       "publisher": "Harvey",
       "published_at": "2026-07-01T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

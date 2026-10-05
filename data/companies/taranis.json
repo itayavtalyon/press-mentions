@@ -1,7 +1,7 @@
 {
   "name": "Taranis",
   "last_mentioned_at": "2026-10-01T18:49:56.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Why Did Taranis Resources Inc. (TSXV:TRO) Surge 16.67% on 10 September 2026?",
@@ -9,7 +9,8 @@
       "publisher": "kalkine.ca",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "$2bn Carrier-Neutral Data Centers Project Advances with First 50MW AI Campus in Saudi Arabia",
@@ -17,7 +18,8 @@
       "publisher": "Construction Review",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Taranis Donates More Than 1,000 Pairs of Shoes to Help Long Beach Children Start the School Year with Confidence",
@@ -25,7 +27,8 @@
       "publisher": "USA Today",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Taranis Identifies a Hydrothermally Altered, Sulfide-Bearing Intrusive Stock Associated with Historic Gold-Silver Occurrence and Connected to Thor",
@@ -33,7 +36,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "TARANIS Debuts Official Minions & Monsters™ Kids Sneakers Timed to Global Film Release",
@@ -41,7 +45,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Taranis Offers a Fully Domestic Source of Critical Minerals as it Initiates New Tests for Even More Critical Mineral Elements, and Acquires New Mineral Tenures at Thor Project",
@@ -49,7 +54,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

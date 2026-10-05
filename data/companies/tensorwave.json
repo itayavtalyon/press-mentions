@@ -1,7 +1,7 @@
 {
   "name": "TensorWave",
   "last_mentioned_at": "2026-09-28T12:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "TensorWave Expands Executive Leadership Team as Company Scales AI Infrastructure Operations",
@@ -9,7 +9,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-28T12:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi and TensorWave Agree to Extend Closing Date to October 31, 2026",
@@ -17,7 +18,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi, TensorWave Extend Data Center Lease Closing to Oct. 31",
@@ -25,7 +27,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi, TensorWave agree to extend closing date of lease by a month (FRMI:NASDAQ)",
@@ -33,7 +36,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fermi extends TensorWave data center lease closing to October",
@@ -41,7 +45,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-09-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fermi America (FRMI) Q2 2026 Earnings Call: $6.5B TensorWave Deal",
@@ -49,7 +54,8 @@
       "publisher": "TradingKey",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi (FRMI) Is Up 6.6% After Landing TensorWave Gigawatt‑Scale Lease and Power Deal",
@@ -57,7 +63,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi Announces Second Quarter 2026 Results and Delivers on All Five 90-Day Objectives",
@@ -65,7 +72,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi reports Q2 loss, signs first customer deal with TensorWave",
@@ -73,7 +81,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fermi Inc Shares Jump 22% On First Binding Lease At AI Power Campus Worth $6.5 Billion",
@@ -81,7 +90,8 @@
       "publisher": "International Business Times Australia",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi Stock Surges 21% After Signing Multi-Billion-Dollar Data Center Lease Agreement With TensorWave",
@@ -89,7 +99,8 @@
       "publisher": "TIKR.com",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A $6.5 Billion Reason to Buy FRMI Stock Now",
@@ -97,7 +108,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi shares (FRMI) surge 21% following $6.5 billion lease launch, raising test for financing",
@@ -105,7 +117,8 @@
       "publisher": "TechStock²",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi announced $6.5 billion lease for massive AI campus at Amarillo",
@@ -113,7 +126,8 @@
       "publisher": "Oklahoma Energy Today",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi signs agreement with TensorWave for up to 650MW of data center capacity at Project Matador site",
@@ -121,7 +135,8 @@
       "publisher": "datacenterdynamics.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "FRMI Stock Rips On $6.5B TensorWave Deal — Mizuho Says ‘Long-Awaited Catalyst’ Has Arrived",
@@ -129,7 +144,8 @@
       "publisher": "TradingView",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi Finally Has Its First Customer With A Potential AI Leader Guarantor — Now Q2 Will Be The Next Real Test",
@@ -137,7 +153,8 @@
       "publisher": "TradingView",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi secures AI tenant for Texas data center, stock surges over 19%",
@@ -145,7 +162,8 @@
       "publisher": "Crypto Briefing",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi Finally Secures Project Matador Tenant In A $6.5B Deal",
@@ -153,7 +171,8 @@
       "publisher": "Bisnow",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi Shares Climb 16% on $6.5 Billion TensorWave Deal, Shifting Focus on Financing Risks",
@@ -161,7 +180,8 @@
       "publisher": "TechStock²",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi stock jumps 23% on $6.5B TensorWave AI data center lease deal",
@@ -169,7 +189,8 @@
       "publisher": "Invezz",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Citizens reiterates Fermi stock rating on TensorWave deal",
@@ -177,7 +198,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "CORRECTION FROM SOURCE: Fermi Announces Binding Lease Agreement with TensorWave",
@@ -185,7 +207,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fermi America announces $6.5 billion contract with TensorWave",
@@ -193,7 +216,8 @@
       "publisher": "NewsChannel 10",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi America announces $6.5 billion contract with TensorWave",
@@ -201,7 +225,8 @@
       "publisher": "NewsChannel 10",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Fermi America stock rockets on $6.5B TensorWave lease deal",
@@ -209,7 +234,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fermi signs $6.5 billion lease for 'world's largest data center' after months of turmoil",
@@ -217,7 +243,8 @@
       "publisher": "KVII",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Neostellar Capital Corp. Reports Second Quarter 2026 Financial Results",
@@ -225,7 +252,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI cloud strategy drives TensorWave's approach",
@@ -233,7 +261,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AMD unveils Helios rack-scale AI compute portfolio",
@@ -241,7 +270,8 @@
       "publisher": "IT Brief Australia",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "TensorWave Powers Frontier AI Growth for Cloud Customers with AMD Helios Rackscale Solution",
@@ -249,7 +279,8 @@
       "publisher": "HPCwire",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Artificial intelligence: Moving beyond the GPU",
@@ -257,7 +288,8 @@
       "publisher": "SiliconANGLE",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nexus bets AI's biggest winners will be built beneath the chatbots",
@@ -265,7 +297,8 @@
       "publisher": "Business Standard",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "TensorWave Raises $350M Series B at $1.55B Valuation to Grow Its AMD Instinct AI Cloud",
@@ -273,7 +306,8 @@
       "publisher": "StorageReview.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

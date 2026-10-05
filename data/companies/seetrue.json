@@ -1,7 +1,7 @@
 {
   "name": "SeeTrue",
   "last_mentioned_at": "2026-09-02T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "SeeTrue AI Revenue 2025: $8.5M Est. ARR, $5M Raised",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Finnish SeeTrue Technologies secures €2.2 million to bring ultra-low-power eye tracking to smart glasses -",
@@ -17,7 +18,8 @@
       "publisher": "ArcticStartup",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "European tech weekly recap: €1B in deals and July's highlights",
@@ -25,7 +27,8 @@
       "publisher": "Tech.eu",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Finland’s SeeTrue Technologies raises €2.2 million to commercialise low-power eye-sensing architecture",
@@ -33,7 +36,8 @@
       "publisher": "EU-Startups",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zeiss Ventures leads €2.2 M investment in SeeTrue Technologies...",
@@ -41,7 +45,8 @@
       "publisher": "Optics.org",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ZEISS Ventures leads €2.2M round in eye-tracking startup SeeTrue",
@@ -49,7 +54,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-08-05T18:58:34.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SeeTrue's AI Screening Automation Software Achieves TSA Certification and is installed for 2026 FIFA World Cup Security Operations",
@@ -57,7 +63,8 @@
       "publisher": "macaubusiness.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "SeeTrue’s AI Screening Automation Software Achieves TSA Certification",
@@ -65,7 +72,8 @@
       "publisher": "Homeland Security Today",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

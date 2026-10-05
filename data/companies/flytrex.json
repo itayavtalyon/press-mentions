@@ -1,7 +1,7 @@
 {
   "name": "Flytrex",
   "last_mentioned_at": "2026-10-01T18:23:29.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Delivery drones could be waiting before you even order",
@@ -9,7 +9,8 @@
       "publisher": "Fox News",
       "published_at": "2026-09-26T11:00:23.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex wants its delivery drones waiting before you even order food",
@@ -17,7 +18,8 @@
       "publisher": "DroneDJ",
       "published_at": "2026-09-25T08:46:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex Parks Drone Docks on Restaurant Rooftops to Feed Faster Deliveries",
@@ -25,7 +27,8 @@
       "publisher": "Dallas Innovates",
       "published_at": "2026-09-22T15:33:39.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex launches unconventional plan to cut drone delivery costs by 60%",
@@ -33,7 +36,8 @@
       "publisher": "The Drone Girl",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex, Nash focus on flexible delivery, not just drones",
@@ -41,7 +45,8 @@
       "publisher": "fastcasual.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "DoorDash Is Now an FAA-Certified Drone Delivery Operator",
@@ -49,7 +54,8 @@
       "publisher": "UAV Coach",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex and Nash Partner on MultiModal Food Delivery in North Texas",
@@ -57,7 +63,8 @@
       "publisher": "Dallas Innovates",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex and Nash Partner to Build an Autonomous-First, Multi-Modal Delivery Platform",
@@ -65,7 +72,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Flytrex Handed Order Routing To Nash, And The Drone Became One Lane Among Many",
@@ -73,7 +81,8 @@
       "publisher": "DroneXL",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A Watershed Week for Drone Delivery: DoorDash Air, Walmart, Wing, and Flytrex Take Over the Skies",
@@ -81,7 +90,8 @@
       "publisher": "The Drone Girl",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "DoorDash is launching a competing drone delivery service",
@@ -89,7 +99,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex and Nash Partner to Route Drone and Courier Deliveries Across Dallas-Fort Worth",
@@ -97,7 +108,8 @@
       "publisher": "Dronelife",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why the future of drone delivery might involve cars after all",
@@ -105,7 +117,8 @@
       "publisher": "The Drone Girl",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Flytrex scales shared drone traffic system with thousands of coordinated flights",
@@ -113,7 +126,8 @@
       "publisher": "Robotics & Automation News",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

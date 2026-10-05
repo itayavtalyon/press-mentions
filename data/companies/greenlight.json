@@ -1,7 +1,7 @@
 {
   "name": "Greenlight",
   "last_mentioned_at": "2026-10-01T17:02:30.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "7 Best Banking Apps and Debit Cards for Kids and Teens",
@@ -9,7 +9,8 @@
       "publisher": "NerdWallet",
       "published_at": "2026-09-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Best debit cards for kids in 2026",
@@ -17,7 +18,8 @@
       "publisher": "CNBC",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Greenlight vs. Current [2026]: Is a Kids' Debit Card Worth It?",
@@ -25,7 +27,8 @@
       "publisher": "FinanceBuzz",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Greenlight Debit Card Review: Pros, Cons & Verdict",
@@ -33,7 +36,8 @@
       "publisher": "Forbes",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Veridian Credit Union debuts partnership with Greenlight",
@@ -41,7 +45,8 @@
       "publisher": "Corridor Business Journal",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Bank of Clarke Expands Greenlight Partnership to Support Families with Multigenerational Safety Solution",
@@ -49,7 +54,8 @@
       "publisher": "FF News",
       "published_at": "2026-08-14T12:34:59.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Dow Credit Union launches partnership with Greenlight to help families teach kids about money",
@@ -57,7 +63,8 @@
       "publisher": "MLive.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

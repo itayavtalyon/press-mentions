@@ -1,7 +1,7 @@
 {
   "name": "CytoReason",
   "last_mentioned_at": "2026-10-01T12:17:13.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "CytoReason Strengthens Commercial Leadership With New Chief Commercial Officer",
@@ -9,7 +9,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-09-30T00:21:34.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "The Israel Innovation Authority to Invest Approximately NIS 70 Million in National Infrastructure for AI Models Based on Biological Data",
@@ -17,7 +18,8 @@
       "publisher": "SynBioBeta",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

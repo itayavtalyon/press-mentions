@@ -1,7 +1,7 @@
 {
   "name": "Momentis Surgical (formerly Memic)",
   "last_mentioned_at": "2026-07-23T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "FDA clears Momentis Surgical’s multiport surgical robot",
@@ -9,7 +9,8 @@
       "publisher": "MassDevice",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Momentis Anovo Robot Gains FDA Clearance for Multiport Surgery",
@@ -17,7 +18,8 @@
       "publisher": "Unite.AI",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "FDA Clears Momentis Surgical's Anovo® System for Multiport Surgery, Making It the First Robotic Platform to Support Three Surgical Approaches",
@@ -25,7 +27,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

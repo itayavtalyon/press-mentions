@@ -1,7 +1,7 @@
 {
   "name": "Firefly Neuroscience (formerly ElMindA)",
   "last_mentioned_at": "2026-09-29T20:25:30.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Firefly Neuroscience Director Arun Swarup Menawat Awarded 126,050 Deferred Stock Units",
@@ -9,7 +9,8 @@
       "publisher": "Kalkine Media",
       "published_at": "2026-09-29T20:25:30.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "A director holds 149,962 deferred stock units after a grant from Firefly Neuroscience (AIFF).",
@@ -17,7 +18,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:16:19.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "After a new grant, director Brian Posner holds 149,962 stock units in Firefly Neuroscience (AIFF).",
@@ -25,7 +27,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:16:01.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "A director reports 216,609 stock units at Firefly Neuroscience (AIFF) after a new grant.",
@@ -33,7 +36,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:15:31.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "What's Behind Firefly Neuroscience's (NASDAQ:AIFF) Big Moment in AI Stocks?",
@@ -41,7 +45,8 @@
       "publisher": "Kalkine Media",
       "published_at": "2026-09-28T12:30:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "AI Stock Firefly Neuroscience (NASDAQ: AIFF) Soars on First FDA-Cleared, Non-Drug Treatment for Pediatric ADHD",
@@ -49,7 +54,8 @@
       "publisher": "Investorideas.com",
       "published_at": "2026-09-25T16:15:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience Surges as Investors Appear to Cheer New Commercial Partnership Momentum",
@@ -57,7 +63,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-25T14:49:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AIFF Stock Tests New Range As Volatility Attracts Traders",
@@ -65,7 +72,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-09-25T12:32:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience partners with NeuroSigma on ADHD treatment",
@@ -73,7 +81,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-09-25T12:03:31.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience and NeuroSigma Announce Partnership to Expand Access to FDA-Cleared Monarch eTNS System for Pediatric ADHD",
@@ -81,7 +90,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-25T11:50:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience’s Evoke™ Platform Selected to Bring Objective Brain-Function Insights to Radial’s AI-Native Operating System for Brain Medicine",
@@ -89,7 +99,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The country’s largest brain-medicine clinic network plans to add Firefly’s AI brain-function tests",
@@ -97,7 +108,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Firefly appoints Jessica Paz as Chief Accounting Officer; Paul Krzywicki terminated as CFO",
@@ -105,7 +117,8 @@
       "publisher": "TradingView",
       "published_at": "2026-09-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "FIREFLY NEUROSCIENCE, INC. 2026: Revenue $514K, EPS ($0.1) — 10-Q Summary",
@@ -113,7 +126,8 @@
       "publisher": "TradingView",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience Reports 291% Year-Over-Year Increase in TMS Center Customer Clinical Assessments Using Evoke",
@@ -121,7 +135,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience (NASDAQ: AIFF) Reports 291% Increase in TMS Center Customer Brain Scan Volumes",
@@ -129,7 +144,8 @@
       "publisher": "The Manila Times",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Firefly Neuroscience partners with Next Health on cognitive platform",
@@ -137,7 +153,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }

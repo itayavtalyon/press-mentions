@@ -1,7 +1,7 @@
 {
   "name": "BlueGreen Water Technologies",
   "last_mentioned_at": "2026-09-18T15:09:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Israel's New Normal: A Coastline Wracked by an Algae Apocalypse",
@@ -9,7 +9,8 @@
       "publisher": "Haaretz",
       "published_at": "2026-09-18T15:09:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Killing slime: an AI-first biotech solution",
@@ -17,7 +18,8 @@
       "publisher": "Science News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

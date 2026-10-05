@@ -1,7 +1,7 @@
 {
   "name": "Morphisec",
-  "last_mentioned_at": "2026-09-30T13:10:36.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "last_mentioned_at": "2026-09-03T02:32:02.000Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Aligning AI Speed with AI Trust: AI Agent Security Insights for CISOs and Security Leaders",
@@ -9,7 +9,8 @@
       "publisher": "Morphisec",
       "published_at": "2026-09-30T13:10:36.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "When the AI Breaks Its Own Rules",
@@ -17,7 +18,8 @@
       "publisher": "techspective.net",
       "published_at": "2026-09-03T02:32:02.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Morphisec Launches AI Usage Control: Governing Shadow and Sanctioned AI on the Endpoint",
@@ -25,7 +27,8 @@
       "publisher": "The National Law Review",
       "published_at": "2026-07-29T14:14:25.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI Usage Control: Governing Shadow and Sanctioned AI Where It Actually Runs",
@@ -33,7 +36,8 @@
       "publisher": "Morphisec",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "What Prevents Zero-Day Exploits? A Practical Guide to Stopping Unknown Threats",
@@ -41,7 +45,8 @@
       "publisher": "Morphisec",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "How AI-Driven Attacks Are Bypassing EDR — And Why Pre-Execution Defense Matters",
@@ -49,7 +54,8 @@
       "publisher": "Morphisec",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Why AI Has Made Traditional Cybersecurity Strategies Obsolete",
@@ -57,7 +63,8 @@
       "publisher": "Morphisec",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

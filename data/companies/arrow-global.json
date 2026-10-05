@@ -1,7 +1,7 @@
 {
   "name": "Arrow Global",
   "last_mentioned_at": "2026-09-28T17:02:49.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Mangia’s is banking on luxury: 380 million in investment by 2028",
@@ -9,7 +9,8 @@
       "publisher": "Il Sole 24 ORE",
       "published_at": "2026-09-28T17:02:49.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global swoops for former King Street exec",
@@ -17,7 +18,8 @@
       "publisher": "Green Street News",
       "published_at": "2026-09-21T08:16:49.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Arrow Electronics expands IBM distribution coverage to seven more countries",
@@ -25,7 +27,8 @@
       "publisher": "Electropages",
       "published_at": "2026-08-20T08:37:39.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Electronics adds seven countries to distribution coverage with IBM",
@@ -33,7 +36,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "PGA TOUR Champions breaks new ground at this week’s Portugal Invitational",
@@ -41,7 +45,8 @@
       "publisher": "Golf Business News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "PGA Tour Champions set to make its Portuguese debut",
@@ -49,7 +54,8 @@
       "publisher": "Golfmagic",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow purchases Borio Mangiarotti",
@@ -57,7 +63,8 @@
       "publisher": "irei.com",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow acquires Milan property developer to expand asset-backed lending opportunities",
@@ -65,7 +72,8 @@
       "publisher": "Alternative Credit Investor",
       "published_at": "2026-07-16T12:58:10.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global strengthens its Italian property platform and acquires Borio Mangiarotti",
@@ -73,7 +81,8 @@
       "publisher": "Il Sole 24 ORE",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Interim CEO: End Of Dell Partnership With Arrow ECS Will Have No Material Impact On Financial Results",
@@ -81,7 +90,8 @@
       "publisher": "crn.com",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Business Moves: MGA Fusion Specialty Acquired by UK Asset Manager Arrow Global; Arthur J. Gallagher Acquires Canada's Wilson M. Beck Insurance Services",
@@ -89,7 +99,8 @@
       "publisher": "Insurance Journal",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global Insurance strengthens specialty insurance platform through acquisition of Fusion Specialty Group",
@@ -97,7 +108,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global adds Fusion to specialty platform as W&I rates firm",
@@ -105,7 +117,8 @@
       "publisher": "Insurance Business",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global acquires specialist MGA Fusion Specialty",
@@ -113,7 +126,8 @@
       "publisher": "Reinsurance News",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow expands insurance platform with Fusion deal",
@@ -121,7 +135,8 @@
       "publisher": "Alternative Credit Investor",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "European fund manager Arrow Group to acquire Australian-headquartered W&I MGA Fusion",
@@ -129,7 +144,8 @@
       "publisher": "InsuranceAsia News",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Arrow Global Insurance acquires MGA Fusion Specialty Group",
@@ -137,7 +153,8 @@
       "publisher": "theinsurer.com",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Spanish golf legends Olazábal and Jiménez lead revival of 36-hole Sicily golf resort",
@@ -145,7 +162,8 @@
       "publisher": "Golf Course Architecture",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Loyola Group part of Arrow’s €500m a year Vilamoura transformation",
@@ -153,7 +171,8 @@
       "publisher": "Business Post",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

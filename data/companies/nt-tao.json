@@ -1,7 +1,7 @@
 {
   "name": "NT-Tao",
   "last_mentioned_at": "2026-09-26T21:17:50.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Kairos & Samsung in $100M Deal for EPC Services",
@@ -9,7 +9,8 @@
       "publisher": "Neutron Bytes",
       "published_at": "2026-09-26T21:17:50.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A 50-module power bank firing 50-megawatt bursts now feeds the plasma inside an Israeli fusion machine, five times the power of the 12-module bank before it, and its controller must keep all 50 acting as one source while the plasma changes the electrical lo",
@@ -17,7 +18,8 @@
       "publisher": "Autonocion.com",
       "published_at": "2026-09-24T19:58:53.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "20 MW compact fusion system targets on-site power for data centers and industry",
@@ -25,7 +27,8 @@
       "publisher": "interestingengineering.com",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "nT-Tao and Orion Nuclear Energy Corporation Announce",
@@ -33,7 +36,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "50-MW power drive could unlock higher fusion plasma temperatures",
@@ -41,7 +45,8 @@
       "publisher": "interestingengineering.com",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "nT-Tao Deploys 50 MW Pulsed-Power Subsystem to Drive Fusion Prototype Toward Next Temperature Milestone",
@@ -49,7 +54,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Revealed: The Israeli startups that will solve the world’s hottest problem",
@@ -57,7 +63,8 @@
       "publisher": "www.israelhayom.com",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

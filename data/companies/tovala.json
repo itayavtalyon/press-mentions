@@ -1,7 +1,7 @@
 {
   "name": "Tovala",
   "last_mentioned_at": "2026-09-28T10:57:26.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Tovala says it stays profitable as revenue tops $100 million in six months",
@@ -9,7 +9,8 @@
       "publisher": "Traders Union",
       "published_at": "2026-09-28T10:57:26.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "My startup is profitable and made over $100M in 6 months. I still worry it could all disappear.",
@@ -17,7 +18,8 @@
       "publisher": "Business Insider",
       "published_at": "2026-09-28T10:52:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "I tried Tovala’s smart oven for two weeks — here’s whether it beats takeout",
@@ -25,7 +27,8 @@
       "publisher": "TechCrunch",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Tovala Review: The Meal Delivery Service That Promises One-Minute Prep Time",
@@ -33,7 +36,8 @@
       "publisher": "Taste of Home",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Marketing: Fly By Jing Collabs with Tovala; Snickers Feeds AI a Candy Bar",
@@ -41,7 +45,8 @@
       "publisher": "Nosh.com",
       "published_at": "2026-08-31T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Fly By Jing’s Latest Collab Comes Straight To Your Door",
@@ -49,7 +54,8 @@
       "publisher": "Sporked",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Tovala and Fly By Jing are bringing chili crisp to weeknight dinner",
@@ -57,7 +63,8 @@
       "publisher": "Yahoo Creators",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Back to school is chaotic enough — Tovala is how I get a real dinner on the table in 30 minutes without thinking about it",
@@ -65,7 +72,8 @@
       "publisher": "Yahoo Creators",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Forget air fryers – This smart oven scans barcodes to expertly cook your meals",
@@ -73,7 +81,8 @@
       "publisher": "t3.com",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "EquipmentShare",
   "last_mentioned_at": "2026-10-04T06:08:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "EquipmentShare, Cummins partner on power solutions",
@@ -9,7 +9,8 @@
       "publisher": "Equipment Finance News",
       "published_at": "2026-09-30T21:32:46.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Top EquipmentShare.com (EQPT) Competitors 2026",
@@ -17,7 +18,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-30T14:47:31.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare invests big in gas power",
@@ -25,7 +27,8 @@
       "publisher": "International Rental News",
       "published_at": "2026-09-30T11:01:15.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc (NASDAQ:EQPT) Stock Now Rated \"Hold\" by Sell-Side Analysts",
@@ -33,7 +36,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-30T10:35:41.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Will EquipmentShare Fleet Deal Change Cummins Stock Narrative",
@@ -41,7 +45,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-09-30T03:23:03.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Director W. Bryan Hill’s stock award at EquipmentShare.com (EQPT) depends on continued service",
@@ -49,7 +54,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:59:24.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com (EQPT) grants director stock units that may vest at its 2027 annual meeting",
@@ -57,7 +63,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:58:57.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Board pay at EquipmentShare (EQPT): Harley Miller's stock units depend on continued service.",
@@ -65,7 +72,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-09-29T20:57:46.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare and Cummins Announce Landmark Collaboration to Deploy 1 Gigawatt of Mobile Power",
@@ -73,7 +81,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-29T12:30:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare rejects investment firm report",
@@ -81,7 +90,8 @@
       "publisher": "International Rental News",
       "published_at": "2026-09-29T11:33:07.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com: Branch Maturation Needs Cash Flow Proof (NASDAQ:EQPT)",
@@ -89,7 +99,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-27T03:41:27.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Issues Statement Responding to Blue Orca Capital Report",
@@ -97,7 +108,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-09-25T19:40:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Responds to Inaccurate Short Report",
@@ -105,7 +117,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-25T19:30:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com drops after short report from Blue Orca",
@@ -113,7 +126,8 @@
       "publisher": "TradingView",
       "published_at": "2026-09-24T18:54:39.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Shares Fall After Blue Orca Alleges Hidden Liabilities",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-24T18:20:50.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare stock falls 6% after short seller report",
@@ -129,7 +144,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-24T17:09:56.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lowey Dannenberg, P.C. is Investigating EquipmentShare.com",
@@ -137,7 +153,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-21T15:15:17.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of September 21, 2026 in EquipmentShare.com Inc. Lawsuit - EQPT",
@@ -145,7 +162,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT FINAL DEADLINE ALERT: Faruqi & Faruqi, LLP Reminds EquipmentShare.com (EQPT) Investors of Securities Class Action Lawsuit Deadline on September 21, 2026",
@@ -153,7 +171,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare, Inc. Investors Have Until September 21st to",
@@ -161,7 +180,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-18T14:33:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com 72 Hour Deadline Alert: Kahn Swick & Foti, LLC Reminds Investors With Losses In Excess Of $100,000 of Deadline in Class Action Lawsuit Against EquipmentShare.com Inc. - EQPT",
@@ -169,7 +189,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Kaplan Fox Continues to Remind EquipmentShare.Com Inc (NASDAQ: EQPT) Investors of the Lead Plaintiff Deadline on September 21, 2026",
@@ -177,7 +198,8 @@
       "publisher": "FinancialContent",
       "published_at": "2026-09-17T14:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Founder Schlacks Buys 10,000 Shares",
@@ -185,7 +207,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT DEADLINE: EquipmentShare.com Investors Who Lost Money Should Contact Block & Leviton Law Firm Before September 21st",
@@ -193,7 +216,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-09-16T21:44:32.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Levi & Korsinsky Reminds EquipmentShare.com Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 21, 2026 - EQPT",
@@ -201,7 +225,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com (NASDAQ:EQPT) CEO Acquires $37,800.00 in Stock",
@@ -209,7 +234,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Jabbok Schlacks Buys 22,900 Shares of EquipmentShare.com (NASDAQ:EQPT) Stock",
@@ -217,7 +243,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-16T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026",
@@ -225,7 +252,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-16T02:17:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Portnoy Law Firm Announces Class Action on Behalf of EquipmentShare.com Investors",
@@ -233,7 +261,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-15T14:30:46.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Deadline: EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
@@ -241,7 +270,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare, Inc. Investors Have Until September 21st to",
@@ -249,7 +279,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-14T21:42:13.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. (EQPT) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
@@ -257,7 +288,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Robbins LLP Reminds Investors of the Pending September 21, 2026, Lead Plaintiff Deadline in the Securities Fraud Class Action Lawsuit Filed Against EQPT After a Significant Decline in the Company's Stock Price Following its IPO",
@@ -265,7 +297,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -273,7 +306,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Investor Alert: EquipmentShare.com Inc. Securities Class Action Notice - Contact SueWallSt",
@@ -281,7 +315,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Faruqi & Faruqi, LLP Urges EquipmentShare.com Inc. (NASDAQ: EQPT) Investors to Seek Counsel Before September 21, 2026 Lead Plaintiff Deadline in the Securities Class Action",
@@ -289,7 +324,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Lead Plaintiff Deadlines in Shareholder Class Action",
@@ -297,7 +333,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com (EQPT) Institutional Ownership 2026",
@@ -305,7 +342,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare CEO Schlacks Buys 25,000 Shares",
@@ -313,7 +351,8 @@
       "publisher": "The Motley Fool",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Deadline Alert: Levi & Korsinsky Reminds EquipmentShare.com Inc. (EQPT) Investors of Securities Class Action Deadline on September 21, 2026",
@@ -321,7 +360,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026",
@@ -329,7 +369,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Bronstein, Gewirtz & Grossman LLC Urges EquipmentShare.com",
@@ -337,7 +378,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQUIPMENTSHARE.COM, INC. (EQPT) SHAREHOLDER ALERT Bernstein",
@@ -345,7 +387,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Rises As EquipmentShare.com Inc Shows Firm Momentum",
@@ -353,7 +396,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-09-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Investor Alert - EquipmentShare.com Stockholders with",
@@ -361,7 +405,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Kaplan Fox & Kilsheimer LLP Alerts EquipmentShare.Com Inc (NASDAQ: EQPT) Investors to the Lead Plaintiff Deadline on September 21, 2026",
@@ -369,7 +414,8 @@
       "publisher": "The Globe and Mail",
       "published_at": "2026-09-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT DEADLINE: SueWallSt Reminds EquipmentShare.com Inc. Investors of Upcoming Securities Class Action Deadline",
@@ -377,7 +423,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in EquipmentShare.com Inc. of Class Action Lawsuit and Upcoming Deadlines - EQPT",
@@ -385,7 +432,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Shareholder Alert: ClaimsFiler Reminds",
@@ -393,7 +441,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Shareholder Alert: EquipmentShare.com Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky",
@@ -401,7 +450,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Deadline Alert: EquipmentShare.com Inc. (EQPT) Shareholders",
@@ -409,7 +459,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SEPTEMBER 21, 2026 EQPT INVESTOR DEADLINE:",
@@ -417,7 +468,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-09-01T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Deadline: EQPT Investors with Losses in Excess of $100K Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
@@ -425,7 +477,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-29T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Shareholder Alert: Investors With Losses May Seek to Lead the Class Action in EquipmentShare.com Securities Lawsuit - Contact Levi & Korsinsky",
@@ -433,7 +486,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Deadline Alert: EquipmentShare.com Inc. (EQPT) Shareholders",
@@ -441,7 +495,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -449,7 +504,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Shareholder Alert: September 21, 2026 Lead Plaintiff Deadline in EquipmentShare.com Inc. Securities Class Action - Contact SueWallSt",
@@ -457,7 +513,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. (EQPT) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
@@ -465,7 +522,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-26T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Deadline: EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
@@ -473,7 +531,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Truist Adjusts Price Target on EquipmentShare.com to $35 From $38, Maintains Buy Rating",
@@ -481,7 +540,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Bronstein, Gewirtz & Grossman LLC Urges EquipmentShare.com",
@@ -489,7 +549,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Bragar Eagel & Squire, P.C. Reminds EquipmentShare, Inc.",
@@ -497,7 +558,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Shareholder Alert: ClaimsFiler Reminds",
@@ -505,7 +567,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Shareholder Alert: EquipmentShare.com Inc. Securities Class Action Lawsuit - Investors Should Contact SueWallSt",
@@ -513,7 +576,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "UBS Adjusts Price Target on EquipmentShare.com to $22 From $24, Keeps Neutral Rating",
@@ -521,7 +585,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Insider Sold Shares Worth $26,736,797, According to a Recent SEC Filing",
@@ -529,7 +594,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT INVESTOR REMINDER: EquipmentShare.com Inc. Investors Have Until September 21, 2026 To Contact Kirby McInerney LLP to Seek Lead Plaintiff Role",
@@ -537,7 +603,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Tuesday’s insider buys and sells: EquipmentShare sees action",
@@ -545,7 +612,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EQPT INVESTOR ALERT: EquipmentShare.com, Inc. Investors with Substantial Losses Have Opportunity to Lead Shareholder Class Action Lawsuit - September 21, 2026 Deadline",
@@ -553,7 +621,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-19T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lowey Dannenberg, P.C. is Investigating EquipmentShare.com",
@@ -561,7 +630,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Equipmentshare director Neil Chheda sells $18.6 million of stock",
@@ -569,7 +639,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com (EQPT) Stock Rallies On Profit Reset With EPS Questions",
@@ -577,7 +648,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare OWN program payouts jump 35%",
@@ -585,7 +657,8 @@
       "publisher": "Equipment Finance News",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. 2026 Q2 - Results - Earnings Call Presentation (NASDAQ:EQPT) 2026-08-14",
@@ -593,7 +666,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare founders to exit ‘related party’ arrangements",
@@ -601,7 +675,8 @@
       "publisher": "International Rental News",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Uncorks A Record-Setting Second Quarter",
@@ -609,7 +684,8 @@
       "publisher": "Rental Equipment Register",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Earnings call transcript: EquipmentShare posts strong Q2 2026 growth as stock slips",
@@ -617,7 +693,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc (EQPT) (Q2 2026) Earnings Call Highlights: Rental Revenue Surges 39% as ...",
@@ -625,7 +702,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "SueWallSt Reminds EquipmentShare.com Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 21, 2026 - EQPT",
@@ -633,7 +711,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. (EQPT) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
@@ -641,7 +720,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EQUIPMENTSHARE.COM ($EQPT) Releases Q2 2026 Earnings, Stock Rises",
@@ -649,7 +729,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQUIPMENTSHARE INVESTOR ALERT: Bragar Eagel & Squire, P.C.",
@@ -657,7 +738,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc. Securities Fraud Lawsuit with SBS Law",
@@ -665,7 +747,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-11T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Securities Fraud Class Action Filed Against Equipmentshare.com Inc. (EQPT) - Levi & Korsinsky Reminds Investors of September 21, 2026",
@@ -673,7 +756,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Investors Have Opportunity to Lead EquipmentShare.com Inc Securities Lawsuit",
@@ -681,7 +765,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-08-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Shareholder Alert: ClaimsFiler Reminds",
@@ -689,7 +774,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Investors Have Rights - If You Lost Money Investing in EQPT Contact Robbins LLP for Information About Recovering Your Losses",
@@ -697,7 +783,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EQPT Deadline Alert: SueWallSt Reminds EquipmentShare.com Inc. (EQPT) Investors of Securities Class Action Deadline on September 21, 2026",
@@ -705,7 +792,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lowey Dannenberg, P.C. is Investigating EquipmentShare.com",
@@ -713,7 +801,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in EquipmentShare.com Inc. of Class Action Lawsuit and Upcoming Deadlines - EQPT",
@@ -721,7 +810,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT UPCOMING DEADLINE: Levi & Korsinsky Alerts EquipmentShare.com Inc. Stockholders of Securities Class Action - Contact the Firm",
@@ -729,7 +819,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-05T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026",
@@ -737,7 +828,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Robbins Geller Rudman & Dowd LLP Announces that EquipmentShare.com, Inc. (EQPT) Investors with Substantial Losses Have Opportunity to Lead the EquipmentShare.com Class Action Lawsuit",
@@ -745,7 +837,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT UPCOMING DEADLINE : The Gross Law Firm Alerts Equipmentshare.com Inc. Stockholders of Securities Class Action - Contact the Firm",
@@ -753,7 +846,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Stock Drop: EquipmentShare Related Party Transactions Lead to 17% Stock Drop and Securities Fraud Class Action for Investors",
@@ -761,7 +855,8 @@
       "publisher": "Morningstar",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Shareholders who lost money in shares of EquipmentShare.com Inc. (NASDAQ: EQPT) should contact Wolf Haldenstein Immediately",
@@ -769,7 +864,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT DEADLINE: Levi & Korsinsky Reminds EquipmentShare.com",
@@ -777,7 +873,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lowey Dannenberg, P.C. is Investigating EquipmentShare.com",
@@ -785,7 +882,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Investors With Significant Losses Should",
@@ -793,7 +891,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Deadline Alert: EquipmentShare.com Inc. (EQPT) Shareholders",
@@ -801,7 +900,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-08-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Shareholder Alert: EquipmentShare.com Inc. Securities Class Action Lawsuit - Investors With Losses May Contact Levi & Korsinsky",
@@ -809,7 +909,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Announces Second Quarter 2026 Financial Results Conference Call",
@@ -817,7 +918,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Announces Date for Second Quarter 2026 Financial Results Conference Call",
@@ -825,7 +927,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Levi & Korsinsky Reminds EquipmentShare.com Investors of the Pending Class Action Lawsuit With a Lead Plaintiff Deadline of September 21, 2026 - EQPT",
@@ -833,7 +936,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Bronstein, Gewirtz & Grossman LLC Urges EquipmentShare.com",
@@ -841,7 +945,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT INVESTOR ALERT: Class Action Lawsuit Filed on Behalf",
@@ -849,7 +954,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Berger Montague PC Investigating Claims on Behalf of EquipmentShare.com Inc. (NASDAQ: EQPT) Investors After Class Action Filing",
@@ -857,7 +963,8 @@
       "publisher": "Supply Chain Digital",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Law Offices of Frank R. Cruz Encourages EquipmentShare.com Inc. (EQPT) Shareholders To Inquire About Securities Fraud Class Action",
@@ -865,7 +972,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-27T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -873,7 +981,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Securities Class Action Filed Against EquipmentShare.com Inc. – Investors Encouraged to Contact Kirby McInerney LLP",
@@ -881,7 +990,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Rosen Law Firm Urges EquipmentShare.com Inc (NASDAQ: EQPT) Stockholders with Large Losses to Contact the Firm for Information About Their Rights",
@@ -889,7 +999,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT LAWSUIT: EquipmentShare.com Inc. Sued for Securities",
@@ -897,7 +1008,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-24T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Investor Notice: Robbins LLP Informs Investors of the EquipmentShare.com, Inc. Class Action Lawsuit",
@@ -905,7 +1017,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of EquipmentShare.com Inc. - EQPT",
@@ -913,7 +1026,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Stock Jumps As EquipmentShare.com Hikes 2026 Revenue Outlook",
@@ -921,7 +1035,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com (NASDAQ:EQPT) Board of Directors Announces Share Buyback Program",
@@ -929,7 +1044,8 @@
       "publisher": "MarketBeat",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Rosen Law Firm Encourages EquipmentShare.com Inc Investors to Inquire About Securities Class Action Investigation - EQPT",
@@ -937,7 +1053,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Stock Rockets Off 52-Week Lows After Reversal",
@@ -945,7 +1062,8 @@
       "publisher": "TipRanks",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "IT major applies practical solutions to knowledge management",
@@ -953,7 +1071,8 @@
       "publisher": "Mizzou Engineering",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Jim Cramer: Buy This Industrial Stock, EquipmentShare Is ‘Disappointing’",
@@ -961,7 +1080,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Is EquipmentShare.com (EQPT) Cheap Following Its 2026 Outlook Raise And $500 Million Buyback?",
@@ -969,7 +1089,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Unusual Options Play in EquipmentShare Call Options After Massive Buyback Plan",
@@ -977,7 +1098,8 @@
       "publisher": "Barchart.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Stock Tops Growth Screen For Insider Backed Industrial Ideas",
@@ -985,7 +1107,8 @@
       "publisher": "Simply Wall Street",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Should You Buy EquipmentShare.com (EQPT) at All-Time Lows",
@@ -993,7 +1116,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Answers A Short Attack With A Half-Billion Dollar Rebuttal",
@@ -1001,7 +1125,8 @@
       "publisher": "Trefis",
       "published_at": "2026-07-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT Stock Holds Key Level As New Board Adds Momentum",
@@ -1009,7 +1134,8 @@
       "publisher": "StocksToTrade",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare ups full-year guidance",
@@ -1017,7 +1143,8 @@
       "publisher": "International Rental News",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why is EquipmentShare stock surging today?",
@@ -1025,7 +1152,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of EquipmentShare.com Inc. - EQPT",
@@ -1033,7 +1161,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Raises 2026 Financial Outlook on Strong Customer Demand and Authorizes $500 Million Share Repurchase Program",
@@ -1041,7 +1170,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare raises 2026 guidance, authorizes $500M buyback",
@@ -1049,7 +1179,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare lifts 2026 outlook and authorizes $500 million buyback",
@@ -1057,7 +1188,8 @@
       "publisher": "Stock Titan",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EQPT Investors Have Opportunity to Join EquipmentShare.com Inc. Fraud Investigation with the Schall Law Firm",
@@ -1065,7 +1197,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EQPT SHAREHOLDER ALERT: Investors Encouraged to Contact Kirby McInerney LLP About Potential Securities Laws Violations",
@@ -1073,7 +1206,8 @@
       "publisher": "Business Wire",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "EquipmentShare: T3 Makes Rental Growth More Interesting (NASDAQ:EQPT)",
@@ -1081,7 +1215,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Truist Maintains Buy Rating for EquipmentShare.com (EQPT)",
@@ -1089,7 +1224,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare.com Inc. (EQPT) Investigation: Bronstein, Gewirtz & Grossman, LLC Encourages Stockholders to Contact the Firm to Learn More About the Investigation",
@@ -1097,7 +1233,8 @@
       "publisher": "ACCESS Newswire",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lowey Dannenberg, P.C. is Investigating EquipmentShare.com",
@@ -1105,7 +1242,8 @@
       "publisher": "GlobeNewswire",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EquipmentShare Closes $1.35 Billion 7.125% Second-Lien Notes Due 2034",
@@ -1113,7 +1251,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-02T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

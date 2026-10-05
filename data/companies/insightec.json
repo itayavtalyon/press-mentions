@@ -1,7 +1,7 @@
 {
   "name": "Insightec",
   "last_mentioned_at": "2026-09-10T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "INSIGHTEC Revenue 2025: $52M Est. ARR",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Insightec Marks 10,000 Patients Treated Across Europe, Middle East and Africa (EMEA) With MR-Guided Focused Ultrasound",
@@ -17,7 +18,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Insightec - 2026 Funding Rounds & List of Investors",
@@ -25,7 +27,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-08-18T12:33:12.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Focused Ultrasound Opens Blood-Brain Barrier to Treat Brain Cancer",
@@ -33,7 +36,8 @@
       "publisher": "neurosciencenews.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Morgan Hill native finds steady future at hospital where his life began",
@@ -41,7 +45,8 @@
       "publisher": "Morgan Hill Times",
       "published_at": "2026-07-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Israeli tech at Rambam helps curb opioid addictions",
@@ -49,7 +54,8 @@
       "publisher": "The Jerusalem Post",
       "published_at": "2026-07-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

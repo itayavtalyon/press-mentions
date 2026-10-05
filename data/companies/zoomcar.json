@@ -1,7 +1,7 @@
 {
   "name": "Zoomcar",
   "last_mentioned_at": "2026-09-29T18:00:33.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Zoomcar rental service coming to city soon",
@@ -9,7 +9,8 @@
       "publisher": "OdishaBytes",
       "published_at": "2026-09-29T18:00:33.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Transcript: Zoomcar Holdings Q1 2026 Earnings Conference Call",
@@ -17,7 +18,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-09-18T12:06:07.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zoomcar Holdings Q1FY27 Results: Contribution profit up 45% to $1.65m",
@@ -25,7 +27,8 @@
       "publisher": "scanx.trade",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar Holdings FY26 Results: Shareholder loss narrows 43% YoY",
@@ -33,7 +36,8 @@
       "publisher": "scanx.trade",
       "published_at": "2026-09-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar - 2026 Funding Rounds & List of Investors",
@@ -41,7 +45,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-08T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar integrates Uber Intercity as self-drive, chauffeur-driven options go live across 3 cities",
@@ -49,7 +54,8 @@
       "publisher": "fortuneindia.com",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar and Uber Partner to Give Travelers Mo",
@@ -57,7 +63,8 @@
       "publisher": "moomoo.com",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zoomcar and Uber partner to give travelers more ways to plan road trips",
@@ -65,7 +72,8 @@
       "publisher": "TheWire.in",
       "published_at": "2026-08-24T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar Closes Two-Thirds of the Distance to Adjusted EBITDA Breakeven in Four Quarters as Contribution Profit Now Funds 73% of Its Operating Cost Base",
@@ -73,7 +81,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Earnings call transcript: Zoomcar posts record Q1 2026 margin gains, stock rises",
@@ -81,7 +90,8 @@
       "publisher": "Investing.com India",
       "published_at": "2026-08-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zoomcar Announces Voting Results from 2026 Annual Meeting of Stockholders",
@@ -89,7 +99,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-13T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar to Announce Q1 FY26-27 Results on August 14, 2026",
@@ -97,7 +108,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar extends warrant exchange offer to Aug. 14 to allow time for shareholder approval",
@@ -105,7 +117,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar Announces Extension of Offer to Exchange Outstanding Warrants for Common Stock",
@@ -113,7 +126,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-23T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar posts 10th straight quarter of contribution profit",
@@ -121,7 +135,8 @@
       "publisher": "automotiveworld.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zoomcar Cuts Fiscal 2026 Net Loss as Profitability Metrics Improve (ZCAR)",
@@ -129,7 +144,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar narrows adjusted EBITDA loss 47% in fiscal 2026 By Investing.com",
@@ -137,7 +153,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Zoomcar Holdings, Inc. FY 2026: Revenue $9.16M, EPS ($1.28) — 10-K Summary",
@@ -145,7 +162,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar Completes $195K Third Close of Series A Units; $0.05 Convert, $0.0625 Warrants",
@@ -153,7 +171,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoomcar extends CEO Deepankar Tiwari's term until May 2027",
@@ -161,7 +180,8 @@
       "publisher": "People Matters - HR News",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Zoom names Deepankar Tiwari as CEO under extended consulting agreement",
@@ -169,7 +189,8 @@
       "publisher": "TradingView",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

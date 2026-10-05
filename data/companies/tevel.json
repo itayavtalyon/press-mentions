@@ -1,7 +1,7 @@
 {
   "name": "Tevel",
   "last_mentioned_at": "2026-09-29T02:03:47.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Story | Hadassah Brings Pediatric Emergency Expertise to Vanuatu",
@@ -9,7 +9,8 @@
       "publisher": "Hadassah | The Women's Zionist Organization of America",
       "published_at": "2026-09-29T02:03:47.000Z",
       "verdict": "unranked",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Former Mossad official: I don't remember any warnings from Egypt or UAE",
@@ -17,7 +18,8 @@
       "publisher": "Israel National News",
       "published_at": "2026-09-28T06:49:01.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Tevel Aerobotics Technologies Revenue 2024: $11.4M ARR",
@@ -25,7 +27,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-08-10T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Mossad Should Cultivate Strategic Partners Among Europe’s Right-Wing Separatist Movements",
@@ -33,7 +36,8 @@
       "publisher": "Middle East Forum",
       "published_at": "2026-07-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "New exhibition connects people and animals",
@@ -41,7 +45,8 @@
       "publisher": "The Jerusalem Post",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

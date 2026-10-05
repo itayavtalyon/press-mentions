@@ -1,7 +1,7 @@
 {
   "name": "Boatsetter",
   "last_mentioned_at": "2026-07-16T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "I Rode a Mechanical Bull on a Floating Rodeo—and It Was Every Bit as Wild as It Sounds",
@@ -9,7 +9,8 @@
       "publisher": "Outside Magazine",
       "published_at": "2026-07-16T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Boatsetter Rodeo hits Lake Travis",
@@ -17,7 +18,8 @@
       "publisher": "FOX 7 Austin",
       "published_at": "2026-07-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

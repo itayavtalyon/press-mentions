@@ -1,7 +1,7 @@
 {
   "name": "The EVERY Company",
   "last_mentioned_at": "2026-08-21T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Rumors are swirling about 'lab-grown' eggs being sold in the US. Here's what to know",
@@ -9,7 +9,8 @@
       "publisher": "Snopes",
       "published_at": "2026-08-21T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Egg Without A Chicken: What Shoppers Need To Know",
@@ -17,7 +18,8 @@
       "publisher": "Dallas Express",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "A new protein contender emerges as whey prices surge",
@@ -25,7 +27,8 @@
       "publisher": "bakeryandsnacks.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ADM partners with The Every Company for precision-fermented egg protein scale up in US",
@@ -33,7 +36,8 @@
       "publisher": "Food Ingredients First",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ADM and The Every Company team up to scale precision-fermented egg protein",
@@ -41,7 +45,8 @@
       "publisher": "foodbev.com",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "EVERY Company’s OvoPro Starts to Scale with ADM Partnership",
@@ -49,7 +54,8 @@
       "publisher": "Nosh.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "ADM to Manufacture EVERY’s Fermented Egg Protein at Iowa Corn Complex",
@@ -57,7 +63,8 @@
       "publisher": "cultivated-x.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Every Company Taps ADM to Produce Animal-Free Egg Protein at Commercial Scale in US",
@@ -65,7 +72,8 @@
       "publisher": "Green Queen Media",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "ADM and EVERY partner to scale up egg white protein production",
@@ -73,7 +81,8 @@
       "publisher": "Feedstuffs",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Animal-free egg white production begins at an ADM plant in Iowa",
@@ -81,7 +90,8 @@
       "publisher": "FoodNavigator.com",
       "published_at": "2026-07-14T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "The Every Company CEO on cracking the scale challenge for animal-free egg protein",
@@ -89,7 +99,8 @@
       "publisher": "Food Ingredients First",
       "published_at": "2026-07-03T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

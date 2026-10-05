@@ -1,7 +1,7 @@
 {
   "name": "Ayar Labs",
   "last_mentioned_at": "2026-10-03T21:46:26.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Ayar Labs Revenue 2025: $91.6M Est. ARR, $3.8B Valuation",
@@ -9,7 +9,8 @@
       "publisher": "GetLatka",
       "published_at": "2026-09-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar, PicoJool, Polaris, Quintessent Receive VC Funding",
@@ -17,7 +18,8 @@
       "publisher": "Semiecosystem",
       "published_at": "2026-09-25T20:12:35.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs Says US Silicon Photonics Market Will Grow Ten-fold By 2035",
@@ -25,7 +27,8 @@
       "publisher": "Quantum Zeitgeist",
       "published_at": "2026-09-24T09:15:14.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Mark Wade: The $50 Billion Optical Bet That Must Precede AI's Revenue Boom",
@@ -33,7 +36,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs’ $150M Funding and 2027 Production Target",
@@ -41,7 +45,8 @@
       "publisher": "quasa.io",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs - 2026 Funding Rounds & List of Investors",
@@ -49,7 +54,8 @@
       "publisher": "Tracxn",
       "published_at": "2026-09-13T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs Raises Additional $150 Million, Bringing 2026 Funding To $650 Million, To Scale AI Co-Packaged Optics",
@@ -57,7 +63,8 @@
       "publisher": "pulse2.com",
       "published_at": "2026-09-11T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs adds $150M to its Series E at a $5B valuation",
@@ -65,7 +72,8 @@
       "publisher": "Dealroom",
       "published_at": "2026-09-11T03:52:15.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Ayar Labs expands 2026 funding to $650m",
@@ -73,7 +81,8 @@
       "publisher": "compoundsemiconductor.net",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Ayar Labs Expands 2026 Funding to $650 Million to Scale Manufacturing-Ready CPO for AI Scale-Up Beyond the Rack",
@@ -81,7 +90,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-09-10T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "AI ETF AGIX Adds Private Photonics Company Ayar Labs And KraneShares Launches Photonics ETF LUMA",
@@ -89,7 +99,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "AI ETF AGIX Adds Private Photonics Company Ayar Labs & KraneShares Launches Photonics ETF LUMA",
@@ -97,7 +108,8 @@
       "publisher": "KraneShares",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Nvidia’s NVLink Fusion Quietly Pushes Optics Inside the Rack",
@@ -105,7 +117,8 @@
       "publisher": "IEEE Spectrum",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "TSMC's PIC Capacity to Surge Over 30-Fold in Three Years, CPO Optical Engines Enter Commercial Countdown",
@@ -113,7 +126,8 @@
       "publisher": "finance.biggo.com",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

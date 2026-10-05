@@ -1,7 +1,7 @@
 {
   "name": "Freightos",
   "last_mentioned_at": "2026-10-02T11:04:54.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "China-US truce to reduce some tariffs, and likely postpone port fees - September 30, 2026 Update",
@@ -9,7 +9,8 @@
       "publisher": "Freightos",
       "published_at": "2026-09-30T18:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Freightos Limited Ordinary shares (NASDAQ: CRGO) Stock Price, News & Analysis",
@@ -17,7 +18,8 @@
       "publisher": "kalkine.ca",
       "published_at": "2026-09-29T20:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "[Freightos Weekly Update] Asia - Med rates back to pre-peak levels as Red Sea transits increase",
@@ -25,7 +27,8 @@
       "publisher": "American Journal of Transportation",
       "published_at": "2026-09-24T15:07:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Q2 2026 Earnings Call: Complete Transcript",
@@ -33,7 +36,8 @@
       "publisher": "Benzinga",
       "published_at": "2026-09-18T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Founder of cargo booking platform Freightos seeks new chairman",
@@ -41,7 +45,8 @@
       "publisher": "Transport Topics",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos founder calls for a board reset amid share price struggle (CRGO:NASDAQ)",
@@ -49,7 +54,8 @@
       "publisher": "Seeking Alpha",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Freightos Founder Pushes to Oust Chairman After Stock Slide",
@@ -57,7 +63,8 @@
       "publisher": "bloomberg.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Analysis of Ocean and Air Rates : Freightos",
@@ -65,7 +72,8 @@
       "publisher": "mhlnews.com",
       "published_at": "2026-08-25T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Targets Q4 2026 EBITDA Breakeven as Revenue Hits Record $7.7M",
@@ -73,7 +81,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-22T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos at Sidoti Micro-Cap Investor Conference: growth, breakeven focus By Investing.com",
@@ -81,7 +90,8 @@
       "publisher": "Investing.com UK",
       "published_at": "2026-08-20T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Freightos appoints Eldad as chief financial officer",
@@ -89,7 +99,8 @@
       "publisher": "Air Cargo News",
       "published_at": "2026-08-18T10:15:21.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "FREIGHTOS ($CRGO) Releases Q2 2026 Earnings",
@@ -97,7 +108,8 @@
       "publisher": "Quiver Quantitative",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos shares surge 14% as Q2 loss beats expectations",
@@ -105,7 +117,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Why is Freightos stock soaring today?",
@@ -113,7 +126,8 @@
       "publisher": "Investing.com",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "Freightos Names Yaron Eldad as Chief Financial Officer",
@@ -121,7 +135,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Limited Ordinary shares Q2 2026 Earnings Call Summary",
@@ -129,7 +144,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Q2 Earnings Call Highlights",
@@ -137,7 +153,8 @@
       "publisher": "Yahoo Finance",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Appoints Yaron Eldad as Chief Financial Officer",
@@ -145,7 +162,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-08-17T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Asia to US East Coast ocean rates rise to new high",
@@ -153,7 +171,8 @@
       "publisher": "Supply Chain Dive",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Transpac peak may stretch on even as Asia – Europe ocean cools – August 6, 2026 Update",
@@ -161,7 +180,8 @@
       "publisher": "Freightos",
       "published_at": "2026-08-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Global Freight Outlook – August 2026",
@@ -169,7 +189,8 @@
       "publisher": "Freightos",
       "published_at": "2026-08-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Freightos integrates live air cargo booking into FreightSuite’s AI-native TMS",
@@ -177,7 +198,8 @@
       "publisher": "Container News",
       "published_at": "2026-07-30T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freight rate update for July 29th – July 29, 2026 Update",
@@ -185,7 +207,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Freightos enables live air cargo booking in FreightSuite’s AI-native TMS",
@@ -193,7 +216,8 @@
       "publisher": "Air Cargo News",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Freightos Enables Live Air Cargo Booking in FreightSuite's AI-Native TMS",
@@ -201,7 +225,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Optimizing Freight Spend in Less than a Year",
@@ -209,7 +234,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-22T10:09:19.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Ocean rates ease on early peak season cooling and capacity additions - July 22, 2026 Update",
@@ -217,7 +243,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-22T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Turkish Cargo Airline Leverages Freightos for Forwarders",
@@ -225,7 +252,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-17T10:09:29.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Freightos Reports Platform KPIs for Second Quarter Exceeding Management Expectations",
@@ -233,7 +261,8 @@
       "publisher": "PR Newswire",
       "published_at": "2026-07-15T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Container rates jump another $1k/FEU – but is demand peaking? – July 8, 2026 Update",
@@ -241,7 +270,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-09T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Röhlig on Redefining Logistics with APIs",
@@ -249,7 +279,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-08T23:25:38.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Global Freight Outlook – July 2026",
@@ -257,7 +288,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-08T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Inside Crane’s Digital Transformation",
@@ -265,7 +297,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-07T11:27:26.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "China Southern Cargo Airline Uses WebCargo",
@@ -273,7 +306,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-07T08:52:15.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Skyways Group and Digitizing with APIs",
@@ -281,7 +315,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-07T08:40:51.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     },
     {
       "title": "Transpacific ocean rates fueled by early peak, frontloading",
@@ -289,7 +324,8 @@
       "publisher": "Supply Chain Dive",
       "published_at": "2026-07-07T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Unifying the Freightos Identity – ONE Freightos: Building One Company",
@@ -297,7 +333,8 @@
       "publisher": "Freightos",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": true
     }
   ]
 }

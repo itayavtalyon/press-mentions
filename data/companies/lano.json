@@ -1,7 +1,7 @@
 {
   "name": "Lano",
   "last_mentioned_at": "2026-09-26T11:30:48.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Why this huge comedy show is putting Wagga on the entertainment map",
@@ -9,7 +9,8 @@
       "publisher": "The Daily Advertiser",
       "published_at": "2026-09-26T11:30:48.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Lano & Woodley Announce ‘In Space’ 2027 Australian Tour",
@@ -17,7 +18,8 @@
       "publisher": "thenote.com.au",
       "published_at": "2026-09-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "LANO & WOODLEY – IN SPACE | NEW 2027 DATES ADDED ACROSS AUSTRALIA",
@@ -25,7 +27,8 @@
       "publisher": "Theatre Matters",
       "published_at": "2026-09-21T06:54:26.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "VIDEO: Lano Equipment Hosts engcon Demo Day in Shakopee, Minn. : CEG",
@@ -33,7 +36,8 @@
       "publisher": "Construction Equipment Guide",
       "published_at": "2026-07-28T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     },
     {
       "title": "HEIR debuts as a niche fragrance house with five original Eau de Parfums",
@@ -41,7 +45,8 @@
       "publisher": "Passionate In Marketing",
       "published_at": "2026-07-06T07:00:00.000Z",
       "verdict": "neutral",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Eko Health",
   "last_mentioned_at": "2026-08-12T07:00:00.000Z",
-  "as_of": "2026-10-04T17:11:32.864Z",
+  "as_of": "2026-10-05T07:04:02.120Z",
   "mentions": [
     {
       "title": "Human clinicians outperform AI stethoscope in diagnosing pet heart problems",
@@ -9,7 +9,8 @@
       "publisher": "Phys.org",
       "published_at": "2026-08-12T07:00:00.000Z",
       "verdict": "negative",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "FDA Breakthrough Device Aortic Stenosis Screening Market",
@@ -17,7 +18,8 @@
       "publisher": "futuremarketinsights.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "body"
+      "text_source": "body",
+      "own_site": false
     },
     {
       "title": "Watch AI stethoscope revolutionizes cardiac care: Early detection saves lives - Fox & Friends",
@@ -25,7 +27,8 @@
       "publisher": "FOX One",
       "published_at": "2026-07-21T07:00:00.000Z",
       "verdict": "positive",
-      "text_source": "title"
+      "text_source": "title",
+      "own_site": false
     }
   ]
 }
