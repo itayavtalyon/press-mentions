@@ -275,7 +275,7 @@ flowchart LR
   evaluation --> evalCopy
 ```
 
-Each JSON file has `name`, `last_mentioned_at` (the newest visible `published_at` across all stored data, or null), `as_of`, and `mentions`. The mention list is the visible mentions whose `published_at` falls in the previous complete UTC quarter at `as_of`. Each mention has `title`, `link`, `published_at`, `verdict`, and `text_source`. The "N days ago" sentence is rendered by the page, never stored. Hidden verdicts remain in `data/coverage.sqlite`. Copies use `db.backup()`. A company that failed has no file. The command still writes the rest, then exits non-zero. A file over 100 MB throws and is not written. Before the alerts copy, every email column becomes `redacted@example.com`.
+Each JSON file has `name`, `last_mentioned_at` (the newest visible `published_at` across all stored data, not counting the company's own site, or null), `as_of`, and `mentions`. The mention list is the visible mentions whose `published_at` falls in the previous complete UTC quarter at `as_of`. Each mention has `title`, `link`, `published_at`, `verdict`, `text_source`, and `own_site` (published on the company's own site, so listed but not counted in `summary.json`). The "N days ago" sentence is rendered by the page, never stored. Hidden verdicts remain in `data/coverage.sqlite`. Copies use `db.backup()`. A company that failed has no file. The command still writes the rest, then exits non-zero. A file over 100 MB throws and is not written. Before the alerts copy, every email column becomes `redacted@example.com`.
 
 ## Runtime and configuration
 

@@ -28,6 +28,7 @@ const text = (node) =>
  */
 const mention = (guid, verdict, fields = {}) => ({
   excerpt: undefined,
+  ownSite: false,
   googleUrl: `https://news.google.com/rss/articles/${guid}`,
   guid,
   publishedAt: "2026-09-01T10:00:00.000Z",
@@ -79,6 +80,23 @@ const render = (search, overrides = {}) => {
   ).document;
 };
 
+describe("company page timeline", () => {
+  it("charts counted mentions per week across the window, with a title per week", () => {
+    const document = render("window=last");
+    const columns = [...document.querySelectorAll(".timeline__chart g")];
+
+    expect(columns).toHaveLength(14);
+    expect(
+      [...document.querySelectorAll(".timeline__axis span")].map((day) =>
+        text(day),
+      ),
+    ).toEqual(["1 Jul 2026", "30 Sep 2026"]);
+    expect(text(columns[11]?.querySelector("title"))).toBe(
+      "Week of 16 Sep 2026: 1 mention (1 positive)",
+    );
+  });
+});
+
 describe("company page head and summary", () => {
   it("names the company, its aliases and descriptor, and links back with the filters", () => {
     const document = render("verdict=all");
@@ -106,7 +124,7 @@ describe("company page head and summary", () => {
       "4 mentions, 3 rated",
     );
     expect(text(document.querySelector(".summary__note"))).toBe(
-      "Counts cover the selected window. “Last mentioned” covers all collected data.",
+      "Counts cover the selected window. “Last mentioned” covers all collected data. Posts on the company’s own site are listed but not counted.",
     );
     expect(
       document.querySelector("form[data-filters]")?.getAttribute("action"),

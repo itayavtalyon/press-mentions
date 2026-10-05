@@ -1,4 +1,5 @@
 import { ownValue } from "../core/common.js";
+import { isOwnSite } from "../core/dashboard.js";
 
 import { openDatabase } from "./database.js";
 
@@ -13,7 +14,8 @@ CREATE TABLE IF NOT EXISTS companies (
   aliases TEXT NOT NULL CHECK (json_valid(aliases)),
   descriptor TEXT,
   query_terms TEXT NOT NULL CHECK (json_valid(query_terms)),
-  backfilled_at TEXT
+  backfilled_at TEXT,
+  website TEXT
 ) STRICT;
 
 CREATE TABLE IF NOT EXISTS articles (
@@ -56,7 +58,33 @@ CREATE INDEX IF NOT EXISTS company_articles_by_guid ON company_articles (guid);
  * @returns {import("better-sqlite3").Database} The open connection.
  */
 export function openCoverageStore(path) {
-  return openDatabase(path, SCHEMA);
+  const database = openDatabase(path, SCHEMA);
+  // ponytail: the one column added after the first real run. A second one earns a schema version.
+  const hasWebsite = database
+    .prepare(
+      "SELECT 1 FROM pragma_table_info('companies') WHERE name = 'website'",
+    )
+    .get();
+  if (hasWebsite === undefined) {
+    database.exec("ALTER TABLE companies ADD COLUMN website TEXT");
+  }
+  database.function(
+    "own_site",
+    { deterministic: true },
+    (companyId, website, homepage) =>
+      Number(
+        isOwnSite(String(companyId), optional(website), optional(homepage)),
+      ),
+  );
+  return database;
+}
+
+/**
+ * @param {unknown} value A SQL argument.
+ * @returns {string | undefined} The text, or undefined for NULL.
+ */
+function optional(value) {
+  return typeof value === "string" ? value : undefined;
 }
 
 /**
@@ -70,14 +98,15 @@ export function openCoverageStore(path) {
  */
 export function syncCompanies(database, companies) {
   const upsert = database.prepare(`
-    INSERT INTO companies (id, display_name, query_name, aliases, descriptor, query_terms)
-    VALUES (@id, @displayName, @queryName, @aliases, @descriptor, @queryTerms)
+    INSERT INTO companies (id, display_name, query_name, aliases, descriptor, query_terms, website)
+    VALUES (@id, @displayName, @queryName, @aliases, @descriptor, @queryTerms, @website)
     ON CONFLICT (id) DO UPDATE SET
       display_name = excluded.display_name,
       query_name = excluded.query_name,
       aliases = excluded.aliases,
       descriptor = excluded.descriptor,
-      query_terms = excluded.query_terms
+      query_terms = excluded.query_terms,
+      website = excluded.website
   `);
   database.transaction(() => {
     for (const company of companies) {

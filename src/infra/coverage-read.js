@@ -20,6 +20,7 @@ import { VISIBLE_VERDICTS } from "../core/filters.js";
  * @property {string | undefined} textSource `body` or `title`.
  * @property {string} verdict Visible verdict.
  * @property {string | undefined} excerpt Start of the extracted text, or undefined without text.
+ * @property {boolean} ownSite Published on the company's own site, so listed but not counted.
  * @typedef {object} FlaggedRow One `uncertain` row on `/review`.
  * @property {string} companyId Company slug.
  * @property {string} companyName Display name.
@@ -38,9 +39,13 @@ import { VISIBLE_VERDICTS } from "../core/filters.js";
  */
 const EXCERPT_SOURCE_CHARACTERS = 600;
 
+const OWN_SITE = "own_site(ca.company_id, c.website, a.publisher_homepage)";
+
+// Counted mentions: visible, and not from the company's own site.
 const VISIBLE_LINK = `SELECT ca.company_id, ca.verdict, a.published_at
   FROM company_articles AS ca JOIN articles AS a ON a.guid = ca.guid
-  WHERE ca.verdict IN (SELECT value FROM json_each(@visible))`;
+    JOIN companies AS c ON c.id = ca.company_id
+  WHERE ca.verdict IN (SELECT value FROM json_each(@visible)) AND NOT ${OWN_SITE}`;
 
 const COVERAGE = `SELECT c.id, c.display_name AS displayName, c.aliases, c.descriptor,
     (SELECT MAX(v.published_at) FROM (${VISIBLE_LINK}) AS v WHERE v.company_id = c.id) AS lastMentionedAt,
@@ -59,8 +64,9 @@ const COVERAGE = `SELECT c.id, c.display_name AS displayName, c.aliases, c.descr
 
 const MENTIONS = `SELECT a.guid, a.title, a.published_at AS publishedAt, a.publisher_name AS publisherName,
     a.publisher_url AS publisherUrl, a.google_url AS googleUrl, a.text_source AS textSource, ca.verdict,
-    substr(a.extracted_text, 1, @excerptCharacters) AS excerpt
+    substr(a.extracted_text, 1, @excerptCharacters) AS excerpt, ${OWN_SITE} AS ownSite
   FROM company_articles AS ca JOIN articles AS a ON a.guid = ca.guid
+    JOIN companies AS c ON c.id = ca.company_id
   WHERE ca.company_id = @id
     AND a.published_at >= @from AND a.published_at < @to
     AND ca.verdict IN (SELECT value FROM json_each(@verdicts))
@@ -207,6 +213,7 @@ function mentionFromRow(row) {
     excerpt: optionalText(row, "excerpt"),
     googleUrl: String(ownValue(row, "googleUrl")),
     guid: String(ownValue(row, "guid")),
+    ownSite: ownValue(row, "ownSite") === 1,
     publishedAt: String(ownValue(row, "publishedAt")),
     publisherName: optionalText(row, "publisherName"),
     publisherUrl: optionalText(row, "publisherUrl"),

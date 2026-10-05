@@ -6,7 +6,7 @@ import { articleLink, capitalized, chip } from "./parts.js";
 
 /**
  * Mention list (`docs/ui-design.md` §6.2): verdict sections in digest order, each mention with its link,
- * source, verdict, text source, and excerpt.
+ * source, verdict, text source, own-site tag, and excerpt.
  */
 
 /**
@@ -79,6 +79,13 @@ function mentionItem(mention, index) {
       title="Classified from the headline; no article text was extracted"
       >Headline only</span
     >`;
+  const ownSite =
+    mention.ownSite &&
+    html`<span
+      class="tag"
+      title="Published on the company's own website. Listed, but not counted in the tallies or charts"
+      >Company site</span
+    >`;
   const excerpt =
     mention.excerpt !== undefined &&
     html`<details>
@@ -91,7 +98,7 @@ function mentionItem(mention, index) {
       <p class="mention__meta">
         <span class="mention__source"
           >${publisher}${timeUtc(mention.publishedAt)}</span
-        >${chip(mention.verdict)}${headline}
+        >${chip(mention.verdict)}${headline}${ownSite}
       </p>
       ${excerpt}
     </article>

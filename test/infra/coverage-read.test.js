@@ -194,6 +194,7 @@ describe("companyMentions fields", () => {
         excerpt: "x".repeat(600),
         googleUrl: "https://news.google.com/rss/articles/full",
         guid: "full",
+        ownSite: false,
         publishedAt: "2026-08-02T00:00:00.000Z",
         publisherName: "The Ledger",
         publisherUrl: "https://ledger.example/a",

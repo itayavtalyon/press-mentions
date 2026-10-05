@@ -31,6 +31,7 @@ export function givenCompany(overrides = {}) {
     aliases: [],
     descriptor: undefined,
     queryTerms: [],
+    website: undefined,
     ...overrides,
   };
 }

@@ -173,7 +173,7 @@ Checked and left without an entry because the results are mostly the company: An
   The classifier has to reject these, using the descriptor.
 
 - **MeMed:** the four remaining items are a hospital adopting a host-response test for bacterial versus viral infection. No headline names the maker, so they are not counted as relevant.
-- **Self-published results:** CarDekho and Cyfirma return mostly articles they published themselves. They are the publisher, not the subject, so the classifier should answer `unrelated`. The fix at the source would be a `-site:` exclusion, which `src/core/query.js` does not support.
+- **Self-published results:** CarDekho and Cyfirma return mostly articles they published themselves. The dashboard now labels these "Company site" and does not count them (see `website` under Changing it). The fix at the source would be a `-site:` exclusion, which `src/core/query.js` does not support.
 - **Shifting results:** Google's results move between calls. Tailor Brands returned 0 in the sweep and 10 an hour later. A zero means no coverage was returned at that moment, not proof that none exists.
 - **Small samples:** the relevance judgments are a reading of headlines, not articles, and the samples are small.
 
@@ -184,6 +184,7 @@ Edit `overlay.json`, keyed by the exact seed line. The allowed fields are:
 - `descriptor`: one line.
 - `queryTerms`: strings, at least one of which must appear.
 - `aliases`: replaces the seed's aliases.
+- `website`: the company's own host, like `ro.co`. The dashboard labels mentions from that host "Company site" and leaves them out of the counts and "last mentioned". Without it, a publisher counts as the company's own site when its domain name equals the company id without hyphens (`harvey.ai`, `corporate.tubitv.com`). Set it when that rule misses or misfires. It reaches the store on the next feed or backfill run.
 
 Record the source and the measurement here.
 

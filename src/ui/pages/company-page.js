@@ -1,4 +1,8 @@
-import { lastMentionedDays, tally } from "../../core/dashboard.js";
+import {
+  lastMentionedDays,
+  tally,
+  weeklyCounts,
+} from "../../core/dashboard.js";
 
 import {
   filterForm,
@@ -10,7 +14,7 @@ import {
 } from "./filter-form.js";
 import { html } from "./markup.js";
 import { mentionSections } from "./mention.js";
-import { formatDay, layout } from "./page.js";
+import { formatDay, layout, plural } from "./page.js";
 import { ago, emptyState, tallyText, tones } from "./parts.js";
 import {
   subscribeBanner,
@@ -43,7 +47,8 @@ import {
  */
 
 const SUMMARY_NOTE =
-  "Counts cover the selected window. “Last mentioned” covers all collected data.";
+  "Counts cover the selected window. “Last mentioned” covers all collected data. Posts on the company’s own site are listed but not counted.";
+const COLUMN = 10;
 
 /**
  * @param {Shell} shell Shell state.
@@ -72,7 +77,7 @@ export function companyPage(shell, view) {
         ><span aria-hidden="true">←&nbsp;</span>All companies</a
       >
       <div class="company-intro">
-        ${companyHead(company)}${summary(shell, company, filters)}${action}
+        ${companyHead(company)}${summary(shell, view)}${action}
       </div>
       ${!isInvalid && subscribeDialog(company)}${problemSummary(problems)}
       ${filterForm({ action: `/companies/${company.id}`, form, problems })}
@@ -114,15 +119,15 @@ function companyHead(company) {
 
 /**
  * @param {Shell} shell Shell state.
- * @param {CompanyCoverage} company The company.
- * @param {Filters | undefined} filters The request. Without it the card shows last mentioned only.
+ * @param {CompanyView} view The company, and the request. Without filters the card shows last mentioned only.
  * @returns {Html} The summary card.
  */
-function summary(shell, company, filters) {
+function summary(shell, { company, filters, mentions }) {
   const counts = tally(company.counts);
   const window =
     filters !== undefined &&
-    html`<p class="summary__tally">
+    html`${counts.mentions > 0 && timeline(mentions, filters)}
+      <p class="summary__tally">
         <span class="tally">${tallyText(counts)}</span>${tones(counts)}
       </p>
       <p class="summary__note">${SUMMARY_NOTE}</p>`;
@@ -130,6 +135,70 @@ function summary(shell, company, filters) {
     <p class="summary__status">${lastMentioned(shell, company)}</p>
     ${window}
   </div>`;
+}
+
+/**
+ * @param {MentionRow[]} mentions Visible mentions in the window.
+ * @param {Filters} filters The valid request.
+ * @returns {Html} Counted mentions per week as stacked columns, on the window's own scale. The tone counts
+ *   below it are its legend and its text alternative.
+ */
+function timeline(mentions, filters) {
+  const weeks = weeklyCounts(mentions, filters.range);
+  const peak = Math.max(...weeks.map((week) => tally(week.counts).mentions));
+  const last = new Date(filters.range.to.getTime() - 1);
+  return html`<figure class="timeline">
+    <svg
+      class="timeline__chart"
+      viewBox="0 0 ${weeks.length * COLUMN} ${peak}"
+      preserveAspectRatio="none"
+      role="img"
+      aria-label="Counted mentions per week, ${windowPhrase(filters)}"
+    >
+      ${weeks.map((week, index) => column(week, index, peak))}
+    </svg>
+    <figcaption class="timeline__axis">
+      <span>${formatDay(filters.range.from)}</span
+      ><span>${formatDay(last)}</span>
+    </figcaption>
+  </figure>`;
+}
+
+/**
+ * @param {import("../../core/dashboard.js").WeekCounts} week One week.
+ * @param {number} index Its position.
+ * @param {number} peak The busiest week's count, the chart's height.
+ * @returns {Html} One stacked column, with a hover title.
+ */
+function column(week, index, peak) {
+  const { positive, neutral, negative, unranked } = week.counts;
+  const stack = [
+    { count: positive, verdict: "positive" },
+    { count: neutral, verdict: "neutral" },
+    { count: negative, verdict: "negative" },
+    { count: unranked, verdict: "unranked" },
+  ].filter(({ count }) => count > 0);
+  let top = peak;
+  const bars = stack.map(({ verdict, count }) => {
+    top -= count;
+    return html`<rect
+      data-verdict="${verdict}"
+      x="${index * COLUMN + 1}"
+      y="${top}"
+      width="${COLUMN - 2}"
+      height="${count}"
+    />`;
+  });
+  const total = plural(tally(week.counts).mentions, "mention", "mentions");
+  const parts = stack
+    .map(({ verdict, count }) => `${count} ${verdict}`)
+    .join(", ");
+  return html`<g>
+    <title>
+      Week of ${formatDay(week.from)}: ${total}${parts && ` (${parts})`}
+    </title>
+    ${bars}
+  </g>`;
 }
 
 /**

@@ -108,6 +108,7 @@ function writeCoverage(databasePath, now, paths) {
           published_at: row.publishedAt,
           verdict: row.verdict,
           text_source: row.textSource ?? null,
+          own_site: row.ownSite,
         })),
       });
       return {

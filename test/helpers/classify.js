@@ -35,6 +35,7 @@ export function openStore(companies) {
       id: company.id,
       queryName: company.queryName,
       queryTerms: [],
+      website: undefined,
     })),
   );
   return store;

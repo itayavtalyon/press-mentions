@@ -3,9 +3,11 @@ import { describe, expect, it } from "vitest";
 import {
   collectionStart,
   companyList,
+  isOwnSite,
   lastMentionedDays,
   parseAddress,
   tally,
+  weeklyCounts,
 } from "../../src/core/dashboard.js";
 import { parseFilters } from "../../src/core/filters.js";
 
@@ -189,5 +191,68 @@ describe("parseAddress", () => {
 
     expect(parseAddress(at254)).toEqual({ email: at254 });
     expect(parseAddress(`a${at254}`)).toEqual({ problem: "long" });
+  });
+});
+
+describe("isOwnSite", () => {
+  it.each([
+    ["harvey", undefined, "https://www.harvey.ai", true],
+    ["tubitv", undefined, "https://corporate.tubitv.com", true],
+    ["alpha-tau", undefined, "https://alphatau.com", true],
+    ["harvey", undefined, "https://harvey.co.uk", true],
+    ["ro", undefined, "https://ro.co", true],
+    ["ro", undefined, "https://news.ro", false],
+    ["harvey", undefined, "https://harveynash.com", false],
+    ["harvey", undefined, "not a url", false],
+    ["localhost", undefined, "http://localhost", false],
+    ["harvey", undefined, undefined, false],
+    ["bluecircle", "trellis.ag", "https://www.trellis.ag", true],
+    ["harvey", "trellis.ag", "https://www.harvey.ai", false],
+    ["harvey", "trellis.ag", "https://nottrellis.ag", false],
+  ])("%s, website %s, publisher %s → %s", (id, website, homepage, own) => {
+    expect(isOwnSite(id, website, homepage)).toBe(own);
+  });
+});
+
+/**
+ * @param {string} day `YYYY-MM-DD`.
+ * @param {string} verdict Visible verdict.
+ * @param {boolean} [isOwn] From the company's own site.
+ * @returns {import("../../src/core/dashboard.js").DatedMention} One mention at noon that day.
+ */
+const noonOn = (day, verdict, isOwn = false) => ({
+  ownSite: isOwn,
+  publishedAt: `${day}T12:00:00.000Z`,
+  verdict,
+});
+
+describe("weeklyCounts", () => {
+  it("buckets counted mentions by week from the window start, skipping own-site ones", () => {
+    const range = { from: utc("2026-07-01"), to: utc("2026-07-16") };
+    const weeks = weeklyCounts(
+      [
+        noonOn("2026-07-01", "positive"),
+        noonOn("2026-07-07", "negative"),
+        noonOn("2026-07-08", "unranked"),
+        noonOn("2026-07-08", "positive", true),
+        noonOn("2026-07-15", "neutral"),
+      ],
+      range,
+    );
+
+    expect(weeks).toEqual([
+      {
+        counts: { negative: 1, neutral: 0, positive: 1, unranked: 0 },
+        from: utc("2026-07-01"),
+      },
+      {
+        counts: { negative: 0, neutral: 0, positive: 0, unranked: 1 },
+        from: utc("2026-07-08"),
+      },
+      {
+        counts: { negative: 0, neutral: 1, positive: 0, unranked: 0 },
+        from: utc("2026-07-15"),
+      },
+    ]);
   });
 });

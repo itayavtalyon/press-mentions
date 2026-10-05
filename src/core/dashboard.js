@@ -18,9 +18,13 @@ import { daysSince } from "./mention-status.js";
  * @property {VerdictCounts} counts Visible mentions in the window, by verdict.
  * @typedef {{ firstBackfilledAt: string | undefined, firstPublishedAt: string | undefined }} CollectionBounds
  * @typedef {{ email: string } | { problem: "empty" | "invalid" | "long" }} AddressResult
+ * @typedef {{ publishedAt: string, verdict: string, ownSite: boolean }} DatedMention
+ * @typedef {{ from: Date, counts: VerdictCounts }} WeekCounts
  */
 
 const MAX_ADDRESS_LENGTH = 254;
+const WEEK = 7 * 24 * 60 * 60 * 1000;
+const SECOND_LEVEL = new Set(["ac", "co", "com", "gov", "net", "org"]);
 
 /**
  * Index rows: a verdict filter drops companies without such a mention, then newest last mention first,
@@ -53,6 +57,35 @@ export function tally(counts) {
 }
 
 /**
+ * Counted mentions in 7-day buckets from the window start. The last bucket may be shorter.
+ * ponytail: always weeks. A multi-year custom range gets thin columns; add month buckets if one is picked.
+ * @param {DatedMention[]} mentions Mentions in the window. Own-site ones are not counted.
+ * @param {import("./collection.js").Window} range Half-open window.
+ * @returns {WeekCounts[]} One bucket per week, oldest first.
+ */
+export function weeklyCounts(mentions, { from, to }) {
+  const length = Math.max(1, Math.ceil((to.getTime() - from.getTime()) / WEEK));
+  return Array.from({ length }, (_, index) => {
+    const start = from.getTime() + index * WEEK;
+    const week = mentions.filter((mention) => {
+      const at = Date.parse(mention.publishedAt);
+      return !mention.ownSite && at >= start && at < start + WEEK;
+    });
+    const count = (/** @type {string} */ verdict) =>
+      week.filter((mention) => mention.verdict === verdict).length;
+    return {
+      counts: {
+        negative: count("negative"),
+        neutral: count("neutral"),
+        positive: count("positive"),
+        unranked: count("unranked"),
+      },
+      from: new Date(start),
+    };
+  });
+}
+
+/**
  * @param {string} lastMentionedAt Newest visible mention, as ISO text.
  * @param {Date} now Read time.
  * @returns {number} Whole elapsed days, with a future date clamped to 0.
@@ -73,6 +106,31 @@ export function collectionStart({ firstBackfilledAt, firstPublishedAt }) {
   return firstPublishedAt === undefined
     ? undefined
     : new Date(`${firstPublishedAt.slice(0, 10)}T00:00:00.000Z`);
+}
+
+/**
+ * The own-site rule: the publisher is the company itself. With an overlay `website`, the publisher host is that
+ * host or under it. Without one, the host's registrable name equals the slug without hyphens (`harvey.ai`,
+ * `corporate.tubitv.com`, `ro.co`), so a country domain like `news.ro` is not Ro.
+ * ponytail: a short list of second-level suffixes, not the public suffix list. Add one when a miss shows up.
+ * @param {string} companyId Slug.
+ * @param {string | undefined} website Overlay host, like `ro.co`.
+ * @param {string | undefined} homepage Publisher homepage from the feed.
+ * @returns {boolean} True when the company published the article itself.
+ */
+export function isOwnSite(companyId, website, homepage) {
+  if (homepage === undefined || !URL.canParse(homepage)) {
+    return false;
+  }
+  const host = new URL(homepage).hostname;
+  if (website !== undefined) {
+    return host === website || host.endsWith(`.${website}`);
+  }
+  const labels = host.split(".");
+  const name = SECOND_LEVEL.has(labels.at(-2) ?? "")
+    ? labels.at(-3)
+    : labels.at(-2);
+  return name === companyId.replaceAll("-", "");
 }
 
 /**

@@ -3,10 +3,11 @@
  * @property {string} [descriptor] One line that tells the company apart from namesakes.
  * @property {string[]} [queryTerms] Terms that narrow the Google query.
  * @property {string[]} [aliases] Replaces the aliases parsed from the seed line.
+ * @property {string} [website] The company's own host, like `ro.co`, when the slug rule misses it.
  */
 
 /**
- * @typedef {import("./seed.js").SeedCompany & { descriptor: string | undefined, queryTerms: string[] }} Company
+ * @typedef {import("./seed.js").SeedCompany & { descriptor: string | undefined, queryTerms: string[], website: string | undefined }} Company
  */
 
 /**
@@ -51,6 +52,7 @@ export function applyOverlay(seed, overlay) {
       aliases: entry.aliases ?? company.aliases,
       descriptor: entry.descriptor,
       queryTerms: entry.queryTerms ?? [],
+      website: entry.website,
     };
   });
 }
@@ -64,7 +66,7 @@ function parseEntry(line, entry) {
   if (!isPlainObject(entry)) {
     throw new Error(`Overlay entry "${line}" must be an object`);
   }
-  const { descriptor, queryTerms, aliases, ...unknown } = entry;
+  const { descriptor, queryTerms, aliases, website, ...unknown } = entry;
   const [unknownField] = Object.keys(unknown);
   if (unknownField !== undefined) {
     throw new Error(
@@ -82,6 +84,7 @@ function parseEntry(line, entry) {
     ...(aliases !== undefined && {
       aliases: requireTextList(aliases, `${line}.aliases`),
     }),
+    ...(website !== undefined && { website: requireHost(website, line) }),
   };
 }
 
@@ -95,6 +98,26 @@ function requireText(value, field) {
     throw new Error(`Overlay field "${field}" must be a non-blank string`);
   }
   return value;
+}
+
+/**
+ * @param {unknown} value Candidate.
+ * @param {string} line Seed line, for the error message.
+ * @returns {string} The value, when it is a bare lowercase host like `ro.co`.
+ */
+function requireHost(value, line) {
+  const host = requireText(value, `${line}.website`);
+  const url = `https://${host}`;
+  if (
+    !host.includes(".") ||
+    !URL.canParse(url) ||
+    new URL(url).hostname !== host
+  ) {
+    throw new Error(
+      `Overlay field "${line}.website" must be a bare host like "ro.co": ${host}`,
+    );
+  }
+  return host;
 }
 
 /**

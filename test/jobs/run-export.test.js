@@ -94,6 +94,7 @@ describe("runExport JSON", () => {
           link: "https://daily.example/a",
           published_at: "2026-08-01T00:00:00.000Z",
           publisher: "Daily",
+          own_site: false,
           text_source: "body",
           title: "Title in-quarter",
           verdict: "positive",
@@ -143,6 +144,31 @@ describe("runExport alerts and links", () => {
     const alerts = readText(path.join(config.outDirectory, "alerts.json"));
     expect(alerts).toContain("Acme: 1 new mention");
     expect(alerts).not.toContain("person.test");
+  });
+});
+
+describe("runExport own site", () => {
+  it("lists a post on the company's own site, flagged, and leaves it out of the counts", async () => {
+    const config = givenStores();
+    const coverage = openCoverageStore(config.coverageDatabase);
+    coverage
+      .prepare("UPDATE articles SET publisher_homepage = 'https://acme.com'")
+      .run();
+    coverage.close();
+
+    await runExport(config, givenClock(NOW));
+
+    const [mention] = readJson(
+      path.join(config.outDirectory, "companies", "acme.json"),
+    ).mentions;
+    expect(mention.own_site).toBe(true);
+    const [acme] = readJson(
+      path.join(config.outDirectory, "summary.json"),
+    ).companies;
+    expect([acme.last_mentioned_at, acme.quarter_counts.positive]).toEqual([
+      null,
+      0,
+    ]);
   });
 });
 

@@ -26,6 +26,7 @@ export function givenCoverageStore() {
  * @property {string[]} [aliases] Defaults to none.
  * @property {string} [descriptor] Overlay descriptor.
  * @property {string} [backfilledAt] ISO timestamp.
+ * @property {string} [website] Overlay host.
  */
 
 /**
@@ -36,8 +37,8 @@ export function givenCoverageStore() {
 export function addCompany(database, company) {
   database
     .prepare(
-      `INSERT INTO companies (id, display_name, query_name, aliases, descriptor, query_terms, backfilled_at)
-       VALUES (@id, @displayName, @displayName, @aliases, @descriptor, '[]', @backfilledAt)`,
+      `INSERT INTO companies (id, display_name, query_name, aliases, descriptor, query_terms, backfilled_at, website)
+       VALUES (@id, @displayName, @displayName, @aliases, @descriptor, '[]', @backfilledAt, @website)`,
     )
     .run({
       aliases: JSON.stringify(company.aliases ?? []),
@@ -45,6 +46,7 @@ export function addCompany(database, company) {
       descriptor: company.descriptor,
       displayName: company.displayName ?? company.id,
       id: company.id,
+      website: company.website,
     });
 }
 
@@ -57,6 +59,7 @@ export function addCompany(database, company) {
  * @property {string} [title] Defaults to `Title <guid>`.
  * @property {string} [publisherName] Publisher name.
  * @property {string} [publisherUrl] Unwrapped URL.
+ * @property {string} [publisherHomepage] Publisher homepage from the feed.
  * @property {"body" | "title"} [textSource] Defaults to `body`.
  * @property {string} [extractedText] Article text.
  * @property {string} [rawResponse] Model reply.
@@ -71,10 +74,10 @@ export function addCompany(database, company) {
 export function addMention(database, mention) {
   database
     .prepare(
-      `INSERT INTO articles (guid, title, published_at, publisher_name, publisher_url, google_url,
-         extracted_text, text_source, stage)
-       VALUES (@guid, @title, @publishedAt, @publisherName, @publisherUrl, @googleUrl,
-         @extractedText, @textSource, 'classify')
+      `INSERT INTO articles (guid, title, published_at, publisher_name, publisher_homepage, publisher_url,
+         google_url, extracted_text, text_source, stage)
+       VALUES (@guid, @title, @publishedAt, @publisherName, @publisherHomepage, @publisherUrl,
+         @googleUrl, @extractedText, @textSource, 'classify')
        ON CONFLICT (guid) DO NOTHING`,
     )
     .run({
@@ -82,6 +85,7 @@ export function addMention(database, mention) {
       googleUrl: `https://news.google.com/rss/articles/${mention.guid}`,
       guid: mention.guid,
       publishedAt: mention.publishedAt,
+      publisherHomepage: mention.publisherHomepage,
       publisherName: mention.publisherName,
       publisherUrl: mention.publisherUrl,
       textSource: mention.textSource ?? "body",

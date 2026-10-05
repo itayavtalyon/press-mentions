@@ -224,8 +224,40 @@ function coverageCell(row) {
   return counts.mentions === 0
     ? html`<span class="muted">No mentions in this window</span>`
     : html`<div class="coverage">
-        <span class="tally">${tallyText(counts)}</span>${tones(counts)}
+        <span class="tally">${tallyText(counts)}</span
+        >${tones(counts)}${toneBar(counts)}
       </div>`;
+}
+
+/**
+ * @param {import("../../core/dashboard.js").Tally} tally Window tally.
+ * @returns {Html | false} The share of rated tone as one bar, or nothing when no mention is rated. The
+ *   tone counts beside it carry the meaning, so it is hidden from screen readers.
+ */
+function toneBar({ positive, neutral, negative, rated }) {
+  return (
+    rated > 0 &&
+    html`<svg
+      class="tone-bar"
+      viewBox="0 0 ${rated} 1"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      <rect data-verdict="positive" width="${positive}" height="1" />
+      <rect
+        data-verdict="neutral"
+        x="${positive}"
+        width="${neutral}"
+        height="1"
+      />
+      <rect
+        data-verdict="negative"
+        x="${positive + neutral}"
+        width="${negative}"
+        height="1"
+      />
+    </svg>`
+  );
 }
 
 /**

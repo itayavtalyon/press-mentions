@@ -188,6 +188,19 @@ describe("index page coverage cells", () => {
       ),
     ).toBe("No mentions in this window");
   });
+
+  it("draws the rated tone share as a bar, and none without a rated mention", () => {
+    const bars = render("").querySelectorAll(".tone-bar");
+    const rects = [...(bars[0]?.querySelectorAll("rect") ?? [])];
+
+    expect(bars).toHaveLength(1);
+    expect(bars[0]?.getAttribute("viewBox")).toBe("0 0 11 1");
+    expect(rects.map((rect) => rect.getAttribute("width"))).toEqual([
+      "6",
+      "2",
+      "3",
+    ]);
+  });
 });
 
 describe("index page states", () => {

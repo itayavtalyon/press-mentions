@@ -30,6 +30,7 @@ const text = (node) =>
  */
 const mention = (guid, verdict, fields = {}) => ({
   excerpt: undefined,
+  ownSite: false,
   googleUrl: `https://news.google.com/rss/articles/${guid}`,
   guid,
   publishedAt: "2026-09-01T10:00:00.000Z",
@@ -47,6 +48,23 @@ const MENTIONS = [
   mention("p2", "positive"),
   mention("u1", "unranked", { textSource: "title" }),
 ];
+
+describe("mentionSections own site", () => {
+  it("tags a mention from the company's own site, and only that one", () => {
+    const document = dom(
+      mentionSections([
+        mention("own", "positive", { ownSite: true }),
+        mention("press", "positive"),
+      ]),
+    );
+
+    expect(
+      [...document.querySelectorAll(".mention__meta")].map((meta) =>
+        text(meta.querySelector(".tag")),
+      ),
+    ).toEqual(["Company site", ""]);
+  });
+});
 
 describe("mentionSections", () => {
   it("groups by verdict in digest order, keeps newest first, and omits empty sections", () => {

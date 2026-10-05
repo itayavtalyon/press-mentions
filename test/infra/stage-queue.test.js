@@ -26,6 +26,7 @@ const HARVEY = {
   id: "harvey",
   queryName: "Harvey",
   queryTerms: [],
+  website: undefined,
 };
 
 /**

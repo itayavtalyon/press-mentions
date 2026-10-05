@@ -74,6 +74,28 @@ describe("parseOverlay rejects", () => {
   });
 });
 
+describe("parseOverlay website", () => {
+  it.each(["https://harvey.ai", "harvey", "Harvey.AI"])(
+    "rejects %s, which is not a bare lowercase host",
+    (website) => {
+      expect(() => parseOverlay({ Harvey: { website } })).toThrow(
+        'Overlay field "Harvey.website" must be a bare host like "ro.co"',
+      );
+    },
+  );
+});
+
+describe("applyOverlay website", () => {
+  it("adds the website from an entry", () => {
+    const [harvey] = applyOverlay(
+      givenSeed(),
+      parseOverlay({ Harvey: { website: "harvey.ai" } }),
+    );
+
+    expect(harvey?.website).toBe("harvey.ai");
+  });
+});
+
 describe("applyOverlay", () => {
   it("leaves a company without an entry with its seed aliases, no descriptor, and no query terms", () => {
     const [, ludeo] = applyOverlay(givenSeed(), new Map());
@@ -85,6 +107,7 @@ describe("applyOverlay", () => {
       aliases: ["Edge"],
       descriptor: undefined,
       queryTerms: [],
+      website: undefined,
     });
   });
 

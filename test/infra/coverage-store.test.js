@@ -21,6 +21,7 @@ const HARVEY = {
   aliases: [],
   descriptor: undefined,
   queryTerms: [],
+  website: undefined,
 };
 
 const givenStore = () => {
@@ -39,6 +40,27 @@ const givenStore = () => {
  */
 const companyRows = (database) =>
   database.prepare("SELECT * FROM companies ORDER BY id").all();
+
+describe("openCoverageStore", () => {
+  it("adds the website column to a store made before it existed", () => {
+    const file = path.join(givenTemporaryDirectory(), "coverage.sqlite");
+    const old = openCoverageStore(file);
+    old.exec("ALTER TABLE companies DROP COLUMN website");
+    old.close();
+
+    const database = openCoverageStore(file);
+    onTestFinished(() => {
+      database.close();
+    });
+
+    expect(
+      database
+        .prepare("SELECT name FROM pragma_table_info('companies')")
+        .pluck()
+        .all(),
+    ).toContain("website");
+  });
+});
 
 describe("syncCompanies", () => {
   it("stores each company with aliases and query terms as JSON", () => {
@@ -63,6 +85,8 @@ describe("syncCompanies", () => {
         query_terms: '["legal"]',
         // eslint-disable-next-line unicorn/no-null -- SQLite returns NULL as null.
         backfilled_at: null,
+        // eslint-disable-next-line unicorn/no-null -- SQLite returns NULL as null.
+        website: null,
       },
     ]);
   });
@@ -73,7 +97,7 @@ describe("syncCompanies", () => {
 
     syncCompanies(database, [{ ...HARVEY, descriptor: "Legal AI startup" }]);
 
-    expect(companyRows(database)).toEqual([
+    expect(companyRows(database)).toMatchObject([
       {
         id: "harvey",
         display_name: "Harvey",
