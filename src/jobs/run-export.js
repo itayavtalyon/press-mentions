@@ -178,8 +178,9 @@ function copyStore(source, target, maxBytes, scrub = () => {}) {
     copy.transaction(() => {
       scrub(copy);
     });
+    // The copy stays in WAL mode, as the server opens it. A DELETE-mode file would be rewritten to WAL the
+    // first time a reviewer browses it, which dirties the checkout. A clean close leaves no -wal file.
     copy.exec("VACUUM");
-    copy.exec("PRAGMA journal_mode = DELETE");
   } finally {
     copy.close();
   }

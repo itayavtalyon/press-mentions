@@ -206,9 +206,10 @@ describe("runExport copies", () => {
       "redacted@example.com",
       "To: redacted@example.com\nAcme: 1 new mention",
     ]);
-    expect(
-      readFileSync(path.join(sqlite, "coverage.sqlite")).includes("pk.secret"),
-    ).toBe(false);
+    const coverageCopy = readFileSync(path.join(sqlite, "coverage.sqlite"));
+    expect(coverageCopy.includes("pk.secret")).toBe(false);
+    // Header bytes 18 and 19 are 2 in WAL mode, so browsing the copy never rewrites it.
+    expect([coverageCopy[18], coverageCopy[19]]).toEqual([2, 2]);
     const live = new Database(config.alertsDatabase);
     expect(
       live.prepare("SELECT COUNT(*) FROM subscriptions").pluck().get(),
